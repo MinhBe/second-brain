@@ -1,0 +1,19 @@
+{
+  "channel_url": "https://www.youtube.com/@vstepb1b2ms.maihien80/videos",
+  "selected_videos": 40,
+  "processed_this_run": 0,
+  "downloaded_videos": 0,
+  "skipped_no_caption": 0,
+  "blocked": 1,
+  "errors": 0,
+  "pending": 39,
+  "preferred_languages": [
+    "en",
+    "vi",
+    "en-orig",
+    "vi-orig"
+  ],
+  "resume_enabled": true,
+  "preflight_status": "blocked",
+  "preflight_detail": "yt-dlp=ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests"
+}

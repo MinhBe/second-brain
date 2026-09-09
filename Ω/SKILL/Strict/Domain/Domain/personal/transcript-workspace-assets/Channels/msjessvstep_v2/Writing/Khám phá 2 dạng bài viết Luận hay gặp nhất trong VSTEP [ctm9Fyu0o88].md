@@ -1,0 +1,85 @@
+# Khám phá 2 dạng bài viết Luận hay gặp nhất trong VSTEP
+
+- Video ID: `ctm9Fyu0o88`
+- URL: https://www.youtube.com/watch?v=ctm9Fyu0o88
+- Category: `Writing`
+- Caption source: `ffmpeg-whisper:ggml-base`
+- Caption language: `vi`
+- Downloaded at: `2026-07-28T22:22:00+00:00`
+
+## Transcript
+
+Điên Gia S.O trong ra bài luật, S.A của Kết Năng Mùa.
+và tên của VCEF thì có những giảm bài nạc cũng thế야.
+Chào các bạn, trong clip em ra chị sẻ các bạn về các giạng bài cụ thể của mình
+Bài thi S.A. Bài luận của Bí Sép nhạc.
+Như các bạn biết...
+Nếu các bạn đã nhìn thấy những video hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn.
+có 2 phần, là chỉ 1 phần 1 phần thưa và 2 phần thay bây giờ
+và hôm nay chúng ta chỉ nói với phần biên lộn rồi nhé
+phần biên lộn thật ra hiểu đơn giác
+Hẹn gặp những video hấp dẫn
+Hẹn gặp những video hấp dẫn
+Đói chân các dạng đầu tiên có tên gọi là "Discation" tên là thảo luật và dạng tử thách.
+Điện gọi là opinion, tức là nơi quan điện. Chị rạy một cái bí tìm.
+Đi thật để bọn người ta hiểu ngay đầu thế nào ở đây sát chân và thế nào ở pên này nhé.
+Mình sẽ con gỗ một cái giống nhau sau này.
+Chỉ khác nhau đúng ở giao cơ của nó. Chính cái cơ của nó sẽ ở giao bộ mình đi.
+Đau sửa làm bà đi sát chân và đau sửa làm bà op hình này nhé.
+Cô giống nhau của đại là chính là công của chủ đê là rất là bị.
+Này, bây giờ lạc, some people say that setting abroad is good.
+Một số người nó rằng được những hoàn giữa đó
+Xong vi pô sây đã ổn.
+Để không thấy sĩ nặng gất một số người nó nó nó không đó. Bạn đấy, đều điểm chúc.
+Các bạn có vụ cả hai cái đề này, tuy nhiên, cơ vụ của hai đề sẽ rất nằm như ça.
+Để không biết, tôi sẽ nói chuyện với anh.
+và những vẻ thật của các bạn đã nhé.
+Hãy thảo luận về lợi ích và bất lợi của việc đi do ác.
+Bà đây thứ 2 là chính là "What do you think?"
+Vậy là cả 2 đêm nào.
+Thì đều có 1 điểm trong là họ sẽ nêu ra 2 con điểm.
+1 con điểm là
+và hả để chẳng được đi dọc và mất có niệm chê. Và hả để chẳng được không có đâu.
+Một đề sân là bắt lại tảo lợi bên lợi đi vàng đề nó giả lãu quá đôi.
+và các bạn đã con chữ xếp xếp xếp xếp xếp xếp xếp.
+và đau ra đề đếp tên là bác sức là thảo luận. Và đau ra đềm.
+Nếu có này có mình nhạc, thì rất là giọc giá.
+Đó chính là kênh đấu tin, đó chính là tên tảo luận tất cả.
+và đường dân của các bạn đã tìm được đường dân của các bạn.
+Thế là các bạn sẽ phải tham lỗi bếc cá lỗi, bà, hướng lỗi của bếc niên súng.
+Tức là mình sẽ với thay thân bài, một thân bài mình sẽ kênh biệt đi...
+Để không biết hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn.
+Chúng là bởi giờ mình sẽ không nè qua này của mình và mình cũng không được nguyên với chúng ta.
+Được rồi, bắt đầu vào cái bây giờ, nó rất là khách quan như vậy.
+Một phiên là mình sẽ nói về điểm jay và một phiên mình sẽ nói về điểm can gov
+Đi dọc, tuy nhiên đối với ờ phía niên, tức là bạn nên quán để tìm.
+Để không nhé, và nếu quan điện, bây giờ không bao giờ chung lập. Thế này phần tìm.
+và các bạn có thể nhìn thấy những video hãy subscribe cho kênh Ghiền Mô Chèn.
+Thưa qua các niềm của em là chỉ là em đồng ý là nó tốt em đồng ý nó không
+Để không biết là chi tập trung vào chút và chút và chơi, đừng bắt đầu.
+Thế nhé, phên giả sử, là nối về oplini em em nó giận là theo đô.
+Còn đây mà tôi sẽ lại đi đi xong tốt các bạn. Đi khi đẹp thân bạc đi.
+Nguyễn sẽ bánh với này đoạn, nhưng một đoạn một lẽ sẽ kém bằng ý một và đoạn hãy đoạn.
+Mình vẫn khê nhưng mà khê mằng ý thứ ha.
+Vậy nên đó sẽ là điểm pháp biệt.
+và những người bạn sẽ nhớ những video hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn.
+Một cái câu bảo các bạn đã hiểu nhé. Và khi mà đi học ra đây...
+Xin chào tìm, S.A tại Bí Sạp Easy. Chị dạy các bạn đúng hai tử.
+và các bạn chỉ cần 2 trời tôn, và mình sẽ hoàn tận thành công lực và essay nhé.
+Đầu tiên nó sẽ nghe cấu chút cùng với sHP có mưa.
+Một thân kết như thế nào và cây thứ hai rồi chính là
+như có
+bây giờ mình sẽ tham mừng cho cái gì cũng nghe tham nhau rồi, rất khóa rồi.
+Đó xin lại.
+Cái khung, nhưng phần thân mở phần quan trọng của phần thân chính là phần phần này.
+Đừng có hình rất gió, thử nhất là em có hiểu, dạo và tập lịch không? Đây là óc...
+Nếu đi đến đến sát trần, thứ 2 đỏ dưới là mình đã hiểu đúng rồi thì mình có...
+Để nhớ tạm ơn các bạn, thì đại chín là tên tên.
+Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+Còn những chuẩn rễ mít đi hay gặp mà các bạn sẽ chân, các bạn sẽ chân.
+Các bạn sẽ chia dưới cho điểm hay gặp đế nhé
+Đó rất là nhìn gì mà chịu muốn chứ
+Chuyện sẻ trong clip này, hẹn gặp lại các bạn thạc hoặc chín phủ pizzer tại vô xíu
+Đi nào, easy!
+Đi nào?
+Đi nào?
