@@ -1,0 +1,33 @@
+{
+  "failClosed": true,
+  "showStartupSummary": true,
+  "fallbackOrder": [
+    "openai-codex",
+    "xai",
+    "github-copilot",
+    "google",
+    "opencode"
+  ],
+  "providers": {
+    "openai-codex": {
+      "mode": "allow",
+      "billing": "subscription"
+    },
+    "xai": {
+      "mode": "allow",
+      "billing": "subscription"
+    },
+    "github-copilot": {
+      "mode": "allow",
+      "billing": "subscription"
+    },
+    "google": {
+      "mode": "allow",
+      "billing": "free-tier-unverified"
+    },
+    "opencode": {
+      "mode": "free-only",
+      "billing": "api"
+    }
+  }
+}
