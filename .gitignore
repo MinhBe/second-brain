@@ -1,0 +1,36 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+!.env.sample
+auth.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies, generated files, and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.pytest_cache/
+.mypy_cache/
+.cache/
+coverage/
+*.log
+
+# Local Obsidian state
+.obsidian/workspace*.json
+.obsidian/cache/
+.trash/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
