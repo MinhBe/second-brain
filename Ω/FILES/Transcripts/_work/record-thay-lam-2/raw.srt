@@ -1,0 +1,979 @@
+1
+00:00:00,570 --> 00:00:09,240
+Đây đấy, em đang làm nó đang hơi không kiểm soát được ạ
+
+2
+00:00:10,740 --> 00:00:14,200
+Thì đề tài của em là em sẽ cố gắng sử dụng GAN trong
+
+3
+00:00:16,560 --> 00:00:18,060
+Tên của anh
+
+4
+00:00:18,060 --> 00:00:23,100
+À vâng, em có, em viết tiếng Anh, quên chưa đổi lại
+
+5
+00:00:23,100 --> 00:00:29,060
+Thì em dùng GAN để tấn công SQL
+
+6
+00:00:32,820 --> 00:00:39,180
+bài toán thì hiện tại là dữ liệu thì sẽ hầu hết sẽ là các dữ liệu của người dùng rất bình thường
+
+7
+00:00:39,180 --> 00:00:44,680
+đôi lúc mới có dữ liệu tấn công thì tỷ lệ sẽ rơi khoảng từ 100 trên 1 thì tới 1.000 trên 1
+
+8
+00:00:45,100 --> 00:00:50,000
+thì theo phương pháp bình thường thì mình sẽ chỉ đơn giản là lọc dữ liệu rồi chuyển nó thành vector
+
+9
+00:00:50,000 --> 00:00:58,050
+có thể dùng MOT để kiểu định dạng lại thì lúc này mình sẽ dùng GAN bởi vì GAN nó có thể học
+
+10
+00:00:58,480 --> 00:01:06,180
+Còn cái thằng kia nó chỉ đơn giản nội sinh, nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+
+11
+00:01:06,180 --> 00:01:12,100
+Nó chỉ học nội sinh thôi nhưng nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+
+12
+00:01:12,930 --> 00:01:16,730
+Thế em mới đề xuất ra, thì đây là mô hình của em ạ
+
+13
+00:01:16,730 --> 00:01:23,140
+Thì đầu tiên là em sẽ lấy dữ liệu, lấy dữ liệu trên Kaggle và một số cái Datap
+
+14
+00:01:24,030 --> 00:01:29,110
+lấy thêm dữ liệu của các cái CVE, nghĩa là người ta ghi nhận những cái tấn công
+
+15
+00:01:33,570 --> 00:01:38,430
+dữ liệu thì em lấy, thì em cũng mới chỉ lấy khoảng 30.000
+
+16
+00:01:38,430 --> 00:01:40,110
+bởi vì là dữ liệu tấn công thực tế
+
+17
+00:01:40,110 --> 00:01:45,480
+thì khi mà em làm thì em thấy là hầu hết là nó chỉ là noise
+
+18
+00:01:45,480 --> 00:01:48,540
+nghĩa là nó chỉ có khả năng tấn công
+
+19
+00:01:48,540 --> 00:01:52,580
+lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có
+
+20
+00:01:52,580 --> 00:01:55,590
+nó khá là ít, này em mới nhận ra
+
+21
+00:01:55,590 --> 00:01:58,860
+còn tiếp theo là
+
+22
+00:01:58,860 --> 00:02:01,440
+trong mô hình nó sẽ có 2 thành phần
+
+23
+00:02:01,440 --> 00:02:05,690
+đầu tiên là thành phần Generate
+
+24
+00:02:05,690 --> 00:02:08,510
+và thành phần Qua lịa và thành phần Quy tích
+
+25
+00:02:08,510 --> 00:02:12,270
+thì em có thêm vào là
+
+26
+00:02:12,270 --> 00:02:15,300
+trong này sẽ có thêm
+
+27
+00:02:15,300 --> 00:02:23,060
+trong thành phần này em sẽ có thêm
+
+28
+00:02:23,060 --> 00:02:25,060
+cái Mutation
+
+29
+00:02:25,060 --> 00:02:30,200
+Criticization nghĩa là em sẽ cho nó biết định nghĩa cho cả hai thằng
+
+30
+00:02:31,320 --> 00:02:32,140
+Gây nhiễu của nó
+
+31
+00:02:33,840 --> 00:02:37,100
+Cái này là em cũng mới tìm hiểu
+
+32
+00:02:37,100 --> 00:02:40,420
+Thì em đang hiểu là em sẽ cho nó biết là
+
+33
+00:02:40,420 --> 00:02:44,880
+Bây giờ SQL injection thì nó sẽ phải có những điều kiện tối thiểu là gì
+
+34
+00:02:44,880 --> 00:02:47,140
+Em cho cả hai thằng nó học luôn
+
+35
+00:02:47,980 --> 00:02:50,240
+Còn nếu mà làm theo quyền bình thường thì nó đang hơi loạn
+
+36
+00:02:50,240 --> 00:02:54,440
+Sau khi mà Critic thành công xong
+
+37
+00:02:54,440 --> 00:03:00,560
+sau đó em sẽ có thêm một lớp để trách nữa thì nó sẽ gồm 3 cái đầu tiên là kiểm tra xem có phải là
+
+38
+00:03:00,560 --> 00:03:07,920
+SQL không ạ là cái L1 tiếp theo là sẽ kiểm tra xem là khả năng injection của nó nghĩa là xem là thực
+
+39
+00:03:07,920 --> 00:03:14,660
+tế nó có khả năng tấn công không ạ Hiện tại là em mới chỉ cho quét qua bộ thư viện OpenSource ở trên
+
+40
+00:03:14,660 --> 00:03:21,930
+mạng rồi ạ còn cái số 3 là em sẽ quét xem là độ đa dạng xem là nó có thật sự đa dạng nghe nó có thật
+
+41
+00:03:21,930 --> 00:03:28,880
+thật sự hơn được thay thế được em thay được thằng small không ạ thì trong tương lai thì em sẽ thay
+
+42
+00:03:28,880 --> 00:03:35,980
+thế cái thằng l2 bằng cách là em cho tấn công thực tế trên các tương lửa thông dụng ạ và cái cuối
+
+43
+00:03:35,980 --> 00:03:46,720
+cùng là các cái thước đo để xem là mô hình của em đạt những giá trị nào thì em cũng vận thì đây là
+
+44
+00:03:46,720 --> 00:03:53,320
+kết quả thì nếu như mà tỷ lệ mà rất rất cân bằng như kiểu 500 trên 1 ạ cái cổ ngoài cùng ạ thì là
+
+45
+00:03:53,320 --> 00:04:03,080
+là nó thì cái mô hình sẽ gan nó sẽ hơn được cái phương pháp cơ bản là 42 phần trăm nhưng mà càng
+
+46
+00:04:03,080 --> 00:04:11,050
+lên cao thì nếu mà tỷ lệ càng thấp thì thằng mốt nó sẽ thắng được thằng gan thì tỷ lệ đem chọn là
+
+47
+00:04:11,050 --> 00:04:17,490
+100 100 trên một là tỷ em cho rằng tỷ lệ mất cân bằng đủ để mình có thể dùng phương pháp ra thì
+
+48
+00:04:20,230 --> 00:04:26,850
+Ở hình bên phải, em cũng thử chia ra 4 trường hợp
+
+49
+00:04:26,850 --> 00:04:29,550
+Nghĩa là trong tấn công SQL sẽ có 4 trường hợp
+
+50
+00:04:29,550 --> 00:04:33,390
+2 trường hợp đầu tiên là Boolean và Error
+
+51
+00:04:33,570 --> 00:04:38,890
+Thì cái này dựa trên phản hồi của máy chủ
+
+52
+00:04:38,890 --> 00:04:41,390
+Nghĩa là nó không thực sự tấn công
+
+53
+00:04:41,390 --> 00:04:43,950
+Nó sẽ đợi xem phản hồi máy chủ là gì
+
+54
+00:04:43,950 --> 00:04:49,180
+Và từ đó họ sẽ mường tượng xem hệ thống của mô hình là như nào
+
+55
+00:04:49,180 --> 00:04:54,460
+Thì nên là 2 cái đầu là nó sẽ không có đặc biệt
+
+56
+00:04:54,460 --> 00:04:57,300
+Bởi vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi ạ
+
+57
+00:04:57,300 --> 00:05:02,830
+Nhưng mà 2 cái cuối cùng là sẽ cố gắng tấn công vào cơ sở dữ liệu hoặc là máy chủ ạ
+
+58
+00:05:02,830 --> 00:05:06,270
+Thì khi này thì nó mới thật sự có khác biệt ạ
+
+59
+00:05:06,270 --> 00:05:13,310
+Thì ở đây là mô hình GAN mà khi tấn công Time Experience Action thì là hơn được 11%
+
+60
+00:05:13,310 --> 00:05:17,090
+Và nếu mà tấn công Union Bay thì sẽ là 7% ạ
+
+61
+00:05:17,090 --> 00:05:28,180
+Thì đây là lược đồ Training Curve của em ạ
+
+62
+00:05:28,740 --> 00:05:34,740
+Thì khi mà em Training khoảng 50 Epoch thì nó sẽ chững lại ạ
+
+63
+00:05:35,170 --> 00:05:40,620
+Thì ở đây thì là ở mô hình dưới cùng cái số 3 ạ
+
+64
+00:05:40,620 --> 00:05:47,080
+Thì là cái đầu tiên thì là khi mà đạt tới 50 Epoch
+
+65
+00:05:47,080 --> 00:05:54,510
+Thì là từ về sau em sẽ chỉ tạo ra S-Conjection chứ không còn tạo nhiều nữa ạ
+
+66
+00:05:54,510 --> 00:05:58,910
+Nhưng mà còn diversity thì là em đang không để kéo lên trên 0.6
+
+67
+00:05:58,910 --> 00:06:08,050
+Nghĩa là nó cũng không để sinh ra được cái dữ liệu SQL Action mà nó thật sự nằm ngoài
+
+68
+00:06:09,700 --> 00:06:13,600
+Nó thật sự nằm ngoài, nghĩa là nó có đem ra sự khác biệt
+
+69
+00:06:13,600 --> 00:06:16,120
+Khác hẳn so với cái baseline bình thường của em
+
+70
+00:06:16,120 --> 00:06:19,180
+Thì đây là cái vấn đề lớn nhất mà hiện tại em đã tạo lại
+
+71
+00:06:19,180 --> 00:06:21,950
+Nghĩa là dùng GAN nhưng mà không đáng kể
+
+72
+00:06:21,950 --> 00:06:29,930
+Nghĩa là nếu mà chỉ đơn giản là tạo ra khoảng 0.5 thì có thể vừa dùng SMODE được nó cũng không tạo ra khác biệt lớn
+
+73
+00:06:29,930 --> 00:06:34,300
+Đây là cái em đang thiếu định hướng nhất ạ
+
+74
+00:06:35,470 --> 00:06:38,480
+Thiếu định hướng cái gì?
+
+75
+00:06:38,700 --> 00:06:39,140
+Dạ
+
+76
+00:06:39,140 --> 00:06:40,300
+Thiếu định hướng cái gì?
+
+77
+00:06:40,580 --> 00:06:48,140
+Nghĩa là về độ đa dạng ạ, em đang muốn sử dụng GAN để sinh ra cái dữ liệu tấn công nó đa dạng ạ
+
+78
+00:06:48,140 --> 00:06:51,060
+Còn nếu mà nó chỉ rơi vào khoảng
+
+79
+00:06:51,060 --> 00:06:52,840
+Quality của em nó chỉ 0.5
+
+80
+00:06:53,320 --> 00:06:54,960
+Thì chứng tỏ là dữ liệu em
+
+81
+00:06:54,960 --> 00:06:56,700
+Nó cũng không thật sự quá đa dạng
+
+82
+00:06:56,700 --> 00:06:58,500
+Nó cũng chỉ đơn giản là ghép đi ghép lại
+
+83
+00:06:58,500 --> 00:07:00,140
+Cái string nó không học được cái mới
+
+84
+00:07:00,140 --> 00:07:03,010
+Đây là vấn đề lớn nhất
+
+85
+00:07:03,010 --> 00:07:04,710
+Mà em đang khá lo lắng
+
+86
+00:07:05,170 --> 00:07:06,390
+Vẫn như em vẫn đang tìm hiểu
+
+87
+00:07:09,440 --> 00:07:10,320
+Còn lại là
+
+88
+00:07:10,320 --> 00:07:12,980
+Hai cái còn lại thì là đầu tiên là
+
+89
+00:07:12,980 --> 00:07:15,600
+Có phải là dữ liệu SQL không
+
+90
+00:07:16,100 --> 00:07:17,720
+Hoặc là có phải tấn công không
+
+91
+00:07:17,720 --> 00:07:20,260
+Thì nó trên 0.9
+
+92
+00:07:20,260 --> 00:07:22,080
+thì nó cũng có thể chấp nhận được
+
+93
+00:07:22,080 --> 00:07:27,660
+thế thôi thì?
+
+94
+00:07:28,350 --> 00:07:29,890
+còn một vấn đề nữa
+
+95
+00:07:31,320 --> 00:07:32,040
+đây ạ
+
+96
+00:07:32,040 --> 00:07:34,540
+thì là sau khi mà trend xong
+
+97
+00:07:34,540 --> 00:07:36,720
+thì là tất cả các M1 của em
+
+98
+00:07:36,720 --> 00:07:39,260
+đều ra là 0,99%
+
+99
+00:07:39,260 --> 00:07:40,940
+nghĩa là em đang sợ
+
+100
+00:07:40,940 --> 00:07:42,600
+là nó đang bị overfit và đang
+
+101
+00:07:42,600 --> 00:07:44,440
+không sinh ra sự khác biệt
+
+102
+00:07:44,860 --> 00:07:46,820
+nghĩa là kể cả em có dùng phương án cũ
+
+103
+00:07:46,820 --> 00:07:48,620
+hay là phương án gan
+
+104
+00:07:48,620 --> 00:07:49,740
+hay là gì nữa thì
+
+105
+00:07:49,740 --> 00:07:55,050
+hello, xin chào trưởng
+
+106
+00:09:10,180 --> 00:09:21,540
+Đây là các chỉ số Matrix thì là cả 4 cái kích bản thì nó không có sự khác biệt ạ và nó thường đạt trên chỉ 9% ạ.
+
+107
+00:09:21,580 --> 00:09:24,500
+Đây là một vấn đề mà em tìm phương án giải quyết.
+
+108
+00:09:25,080 --> 00:09:39,100
+Hiện tại là phương án giải quyết mà em đang tìm hiểu thì chỉ có là em sẽ sử dụng thay vì em sẽ sử dụng thêm cả cái top k neutral code để có thể tăng độ đa dạng
+
+109
+00:09:39,100 --> 00:09:42,180
+Thì em đang mong là nó có thể đem ra sự khác biệt
+
+110
+00:09:42,180 --> 00:09:46,320
+Thì đấy là toàn bộ phần báo cáo của em
+
+111
+00:09:46,320 --> 00:09:49,880
+Bây giờ như thế này nhé, em phải chuẩn bị lại cái slide này
+
+112
+00:09:51,500 --> 00:09:56,230
+Chuẩn bị lại cái slide này và làm rõ mình như thế này
+
+113
+00:09:56,230 --> 00:09:59,880
+Thứ nhất là cái bài toán, em giải quyết nó là gì, đúng
+
+114
+00:10:02,590 --> 00:10:04,030
+Bài toán em giải quyết là gì?
+
+115
+00:10:04,550 --> 00:10:14,860
+Bài toán của em là dùng GAN để phát hiện hay để sinh dữ liệu để hỗ trợ quá trình phát hiện SQL Injection
+
+116
+00:10:14,860 --> 00:10:16,380
+Đúng không?
+
+117
+00:10:17,650 --> 00:10:26,720
+Nếu mà mình xem ở đây thì mục tiêu của em đề ra là phân tích thực trạng của vấn đề của nó nhé
+
+118
+00:10:27,320 --> 00:10:31,200
+Hình cứu phân tích các kỹ thuật phát hiện vòng trống SQL Injection không cần nói nữa nhé
+
+119
+00:10:31,200 --> 00:10:34,960
+để xuất mô hình giải pháp tổng thể nâng cao hiệu quả phát hiện
+
+120
+00:10:38,610 --> 00:10:46,270
+Trong đó nhấn mạnh việc ứng dụng mô hình xin dữ liệu để bổ sung dữ liệu tấn công
+
+121
+00:10:46,270 --> 00:10:51,980
+Nhưng trọng tâm của em là vẫn phải có một mô hình phát hiện tấn công
+
+122
+00:10:57,000 --> 00:11:03,410
+Sau đó mình chỉ ra với dữ liệu nó như thế này
+
+123
+00:11:03,410 --> 00:11:08,640
+Đặc biệt là mức cân bằng thì người ta có thể dùng SMOTE đúng không?
+
+124
+00:11:09,380 --> 00:11:12,300
+Nhưng thay vì SMOTE thì tôi dùng GAN đúng không?
+
+125
+00:11:13,870 --> 00:11:15,450
+Đấy cái logic của mình nó chỗ đấy đúng không?
+
+126
+00:11:16,650 --> 00:11:22,660
+Như vậy là em chạy được GAN nên em rất phải so sánh với SMOTE đúng không?
+
+127
+00:11:22,980 --> 00:11:27,540
+Em xin em hỏi, nghĩa là bây giờ em có cần kiểu đưa ra tỷ lệ
+
+128
+00:11:27,540 --> 00:11:32,360
+ví dụ như là 100 trên 1 hoặc là 80 trên 1 thì mới nên dùng GAN hoặc mới nên dùng SMOTE không ạ?
+
+129
+00:11:32,580 --> 00:11:34,880
+Đấy là kết quả về sau thôi.
+
+130
+00:11:35,780 --> 00:11:40,440
+Nếu mà mình ra thì cũng bị cắn tốt, còn nếu không thì trước mắt là làm sao để mình ra thì chúng ta phải sinh ra dữ liệu
+
+131
+00:11:41,250 --> 00:11:44,170
+Dùng smart hoặc dùng gai
+
+132
+00:11:46,690 --> 00:11:53,560
+Như vậy là em phải có các bộ phát hiện thì bộ phát hiện của em nó là gì?
+
+133
+00:11:53,760 --> 00:12:04,060
+Bộ phát hiện của em thì sẽ có 3 cái, đầu tiên là có 3 cái thư viện
+
+134
+00:12:04,720 --> 00:12:07,280
+SQL 3 là để check xem có phải SQL không
+
+135
+00:12:07,840 --> 00:12:11,840
+Một cái SQL Injection Library là để kiểm tra xem phải tấn công không
+
+136
+00:12:11,840 --> 00:12:15,300
+và cái cuối cùng là sẽ xem là có đa dạng hay không
+
+137
+00:12:15,950 --> 00:12:19,510
+Cái này là cái tool mình đang áp dụng trên đây để kiểm tra môi phục máy
+
+138
+00:12:20,010 --> 00:12:25,110
+Môi phục máy thì em mới chỉ đưa ra kịch bản bình thường
+
+139
+00:12:25,730 --> 00:12:28,730
+Dùng cái gì thường lý? Môi phục máy thì để kiểm tra hiện
+
+140
+00:12:30,980 --> 00:12:31,820
+Sẽ có đúng không?
+
+141
+00:12:31,900 --> 00:12:32,280
+Vâng
+
+142
+00:12:32,280 --> 00:12:37,760
+À không em có dùng cái cơ bản là cái quyết định
+
+143
+00:12:38,780 --> 00:12:39,980
+Cái baseline của em là gì?
+
+144
+00:12:40,810 --> 00:12:45,190
+Baseline của em là dùng 2 cái cơ bản là cây quyết định với cả là
+
+145
+00:12:45,730 --> 00:12:50,040
+cái gì nhỉ, tuyến tính, quên tên rồi
+
+146
+00:12:50,040 --> 00:12:53,440
+Đấy em liệt kê cho thầy, trong slide em liệt kê cho thầy là các bộ
+
+147
+00:12:53,920 --> 00:12:56,520
+phát hiện thấy nó là những bộ gì, theo thầy nên ý tuyển bao
+
+148
+00:12:56,520 --> 00:13:00,570
+có thể là cây quyết định hay gì là ý tuyển bao
+
+149
+00:13:00,570 --> 00:13:01,210
+Rồi
+
+150
+00:13:02,610 --> 00:13:02,970
+Đấy
+
+151
+00:13:03,650 --> 00:13:07,860
+Và với 3 bộ đấy mình chạy trên các phương pháp sinh dữ liệu
+
+152
+00:14:19,370 --> 00:14:29,520
+Trong đó mình trọng tâm sẽ vào gan đúng không?
+
+153
+00:14:30,740 --> 00:14:36,360
+Nhưng để nắm được là gan có tốt hay không thì phải so sánh với các phương pháp khác như là SMOTE
+
+154
+00:14:36,790 --> 00:14:38,730
+Đấy cái logic của luật ban anh hiểu chưa em nhé?
+
+155
+00:14:38,790 --> 00:14:39,330
+Em hiểu
+
+156
+00:14:39,330 --> 00:14:45,180
+Đấy, đối với luật ban này sau khi em đã sửa tư đề thì nó cũng không nhất thiết là phải là thứ gì mới cả đúng không?
+
+157
+00:14:45,730 --> 00:14:49,280
+Đấy, nếu mà mình có mới thì mình sẽ đảm bảo, không thì mình sẽ làm nó bắt đúng chưa?
+
+158
+00:14:50,380 --> 00:14:54,200
+Đấy, thế còn là tiếp theo là bộ dữ liệu của em là gì?
+
+159
+00:14:54,200 --> 00:15:10,220
+Đấy, em muốn giảm rõ thầy, em bổ dữ liệu, em lấy ở đặc trưng nó là những cái gì, một cái bản ghi dữ liệu trong đấy, cấu trúc nó như thế nào, mình sẽ thực hành.
+
+160
+00:15:14,280 --> 00:15:20,560
+Giải thích cho thầy SMODE nó sẽ làm như thế nào, giải thích cho thầy GAN là gì, CT GAN là gì, CW GAN là gì?
+
+161
+00:15:21,480 --> 00:15:26,260
+Những cái đấy là mình giải thích kiểu bằng văn hay là phải có bài toán học được.
+
+162
+00:15:27,580 --> 00:15:35,260
+Khi giải thích VNM thì mình phải giải thích kiểu bằng văn nói hay là có văn toán nữa
+
+163
+00:15:35,260 --> 00:15:41,330
+Văn toán nhiều đâu, văn toán trong luật văn
+
+164
+00:15:42,170 --> 00:15:46,220
+Còn slide để dẫn dắt vấn đề
+
+165
+00:15:48,870 --> 00:15:57,610
+Thì GAN, CT GAN, CTW GAN
+
+166
+00:15:57,610 --> 00:15:59,430
+3 anh ấy có khác nhau cái gì
+
+167
+00:16:02,140 --> 00:16:03,940
+Thậm chí em có thể chạy cả 3 anh ấy
+
+168
+00:16:03,940 --> 00:16:08,760
+GAN truyền thống này, CT GAN này, CW GAN
+
+169
+00:16:09,240 --> 00:16:11,760
+Thì đưa thầy bảo tích tại sao mọi người tự lựa chọn CW GAN
+
+170
+00:16:11,760 --> 00:16:13,150
+Anh nghiên cứu nó phải thế không?
+
+171
+00:16:26,500 --> 00:16:26,900
+Vâng
+
+172
+00:16:26,900 --> 00:16:27,680
+Được chưa?
+
+173
+00:16:28,000 --> 00:16:28,400
+Vâng
+
+174
+00:16:31,310 --> 00:16:34,350
+Như thầy hiện tại thì cái của em nó đang bị overfit
+
+175
+00:16:34,350 --> 00:16:37,310
+Thì em đang mong muốn là thầy cho em keyword hoặc là
+
+176
+00:16:39,520 --> 00:16:44,320
+Một cái keyword để em có thể tìm phương án giải quyết được không?
+
+177
+00:16:46,020 --> 00:16:48,180
+Overfit thì có thể có mấy lý do như thế này
+
+178
+00:16:48,180 --> 00:16:56,920
+Nhất là cái mô hình gan đấy có thể là nó lệch giữa Generator và Dissimilator
+
+179
+00:17:01,490 --> 00:17:08,200
+Critic là khả năng này yếu, đúng chưa?
+
+180
+00:17:08,640 --> 00:17:10,700
+Thứ hai là cái bộ dữ liệu, xem lại bộ dữ liệu
+
+181
+00:17:11,180 --> 00:17:16,330
+Nếu chẳng hạn nó lệch quá thì cũng có thể sinh gan cũng không dễ, đúng không?
+
+182
+00:17:17,820 --> 00:17:21,520
+Đấy, chiếc mắt đầu mình mình cũng chọn bộ dữ liệu nó lệch đủ vừa thôi
+
+183
+00:17:22,190 --> 00:17:25,960
+Đừng lệch quá mức, để xem nó xem như thế nào
+
+184
+00:17:26,620 --> 00:17:32,500
+Hiện tại em lấy hầu hết chỉ có lệch 1.1 hoặc 1.2 nên là em đang phải cố gắng cắt bớt xuống một tí ạ
+
+185
+00:17:34,000 --> 00:17:40,200
+Cắt xuống khoảng 1 trên 50 thì lúc đấy thì gan của em mới phát huy tác dụng nha là mới hợp được
+
+186
+00:17:40,200 --> 00:17:46,410
+Thế tiếp theo này, câu hỏi tiếp theo là đã có ai đã dùng gan này để sinh dữ liệu cho cái bài báo này thế chưa?
+
+187
+00:17:46,670 --> 00:17:56,380
+Có em có tham khảo cho nó ở đâu rồi đưa lên xin thông tin xem người ta làm cái gì đúng không?
+
+188
+00:17:56,380 --> 00:17:59,880
+Có 6 bài báo khoa học có làm giống em ạ
+
+189
+00:17:59,880 --> 00:18:07,960
+Nhưng mà họ không chia như em là kiểu họ không chia các dạng vật công mà họ chỉ bê nguyên H1N1 vào thôi ạ
+
+190
+00:18:08,550 --> 00:18:11,650
+Thì đấy là em đang coi như là điểm mới của em
+
+191
+00:18:11,650 --> 00:18:14,410
+Đầu tiên mình phải làm cái cơ bản này ạ
+
+192
+00:18:14,410 --> 00:18:17,050
+Đấy cơ bản nó chạy ổn thì bắt đầu đi ra cái mới được
+
+193
+00:18:17,050 --> 00:18:19,610
+Có lý lúc lộ tục theo cũng biết được một lần rồi
+
+194
+00:18:19,610 --> 00:18:20,670
+Được chưa?
+
+195
+00:18:20,810 --> 00:18:21,150
+Được
+
+196
+00:18:21,150 --> 00:18:29,830
+Đấy thế giới cũng thoải mái
+
+197
+00:18:31,400 --> 00:18:34,980
+Ngoài ra em cũng đang hơi lo. Kết quả nó không được nghĩ.
+
+198
+00:18:44,910 --> 00:18:48,210
+Nó phải rõ ràng như thế thôi. Thầy cho bàn nó biết được anh ạ.
+
+199
+00:18:48,330 --> 00:18:48,870
+Vâng ạ.
+
+200
+00:18:50,070 --> 00:18:53,270
+Cái diversity là em đổ đo một tí. Cách đo như thế nào?
+
+201
+00:18:55,580 --> 00:19:02,850
+Em đưa qua một cái thư viện. Em có một bài báo là ESBL.
+
+202
+00:19:02,870 --> 00:19:04,970
+Người ta có bảo người ta lấy thư viện.
+
+203
+00:19:05,010 --> 00:19:10,110
+Ba này thì cái ý tưởng với ba bộ quality filter là em lấy từ một bài báo.
+
+204
+00:19:10,110 --> 00:19:12,990
+Người ta có đăng thư viện cho em đưa về để em thử
+
+205
+00:19:12,990 --> 00:19:16,870
+Đấy, trong slide em mô tả thầy công thức kỹ tính
+
+206
+00:19:20,150 --> 00:19:20,510
+Vâng
+
+207
+00:19:21,300 --> 00:19:22,740
+Thì ta ghi bàn được
+
+208
+00:19:26,340 --> 00:19:26,700
+Rồi
+
+209
+00:19:27,380 --> 00:19:29,360
+Bây giờ người ta bảo muốn làm trời làm biển gì
+
+210
+00:19:29,360 --> 00:19:35,170
+Nhưng mà nếu mà có thích tóm lại dữ liệu anh định dạng làm gì mình trả lời thì xin
+
+211
+00:19:35,170 --> 00:19:36,480
+Đúng không
+
+212
+00:19:37,320 --> 00:19:38,860
+Em về trong slide mình nói rõ ràng
+
+213
+00:19:38,860 --> 00:19:43,100
+Đây thầy, em mô tả thầy xem là một bản ghi nó như thế này
+
+214
+00:19:43,100 --> 00:19:43,400
+Đúng không
+
+215
+00:19:44,560 --> 00:19:45,400
+Đấy, đúng chưa
+
+216
+00:19:45,760 --> 00:19:48,380
+Với sinh ra thì thường nó sẽ thay đổi cái gì nữa thế?
+
+217
+00:19:48,600 --> 00:19:54,960
+Hãy trình bày lại thầy nào
+
+218
+00:19:55,540 --> 00:19:58,920
+Chúng tôi mong muốn sớm ạ
+
+219
+00:19:58,920 --> 00:19:59,780
+Chiều thứ bảy ạ
+
+220
+00:19:59,780 --> 00:20:00,000
+Chiều
+
+221
+00:20:00,080 --> 00:20:00,600
+thứ bảy ạ
+
+222
+00:20:00,600 --> 00:20:01,440
+có kịp không?
+
+223
+00:20:01,560 --> 00:20:02,400
+hay là sang tuần sau?
+
+224
+00:20:02,660 --> 00:20:06,530
+chiều thứ bảy em chắc là không kịp
+
+225
+00:20:06,530 --> 00:20:07,590
+em mong là sang tuần sau
+
+226
+00:20:07,590 --> 00:20:09,170
+chắc là bằng lời tuần sau
+
+227
+00:20:09,170 --> 00:20:10,430
+thứ ba hoặc thứ năm được
+
+228
+00:20:10,430 --> 00:20:11,630
+ok, tuần tuần đi
+
+229
+00:20:11,630 --> 00:20:12,930
+anh cảm ơn ạ
+
+230
+00:20:13,330 --> 00:20:14,830
+đấy, tự mình cũng phải nắm vào thầy
+
+231
+00:20:14,830 --> 00:20:15,750
+thế thì nó ra cũng được
+
+232
+00:20:16,130 --> 00:20:16,490
+vâng
+
+233
+00:20:16,490 --> 00:20:17,170
+nhé
+
+234
+00:20:17,730 --> 00:20:23,020
+bây giờ bắt đầu vào giai đoạn làm rồi đấy
+
+235
+00:20:23,020 --> 00:20:29,460
+kinh nghiệm là
+
+236
+00:20:29,460 --> 00:20:32,640
+cũng làm dân làm được với đến tức cả
+
+237
+00:20:32,640 --> 00:20:37,910
+thì chắc là em cũng
+
+238
+00:20:38,370 --> 00:20:40,230
+thầy nói thế chắc em cũng phải cân nhắc
+
+239
+00:20:40,230 --> 00:20:42,430
+cũng phải đập đi một xíu cái
+
+240
+00:20:42,430 --> 00:20:53,110
+Bởi vì là em đang bị mong muốn thông số đẹp nên là có bà đâu cứ lên đọc vài báo nào thấy có su đu hướng có thể sửa em đập hết vào.
+
+241
+00:20:54,720 --> 00:20:58,300
+Tức là thầy cứ chạy ra rồi bắt đầu đi sang cái tivi.
+
+242
+00:21:00,340 --> 00:21:03,100
+Được chưa?
+
+243
+00:21:03,200 --> 00:21:03,820
+Vâng thầy ạ.
+
+244
+00:21:03,820 --> 00:21:09,960
+Ra đây nhé.
+
+245
+00:21:10,040 --> 00:21:17,940
+Ra đây thầy ạ.

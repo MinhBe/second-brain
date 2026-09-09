@@ -1,0 +1,974 @@
+# GLOSSIKA-DAILY-ENZH-11.unlocked
+
+Source: `GLOSSIKA-DAILY-ENZH-11.unlocked.pdf`
+
+## Page 2
+
+Unit 11
+
+## Page 3
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+3
+What's Your opinion?
+你有何高見？
+你有何高见？
+[ní jǒʷ hɤ́ k⁼āʷ ʨ⁼ʲɛ̀n ]
+Nǐ yǒu hé gāojiàn?
+501
+
+## Page 4
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+4
+She's got so many secrets.
+她總是有很多祕密
+她总是有很多秘密
+[tʰā ʦ⁼ʊ̌ŋ ʂʅ̀ jóʷ hə̌n t⁼ʷō mì mì ]
+Tā zǒng shì yǒu hěnduō mìmì
+502
+
+## Page 5
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+5
+I didn't know you had it in you.
+沒想到你肚子裡還是有點墨水的
+没想到你肚子里还是有点墨水的
+[méʲ ɕʲǎŋ t⁼àʷ nǐ t⁼ù ʦ⁼ɿ• lǐ háʲ ʂʅ̀ jóʷ t⁼ʲɛ̌n mʷò ʂʷěʲ t⁼ɤ• ]
+Méi xiǎngdào nǐ dùzi lǐ háishì yǒudiǎn mòshuǐ de
+503
+
+## Page 6
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+6
+As soon as she felt something wasn't right, she ran off.
+她一看苗頭不對，就溜了
+她一看苗头不对，就溜了
+[tʰā ī kʰàn mʲáʷ tʰóʷ p⁼ú t⁼ʷèʲ | ʨ⁼ʲòʷ lʲōʷ lɤ• ]
+Tā yī kàn miáotou bùduì, jiù liūle
+504
+
+## Page 7
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+7
+Remember if it doesn't feel right, then get out of there.
+記得苗頭不對，就閃了！
+记得苗头不对，就闪了！
+[ʨ⁼ì t⁼ɤ• mʲáʷ tʰóʷ p⁼ú t⁼ʷèʲ | ʨ⁼ʲòʷ ʂǎn lɤ• ]
+Jìde miáotou bùduì, jiù shǎnle!
+505
+
+## Page 8
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+8
+You're so misbehaved.
+你也太皮了吧！
+你也太皮了吧！
+[ní jɛ̌ tʰàʲ pʰí lɤ• p⁼a• ]
+Nǐ yě tài píle ba!
+506
+
+## Page 9
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+9
+The child is very naughty.
+這孩子很調皮。
+这孩子很调皮。
+[t͡ʂ⁼ɤ̀ háʲ ʦ⁼ɿ• hə̌n tʰʲáʷ pʰí ]
+Zhè háizi hěn tiáopí.
+507
+
+## Page 10
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+10
+Don't always order me around.
+不要使喚我
+不要使唤我
+[p⁼ú jàʷ ʂʅ̌ hʷàn wɔ̌ ]
+Bùyào shǐhuan wǒ
+508
+
+## Page 11
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+11
+That was just so un-called for.
+這太要不得了
+这太要不得了
+[t͡ʂ⁼ɤ̀ tʰàʲ jàʷ p⁼u• t⁼ɤ́ lɤ• ]
+Zhè tài yàobùdéle
+509
+
+## Page 12
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+12
+Thank heaven, the problem's finally solved.
+謝天謝地，問題終於解決了！
+谢天谢地，问题终于解决了！
+[ɕʲɛ̀ tʰʲɛ̄n ɕʲɛ̀ t⁼ì | wə̀n tʰí t͡ʂ⁼ʊ̄ŋ ý ʨ⁼ʲɛ̌ ʨ⁼ʸœ́ lɤ• ]
+Xiètiānxièdì, wèntí zhōngyú jiějuéle!
+510
+
+## Page 13
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+13
+She did me a big favor.
+她幫了我很大的忙
+她帮了我很大的忙
+[tʰā p⁼āŋ lɤ• wɔ̌ hə̌n t⁼à t⁼ɤ• máŋ ]
+Tā bāngle wǒ hěn dà de máng
+511
+
+## Page 14
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+14
+What are you hinting at?
+你在暗示什麼？
+你在暗示什么？
+[nǐ ʦ⁼àʲ àn ʂʅ̀ ʂɤ́ mɤ• ]
+Nǐ zài ànshì shénme?
+512
+
+## Page 15
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+15
+I have to leave immediately.
+我恨不得馬上離開
+我恨不得马上离开
+[wɔ̌ hə̀n p⁼u• t⁼ɤ́ mǎ ʂàŋ lí kʰāʲ ]
+Wǒ hènbudé mǎshàng líkāi
+513
+
+## Page 16
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+16
+I have to go home immediately.
+我巴不得馬上回家
+我巴不得马上回家
+[wɔ̌ p⁼ā p⁼u• t⁼ɤ́ mǎ ʂàŋ hʷéʲ ʨ⁼ʲā ]
+Wǒ bābude mǎshàng huí jiā
+514
+
+## Page 17
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+17
+It's easy to get heat stroke in this weather.
+這天氣很容易讓人中暑
+这天气很容易让人中暑
+[t͡ʂ⁼ɤ̀ tʰʲɛ̄n ʨʰì hə̌n ʐʊ́ŋ ì ʐàŋ ʐə́n t͡ʂ⁼ʊ̀ŋ ʂǔ ]
+Zhè tiānqì hěn róngyì ràng rén zhòngshǔ
+515
+
+## Page 18
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+18
+She's my only friend here.
+她是我在這唯一的朋友
+她是我在这唯一的朋友
+[tʰā ʂʅ̀ wɔ̌ ʦ⁼àʲ t͡ʂ⁼ɤ̀ wéʲ ī t⁼ɤ• pʰɤ́ŋ jǒʷ ]
+Tā shì wǒ zài zhè wéiyī de péngyǒu
+516
+
+## Page 19
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+19
+You need to get back early because a typhoon's coming.
+你必須早點回來，颱風就要來了
+你必须早点回来，台风就要来了
+[nǐ p⁼ì ɕȳ ʦ⁼áʷ t⁼ʲɛ̌n hʷéʲ láʲ | tʰáʲ fɤ̄ŋ ʨ⁼ʲòʷ jàʷ láʲ lɤ• ]
+Nǐ bìxū zǎodiǎn huílái, táifēng jiù yào láile
+517
+
+## Page 20
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+20
+Don't interrupt, we're discussing something important.
+別插嘴，我們在討論重要的事情。
+别插嘴，我们在讨论重要的事情。
+[p⁼ʲɛ́ t͡ʂʰā ʦ⁼ʷěʲ | wɔ̌ mən• ʦ⁼àʲ tʰǎʷ lùʷn t͡ʂ⁼ʊ̀ŋ jàʷ t⁼ɤ• ʂʅ̀ 
+ʨʰíʲŋ ]
+Bié chāzuǐ, wǒmen zài tǎolùn zhòngyào de shìqíng.
+518
+
+## Page 21
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+21
+It's rude to interrupt others.
+插嘴很不禮貌
+插嘴很不礼貌
+[t͡ʂʰā ʦ⁼ʷéʲ hə̌n p⁼ù lǐ màʷ ]
+Chāzuǐ hěn bù lǐmào
+519
+
+## Page 22
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+22
+Otherwise, just go find someone else then.
+那你另請高明吧
+那你另请高明吧
+[nà nǐ lìŋ ʨʰǐʲŋ k⁼āʷ míŋ p⁼a• ]
+Nà nǐ lìng qǐng gāomíng ba
+520
+
+## Page 23
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+23
+Well, you can find a better place to work then.
+麻煩你另謀高就了
+麻烦你另谋高就了
+[má fán nǐ lìŋ móʷ k⁼āʷ ʨ⁼ʲòʷ lɤ• ]
+Máfan nǐ lìng móu gāo jiùle
+521
+
+## Page 24
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+24
+Sorry I'm late.
+我來晚了，很抱歉！
+我来晚了，很抱歉！
+[wɔ̌ láʲ wǎn lɤ• | hə̌n p⁼àʷ ʨʰʲɛ̀n ]
+Wǒ lái wǎnle, hěn bàoqiàn!
+522
+
+## Page 25
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+25
+If there's no agreement, then just forget it.
+沒有共識，那就算了
+没有共识，那就算了
+[méʲ jǒʷ k⁼ʊ̀ŋ ʂʅ̀ | nà ʨ⁼ʲòʷ sʷàn lɤ• ]
+Méiyǒu gòngshì, nà jiùsuànle
+523
+
+## Page 26
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+26
+You're so stingy!
+你很小氣耶！
+你很小气耶！
+[ní hə́n ɕʲǎʷ ʨʰì jɛ́ ]
+Nǐ hěn xiǎoqì yé!
+524
+
+## Page 27
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+27
+You're so bitchy!
+你這樣很小家子氣
+你这样很小家子气
+[nǐ t͡ʂ⁼ɤ̀ jàŋ hə́n ɕʲǎʷ ʨ⁼ʲā ʦ⁼ɿ• ʨʰì ]
+Nǐ zhèyàng hěn xiǎojiāziqì
+525
+
+## Page 28
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+28
+Do you have a specific stylist?
+你有指定的設計師嗎? ( 頭髮)
+你有指定的设计师吗？ （头发）
+[ní jóʷ t͡ʂ⁼ʅ̌ t⁼ìŋ t⁼ɤ• ʂɤ̀ ʨ⁼ì ʂʅ̄ mā ]
+Nǐ yǒu zhǐdìng de shèjì shī mā? (Tóufǎ)
+526
+
+## Page 29
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+29
+Do you have any specials on now?
+現在有什麼優惠嗎?
+现在有什么优惠吗？
+[ɕʲɛ̀n ʦ⁼àʲ jǒʷ ʂɤ́ mɤ• jōʷ hʷèʲ mā ]
+Xiànzài yǒu shé me yōuhuì mā?
+527
+
+## Page 30
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+30
+Would you like to otherwise condition your hair?
+還要額外護髮嗎?
+还要额外护发吗？
+[háʲ jàʷ ɤ́ wàʲ hù fā mā ]
+Hái yào éwài hù fā mā?
+528
+
+## Page 31
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+31
+Would you like a dye or perm?
+你要染還是要燙?
+你要染还是要烫？
+[nǐ jàʷ ʐǎn háʲ ʂʅ̀ jàʷ tʰàŋ ]
+Nǐ yào rǎn háishì yào tàng?
+529
+
+## Page 32
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+32
+Do you need a hair extension or a weave?
+你需要接髮還是編髮的服務嗎?
+你需要接发还是编发的服务吗？
+[nǐ ɕȳ jàʷ ʨ⁼ʲɛ̄ fā háʲ ʂʅ̀ p⁼ʲɛ̄n fǎ t⁼ɤ• fú ù mā]
+Nǐ xūyào jiē fǎ hái shì biānfǎ de fúwù mā?
+530
+
+## Page 33
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+33
+Is this spicy?
+這個會辣嗎?
+这个会辣吗？
+[t͡ʂ⁼ɤ̀ k⁼ɤ• hʷèʲ là mā ]
+Zhège huì là ma?
+531
+
+## Page 34
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+34
+I don't want any cilantro. (coriander)
+我不要香菜
+我不要香菜
+[wɔ̌ p⁼ú jàʷ ɕʲāŋ ʦʰàʲ ]
+Wǒ bùyào xiāngcài
+532
+
+## Page 35
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+35
+Don't give me onions.
+不要給我洋蔥
+不要给我洋葱
+[p⁼ú jàʷ k⁼éʲ wɔ̌ jáŋ ʦʰʊ̄ŋ ]
+Bùyào gěi wǒ yángcōng
+533
+
+## Page 36
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+36
+Could you give me a bit more food?
+飯可以給我多一點嗎?
+饭可以给我多一点吗？
+[fàn kʰɤ́ ǐ k⁼éʲ wɔ̌ t⁼ʷō ī t⁼ʲɛ̌n mā ]
+Fàn kěyǐ gěi wǒ duō yīdiǎn mā?
+534
+
+## Page 37
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+37
+Could you make it cheaper?
+可以算便宜一點嗎?
+可以算便宜一点吗？
+[kʰɤ́ ǐ sʷàn pʰʲɛ́n í ì t⁼ʲɛ̌n mā]
+Kěyǐ suàn piányí yīdiǎn mā?
+535
+
+## Page 38
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+38
+Are you open 24 hours a day?
+你們二十四小時營業嗎?
+你们二十四小时营业吗？
+[nǐ mən• ə̀ʵ ʂʅ́ sɿ̀ ɕʲǎʷ ʂʅ́ íʲŋ jɛ̀ mā]
+Nǐmen èrshísì xiǎoshí yíngyè mā?
+536
+
+## Page 39
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+39
+Can you go alone?
+你可以自己一個人去嗎?
+你可以自己一个人去吗？
+[nǐ kʰɤ́ ǐ ʦ⁼ɿ̀ ʨ⁼ǐ ī k⁼ɤ• ʐə́n ʨʰỳ mā]
+Nǐ kěyǐ zìjǐ yīge rén qù mā?
+537
+
+## Page 40
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+40
+It's crowded, so don't get separated!
+那裡人很多，小心不要走散了！
+那里人很多，小心不要走散了！
+[nà lǐ ʐə́n hə̌n t⁼ʷō | ɕʲǎʷ ɕīn p⁼ú jàʷ ʦ⁼ǒʷ sàn lɤ• ]
+Nàlǐ rén hěnduō, xiǎoxīn bùyào zǒu sànle!
+538
+
+## Page 41
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+41
+We're going to get all-you-can-eat tonight, do you want 
+to bring anybody along?
+我們晚上要去吃吃到飽，你要帶朋友一起來嗎？
+我们晚上要去吃吃到饱，你要带朋友一起来吗？
+[wɔ̌ mən• wǎn ʂàŋ jàʷ ʨʰỳ t͡ʂʰʅ̄ t͡ʂʰʅ̄ t⁼àʷ p⁼ǎʷ | nǐ jàʷ 
+t⁼àʲ pʰɤ́ŋ jǒʷ ī ʨʰǐ láʲ mā]
+Wǒmen wǎnshàng yào qù chī chī dào bǎo, nǐ yào dài 
+péngyǒu yīqǐ lái mā?
+539
+
+## Page 42
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+42
+There's a new hot pot restaurant by the station, have 
+you eaten there yet?
+車站那新開了一間麻辣火鍋，你吃過了嗎？
+车站那新开了一间麻辣火锅，你吃过了吗？
+[t͡ʂʰɤ̄ t͡ʂ⁼àn nà ɕīn kʰāʲ lɤ• ī ʨ⁼ʲɛ̀n má là hʷǒ k⁼ʷō | 
+nǐ t͡ʂʰʅ̄ k⁼ʷò lɤ• mā]
+Chēzhàn nà xīn kāile yī jiàn málà huǒguō, nǐ chīguòle 
+mā?
+540
+
+## Page 43
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+43
+I don't like roast pork 'cause it stinks up my clothes.
+我不喜歡吃燒肉，因為吃完衣服很臭。
+我不喜欢吃烧肉，因为吃完衣服很臭。
+[wɔ̌ p⁼ù ɕǐ hʷān t͡ʂʰʅ̄ ʂāʷ ʐòʷ | īn wèʲ t͡ʂʰʅ̄ wán ī fú hə̌n 
+t͡ʂʰòʷ ]
+Wǒ bù xǐhuān chī shāo ròu, yīnwèi chī wán yīfú hěn 
+chòu.
+541
+
+## Page 44
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+44
+I've heard their chicken's really famous.
+聽說那間雞排很有名
+听说那间鸡排很有名
+[tʰīŋ ʂʷō nà ʨ⁼ʲɛ̄n ʨ⁼ī pʰáʲ hə́n jǒʷ míŋ ]
+Tīng shuō nà jiān jī pái hěn yǒumíng
+542
+
+## Page 45
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+45
+What's your specialty?
+什麼是妳們的招牌菜
+什么是妳们的招牌菜
+[ʂɤ́ mɤ• ʂʅ̀ nǐ mən• t⁼ɤ• t͡ʂ⁼āʷ pʰáʲ ʦʰàʲ ]
+Shéme shì nǐmen de zhāopái cài
+543
+
+## Page 46
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+46
+Our drink specialty is milk tea.
+我們的招牌飲料是奶茶
+我们的招牌饮料是奶茶
+[wɔ̌ mən• t⁼ɤ• t͡ʂ⁼āʷ pʰáʲ ǐn lʲàʷ ʂʅ̀ nǎʲ t͡ʂʰá ]
+Wǒmen de zhāopái yǐnliào shì nǎichá
+544
+
+## Page 47
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+47
+Is the ice and sweetness normal?
+甜度和冰塊都正常嗎？
+甜度和冰块都正常吗？
+[tʰʲɛ́n t⁼ù hàn p⁼īŋ kʰʷàʲ t⁼ōʷ t͡ʂ⁼ɤ̀ŋ t͡ʂʰáŋ mā ]
+Tián dù hàn bīng kuài dōu zhèngcháng mā?
+545
+
+## Page 48
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+48
+I don't eat stinky tofu.
+我不敢吃臭豆腐
+我不敢吃臭豆腐
+[wɔ̌ p⁼ù k⁼ǎn t͡ʂʰʅ̄ t͡ʂʰòʷ t⁼òʷ fǔ ]
+Wǒ bù gǎn chī chòu dòufǔ
+546
+
+## Page 49
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+49
+It just smells stinky, but it tastes great.
+它只是聞起來臭，但吃起來很香
+它只是闻起来臭，但吃起来很香
+[tʰā t͡ʂ⁼ʅ̌ ʂʅ̀ wə́n ʨʰǐ láʲ t͡ʂʰòʷ | t⁼àn t͡ʂʰʅ̄ ʨʰǐ láʲ hə̌n ɕʲāŋ ]
+Tā zhǐshì wén qǐlái chòu, dàn chī qǐlái hěn xiāng
+547
+
+## Page 50
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+50
+There's a cockroach!
+那裏有一隻小強
+那里有一只小强
+[nà lǐ jǒʷ ī t͡ʂ⁼ʅ̄ ɕʲǎʷ ʨʰʲáŋ ]
+Nàlǐ yǒu yīzhī xiǎoqiáng
+548
+
+## Page 51
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+51
+Where's the garbage can?
+哪裡有垃圾桶？
+哪里有垃圾桶？
+[ná lǐ jǒʷ lɤ̀ sɤ̀ tʰʊ̌ŋ ]
+Nǎlǐ yǒu lèsè tǒng?
+549
+
+## Page 52
+
+繁
+簡
+英
+拚
+IPA
+Unit 11
+f
+You
+Tube
+52
+Can I throw my garbage away here?
+我可以把垃圾丟這邊嗎？
+我可以把垃圾丢这边吗？
+[wɔ̌ kʰɤ́ í p⁼ǎ lɤ̀ sɤ̀ t⁼ʲōʷ t͡ʂ⁼ɤ̀ p⁼ʲɛ̄n mā ]
+Wǒ kěyǐ bǎ lèsè diū zhè biān mā?
+550
+
+## Page 53
+
+See you back here tomorrow 
+in the next unit! 
+ 
+You're already making great 
+progress!

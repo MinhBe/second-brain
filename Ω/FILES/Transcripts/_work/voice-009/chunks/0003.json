@@ -1,0 +1,3422 @@
+{
+  "run_key": "435e08426dd1c2584e54e00afc2fa6ea53e005b5fbe34b71aa6a859cec833f81",
+  "start": 1800,
+  "end": 2019.0911875,
+  "segments": [
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1800,
+      "end": 1801.84,
+      "text": "nói ra hơi bị dài",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1799.7,
+          "end": 1800.4,
+          "word": " nói",
+          "probability": 0.42822265625
+        },
+        {
+          "start": 1800.4,
+          "end": 1801.1,
+          "word": " ra",
+          "probability": 0.9833984375
+        },
+        {
+          "start": 1801.1,
+          "end": 1801.5,
+          "word": " hơi",
+          "probability": 0.6971435546875
+        },
+        {
+          "start": 1801.5,
+          "end": 1801.56,
+          "word": " bị",
+          "probability": 0.82861328125
+        },
+        {
+          "start": 1801.56,
+          "end": 1801.84,
+          "word": " dài",
+          "probability": 0.9384765625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1802.95,
+      "end": 1804.34,
+      "text": "tiếp theo là",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1802.95,
+          "end": 1803.43,
+          "word": " tiếp",
+          "probability": 0.63037109375
+        },
+        {
+          "start": 1803.7,
+          "end": 1804.18,
+          "word": " theo",
+          "probability": 0.998046875
+        },
+        {
+          "start": 1804.18,
+          "end": 1804.34,
+          "word": " là",
+          "probability": 0.935546875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 1804.34,
+      "end": 1806.16,
+      "text": "em sẽ đưa toàn bộ tất cả dữ liệu",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1804.34,
+          "end": 1804.62,
+          "word": " em",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 1804.62,
+          "end": 1804.8,
+          "word": " sẽ",
+          "probability": 0.990234375
+        },
+        {
+          "start": 1804.8,
+          "end": 1805.02,
+          "word": " đưa",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 1805.02,
+          "end": 1805.3,
+          "word": " toàn",
+          "probability": 0.9375
+        },
+        {
+          "start": 1805.3,
+          "end": 1805.48,
+          "word": " bộ",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 1805.48,
+          "end": 1805.68,
+          "word": " tất",
+          "probability": 0.990966796875
+        },
+        {
+          "start": 1805.68,
+          "end": 1805.78,
+          "word": " cả",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 1805.78,
+          "end": 1806.02,
+          "word": " dữ",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 1806.02,
+          "end": 1806.16,
+          "word": " liệu",
+          "probability": 0.9990234375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 1806.16,
+      "end": 1808.26,
+      "text": "được sinh ra từ các kịch bản",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1806.16,
+          "end": 1806.32,
+          "word": " được",
+          "probability": 0.978515625
+        },
+        {
+          "start": 1806.32,
+          "end": 1806.58,
+          "word": " sinh",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 1806.58,
+          "end": 1806.74,
+          "word": " ra",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1806.74,
+          "end": 1807.0,
+          "word": " từ",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 1807.0,
+          "end": 1807.24,
+          "word": " các",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 1807.24,
+          "end": 1808.02,
+          "word": " kịch",
+          "probability": 0.977783203125
+        },
+        {
+          "start": 1808.02,
+          "end": 1808.26,
+          "word": " bản",
+          "probability": 0.999267578125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 1808.26,
+      "end": 1809.96,
+      "text": "trên và đưa qua",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1808.26,
+          "end": 1809.02,
+          "word": " trên",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 1809.02,
+          "end": 1809.36,
+          "word": " và",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 1809.36,
+          "end": 1809.72,
+          "word": " đưa",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 1809.72,
+          "end": 1809.96,
+          "word": " qua",
+          "probability": 0.99853515625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 1809.96,
+      "end": 1810.84,
+      "text": "từng lửa",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1809.96,
+          "end": 1810.6,
+          "word": " từng",
+          "probability": 0.80810546875
+        },
+        {
+          "start": 1810.6,
+          "end": 1810.84,
+          "word": " lửa",
+          "probability": 0.95263671875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 1810.84,
+      "end": 1816.21,
+      "text": "thì là ở mô hình si quần gan cải tiến",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1810.84,
+          "end": 1811.36,
+          "word": " thì",
+          "probability": 0.93603515625
+        },
+        {
+          "start": 1812.05,
+          "end": 1812.35,
+          "word": " là",
+          "probability": 0.9755859375
+        },
+        {
+          "start": 1812.35,
+          "end": 1813.57,
+          "word": " ở",
+          "probability": 0.44775390625
+        },
+        {
+          "start": 1814.83,
+          "end": 1815.27,
+          "word": " mô",
+          "probability": 0.96533203125
+        },
+        {
+          "start": 1815.27,
+          "end": 1815.37,
+          "word": " hình",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 1815.37,
+          "end": 1815.51,
+          "word": " si",
+          "probability": 0.375
+        },
+        {
+          "start": 1815.51,
+          "end": 1815.69,
+          "word": " quần",
+          "probability": 0.892822265625
+        },
+        {
+          "start": 1815.69,
+          "end": 1815.81,
+          "word": " gan",
+          "probability": 0.80078125
+        },
+        {
+          "start": 1815.81,
+          "end": 1816.03,
+          "word": " cải",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 1816.03,
+          "end": 1816.21,
+          "word": " tiến",
+          "probability": 0.99072265625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 1816.21,
+      "end": 1817.71,
+      "text": "của em ạ, thì tỷ lệ",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1816.21,
+          "end": 1816.33,
+          "word": " của",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 1816.33,
+          "end": 1816.51,
+          "word": " em",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 1816.51,
+          "end": 1816.67,
+          "word": " ạ,",
+          "probability": 0.65625
+        },
+        {
+          "start": 1816.71,
+          "end": 1816.97,
+          "word": " thì",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 1816.97,
+          "end": 1817.47,
+          "word": " tỷ",
+          "probability": 0.84130859375
+        },
+        {
+          "start": 1817.47,
+          "end": 1817.71,
+          "word": " lệ",
+          "probability": 1.0
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 1817.71,
+      "end": 1820.03,
+      "text": "bị chặn là nó sẽ",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1817.71,
+          "end": 1818.41,
+          "word": " bị",
+          "probability": 0.994140625
+        },
+        {
+          "start": 1818.41,
+          "end": 1818.73,
+          "word": " chặn",
+          "probability": 0.9943033854166666
+        },
+        {
+          "start": 1818.73,
+          "end": 1818.99,
+          "word": " là",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 1818.99,
+          "end": 1819.63,
+          "word": " nó",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 1819.63,
+          "end": 1820.03,
+          "word": " sẽ",
+          "probability": 0.99853515625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 1821.98,
+      "end": 1822.92,
+      "text": "bị chặn",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1821.98,
+          "end": 1822.46,
+          "word": " bị",
+          "probability": 0.51953125
+        },
+        {
+          "start": 1822.46,
+          "end": 1822.92,
+          "word": " chặn",
+          "probability": 0.9988606770833334
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 1825.29,
+      "end": 1826.47,
+      "text": "xe này cũng bị đưa",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1825.29,
+          "end": 1825.77,
+          "word": " xe",
+          "probability": 0.6153564453125
+        },
+        {
+          "start": 1825.77,
+          "end": 1825.91,
+          "word": " này",
+          "probability": 0.90673828125
+        },
+        {
+          "start": 1825.91,
+          "end": 1825.99,
+          "word": " cũng",
+          "probability": 0.9638671875
+        },
+        {
+          "start": 1825.99,
+          "end": 1826.15,
+          "word": " bị",
+          "probability": 0.998046875
+        },
+        {
+          "start": 1826.15,
+          "end": 1826.47,
+          "word": " đưa",
+          "probability": 0.9921875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 1827.42,
+      "end": 1828.78,
+      "text": "xe này cũng bị đưa thiếu",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1827.42,
+          "end": 1827.9,
+          "word": " xe",
+          "probability": 0.536834716796875
+        },
+        {
+          "start": 1827.9,
+          "end": 1828.02,
+          "word": " này",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1828.02,
+          "end": 1828.18,
+          "word": " cũng",
+          "probability": 0.998046875
+        },
+        {
+          "start": 1828.18,
+          "end": 1828.32,
+          "word": " bị",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1828.32,
+          "end": 1828.52,
+          "word": " đưa",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1828.52,
+          "end": 1828.78,
+          "word": " thiếu",
+          "probability": 0.993408203125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 14,
+      "seek": 0,
+      "start": 1828.78,
+      "end": 1829.86,
+      "text": "nhưng mà ý em là",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1828.78,
+          "end": 1829.06,
+          "word": " nhưng",
+          "probability": 0.148193359375
+        },
+        {
+          "start": 1829.06,
+          "end": 1829.3,
+          "word": " mà",
+          "probability": 0.9921875
+        },
+        {
+          "start": 1829.3,
+          "end": 1829.54,
+          "word": " ý",
+          "probability": 0.55029296875
+        },
+        {
+          "start": 1829.54,
+          "end": 1829.7,
+          "word": " em",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1829.7,
+          "end": 1829.86,
+          "word": " là",
+          "probability": 0.9990234375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 1829.86,
+      "end": 1831.64,
+      "text": "trong mô hình si quần gan thì là",
+      "avg_logprob": -0.1781448980045926,
+      "compression_ratio": 1.625,
+      "no_speech_prob": 0.1190185546875,
+      "words": [
+        {
+          "start": 1829.86,
+          "end": 1830.26,
+          "word": " trong",
+          "probability": 0.475830078125
+        },
+        {
+          "start": 1830.26,
+          "end": 1830.62,
+          "word": " mô",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 1830.62,
+          "end": 1830.7,
+          "word": " hình",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1830.7,
+          "end": 1830.8,
+          "word": " si",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1830.8,
+          "end": 1830.96,
+          "word": " quần",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1830.96,
+          "end": 1831.18,
+          "word": " gan",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 1831.18,
+          "end": 1831.44,
+          "word": " thì",
+          "probability": 0.966796875
+        },
+        {
+          "start": 1831.44,
+          "end": 1831.64,
+          "word": " là",
+          "probability": 0.9794921875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 16,
+      "seek": 2914,
+      "start": 1831.64,
+      "end": 1838.1,
+      "text": "là tỷ lệ mà vừa bị không bị chặn và vẫn có cấu trúc ạ thì nó nhân đôi với nhau ạ thì nó sẽ có",
+      "avg_logprob": -0.20123922490868076,
+      "compression_ratio": 1.5444015444015444,
+      "no_speech_prob": 0.3583984375,
+      "words": [
+        {
+          "start": 1831.64,
+          "end": 1831.64,
+          "word": " là",
+          "probability": 0.230224609375
+        },
+        {
+          "start": 1831.64,
+          "end": 1832.26,
+          "word": " tỷ",
+          "probability": 0.8187662760416666
+        },
+        {
+          "start": 1832.26,
+          "end": 1832.56,
+          "word": " lệ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1832.56,
+          "end": 1832.7,
+          "word": " mà",
+          "probability": 0.86865234375
+        },
+        {
+          "start": 1832.7,
+          "end": 1833.12,
+          "word": " vừa",
+          "probability": 0.9775390625
+        },
+        {
+          "start": 1833.12,
+          "end": 1833.3,
+          "word": " bị",
+          "probability": 0.32470703125
+        },
+        {
+          "start": 1833.3,
+          "end": 1833.86,
+          "word": " không",
+          "probability": 0.88134765625
+        },
+        {
+          "start": 1833.86,
+          "end": 1834.06,
+          "word": " bị",
+          "probability": 0.98828125
+        },
+        {
+          "start": 1834.06,
+          "end": 1834.3,
+          "word": " chặn",
+          "probability": 0.9666341145833334
+        },
+        {
+          "start": 1834.3,
+          "end": 1834.56,
+          "word": " và",
+          "probability": 0.97021484375
+        },
+        {
+          "start": 1834.56,
+          "end": 1834.82,
+          "word": " vẫn",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 1834.82,
+          "end": 1834.98,
+          "word": " có",
+          "probability": 0.97998046875
+        },
+        {
+          "start": 1834.98,
+          "end": 1835.18,
+          "word": " cấu",
+          "probability": 0.98583984375
+        },
+        {
+          "start": 1835.18,
+          "end": 1835.38,
+          "word": " trúc",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 1835.38,
+          "end": 1835.54,
+          "word": " ạ",
+          "probability": 0.6607666015625
+        },
+        {
+          "start": 1835.54,
+          "end": 1836.08,
+          "word": " thì",
+          "probability": 0.7158203125
+        },
+        {
+          "start": 1836.08,
+          "end": 1836.3,
+          "word": " nó",
+          "probability": 0.9658203125
+        },
+        {
+          "start": 1836.3,
+          "end": 1836.78,
+          "word": " nhân",
+          "probability": 0.9638671875
+        },
+        {
+          "start": 1836.78,
+          "end": 1837.02,
+          "word": " đôi",
+          "probability": 0.967529296875
+        },
+        {
+          "start": 1837.02,
+          "end": 1837.14,
+          "word": " với",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 1837.14,
+          "end": 1837.32,
+          "word": " nhau",
+          "probability": 0.997802734375
+        },
+        {
+          "start": 1837.32,
+          "end": 1837.48,
+          "word": " ạ",
+          "probability": 0.76123046875
+        },
+        {
+          "start": 1837.48,
+          "end": 1837.62,
+          "word": " thì",
+          "probability": 0.775390625
+        },
+        {
+          "start": 1837.62,
+          "end": 1837.76,
+          "word": " nó",
+          "probability": 0.99267578125
+        },
+        {
+          "start": 1837.76,
+          "end": 1837.92,
+          "word": " sẽ",
+          "probability": 0.9921875
+        },
+        {
+          "start": 1837.92,
+          "end": 1838.1,
+          "word": " có",
+          "probability": 0.99560546875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 17,
+      "seek": 2914,
+      "start": 1838.1,
+      "end": 1845.33,
+      "text": "thông số là cao nhất ạ còn các mô hình còn lại thì là hầu hết là do bị nó được vượt qua từng lửa là",
+      "avg_logprob": -0.20123922490868076,
+      "compression_ratio": 1.5444015444015444,
+      "no_speech_prob": 0.3583984375,
+      "words": [
+        {
+          "start": 1838.1,
+          "end": 1838.54,
+          "word": " thông",
+          "probability": 0.98291015625
+        },
+        {
+          "start": 1838.54,
+          "end": 1838.7,
+          "word": " số",
+          "probability": 0.998046875
+        },
+        {
+          "start": 1838.7,
+          "end": 1838.82,
+          "word": " là",
+          "probability": 0.92236328125
+        },
+        {
+          "start": 1838.82,
+          "end": 1839.04,
+          "word": " cao",
+          "probability": 0.995849609375
+        },
+        {
+          "start": 1839.04,
+          "end": 1839.16,
+          "word": " nhất",
+          "probability": 0.974609375
+        },
+        {
+          "start": 1839.16,
+          "end": 1839.34,
+          "word": " ạ",
+          "probability": 0.9072265625
+        },
+        {
+          "start": 1839.34,
+          "end": 1839.84,
+          "word": " còn",
+          "probability": 0.4423828125
+        },
+        {
+          "start": 1840.17,
+          "end": 1840.43,
+          "word": " các",
+          "probability": 0.98095703125
+        },
+        {
+          "start": 1840.43,
+          "end": 1840.73,
+          "word": " mô",
+          "probability": 0.99609375
+        },
+        {
+          "start": 1840.73,
+          "end": 1840.83,
+          "word": " hình",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 1840.83,
+          "end": 1840.97,
+          "word": " còn",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 1840.97,
+          "end": 1841.21,
+          "word": " lại",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 1841.21,
+          "end": 1841.53,
+          "word": " thì",
+          "probability": 0.9814453125
+        },
+        {
+          "start": 1841.53,
+          "end": 1841.77,
+          "word": " là",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 1841.77,
+          "end": 1842.69,
+          "word": " hầu",
+          "probability": 0.952880859375
+        },
+        {
+          "start": 1842.69,
+          "end": 1842.85,
+          "word": " hết",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 1842.85,
+          "end": 1842.97,
+          "word": " là",
+          "probability": 0.95458984375
+        },
+        {
+          "start": 1842.97,
+          "end": 1843.11,
+          "word": " do",
+          "probability": 0.68017578125
+        },
+        {
+          "start": 1843.11,
+          "end": 1843.25,
+          "word": " bị",
+          "probability": 0.88330078125
+        },
+        {
+          "start": 1843.25,
+          "end": 1844.21,
+          "word": " nó",
+          "probability": 0.818359375
+        },
+        {
+          "start": 1844.21,
+          "end": 1844.45,
+          "word": " được",
+          "probability": 0.990234375
+        },
+        {
+          "start": 1844.45,
+          "end": 1844.69,
+          "word": " vượt",
+          "probability": 0.9943033854166666
+        },
+        {
+          "start": 1844.69,
+          "end": 1844.85,
+          "word": " qua",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 1844.85,
+          "end": 1845.09,
+          "word": " từng",
+          "probability": 0.91357421875
+        },
+        {
+          "start": 1845.09,
+          "end": 1845.21,
+          "word": " lửa",
+          "probability": 0.9334309895833334
+        },
+        {
+          "start": 1845.21,
+          "end": 1845.33,
+          "word": " là",
+          "probability": 0.96240234375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 18,
+      "seek": 2914,
+      "start": 1845.33,
+      "end": 1849.7,
+      "text": "do là nó sinh ra dữ liệu nhiếu ạ đấy thì cái chỗ đấy em để mấy người phân tích nhiều ở đây thì",
+      "avg_logprob": -0.20123922490868076,
+      "compression_ratio": 1.5444015444015444,
+      "no_speech_prob": 0.3583984375,
+      "words": [
+        {
+          "start": 1845.33,
+          "end": 1845.63,
+          "word": " do",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 1845.63,
+          "end": 1845.77,
+          "word": " là",
+          "probability": 0.953125
+        },
+        {
+          "start": 1845.77,
+          "end": 1845.91,
+          "word": " nó",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 1845.91,
+          "end": 1846.13,
+          "word": " sinh",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 1846.13,
+          "end": 1846.23,
+          "word": " ra",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 1846.23,
+          "end": 1846.43,
+          "word": " dữ",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 1846.43,
+          "end": 1846.55,
+          "word": " liệu",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1846.55,
+          "end": 1846.79,
+          "word": " nhiếu",
+          "probability": 0.6617431640625
+        },
+        {
+          "start": 1846.79,
+          "end": 1847.05,
+          "word": " ạ",
+          "probability": 0.968994140625
+        },
+        {
+          "start": 1847.52,
+          "end": 1847.96,
+          "word": " đấy",
+          "probability": 0.09149169921875
+        },
+        {
+          "start": 1847.96,
+          "end": 1848.16,
+          "word": " thì",
+          "probability": 0.7255859375
+        },
+        {
+          "start": 1848.16,
+          "end": 1848.26,
+          "word": " cái",
+          "probability": 0.68212890625
+        },
+        {
+          "start": 1848.26,
+          "end": 1848.38,
+          "word": " chỗ",
+          "probability": 0.95703125
+        },
+        {
+          "start": 1848.38,
+          "end": 1848.5,
+          "word": " đấy",
+          "probability": 0.86669921875
+        },
+        {
+          "start": 1848.5,
+          "end": 1848.62,
+          "word": " em",
+          "probability": 0.7958984375
+        },
+        {
+          "start": 1848.62,
+          "end": 1848.76,
+          "word": " để",
+          "probability": 0.206298828125
+        },
+        {
+          "start": 1848.76,
+          "end": 1848.9,
+          "word": " mấy",
+          "probability": 0.441986083984375
+        },
+        {
+          "start": 1848.9,
+          "end": 1848.98,
+          "word": " người",
+          "probability": 0.94580078125
+        },
+        {
+          "start": 1848.98,
+          "end": 1849.12,
+          "word": " phân",
+          "probability": 0.7763671875
+        },
+        {
+          "start": 1849.12,
+          "end": 1849.22,
+          "word": " tích",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 1849.22,
+          "end": 1849.4,
+          "word": " nhiều",
+          "probability": 0.873046875
+        },
+        {
+          "start": 1849.4,
+          "end": 1849.52,
+          "word": " ở",
+          "probability": 0.46484375
+        },
+        {
+          "start": 1849.52,
+          "end": 1849.56,
+          "word": " đây",
+          "probability": 0.99609375
+        },
+        {
+          "start": 1849.56,
+          "end": 1849.7,
+          "word": " thì",
+          "probability": 0.8232421875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 19,
+      "seek": 4640,
+      "start": 1850.36,
+      "end": 1866.66,
+      "text": "Vâng, em bị đưa thiếu, em sẽ chú ý hơn.",
+      "avg_logprob": -0.543526794229235,
+      "compression_ratio": 1.1464968152866242,
+      "no_speech_prob": 0.34326171875,
+      "words": [
+        {
+          "start": 1850.36,
+          "end": 1850.76,
+          "word": " Vâng,",
+          "probability": 0.4023640950520833
+        },
+        {
+          "start": 1850.82,
+          "end": 1851.02,
+          "word": " em",
+          "probability": 0.86962890625
+        },
+        {
+          "start": 1851.02,
+          "end": 1851.78,
+          "word": " bị",
+          "probability": 0.058685302734375
+        },
+        {
+          "start": 1851.78,
+          "end": 1856.5,
+          "word": " đưa",
+          "probability": 0.8173828125
+        },
+        {
+          "start": 1857.71,
+          "end": 1858.79,
+          "word": " thiếu,",
+          "probability": 0.75830078125
+        },
+        {
+          "start": 1865.58,
+          "end": 1865.96,
+          "word": " em",
+          "probability": 0.418701171875
+        },
+        {
+          "start": 1865.96,
+          "end": 1866.16,
+          "word": " sẽ",
+          "probability": 0.89013671875
+        },
+        {
+          "start": 1866.16,
+          "end": 1866.4,
+          "word": " chú",
+          "probability": 0.989013671875
+        },
+        {
+          "start": 1866.4,
+          "end": 1866.46,
+          "word": " ý",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1866.46,
+          "end": 1866.66,
+          "word": " hơn.",
+          "probability": 0.86669921875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 20,
+      "seek": 4640,
+      "start": 1866.78,
+      "end": 1873.3,
+      "text": "Em nhớ cái này giống như của anh Nam, mình đưa lên cái gì nó phải hỗ trợ ra cái quan điểm của mình.",
+      "avg_logprob": -0.543526794229235,
+      "compression_ratio": 1.1464968152866242,
+      "no_speech_prob": 0.34326171875,
+      "words": [
+        {
+          "start": 1866.78,
+          "end": 1867.18,
+          "word": " Em",
+          "probability": 0.1087646484375
+        },
+        {
+          "start": 1867.18,
+          "end": 1867.52,
+          "word": " nhớ",
+          "probability": 0.74267578125
+        },
+        {
+          "start": 1867.52,
+          "end": 1868.0,
+          "word": " cái",
+          "probability": 0.29931640625
+        },
+        {
+          "start": 1868.0,
+          "end": 1868.18,
+          "word": " này",
+          "probability": 0.94580078125
+        },
+        {
+          "start": 1868.18,
+          "end": 1868.42,
+          "word": " giống",
+          "probability": 0.6273193359375
+        },
+        {
+          "start": 1868.42,
+          "end": 1868.54,
+          "word": " như",
+          "probability": 0.72607421875
+        },
+        {
+          "start": 1868.54,
+          "end": 1868.66,
+          "word": " của",
+          "probability": 0.69482421875
+        },
+        {
+          "start": 1868.66,
+          "end": 1868.76,
+          "word": " anh",
+          "probability": 0.9736328125
+        },
+        {
+          "start": 1868.76,
+          "end": 1868.94,
+          "word": " Nam,",
+          "probability": 0.78955078125
+        },
+        {
+          "start": 1869.12,
+          "end": 1869.48,
+          "word": " mình",
+          "probability": 0.34130859375
+        },
+        {
+          "start": 1869.48,
+          "end": 1869.76,
+          "word": " đưa",
+          "probability": 0.979736328125
+        },
+        {
+          "start": 1869.76,
+          "end": 1869.82,
+          "word": " lên",
+          "probability": 0.58056640625
+        },
+        {
+          "start": 1869.82,
+          "end": 1869.96,
+          "word": " cái",
+          "probability": 0.96484375
+        },
+        {
+          "start": 1869.96,
+          "end": 1870.12,
+          "word": " gì",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 1870.12,
+          "end": 1870.32,
+          "word": " nó",
+          "probability": 0.326416015625
+        },
+        {
+          "start": 1870.32,
+          "end": 1870.7,
+          "word": " phải",
+          "probability": 0.43310546875
+        },
+        {
+          "start": 1870.7,
+          "end": 1870.96,
+          "word": " hỗ",
+          "probability": 0.9228515625
+        },
+        {
+          "start": 1870.96,
+          "end": 1871.06,
+          "word": " trợ",
+          "probability": 0.920166015625
+        },
+        {
+          "start": 1871.06,
+          "end": 1871.22,
+          "word": " ra",
+          "probability": 0.3544921875
+        },
+        {
+          "start": 1871.22,
+          "end": 1871.34,
+          "word": " cái",
+          "probability": 0.6474609375
+        },
+        {
+          "start": 1871.34,
+          "end": 1872.46,
+          "word": " quan",
+          "probability": 0.9833984375
+        },
+        {
+          "start": 1872.86,
+          "end": 1873.06,
+          "word": " điểm",
+          "probability": 0.989990234375
+        },
+        {
+          "start": 1873.06,
+          "end": 1873.14,
+          "word": " của",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 1873.14,
+          "end": 1873.3,
+          "word": " mình.",
+          "probability": 0.99365234375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 21,
+      "seek": 6672,
+      "start": 1876.7,
+      "end": 1878.78,
+      "text": "Phần trình bày của em đến đây kết thúc ạ.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1876.7,
+          "end": 1877.06,
+          "word": " Phần",
+          "probability": 0.5252685546875
+        },
+        {
+          "start": 1877.06,
+          "end": 1877.42,
+          "word": " trình",
+          "probability": 0.9677734375
+        },
+        {
+          "start": 1877.42,
+          "end": 1877.6,
+          "word": " bày",
+          "probability": 0.993896484375
+        },
+        {
+          "start": 1877.6,
+          "end": 1877.66,
+          "word": " của",
+          "probability": 0.9150390625
+        },
+        {
+          "start": 1877.66,
+          "end": 1877.88,
+          "word": " em",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 1877.88,
+          "end": 1878.22,
+          "word": " đến",
+          "probability": 0.54296875
+        },
+        {
+          "start": 1878.22,
+          "end": 1878.32,
+          "word": " đây",
+          "probability": 0.900390625
+        },
+        {
+          "start": 1878.32,
+          "end": 1878.52,
+          "word": " kết",
+          "probability": 0.81982421875
+        },
+        {
+          "start": 1878.52,
+          "end": 1878.64,
+          "word": " thúc",
+          "probability": 0.996337890625
+        },
+        {
+          "start": 1878.64,
+          "end": 1878.78,
+          "word": " ạ.",
+          "probability": 0.6414794921875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 22,
+      "seek": 6672,
+      "start": 1879.54,
+      "end": 1882.56,
+      "text": "Em vẫn muốn em có một ví dụ về kết quả thực tế của em.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1879.54,
+          "end": 1879.9,
+          "word": " Em",
+          "probability": 0.72119140625
+        },
+        {
+          "start": 1879.9,
+          "end": 1880.22,
+          "word": " vẫn",
+          "probability": 0.81787109375
+        },
+        {
+          "start": 1880.22,
+          "end": 1880.92,
+          "word": " muốn",
+          "probability": 0.97509765625
+        },
+        {
+          "start": 1880.92,
+          "end": 1881.12,
+          "word": " em",
+          "probability": 0.52197265625
+        },
+        {
+          "start": 1881.12,
+          "end": 1881.36,
+          "word": " có",
+          "probability": 0.837890625
+        },
+        {
+          "start": 1881.36,
+          "end": 1881.46,
+          "word": " một",
+          "probability": 0.319580078125
+        },
+        {
+          "start": 1881.46,
+          "end": 1881.64,
+          "word": " ví",
+          "probability": 0.84033203125
+        },
+        {
+          "start": 1881.64,
+          "end": 1881.8,
+          "word": " dụ",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 1881.8,
+          "end": 1882.08,
+          "word": " về",
+          "probability": 0.1884765625
+        },
+        {
+          "start": 1882.08,
+          "end": 1882.56,
+          "word": " kết",
+          "probability": 0.957763671875
+        },
+        {
+          "start": 1882.56,
+          "end": 1882.56,
+          "word": " quả",
+          "probability": 0.992919921875
+        },
+        {
+          "start": 1882.56,
+          "end": 1882.56,
+          "word": " thực",
+          "probability": 0.5859375
+        },
+        {
+          "start": 1882.56,
+          "end": 1882.56,
+          "word": " tế",
+          "probability": 0.7330322265625
+        },
+        {
+          "start": 1882.56,
+          "end": 1882.56,
+          "word": " của",
+          "probability": 0.67236328125
+        },
+        {
+          "start": 1882.56,
+          "end": 1882.56,
+          "word": " em.",
+          "probability": 0.0638427734375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 23,
+      "seek": 6672,
+      "start": 1882.56,
+      "end": 1884.18,
+      "text": "Ví dụ về kết quả thực tế của em.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1882.56,
+          "end": 1882.56,
+          "word": " Ví",
+          "probability": 0.391357421875
+        },
+        {
+          "start": 1882.56,
+          "end": 1882.8,
+          "word": " dụ",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 1882.8,
+          "end": 1883.08,
+          "word": " về",
+          "probability": 0.28857421875
+        },
+        {
+          "start": 1883.08,
+          "end": 1883.52,
+          "word": " kết",
+          "probability": 0.825927734375
+        },
+        {
+          "start": 1883.52,
+          "end": 1883.62,
+          "word": " quả",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 1883.62,
+          "end": 1883.72,
+          "word": " thực",
+          "probability": 0.379150390625
+        },
+        {
+          "start": 1883.72,
+          "end": 1883.86,
+          "word": " tế",
+          "probability": 0.9697265625
+        },
+        {
+          "start": 1883.86,
+          "end": 1884.08,
+          "word": " của",
+          "probability": 0.84423828125
+        },
+        {
+          "start": 1884.08,
+          "end": 1884.18,
+          "word": " em.",
+          "probability": 0.82470703125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 24,
+      "seek": 6672,
+      "start": 1884.46,
+      "end": 1889.93,
+      "text": "Ví dụ một cái chuỗi như thế này với cơ sở sinh gan.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1884.46,
+          "end": 1884.54,
+          "word": " Ví",
+          "probability": 0.3380126953125
+        },
+        {
+          "start": 1884.54,
+          "end": 1884.54,
+          "word": " dụ",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 1884.54,
+          "end": 1884.68,
+          "word": " một",
+          "probability": 0.220458984375
+        },
+        {
+          "start": 1884.68,
+          "end": 1885.26,
+          "word": " cái",
+          "probability": 0.3896484375
+        },
+        {
+          "start": 1885.26,
+          "end": 1885.56,
+          "word": " chuỗi",
+          "probability": 0.991943359375
+        },
+        {
+          "start": 1885.56,
+          "end": 1885.68,
+          "word": " như",
+          "probability": 0.8291015625
+        },
+        {
+          "start": 1885.68,
+          "end": 1885.82,
+          "word": " thế",
+          "probability": 0.93896484375
+        },
+        {
+          "start": 1885.82,
+          "end": 1886.04,
+          "word": " này",
+          "probability": 0.994140625
+        },
+        {
+          "start": 1886.04,
+          "end": 1886.78,
+          "word": " với",
+          "probability": 0.089599609375
+        },
+        {
+          "start": 1887.15,
+          "end": 1888.97,
+          "word": " cơ",
+          "probability": 0.95263671875
+        },
+        {
+          "start": 1889.37,
+          "end": 1889.47,
+          "word": " sở",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 1889.47,
+          "end": 1889.77,
+          "word": " sinh",
+          "probability": 0.779541015625
+        },
+        {
+          "start": 1889.77,
+          "end": 1889.93,
+          "word": " gan.",
+          "probability": 0.70166015625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 25,
+      "seek": 6672,
+      "start": 1890.09,
+      "end": 1893.13,
+      "text": "Một cái chuỗi như thế này.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1890.09,
+          "end": 1890.23,
+          "word": " Một",
+          "probability": 0.682373046875
+        },
+        {
+          "start": 1890.23,
+          "end": 1890.27,
+          "word": " cái",
+          "probability": 0.216552734375
+        },
+        {
+          "start": 1890.27,
+          "end": 1890.53,
+          "word": " chuỗi",
+          "probability": 0.539703369140625
+        },
+        {
+          "start": 1890.53,
+          "end": 1890.79,
+          "word": " như",
+          "probability": 0.70556640625
+        },
+        {
+          "start": 1890.79,
+          "end": 1892.85,
+          "word": " thế",
+          "probability": 0.92626953125
+        },
+        {
+          "start": 1892.85,
+          "end": 1893.13,
+          "word": " này.",
+          "probability": 0.98583984375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 26,
+      "seek": 6672,
+      "start": 1894.69,
+      "end": 1902.04,
+      "text": "Ngoài các số liệu thống kê này thì giá trị của sườn gan là nó sinh ra chuỗi.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1894.69,
+          "end": 1895.05,
+          "word": " Ngoài",
+          "probability": 0.7539876302083334
+        },
+        {
+          "start": 1895.05,
+          "end": 1895.23,
+          "word": " các",
+          "probability": 0.537109375
+        },
+        {
+          "start": 1895.23,
+          "end": 1895.91,
+          "word": " số",
+          "probability": 0.90087890625
+        },
+        {
+          "start": 1895.91,
+          "end": 1896.21,
+          "word": " liệu",
+          "probability": 0.906982421875
+        },
+        {
+          "start": 1896.21,
+          "end": 1896.55,
+          "word": " thống",
+          "probability": 0.817138671875
+        },
+        {
+          "start": 1896.55,
+          "end": 1896.67,
+          "word": " kê",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 1896.67,
+          "end": 1896.79,
+          "word": " này",
+          "probability": 0.958984375
+        },
+        {
+          "start": 1896.79,
+          "end": 1896.97,
+          "word": " thì",
+          "probability": 0.5859375
+        },
+        {
+          "start": 1896.97,
+          "end": 1898.09,
+          "word": " giá",
+          "probability": 0.73681640625
+        },
+        {
+          "start": 1900.16,
+          "end": 1900.34,
+          "word": " trị",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 1900.34,
+          "end": 1900.46,
+          "word": " của",
+          "probability": 0.9560546875
+        },
+        {
+          "start": 1900.46,
+          "end": 1901.22,
+          "word": " sườn",
+          "probability": 0.640625
+        },
+        {
+          "start": 1901.22,
+          "end": 1901.38,
+          "word": " gan",
+          "probability": 0.90966796875
+        },
+        {
+          "start": 1901.38,
+          "end": 1901.46,
+          "word": " là",
+          "probability": 0.3359375
+        },
+        {
+          "start": 1901.46,
+          "end": 1901.56,
+          "word": " nó",
+          "probability": 0.491943359375
+        },
+        {
+          "start": 1901.56,
+          "end": 1901.74,
+          "word": " sinh",
+          "probability": 0.956298828125
+        },
+        {
+          "start": 1901.74,
+          "end": 1901.82,
+          "word": " ra",
+          "probability": 0.90771484375
+        },
+        {
+          "start": 1901.82,
+          "end": 1902.04,
+          "word": " chuỗi.",
+          "probability": 0.908203125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 27,
+      "seek": 6672,
+      "start": 1902.7,
+      "end": 1903.72,
+      "text": "Chuỗi là người ta nhìn được.",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1902.7,
+          "end": 1903.06,
+          "word": " Chuỗi",
+          "probability": 0.97216796875
+        },
+        {
+          "start": 1903.06,
+          "end": 1903.12,
+          "word": " là",
+          "probability": 0.59716796875
+        },
+        {
+          "start": 1903.12,
+          "end": 1903.26,
+          "word": " người",
+          "probability": 0.79833984375
+        },
+        {
+          "start": 1903.26,
+          "end": 1903.36,
+          "word": " ta",
+          "probability": 0.9755859375
+        },
+        {
+          "start": 1903.36,
+          "end": 1903.58,
+          "word": " nhìn",
+          "probability": 0.6817626953125
+        },
+        {
+          "start": 1903.58,
+          "end": 1903.72,
+          "word": " được.",
+          "probability": 0.9638671875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 28,
+      "seek": 6672,
+      "start": 1906.11,
+      "end": 1906.53,
+      "text": "Đúng không?",
+      "avg_logprob": -0.38644365042867795,
+      "compression_ratio": 1.6431226765799256,
+      "no_speech_prob": 0.400390625,
+      "words": [
+        {
+          "start": 1906.11,
+          "end": 1906.47,
+          "word": " Đúng",
+          "probability": 0.91064453125
+        },
+        {
+          "start": 1906.47,
+          "end": 1906.53,
+          "word": " không?",
+          "probability": 0.9814453125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 29,
+      "seek": 9336,
+      "start": 1906.53,
+      "end": 1918.8,
+      "text": "Vâng, xin cho em là em kết thúc bài trình bày của em và em sẽ cố gắng chỉnh sửa để có thể đưa ra bản size tốt hơn ạ.",
+      "avg_logprob": -0.3467620433454054,
+      "compression_ratio": 1.670807453416149,
+      "no_speech_prob": 0.3330078125,
+      "words": [
+        {
+          "start": 1906.53,
+          "end": 1906.53,
+          "word": " Vâng,",
+          "probability": 0.6578776041666666
+        },
+        {
+          "start": 1910.29,
+          "end": 1912.33,
+          "word": " xin",
+          "probability": 0.6419677734375
+        },
+        {
+          "start": 1912.48,
+          "end": 1912.58,
+          "word": " cho",
+          "probability": 0.50732421875
+        },
+        {
+          "start": 1912.58,
+          "end": 1912.7,
+          "word": " em",
+          "probability": 0.96923828125
+        },
+        {
+          "start": 1912.7,
+          "end": 1912.86,
+          "word": " là",
+          "probability": 0.1575927734375
+        },
+        {
+          "start": 1912.86,
+          "end": 1913.04,
+          "word": " em",
+          "probability": 0.61962890625
+        },
+        {
+          "start": 1913.04,
+          "end": 1913.32,
+          "word": " kết",
+          "probability": 0.96142578125
+        },
+        {
+          "start": 1913.32,
+          "end": 1913.44,
+          "word": " thúc",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 1913.44,
+          "end": 1914.1,
+          "word": " bài",
+          "probability": 0.962158203125
+        },
+        {
+          "start": 1914.1,
+          "end": 1914.22,
+          "word": " trình",
+          "probability": 0.91259765625
+        },
+        {
+          "start": 1914.22,
+          "end": 1914.36,
+          "word": " bày",
+          "probability": 0.8994140625
+        },
+        {
+          "start": 1914.36,
+          "end": 1914.46,
+          "word": " của",
+          "probability": 0.94287109375
+        },
+        {
+          "start": 1914.46,
+          "end": 1914.6,
+          "word": " em",
+          "probability": 0.96240234375
+        },
+        {
+          "start": 1914.6,
+          "end": 1914.76,
+          "word": " và",
+          "probability": 0.81201171875
+        },
+        {
+          "start": 1914.76,
+          "end": 1914.86,
+          "word": " em",
+          "probability": 0.92822265625
+        },
+        {
+          "start": 1914.86,
+          "end": 1914.96,
+          "word": " sẽ",
+          "probability": 0.86669921875
+        },
+        {
+          "start": 1914.96,
+          "end": 1915.2,
+          "word": " cố",
+          "probability": 0.994873046875
+        },
+        {
+          "start": 1915.2,
+          "end": 1915.34,
+          "word": " gắng",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 1915.34,
+          "end": 1915.58,
+          "word": " chỉnh",
+          "probability": 0.752685546875
+        },
+        {
+          "start": 1915.58,
+          "end": 1915.84,
+          "word": " sửa",
+          "probability": 0.9973958333333334
+        },
+        {
+          "start": 1915.84,
+          "end": 1916.22,
+          "word": " để",
+          "probability": 0.8935546875
+        },
+        {
+          "start": 1916.22,
+          "end": 1916.46,
+          "word": " có",
+          "probability": 0.93505859375
+        },
+        {
+          "start": 1916.46,
+          "end": 1916.66,
+          "word": " thể",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 1916.66,
+          "end": 1917.78,
+          "word": " đưa",
+          "probability": 0.994140625
+        },
+        {
+          "start": 1917.78,
+          "end": 1917.9,
+          "word": " ra",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 1917.9,
+          "end": 1918.16,
+          "word": " bản",
+          "probability": 0.81640625
+        },
+        {
+          "start": 1918.16,
+          "end": 1918.3,
+          "word": " size",
+          "probability": 0.70849609375
+        },
+        {
+          "start": 1918.3,
+          "end": 1918.56,
+          "word": " tốt",
+          "probability": 0.996337890625
+        },
+        {
+          "start": 1918.56,
+          "end": 1918.66,
+          "word": " hơn",
+          "probability": 0.994140625
+        },
+        {
+          "start": 1918.66,
+          "end": 1918.8,
+          "word": " ạ.",
+          "probability": 0.650634765625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 30,
+      "seek": 9336,
+      "start": 1921.32,
+      "end": 1926.78,
+      "text": "Thầy nghĩ là những cái nó coi như là nó ngắn bọn thôi nhưng mà nó toát lên được cái mình làm cái gì và kết quả đạt được cái gì.",
+      "avg_logprob": -0.3467620433454054,
+      "compression_ratio": 1.670807453416149,
+      "no_speech_prob": 0.3330078125,
+      "words": [
+        {
+          "start": 1921.32,
+          "end": 1921.64,
+          "word": " Thầy",
+          "probability": 0.7932942708333334
+        },
+        {
+          "start": 1921.64,
+          "end": 1921.9,
+          "word": " nghĩ",
+          "probability": 0.87841796875
+        },
+        {
+          "start": 1921.9,
+          "end": 1921.98,
+          "word": " là",
+          "probability": 0.2093505859375
+        },
+        {
+          "start": 1921.98,
+          "end": 1922.12,
+          "word": " những",
+          "probability": 0.71484375
+        },
+        {
+          "start": 1922.12,
+          "end": 1922.26,
+          "word": " cái",
+          "probability": 0.931640625
+        },
+        {
+          "start": 1922.26,
+          "end": 1922.36,
+          "word": " nó",
+          "probability": 0.05023193359375
+        },
+        {
+          "start": 1922.36,
+          "end": 1922.54,
+          "word": " coi",
+          "probability": 0.60931396484375
+        },
+        {
+          "start": 1922.54,
+          "end": 1922.62,
+          "word": " như",
+          "probability": 0.7734375
+        },
+        {
+          "start": 1922.62,
+          "end": 1922.74,
+          "word": " là",
+          "probability": 0.59521484375
+        },
+        {
+          "start": 1922.74,
+          "end": 1922.92,
+          "word": " nó",
+          "probability": 0.490966796875
+        },
+        {
+          "start": 1922.92,
+          "end": 1923.16,
+          "word": " ngắn",
+          "probability": 0.844482421875
+        },
+        {
+          "start": 1923.16,
+          "end": 1923.32,
+          "word": " bọn",
+          "probability": 0.740966796875
+        },
+        {
+          "start": 1923.32,
+          "end": 1923.46,
+          "word": " thôi",
+          "probability": 0.9248046875
+        },
+        {
+          "start": 1923.46,
+          "end": 1923.6,
+          "word": " nhưng",
+          "probability": 0.708984375
+        },
+        {
+          "start": 1923.6,
+          "end": 1923.7,
+          "word": " mà",
+          "probability": 0.8271484375
+        },
+        {
+          "start": 1923.7,
+          "end": 1923.9,
+          "word": " nó",
+          "probability": 0.94677734375
+        },
+        {
+          "start": 1923.9,
+          "end": 1924.46,
+          "word": " toát",
+          "probability": 0.768310546875
+        },
+        {
+          "start": 1924.46,
+          "end": 1924.56,
+          "word": " lên",
+          "probability": 0.904296875
+        },
+        {
+          "start": 1924.56,
+          "end": 1924.68,
+          "word": " được",
+          "probability": 0.70361328125
+        },
+        {
+          "start": 1924.68,
+          "end": 1924.84,
+          "word": " cái",
+          "probability": 0.8701171875
+        },
+        {
+          "start": 1924.84,
+          "end": 1925.34,
+          "word": " mình",
+          "probability": 0.60693359375
+        },
+        {
+          "start": 1925.34,
+          "end": 1925.56,
+          "word": " làm",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 1925.56,
+          "end": 1925.66,
+          "word": " cái",
+          "probability": 0.91943359375
+        },
+        {
+          "start": 1925.66,
+          "end": 1925.8,
+          "word": " gì",
+          "probability": 0.994140625
+        },
+        {
+          "start": 1925.8,
+          "end": 1925.9,
+          "word": " và",
+          "probability": 0.6875
+        },
+        {
+          "start": 1925.9,
+          "end": 1926.06,
+          "word": " kết",
+          "probability": 0.7421875
+        },
+        {
+          "start": 1926.06,
+          "end": 1926.2,
+          "word": " quả",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 1926.2,
+          "end": 1926.44,
+          "word": " đạt",
+          "probability": 0.650146484375
+        },
+        {
+          "start": 1926.44,
+          "end": 1926.54,
+          "word": " được",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 1926.54,
+          "end": 1926.6399999999999,
+          "word": " cái",
+          "probability": 0.89794921875
+        },
+        {
+          "start": 1926.6399999999999,
+          "end": 1926.78,
+          "word": " gì.",
+          "probability": 0.998046875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 31,
+      "seek": 9336,
+      "start": 1927.05,
+      "end": 1927.33,
+      "text": "Vâng.",
+      "avg_logprob": -0.3467620433454054,
+      "compression_ratio": 1.670807453416149,
+      "no_speech_prob": 0.3330078125,
+      "words": [
+        {
+          "start": 1927.05,
+          "end": 1927.33,
+          "word": " Vâng.",
+          "probability": 0.7705891927083334
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 32,
+      "seek": 9336,
+      "start": 1928.01,
+      "end": 1928.37,
+      "text": "Đúng không?",
+      "avg_logprob": -0.3467620433454054,
+      "compression_ratio": 1.670807453416149,
+      "no_speech_prob": 0.3330078125,
+      "words": [
+        {
+          "start": 1928.01,
+          "end": 1928.33,
+          "word": " Đúng",
+          "probability": 0.828369140625
+        },
+        {
+          "start": 1928.33,
+          "end": 1928.37,
+          "word": " không?",
+          "probability": 0.9609375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 33,
+      "seek": 9336,
+      "start": 1928.57,
+      "end": 1928.83,
+      "text": "Đúng ạ.",
+      "avg_logprob": -0.3467620433454054,
+      "compression_ratio": 1.670807453416149,
+      "no_speech_prob": 0.3330078125,
+      "words": [
+        {
+          "start": 1928.57,
+          "end": 1928.79,
+          "word": " Đúng",
+          "probability": 0.784912109375
+        },
+        {
+          "start": 1928.79,
+          "end": 1928.83,
+          "word": " ạ.",
+          "probability": 0.88134765625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 34,
+      "seek": 9336,
+      "start": 1931.5,
+      "end": 1943.84,
+      "text": "Thế hướng này cũng hay, quan trọng là có thể là cái kết quả sinh ra có thể nó chưa chua nhất, chưa tốt nhưng mà nó có cái hướng phát triển.",
+      "avg_logprob": -0.3467620433454054,
+      "compression_ratio": 1.670807453416149,
+      "no_speech_prob": 0.3330078125,
+      "words": [
+        {
+          "start": 1931.5,
+          "end": 1931.82,
+          "word": " Thế",
+          "probability": 0.519775390625
+        },
+        {
+          "start": 1931.82,
+          "end": 1931.96,
+          "word": " hướng",
+          "probability": 0.70849609375
+        },
+        {
+          "start": 1931.96,
+          "end": 1932.1,
+          "word": " này",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 1932.1,
+          "end": 1932.18,
+          "word": " cũng",
+          "probability": 0.703125
+        },
+        {
+          "start": 1932.18,
+          "end": 1932.38,
+          "word": " hay,",
+          "probability": 0.96142578125
+        },
+        {
+          "start": 1932.46,
+          "end": 1933.28,
+          "word": " quan",
+          "probability": 0.490966796875
+        },
+        {
+          "start": 1933.58,
+          "end": 1933.82,
+          "word": " trọng",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 1933.82,
+          "end": 1933.92,
+          "word": " là",
+          "probability": 0.90625
+        },
+        {
+          "start": 1933.92,
+          "end": 1934.26,
+          "word": " có",
+          "probability": 0.68701171875
+        },
+        {
+          "start": 1934.26,
+          "end": 1934.42,
+          "word": " thể",
+          "probability": 0.93896484375
+        },
+        {
+          "start": 1934.42,
+          "end": 1934.5,
+          "word": " là",
+          "probability": 0.55615234375
+        },
+        {
+          "start": 1934.5,
+          "end": 1935.48,
+          "word": " cái",
+          "probability": 0.1759033203125
+        },
+        {
+          "start": 1936.27,
+          "end": 1936.79,
+          "word": " kết",
+          "probability": 0.986328125
+        },
+        {
+          "start": 1936.79,
+          "end": 1937.01,
+          "word": " quả",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 1937.01,
+          "end": 1937.71,
+          "word": " sinh",
+          "probability": 0.95068359375
+        },
+        {
+          "start": 1937.71,
+          "end": 1937.85,
+          "word": " ra",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 1937.85,
+          "end": 1937.97,
+          "word": " có",
+          "probability": 0.265869140625
+        },
+        {
+          "start": 1937.97,
+          "end": 1938.05,
+          "word": " thể",
+          "probability": 0.98828125
+        },
+        {
+          "start": 1938.05,
+          "end": 1938.15,
+          "word": " nó",
+          "probability": 0.73095703125
+        },
+        {
+          "start": 1938.15,
+          "end": 1938.37,
+          "word": " chưa",
+          "probability": 0.469482421875
+        },
+        {
+          "start": 1938.37,
+          "end": 1939.13,
+          "word": " chua",
+          "probability": 0.71630859375
+        },
+        {
+          "start": 1940.3,
+          "end": 1940.46,
+          "word": " nhất,",
+          "probability": 0.55810546875
+        },
+        {
+          "start": 1940.46,
+          "end": 1940.62,
+          "word": " chưa",
+          "probability": 0.57275390625
+        },
+        {
+          "start": 1940.62,
+          "end": 1940.82,
+          "word": " tốt",
+          "probability": 0.986572265625
+        },
+        {
+          "start": 1940.82,
+          "end": 1940.94,
+          "word": " nhưng",
+          "probability": 0.6640625
+        },
+        {
+          "start": 1940.94,
+          "end": 1941.08,
+          "word": " mà",
+          "probability": 0.97216796875
+        },
+        {
+          "start": 1941.08,
+          "end": 1941.3600000000001,
+          "word": " nó",
+          "probability": 0.9765625
+        },
+        {
+          "start": 1941.3600000000001,
+          "end": 1941.8600000000001,
+          "word": " có",
+          "probability": 0.994140625
+        },
+        {
+          "start": 1941.8600000000001,
+          "end": 1943.08,
+          "word": " cái",
+          "probability": 0.50390625
+        },
+        {
+          "start": 1943.08,
+          "end": 1943.48,
+          "word": " hướng",
+          "probability": 0.8021647135416666
+        },
+        {
+          "start": 1943.48,
+          "end": 1943.6399999999999,
+          "word": " phát",
+          "probability": 0.975830078125
+        },
+        {
+          "start": 1943.6399999999999,
+          "end": 1943.84,
+          "word": " triển.",
+          "probability": 0.9970703125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 35,
+      "seek": 12046,
+      "start": 1943.84,
+      "end": 1950.72,
+      "text": "Để ví dụ các cơ quan khác thì chỉ xin các chức luôn",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1943.84,
+          "end": 1944.38,
+          "word": " Để",
+          "probability": 0.1317596435546875
+        },
+        {
+          "start": 1948.42,
+          "end": 1948.56,
+          "word": " ví",
+          "probability": 0.193359375
+        },
+        {
+          "start": 1948.56,
+          "end": 1948.66,
+          "word": " dụ",
+          "probability": 0.978271484375
+        },
+        {
+          "start": 1948.66,
+          "end": 1948.8,
+          "word": " các",
+          "probability": 0.7099609375
+        },
+        {
+          "start": 1948.8,
+          "end": 1949.06,
+          "word": " cơ",
+          "probability": 0.4172515869140625
+        },
+        {
+          "start": 1949.06,
+          "end": 1949.1399999999999,
+          "word": " quan",
+          "probability": 0.990234375
+        },
+        {
+          "start": 1949.1399999999999,
+          "end": 1949.32,
+          "word": " khác",
+          "probability": 0.93212890625
+        },
+        {
+          "start": 1949.32,
+          "end": 1949.44,
+          "word": " thì",
+          "probability": 0.35888671875
+        },
+        {
+          "start": 1949.44,
+          "end": 1949.58,
+          "word": " chỉ",
+          "probability": 0.265625
+        },
+        {
+          "start": 1949.58,
+          "end": 1949.96,
+          "word": " xin",
+          "probability": 0.76953125
+        },
+        {
+          "start": 1949.96,
+          "end": 1950.34,
+          "word": " các",
+          "probability": 0.2880859375
+        },
+        {
+          "start": 1950.34,
+          "end": 1950.58,
+          "word": " chức",
+          "probability": 0.801025390625
+        },
+        {
+          "start": 1950.58,
+          "end": 1950.72,
+          "word": " luôn",
+          "probability": 0.48974609375
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 36,
+      "seek": 12046,
+      "start": 1950.72,
+      "end": 1952.34,
+      "text": "Cái này nó xin môn ra nữa",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1950.72,
+          "end": 1951.24,
+          "word": " Cái",
+          "probability": 0.2491607666015625
+        },
+        {
+          "start": 1951.42,
+          "end": 1951.54,
+          "word": " này",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 1951.54,
+          "end": 1951.68,
+          "word": " nó",
+          "probability": 0.71337890625
+        },
+        {
+          "start": 1951.68,
+          "end": 1951.88,
+          "word": " xin",
+          "probability": 0.900146484375
+        },
+        {
+          "start": 1951.88,
+          "end": 1952.06,
+          "word": " môn",
+          "probability": 0.16571044921875
+        },
+        {
+          "start": 1952.06,
+          "end": 1952.24,
+          "word": " ra",
+          "probability": 0.666015625
+        },
+        {
+          "start": 1952.24,
+          "end": 1952.34,
+          "word": " nữa",
+          "probability": 0.079833984375
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 37,
+      "seek": 12046,
+      "start": 1952.8,
+      "end": 1962.21,
+      "text": "Xin môn ra",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1952.8,
+          "end": 1953.16,
+          "word": " Xin",
+          "probability": 0.46549034118652344
+        },
+        {
+          "start": 1962.01,
+          "end": 1962.21,
+          "word": " môn",
+          "probability": 0.648681640625
+        },
+        {
+          "start": 1962.21,
+          "end": 1962.21,
+          "word": " ra",
+          "probability": 0.7998046875
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 38,
+      "seek": 12046,
+      "start": 1962.21,
+      "end": 1966.01,
+      "text": "Xin môn ra",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1962.21,
+          "end": 1962.79,
+          "word": " Xin",
+          "probability": 0.4435844421386719
+        },
+        {
+          "start": 1965.01,
+          "end": 1965.05,
+          "word": " môn",
+          "probability": 0.654541015625
+        },
+        {
+          "start": 1965.05,
+          "end": 1966.01,
+          "word": " ra",
+          "probability": 0.87158203125
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 39,
+      "seek": 12046,
+      "start": 1966.99,
+      "end": 1979.6399999999999,
+      "text": "Xin ra rồi",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1966.99,
+          "end": 1967.23,
+          "word": " Xin",
+          "probability": 0.4573822021484375
+        },
+        {
+          "start": 1979.4,
+          "end": 1979.54,
+          "word": " ra",
+          "probability": 0.417236328125
+        },
+        {
+          "start": 1979.54,
+          "end": 1979.6399999999999,
+          "word": " rồi",
+          "probability": 0.7470703125
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 40,
+      "seek": 12046,
+      "start": 1979.6399999999999,
+      "end": 1981.2,
+      "text": "Cái này là bạn xin xong đây",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1979.6399999999999,
+          "end": 1980.2,
+          "word": " Cái",
+          "probability": 0.437255859375
+        },
+        {
+          "start": 1980.44,
+          "end": 1980.54,
+          "word": " này",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 1980.54,
+          "end": 1980.56,
+          "word": " là",
+          "probability": 0.51318359375
+        },
+        {
+          "start": 1980.56,
+          "end": 1980.68,
+          "word": " bạn",
+          "probability": 0.70947265625
+        },
+        {
+          "start": 1980.68,
+          "end": 1980.92,
+          "word": " xin",
+          "probability": 0.4501953125
+        },
+        {
+          "start": 1980.92,
+          "end": 1981.06,
+          "word": " xong",
+          "probability": 0.5894775390625
+        },
+        {
+          "start": 1981.06,
+          "end": 1981.2,
+          "word": " đây",
+          "probability": 0.80712890625
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 41,
+      "seek": 12046,
+      "start": 1981.2,
+      "end": 1982.76,
+      "text": "Nên là có thể giúp anh thấy",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1981.2,
+          "end": 1981.58,
+          "word": " Nên",
+          "probability": 0.6297607421875
+        },
+        {
+          "start": 1981.58,
+          "end": 1981.66,
+          "word": " là",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 1981.66,
+          "end": 1981.92,
+          "word": " có",
+          "probability": 0.2154541015625
+        },
+        {
+          "start": 1981.92,
+          "end": 1982.12,
+          "word": " thể",
+          "probability": 0.9267578125
+        },
+        {
+          "start": 1982.12,
+          "end": 1982.3600000000001,
+          "word": " giúp",
+          "probability": 0.852783203125
+        },
+        {
+          "start": 1982.3600000000001,
+          "end": 1982.52,
+          "word": " anh",
+          "probability": 0.1024169921875
+        },
+        {
+          "start": 1982.52,
+          "end": 1982.76,
+          "word": " thấy",
+          "probability": 0.3671875
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 42,
+      "seek": 12046,
+      "start": 1982.76,
+      "end": 1992.4,
+      "text": "Sai trước em là em có đưa ví dụ không truyền đoạn",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1982.76,
+          "end": 1983.46,
+          "word": " Sai",
+          "probability": 0.018096923828125
+        },
+        {
+          "start": 1983.46,
+          "end": 1984.3600000000001,
+          "word": " trước",
+          "probability": 0.974609375
+        },
+        {
+          "start": 1989.82,
+          "end": 1990.26,
+          "word": " em",
+          "probability": 0.76708984375
+        },
+        {
+          "start": 1990.26,
+          "end": 1990.4,
+          "word": " là",
+          "probability": 0.71435546875
+        },
+        {
+          "start": 1990.4,
+          "end": 1990.74,
+          "word": " em",
+          "probability": 0.92138671875
+        },
+        {
+          "start": 1990.74,
+          "end": 1990.98,
+          "word": " có",
+          "probability": 0.998046875
+        },
+        {
+          "start": 1990.98,
+          "end": 1991.44,
+          "word": " đưa",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 1991.44,
+          "end": 1991.56,
+          "word": " ví",
+          "probability": 0.7705078125
+        },
+        {
+          "start": 1991.56,
+          "end": 1991.84,
+          "word": " dụ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1991.84,
+          "end": 1992.0,
+          "word": " không",
+          "probability": 0.36474609375
+        },
+        {
+          "start": 1992.0,
+          "end": 1992.26,
+          "word": " truyền",
+          "probability": 0.6061197916666666
+        },
+        {
+          "start": 1992.26,
+          "end": 1992.4,
+          "word": " đoạn",
+          "probability": 0.4224039713541667
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 43,
+      "seek": 12046,
+      "start": 1992.4,
+      "end": 1994.08,
+      "text": "Và do là em nghĩ là nó",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1992.4,
+          "end": 1992.8,
+          "word": " Và",
+          "probability": 0.490234375
+        },
+        {
+          "start": 1992.8,
+          "end": 1993.28,
+          "word": " do",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 1993.28,
+          "end": 1993.38,
+          "word": " là",
+          "probability": 0.9765625
+        },
+        {
+          "start": 1993.38,
+          "end": 1993.58,
+          "word": " em",
+          "probability": 1.0
+        },
+        {
+          "start": 1993.58,
+          "end": 1993.76,
+          "word": " nghĩ",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 1993.76,
+          "end": 1993.88,
+          "word": " là",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 1993.88,
+          "end": 1994.08,
+          "word": " nó",
+          "probability": 0.9951171875
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 44,
+      "seek": 12046,
+      "start": 1994.08,
+      "end": 1996.05,
+      "text": "Em lại cho là nó không cần tiên",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1994.08,
+          "end": 1994.68,
+          "word": " Em",
+          "probability": 0.916015625
+        },
+        {
+          "start": 1994.95,
+          "end": 1995.1100000000001,
+          "word": " lại",
+          "probability": 0.92626953125
+        },
+        {
+          "start": 1995.1100000000001,
+          "end": 1995.27,
+          "word": " cho",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 1995.27,
+          "end": 1995.41,
+          "word": " là",
+          "probability": 0.92724609375
+        },
+        {
+          "start": 1995.41,
+          "end": 1995.55,
+          "word": " nó",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 1995.55,
+          "end": 1995.71,
+          "word": " không",
+          "probability": 0.91455078125
+        },
+        {
+          "start": 1995.71,
+          "end": 1995.81,
+          "word": " cần",
+          "probability": 0.6005859375
+        },
+        {
+          "start": 1995.81,
+          "end": 1996.05,
+          "word": " tiên",
+          "probability": 0.5108642578125
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 45,
+      "seek": 12046,
+      "start": 1996.05,
+      "end": 1997.07,
+      "text": "Em không đưa vào hàng sai",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1996.05,
+          "end": 1996.15,
+          "word": " Em",
+          "probability": 0.50439453125
+        },
+        {
+          "start": 1996.15,
+          "end": 1996.37,
+          "word": " không",
+          "probability": 0.64404296875
+        },
+        {
+          "start": 1996.37,
+          "end": 1996.59,
+          "word": " đưa",
+          "probability": 0.8154296875
+        },
+        {
+          "start": 1996.59,
+          "end": 1996.65,
+          "word": " vào",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 1996.65,
+          "end": 1996.75,
+          "word": " hàng",
+          "probability": 0.61328125
+        },
+        {
+          "start": 1996.75,
+          "end": 1997.07,
+          "word": " sai",
+          "probability": 0.8671875
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 46,
+      "seek": 12046,
+      "start": 1999.25,
+      "end": 2009.27,
+      "text": "Cái này mới bị tiến rất là cao",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 1999.25,
+          "end": 1999.6100000000001,
+          "word": " Cái",
+          "probability": 0.794677734375
+        },
+        {
+          "start": 2007.69,
+          "end": 2007.83,
+          "word": " này",
+          "probability": 0.9296875
+        },
+        {
+          "start": 2007.83,
+          "end": 2007.99,
+          "word": " mới",
+          "probability": 0.22412109375
+        },
+        {
+          "start": 2007.99,
+          "end": 2008.21,
+          "word": " bị",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 2008.21,
+          "end": 2008.73,
+          "word": " tiến",
+          "probability": 0.738037109375
+        },
+        {
+          "start": 2008.73,
+          "end": 2008.87,
+          "word": " rất",
+          "probability": 0.9921875
+        },
+        {
+          "start": 2008.87,
+          "end": 2008.99,
+          "word": " là",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 2008.99,
+          "end": 2009.27,
+          "word": " cao",
+          "probability": 0.995849609375
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 47,
+      "seek": 12046,
+      "start": 2009.27,
+      "end": 2011.15,
+      "text": "Nếu mà em làm thành công",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 2009.27,
+          "end": 2009.93,
+          "word": " Nếu",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 2010.3899999999999,
+          "end": 2010.53,
+          "word": " mà",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 2010.53,
+          "end": 2010.71,
+          "word": " em",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 2010.71,
+          "end": 2010.85,
+          "word": " làm",
+          "probability": 0.90087890625
+        },
+        {
+          "start": 2010.85,
+          "end": 2010.95,
+          "word": " thành",
+          "probability": 0.978515625
+        },
+        {
+          "start": 2010.95,
+          "end": 2011.15,
+          "word": " công",
+          "probability": 0.97900390625
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 48,
+      "seek": 12046,
+      "start": 2011.15,
+      "end": 2012.55,
+      "text": "Thì em có thể đối với là",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 2011.15,
+          "end": 2011.35,
+          "word": " Thì",
+          "probability": 0.84228515625
+        },
+        {
+          "start": 2011.35,
+          "end": 2011.49,
+          "word": " em",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 2011.49,
+          "end": 2011.6100000000001,
+          "word": " có",
+          "probability": 0.46875
+        },
+        {
+          "start": 2011.6100000000001,
+          "end": 2011.85,
+          "word": " thể",
+          "probability": 0.96533203125
+        },
+        {
+          "start": 2011.85,
+          "end": 2012.17,
+          "word": " đối",
+          "probability": 0.5489501953125
+        },
+        {
+          "start": 2012.17,
+          "end": 2012.23,
+          "word": " với",
+          "probability": 0.505859375
+        },
+        {
+          "start": 2012.23,
+          "end": 2012.55,
+          "word": " là",
+          "probability": 0.78515625
+        }
+      ],
+      "temperature": 0.4
+    },
+    {
+      "id": 49,
+      "seek": 12046,
+      "start": 2012.97,
+      "end": 2014.7,
+      "text": "Là một cái côn",
+      "avg_logprob": -0.5120280670397209,
+      "compression_ratio": 1.6181229773462784,
+      "no_speech_prob": 0.59765625,
+      "words": [
+        {
+          "start": 2012.97,
+          "end": 2013.33,
+          "word": " Là",
+          "probability": 0.75
+        },
+        {
+          "start": 2014.02,
+          "end": 2014.3600000000001,
+          "word": " một",
+          "probability": 0.80126953125
+        },
+        {
+          "start": 2014.3600000000001,
+          "end": 2014.5,
+          "word": " cái",
+          "probability": 0.97021484375
+        },
+        {
+          "start": 2014.5,
+          "end": 2014.7,
+          "word": " côn",
+          "probability": 0.5816650390625
+        }
+      ],
+      "temperature": 0.4
+    }
+  ],
+  "content_hash": "f892844c0742c9a28796f95f05dd3eac16ca1bffbb81f75f97f049ce205899a5"
+}

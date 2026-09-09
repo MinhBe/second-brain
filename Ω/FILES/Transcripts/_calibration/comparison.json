@@ -1,0 +1,82 @@
+[
+  {
+    "source": "Voice 016.m4a",
+    "model": "large-v3",
+    "denoise": false,
+    "exit_code": 0,
+    "segments": 5,
+    "flagged_pct": 20.0,
+    "processing_s": 73.93696740001906,
+    "text_chars": 348
+  },
+  {
+    "source": "Voice 016.m4a",
+    "model": "large-v3",
+    "denoise": true,
+    "exit_code": 0,
+    "segments": 3,
+    "flagged_pct": 100.0,
+    "processing_s": 28.33082579995971,
+    "text_chars": 160
+  },
+  {
+    "source": "Voice 016.m4a",
+    "model": "medium",
+    "denoise": false,
+    "exit_code": 0,
+    "segments": 12,
+    "flagged_pct": 100.0,
+    "processing_s": 21.344451499986462,
+    "text_chars": 387
+  },
+  {
+    "source": "Voice 016.m4a",
+    "model": "medium",
+    "denoise": true,
+    "exit_code": 0,
+    "segments": 31,
+    "flagged_pct": 100.0,
+    "processing_s": 33.76785699999891,
+    "text_chars": 1195
+  },
+  {
+    "source": "Record thầy Lâm (2).m4a",
+    "model": "large-v3",
+    "denoise": false,
+    "exit_code": 0,
+    "segments": 72,
+    "flagged_pct": 0.0,
+    "processing_s": 58.39038029999938,
+    "text_chars": 3300
+  },
+  {
+    "source": "Record thầy Lâm (2).m4a",
+    "model": "large-v3",
+    "denoise": true,
+    "exit_code": 0,
+    "segments": 83,
+    "flagged_pct": 0.0,
+    "processing_s": 56.980628499994054,
+    "text_chars": 3327
+  },
+  {
+    "source": "Record thầy Lâm (2).m4a",
+    "model": "medium",
+    "denoise": false,
+    "exit_code": 0,
+    "segments": 58,
+    "flagged_pct": 10.34,
+    "processing_s": 42.08783340000082,
+    "text_chars": 3232
+  },
+  {
+    "source": "Record thầy Lâm (2).m4a",
+    "model": "medium",
+    "denoise": true,
+    "exit_code": 0,
+    "segments": 57,
+    "flagged_pct": 45.61,
+    "processing_s": 42.578822499956004,
+    "text_chars": 3350
+  }
+]

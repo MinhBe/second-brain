@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "files": {
+    "voice-015": {
+      "status": "asr_complete",
+      "sha256": "5f866b1fe79587979593d95803c2077d37ff0cfda66de4657e2f095fcd11c3b3",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:46:22.746903+00:00",
+      "finished": "2026-09-08T16:46:43.122109+00:00",
+      "error": ""
+    },
+    "voice-014": {
+      "status": "asr_complete",
+      "sha256": "72ed6a9158ed3558807fb5d4011503621b6aa0fd245060725afb4cd49b00cf35",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:46:43.171971+00:00",
+      "finished": "2026-09-08T16:47:10.929033+00:00",
+      "error": ""
+    },
+    "voice-016": {
+      "status": "asr_complete",
+      "sha256": "0c7a0131faaa129898ec1f89631d9f4141ec7879c1daf6696db0726c88985484",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:47:10.973478+00:00",
+      "finished": "2026-09-08T16:47:40.082598+00:00",
+      "error": ""
+    },
+    "record-thay-lam-2": {
+      "status": "asr_complete",
+      "sha256": "581b59ace51f91612d5187091ef67c46fb905d5b150461379e5c0c988457618d",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:47:40.149962+00:00",
+      "finished": "2026-09-08T16:50:32.064610+00:00",
+      "error": ""
+    },
+    "voice-009": {
+      "status": "asr_complete",
+      "sha256": "d70f2e44a8cdb16502f57e13a09cd19eb087a87d44c802a6e49aca2f84800c3e",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:50:32.122341+00:00",
+      "finished": "2026-09-08T16:55:17.944494+00:00",
+      "error": ""
+    },
+    "voice-011": {
+      "status": "asr_complete",
+      "sha256": "8253f628a2f45812f00a9d46910b75c1c6be4cb8a2caf931d734d2dbab8cb5a8",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:55:18.000425+00:00",
+      "finished": "2026-09-08T16:59:49.157698+00:00",
+      "error": ""
+    },
+    "voice-012": {
+      "status": "asr_complete",
+      "sha256": "dd0ad1d57a4754b5fcf6f472dc6259fe1a579e1ce312ff1170e6070d3e0b2067",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T16:59:49.227544+00:00",
+      "finished": "2026-09-08T17:05:27.875633+00:00",
+      "error": ""
+    },
+    "voice-013": {
+      "status": "asr_complete",
+      "sha256": "3a38f27f8a93f604ada6eb42bee928b5783d8b0ea9bcf2418fb5bbbb494155f0",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T17:05:27.944373+00:00",
+      "finished": "2026-09-08T17:11:36.119485+00:00",
+      "error": ""
+    },
+    "voice-018": {
+      "status": "asr_complete",
+      "sha256": "6cf6cb25f1eb35a13007d64fc4453daabdc1f011c302fb9d85e9aaee1b4424ca",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T17:11:36.173501+00:00",
+      "finished": "2026-09-08T17:22:40.858586+00:00",
+      "error": ""
+    },
+    "voice-010-2": {
+      "status": "duplicate",
+      "duplicate_of": "voice-010",
+      "error": "",
+      "sha256": "05da5a891e74ff38a387bb18666b1d4281b8e63522bd49617e39004b86abd576"
+    },
+    "voice-010": {
+      "status": "asr_complete",
+      "sha256": "05da5a891e74ff38a387bb18666b1d4281b8e63522bd49617e39004b86abd576",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T17:22:40.947076+00:00",
+      "finished": "2026-09-08T17:36:20.665719+00:00",
+      "error": ""
+    },
+    "recording-2": {
+      "status": "asr_complete",
+      "sha256": "9e3b3dd2028f23da915a9ac58eb17a5760cb6acfe39c5a99313cc46043760d01",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T17:36:20.751066+00:00",
+      "finished": "2026-09-08T17:58:46.980629+00:00",
+      "error": ""
+    },
+    "voice-017": {
+      "status": "asr_complete",
+      "sha256": "0efb084f7463690da15279f30d81153c30e18f9e97f446d8bd5989a393967c76",
+      "requested_config": "c5a155c843ab9e7ef33675495f7984d193a7d9c28dae95fc51b02478c68e898f",
+      "started": "2026-09-08T17:58:47.081009+00:00",
+      "finished": "2026-09-08T18:19:09.447388+00:00",
+      "error": ""
+    }
+  }
+}

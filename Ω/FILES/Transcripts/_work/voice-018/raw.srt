@@ -1,0 +1,4495 @@
+1
+00:00:00,540 --> 00:00:07,480
+không dùng thuật toán của ai đây anh thì trên này mày thấy tao thấy cái tiêu đề của mày là khác mà
+
+2
+00:00:07,480 --> 00:00:16,820
+đây anh thì là làm mấy cái thằng còn lại gan gồm gì đấy vâng thì gan nó là cái lộn gì gan là thuật
+
+3
+00:00:16,820 --> 00:00:22,920
+toán của ai đây anh nghĩa là bình thường thì sẽ là kiểu copy paste các cái câu lệnh lên thì bây giờ
+
+4
+00:00:22,920 --> 00:00:30,020
+là em sẽ chọn lấy những cái keyword mà quan trọng để có thể tập trung vào đó mà sinh ra dữ liệu
+
+5
+00:00:30,020 --> 00:00:32,900
+để kiểu làm mới bộ dữ liệu lên thôi anh
+
+6
+00:00:32,900 --> 00:00:37,320
+nghĩa là một phương pháp mà kiểu nó sinh dữ liệu nó thông minh hơn
+
+7
+00:00:37,320 --> 00:00:42,000
+thì về cơ bản là nó sẽ vượt trội hơn các phương án truyền thống chỉ đơn giản là copy paste
+
+8
+00:00:42,000 --> 00:00:45,100
+thì hiện tại thì là
+
+9
+00:00:45,600 --> 00:00:46,680
+copy paste vào đâu?
+
+10
+00:00:47,300 --> 00:00:50,000
+bây giờ có 70 câu thì đẩy lên thành hơn
+
+11
+00:00:50,000 --> 00:00:52,340
+70 câu thì mẹ à
+
+12
+00:00:52,780 --> 00:00:57,080
+nó block thì mấy trăm nghìn
+
+13
+00:00:57,080 --> 00:01:01,430
+có nghĩa là kiểu trong AI thì nó sẽ cần một lượng lớn dữ liệu ý ạ
+
+14
+00:01:01,430 --> 00:01:07,130
+Ừ, bây giờ payload mày search bừa trên mạng cũng phải mấy chục nghìn câu
+
+15
+00:01:07,130 --> 00:01:11,220
+Nhưng mà payload mà khai thác nội bộ của công ty cơ anh
+
+16
+00:01:11,220 --> 00:01:11,920
+Nghĩa là
+
+17
+00:01:11,920 --> 00:01:19,650
+Công ty nào nó chẳng như nhau, database nào thì nó ứng với query đấy chứ còn của công ty thì
+
+18
+00:01:19,650 --> 00:01:27,090
+Em tưởng là mixconfig thì kiểu công ty sẽ mixconfig riêng để kiểu có sự độc nhất để chẳng bị tấn công
+
+19
+00:01:27,090 --> 00:01:30,630
+Thế mày có hiểu FP audio đâu mà mày phải viết
+
+20
+00:01:30,630 --> 00:01:36,060
+Bây giờ ý là mày cần tao chỉ cho mày cái gì
+
+21
+00:01:36,880 --> 00:01:39,960
+Nhờ cái đấy để mày viết ra cái gì thì mày hỏi cái đấy
+
+22
+00:01:39,960 --> 00:01:41,500
+Chứ còn bây giờ nói là
+
+23
+00:01:41,500 --> 00:01:43,960
+Không viết thì chắc là chưa
+
+24
+00:01:43,960 --> 00:01:46,720
+Bởi vì là em còn sau này mày về phải xem lại
+
+25
+00:01:46,720 --> 00:01:49,940
+Vì là em cũng chưa ý thức được là
+
+26
+00:01:49,940 --> 00:01:53,200
+Một cuộc tấn công kiểu chỉ bước scanning đầu
+
+27
+00:01:53,200 --> 00:01:55,520
+Để xem lỗi ở một hệ cơ sở điểm
+
+28
+00:01:55,520 --> 00:01:57,520
+Thế ý là bây giờ ví dụ
+
+29
+00:01:57,520 --> 00:01:59,920
+Mày tạo ra cái này để làm gì
+
+30
+00:01:59,920 --> 00:02:00,780
+Tạo này
+
+31
+00:02:03,160 --> 00:02:05,140
+Thì các công ty sẽ không phải đưa
+
+32
+00:02:05,780 --> 00:02:07,480
+Phải lưu tải dữ liệu về nữa
+
+33
+00:02:07,480 --> 00:02:09,200
+Mà chỉ cần dữ liệu nội bộ thôi
+
+34
+00:02:09,200 --> 00:02:11,780
+Thì không cần phải tải thêm gì nữa
+
+35
+00:02:11,780 --> 00:02:13,460
+Ví dụ như bình thường chỉ có
+
+36
+00:02:13,460 --> 00:02:15,040
+Kiểu 60-70 mẫu
+
+37
+00:02:15,040 --> 00:02:16,660
+Là pen test tạo ra
+
+38
+00:02:16,660 --> 00:02:18,520
+Sao này chỉ có 60-70 mẫu nhỉ
+
+39
+00:02:18,520 --> 00:02:21,590
+Tại sao này chỉ có 60-70 mẫu
+
+40
+00:02:21,590 --> 00:02:22,990
+Em đang hiểu là
+
+41
+00:02:22,990 --> 00:02:24,470
+Ví dụ như là nếu như anh làm
+
+42
+00:02:24,470 --> 00:02:26,550
+Thì anh sẽ thử kiểm thử nội bộ
+
+43
+00:02:26,550 --> 00:02:29,750
+Thì anh sẽ chỉ tạo ra được một lượng
+
+44
+00:02:29,750 --> 00:02:34,630
+tầm 1% so với tổng những lượng payload bình thường mà công ty đang có
+
+45
+00:02:34,630 --> 00:02:36,360
+thì bây giờ làm nào đi?
+
+46
+00:02:36,460 --> 00:02:37,900
+tao vẫn không hiểu
+
+47
+00:02:37,900 --> 00:02:40,560
+tại vì cái trên mạng thiếu đéo như vậy
+
+48
+00:02:40,560 --> 00:02:43,520
+sau này cứ 60-70 mẫu là sao?
+
+49
+00:02:43,620 --> 00:02:46,760
+cái trên mạng thì được coi là kiểu dữ liệu cộng đồng
+
+50
+00:02:46,760 --> 00:02:49,700
+thì thường những câu lệnh đấy là đã bị chặn hết rồi
+
+51
+00:02:49,700 --> 00:02:51,680
+ai chặn?
+
+52
+00:02:51,760 --> 00:02:55,150
+các cái con Warp
+
+53
+00:02:55,150 --> 00:02:58,130
+hoặc nó sẽ tải bộ Threat Intelligence về
+
+54
+00:02:58,130 --> 00:03:03,550
+về và nó sẽ chủ động chặn các cái cái tấn công đấy. Ừ. Thì
+
+55
+00:03:03,550 --> 00:03:07,530
+bây giờ là có những cái mà tấn công đặc thù hơn ví dụ như là
+
+56
+00:03:07,530 --> 00:03:11,130
+nó không chặn hết được. Cái của mày thì tao thấy có đặc thù
+
+57
+00:03:11,130 --> 00:03:14,830
+gì đâu. Vì đang em đang hướng như thế. Thì hiện tại là mới
+
+58
+00:03:14,830 --> 00:03:18,490
+chứng minh là phương pháp của em thì ổn định hơn phương pháp
+
+59
+00:03:18,490 --> 00:03:23,220
+thì bây giờ là sẽ cần phải làm với các tất cả các tấn công
+
+60
+00:03:23,220 --> 00:03:29,310
+khác. Nhưng mà sao này sáu mươi bảy mươi lâu nhỉ? Thì
+
+61
+00:03:29,310 --> 00:03:34,040
+sau đấy nó sinh thì nó mới học được chứ
+
+62
+00:03:34,040 --> 00:03:38,820
+thì nó thấy giống dạng nào thì nó mới học
+
+63
+00:03:38,820 --> 00:03:40,540
+nó detect là cái dạng đấy
+
+64
+00:03:40,540 --> 00:03:44,040
+ý em là kiểu kể cả là lấy hết các mẫu ấy à
+
+65
+00:03:44,040 --> 00:03:46,840
+thì so với các mẫu người dùng thông thường
+
+66
+00:03:46,840 --> 00:03:51,180
+thì nó chỉ chiếm tầm khoảng dưới 10% đầu xuống
+
+67
+00:03:51,320 --> 00:03:53,820
+10% ở đâu? thông số chỗ nào ra?
+
+68
+00:03:54,080 --> 00:03:54,560
+dạ
+
+69
+00:03:54,560 --> 00:03:55,360
+thông số ở đâu?
+
+70
+00:03:55,580 --> 00:03:58,020
+các payload bình thường của người dùng ấy anh
+
+71
+00:03:58,020 --> 00:03:58,660
+là sao?
+
+72
+00:03:58,940 --> 00:04:01,040
+nghĩa là một ngày thì
+
+73
+00:04:01,040 --> 00:04:04,200
+bây lốt thông thường người dùng thì liên quan đéo đến tấn công nhỉ?
+
+74
+00:04:04,500 --> 00:04:07,900
+nghĩa là các cái truy vấn bình thường của người dùng về cơ sở dữ liệu
+
+75
+00:04:07,900 --> 00:04:12,760
+thì so với lượng bây lốt tấn công thì là sẽ ít hơn hẳn
+
+76
+00:04:12,760 --> 00:04:14,680
+ừ, thì liên quan đéo gì?
+
+77
+00:04:15,460 --> 00:04:17,520
+bây giờ mình đang cẩn trận tấn công mà
+
+78
+00:04:17,520 --> 00:04:22,320
+những thằng tấn công thì nó sẽ lấy hết, nó sẽ lấy chỉ mỗi dữ liệu người dùng
+
+79
+00:04:22,320 --> 00:04:27,700
+mà thằng học máy thì nó sẽ không, lúc đầu nó sẽ không biết đâu là tấn công
+
+80
+00:04:27,700 --> 00:04:29,080
+mình truyền vào ạ?
+
+81
+00:04:29,080 --> 00:04:30,860
+Vâng kể cả sau đấy ạ
+
+82
+00:04:30,860 --> 00:04:32,670
+Kể cả sau đấy là như nào
+
+83
+00:04:34,030 --> 00:04:35,690
+Nghĩa là khi mà đưa vào mô hình
+
+84
+00:04:35,690 --> 00:04:37,050
+Thì không để đưa thuật tấn công được
+
+85
+00:04:37,050 --> 00:04:40,130
+Phải đưa cả mẫu bình thường để nó biết đâu là mẫu cần chặn
+
+86
+00:04:40,130 --> 00:04:41,530
+Và đâu là mẫu có thể bỏ qua
+
+87
+00:04:43,940 --> 00:04:45,820
+Thì xe có những mẫu mà nó
+
+88
+00:04:46,500 --> 00:04:48,120
+Mẫu nào là mẫu cần bỏ qua
+
+89
+00:04:48,820 --> 00:04:49,240
+Nó
+
+90
+00:04:50,040 --> 00:04:51,300
+Ông này chả hiểu đéo
+
+91
+00:04:52,430 --> 00:04:53,270
+Ví dụ nha
+
+92
+00:04:53,270 --> 00:04:55,090
+Ví dụ nó thực thi trong
+
+93
+00:04:56,170 --> 00:04:56,950
+DB đúng không
+
+94
+00:04:57,670 --> 00:04:59,810
+Thì cái thằng nó cần check là
+
+95
+00:04:59,810 --> 00:05:00,630
+Cái thằng
+
+96
+00:05:01,640 --> 00:05:04,120
+thằng nào đòi thực thi
+
+97
+00:05:06,600 --> 00:05:07,360
+bình thường
+
+98
+00:05:07,360 --> 00:05:09,820
+thằng web thực thi đúng không
+
+99
+00:05:09,820 --> 00:05:12,390
+thì ông web đấy
+
+100
+00:05:12,390 --> 00:05:14,790
+thực thi là từ chức năng nào
+
+101
+00:05:14,790 --> 00:05:16,400
+ví dụ
+
+102
+00:05:16,400 --> 00:05:18,520
+như tên người dùng chẳng hạn
+
+103
+00:05:19,970 --> 00:05:21,630
+tên người dùng nó thực thi cái gì
+
+104
+00:05:21,630 --> 00:05:25,110
+nó sẽ query cái gì để nó ra
+
+105
+00:05:25,110 --> 00:05:25,890
+cái tên người dùng đó
+
+106
+00:05:25,890 --> 00:05:32,480
+mày đang chặn cái gì tao chưa hiểu
+
+107
+00:05:32,480 --> 00:05:35,320
+mày đang muốn sinh ra
+
+108
+00:05:35,320 --> 00:05:37,080
+để nhiều
+
+109
+00:05:37,080 --> 00:05:38,540
+cái payload đúng không
+
+110
+00:05:38,540 --> 00:05:44,440
+Vâng và dựa vào những cái để chặn những thằng bên ngoài thì vâng nhưng mà các em đang thấy là
+
+111
+00:05:44,440 --> 00:05:52,690
+khi bình thường là người ta cũng đã làm hết rồi kiểu không dùng nghĩa là mấy các cái câu ờ các
+
+112
+00:05:52,690 --> 00:06:02,720
+cái câu tấn công là cũng đã được lên rồi để có gì mọi người đem về làm kiểu bộ trạng riêng ý ạ ừ
+
+113
+00:06:02,720 --> 00:06:08,720
+thì nên là bây giờ ít nhất là vệ sinh là có khả năng học được những mẫu cao cấp hơn vượt lên
+
+114
+00:06:08,720 --> 00:06:17,390
+Các mẫu mã nguồn mở như thế này có những mẫu mà có khả năng tự ẩn ẩn ẩn đi các cái mục đích
+
+115
+00:06:17,390 --> 00:06:25,220
+này kiểu có những cái ký quát đặc biệt hơn để vượt qua được từng lửa thông thường là cái gì
+
+116
+00:06:25,220 --> 00:06:39,940
+đây có cái đi phương sinh em em để mới biết cái gợi ý cái đấy thì chỉ có chất lượng chỉ có từng
+
+117
+00:06:42,070 --> 00:06:47,400
+Đấy, thì thường dữ liệu nó sinh ra nó sẽ bị lẫn
+
+118
+00:06:47,400 --> 00:06:49,000
+Bây giờ cố gắng tinh chỉnh
+
+119
+00:06:52,120 --> 00:06:53,640
+Mấy cô này khai thác được rồi
+
+120
+00:06:54,800 --> 00:06:57,800
+Mấy cô này nếu như đưa vào mô hình mà không có phòng thủ gì
+
+121
+00:06:57,800 --> 00:07:01,550
+Vẫn khai thác được rồi, không dùng tường rửa gì
+
+122
+00:07:01,550 --> 00:07:06,800
+Em phải tưởng là nó không có khả năng vì nó bị chặn hết
+
+123
+00:07:06,800 --> 00:07:08,170
+Chặn cái gì?
+
+124
+00:07:08,310 --> 00:07:10,370
+Đây, bên này là kiểu đưa vào tường rửa
+
+125
+00:07:10,370 --> 00:07:11,770
+Nó bắt ru thì nó chặn luôn
+
+126
+00:07:18,100 --> 00:07:19,520
+Còn tao khẳng định luôn
+
+127
+00:07:19,920 --> 00:07:21,880
+Mấy cái máy sinh ra chắc chắn là vẫn bị chặn
+
+128
+00:07:23,020 --> 00:07:32,260
+Đối với mày vượt được đấy, nếu mà mày làm 1 con F5, 1 con quát vào, mày cho 1 con quát vào, mày thử chạy thử xem, chứng minh đi.
+
+129
+00:07:35,930 --> 00:07:38,410
+Thế ví dụ mày dùng con AI mày sinh ra được đúng không?
+
+130
+00:07:38,950 --> 00:07:45,080
+Mày sinh được thì mày phải bypass được con đấy, mày phải bypass được cái bộ chặn đấy.
+
+131
+00:07:46,740 --> 00:07:49,280
+Tại vì mày bảo là mày đặc biệt hơn chúng nó mà.
+
+132
+00:07:50,240 --> 00:07:55,500
+Mày bảo đặc biệt hơn thì những cái bộ mà sinh ra mà con này có, thì thằng khác không có đúng không?
+
+133
+00:07:55,500 --> 00:08:02,260
+đúng không ạ thì mày phiêu vào những thằng khác thì thằng khác nó phải khai thác được chỉ phiêu
+
+134
+00:08:02,260 --> 00:08:07,900
+vào con của mày thì con của mày mới chặn được thôi còn tất cả con khác nó đều phiêu qua hiểu chưa
+
+135
+00:08:08,560 --> 00:08:16,700
+Vâng cái đấy hợp ý anh cái đấy đúng em nhầm cái ý là cái đấy thì em có ý thức được thì em có làm cái
+
+136
+00:08:16,700 --> 00:08:22,880
+đấy rồi làm cái gì mày làm cái gì mày kể tao nghe mày làm cái gì ở mức các bạn nói nghĩa là em đưa
+
+137
+00:08:22,880 --> 00:08:29,280
+đưa vào nghĩa là sau mô hình con mô hình của em sau khi mà học được bộ dữ liệu mới thì chặn được
+
+138
+00:08:29,280 --> 00:08:38,560
+Còn nếu mà dùng các cái ru máu nguồn mở thì là 60 70 câu gì không Cái đấy là con một security
+
+139
+00:08:40,700 --> 00:08:50,140
+2022 bộ bộ ru xe một security 2022 máu nguồn mở trên mạng thôi thì là con con đấy thì chặn chặn
+
+140
+00:08:50,140 --> 00:08:52,140
+Thì em dùng
+
+141
+00:08:56,380 --> 00:08:58,520
+Thì đầu tiên là chứng minh là hơn được
+
+142
+00:08:59,020 --> 00:08:59,920
+Ruset trước rồi
+
+143
+00:09:08,480 --> 00:09:10,600
+Không được dùng bộ 2026 anh
+
+144
+00:09:10,600 --> 00:09:11,640
+Bởi vì là chưa ai làm
+
+145
+00:09:11,640 --> 00:09:14,440
+Thì là mọi người chỉ dùng bộ 2022
+
+146
+00:09:14,440 --> 00:09:16,120
+Nên phải dựa vào đấy để chứng minh là
+
+147
+00:09:16,120 --> 00:09:17,060
+Mình có cải thiện
+
+148
+00:09:17,060 --> 00:09:20,520
+Đương nhiên là cải thiện thì so với bây giờ
+
+149
+00:09:20,520 --> 00:09:21,340
+Là nó bị lỗi thờ
+
+150
+00:09:21,340 --> 00:09:24,220
+nhưng mà vẫn phải chứng minh là có cải thiện trước đã.
+
+151
+00:09:24,320 --> 00:09:33,060
+Mày chứng minh được là bây giờ nếu mà cho vào trong cái rule set của mày thì
+
+152
+00:09:33,540 --> 00:09:35,680
+cho vào cái mode thì nó khai thác được.
+
+153
+00:09:36,360 --> 00:09:38,160
+Đâu, cái khai thác được đâu, chụp ảnh thôi.
+
+154
+00:09:38,380 --> 00:09:40,740
+Thì đấy, ở trong cái quyển của em nhưng mà...
+
+155
+00:09:40,740 --> 00:09:41,680
+Đây, quyển của mày đây.
+
+156
+00:09:41,920 --> 00:09:44,140
+Thì nó chỉ đưa thủ số chặn thôi anh, còn...
+
+157
+00:09:44,760 --> 00:09:45,620
+Như nào, như nào?
+
+158
+00:09:45,700 --> 00:09:47,680
+Đây thì mấy cái câu mà anh đang nhìn đây anh.
+
+159
+00:09:47,860 --> 00:09:48,760
+Là nó chặn?
+
+160
+00:09:48,920 --> 00:09:51,060
+Vâng, là nó chặn còn...
+
+161
+00:09:51,060 --> 00:09:52,980
+Câu của mày đâu, câu của mày thì nó không chặn đâu.
+
+162
+00:09:52,980 --> 00:09:58,780
+Đang không để trong quyển với gạch kia nhưng mà chỉ có tầm hơn 7
+
+163
+00:10:00,180 --> 00:10:04,860
+bảy tầm mấy phần trăm là không bị chạm rồi anh nhưng mà mẫu đâu phải không
+
+164
+00:10:04,860 --> 00:10:11,120
+chạm đâu không được rồi em không đưa ở đây ạ Thế cái quyển của mày gì kia nó chỉ có thông số
+
+165
+00:10:11,120 --> 00:10:18,420
+đâu số đâu là mày chỉ ghi là bao nhiêu phần trăm á Vâng thế là ông đéo làm à vậy không làm anh không
+
+166
+00:10:18,420 --> 00:10:23,080
+Thế không có hình à? Ông nào mà nói không có hình á?
+
+167
+00:10:23,610 --> 00:10:25,110
+Như này hình gì anh?
+
+168
+00:10:25,710 --> 00:10:30,730
+Ôi địt mẹ, thằng nào nó cho mày tát cái thạc sĩ nó cũng vãi lồn thật
+
+169
+00:10:30,730 --> 00:10:36,660
+Không, em, các thầy chỉ quan tâm là mô hình AI thôi chứ không quan tâm thực tế nào
+
+170
+00:10:36,660 --> 00:10:38,800
+Thì bây giờ là em mới quan tâm thực tế
+
+171
+00:10:38,800 --> 00:10:43,860
+Còn hầu hết cả mô hình của em chỉ là toàn kiểu vẽ kiến trúc các kiểu thôi
+
+172
+00:10:43,860 --> 00:10:45,950
+Cái đấy...
+
+173
+00:10:47,250 --> 00:10:49,430
+Cái đấy trên mạng đầy, bị bệ hả?
+
+174
+00:10:49,690 --> 00:10:51,710
+Không, không, cái của em thì không có
+
+175
+00:10:51,710 --> 00:10:54,020
+Cái của em chỉ có 6 người làm thôi
+
+176
+00:10:54,020 --> 00:10:56,710
+Em cải thiện hơn người ta 1 tí
+
+177
+00:10:56,710 --> 00:10:57,410
+Chết
+
+178
+00:11:00,720 --> 00:11:05,620
+Đâu thông thố đâu
+
+179
+00:11:05,620 --> 00:11:06,240
+Được à
+
+180
+00:11:06,240 --> 00:11:07,180
+Cho xem thông thố nào
+
+181
+00:11:07,180 --> 00:11:08,240
+Đấy không
+
+182
+00:11:08,240 --> 00:11:10,700
+Đây cái đoạn tùng lửa bay
+
+183
+00:11:10,700 --> 00:11:11,940
+Bay gút
+
+184
+00:11:11,940 --> 00:11:14,690
+Đây đây gì
+
+185
+00:11:14,690 --> 00:11:15,110
+Thông
+
+186
+00:11:15,110 --> 00:11:16,250
+À đúng rồi
+
+187
+00:11:16,250 --> 00:11:17,630
+Làm sao
+
+188
+00:11:17,630 --> 00:11:18,370
+Đây đây
+
+189
+00:11:18,370 --> 00:11:21,450
+Thông thố nó như thế nào
+
+190
+00:11:21,450 --> 00:11:22,650
+Đây là cái cột mà
+
+191
+00:11:23,190 --> 00:11:24,220
+Thì bị chặn
+
+192
+00:11:24,220 --> 00:11:25,440
+Bị chặn là sao
+
+193
+00:11:25,440 --> 00:11:25,800
+Nghĩa là
+
+194
+00:11:25,800 --> 00:11:27,220
+Pilot nó bắt được
+
+195
+00:11:27,220 --> 00:11:28,540
+Là dạng tấn công
+
+196
+00:11:28,540 --> 00:11:28,880
+Thì nó
+
+197
+00:11:28,880 --> 00:11:30,160
+Không cho qua được anh
+
+198
+00:11:30,630 --> 00:11:31,810
+Nghĩa là kiểu
+
+199
+00:11:31,810 --> 00:11:32,870
+Đưa qua bộ rưu xét
+
+200
+00:11:32,870 --> 00:11:33,590
+Rồi bộ rưu xét
+
+201
+00:11:33,590 --> 00:11:34,750
+Nhận định đâu là tấn công
+
+202
+00:11:34,750 --> 00:11:35,810
+không phải tấn công đâu, không phải tấn công nha anh
+
+203
+00:11:35,810 --> 00:11:38,500
+thì là phương pháp cơ bản
+
+204
+00:11:38,500 --> 00:11:41,710
+thì đây là các dạng tấn công
+
+205
+00:11:41,710 --> 00:11:43,370
+thì chỉ có là
+
+206
+00:11:44,170 --> 00:11:46,430
+cái thằng Time với cả thằng Union
+
+207
+00:11:46,430 --> 00:11:47,670
+thì thực ra là em sinh
+
+208
+00:11:47,670 --> 00:11:49,790
+linh tinh quá nên là nó không nhận ra nó có phải
+
+209
+00:11:49,790 --> 00:11:50,730
+payload không thì nó cho qua
+
+210
+00:11:50,730 --> 00:11:53,210
+còn chỉ tập trung vào đúng 2 cái này thì là
+
+211
+00:11:53,210 --> 00:11:54,630
+thế có nghĩa là ông không tấn công như gì?
+
+212
+00:11:54,790 --> 00:11:57,330
+vâng 2 cái này thì gần như là giác vứt đi
+
+213
+00:11:57,330 --> 00:11:58,890
+chỉ tập trung vào 2 cái bên trên thôi anh
+
+214
+00:11:58,890 --> 00:12:00,030
+thế mày tấn công qua cái gì?
+
+215
+00:12:00,330 --> 00:12:03,750
+thì không tấn công qua chỉ đưa qua bộ reset để check thôi anh
+
+216
+00:12:05,510 --> 00:12:15,760
+đấy là yêu cầu đấy yêu cầu bài luận đi phải làm đúng yêu cầu yêu cầu cái lồng cái bài này mày
+
+217
+00:12:15,760 --> 00:12:19,860
+chứng minh được cái gì không thấy chả chứng minh được cái gì không chỉ chứng minh là phương pháp
+
+218
+00:12:19,860 --> 00:12:28,290
+si quần gan ưu việt hơn phương pháp mốt thế là đã là đủ đổ rồi anh còn thực tế không thì bây giờ em
+
+219
+00:12:28,290 --> 00:12:35,800
+em mới cần anh có thêm từ khóa để làm vì là cái của em nó chỉ là mô hình lý thuyết thôi
+
+220
+00:12:35,800 --> 00:12:37,220
+giờ phải đưa vào thực tế
+
+221
+00:12:37,220 --> 00:12:43,120
+thật điệt, tao thấy nó điếu thực tế kì nào luôn
+
+222
+00:12:46,670 --> 00:12:48,270
+bây giờ ví dụ nha
+
+223
+00:12:51,330 --> 00:13:00,520
+bây giờ ông nếu mà ông muốn thực tế thì ông phải gọi là có một cái file word đúng không ạ
+
+224
+00:13:00,520 --> 00:13:07,250
+và ông tự tạo một cái file word của ông sinh bằng cái key của ông
+
+225
+00:13:07,250 --> 00:13:11,210
+và ông lấy một cái Firewall cũng như thế
+
+226
+00:13:11,210 --> 00:13:13,590
+nhưng mà xinh bằng key của thằng Public
+
+227
+00:13:13,590 --> 00:13:15,450
+được chưa
+
+228
+00:13:16,300 --> 00:13:16,900
+rồi
+
+229
+00:13:18,370 --> 00:13:20,670
+xong là ông tấn công bằng
+
+230
+00:13:20,670 --> 00:13:22,710
+những cái Payload
+
+231
+00:13:22,920 --> 00:13:25,430
+mà ông nghĩ là nó bypass được
+
+232
+00:13:25,430 --> 00:13:28,880
+vào những cái Rubik's Cube kia
+
+233
+00:13:28,880 --> 00:13:29,620
+xem là nó
+
+234
+00:13:30,200 --> 00:13:31,280
+có bị chặn không
+
+235
+00:13:35,060 --> 00:13:36,590
+cái đấy thì là
+
+236
+00:13:36,590 --> 00:13:38,830
+định hướng em sẽ làm cho lần kế tiếp rồi
+
+237
+00:13:38,830 --> 00:13:41,020
+nhưng mà em đang
+
+238
+00:13:41,020 --> 00:13:43,540
+hôm nay em đang muốn hỏi là cách anh dùng AI
+
+239
+00:13:43,540 --> 00:13:53,130
+là những cái dữ liệu mà ai sinh ra ấy hoặc là anh dùng ai để nó hỗ trợ cái công đoạn nào còn cái anh
+
+240
+00:13:53,130 --> 00:13:59,210
+cái anh kể là đây sẽ là lần là ý là yêu cầu tiếp theo em cần phải làm cái lần thạc sĩ này chỉ là
+
+241
+00:13:59,210 --> 00:14:05,130
+coi như là đề xuất là thằng sinh quân chỉ đơn giản là một luật toán của khẳng vượt trội hơn
+
+242
+00:14:05,130 --> 00:14:12,010
+hơn với các thuật toán truyền thống. Thuật toán truyền thống là cái SMOTE mà em nói đi anh.
+
+243
+00:14:13,390 --> 00:14:20,190
+SMOTE thì nó làm gì? Nó sẽ nội suy nghĩa là nó cứ ghép ghép từ thôi. Đầu tiên là nó chọn những cái
+
+244
+00:14:20,190 --> 00:14:25,990
+keyword mà xuất hiện nhiều. Ví dụ như là trong một câu mà nó có các từ như kiểu select hoặc là
+
+245
+00:14:27,090 --> 00:14:32,320
+benchmark thì nó có thể xuất hiện nhiều. Nó nghĩ là đây là những từ key. Sau đó nó sẽ cố gắng sao
+
+246
+00:14:32,320 --> 00:14:40,040
+đào hết cái đồng đề lên rồi đưa qua một bộ lọc chính là bộ reset của thằng nó bộ reset của một
+
+247
+00:14:40,040 --> 00:14:45,540
+thằng tường lửa Nếu mà nó bị chặn và bị coi là tấn công và kiểu có giải thích thì nó sẽ coi như
+
+248
+00:14:45,540 --> 00:14:51,480
+đấy là một câu Payload chuẩn thì nó sẽ làm dầu bộ dữ liệu lên kiểu đấy nó kiểu xếp hình kiểm tra có
+
+249
+00:14:51,480 --> 00:14:57,100
+phải tấn công không Nếu như đúng thì nó sẽ làm dầu cái đồng đề lên này bằng những cái câu lệnh đã bị
+
+250
+00:14:57,100 --> 00:15:03,950
+bị chặn có có có dấu hiệu có khả năng bị chặn thì mục tiêu của họ chỉ đơn giản là có rất ít dữ liệu
+
+251
+00:15:03,950 --> 00:15:09,780
+giờ làm nào mà học thật kỳ cái đồng dữ liệu đấy kiểu học học về đây thì đấy là phương pháp cũ thì
+
+252
+00:15:09,780 --> 00:15:15,640
+chủ đích của bọn nó là khiến cho mô hình kiểu những cái công ty nào mà nghèo nghèo mà không có khả năng
+
+253
+00:15:15,640 --> 00:15:23,420
+thuê các cái tường lửa xị hoặc là các cái chức năng xị thì sẽ phải dùng cách đấy thì em vẫn dùng
+
+254
+00:15:24,740 --> 00:15:30,720
+Vâng thì bởi vì là các cái công ty đấy phải sử dụng tương lựa đều bằng phương pháp SMOTE
+
+255
+00:15:30,720 --> 00:15:40,500
+Thì em đề xuất là thêm, vẫn dùng SMOTE nhưng mà kẹp thêm cái câu lệnh của em vào để có thể là đảm bảo là có thể học hết tất cả các cái
+
+256
+00:15:41,460 --> 00:15:43,620
+Nhầm cái thuật toán của em
+
+257
+00:15:46,020 --> 00:15:53,450
+Nó sẽ kẹp song song với thằng SMOTE, một thằng là học tủ, một thằng là học những cái tấn công nó đặc biệt hơn
+
+258
+00:15:53,450 --> 00:15:56,450
+Bởi vì thường là kể cả là đưa khoảng
+
+259
+00:15:56,450 --> 00:15:57,750
+Đặc biệt hơn chỗ nào
+
+260
+00:15:59,660 --> 00:16:00,220
+Ví dụ như
+
+261
+00:16:00,220 --> 00:16:01,200
+Có nghĩa là nó tự sinh ra
+
+262
+00:16:01,200 --> 00:16:02,960
+Vâng, những cái câu
+
+263
+00:16:02,960 --> 00:16:06,000
+Ví dụ như mà một câu khai thác mà trên 200 ký tự
+
+264
+00:16:06,000 --> 00:16:09,640
+Nằm giữa những câu khai thác mà từ tầm 60-70 ký tự
+
+265
+00:16:09,640 --> 00:16:11,740
+Thì những câu 200 ký tự sẽ bị loại ngay lập tức
+
+266
+00:16:11,740 --> 00:16:15,780
+Bởi vì nó quá dài và nó quá đặc biệt so với những câu bình thường
+
+267
+00:16:16,240 --> 00:16:19,560
+Thì bây giờ là em sẽ cố gắng học mấy cái câu mà có cái
+
+268
+00:16:20,600 --> 00:16:21,960
+Kiểu thông số khác biệt như thế
+
+269
+00:16:21,960 --> 00:16:27,590
+Thì trong mô hình mà ở trên cargo hoặc là các cái bộ dữ liệu công khai
+
+270
+00:16:28,110 --> 00:16:31,450
+Thì những cái bộ dữ liệu đấy nó rơi vào khoảng tầm 10% thôi
+
+271
+00:16:31,450 --> 00:16:34,410
+Nhưng mà thường là vừa vào phát là nó sẽ bị loại ngay lập tức
+
+272
+00:16:34,410 --> 00:16:39,010
+Bởi vì nó quá là kiểu nhọn, nó kiểu một mũi nhọn ý
+
+273
+00:16:39,010 --> 00:16:40,850
+Học cái đấy nó không được tác dụng gì mà
+
+274
+00:16:42,270 --> 00:16:45,570
+Người ta chỉ quan tâm là kiểu chung chung để đảm bảo là
+
+275
+00:16:45,570 --> 00:16:48,050
+Ít nhất là chặn có thể chặn tối đa không phải chặn cái mẫu như thế
+
+276
+00:16:48,050 --> 00:16:52,480
+Thế bây giờ mày muốn hỏi ta là bình thường ta sẽ dùng cái gì?
+
+277
+00:16:52,480 --> 00:16:56,540
+Nghĩa là em cũng nhận thấy là kiểu cái này nó hơi bánh vẽ
+
+278
+00:16:56,540 --> 00:17:01,130
+Vì thực tế là cũng tường lửa bây giờ là cũng rất tiên tiến
+
+279
+00:17:01,130 --> 00:17:03,570
+Và cũng chặn gần như là 99% rồi
+
+280
+00:17:03,570 --> 00:17:06,470
+Cùng lắm là sẽ phải là mình tự custom
+
+281
+00:17:06,470 --> 00:17:08,570
+Nghĩa là anh phải chủ động kiểu khai thác
+
+282
+00:17:08,570 --> 00:17:10,650
+Khai thác dần khai thác dần rồi bắt đầu hiểu là
+
+283
+00:17:10,650 --> 00:17:13,730
+Đằng sau mô hình nó như thế nào và có khả năng lô hổng là gì
+
+284
+00:17:13,730 --> 00:17:16,190
+Thì lúc đấy mới cần nêm kiểu con người vào
+
+285
+00:17:16,190 --> 00:17:18,250
+Thì lúc đấy mới biết là mô hình sẽ bị làm sao
+
+286
+00:17:18,670 --> 00:17:21,390
+Chứ không thể là ném mấy cái đống tech này vào được
+
+287
+00:17:22,390 --> 00:17:25,690
+mong là một cái thành công thì thực tế là nó không còn nữa rồi
+
+288
+00:17:25,690 --> 00:17:29,240
+thì bây giờ là biến từ mõm thành thực tế rồi anh
+
+289
+00:17:29,240 --> 00:17:32,000
+còn lúc lúc làm là em cũng thấy
+
+290
+00:17:32,800 --> 00:17:36,120
+cũng thấy là nó hơi lý thuyết rồi
+
+291
+00:17:36,120 --> 00:17:39,640
+thì bây giờ là có hai cái
+
+292
+00:17:39,640 --> 00:17:43,020
+thì như vần cái câu nhất thì anh cũng trả rồi là
+
+293
+00:17:43,020 --> 00:17:44,400
+cái của em là nói về thực tế
+
+294
+00:17:44,400 --> 00:17:48,150
+giờ em đang muốn hiểu là nếu anh dùng AI để hỗ trợ
+
+295
+00:17:48,150 --> 00:17:49,470
+cho việc khai thác tấn công
+
+296
+00:17:49,470 --> 00:17:52,650
+thì anh sẽ sử dụng như thế nào vậy anh
+
+297
+00:17:53,170 --> 00:17:59,020
+Chứ không thể là kiểu chỉ sinh rồi ném hết tất cả vào để xem mô hình xem thằng nào vượt thì dùng
+
+298
+00:17:59,020 --> 00:18:00,860
+Em nghĩ thế nó...
+
+299
+00:18:00,860 --> 00:18:02,340
+AI giờ nó dùng như con người
+
+300
+00:18:02,340 --> 00:18:09,310
+Có nghĩa là nó tìm một cái phần trăm như bình thường mà mày bảo nó check hành vi đấy
+
+301
+00:18:09,310 --> 00:18:14,130
+Chỉ check nó sẽ check như thế nào ấy
+
+302
+00:18:14,130 --> 00:18:16,620
+À thử không cô đề sai quá
+
+303
+00:18:16,620 --> 00:18:17,700
+Ví dụ nha
+
+304
+00:18:17,700 --> 00:18:18,060
+Vâng
+
+305
+00:18:18,060 --> 00:18:22,840
+Ví dụ nó chặn nhưng mà nó chặn thiếu đi
+
+306
+00:18:27,860 --> 00:18:28,300
+Vâng
+
+307
+00:18:28,300 --> 00:18:32,660
+Các ký tự đặc biệt chẳng hạn, có hiểu không?
+
+308
+00:18:32,700 --> 00:18:35,210
+Có, cái câu SELECT mà anh nói đúng không anh?
+
+309
+00:18:35,250 --> 00:18:37,130
+Ờ, cái ký tự đặc biệt này là gì?
+
+310
+00:18:38,540 --> 00:18:42,920
+Ký tự đặc biệt thì là kiểu các ký tự encoder kiểu phần trăm hai mươi hoặc là
+
+311
+00:18:43,600 --> 00:18:47,140
+Các ký tự kiểu để ẩn cái câu lệnh truy vấn thật đi anh
+
+312
+00:18:47,140 --> 00:18:53,500
+Ờ, ký tự đặc biệt, ví dụ encode hoặc là hack đi chẳng hạn đúng không?
+
+313
+00:18:53,680 --> 00:18:53,980
+Vâng
+
+314
+00:18:53,980 --> 00:18:59,890
+Thì nó xem là cái web đấy nó chặn những cái gì, nó sẽ thử từng cái một
+
+315
+00:18:59,890 --> 00:19:05,780
+bây giờ nó sẽ thử select bị chặn đúng không ạ
+
+316
+00:19:06,420 --> 00:19:13,540
+thì nó thử select, nó thử tất cả những cái gì mà để nó phân tích hành vi
+
+317
+00:19:13,540 --> 00:19:18,740
+để nó biết được tại vì mình black box mà mình đâu có biết là suộc nó như thế nào
+
+318
+00:19:18,740 --> 00:19:26,580
+chứ nếu mà biết suộc với cả con watt nó chặn cái gì thì nó không phải thử đúng không ạ
+
+319
+00:19:26,580 --> 00:19:30,400
+bây giờ nó sẽ những cái payload có sẵn rồi
+
+320
+00:19:31,820 --> 00:19:34,920
+sql thì nó cũng hiểu là cái db đây sử dụng thế nào rồi
+
+321
+00:19:35,620 --> 00:19:44,140
+thì nó làm như con người nó tìm một cái phần trăm đấy, không chẳng được gì.
+
+322
+00:19:45,740 --> 00:19:51,110
+Nhưng mà thế nghĩa là, nghĩa là cái của em là về mặt lý thuyết là vẫn khả thi,
+
+323
+00:19:51,150 --> 00:19:57,150
+nghĩa là kiểu tạo ra hơn hàng trăm hàng nghìn câu lệnh, và đạo sử cái bộ kia nó không có.
+
+324
+00:19:57,170 --> 00:19:59,870
+Cái đấy nó, mày đút vào đâu? Tao đang hỏi là cái
+
+325
+00:20:00,000 --> 00:20:02,580
+hàng trăm hàng nghìn câu lệnh của mày nó đút vào đâu ấy?
+
+326
+00:20:02,720 --> 00:20:06,960
+Đút qua website kiểu tấn công website mạng chứ anh
+
+327
+00:20:08,920 --> 00:20:10,620
+Mày đang là phía ngăn chặn cơ mà
+
+328
+00:20:11,060 --> 00:20:15,560
+Không thì bây giờ là cái tấn công của em phải có tác dụng thì mới đưa vào trong bộ dữ liệu chứ anh
+
+329
+00:20:15,560 --> 00:20:18,470
+Thế bây giờ nếu mà kiểu chỉ đơn giản là
+
+330
+00:20:18,470 --> 00:20:20,190
+À cái thằng đéo hiểu
+
+331
+00:20:20,190 --> 00:20:23,440
+Thế bây giờ mày đã chứng minh nó có hiệu nghiệm đâu
+
+332
+00:20:23,440 --> 00:20:24,880
+Tao đang nói ở cái này thôi
+
+333
+00:20:24,880 --> 00:20:25,280
+Vâng
+
+334
+00:20:26,900 --> 00:20:28,320
+Thì bây giờ là em đang
+
+335
+00:20:36,240 --> 00:20:49,220
+bây giờ là cái này là nó chỉ chứng minh là cái xinh này hơn cái bình thường thì ta đang hỏi là
+
+336
+00:20:49,220 --> 00:20:57,320
+cái xinh này này nó sinh ra xong nó nhét vào đâu sinh ra xong nhét vào cơ sở kiểu bộ dữ liệu tấn
+
+337
+00:20:57,320 --> 00:21:03,340
+bộ dữ liệu tấn công anh để bộ dữ liệu tấn công lưu ở cái gì lưu hiện tại thì là sẽ nghĩa là dùng
+
+338
+00:21:03,340 --> 00:21:08,900
+con học máy nó lại học lại cái đồng đấy để nhận biết các cái học máy là máy chặn bằng ai à học
+
+339
+00:21:08,900 --> 00:21:14,260
+máy không nghĩa là chạy bằng thuật toán của ai không phải chạy bằng ai ai nó sẽ dùng một vài
+
+340
+00:21:14,260 --> 00:21:24,150
+thuật toán để nó học mấy cái này còn cái mẹ thằng này hiểu câu hỏi rồi có nghĩa là nha anh quát đúng
+
+341
+00:21:24,150 --> 00:21:27,310
+nó phải dựa vào những cái câu lệnh đấy
+
+342
+00:21:27,310 --> 00:21:30,770
+và khi thằng người dùng truyền cái câu lệnh đấy vào
+
+343
+00:21:31,370 --> 00:21:35,570
+nó sẽ phải lấy cái data từ những cái câu lệnh mà nó đã có sẵn rồi
+
+344
+00:21:35,990 --> 00:21:38,810
+nó check với cả câu lệnh thằng người dùng nó truyền vào
+
+345
+00:21:38,810 --> 00:21:42,300
+xem có đạt điểm bao nhiêu điểm không
+
+346
+00:21:42,300 --> 00:21:48,380
+ví dụ nó dính 5 điểm là bị cảnh báo hoặc là dính 3 điểm thì nó không bị cảnh báo
+
+347
+00:21:48,380 --> 00:21:52,320
+ví dụ thế, ngày xưa tao học web là nó sẽ là như thế
+
+348
+00:21:52,320 --> 00:21:56,940
+có nghĩa là nó sẽ tính điểm xem câu lệnh này có điểm nó có bị nguy hiểm không
+
+349
+00:21:56,940 --> 00:21:59,140
+ví dụ thế nhá
+
+350
+00:21:59,600 --> 00:22:03,080
+thì cái số lượng cái câu đấy
+
+351
+00:22:03,080 --> 00:22:04,920
+nó phải lưu vào một cái chỗ nào đấy
+
+352
+00:22:06,700 --> 00:22:08,960
+để khi mà lúc nó đánh giá
+
+353
+00:22:08,960 --> 00:22:10,860
+thì nó có cái cơ sở để nó đánh giá câu lệnh
+
+354
+00:22:10,860 --> 00:22:11,340
+chuyển vào
+
+355
+00:22:12,260 --> 00:22:14,540
+thế thì mẹ ta hỏi cái này mày sinh ra
+
+356
+00:22:14,540 --> 00:22:15,300
+mày đút vào đâu
+
+357
+00:22:15,300 --> 00:22:17,850
+em không đút vào cái của thằng WAP
+
+358
+00:22:17,850 --> 00:22:19,390
+mà đút vào cái bộ
+
+359
+00:22:19,390 --> 00:22:21,610
+mà thằng AI sẽ dùng để nó học lên
+
+360
+00:22:21,610 --> 00:22:23,650
+bố mình hiểu rồi
+
+361
+00:22:24,770 --> 00:22:33,490
+Cũng nghĩa là sẽ có hai cái, một là thằng tường lửa nó chặn theo kì, hai là thằng AI là nó chặn thì là nó cứ, nó giống kiểu thằng Cloud ấy anh.
+
+362
+00:22:33,650 --> 00:22:34,710
+Thằng AI nó chặn cái gì?
+
+363
+00:22:35,010 --> 00:22:35,230
+Vâng anh.
+
+364
+00:22:35,650 --> 00:22:40,210
+Mẹ tao bảo thằng AI nó chặn từ nãy rồi, cứ bộ sinh bộ sinh cái lồn gì, đéo hiểu quá.
+
+365
+00:22:40,790 --> 00:22:50,370
+Có nghĩa là khi mày vào thì sẽ có một con AI nó chặn, bây giờ mày đang dùng AI để chặn, quay loát với những thằng ở ngoài.
+
+366
+00:22:50,490 --> 00:22:50,890
+Rồi.
+
+367
+00:22:51,190 --> 00:22:51,770
+Đúng chưa?
+
+368
+00:22:51,970 --> 00:22:52,930
+Đúng anh, vâng.
+
+369
+00:22:54,550 --> 00:23:00,980
+đấy có nghĩa là mày cứ thằng ở ngoài nó cứ cho vào bao nhiêu câu lệnh
+
+370
+00:23:00,980 --> 00:23:04,200
+xong là nó tự trộn trong đấy lên, nó tự suy luận, nó tự học
+
+371
+00:23:04,200 --> 00:23:08,900
+để nó biết là khi thằng kia nó chuyển những câu lệnh như thế nào vào thì nó chặn cái đấy gì
+
+372
+00:23:09,600 --> 00:23:11,720
+thì những thằng khác là nó chưa dùng AI
+
+373
+00:23:13,200 --> 00:23:15,960
+còn của mày hơn chúng nó là mày dùng AI cái gì
+
+374
+00:23:16,760 --> 00:23:18,400
+thì thế thôi
+
+375
+00:23:22,100 --> 00:23:24,860
+không, cho anh anh hiểu thế nó có gì hơn
+
+376
+00:23:26,040 --> 00:23:27,900
+cứ nãy giờ em nói thì tao anh tự
+
+377
+00:23:27,900 --> 00:23:33,930
+Thế bây giờ ý mày hỏi là bây giờ tao dùng AI để làm thế nào để tấn công con AI của máy hay gì?
+
+378
+00:23:34,170 --> 00:23:36,670
+Anh dùng AI trong công việc nó như thế nào vậy anh?
+
+379
+00:23:36,770 --> 00:23:39,510
+Công việc thì cứ bảo nó làm thôi
+
+380
+00:23:40,170 --> 00:23:45,980
+Nhưng mà nếu mà kiểu như thế thì vì anh có chuyện là anh là chuyên viên cộng cấp đấy anh
+
+381
+00:23:45,980 --> 00:23:53,660
+Nhưng mà ý là chính xác là cái luồng công việc riêng của anh ấy anh thì anh sẽ phải khai thác thế nào
+
+382
+00:23:54,340 --> 00:23:58,360
+Nếu không thì ai dùng AI nó cũng thành chuyên viên tấn công được
+
+383
+00:23:58,360 --> 00:24:01,520
+ta thấy ai dùng AI thành chuyên nghiệp chấm trộm được mà
+
+384
+00:24:01,520 --> 00:24:04,960
+không, nó còn phải kiểu dựa theo mindset với cả là
+
+385
+00:24:04,960 --> 00:24:07,300
+cái kinh nghiệm cá nhân của anh nữa chứ anh
+
+386
+00:24:07,300 --> 00:24:12,720
+thì mindset thì bây giờ nó vẫn là thử và sai thôi chứ có gì đâu
+
+387
+00:24:12,720 --> 00:24:15,480
+ví dụ bây giờ bảo tấn công SQL á
+
+388
+00:24:15,480 --> 00:24:18,640
+thì còn AI nó đã học tất cả các loại tấn công
+
+389
+00:24:18,640 --> 00:24:21,640
+các loại tấn quát các thứ có thể truyền lại được rồi
+
+390
+00:24:22,590 --> 00:24:25,050
+bây giờ nó thử hành vi thôi
+
+391
+00:24:26,420 --> 00:24:29,180
+hành vi của con quát xem nó có bypass được không
+
+392
+00:24:30,320 --> 00:24:33,200
+Còn cái web của máy chạm này thì con AI nó chỉ
+
+393
+00:24:34,510 --> 00:24:39,700
+Thế bây giờ mày muốn hỏi kiểu sử dụng AI như thế nào
+
+394
+00:24:40,320 --> 00:24:45,390
+Nó rộng, biết cái gì đó, dùng cái gì hay như nào
+
+395
+00:24:46,070 --> 00:24:50,670
+Thế nếu như mà không phải Blackbox thì rao nghĩa là anh kiểm thử từ bên trong nhé
+
+396
+00:24:50,670 --> 00:24:55,590
+Anh đã được biết rồi và lead ra các kiểu gần như mình đã biết trước đáp án rồi
+
+397
+00:24:55,590 --> 00:24:58,490
+Và bây giờ phải lead ra là mô hình tùy vào những vấn đề gì
+
+398
+00:24:58,490 --> 00:25:05,660
+Có biết con là trong môi trường bình thường hay là có môi trường AI của mày?
+
+399
+00:25:06,280 --> 00:25:07,940
+Môi trường công việc bình thường thôi anh
+
+400
+00:25:07,940 --> 00:25:12,300
+Nghĩa là ví dụ như là một công ty nó khá tự tin về khả năng bảo vệ của mình
+
+401
+00:25:12,300 --> 00:25:16,100
+Và thuê anh là coi như anh biết luôn cả mã nguồn
+
+402
+00:25:16,100 --> 00:25:21,660
+Để có thể phá thêm để đảm bảo là cái attack surface nó gần có thể, ít nhất có thể
+
+403
+00:25:23,240 --> 00:25:29,840
+Thì anh sẽ làm gì thì kiểu em nghĩ là lúc đấy là chỉ có những cái nó rất đặc thù thì mới có khả năng vượt qua
+
+404
+00:25:29,840 --> 00:25:33,620
+Đúng rồi, bây giờ mình đã có ví dụ mã nguồn đúng không?
+
+405
+00:25:33,800 --> 00:25:34,040
+Vâng
+
+406
+00:25:34,040 --> 00:25:41,550
+Thì bây giờ con AI nó sẽ phân tích là trong cái mã nguồn này nó sẽ có những payload nào bị dính, được chưa?
+
+407
+00:25:41,690 --> 00:25:43,560
+Rồi, phân tích rồi
+
+408
+00:25:43,560 --> 00:25:44,200
+Hiểu không?
+
+409
+00:25:44,320 --> 00:25:44,680
+Có
+
+410
+00:25:44,680 --> 00:25:52,920
+Có nghĩa là khi mà nó review cái mã nguồn đấy, nó sẽ phân tích ra được là những payload nào sẽ dính
+
+411
+00:25:52,920 --> 00:25:53,520
+Rồi
+
+412
+00:25:54,270 --> 00:25:57,240
+Nó ghen ra những payload đã dính được chưa?
+
+413
+00:25:57,240 --> 00:26:05,820
+và nếu ở ngoài nó có 1 con quáp nữa thì nó sẽ chế cháo cây loại đi theo các cách off circuit mà nó đã biết
+
+414
+00:26:05,820 --> 00:26:07,760
+chế cháo theo cách off circuit
+
+415
+00:26:08,660 --> 00:26:10,140
+em biết là cái đó làm ẩn
+
+416
+00:26:10,140 --> 00:26:12,420
+em đang làm theo hướng này đấy
+
+417
+00:26:13,500 --> 00:26:21,580
+nó ẩn những cái mà mình chế cháo đi để truyền vào và câu lệnh nó vẫn giữ nguyên không thay đổi
+
+418
+00:26:21,580 --> 00:26:24,580
+con ở trong nó vẫn hiểu được
+
+419
+00:26:24,580 --> 00:26:26,740
+và cái con quáp nó không hiểu
+
+420
+00:26:29,540 --> 00:26:37,840
+con AI mày làm xong ấy thì nó vẫn phải dựa vào một cái con gì đấy để nó bắt những cái đấy nó bắt
+
+421
+00:26:37,840 --> 00:26:46,960
+những cái mà mày gen ra hay là mày dùng công nghệ gì mà con AI nó bắt được luôn anh cứ hiểu là em
+
+422
+00:26:46,960 --> 00:26:52,740
+kiểu em có một cái câu lệnh và câu lệnh đấy sẽ đi qua con cloud trước để nó tự đánh giá nếu như mà
+
+423
+00:26:52,740 --> 00:26:59,160
+có nguy hiểm thì nó sẽ cho bỏ qua thì nếu nhưng mà nếu như câu lệnh này nó quá tinh vi thế thì ok
+
+424
+00:26:59,160 --> 00:27:05,940
+Ok, nhưng mà làm sao để Cloud nó xử lý được dữ liệu như thế, ví dụ
+
+425
+00:27:05,940 --> 00:27:09,140
+Luộc, nghĩa là kiểu nhiều quá hay như thế nào
+
+426
+00:27:09,140 --> 00:27:15,840
+Ví dụ ta là một thằng hacker, nó bắn cả triệu request
+
+427
+00:27:16,340 --> 00:27:16,660
+Đúng rồi
+
+428
+00:27:16,660 --> 00:27:18,400
+Đúng chưa
+
+429
+00:27:18,400 --> 00:27:24,040
+Và cũng có hàng triệu thằng hacker khác, nó bắn cả triệu request
+
+430
+00:27:24,040 --> 00:27:27,010
+Thì làm sao thằng đấy nó nói được
+
+431
+00:27:27,010 --> 00:27:32,170
+Thế thì mình sẽ có những cái con AI nội bộ kiểu tự train từ đầu
+
+432
+00:27:32,170 --> 00:27:34,960
+Nghĩa là kiểu Cloud cho riêng mình
+
+433
+00:27:34,960 --> 00:27:38,360
+Tao đéo nói về cái vấn đề là con cloud nó xử lý được hay không
+
+434
+00:27:39,820 --> 00:27:43,620
+Mà là ví dụ cả khách hàng, cả người dùng
+
+435
+00:27:43,620 --> 00:27:46,220
+Như làm sao mà tất cả đều qua con cloud được
+
+436
+00:27:46,220 --> 00:27:50,400
+Ví dụ qua như thế thì cái tốc độ của website nó như thế nào
+
+437
+00:27:50,400 --> 00:27:52,070
+Rồi, hiểu
+
+438
+00:27:52,070 --> 00:27:53,570
+Hiểu không?
+
+439
+00:27:53,690 --> 00:27:53,850
+Vâng
+
+440
+00:27:53,850 --> 00:27:57,670
+Ví dụ như con tường nửa nhá
+
+441
+00:27:57,670 --> 00:27:59,650
+Con web này hà
+
+442
+00:27:59,650 --> 00:28:04,490
+Thì nó chỉ cần matching với cái gì đấy
+
+443
+00:28:04,490 --> 00:28:07,010
+Chỉ cần truyền câu lệnh vào matching với cái gì
+
+444
+00:28:07,010 --> 00:28:15,150
+thì là như kiểu là câu lệnh đến sớt luôn thì matching cái là nó loại nó sử lý rất nhanh thì
+
+445
+00:28:15,150 --> 00:28:25,260
+con ai mày xử lý là bao lâu một request hiểu không bao lâu một request thì nó sẽ hệ thống
+
+446
+00:28:25,260 --> 00:28:34,640
+vẫn hoạt động bình thường mà vẫn an toàn chứ nếu tất cả cho con AI thì nó sẽ bị vấn đề gì về lại
+
+447
+00:28:34,640 --> 00:28:47,780
+hỏi con AI xem xem nó có khả thi không còn giống bình thường luồng hoạt động thì mày muốn hỏi luồng
+
+448
+00:28:47,780 --> 00:28:53,960
+hoạt động về cái gì bây giờ mày bảo anh cứ dùng ai trong công việc như thế nào thì ai dùng nhiều cái
+
+449
+00:28:54,600 --> 00:29:02,250
+làm sao mà kể hết được em nghe nói anh mua luôn gói cao nhất mà chỉ có một mình mình dùng ấy thì
+
+450
+00:29:02,840 --> 00:29:09,280
+sao anh phải em tưởng là anh phải đầu tư lớn đấy anh phải làm gì nó cũng một lực lượng tên luôn ừ
+
+451
+00:29:09,280 --> 00:29:18,260
+bất quả ti thôi bất quả ti mà cũng dùng hết có dùng hết rồi mày hay là khiếu khiếu vẫn khiếu
+
+452
+00:29:18,260 --> 00:29:29,050
+ừ con đấy nhiều vậy nhiều nhưng vẫn không đủ bất kiểu gì mà hết được tận cái con 200
+
+453
+00:29:29,050 --> 00:29:40,420
+xe à 400 xe bây giờ mày làm một tay ghép thì mày có biết là nó làm những cái gì không ví dụ
+
+454
+00:29:42,940 --> 00:29:52,580
+nghĩa là phải làm như cái gì Ví dụ nếu mà mày tấn công thì lúc đấy là mình sẽ scan
+
+455
+00:29:52,580 --> 00:29:59,440
+in cách là đưa hàng loạt câu vào để xem là bằng tưởng em ít nhất là cũng nghĩa
+
+456
+00:30:00,450 --> 00:30:05,350
+Nghĩa là ý em là kiểu mình sẽ đưa vào rất nhiều câu lệnh thì ở mỗi câu lệnh nó sẽ trả về một cái
+
+457
+00:30:05,810 --> 00:30:10,770
+một cái dấu hiệu gì đó để mình bắt đầu suy luận ra xem là đằng sau nó sẽ hệ thống ở trong như nào
+
+458
+00:30:10,770 --> 00:30:20,880
+thế thì cái suy luận đấy thì nó dùng cái gì suy luận thì các cái dấu hiệu mình AI tổng hợp lại và mình
+
+459
+00:30:20,880 --> 00:30:27,530
+sẽ là người suy luận nó chỉ tổng hợp lại cái dấu hiệu thôi Đấy là cách mà em thấy là khả thi nhất
+
+460
+00:30:27,530 --> 00:30:31,390
+bởi vì AI nó thường nó không suy luận tốt về cái đấy
+
+461
+00:30:34,740 --> 00:30:37,080
+Nghĩa là nó sẽ suy luận theo kiểu ý tưởng số đông
+
+462
+00:30:37,080 --> 00:30:39,860
+nếu như số đông nó đúng từ đầu thì cái đấy sẽ đúng
+
+463
+00:30:42,780 --> 00:30:44,200
+AI bây giờ nó suy luận hết
+
+464
+00:30:44,940 --> 00:30:47,040
+Nhưng cái đấy là cái dùng token đấy
+
+465
+00:30:47,040 --> 00:30:52,940
+Bây giờ nó sẽ là như một thằng người bình thường
+
+466
+00:30:52,940 --> 00:30:55,280
+nhưng mà mình sẽ chuyển mindset của mình vào cho nó thôi
+
+467
+00:30:57,770 --> 00:30:58,290
+Hiểu không?
+
+468
+00:30:58,530 --> 00:31:02,630
+Có nghĩa là bây giờ ta đã biết là ví dụ
+
+469
+00:31:03,010 --> 00:31:04,610
+chỗ này là cái chỗ chuyển vào đúng không?
+
+470
+00:31:04,610 --> 00:31:07,570
+nó sẽ từ lì con ra cái chỗ đấy cho truyền vào
+
+471
+00:31:07,570 --> 00:31:10,660
+và tính khả thi của nó là truyền cái gì vào
+
+472
+00:31:10,660 --> 00:31:13,780
+truyền cái gì vào thì nó lại thử
+
+473
+00:31:13,780 --> 00:31:16,320
+nó sẽ thử và nó sẽ tự suy đoạn tiếp
+
+474
+00:31:17,860 --> 00:31:19,400
+chỗ này truyền nó bị sao
+
+475
+00:31:20,400 --> 00:31:24,320
+thế những cái đấy thì những cái suy nghĩ của nó tốn tốc cân đấy
+
+476
+00:31:27,360 --> 00:31:27,920
+hiểu không
+
+477
+00:31:28,980 --> 00:31:30,880
+và lượng kiến thức của nó nhiều
+
+478
+00:31:31,830 --> 00:31:33,810
+con AI nó sẽ cover hết lượng kiến thức
+
+479
+00:31:36,000 --> 00:31:37,420
+mình chỉ hiểu luôn thôi
+
+480
+00:31:37,420 --> 00:31:43,110
+còn lại là nó sẽ làm hết
+
+481
+00:31:43,110 --> 00:31:48,580
+Còn cái hỗ trợ của mày thì tao thấy là
+
+482
+00:31:51,080 --> 00:31:51,500
+Nghề
+
+483
+00:31:52,520 --> 00:31:54,340
+Nếu mà có một con AI ở ngoài
+
+484
+00:31:54,340 --> 00:31:55,680
+Mà dùng được vào trong
+
+485
+00:31:55,680 --> 00:31:57,520
+Cái web này thì đúng là
+
+486
+00:31:57,520 --> 00:31:58,860
+Nó ok
+
+487
+00:31:58,860 --> 00:32:01,860
+Nếu mà mày dùng AI để chạm thì đề tài ok
+
+488
+00:32:04,120 --> 00:32:05,640
+Dùng AI chứ không phải dùng
+
+489
+00:32:05,640 --> 00:32:06,440
+Thuật toán nhá
+
+490
+00:32:07,950 --> 00:32:08,810
+Thuật toán ý
+
+491
+00:32:08,810 --> 00:32:10,570
+Thuật toán thì cũng không có gì kỳ quốc
+
+492
+00:32:11,530 --> 00:32:13,190
+Đúng rồi, dùng thuật toán ý
+
+493
+00:32:13,190 --> 00:32:14,790
+Thì mày sinh ra những cái gì đúng không
+
+494
+00:32:15,310 --> 00:32:15,950
+Sinh ra
+
+495
+00:32:15,950 --> 00:32:21,440
+sinh ra nhưng mà nó cũng chỉ sinh ra gọi là những cái ký vuốt đấy thôi xong là con quá vẫn phải làm
+
+496
+00:32:21,440 --> 00:32:37,520
+nhiệm vụ con quá hiểu chưa Còn con ai nó không làm gì nó chỉ học thôi hiểu chưa đây nhé mày bảo
+
+497
+00:32:37,520 --> 00:32:49,480
+là cái gì cho xin dữ liệu không sinh ra dữ liệu đi vào đâu tao vừa hỏi mày đấy sinh dữ liệu thì
+
+498
+00:32:49,480 --> 00:32:55,600
+vẫn phải đẩy vào cái chỗ con quát để con quát khi mà mình mình truyền cái gì vào thì con quát
+
+499
+00:32:55,600 --> 00:33:02,850
+nó nhận thấy những cái dữ liệu tấn công thì nó mới ngăn chặn hiểu chưa thì đây là máy vẫn là dùng con
+
+500
+00:33:02,850 --> 00:33:12,430
+WAP thôi chứ mà chưa dùng AI khi dùng AI là nó phải suy luận suy luận trên từng câu tấn công này
+
+501
+00:33:12,430 --> 00:33:13,330
+Vâng ạ
+
+502
+00:33:13,330 --> 00:33:14,190
+Nhưng mà...
+
+503
+00:33:14,190 --> 00:33:17,030
+Thôi thì để em tự tìm hiểu
+
+504
+00:33:17,030 --> 00:33:21,070
+Con web thì nó cũng đã detect gần như hết đánh án rồi
+
+505
+00:33:24,040 --> 00:33:24,560
+Hiểu không?
+
+506
+00:33:24,660 --> 00:33:27,360
+Mày làm nào mà thiết kế cho con AI nó suy loạn ấy
+
+507
+00:33:28,440 --> 00:33:29,260
+Thì cái đấy ok
+
+508
+00:33:29,840 --> 00:33:30,960
+Cái đề tài đấy tao thấy được
+
+509
+00:33:32,690 --> 00:33:33,190
+Hiểu không?
+
+510
+00:33:33,310 --> 00:33:36,320
+Chứ còn nếu mà sinh mô hình tấn công
+
+511
+00:33:36,320 --> 00:33:37,580
+Mô hình tấn công này
+
+512
+00:33:37,580 --> 00:33:41,060
+Con AI ở ngoài thì nó cũng sinh mô hình tấn công mẹ thôi
+
+513
+00:33:42,840 --> 00:33:44,580
+Cần gì phải làm đề án
+
+514
+00:33:44,580 --> 00:33:45,960
+Cần gì phải viết báo
+
+515
+00:33:45,960 --> 00:33:49,640
+Biết báo là phải những thằng chuyên lạc bây giờ
+
+516
+00:33:50,180 --> 00:33:57,030
+Có nghĩa là sử dụng AI phân tích được mấy thằng kia nó như vào nhưng mà nó phải nhanh
+
+517
+00:33:57,030 --> 00:34:00,020
+Dùng một module bé thôi của con AI
+
+518
+00:34:00,780 --> 00:34:04,560
+Có nghĩa là một con AI nó sẽ phân tích nhiều thứ
+
+519
+00:34:04,560 --> 00:34:07,960
+Phải phân tích nhiều thứ hoặc đây chỉ cho nó phân tích SQL thôi
+
+520
+00:34:09,350 --> 00:34:15,510
+Và một câu lệnh truyền vào tối ưu cho nó là sử lý trong 0.001 giây thôi
+
+521
+00:34:15,510 --> 00:34:20,390
+Ví dụ thế thì nó sử lý một nghìn request chỉ trong một giây
+
+522
+00:34:20,390 --> 00:34:24,270
+1 triệu request, kiểu 10 giây là nó xử lý xong
+
+523
+00:34:24,270 --> 00:34:26,470
+có nghĩa là hệ thống không ảnh hưởng gì quá lớn
+
+524
+00:34:26,470 --> 00:34:27,550
+ví dụ thế đúng không
+
+525
+00:34:28,290 --> 00:34:29,680
+đấy là ý tưởng
+
+526
+00:34:29,680 --> 00:34:34,220
+còn cái sinh này thì nó vẫn dựa vào con quát của nó bắt này
+
+527
+00:34:34,220 --> 00:34:36,740
+tại vì mày sinh ra những cái dữ liệu
+
+528
+00:34:36,740 --> 00:34:37,740
+nó mới hơn, đúng không
+
+529
+00:34:38,240 --> 00:34:39,620
+sinh ra dữ liệu mới hơn
+
+530
+00:34:39,620 --> 00:34:42,640
+và những con quát trước và hệ thống chung chung
+
+531
+00:34:42,640 --> 00:34:47,620
+chưa có, thì có nghĩa là bây giờ
+
+532
+00:34:48,220 --> 00:34:49,440
+cái này
+
+533
+00:34:49,440 --> 00:34:51,830
+mày vứt cho con cloud
+
+534
+00:34:51,830 --> 00:34:54,050
+một cái file tầm khoảng 100.000
+
+535
+00:34:54,050 --> 00:34:55,550
+cái payload
+
+536
+00:34:55,550 --> 00:35:04,320
+Bảo là sinh như tao dữ liệu ra là con AI tự sinh, con cơ lao tự sinh, 5 phút là xong.
+
+537
+00:35:05,380 --> 00:35:06,660
+Cả cái đề án của mày luôn.
+
+538
+00:35:06,840 --> 00:35:15,930
+Cơ lao bây giờ nó mạnh, nó hãy chứa làm gì được tích hợp với một cái mức gì đấy của nó.
+
+539
+00:35:16,960 --> 00:35:21,140
+Nó học, xong rồi nó sinh ra kiểu gì mà nó chặn được.
+
+540
+00:35:21,540 --> 00:35:25,300
+Sử lý, vấn đề sử lý nó nhanh và nó vẫn thông minh.
+
+541
+00:35:27,180 --> 00:35:30,200
+Còn cái này là vẫn theo kỳ, ta thấy là vẫn theo kỳ.
+
+542
+00:35:30,680 --> 00:35:35,310
+Mày vứt vào trong con warp để nó tự... gọi là cái gì nhỉ?
+
+543
+00:35:36,710 --> 00:35:37,890
+Tự detect cái gì?
+
+544
+00:35:38,010 --> 00:35:38,610
+Rue set
+
+545
+00:35:38,610 --> 00:35:40,410
+Rue set bao nhiêu phần trăm thôi
+
+546
+00:35:40,890 --> 00:35:43,890
+Một khác gì nó vẫn dùng con warp đâu
+
+547
+00:35:43,890 --> 00:35:48,030
+Chứ con AI nó có nghĩ cái đoạn set đi đâu
+
+548
+00:35:48,030 --> 00:35:49,130
+Hiểu không?
+
+549
+00:35:51,160 --> 00:35:53,420
+Đấy bây giờ hướng tương lai của mày muốn làm gì?
+
+550
+00:35:54,360 --> 00:35:55,140
+Vậy là...
+
+551
+00:35:55,600 --> 00:35:56,980
+Vẫn là con này thôi
+
+552
+00:35:56,980 --> 00:35:57,920
+Vâng, nhưng mà...
+
+553
+00:35:58,340 --> 00:36:00,140
+Cả warp, sau khi mà vượt qua được warp
+
+554
+00:36:00,140 --> 00:36:02,760
+Chỗ này của em thì mới đến con AI mà anh
+
+555
+00:36:02,760 --> 00:36:03,980
+Chẳng thích thường em
+
+556
+00:36:03,980 --> 00:36:09,520
+Thế bây giờ cái hướng lớn nhất thì mày cứ làm theo ý của mày ban đầu thì có nghĩa là
+
+557
+00:36:09,520 --> 00:36:14,960
+Khi mà con này sinh ra thì nó chặn đến những cái mà con bình thường cũng có chặn được
+
+558
+00:36:14,960 --> 00:36:16,020
+Thế là được
+
+559
+00:36:16,900 --> 00:36:19,620
+Thế thôi mày lấy một cái Google Public rồi mày ghi vào
+
+560
+00:36:23,510 --> 00:36:24,550
+Và gọi là
+
+561
+00:36:24,550 --> 00:36:30,030
+Có nghĩa là khi mà thằng khác nó cho những cái câu lệnh mới vào
+
+562
+00:36:30,030 --> 00:36:31,930
+Thì con này nó sẽ tự học được đúng không ạ?
+
+563
+00:36:32,720 --> 00:36:33,160
+Đúng rồi
+
+564
+00:36:33,160 --> 00:36:39,870
+Nó hơn cái là nó phải tự học được chứ không cần thằng người dùng nó gì nữa
+
+565
+00:36:39,870 --> 00:36:41,910
+Thằng người dùng nó loại
+
+566
+00:36:42,210 --> 00:36:45,970
+Nó phải tự nhận biết xem có phải đáng để đưa vào không
+
+567
+00:36:45,970 --> 00:36:50,170
+Đúng như thế thì nó sẽ là ưu việt hơn thì nó đúng
+
+568
+00:36:50,170 --> 00:36:53,740
+Có nghĩa là những thằng bình thường là nó sẽ phải bị tấn công
+
+569
+00:36:55,030 --> 00:36:57,050
+Nó bị tấn công rồi thì nó mới biết
+
+570
+00:36:57,050 --> 00:37:03,810
+Có nghĩa là nó bị tấn công rồi thì nó mới xét cái đu là nếu mà gặp cái này thì phải chặn cho tao đúng không
+
+571
+00:37:03,810 --> 00:37:09,310
+nhưng mà dùng con của em thì chưa cần bị tấn công
+
+572
+00:37:09,310 --> 00:37:11,470
+có nguy cơ bị tấn công
+
+573
+00:37:11,470 --> 00:37:16,190
+nó nhìn ra như thế là nó đã tự biết là nó sinh ra như thế để nó chặn cho em đồ
+
+574
+00:37:16,190 --> 00:37:19,950
+đó, thế là cái tính thực tế và ưu việt hơn của nó
+
+575
+00:37:21,970 --> 00:37:22,690
+ok chưa?
+
+576
+00:37:22,910 --> 00:37:24,250
+ok, vâng, không hiểu
+
+577
+00:37:24,810 --> 00:37:33,380
+không biết người ta, người ta đang không biết là cái hôm này nói với thầy
+
+578
+00:37:37,540 --> 00:37:44,320
+Nói về thầy đi. Đấy chỉ chứng minh là cái thằng thuật toán của em nó hơn rồi các thuật toán thông thường ở đây.
+
+579
+00:37:45,450 --> 00:37:51,010
+Các thuật toán thông thường thì đánh vào kinh phí vì cái phương pháp kia nó nhanh gọn, nó không phải quá tổ kỳ.
+
+580
+00:37:51,550 --> 00:37:56,130
+Cần một file Python khoảng mấy MB là nó chạy được rồi.
+
+581
+00:37:56,690 --> 00:38:03,670
+Cái của em thì phải sinh ra một cái con mô đun nhỏ, nó tầm khoảng một ghi, nó sẽ xử lý những cái nâng cao hơn.
+
+582
+00:38:04,980 --> 00:38:11,420
+Thì là em có thuyết trình là chỉ cần 2 con kết hợp lại thì có thể bao quát được rộng hơn nữa thôi
+
+583
+00:38:12,500 --> 00:38:15,580
+Thì chỗ đấy là đủ để đố thạc sĩ hả anh?
+
+584
+00:38:15,920 --> 00:38:20,860
+Có nghĩa là hôm thuyết trình thì mà cái thuyết trình là gọi là thuyết trình
+
+585
+00:38:22,680 --> 00:38:28,560
+Là sẽ có 1 con quát bình thường và 1 phát Python chứa các cái ru
+
+586
+00:38:31,060 --> 00:38:32,380
+Ru thì không đủ
+
+587
+00:38:33,100 --> 00:38:42,800
+dữ không đủ dữ liệu dữ liệu các cái ru cộng đồng cũng chưa đủ chưa đủ báo khoát thì phải kẹt thêm
+
+588
+00:38:42,800 --> 00:38:49,740
+là sẽ phải sinh ra dữ liệu tấn công nhé mình bị tấn công rồi nó sẽ có cái dữ liệu đấy và bình thường là
+
+589
+00:38:49,740 --> 00:38:57,110
+sẽ sử dụng cái phương pháp của em để kiểu nhân bản nó lên để khiến cho cái lượng dữ liệu này nó nó dày
+
+590
+00:38:57,110 --> 00:39:02,050
+thì lúc đấy là Sengaru Set nó bao quát cái đồng đấy
+
+591
+00:39:02,050 --> 00:39:05,850
+nhưng mà set có những cái mẫu là kể cả có làm nhiều lên
+
+592
+00:39:05,850 --> 00:39:09,190
+bởi vì nó quá phức tạp, kiểu số lượng ký tự quá dài
+
+593
+00:39:09,190 --> 00:39:12,950
+thì là mô hình thường nó sẽ chủ động chặn để học nó
+
+594
+00:39:13,430 --> 00:39:15,570
+chỉ học những cái mà nó bao quát thôi
+
+595
+00:39:16,090 --> 00:39:19,050
+thì giờ sẽ là những cái mẫu đấy sẽ đưa qua con của em
+
+596
+00:39:19,050 --> 00:39:23,930
+để đảm bảo là thằng học không không thằng nào bị bỏ hết
+
+597
+00:39:23,930 --> 00:39:28,480
+đấy là hướng, gần như là hướng
+
+598
+00:39:28,480 --> 00:39:31,360
+Bởi vì là đoạn sau cũng vấn đề nhưng mà đấy là hướng của em
+
+599
+00:39:31,360 --> 00:39:36,300
+Thì em có thuyết trình thì có thể đấy là ý tưởng cũng hợp lệ cho bác
+
+600
+00:39:40,120 --> 00:39:43,780
+Thì bây giờ là muốn viết báo thì phải biến cái đống ý tưởng này
+
+601
+00:39:44,180 --> 00:39:48,100
+Thành ý nhất là phải có thực tế và phải đăng lên trên mạng để kiểm chứng
+
+602
+00:39:48,950 --> 00:39:50,230
+Thế nên là em nghĩ
+
+603
+00:39:50,230 --> 00:39:51,850
+Thực tế đi, thực tế đi
+
+604
+00:39:53,470 --> 00:39:57,930
+Thì lúc mà em làm em thấy cũng hơi bị bánh vẽ rồi
+
+605
+00:39:57,930 --> 00:40:00,000
+nên là hôm nay cần phải gặp anh để
+
+606
+00:40:00,000 --> 00:40:04,820
+biết là thực tế nhiều đề tài em là so với anh thì anh nghe nào
+
+607
+00:40:05,440 --> 00:40:10,740
+biết là hướng cần phải làm lại nếu mà làm cách cũ thì khả năng là trượt hơi cao
+
+608
+00:40:13,360 --> 00:40:17,600
+nói chung mày làm thế nào để, nói chung mày thì hiểu
+
+609
+00:40:19,420 --> 00:40:24,120
+tự nhiên là mày sẽ hiểu cái cách mà con quát nó hoạt động như thế nào
+
+610
+00:40:24,120 --> 00:40:27,220
+bình thường nó chặn như thế nào và mày tối ưu nó là cái gì
+
+611
+00:40:29,770 --> 00:40:36,170
+có hiểu con quát nó chặn như nào không em nó chặn theo ký quất kiểu hoặc là bộ ru từ trước nó đưa vào
+
+612
+00:40:36,170 --> 00:40:43,550
+rồi tôi biết là nó chặn như thế rồi chặn ký quất nhưng mà mình phải hiểu là nó xử lý nó như thế nào
+
+613
+00:40:44,030 --> 00:40:55,370
+để mình nhét con ai ai vào để nó xử lý để nó khác đéo ai cho biết nó chặn theo những từ hay là những
+
+614
+00:40:55,370 --> 00:41:07,530
+Như câu lận như thế nào đấy, nguy hiểm như thế nào, nhưng mà nó chẳng như thế nào là cái cách hoạt động ấy, cái cách hoạt động của cái quát nó như thế nào ấy, thì mày phải biết là cái luồng nó như thế nào.
+
+615
+00:41:08,390 --> 00:41:09,330
+Mày có kể được không?
+
+616
+00:41:10,810 --> 00:41:11,170
+Không.
+
+617
+00:41:12,730 --> 00:41:22,270
+Thế thì mày phải hiểu đi đã, mày phải hiểu con quát nó hoạt động như thế nào, mày phải hiểu được nó như thế nào thì mày mới tối ưu và cải tiến hơn được chứ.
+
+618
+00:41:23,050 --> 00:41:24,050
+Đó, đúng rồi.
+
+619
+00:41:24,710 --> 00:41:25,370
+Đó, thế đó.
+
+620
+00:41:36,650 --> 00:41:42,030
+Thế nếu như bây giờ thì bình thường là code select nó chặn. Nhưng bây giờ là mình off UK
+
+621
+00:41:42,030 --> 00:41:47,890
+cái code select đấy đi kiểu em ví dụ vậy thì nó sẽ là một cụm dài dặn dặn ra nữa. Thì bây giờ
+
+622
+00:41:47,890 --> 00:41:53,790
+bây giờ em sẽ cố gắng là bê cái cụm ấy chặn luôn cái cụm như thế thì có khả thiêu
+
+623
+00:41:56,600 --> 00:42:03,140
+nghĩa là nghĩa là bây giờ là có một câu select thì câu select rất là dài thì nó thấy chữ select nó chặn
+
+624
+00:42:03,140 --> 00:42:09,530
+nhưng mà mình obfuscate có thể là hack nó lên chẳng hạn thì từ câu select cầm khoảng 6 ký
+
+625
+00:42:09,530 --> 00:42:16,690
+dự đấy thì nó biến thành một cụm rất là dài các câu được hack thì có thể là tương lửa nó bỏ qua cái này
+
+626
+00:42:16,690 --> 00:42:19,430
+Thì em sẽ cố gắng là bê nguyên cái cụm đấy vào
+
+627
+00:42:20,440 --> 00:42:21,260
+Thấy là chọn
+
+628
+00:42:23,060 --> 00:42:25,320
+Ví dụ là
+
+629
+00:42:28,190 --> 00:42:29,350
+Cái hack đấy làm sao
+
+630
+00:42:29,350 --> 00:42:30,470
+Con ở trong nó hiểu được
+
+631
+00:42:31,910 --> 00:42:32,490
+Hiểu không
+
+632
+00:42:33,870 --> 00:42:36,270
+Cái server của mày làm sao tự nhiên cái hack đó
+
+633
+00:42:37,490 --> 00:42:38,790
+Để nó off-cache
+
+634
+00:42:41,030 --> 00:42:41,910
+Con DB
+
+635
+00:42:42,670 --> 00:42:43,670
+Sao nó hiểu hack
+
+636
+00:42:43,670 --> 00:42:45,360
+Câu select thì
+
+637
+00:42:46,140 --> 00:42:48,440
+Tao nghĩ là chả chuyển được cái gì đó
+
+638
+00:42:50,000 --> 00:42:50,920
+Select là select
+
+639
+00:42:50,920 --> 00:42:52,940
+không hiểu mình có phụ kết được gì hết
+
+640
+00:42:55,960 --> 00:43:01,950
+Nó chỉ có phụ kết được thành các chữ S
+
+641
+00:43:01,950 --> 00:43:03,390
+xong rồi nó cách cách ngay cách
+
+642
+00:43:03,390 --> 00:43:06,190
+xong sao thăng gì đấy
+
+643
+00:43:06,190 --> 00:43:08,730
+xong chữ L
+
+644
+00:43:09,100 --> 00:43:10,380
+xong các thứ
+
+645
+00:43:10,380 --> 00:43:11,620
+đúng như nó tách ra
+
+646
+00:43:12,560 --> 00:43:16,980
+hoặc là hệ thống của mày nó hiểu một cái character gì đấy
+
+647
+00:43:16,980 --> 00:43:18,710
+nó hiểu ký tự cha
+
+648
+00:43:18,710 --> 00:43:21,130
+nó tự chuyển đổi từ con server sang
+
+649
+00:43:21,130 --> 00:43:54,840
+Mày cũng hiểu con server nó làm cái gì, cây của nó là gì, thì mấy dí vào được là nó off-focus bằng cách nào, hiểu SQL nữa, nó làm cái gì, làm đề tài của SQL, không biết SQL, không biết ấy thì làm sao mà dìu bằng.
+
+650
+00:43:54,840 --> 00:44:06,090
+Như thế này mới sẽ nói nguyên cơ chứ chẳng có ít được quay được
+
+651
+00:44:07,660 --> 00:44:08,520
+Hôm nay...
+
+652
+00:44:08,520 --> 00:44:10,880
+Mày về tìm hiểu lại đi đã
+
+653
+00:44:10,880 --> 00:44:13,120
+Tìm hiểu xong bác vào đoạn cái nào nhé
+
+654
+00:44:13,120 --> 00:44:13,680
+Rồi
+
+655
+00:44:13,680 --> 00:44:15,900
+Rồi xong SQL là gì
+
+656
+00:44:16,760 --> 00:44:21,440
+Thực thi tại sao cái ốc phụ kết lấy mà ghi lại với câu hỏi thứ 3
+
+657
+00:44:23,820 --> 00:44:26,440
+Rồi hôm sau mày sẽ gặp một buổi khác
+
+658
+00:44:26,440 --> 00:44:31,480
+Nếu mày đang chưa hiểu một cái gì về SQL thì làm sao mà có thể tìm hiểu
+
+659
+00:44:44,000 --> 00:44:57,200
+anh em nói lại anh nói lại không cách quá phải đẹp hạt động với từng quay đoát này nhá
+
+660
+00:45:18,360 --> 00:45:39,680
+Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.
+
+661
+00:45:47,830 --> 00:45:50,930
+Có, nhưng mà chỉ hiểu đúng 4 dạng cơ bản, đấy thôi.
+
+662
+00:45:54,380 --> 00:45:57,040
+Tưởng còn mấy dạng kiểu con con thôi.
+
+663
+00:46:09,420 --> 00:46:16,140
+Aaron là cố gắng sinh ra các cái thông báo lỗi để xem là mô hình nó đang bị lỗ họng ở đâu.
+
+664
+00:46:16,140 --> 00:46:17,880
+Time thì sẽ là
+
+665
+00:46:17,880 --> 00:46:18,440
+Được
+
+666
+00:46:20,980 --> 00:46:21,760
+Erot Bay đúng không?
+
+667
+00:46:21,940 --> 00:46:22,600
+Vâng, đúng rồi
+
+668
+00:46:23,120 --> 00:46:25,840
+Erot Bay thì nó sinh ra
+
+669
+00:46:25,840 --> 00:46:27,340
+Cái Erot thì sao?
+
+670
+00:46:27,800 --> 00:46:30,180
+Sao FQL nó phai thác bằng kiểu gì?
+
+671
+00:46:30,750 --> 00:46:32,370
+Thì khi mà mình cố tình
+
+672
+00:46:32,370 --> 00:46:34,210
+Chuyển lỗi vào thì mô hình nó sẽ phải
+
+673
+00:46:34,210 --> 00:46:36,650
+Hiển thị một cái dấu hiệu gì đó
+
+674
+00:46:37,270 --> 00:46:38,510
+Và nếu như mà
+
+675
+00:46:38,510 --> 00:46:40,370
+Nó hiển thị, nó bị hiện ra ngoài
+
+676
+00:46:40,370 --> 00:46:41,950
+Một cái dấu hiệu mà mình có thể nhận ra
+
+677
+00:46:41,950 --> 00:46:44,350
+Thì mình có thể suy đoạn là có khả năng
+
+678
+00:46:44,350 --> 00:46:46,090
+Là nó đã không pass được
+
+679
+00:46:46,090 --> 00:46:47,850
+Được cái đấy và bị lộ ra thôi
+
+680
+00:46:52,440 --> 00:46:53,200
+Lộ dấu hiệu
+
+681
+00:46:54,320 --> 00:46:56,260
+Lộ dấu hiệu thì khai thác kiểu gì
+
+682
+00:47:00,760 --> 00:47:02,110
+E-Route Bay
+
+683
+00:47:02,110 --> 00:47:03,130
+Khai thác kiểu gì
+
+684
+00:47:03,130 --> 00:47:05,630
+Từng loại đấy khai thác kiểu gì
+
+685
+00:47:10,440 --> 00:47:12,020
+SVL thì từng loại khai thác này
+
+686
+00:47:12,540 --> 00:47:14,480
+Từng loại khai thác đấy nó khai thác như thế nào
+
+687
+00:47:14,480 --> 00:47:16,920
+Mày phải hiểu cách nó hoạt động
+
+688
+00:47:16,920 --> 00:47:18,120
+Mày mới chặn được
+
+689
+00:47:18,120 --> 00:47:19,640
+Mày không hiểu cách hoạt động
+
+690
+00:47:19,640 --> 00:47:20,300
+Mày mới chặn được gì
+
+691
+00:47:25,460 --> 00:47:26,600
+Thêm là tại sao
+
+692
+00:47:26,600 --> 00:47:38,900
+tìm kiếm sao cái phụ kết đấy Tại sao cái phụ kết đấy nó lại bài bát được ví dụ nó chặn câu lệnh
+
+693
+00:47:38,900 --> 00:47:58,630
+bình thường không Tại sao phụ kết thì nó lại vào được nó không cháy được chưa rồi đó xong lúc đấy
+
+694
+00:47:58,630 --> 00:48:03,090
+bây giờ mình đã hiểu hết được nguồn của những cái đấy nó hoạt động rồi bắt đầu mình nhắc cho
+
+695
+00:48:03,090 --> 00:48:11,530
+con ai của mày là con ai của mày nhét vào đoạn nào thì tùy thuộc đúng không rồi cái gan của mày
+
+696
+00:48:12,390 --> 00:48:20,380
+nhét vào đâu được rồi tao vẫn chưa thấy mày giải thích gì kiểu nó xinh chỗ nào nó ấy ở đâu
+
+697
+00:48:20,380 --> 00:48:34,400
+vâng hôm nay em biết là nhiều cái phải làm rõ kiểu mô hình của thằng này chả hiểu gì đây là toàn
+
+698
+00:48:35,460 --> 00:48:41,450
+Vâng, cái của em là thiên về thuật toán trước, còn bây giờ mới là lúc mà thiên về thực tế.
+
+699
+00:48:44,110 --> 00:48:49,420
+Để tại thạc sĩ chỉ cần đề xuất một ý tưởng thôi anh, bao nhiêu là vẫn đi độ rồi.
+
+700
+00:48:57,780 --> 00:49:04,340
+Thế là sau hôm qua nói chuyện với anh Minh là anh Minh cũng nghĩ lại thôi, không học thạc sĩ, an toàn, làm quản lý còn hơn.
+
+701
+00:49:11,540 --> 00:49:15,700
+Tổng quan của SPL đây, phân ngoại, không phải phân công đâu.
+
+702
+00:49:27,040 --> 00:49:28,880
+yêu cầu mới của bộ
+
+703
+00:49:28,880 --> 00:49:58,940
+nó thì biết nhưng mà nếu mà hỏi xem là nó bypass mà khai thác ở đây thì không
+
+704
+00:49:58,940 --> 00:49:59,960
+nó hoạt động
+
+705
+00:50:00,000 --> 00:50:10,940
+mình sẽ dùng o, o thì sẽ gồm một câu lệnh luôn đúng ở phía trước và o sẽ là câu lệnh mình khai thác
+
+706
+00:50:10,940 --> 00:50:14,440
+mình sẽ cố gắng nhét cái câu lệnh đấy thông qua cái toán tử đấy đấy
+
+707
+00:50:16,940 --> 00:50:22,300
+để có thể chuyển câu lệnh khai thác của mình vào do là ở trong o thì chuyển một về đúng
+
+708
+00:50:22,300 --> 00:50:24,060
+thì nó sẽ thực hiện với còn lại
+
+709
+00:50:27,940 --> 00:50:36,690
+thì chỉ hiểu là Boolean chỉ đơn giản là đưa một câu lệnh khai thác vào câu toán tử để có thể ép nó khai thác
+
+710
+00:50:36,690 --> 00:50:37,980
+Khai thác cái gì?
+
+711
+00:50:41,190 --> 00:50:46,430
+Có thể khai thác kiểu dữ liệu bảng hoặc là có những user nào ấy
+
+712
+00:50:46,430 --> 00:50:50,790
+Ừ, thì nó khai thác như thế nào? Giải thích như thế nào?
+
+713
+00:50:51,170 --> 00:50:57,010
+Mình sẽ đưa những câu lệnh truy vấn mà quyền của mình không đủ và đưa vào thông qua các cái toán từ đấy.
+
+714
+00:51:00,170 --> 00:51:01,210
+Quyền không đủ thì sao?
+
+715
+00:51:01,590 --> 00:51:06,150
+Em đang chờ ý thư của anh đi nào.
+
+716
+00:51:06,580 --> 00:51:09,100
+Đi, xem có khai thác được gì.
+
+717
+00:51:09,630 --> 00:51:10,830
+Về làm lab ngay.
+
+718
+00:51:11,110 --> 00:51:13,650
+Về làm lab ngay xem FVL khai thác được gì.
+
+719
+00:51:13,650 --> 00:51:23,470
+không hiểu mấy cái bài kiểu mấy cái láp trên mạng nhiều lắm
+
+720
+00:51:23,470 --> 00:51:34,680
+kiểu kép bm, bwap, không hiểu trong khách mạng kiểu gì
+
+721
+00:51:34,680 --> 00:51:43,460
+ví dụ như kiểu là cái no này đúng không
+
+722
+00:51:43,460 --> 00:51:51,990
+đúng không có nghĩa là ví dụ mày có một câu truy vấn đằng trước là đúng nó hiểu câu truy vấn đằng
+
+723
+00:51:51,990 --> 00:52:00,590
+trước đấy nó ở đâu không đúng thì chỉ cần kiểu toán tử một bằng một là nó đã coi như là luôn đúng rồi
+
+724
+00:52:00,590 --> 00:52:08,600
+để làm cái lần đấy hiểu ạ để nghĩa là lệnh o chỉ cần một trong hai cái đúng là nó sẽ thực thi ạ
+
+725
+00:52:08,600 --> 00:52:18,870
+vâng đúng rồi em chưa hiểu câu hỏi của anh có nghĩa là bây giờ mày dùng cái n o ở trong khai thác đúng
+
+726
+00:52:18,870 --> 00:52:24,460
+Đúng rồi, nghe bảo là có một câu đằng trước và phần khái hạng đằng sau
+
+727
+00:52:24,460 --> 00:52:24,940
+Ừ
+
+728
+00:52:26,420 --> 00:52:29,540
+Thì nếu như mà câu đằng trước đúng, nghĩa là cái toán tử O đúng
+
+729
+00:52:29,540 --> 00:52:32,180
+Thì sẽ thực hiện cái câu lệnh tấn công của mình
+
+730
+00:52:32,180 --> 00:52:35,330
+Câu đằng trước lúc đéo là cho đúng, biết tại sao không?
+
+731
+00:52:35,630 --> 00:52:42,620
+Do toán tử, nhưng mà ý em là chưa ý thức được là
+
+732
+00:52:42,620 --> 00:52:43,920
+Toán tử cái gì trời ơi
+
+733
+00:52:43,920 --> 00:52:46,200
+O là chỉ cần một trong hai vệt đúng anh
+
+734
+00:52:46,200 --> 00:52:49,470
+Cái bế đằng trước nó sai kiểu gì?
+
+735
+00:52:49,630 --> 00:52:54,700
+Hôm nay có đang hiểu cấu trúc của câu truy vấn không?
+
+736
+00:52:54,880 --> 00:52:57,030
+Hôm nay đéo hiểu cấu trúc của câu truy vấn
+
+737
+00:52:57,030 --> 00:52:58,350
+Em mới về tìm hiểu ký ức
+
+738
+00:53:01,420 --> 00:53:03,800
+Nghĩa là khi mà mày input vào đâu đấy
+
+739
+00:53:04,400 --> 00:53:08,190
+Mày sẽ có như kiểu là
+
+740
+00:53:08,190 --> 00:53:09,430
+Select A
+
+741
+00:53:10,190 --> 00:53:12,680
+Bằng mở ngoặc nhận đầu vào
+
+742
+00:53:12,680 --> 00:53:13,620
+Là của mình
+
+743
+00:53:13,620 --> 00:53:15,600
+Hiểu không
+
+744
+00:53:21,930 --> 00:53:23,310
+Mày không nghĩ là
+
+745
+00:53:23,310 --> 00:53:25,210
+Nói em bị hổng đến nước nhiều thế
+
+746
+00:53:25,210 --> 00:53:27,930
+Mày không biết cái gì đâu mà hổng
+
+747
+00:53:27,930 --> 00:53:28,510
+Mày hổng hết
+
+748
+00:53:31,850 --> 00:53:33,650
+Mày đang béo hiểu câu truy vấn này
+
+749
+00:53:33,650 --> 00:53:34,950
+Mày đang chưa biết
+
+750
+00:53:34,950 --> 00:53:36,970
+STL là cái gì
+
+751
+00:53:37,400 --> 00:53:40,360
+Mày đang bị hỏng cái này á, hỏng cái này rất nặng
+
+752
+00:53:41,160 --> 00:53:42,980
+Mày không hiểu chứ vẫn là gì
+
+753
+00:53:42,980 --> 00:53:47,460
+Ví dụ mày select
+
+754
+00:53:48,520 --> 00:53:49,600
+select name
+
+755
+00:53:50,740 --> 00:53:51,280
+rồi
+
+756
+00:53:52,640 --> 00:53:54,260
+form từ đâu đấy đúng không?
+
+757
+00:53:54,420 --> 00:53:54,620
+vâng
+
+758
+00:53:55,500 --> 00:53:56,680
+từ một cái đảng á
+
+759
+00:53:57,280 --> 00:54:04,100
+xong là mày sẽ so sánh cái select đấy
+
+760
+00:54:04,740 --> 00:54:07,160
+bằng một cái tên gì đấy mà mày chuyển vào
+
+761
+00:54:07,160 --> 00:54:13,950
+thì cái câu select ở đằng trước ấy
+
+762
+00:54:13,950 --> 00:54:17,110
+cái câu select đằng trước mà tao bảo
+
+763
+00:54:17,110 --> 00:54:19,150
+xong là có một cái tên chuyển vào đằng sau này này
+
+764
+00:54:19,870 --> 00:54:26,980
+Câu truy vấn này, câu truy vấn đằng trước này là câu truy vấn của hệ thống, là của những thằng cốt, hiểu chưa?
+
+765
+00:54:27,640 --> 00:54:31,460
+Nên lúc nào nó cũng đúng hết, mình chỉ chuyển vào cái đằng sau thôi.
+
+766
+00:54:33,920 --> 00:54:36,800
+Chuyển vào đằng sau để sử dụng, khai thác câu lệnh hệ thống này?
+
+767
+00:54:38,310 --> 00:54:38,670
+Vâng.
+
+768
+00:54:39,030 --> 00:54:46,320
+Rồi. Không, cái đấy em không cho em hiểu kỹ lưỡi về xem.
+
+769
+00:54:46,420 --> 00:54:50,870
+Em chưa hiểu cấu trúc của câu truy vấn về học, cấu trúc của câu truy vấn học.
+
+770
+00:54:50,870 --> 00:54:56,320
+học hiểu cái này hiểu cái quát thì mày mới bắt đầu làm cái này
+
+771
+00:54:56,320 --> 00:55:01,060
+mày chả hiểu gì mà hỏi tao, tao chán chả buồn mỏi, nói có hiểu gì đâu
+
+772
+00:55:02,480 --> 00:55:11,330
+đây, đề tài của mày tên là nghiên cứu mô hình gan cho sinh dữ liệu cẩn thận STL
+
+773
+00:55:11,990 --> 00:55:18,350
+thì phải hiểu STL, phải nâng cao phát triển dựa trên học máy đúng không?
+
+774
+00:55:18,930 --> 00:55:31,640
+Cái đề tài này là sử dụng mô hình gan
+
+775
+00:55:32,080 --> 00:55:32,880
+Ừ thì đúng
+
+776
+00:55:32,880 --> 00:55:34,800
+Mà nghiên cứu đúng mô hình gan thật
+
+777
+00:55:40,080 --> 00:55:42,880
+Ừ thì mày nghiên cứu mô hình gan là ok
+
+778
+00:55:44,150 --> 00:55:46,230
+Tại vì đề tài đó là nghiên cứu mô hình gan
+
+779
+00:55:46,230 --> 00:55:49,900
+Nó đeo liên quan gì với tấn công nhỉ
+
+780
+00:55:51,360 --> 00:55:51,740
+Vâng
+
+781
+00:55:53,860 --> 00:56:04,290
+Mày đánh tàu mày đeo bác đồng hành
+
+782
+00:56:04,290 --> 00:56:05,810
+À thì
+
+783
+00:56:07,460 --> 00:56:08,460
+Sĩ đồn gì
+
+784
+00:56:14,860 --> 00:56:16,520
+Thầy Lãi Minh Tuấn ở trường mình không anh
+
+785
+00:56:16,520 --> 00:56:20,590
+Ông ấy là phản biện ngồi
+
+786
+00:56:20,590 --> 00:56:23,940
+Bố em cho thầy nghỉ luôn
+
+787
+00:56:23,940 --> 00:56:25,580
+Hôm nay thầy không đi
+
+788
+00:56:25,580 --> 00:56:28,100
+Là người nhất SQL là không hỏi
+
+789
+00:56:28,100 --> 00:56:29,390
+Thế là mới tát
+
+790
+00:56:29,390 --> 00:56:37,340
+Tại có 2 người không nhận phong bì
+
+791
+00:56:37,340 --> 00:56:39,900
+Thế là thầy đi luôn
+
+792
+00:56:39,900 --> 00:56:41,340
+Tự nhiên hôm nay thầy nghỉ
+
+793
+00:56:41,340 --> 00:56:41,960
+Vì việc gia đình
+
+794
+00:56:44,570 --> 00:56:45,730
+Thầy và 1 thầy nữa
+
+795
+00:56:45,730 --> 00:56:46,990
+Và thầy thầy kia
+
+796
+00:56:48,610 --> 00:56:51,370
+Mỗi đồng có 4-5 thầy
+
+797
+00:56:51,370 --> 00:56:53,270
+1 thư ký, 2 phản biện
+
+798
+00:56:53,270 --> 00:56:55,150
+Và 2 thầy chủ trì hội đồng
+
+799
+00:56:56,370 --> 00:56:57,330
+5 thầy
+
+800
+00:56:59,030 --> 00:57:01,710
+Nhưng mà một ông là bên chủ trì hội đồng
+
+801
+00:57:01,710 --> 00:57:02,850
+Nên là không lo
+
+802
+00:57:04,430 --> 00:57:05,970
+Giờ kiểu quản lý được anh
+
+803
+00:57:05,970 --> 00:57:07,270
+Thầy đấy là liêm
+
+804
+00:57:07,270 --> 00:57:09,910
+Kiểu không thích kiểu cái đấy rồi
+
+805
+00:57:09,910 --> 00:57:10,430
+Thì không sao
+
+806
+00:57:10,430 --> 00:57:11,670
+Cũng quen rồi
+
+807
+00:57:11,670 --> 00:57:13,490
+Và thầy Tuấn
+
+808
+00:57:16,090 --> 00:57:17,110
+Thầy Tuấn nghĩ
+
+809
+00:57:17,850 --> 00:57:19,430
+Thầy chỉ cần gửi câu hỏi thôi
+
+810
+00:57:19,430 --> 00:57:21,750
+Còn trò thì cứ ngồi vẫn đáp
+
+811
+00:57:21,750 --> 00:57:24,490
+Hai câu thầy là hỏi phát là chết luôn
+
+812
+00:57:24,490 --> 00:57:25,790
+Em phải thừa nhận em chưa làm
+
+813
+00:57:25,790 --> 00:57:34,630
+Câu là cái này, cái dữ liệu này sinh ra thì ok, phần trăm ok rồi nhưng mà thực tế có dùng tấn công nổi không?
+
+814
+00:57:34,950 --> 00:57:38,030
+Em phải thừa nhận thẳng là mới sinh ra kiểu nhiễu.
+
+815
+00:57:38,330 --> 00:57:44,330
+Nhưng mà mấy cái mà vừa vừa được tường lửa chẳng qua là tường lửa nghĩ là nó không làm được gì cho đời, nó phải cho qua.
+
+816
+00:57:44,920 --> 00:57:48,580
+Chứ không phải là cho qua bởi vì nó có khả năng thái thác và ẩn bình.
+
+817
+00:57:50,800 --> 00:58:03,480
+Câu 2 là em dựa trên, nghĩa là mô hình học máy này thì dựa trên một cái bộ rule của SQL
+
+818
+00:58:04,020 --> 00:58:10,880
+Xong rồi dùng chính cái bộ rule đấy để kiểm tra xem dữ liệu nó có phải là SQL không kiểu đúng kiểu tự đạp bóng, tự thổi cò
+
+819
+00:58:10,880 --> 00:58:16,400
+Theo ông chỉ ra cái cũng phải thừa nhận là có lỗi trong thiết kế, đúng 2 câu là chết luôn
+
+820
+00:58:17,520 --> 00:58:23,300
+là kiểu mô hình có xu hướng tự đạp bóng tự hỏi có ý nghĩa là thằng đánh giá dựa trên một bộ
+
+821
+00:58:23,300 --> 00:58:38,670
+không nghe đây đây đừng ạ em tốt rồi hai thầy thì hỏi sao thầy nhắn tin cho mày thầy hỏi không em
+
+822
+00:58:39,090 --> 00:58:45,560
+hô câu của thầy khó quá em em phải viết em phải nốt lại xong rồi đưa vào chết gì thì cùng ra gì
+
+823
+00:58:52,420 --> 00:59:08,210
+Câu số 2, nếu hàm thưởng và hàm đánh giá đều dựa trên Keyword, Motif, Detect, Sở, Xây dựng
+
+824
+00:59:13,720 --> 00:59:21,430
+chuẩn mẹ đẹp mẹ ông bảo cứ 60 luôn 60 luôn bây giờ hỏi là chết
+
+825
+00:59:23,900 --> 00:59:54,940
+Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé.
+
+826
+00:59:57,530 --> 00:59:59,960
+Hẹn gặp lại các bạn trong những video tiếp theo.
+
+827
+01:00:00,890 --> 01:00:14,810
+Bây giờ mày về mày cần cải thiện cái đế đa, nếu không sẽ không bùi pháp
+
+828
+01:00:15,910 --> 01:00:17,690
+Vâng, mày phải hiểu đùa
+
+829
+01:00:18,370 --> 01:00:22,610
+Tại vì tao không học cái gan này, người ta không quan tâm
+
+830
+01:00:22,610 --> 01:00:25,950
+Tao quan tâm là cái tính hữu thức của nó là như thế nào
+
+831
+01:00:28,170 --> 01:00:31,550
+Tại các thầy đọc một lần, các thầy hiểu cái bùi này được
+
+832
+01:00:31,550 --> 01:00:36,010
+Mày chỉ thuyết trình trong khoảng bao nhiêu phút, một tiếng
+
+833
+01:00:36,610 --> 01:00:42,110
+Để các thầy hiểu được là cái đề án của em nó làm được cái gì, nó giúp ích được cái gì
+
+834
+01:00:42,110 --> 01:00:42,630
+Rồi
+
+835
+01:00:42,630 --> 01:00:43,950
+Và tao cũng chỉ cần hiểu cái đấy thôi
+
+836
+01:00:44,750 --> 01:00:46,750
+Tao như là các thầy của mày, trấn biển của mày
+
+837
+01:00:46,750 --> 01:00:51,560
+Chỉ cần hiểu là cái mô hình này của em nó có ứng dụng gì cho đời
+
+838
+01:00:51,560 --> 01:00:53,260
+Nó có giúp gì được cho đời không
+
+839
+01:00:55,520 --> 01:00:58,240
+Chứ thầy cũng địt cần hiểu là thằng gan này nó làm cái gì
+
+840
+01:00:59,320 --> 01:01:05,080
+Thầy chỉ biết là ví dụ mày là thằng gan này hơn cái thằng bình thường trong đời này là cái gì
+
+841
+01:01:05,080 --> 01:01:06,400
+Hiểu chưa
+
+842
+01:01:07,920 --> 01:01:14,980
+có nghĩa là đấy bây giờ mày hiểu được mình xong về sau mình ra này trình bày lại sao
+
+843
+01:01:15,520 --> 01:01:23,260
+khi mà hiểu rồi thì mày biết là con gan này nó sẽ áp dụng ở đâu hoặc là mày có thể tích hợp một con AI vào để mày làm lên tiến sĩ
+
+844
+01:01:24,220 --> 01:01:25,660
+hiểu chưa? hiểu
+
+845
+01:01:25,660 --> 01:01:30,700
+lên tiến sĩ là mày sẽ làm to hơn đúng không? ngoài SVL ra mày sẽ làm thêm
+
+846
+01:01:30,700 --> 01:01:31,580
+gần như là tất
+
+847
+01:01:31,580 --> 01:01:32,800
+ừ gần như là tất
+
+848
+01:01:32,800 --> 01:01:34,940
+dạng payload là gồm hết
+
+849
+01:01:34,940 --> 01:01:38,640
+Rằng này đang là dạng mà nó dễ nhất rồi
+
+850
+01:01:39,400 --> 01:01:40,540
+Thì mày phải hiểu là
+
+851
+01:01:42,150 --> 01:01:43,770
+Tại sao con AI nó lại
+
+852
+01:01:44,450 --> 01:01:45,370
+Làm được những cái
+
+853
+01:01:45,370 --> 01:01:46,150
+Mà nó học
+
+854
+01:01:47,710 --> 01:01:49,330
+Chứ còn mấy thứ này
+
+855
+01:01:50,490 --> 01:01:51,690
+Thì quát nó chặn hết rồi
+
+856
+01:01:52,110 --> 01:01:53,470
+Chả cần AI được
+
+857
+01:01:55,150 --> 01:01:56,510
+Cái rule tự sinh
+
+858
+01:01:57,730 --> 01:01:59,270
+Bây giờ làm nào để bái bát
+
+859
+01:01:59,270 --> 01:02:00,930
+Mấy cái rule đấy thì dễ vãi loàn
+
+860
+01:02:02,300 --> 01:02:03,740
+Bây giờ nếu mà nó thực tế
+
+861
+01:02:03,740 --> 01:02:04,960
+Thì phải là
+
+862
+01:02:04,960 --> 01:02:06,560
+Bất kỳ một thằng nào
+
+863
+01:02:06,560 --> 01:02:14,690
+Ví dụ mình thử trên một hệ thống thật chẳng hạn, mà mình bypass được thì nó luôn ok.
+
+864
+01:02:18,860 --> 01:02:24,740
+Ví dụ bây giờ mình đi mình test, ví dụ là được cho phép của hệ thống của trường,
+
+865
+01:02:24,760 --> 01:02:32,790
+ví dụ trường nó quát rồi, em đã chứng minh được trên khu vực của trường là như thế này, như thế này.
+
+866
+01:02:32,790 --> 01:02:37,850
+bài phát biệt bằng các cây lát tự sinh của em, chiếc chiếc.
+
+867
+01:02:38,710 --> 01:02:41,170
+Thế thì nói như là impact kỳ cực.
+
+868
+01:02:41,390 --> 01:02:44,850
+Mấy cái này, gu mày tự nghĩ, gu mày biết rồi.
+
+869
+01:02:45,760 --> 01:02:50,960
+Xong rồi bây giờ mày bảo con AI là sinh cho tao mấy cái cây lát, vượt được cái gu này.
+
+870
+01:02:51,260 --> 01:02:58,060
+Xong rồi mày gán cho cái con mốt thứ 2 của mày, đứng ở trên đá bóng thì vừa quay ra.
+
+871
+01:03:15,720 --> 01:03:19,960
+đúng kiểu tệ hơn quá
+
+872
+01:03:21,380 --> 01:03:33,410
+bây giờ mình phải kiểm tra xem để AI sinh đúng, sinh đúng, đối với một tí thực tế và hiểu mấy cái
+
+873
+01:03:35,130 --> 01:03:44,480
+WAP sử dụng như thế nào. Thì lúc đấy mình tư duy thì mình nghĩ ra những cái mà để nó thực tế bây
+
+874
+01:03:44,480 --> 01:03:50,520
+giờ còn không hiểu thì cũng sao mà mình nghĩ ra được. Tại vì tao nghĩ là tất cả những cái trên đầu
+
+875
+01:04:01,810 --> 01:04:10,140
+phần thuật toán thì phải tự cây viết không hiểu không có ai giải thích không được toán thì bắt
+
+876
+01:04:10,140 --> 01:04:15,940
+buộc phải đọc bài báo thì mình mới dựng y hệt được rồi có đúng phần duy nhất mà phải làm thì
+
+877
+01:04:15,940 --> 01:04:23,520
+thì bắt buộc phải đọc thầy phải bắt buộc phải yêu cầu chứng minh từ đầu còn các phần khác là
+
+878
+01:04:23,520 --> 01:04:34,250
+phải tự làm tự để ai Zen trong đó có phần là Zen liên quan tới mấy cái đặc tính của sql.exe có nghĩa
+
+879
+01:04:34,250 --> 01:04:44,470
+là mày hiểu tương tận với thằng gan này rồi thì mỗi môi mục tiêu của gan đấy là nó sẽ nhận vào là
+
+880
+01:04:44,470 --> 01:04:52,530
+là một bộ dữ liệu nó sẽ sinh ra rất nhiều dữ liệu sinh kiểu gì nó sinh bởi thuật toán lan
+
+881
+01:04:52,530 --> 01:04:59,720
+chuyển ngược nghĩa là khi mà cái câu lệnh nó nó sẽ đi qua rất nhiều lớp mỗi lớp nó chỉ học đúng một
+
+882
+01:04:59,720 --> 01:05:18,360
+cái đặc điểm thôi thì sau khi mà nó có khoảng cho nó vào rất nhiều câu lệnh của nó sẽ sử dụng thuật
+
+883
+01:05:19,110 --> 01:05:26,210
+sở toán logistic để có thể là tính cái ra điện nó đi ngược quay trở lại mà ở ban đầu nha sau khi
+
+884
+01:05:26,210 --> 01:05:32,970
+sinh hợp một dữ liệu được nói thế nào thì cái ra điện này nó làm thế nào để nó suy ngược lại nó tính
+
+885
+01:05:32,970 --> 01:05:42,920
+logistik thì mục tiêu thì đúng là kiểu đưa đưa cái cái đưa các cái cụm giá trị đó là toán logistik
+
+886
+01:05:42,920 --> 01:05:45,280
+Nếu như mà giá trị đấy về 0
+
+887
+01:05:45,280 --> 01:05:47,480
+Thì là đang có khả năng đi ngược về ban đầu
+
+888
+01:05:47,480 --> 01:05:48,560
+Thì nó sẽ
+
+889
+01:05:52,730 --> 01:05:55,360
+Thế ý là nó đi ngược về 0 rồi
+
+890
+01:05:55,360 --> 01:05:57,360
+Là nó tính như thế nào
+
+891
+01:05:57,360 --> 01:05:58,600
+Cách thức tính của nó
+
+892
+01:05:59,580 --> 01:06:00,880
+Tính thì có một
+
+893
+01:06:01,920 --> 01:06:03,400
+Một hàm mất mát để có thể
+
+894
+01:06:03,400 --> 01:06:05,140
+Thay số vào để tính
+
+895
+01:06:06,700 --> 01:06:08,600
+Ví dụ một câu lệnh nó thay số về gì
+
+896
+01:06:08,600 --> 01:06:11,040
+Không một câu lệnh sẽ đi qua mấy cái lớp mà em bảo
+
+897
+01:06:11,040 --> 01:06:12,900
+Để nó chuyển thành các dạng số học
+
+898
+01:06:12,900 --> 01:06:14,360
+Thì lúc đấy mô hình mới hiểu được
+
+899
+01:06:14,360 --> 01:06:18,950
+Thế thôi em về xem lại cách giải thích
+
+900
+01:06:19,390 --> 01:06:20,010
+Số học
+
+901
+01:06:20,530 --> 01:06:23,840
+Đấy mày mà hiểu với thằng gan
+
+902
+01:06:23,840 --> 01:06:25,400
+Nó làm gì cho tao
+
+903
+01:06:25,400 --> 01:06:28,200
+Gan thì chỉ là
+
+904
+01:06:28,900 --> 01:06:30,420
+Một thằng là thằng đánh giá
+
+905
+01:06:30,420 --> 01:06:31,300
+Một thằng là thằng sinh
+
+906
+01:06:31,300 --> 01:06:33,500
+Thằng sinh sẽ cố gắng sinh nhiều dưới đất có thể
+
+907
+01:06:33,500 --> 01:06:35,640
+Thằng đánh giá thì sẽ cố gắng nhận biết
+
+908
+01:06:35,640 --> 01:06:36,940
+Sinh là địch mà nó xáo trộn lên à
+
+909
+01:06:37,620 --> 01:06:38,900
+Đúng rồi gần như là xáo trộn lên
+
+910
+01:06:38,900 --> 01:06:41,180
+Không đúng nghĩa là nó xáo trộn lên
+
+911
+01:06:42,810 --> 01:06:44,510
+Cứ cho một đống từ vào
+
+912
+01:06:44,510 --> 01:06:46,250
+Xong nó đang đung nó nhảy loạn lên
+
+913
+01:06:46,250 --> 01:06:48,190
+Không đúng nghĩa thôi
+
+914
+01:06:48,990 --> 01:06:50,290
+Sao anh không nói cái từ đầu nhỉ
+
+915
+01:06:50,790 --> 01:06:51,870
+Nó có ý nghĩa bùi gì
+
+916
+01:06:51,870 --> 01:06:53,670
+như thế mới có thằng đánh giá
+
+917
+01:06:53,670 --> 01:06:57,590
+thằng đánh giá là nó sẽ dựa vào các dấu hiệu từ bộ dữ liệu gốc
+
+918
+01:06:57,590 --> 01:07:01,010
+đánh giá xem thằng nào là thằng giả
+
+919
+01:07:01,010 --> 01:07:04,320
+và thằng nào là thằng có thể là thật
+
+920
+01:07:04,320 --> 01:07:07,990
+thì những cái thằng random thì nó sẽ bị loại gần hết
+
+921
+01:07:07,990 --> 01:07:10,810
+chỉ có những cái thằng may mắn random được mấy cái keyword chuẩn
+
+922
+01:07:10,810 --> 01:07:13,690
+kiểu may mắn ghép ra từ select được thành công chẳng hạn
+
+923
+01:07:13,690 --> 01:07:17,080
+thì nó sẽ giữ lại và nó cứ xoay dần xoay dần thôi anh
+
+924
+01:07:17,080 --> 01:07:21,160
+random tất cả sắp xếp lần lượt từ hướng cuối
+
+925
+01:07:21,160 --> 01:07:24,060
+bao nhiêu từ sắp xếp từ lấy từ
+
+926
+01:07:25,160 --> 01:07:38,860
+đúng rồi anh nói bắt đầu nhờ cái đoạn đúng rồi không phải đúng nghĩa kiểu tạo ra một loạt các
+
+927
+01:07:38,860 --> 01:07:45,500
+cái kính tự linh ta linh tinh không theo thứ tự gì cả thì sẽ thằng kia nó sẽ bắt đầu mới lọc dần
+
+928
+01:07:45,500 --> 01:07:51,020
+lọc dần không Nhưng mà cái thằng cái thằng cái thằng đánh giá nó sẽ lọc dần rất nhiều
+
+929
+01:07:51,020 --> 01:08:01,550
+nhiều sao lại để nó ra đừng tất cả các chữ gì nói nhé Nếu là kiểu random dịch từ select cái từ con
+
+930
+01:08:01,550 --> 01:08:09,650
+thôi Ví dụ nó sắp thành select con hoặc là con select ấy thôi mày đây là sắp xếp cả những ký
+
+931
+01:08:09,650 --> 01:08:15,430
+tự vớ vẩn đúng không anh thì em thấy mới trong cái kết quả của em mới có mấy cái ký tự rất là
+
+932
+01:08:15,430 --> 01:08:29,810
+dài mà nó không có ý nghĩa bởi vì là nó không học hết quay lại không nhưng mà cái thằng kia
+
+933
+01:08:29,810 --> 01:08:36,100
+thế là nó khả năng đánh giá được thì bắt đầu mới thành hình được này rồi đến bước tiếp theo là thằng
+
+934
+01:08:36,100 --> 01:08:43,660
+này nó dựa vào cái gì để nó ra một câu lệnh mà đúng thì bình thường là nó nó chỉ biết là đâu
+
+935
+01:08:43,660 --> 01:08:49,000
+là dữ liệu sinh ra hoặc đâu là đâu là dữ liệu tạo ra đâu là dữ liệu từ bộ dữ liệu đây nó kiểu
+
+936
+01:08:49,000 --> 01:08:56,050
+chỉ đánh giá xem thằng nào kiểu hàng giả hàng giả thật cái bộ dữ liệu là cái lộn gì là cái
+
+937
+01:08:56,050 --> 01:09:04,460
+cái mày nhập vào đúng không anh thế làm sao để nó sinh ra những cái câu lệnh mà nó biết là xem
+
+938
+01:09:04,800 --> 01:09:16,880
+sẽ phù hợp nó đánh giá với bộ dữ liệu đúng không đánh giá kiểu gì đây ví dụ đây là bộ dữ liệu được
+
+939
+01:09:16,880 --> 01:09:24,100
+chưa rồi thế cái thằng mà nó sinh ra đâu thằng sinh ra đâu đây thằng sinh ra đây anh ạ đây đâu
+
+940
+01:09:24,310 --> 01:09:31,530
+sinh ra đâu nghĩa là dữ liệu sinh ra cuối cùng nó sẽ trông như thế này anh nó biết rồi thế làm
+
+941
+01:09:31,530 --> 01:09:34,970
+nó làm sao để nó biết là cái câu lệnh truy vấn nó sẽ sinh ra thế này
+
+942
+01:09:34,970 --> 01:09:38,160
+nó dựa ở đâu để nó sắp được như thế này để nó chọn ra
+
+943
+01:09:38,160 --> 01:09:41,340
+cái thằng đánh giá nó sẽ chặn và nó...
+
+944
+01:09:41,340 --> 01:09:42,040
+đánh giá bằng cái gì?
+
+945
+01:09:42,320 --> 01:09:44,700
+đánh giá bằng một hàm
+
+946
+01:09:44,700 --> 01:09:47,580
+nó sẽ đánh giá được kiểu web ấy anh, bao nhiêu điểm
+
+947
+01:09:47,580 --> 01:09:49,440
+nếu mà dưới điểm chuẩn là nó cho lại luôn
+
+948
+01:09:49,440 --> 01:09:51,740
+còn những cái thằng nào mà được đánh điểm
+
+949
+01:09:51,740 --> 01:09:53,100
+nó sẽ nói...
+
+950
+01:09:53,100 --> 01:09:53,840
+đánh điểm dựa vào cái gì?
+
+951
+01:09:54,320 --> 01:09:55,860
+cũng dựa vào cái hàm bất mát đấy
+
+952
+01:09:55,860 --> 01:09:59,980
+một cái hàm mà nó sẽ đưa cái kiểu so sánh
+
+953
+01:10:00,000 --> 01:10:04,320
+là cái dữ liệu mà được sinh ra dữ liệu gốc thì nó được bao nhiêu điểm
+
+954
+01:10:04,320 --> 01:10:13,510
+mày phải hiểu nó so sánh bằng cái gì nó so sánh bằng một thuật toán cái thuật toán đấy sẽ đưa
+
+955
+01:10:13,510 --> 01:10:22,850
+thuật toán hoạt động thế nào lần đấy sẽ là đưa các cái ký tự của hai đưa ký tự của bộ dữ liệu mình
+
+956
+01:10:22,850 --> 01:10:30,640
+mình đưa vào chuyển đổi thành một cái một cái một cái chuỗi hàm tính toán sau là sau khi mình được
+
+957
+01:10:30,640 --> 01:10:39,410
+chuyển thành hát một cái phương trình hơn anh một phương trình mà có rất nhiều x mỗi x sẽ là một cái
+
+958
+01:10:39,410 --> 01:10:58,370
+lây ở và em còn nói phần này em phải học lại cách giải vì em cũng chỉ biết nói cho ví dụ ví dụ cái
+
+959
+01:11:00,050 --> 01:11:04,330
+thì cái câu lệnh này nó sẽ có cái cấu trúc, được chưa?
+
+960
+01:11:05,500 --> 01:11:12,420
+Cấu trúc là select này, like này, vớ vẩn vớ vẩn này, random các thứ này, được chưa?
+
+961
+01:11:14,120 --> 01:11:17,820
+Thì cái câu ban đầu ví dụ nó như thế này
+
+962
+01:11:18,400 --> 01:11:23,960
+thì cái câu sinh ra nó sẽ dựa vào cái cấu trúc như kiểu là cấu trúc của những câu ban đầu
+
+963
+01:11:23,960 --> 01:11:30,320
+để nó xác định xem cái câu về sau nó có phù hợp với cái cấu trúc đấy không, được chưa?
+
+964
+01:11:31,620 --> 01:11:34,200
+Thì cái cách thức nó xác định cái cấu trúc đấy là cái gì
+
+965
+01:11:34,200 --> 01:11:40,720
+Thì cái hàm đấy mày phải hiểu tương tận cái hàm
+
+966
+01:11:40,720 --> 01:11:42,880
+Anh nói thế thì em hiểu câu hỏi của anh rồi
+
+967
+01:11:42,880 --> 01:11:45,000
+Thì cái phương pháp cũ nó không học được cấu trúc
+
+968
+01:11:46,100 --> 01:11:47,640
+Phương pháp của em thì mới học được
+
+969
+01:11:47,640 --> 01:11:49,540
+Nó sẽ chia cái câu payload đấy
+
+970
+01:11:49,540 --> 01:11:51,320
+Phương pháp cũ nằm đéo cấu trúc
+
+971
+01:11:51,740 --> 01:11:52,760
+Phương pháp cũ là nó
+
+972
+01:11:52,760 --> 01:11:55,100
+Phương pháp random mà anh hỏi là gan đi anh
+
+973
+01:11:55,100 --> 01:11:56,700
+Gan thì nó không học được cấu trúc
+
+974
+01:11:56,700 --> 01:11:58,260
+Nó chỉ đơn giản là random liên tục thôi
+
+975
+01:11:58,740 --> 01:12:00,960
+Cái thằng cải tiến của em là sẽ chia
+
+976
+01:12:00,960 --> 01:12:02,980
+Thế mày đang làm về gan mà cải tiến cái lồn gì
+
+977
+01:12:02,980 --> 01:12:05,060
+Có phiên bản gan và gan gốc
+
+978
+01:12:05,060 --> 01:12:09,440
+hoặc dựa vào đấy để chứng minh là mình ưu việt hơn, còn gan của em gọi là sequengan
+
+979
+01:12:10,160 --> 01:12:16,160
+một một cái thằng gan khác thì sẽ chia cái câu lệnh đấy thành 20 phần hoặc là 40 phần mình tự đưa đầu vào
+
+980
+01:12:16,160 --> 01:12:23,960
+sau đó là mỗi cái cụm đấy thì có thể ghép từ các cái câu kiểu có thể 1 câu hoặc là 2 câu thì tùy
+
+981
+01:12:23,960 --> 01:12:30,340
+nói chung là trong cái khuôn 40 ký tự đấy đi mà nhét vào sau đó là mới đưa vào trong cái mô hình
+
+982
+01:12:30,340 --> 01:12:31,930
+nó sẽ đánh điểm
+
+983
+01:12:31,930 --> 01:12:34,830
+thì nếu như cái cụ nào mà được coi là
+
+984
+01:12:35,270 --> 01:12:36,050
+điểm cao nhất
+
+985
+01:12:36,050 --> 01:12:38,590
+thì nó sẽ ví dụ như ở vị số 1
+
+986
+01:12:38,590 --> 01:12:40,530
+là từ select có điểm cao nhất
+
+987
+01:12:40,530 --> 01:12:42,390
+thì nó sẽ ưu tiên là luôn luôn bắt đầu
+
+988
+01:12:42,390 --> 01:12:43,170
+với câu lệnh select
+
+989
+01:12:43,170 --> 01:12:45,970
+và nó bắt đầu sinh ra một hàng loại các câu
+
+990
+01:12:45,970 --> 01:12:47,410
+với từng vị trí
+
+991
+01:12:47,410 --> 01:12:50,010
+có 40 vị trí thì sẽ xem là top 1
+
+992
+01:12:50,010 --> 01:12:51,930
+sẽ là vị trí gì, top 2 vị trí, top 3 vị trí
+
+993
+01:12:51,930 --> 01:12:53,190
+thì bắt đầu xáo lên
+
+994
+01:12:53,190 --> 01:12:55,940
+thì đấy là hàng của em
+
+995
+01:13:04,010 --> 01:13:07,030
+Thì cái hàm đấy là có một vấn đề
+
+996
+01:13:07,030 --> 01:13:10,270
+Là nếu như mà nó phân chia bị đần
+
+997
+01:13:10,270 --> 01:13:13,070
+Ví dụ như là có những câu mà 200 ký tự
+
+998
+01:13:13,990 --> 01:13:15,750
+222, đúng rồi, 222 câu
+
+999
+01:13:15,750 --> 01:13:17,330
+Nhưng mà chỉ cho có đúng 40 khuôn
+
+1000
+01:13:17,330 --> 01:13:20,700
+Và đôi lúc là nó sẽ bị chia thiếu
+
+1001
+01:13:20,700 --> 01:13:22,700
+Hoặc là kiểu dồn hết tất cả vào khuôn cuối
+
+1002
+01:13:22,700 --> 01:13:24,510
+Thành ra là nó không học được
+
+1003
+01:13:24,510 --> 01:13:26,390
+Hoặc là có đúng 40 khuôn
+
+1004
+01:13:26,390 --> 01:13:28,790
+Nhưng mà câu truyền nó chỉ có 30 khuôn
+
+1005
+01:13:28,790 --> 01:13:29,330
+Ai học?
+
+1006
+01:13:29,990 --> 01:13:31,350
+Thực toán của em ạ.
+
+1007
+01:13:31,950 --> 01:13:33,010
+Nó sẽ tự học ạ?
+
+1008
+01:13:33,290 --> 01:13:37,730
+Vâng, nó học theo thực toán, kiểu biến đổi thành số vậy anh. Chứ không phải là để con này này làm.
+
+1009
+01:13:37,810 --> 01:13:50,680
+Là tìm sắc xuất để cái từ này, à nghĩa là ở vị số 1 thì câu select nó sẽ có sắc xuất thành công là bao nhiêu.
+
+1010
+01:13:50,920 --> 01:13:58,740
+Ví dụ như nó là có sắc xuất thành công 40% thì chứng tỏ là nên bắt đầu câu lệnh bằng câu select thì có khả năng có dấu hiệu SQL.
+
+1011
+01:13:59,120 --> 01:14:02,400
+Tính sắc xuất thành công kiểu bùi gì? Nó phải dựa vào cái gì chứ?
+
+1012
+01:14:02,400 --> 01:14:04,780
+nó dựa vào hàm sắc xuất
+
+1013
+01:14:04,780 --> 01:14:05,940
+hàm sắc xuất
+
+1014
+01:14:08,000 --> 01:14:08,800
+1T Caclo
+
+1015
+01:14:08,800 --> 01:14:12,040
+nó đúng kiểu hàm sắc xuất
+
+1016
+01:14:12,040 --> 01:14:14,200
+nghĩa là nếu như A sinh ra
+
+1017
+01:14:14,200 --> 01:14:16,320
+thì tỷ lệ của B sinh ra bao nhiêu
+
+1018
+01:14:16,320 --> 01:14:18,560
+gieo 1 con súc sắc
+
+1019
+01:14:21,000 --> 01:14:22,960
+kiểu gieo 1 con súc sắc
+
+1020
+01:14:22,960 --> 01:14:25,140
+ra 1 mặt là 2
+
+1021
+01:14:25,140 --> 01:14:27,160
+thì sắc xuất để có thể tổng
+
+1022
+01:14:27,160 --> 01:14:29,020
+2 mặt là 7
+
+1023
+01:14:29,020 --> 01:14:30,200
+thì là bao nhiêu phần trăm
+
+1024
+01:14:30,200 --> 01:14:37,140
+em không tính sắc xuất khai thác được
+
+1025
+01:14:37,140 --> 01:14:40,180
+Để có thể tính cái góc đó thì phải đưa vào tường lửa lúc đấy mới check được
+
+1026
+01:14:40,620 --> 01:14:44,500
+Còn khi mà em làm em chỉ quan tâm là nó có ra được hình thủ SQLS không
+
+1027
+01:14:44,500 --> 01:14:46,500
+Thì gặp dính câu của thầy Tuấn
+
+1028
+01:14:46,500 --> 01:14:48,120
+Nên là mai hôm đấy thầy không đi
+
+1029
+01:14:51,740 --> 01:14:58,860
+Nói chung là đây gan đây đúng không?
+
+1030
+01:14:58,980 --> 01:15:00,400
+Cái mô hình của mày đây đúng không?
+
+1031
+01:15:00,720 --> 01:15:01,940
+Mô hình của em là mô hình
+
+1032
+01:15:01,940 --> 01:15:04,930
+Đây ạ?
+
+1033
+01:15:04,950 --> 01:15:07,010
+À đây đấy đúng rồi đúng rồi
+
+1034
+01:15:07,010 --> 01:15:10,040
+Cái dữ liệu thực tế sinh ra nó thể trông như thế
+
+1035
+01:15:11,390 --> 01:15:17,450
+Như là trông rất là rác mà ít ra nó đỡ hơn mấy cái đằng sau
+
+1036
+01:15:17,450 --> 01:15:30,570
+Thì mới cần buổi hôm nay anh ở dưới em, em cũng biết là mô hình em cũng bánh vẽ, nếu mà nộp lên hội thảo toàn quốc người ta cũng cười vào mặt sau.
+
+1037
+01:15:30,810 --> 01:15:44,480
+Anh thấy mày đang chưa hiểu lắm nên...
+
+1038
+01:15:46,200 --> 01:15:49,360
+Gan bản gốc này thì nó thua cái gì?
+
+1039
+01:15:49,640 --> 01:15:55,580
+Gan bản gốc là nó cố định ở con số 20, mà payload thì thường rất là dài.
+
+1040
+01:15:56,260 --> 01:15:59,480
+Nên là nó có cái xu hướng là dồn hết tất cả vào cái khay cuối cùng.
+
+1041
+01:16:00,260 --> 01:16:03,630
+Và nó bị thiếu một vài cái nữa qua cái thuật toán này.
+
+1042
+01:16:03,630 --> 01:16:06,170
+Số gan màn gốc nó xinh có ngắn thế này được không?
+
+1043
+01:16:06,410 --> 01:16:09,050
+Vâng, bởi vì cái thằng đánh giá nó đánh mạnh quá
+
+1044
+01:16:09,430 --> 01:16:13,250
+Thành ra nó chỉ cần phát hiện là cái câu lệnh này vượt qua cái
+
+1045
+01:16:13,250 --> 01:16:16,350
+Nó chỉ quan tâm là gen giống hệt cái câu lệnh cũ này
+
+1046
+01:16:16,350 --> 01:16:17,050
+Đúng
+
+1047
+01:16:17,920 --> 01:16:18,280
+Nó
+
+1048
+01:16:19,880 --> 01:16:24,000
+Thế nếu mà câu gan của mày mới nó chỉ xuất hiện như thế nào?
+
+1049
+01:16:24,000 --> 01:16:24,900
+Vâng, cũng nó chỉ xuất hiện như thế này
+
+1050
+01:16:24,900 --> 01:16:27,500
+Bởi vì là cái thằng kia mấy cái dấu hiệu đặc biệt
+
+1051
+01:16:27,860 --> 01:16:29,660
+Là nó không học nổi
+
+1052
+01:16:30,280 --> 01:16:33,480
+Nhưng mà nó lại học được đúng một cái câu lệnh mà chắc chắn là thành công
+
+1053
+01:16:33,480 --> 01:16:35,440
+thì nó chỉ quan tâm đến cái câu lệnh đấy thôi
+
+1054
+01:16:35,440 --> 01:16:37,340
+nó chỉ sinh ra giống hiện đủ cái câu lệnh
+
+1055
+01:16:37,340 --> 01:16:40,970
+ví dụ nó nhìn thấy
+
+1056
+01:16:40,970 --> 01:16:42,990
+phải em cái nó chặn mẹ luôn
+
+1057
+01:16:42,990 --> 01:16:44,920
+thì cái câu đằng sau
+
+1058
+01:16:44,920 --> 01:16:46,220
+vô nghĩa hay có gì đó
+
+1059
+01:16:46,840 --> 01:16:48,780
+thì tao thấy thằng gan bản gốc
+
+1060
+01:16:49,280 --> 01:16:50,620
+mày cắt đéo rồi
+
+1061
+01:16:50,620 --> 01:16:52,580
+0.1 u liền
+
+1062
+01:16:52,580 --> 01:16:54,920
+nó chặn mẹ luôn
+
+1063
+01:16:54,920 --> 01:16:56,220
+câu này hơn cái đầu bùi
+
+1064
+01:16:56,220 --> 01:16:58,620
+cái đấy nó dài hơn
+
+1065
+01:16:59,100 --> 01:17:00,320
+dài hơn thì được cái gì
+
+1066
+01:17:01,000 --> 01:17:02,500
+phải u liền nó chặn luôn
+
+1067
+01:17:02,500 --> 01:17:09,950
+Cái cuốn của tao, tao chỉ cần nó u điền, tao chặn luôn. Chưa cần giải. Hiểu chưa?
+
+1068
+01:17:10,170 --> 01:17:10,530
+Rồi.
+
+1069
+01:17:11,640 --> 01:17:18,400
+Cái gì mới có buổi hôm nay? Không biết thực tế là làm kẻ test nó lại trông ổn định không?
+
+1070
+01:17:19,080 --> 01:17:23,260
+Cứ đi học thôi. 4 năm cơ mà. 4 năm thì không học được tiền test à.
+
+1071
+01:17:23,760 --> 01:17:25,420
+4 năm không học thì ghét đi học à.
+
+1072
+01:17:27,440 --> 01:17:28,420
+Đi học đi. Đi học đi.
+
+1073
+01:17:29,760 --> 01:17:30,620
+Ngồi giải thích đi.
+
+1074
+01:17:31,460 --> 01:17:33,780
+Nghe cái đề tài gần tiếng giữa mà ngồi.
+
+1075
+01:17:34,100 --> 01:17:37,620
+Đéo hiểu được cái đề tài này làm lộn thì tao thấy là nó chưa ok đâu.
+
+1076
+01:17:39,500 --> 01:17:41,800
+Bây giờ mày phải nói nó thật là dễ hiểu rồi đó
+
+1077
+01:17:42,540 --> 01:17:43,840
+Người bình thường không hiểu được
+
+1078
+01:17:44,320 --> 01:17:45,420
+Đừng có học thuật lên
+
+1079
+01:17:46,310 --> 01:17:48,050
+Học thuật lên chả hiểu nó
+
+1080
+01:17:48,050 --> 01:17:49,330
+Nó không giúp ích cho cái gì được
+
+1081
+01:17:49,330 --> 01:17:53,300
+Mày nói đơn giản thôi
+
+1082
+01:17:53,300 --> 01:17:55,260
+Lấy ví dụ đơn giản thôi
+
+1083
+01:17:58,960 --> 01:18:01,100
+Cái gan của mày hơn cái gì
+
+1084
+01:18:01,100 --> 01:18:02,260
+Thuật là nơi giờ
+
+1085
+01:18:03,120 --> 01:18:03,980
+Gạch đầu dòng ra
+
+1086
+01:18:03,980 --> 01:18:07,520
+Cái tính ứng dụng của nó
+
+1087
+01:18:08,580 --> 01:18:09,800
+Chứ còn đéo một thằng nào
+
+1088
+01:18:11,280 --> 01:18:13,560
+Mày cần làm cái gì
+
+1089
+01:18:13,560 --> 01:18:15,860
+thì làm ra cái gì là mày phải bắt buộc phải hiểu rồi
+
+1090
+01:18:15,860 --> 01:18:18,180
+còn để cho người khác hiểu được
+
+1091
+01:18:18,180 --> 01:18:21,480
+thì mày phải đơn giản hóa nó đi
+
+1092
+01:18:21,480 --> 01:18:23,160
+có nghĩa là mày rất hiểu rồi
+
+1093
+01:18:23,160 --> 01:18:24,380
+thì mày mới đơn giản hóa được
+
+1094
+01:18:26,440 --> 01:18:30,020
+thế mình nói là đang vang vông vần thể
+
+1095
+01:18:32,060 --> 01:18:33,300
+tao chưa hiểu
+
+1096
+01:18:33,880 --> 01:18:36,360
+chưa hiểu cái thằng gan nó hơn cái gì
+
+1097
+01:18:37,480 --> 01:18:40,580
+ví dụ thằng kia nó sinh bị ngắn quá
+
+1098
+01:18:40,580 --> 01:18:41,140
+đúng không?
+
+1099
+01:18:41,260 --> 01:18:41,600
+vâng
+
+1100
+01:18:42,140 --> 01:18:44,300
+và thằng gan kia nó sinh nhiều hơn
+
+1101
+01:18:45,160 --> 01:18:45,720
+dài hơn
+
+1102
+01:18:45,720 --> 01:18:48,900
+thế tại sao nó phải sinh dài hơn
+
+1103
+01:18:51,330 --> 01:18:52,510
+nếu mà sinh ngắn quá
+
+1104
+01:18:52,510 --> 01:18:55,130
+chứng tỏ là mô hình của em
+
+1105
+01:18:55,130 --> 01:18:56,850
+chỉ tập trung vào những mẫu mà chắc chắn thành công
+
+1106
+01:18:58,140 --> 01:18:59,600
+thì nếu mà chỉ đơn giản là
+
+1107
+01:18:59,600 --> 01:19:00,680
+tập trung vào mẫu chắc chắn thành công
+
+1108
+01:19:00,680 --> 01:19:03,820
+thì sẽ bỏ xót toàn bộ tất cả các mẫu mà có nguy cơ bị tấn công
+
+1109
+01:19:03,820 --> 01:19:06,390
+cái đầu nó giống nhau mà
+
+1110
+01:19:07,780 --> 01:19:09,200
+vâng, cái đầu giống nhau
+
+1111
+01:19:09,200 --> 01:19:10,520
+đầu giống nhau thì nó chặn rồi
+
+1112
+01:19:12,090 --> 01:19:13,220
+ông phải so sánh được là
+
+1113
+01:19:13,980 --> 01:19:15,940
+cái mẫu chắc chắn thành công của
+
+1114
+01:19:15,940 --> 01:19:23,440
+của cái mẫu không chưa chắc là thành công ấy thì nó bị trùng cướp với cả cái chắc chắn thành công
+
+1115
+01:19:23,440 --> 01:19:31,360
+như là bao nhiêu phần trăm và ông tối ưu hơn nó là bao nhiêu phần trăm hiểu chưa Đấy thì em chưa
+
+1116
+01:19:31,360 --> 01:19:41,180
+mày hơn người ta cái gì mày cũng nói là được thì đối với ai mà biết xin câu giải hơn xin câu giải
+
+1117
+01:19:41,180 --> 01:19:48,760
+có hiệu quả không hiểu chưa Ví dụ cái đầu nó ra giống nhau rồi thì thằng này nó cũng chặn mà có
+
+1118
+01:19:48,760 --> 01:19:54,880
+phải mỗi thằng dài của mày nó chặn đâu hai cái đầu ví dụ nó đều là U niền thì thằng kia nó có U
+
+1119
+01:19:54,880 --> 01:20:00,000
+niền nó cũng chặn rồi thì là sinh cái đằng sau nó không quan tâm thì có nghĩa
+
+1120
+01:20:00,010 --> 01:20:02,490
+là cái câu lệnh dài của mày, nó gặp thì nó chặn đúng không?
+
+1121
+01:20:03,190 --> 01:20:06,730
+Nhưng mà bên này nó cũng là câu lệnh dài ngắn thôi, nhưng mà nó gặp thì nó vẫn chặn.
+
+1122
+01:20:07,070 --> 01:20:09,830
+Kể cả thằng kia không khuyên truyền câu lệnh dài của mày.
+
+1123
+01:20:10,690 --> 01:20:13,740
+Nó hiểu cái buổi. Về học đi.
+
+1124
+01:20:13,980 --> 01:20:17,120
+Vâng. Nhờ anh ạ.

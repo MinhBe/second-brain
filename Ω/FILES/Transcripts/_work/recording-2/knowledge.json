@@ -1,0 +1,181 @@
+{
+  "created": "2026-09-09",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Trong báo cáo sinh dữ liệu SQL, người trình bày nêu vấn đề ở điểm thưởng: mô hình có xu hướng học các thành phần để được điểm cao; cần làm rõ quan hệ giữa điểm thưởng và phép đánh giá.",
+      "confidence": "thấp",
+      "confidence_reason": "Lời nói về điểm thưởng và học lấy điểm khá rõ, nhưng câu giải thích hai hàm bị ASR lặp; cần mã và nghe lại để kết luận chính xác.",
+      "evidence": [
+        {
+          "segment_id": "S00331",
+          "quote": "Thì các thầy hội đồng cũng đã nhận ra là em có một vấn đề khá lớn với phần điểm thưởng ạ"
+        },
+        {
+          "segment_id": "S00341",
+          "quote": "học những cái thành phần để điểm cao"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C2",
+      "text": "Một báo cáo tiếp theo mô tả yêu cầu kiểm tra trùng lặp ở dữ liệu sinh và loại mẫu trùng trước khi tính chỉ số; tên mô hình và công thức trong ASR chưa đủ rõ.",
+      "confidence": "thấp",
+      "confidence_reason": "Ý loại trùng có lời trực tiếp; thuật ngữ, đối tượng và tên chỉ số xung quanh bị lỗi nhận dạng.",
+      "evidence": [
+        {
+          "segment_id": "S00353",
+          "quote": "và cũng kiểm tra xem độ trùng lọc của các mẫu hoạt động sinh ra bởi mô hình"
+        },
+        {
+          "segment_id": "S00354",
+          "quote": "đồng thời sẽ tính loại bỏ những mẫu hoạt động trùng lọc"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C3",
+      "text": "Người trình bày nói đã lưu các file CSV của lần chạy đầu làm bằng chứng và đang kiểm tra lại; chưa coi lời báo cáo này là xác nhận độc lập về chất lượng dữ liệu.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00381",
+          "quote": "Hiện tại thì với lần 1 thì những kết quả này của em thì em đã có tất cả các file CSV sinh ra"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C4",
+      "text": "Phần deepfake nhấn mạnh đánh giá trên dữ liệu khác hoặc chưa nhìn thấy; đây là trọng tâm cần được thể hiện nhất quán trong bài báo.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00758",
+          "quote": "Và nó chủ yếu là so sánh đối với các huấn luyện ở trên tập dữ liệu tầng và kiểm tưởng trên tập dữ liệu khác."
+        },
+        {
+          "segment_id": "S00820",
+          "quote": "đánh giá trên một dữ liệu khác, một dữ liệu chưa nhìn thấy"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C5",
+      "text": "Người trình bày đồng ý sửa tiêu đề vì trọng tâm đã có trong nội dung nhưng chưa được nêu rõ ở tiêu đề.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00819",
+          "quote": "Nhưng mà trong cái phần tiêu đề chưa đẩy, thì anh sẽ phải sửa lại cái phần tiêu đề."
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C6",
+      "text": "Góp ý yêu cầu khảo sát công trình mới sát thời điểm viết, thay vì chỉ so sánh với tài liệu cũ hoặc với bài tạo ra bộ dữ liệu.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00860",
+          "quote": "Trong tất cả những công trình, nếu game vào năm 2026 thì em phải thảo sát đến tận tháng 9 2026."
+        },
+        {
+          "segment_id": "S00888",
+          "quote": "Vì năm nay 26 mà em không so sánh với những cái công trình 6 tháng trở về trước, năm 1 năm trước thì không ai tìm."
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C7",
+      "text": "Phần góp ý cuối vẫn yêu cầu người làm hiểu mô hình trước khi chọn cách cải thiện.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00908",
+          "quote": "Thầy có nhiều cách cải thiện nó, nhưng mà thầy muốn em phải hiểu về nó."
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N1",
+      "title": "Kiểm dữ liệu sinh và tính độc lập của phép đo",
+      "question": "Cần kiểm tra gì trước khi dùng kết quả sinh dữ liệu làm bằng chứng?",
+      "answer": "Làm rõ điểm thưởng có trùng với tiêu chí đánh giá hay không, kiểm mẫu trùng và lưu đầu ra từng lần chạy để có thể đối chiếu.",
+      "context": "Đây là tổng hợp hai phần báo cáo kế tiếp; chưa xác nhận chúng cùng đề tài hoặc cùng người trình bày.",
+      "conditions": "Chưa xác minh mã, CSV, công thức chỉ số hoặc tính đúng của kết quả; các thuật ngữ bị ASR làm sai cần nghe lại.",
+      "claim_ids": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "connections": "Voice 018 N2 về tiêu chí đánh giá; Voice 009 N4 về lưu minh chứng.",
+      "tags": [
+        "thiết kế thực nghiệm",
+        "thước đo đánh giá",
+        "GAN và SQL injection"
+      ]
+    },
+    {
+      "id": "N2",
+      "title": "Đưa đúng bài toán vào tiêu đề và phép thử",
+      "question": "Làm sao thể hiện đóng góp về dữ liệu chưa thấy?",
+      "answer": "Nêu rõ bài toán khái quát sang dữ liệu khác trong tiêu đề và nội dung, đồng thời gắn nó với thiết kế đánh giá phù hợp.",
+      "context": "Phần báo cáo deepfake và góp ý về tiêu đề chưa làm nổi bật trọng tâm.",
+      "conditions": "Không xác nhận mô hình hơn SOTA; chưa kiểm split, bảng số liệu và tên bộ dữ liệu.",
+      "claim_ids": [
+        "C4",
+        "C5"
+      ],
+      "connections": "Voice 010 N2/N4 về liên tập và tính mới.",
+      "tags": [
+        "deepfake",
+        "trình bày nghiên cứu",
+        "thước đo đánh giá"
+      ]
+    },
+    {
+      "id": "N3",
+      "title": "Hiểu mô hình và cập nhật căn cứ so sánh",
+      "question": "Điều gì cần làm trước khi kết luận hướng cải tiến có đóng góp?",
+      "answer": "Nắm rõ cơ chế mô hình và khảo sát công trình mới sát thời điểm viết để xác định vấn đề còn lại.",
+      "context": "Góp ý cho các báo cáo cuối buổi, gồm tin giả tiếng Việt và sinh dữ liệu.",
+      "conditions": "Mốc tháng/năm là lời nói trong bản ghi, không tự chuyển thành deadline hiện tại; chưa tìm hay kiểm các bài báo được nhắc.",
+      "claim_ids": [
+        "C6",
+        "C7"
+      ],
+      "connections": "Voice 010 N1 về câu hỏi nghiên cứu; Voice 018 N3 về hiểu hệ thống trước khi sửa.",
+      "tags": [
+        "trình bày nghiên cứu",
+        "học qua thực hành"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Nguồn có rất nhiều lỗi ASR và đoạn lặp; cần nghe trước khi trích trực tiếp thuật ngữ hoặc dùng số liệu. Hai kênh giống nhau ở hai mẫu đo không chứng minh lời nói rõ trên toàn file.",
+    "Phần đầu chưa xác định chắc tên phương pháp, dữ liệu và chỉ số; không dựng kiến thức kỹ thuật từ các câu méo nghĩa.",
+    "Các thứ tự nhóm payload tốt/kém có thể khác Voice 012/013/018; cần phiên bản thí nghiệm và bảng gốc, không tự hòa giải bằng đổi tên nhóm.",
+    "S00370 ghi 'true positive càng thấp càng tốt' nhưng ngữ cảnh chỉ số bị lỗi; chưa thể coi là định nghĩa chuẩn.",
+    "Chuyện tổ chức, thuế, sản phẩm, bản quyền và cá nhân giữa buổi là trao đổi chưa xác minh; không biến thành tư vấn pháp lý, tài chính hay kết luận về người được nhắc.",
+    "Tên hội thảo và hạn nộp xuất hiện nhiều biến thể; chưa có căn cứ tạo lịch nộp bài."
+  ],
+  "practice": [
+    "Đối chiếu hàm thưởng, hàm đánh giá và dữ liệu dùng cho chúng; lưu mẫu sinh và kết quả loại trùng theo từng lần chạy.",
+    "Viết lại một câu nêu vấn đề khái quát sang dữ liệu chưa thấy, rồi kiểm tiêu đề, tóm tắt và bảng thí nghiệm có cùng trọng tâm.",
+    "Cập nhật bảng nghiên cứu liên quan từ tài liệu gốc và ghi rõ khác biệt cơ chế, dữ liệu, phép đo; nghe xác nhận các claim cần dùng."
+  ]
+}

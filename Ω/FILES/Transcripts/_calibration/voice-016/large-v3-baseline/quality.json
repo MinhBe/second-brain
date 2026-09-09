@@ -1,0 +1,172 @@
+{
+  "segments": 5,
+  "flagged": 1,
+  "flagged_pct": 20.0,
+  "minutes": {
+    "0": {
+      "segments": 3,
+      "flagged": 0
+    },
+    "1": {
+      "segments": 2,
+      "flagged": 1
+    }
+  },
+  "review_segments": [
+    {
+      "id": "S00004",
+      "seek": 0,
+      "start": 65.53,
+      "end": 78.87,
+      "text": "Nhưng mà trường bác tư yêu, trường bác tư yêu, trường bác tư yêu, trường bác tư yêu, trường bác tư yêu.",
+      "avg_logprob": -0.5048668296610723,
+      "compression_ratio": 1.945054945054945,
+      "no_speech_prob": 0.266845703125,
+      "words": [
+        {
+          "start": 65.53,
+          "end": 66.03,
+          "word": " Nhưng",
+          "probability": 0.75341796875
+        },
+        {
+          "start": 67.36,
+          "end": 67.48,
+          "word": " mà",
+          "probability": 0.7431640625
+        },
+        {
+          "start": 67.48,
+          "end": 68.14,
+          "word": " trường",
+          "probability": 0.484130859375
+        },
+        {
+          "start": 68.14,
+          "end": 68.34,
+          "word": " bác",
+          "probability": 0.39178466796875
+        },
+        {
+          "start": 68.34,
+          "end": 68.34,
+          "word": " tư",
+          "probability": 0.913818359375
+        },
+        {
+          "start": 68.34,
+          "end": 68.34,
+          "word": " yêu,",
+          "probability": 0.88623046875
+        },
+        {
+          "start": 68.46,
+          "end": 68.68,
+          "word": " trường",
+          "probability": 0.6600341796875
+        },
+        {
+          "start": 68.68,
+          "end": 68.68,
+          "word": " bác",
+          "probability": 0.9140625
+        },
+        {
+          "start": 68.68,
+          "end": 68.82,
+          "word": " tư",
+          "probability": 0.988037109375
+        },
+        {
+          "start": 68.82,
+          "end": 68.9,
+          "word": " yêu,",
+          "probability": 0.962890625
+        },
+        {
+          "start": 72.21,
+          "end": 72.89,
+          "word": " trường",
+          "probability": 0.8349609375
+        },
+        {
+          "start": 72.89,
+          "end": 73.61,
+          "word": " bác",
+          "probability": 0.962890625
+        },
+        {
+          "start": 73.61,
+          "end": 74.05,
+          "word": " tư",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 74.05,
+          "end": 74.11,
+          "word": " yêu,",
+          "probability": 0.984375
+        },
+        {
+          "start": 74.11,
+          "end": 74.13,
+          "word": " trường",
+          "probability": 0.919921875
+        },
+        {
+          "start": 74.13,
+          "end": 74.99,
+          "word": " bác",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 74.99,
+          "end": 75.07,
+          "word": " tư",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 75.07,
+          "end": 75.13,
+          "word": " yêu,",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 75.19,
+          "end": 77.21,
+          "word": " trường",
+          "probability": 0.937255859375
+        },
+        {
+          "start": 77.21,
+          "end": 77.79,
+          "word": " bác",
+          "probability": 0.992431640625
+        },
+        {
+          "start": 77.79,
+          "end": 78.31,
+          "word": " tư",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 78.31,
+          "end": 78.87,
+          "word": " yêu.",
+          "probability": 0.98681640625
+        }
+      ],
+      "temperature": 0,
+      "flags": [
+        "repetition"
+      ]
+    }
+  ],
+  "untranscribed_gaps": [
+    {
+      "start": 106.22,
+      "end": 300.0123125
+    }
+  ],
+  "status": "needs_listening"
+}

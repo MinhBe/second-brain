@@ -1,0 +1,1124 @@
+[00:00:00] không dùng thuật toán của ai đây anh thì trên này mày thấy tao thấy cái tiêu đề của mày là khác mà
+[00:00:07] đây anh thì là làm mấy cái thằng còn lại gan gồm gì đấy vâng thì gan nó là cái lộn gì gan là thuật
+[00:00:16] toán của ai đây anh nghĩa là bình thường thì sẽ là kiểu copy paste các cái câu lệnh lên thì bây giờ
+[00:00:22] là em sẽ chọn lấy những cái keyword mà quan trọng để có thể tập trung vào đó mà sinh ra dữ liệu
+[00:00:30] để kiểu làm mới bộ dữ liệu lên thôi anh
+[00:00:32] nghĩa là một phương pháp mà kiểu nó sinh dữ liệu nó thông minh hơn
+[00:00:37] thì về cơ bản là nó sẽ vượt trội hơn các phương án truyền thống chỉ đơn giản là copy paste
+[00:00:42] thì hiện tại thì là
+[00:00:45] copy paste vào đâu?
+[00:00:47] bây giờ có 70 câu thì đẩy lên thành hơn
+[00:00:50] 70 câu thì mẹ à
+[00:00:52] nó block thì mấy trăm nghìn
+[00:00:57] có nghĩa là kiểu trong AI thì nó sẽ cần một lượng lớn dữ liệu ý ạ
+[00:01:01] Ừ, bây giờ payload mày search bừa trên mạng cũng phải mấy chục nghìn câu
+[00:01:07] Nhưng mà payload mà khai thác nội bộ của công ty cơ anh
+[00:01:11] Nghĩa là
+[00:01:11] Công ty nào nó chẳng như nhau, database nào thì nó ứng với query đấy chứ còn của công ty thì
+[00:01:19] Em tưởng là mixconfig thì kiểu công ty sẽ mixconfig riêng để kiểu có sự độc nhất để chẳng bị tấn công
+[00:01:27] Thế mày có hiểu FP audio đâu mà mày phải viết
+[00:01:30] Bây giờ ý là mày cần tao chỉ cho mày cái gì
+[00:01:36] Nhờ cái đấy để mày viết ra cái gì thì mày hỏi cái đấy
+[00:01:39] Chứ còn bây giờ nói là
+[00:01:41] Không viết thì chắc là chưa
+[00:01:43] Bởi vì là em còn sau này mày về phải xem lại
+[00:01:46] Vì là em cũng chưa ý thức được là
+[00:01:49] Một cuộc tấn công kiểu chỉ bước scanning đầu
+[00:01:53] Để xem lỗi ở một hệ cơ sở điểm
+[00:01:55] Thế ý là bây giờ ví dụ
+[00:01:57] Mày tạo ra cái này để làm gì
+[00:01:59] Tạo này
+[00:02:03] Thì các công ty sẽ không phải đưa
+[00:02:05] Phải lưu tải dữ liệu về nữa
+[00:02:07] Mà chỉ cần dữ liệu nội bộ thôi
+[00:02:09] Thì không cần phải tải thêm gì nữa
+[00:02:11] Ví dụ như bình thường chỉ có
+[00:02:13] Kiểu 60-70 mẫu
+[00:02:15] Là pen test tạo ra
+[00:02:16] Sao này chỉ có 60-70 mẫu nhỉ
+[00:02:18] Tại sao này chỉ có 60-70 mẫu
+[00:02:21] Em đang hiểu là
+[00:02:22] Ví dụ như là nếu như anh làm
+[00:02:24] Thì anh sẽ thử kiểm thử nội bộ
+[00:02:26] Thì anh sẽ chỉ tạo ra được một lượng
+[00:02:29] tầm 1% so với tổng những lượng payload bình thường mà công ty đang có
+[00:02:34] thì bây giờ làm nào đi?
+[00:02:36] tao vẫn không hiểu
+[00:02:37] tại vì cái trên mạng thiếu đéo như vậy
+[00:02:40] sau này cứ 60-70 mẫu là sao?
+[00:02:43] cái trên mạng thì được coi là kiểu dữ liệu cộng đồng
+[00:02:46] thì thường những câu lệnh đấy là đã bị chặn hết rồi
+[00:02:49] ai chặn?
+[00:02:51] các cái con Warp
+[00:02:55] hoặc nó sẽ tải bộ Threat Intelligence về
+[00:02:58] về và nó sẽ chủ động chặn các cái cái tấn công đấy. Ừ. Thì
+[00:03:03] bây giờ là có những cái mà tấn công đặc thù hơn ví dụ như là
+[00:03:07] nó không chặn hết được. Cái của mày thì tao thấy có đặc thù
+[00:03:11] gì đâu. Vì đang em đang hướng như thế. Thì hiện tại là mới
+[00:03:14] chứng minh là phương pháp của em thì ổn định hơn phương pháp
+[00:03:18] thì bây giờ là sẽ cần phải làm với các tất cả các tấn công
+[00:03:23] khác. Nhưng mà sao này sáu mươi bảy mươi lâu nhỉ? Thì
+[00:03:29] sau đấy nó sinh thì nó mới học được chứ
+[00:03:34] thì nó thấy giống dạng nào thì nó mới học
+[00:03:38] nó detect là cái dạng đấy
+[00:03:40] ý em là kiểu kể cả là lấy hết các mẫu ấy à
+[00:03:44] thì so với các mẫu người dùng thông thường
+[00:03:46] thì nó chỉ chiếm tầm khoảng dưới 10% đầu xuống
+[00:03:51] 10% ở đâu? thông số chỗ nào ra?
+[00:03:54] dạ
+[00:03:54] thông số ở đâu?
+[00:03:55] các payload bình thường của người dùng ấy anh
+[00:03:58] là sao?
+[00:03:58] nghĩa là một ngày thì
+[00:04:01] bây lốt thông thường người dùng thì liên quan đéo đến tấn công nhỉ?
+[00:04:04] nghĩa là các cái truy vấn bình thường của người dùng về cơ sở dữ liệu
+[00:04:07] thì so với lượng bây lốt tấn công thì là sẽ ít hơn hẳn
+[00:04:12] ừ, thì liên quan đéo gì?
+[00:04:15] bây giờ mình đang cẩn trận tấn công mà
+[00:04:17] những thằng tấn công thì nó sẽ lấy hết, nó sẽ lấy chỉ mỗi dữ liệu người dùng
+[00:04:22] mà thằng học máy thì nó sẽ không, lúc đầu nó sẽ không biết đâu là tấn công
+[00:04:27] mình truyền vào ạ?
+[00:04:29] Vâng kể cả sau đấy ạ
+[00:04:30] Kể cả sau đấy là như nào
+[00:04:34] Nghĩa là khi mà đưa vào mô hình
+[00:04:35] Thì không để đưa thuật tấn công được
+[00:04:37] Phải đưa cả mẫu bình thường để nó biết đâu là mẫu cần chặn
+[00:04:40] Và đâu là mẫu có thể bỏ qua
+[00:04:43] Thì xe có những mẫu mà nó
+[00:04:46] Mẫu nào là mẫu cần bỏ qua
+[00:04:48] Nó
+[00:04:50] Ông này chả hiểu đéo
+[00:04:52] Ví dụ nha
+[00:04:53] Ví dụ nó thực thi trong
+[00:04:56] DB đúng không
+[00:04:57] Thì cái thằng nó cần check là
+[00:04:59] Cái thằng
+[00:05:01] thằng nào đòi thực thi
+[00:05:06] bình thường
+[00:05:07] thằng web thực thi đúng không
+[00:05:09] thì ông web đấy
+[00:05:12] thực thi là từ chức năng nào
+[00:05:14] ví dụ
+[00:05:16] như tên người dùng chẳng hạn
+[00:05:19] tên người dùng nó thực thi cái gì
+[00:05:21] nó sẽ query cái gì để nó ra
+[00:05:25] cái tên người dùng đó
+[00:05:25] mày đang chặn cái gì tao chưa hiểu
+[00:05:32] mày đang muốn sinh ra
+[00:05:35] để nhiều
+[00:05:37] cái payload đúng không
+[00:05:38] Vâng và dựa vào những cái để chặn những thằng bên ngoài thì vâng nhưng mà các em đang thấy là
+[00:05:44] khi bình thường là người ta cũng đã làm hết rồi kiểu không dùng nghĩa là mấy các cái câu ờ các
+[00:05:52] cái câu tấn công là cũng đã được lên rồi để có gì mọi người đem về làm kiểu bộ trạng riêng ý ạ ừ
+[00:06:02] thì nên là bây giờ ít nhất là vệ sinh là có khả năng học được những mẫu cao cấp hơn vượt lên
+[00:06:08] Các mẫu mã nguồn mở như thế này có những mẫu mà có khả năng tự ẩn ẩn ẩn đi các cái mục đích
+[00:06:17] này kiểu có những cái ký quát đặc biệt hơn để vượt qua được từng lửa thông thường là cái gì
+[00:06:25] đây có cái đi phương sinh em em để mới biết cái gợi ý cái đấy thì chỉ có chất lượng chỉ có từng
+[00:06:42] Đấy, thì thường dữ liệu nó sinh ra nó sẽ bị lẫn
+[00:06:47] Bây giờ cố gắng tinh chỉnh
+[00:06:52] Mấy cô này khai thác được rồi
+[00:06:54] Mấy cô này nếu như đưa vào mô hình mà không có phòng thủ gì
+[00:06:57] Vẫn khai thác được rồi, không dùng tường rửa gì
+[00:07:01] Em phải tưởng là nó không có khả năng vì nó bị chặn hết
+[00:07:06] Chặn cái gì?
+[00:07:08] Đây, bên này là kiểu đưa vào tường rửa
+[00:07:10] Nó bắt ru thì nó chặn luôn
+[00:07:18] Còn tao khẳng định luôn
+[00:07:19] Mấy cái máy sinh ra chắc chắn là vẫn bị chặn
+[00:07:23] Đối với mày vượt được đấy, nếu mà mày làm 1 con F5, 1 con quát vào, mày cho 1 con quát vào, mày thử chạy thử xem, chứng minh đi.
+[00:07:35] Thế ví dụ mày dùng con AI mày sinh ra được đúng không?
+[00:07:38] Mày sinh được thì mày phải bypass được con đấy, mày phải bypass được cái bộ chặn đấy.
+[00:07:46] Tại vì mày bảo là mày đặc biệt hơn chúng nó mà.
+[00:07:50] Mày bảo đặc biệt hơn thì những cái bộ mà sinh ra mà con này có, thì thằng khác không có đúng không?
+[00:07:55] đúng không ạ thì mày phiêu vào những thằng khác thì thằng khác nó phải khai thác được chỉ phiêu
+[00:08:02] vào con của mày thì con của mày mới chặn được thôi còn tất cả con khác nó đều phiêu qua hiểu chưa
+[00:08:08] Vâng cái đấy hợp ý anh cái đấy đúng em nhầm cái ý là cái đấy thì em có ý thức được thì em có làm cái
+[00:08:16] đấy rồi làm cái gì mày làm cái gì mày kể tao nghe mày làm cái gì ở mức các bạn nói nghĩa là em đưa
+[00:08:22] đưa vào nghĩa là sau mô hình con mô hình của em sau khi mà học được bộ dữ liệu mới thì chặn được
+[00:08:29] Còn nếu mà dùng các cái ru máu nguồn mở thì là 60 70 câu gì không Cái đấy là con một security
+[00:08:40] 2022 bộ bộ ru xe một security 2022 máu nguồn mở trên mạng thôi thì là con con đấy thì chặn chặn
+[00:08:50] Thì em dùng
+[00:08:56] Thì đầu tiên là chứng minh là hơn được
+[00:08:59] Ruset trước rồi
+[00:09:08] Không được dùng bộ 2026 anh
+[00:09:10] Bởi vì là chưa ai làm
+[00:09:11] Thì là mọi người chỉ dùng bộ 2022
+[00:09:14] Nên phải dựa vào đấy để chứng minh là
+[00:09:16] Mình có cải thiện
+[00:09:17] Đương nhiên là cải thiện thì so với bây giờ
+[00:09:20] Là nó bị lỗi thờ
+[00:09:21] nhưng mà vẫn phải chứng minh là có cải thiện trước đã.
+[00:09:24] Mày chứng minh được là bây giờ nếu mà cho vào trong cái rule set của mày thì
+[00:09:33] cho vào cái mode thì nó khai thác được.
+[00:09:36] Đâu, cái khai thác được đâu, chụp ảnh thôi.
+[00:09:38] Thì đấy, ở trong cái quyển của em nhưng mà...
+[00:09:40] Đây, quyển của mày đây.
+[00:09:41] Thì nó chỉ đưa thủ số chặn thôi anh, còn...
+[00:09:44] Như nào, như nào?
+[00:09:45] Đây thì mấy cái câu mà anh đang nhìn đây anh.
+[00:09:47] Là nó chặn?
+[00:09:48] Vâng, là nó chặn còn...
+[00:09:51] Câu của mày đâu, câu của mày thì nó không chặn đâu.
+[00:09:52] Đang không để trong quyển với gạch kia nhưng mà chỉ có tầm hơn 7
+[00:10:00] bảy tầm mấy phần trăm là không bị chạm rồi anh nhưng mà mẫu đâu phải không
+[00:10:04] chạm đâu không được rồi em không đưa ở đây ạ Thế cái quyển của mày gì kia nó chỉ có thông số
+[00:10:11] đâu số đâu là mày chỉ ghi là bao nhiêu phần trăm á Vâng thế là ông đéo làm à vậy không làm anh không
+[00:10:18] Thế không có hình à? Ông nào mà nói không có hình á?
+[00:10:23] Như này hình gì anh?
+[00:10:25] Ôi địt mẹ, thằng nào nó cho mày tát cái thạc sĩ nó cũng vãi lồn thật
+[00:10:30] Không, em, các thầy chỉ quan tâm là mô hình AI thôi chứ không quan tâm thực tế nào
+[00:10:36] Thì bây giờ là em mới quan tâm thực tế
+[00:10:38] Còn hầu hết cả mô hình của em chỉ là toàn kiểu vẽ kiến trúc các kiểu thôi
+[00:10:43] Cái đấy...
+[00:10:47] Cái đấy trên mạng đầy, bị bệ hả?
+[00:10:49] Không, không, cái của em thì không có
+[00:10:51] Cái của em chỉ có 6 người làm thôi
+[00:10:54] Em cải thiện hơn người ta 1 tí
+[00:10:56] Chết
+[00:11:00] Đâu thông thố đâu
+[00:11:05] Được à
+[00:11:06] Cho xem thông thố nào
+[00:11:07] Đấy không
+[00:11:08] Đây cái đoạn tùng lửa bay
+[00:11:10] Bay gút
+[00:11:11] Đây đây gì
+[00:11:14] Thông
+[00:11:15] À đúng rồi
+[00:11:16] Làm sao
+[00:11:17] Đây đây
+[00:11:18] Thông thố nó như thế nào
+[00:11:21] Đây là cái cột mà
+[00:11:23] Thì bị chặn
+[00:11:24] Bị chặn là sao
+[00:11:25] Nghĩa là
+[00:11:25] Pilot nó bắt được
+[00:11:27] Là dạng tấn công
+[00:11:28] Thì nó
+[00:11:28] Không cho qua được anh
+[00:11:30] Nghĩa là kiểu
+[00:11:31] Đưa qua bộ rưu xét
+[00:11:32] Rồi bộ rưu xét
+[00:11:33] Nhận định đâu là tấn công
+[00:11:34] không phải tấn công đâu, không phải tấn công nha anh
+[00:11:35] thì là phương pháp cơ bản
+[00:11:38] thì đây là các dạng tấn công
+[00:11:41] thì chỉ có là
+[00:11:44] cái thằng Time với cả thằng Union
+[00:11:46] thì thực ra là em sinh
+[00:11:47] linh tinh quá nên là nó không nhận ra nó có phải
+[00:11:49] payload không thì nó cho qua
+[00:11:50] còn chỉ tập trung vào đúng 2 cái này thì là
+[00:11:53] thế có nghĩa là ông không tấn công như gì?
+[00:11:54] vâng 2 cái này thì gần như là giác vứt đi
+[00:11:57] chỉ tập trung vào 2 cái bên trên thôi anh
+[00:11:58] thế mày tấn công qua cái gì?
+[00:12:00] thì không tấn công qua chỉ đưa qua bộ reset để check thôi anh
+[00:12:05] đấy là yêu cầu đấy yêu cầu bài luận đi phải làm đúng yêu cầu yêu cầu cái lồng cái bài này mày
+[00:12:15] chứng minh được cái gì không thấy chả chứng minh được cái gì không chỉ chứng minh là phương pháp
+[00:12:19] si quần gan ưu việt hơn phương pháp mốt thế là đã là đủ đổ rồi anh còn thực tế không thì bây giờ em
+[00:12:28] em mới cần anh có thêm từ khóa để làm vì là cái của em nó chỉ là mô hình lý thuyết thôi
+[00:12:35] giờ phải đưa vào thực tế
+[00:12:37] thật điệt, tao thấy nó điếu thực tế kì nào luôn
+[00:12:46] bây giờ ví dụ nha
+[00:12:51] bây giờ ông nếu mà ông muốn thực tế thì ông phải gọi là có một cái file word đúng không ạ
+[00:13:00] và ông tự tạo một cái file word của ông sinh bằng cái key của ông
+[00:13:07] và ông lấy một cái Firewall cũng như thế
+[00:13:11] nhưng mà xinh bằng key của thằng Public
+[00:13:13] được chưa
+[00:13:16] rồi
+[00:13:18] xong là ông tấn công bằng
+[00:13:20] những cái Payload
+[00:13:22] mà ông nghĩ là nó bypass được
+[00:13:25] vào những cái Rubik's Cube kia
+[00:13:28] xem là nó
+[00:13:30] có bị chặn không
+[00:13:35] cái đấy thì là
+[00:13:36] định hướng em sẽ làm cho lần kế tiếp rồi
+[00:13:38] nhưng mà em đang
+[00:13:41] hôm nay em đang muốn hỏi là cách anh dùng AI
+[00:13:43] là những cái dữ liệu mà ai sinh ra ấy hoặc là anh dùng ai để nó hỗ trợ cái công đoạn nào còn cái anh
+[00:13:53] cái anh kể là đây sẽ là lần là ý là yêu cầu tiếp theo em cần phải làm cái lần thạc sĩ này chỉ là
+[00:13:59] coi như là đề xuất là thằng sinh quân chỉ đơn giản là một luật toán của khẳng vượt trội hơn
+[00:14:05] hơn với các thuật toán truyền thống. Thuật toán truyền thống là cái SMOTE mà em nói đi anh.
+[00:14:13] SMOTE thì nó làm gì? Nó sẽ nội suy nghĩa là nó cứ ghép ghép từ thôi. Đầu tiên là nó chọn những cái
+[00:14:20] keyword mà xuất hiện nhiều. Ví dụ như là trong một câu mà nó có các từ như kiểu select hoặc là
+[00:14:27] benchmark thì nó có thể xuất hiện nhiều. Nó nghĩ là đây là những từ key. Sau đó nó sẽ cố gắng sao
+[00:14:32] đào hết cái đồng đề lên rồi đưa qua một bộ lọc chính là bộ reset của thằng nó bộ reset của một
+[00:14:40] thằng tường lửa Nếu mà nó bị chặn và bị coi là tấn công và kiểu có giải thích thì nó sẽ coi như
+[00:14:45] đấy là một câu Payload chuẩn thì nó sẽ làm dầu bộ dữ liệu lên kiểu đấy nó kiểu xếp hình kiểm tra có
+[00:14:51] phải tấn công không Nếu như đúng thì nó sẽ làm dầu cái đồng đề lên này bằng những cái câu lệnh đã bị
+[00:14:57] bị chặn có có có dấu hiệu có khả năng bị chặn thì mục tiêu của họ chỉ đơn giản là có rất ít dữ liệu
+[00:15:03] giờ làm nào mà học thật kỳ cái đồng dữ liệu đấy kiểu học học về đây thì đấy là phương pháp cũ thì
+[00:15:09] chủ đích của bọn nó là khiến cho mô hình kiểu những cái công ty nào mà nghèo nghèo mà không có khả năng
+[00:15:15] thuê các cái tường lửa xị hoặc là các cái chức năng xị thì sẽ phải dùng cách đấy thì em vẫn dùng
+[00:15:24] Vâng thì bởi vì là các cái công ty đấy phải sử dụng tương lựa đều bằng phương pháp SMOTE
+[00:15:30] Thì em đề xuất là thêm, vẫn dùng SMOTE nhưng mà kẹp thêm cái câu lệnh của em vào để có thể là đảm bảo là có thể học hết tất cả các cái
+[00:15:41] Nhầm cái thuật toán của em
+[00:15:46] Nó sẽ kẹp song song với thằng SMOTE, một thằng là học tủ, một thằng là học những cái tấn công nó đặc biệt hơn
+[00:15:53] Bởi vì thường là kể cả là đưa khoảng
+[00:15:56] Đặc biệt hơn chỗ nào
+[00:15:59] Ví dụ như
+[00:16:00] Có nghĩa là nó tự sinh ra
+[00:16:01] Vâng, những cái câu
+[00:16:02] Ví dụ như mà một câu khai thác mà trên 200 ký tự
+[00:16:06] Nằm giữa những câu khai thác mà từ tầm 60-70 ký tự
+[00:16:09] Thì những câu 200 ký tự sẽ bị loại ngay lập tức
+[00:16:11] Bởi vì nó quá dài và nó quá đặc biệt so với những câu bình thường
+[00:16:16] Thì bây giờ là em sẽ cố gắng học mấy cái câu mà có cái
+[00:16:20] Kiểu thông số khác biệt như thế
+[00:16:21] Thì trong mô hình mà ở trên cargo hoặc là các cái bộ dữ liệu công khai
+[00:16:28] Thì những cái bộ dữ liệu đấy nó rơi vào khoảng tầm 10% thôi
+[00:16:31] Nhưng mà thường là vừa vào phát là nó sẽ bị loại ngay lập tức
+[00:16:34] Bởi vì nó quá là kiểu nhọn, nó kiểu một mũi nhọn ý
+[00:16:39] Học cái đấy nó không được tác dụng gì mà
+[00:16:42] Người ta chỉ quan tâm là kiểu chung chung để đảm bảo là
+[00:16:45] Ít nhất là chặn có thể chặn tối đa không phải chặn cái mẫu như thế
+[00:16:48] Thế bây giờ mày muốn hỏi ta là bình thường ta sẽ dùng cái gì?
+[00:16:52] Nghĩa là em cũng nhận thấy là kiểu cái này nó hơi bánh vẽ
+[00:16:56] Vì thực tế là cũng tường lửa bây giờ là cũng rất tiên tiến
+[00:17:01] Và cũng chặn gần như là 99% rồi
+[00:17:03] Cùng lắm là sẽ phải là mình tự custom
+[00:17:06] Nghĩa là anh phải chủ động kiểu khai thác
+[00:17:08] Khai thác dần khai thác dần rồi bắt đầu hiểu là
+[00:17:10] Đằng sau mô hình nó như thế nào và có khả năng lô hổng là gì
+[00:17:13] Thì lúc đấy mới cần nêm kiểu con người vào
+[00:17:16] Thì lúc đấy mới biết là mô hình sẽ bị làm sao
+[00:17:18] Chứ không thể là ném mấy cái đống tech này vào được
+[00:17:22] mong là một cái thành công thì thực tế là nó không còn nữa rồi
+[00:17:25] thì bây giờ là biến từ mõm thành thực tế rồi anh
+[00:17:29] còn lúc lúc làm là em cũng thấy
+[00:17:32] cũng thấy là nó hơi lý thuyết rồi
+[00:17:36] thì bây giờ là có hai cái
+[00:17:39] thì như vần cái câu nhất thì anh cũng trả rồi là
+[00:17:43] cái của em là nói về thực tế
+[00:17:44] giờ em đang muốn hiểu là nếu anh dùng AI để hỗ trợ
+[00:17:48] cho việc khai thác tấn công
+[00:17:49] thì anh sẽ sử dụng như thế nào vậy anh
+[00:17:53] Chứ không thể là kiểu chỉ sinh rồi ném hết tất cả vào để xem mô hình xem thằng nào vượt thì dùng
+[00:17:59] Em nghĩ thế nó...
+[00:18:00] AI giờ nó dùng như con người
+[00:18:02] Có nghĩa là nó tìm một cái phần trăm như bình thường mà mày bảo nó check hành vi đấy
+[00:18:09] Chỉ check nó sẽ check như thế nào ấy
+[00:18:14] À thử không cô đề sai quá
+[00:18:16] Ví dụ nha
+[00:18:17] Vâng
+[00:18:18] Ví dụ nó chặn nhưng mà nó chặn thiếu đi
+[00:18:27] Vâng
+[00:18:28] Các ký tự đặc biệt chẳng hạn, có hiểu không?
+[00:18:32] Có, cái câu SELECT mà anh nói đúng không anh?
+[00:18:35] Ờ, cái ký tự đặc biệt này là gì?
+[00:18:38] Ký tự đặc biệt thì là kiểu các ký tự encoder kiểu phần trăm hai mươi hoặc là
+[00:18:43] Các ký tự kiểu để ẩn cái câu lệnh truy vấn thật đi anh
+[00:18:47] Ờ, ký tự đặc biệt, ví dụ encode hoặc là hack đi chẳng hạn đúng không?
+[00:18:53] Vâng
+[00:18:53] Thì nó xem là cái web đấy nó chặn những cái gì, nó sẽ thử từng cái một
+[00:18:59] bây giờ nó sẽ thử select bị chặn đúng không ạ
+[00:19:06] thì nó thử select, nó thử tất cả những cái gì mà để nó phân tích hành vi
+[00:19:13] để nó biết được tại vì mình black box mà mình đâu có biết là suộc nó như thế nào
+[00:19:18] chứ nếu mà biết suộc với cả con watt nó chặn cái gì thì nó không phải thử đúng không ạ
+[00:19:26] bây giờ nó sẽ những cái payload có sẵn rồi
+[00:19:31] sql thì nó cũng hiểu là cái db đây sử dụng thế nào rồi
+[00:19:35] thì nó làm như con người nó tìm một cái phần trăm đấy, không chẳng được gì.
+[00:19:45] Nhưng mà thế nghĩa là, nghĩa là cái của em là về mặt lý thuyết là vẫn khả thi,
+[00:19:51] nghĩa là kiểu tạo ra hơn hàng trăm hàng nghìn câu lệnh, và đạo sử cái bộ kia nó không có.
+[00:19:57] Cái đấy nó, mày đút vào đâu? Tao đang hỏi là cái
+[00:20:00] hàng trăm hàng nghìn câu lệnh của mày nó đút vào đâu ấy?
+[00:20:02] Đút qua website kiểu tấn công website mạng chứ anh
+[00:20:08] Mày đang là phía ngăn chặn cơ mà
+[00:20:11] Không thì bây giờ là cái tấn công của em phải có tác dụng thì mới đưa vào trong bộ dữ liệu chứ anh
+[00:20:15] Thế bây giờ nếu mà kiểu chỉ đơn giản là
+[00:20:18] À cái thằng đéo hiểu
+[00:20:20] Thế bây giờ mày đã chứng minh nó có hiệu nghiệm đâu
+[00:20:23] Tao đang nói ở cái này thôi
+[00:20:24] Vâng
+[00:20:26] Thì bây giờ là em đang
+[00:20:36] bây giờ là cái này là nó chỉ chứng minh là cái xinh này hơn cái bình thường thì ta đang hỏi là
+[00:20:49] cái xinh này này nó sinh ra xong nó nhét vào đâu sinh ra xong nhét vào cơ sở kiểu bộ dữ liệu tấn
+[00:20:57] bộ dữ liệu tấn công anh để bộ dữ liệu tấn công lưu ở cái gì lưu hiện tại thì là sẽ nghĩa là dùng
+[00:21:03] con học máy nó lại học lại cái đồng đấy để nhận biết các cái học máy là máy chặn bằng ai à học
+[00:21:08] máy không nghĩa là chạy bằng thuật toán của ai không phải chạy bằng ai ai nó sẽ dùng một vài
+[00:21:14] thuật toán để nó học mấy cái này còn cái mẹ thằng này hiểu câu hỏi rồi có nghĩa là nha anh quát đúng
+[00:21:24] nó phải dựa vào những cái câu lệnh đấy
+[00:21:27] và khi thằng người dùng truyền cái câu lệnh đấy vào
+[00:21:31] nó sẽ phải lấy cái data từ những cái câu lệnh mà nó đã có sẵn rồi
+[00:21:35] nó check với cả câu lệnh thằng người dùng nó truyền vào
+[00:21:38] xem có đạt điểm bao nhiêu điểm không
+[00:21:42] ví dụ nó dính 5 điểm là bị cảnh báo hoặc là dính 3 điểm thì nó không bị cảnh báo
+[00:21:48] ví dụ thế, ngày xưa tao học web là nó sẽ là như thế
+[00:21:52] có nghĩa là nó sẽ tính điểm xem câu lệnh này có điểm nó có bị nguy hiểm không
+[00:21:56] ví dụ thế nhá
+[00:21:59] thì cái số lượng cái câu đấy
+[00:22:03] nó phải lưu vào một cái chỗ nào đấy
+[00:22:06] để khi mà lúc nó đánh giá
+[00:22:08] thì nó có cái cơ sở để nó đánh giá câu lệnh
+[00:22:10] chuyển vào
+[00:22:12] thế thì mẹ ta hỏi cái này mày sinh ra
+[00:22:14] mày đút vào đâu
+[00:22:15] em không đút vào cái của thằng WAP
+[00:22:17] mà đút vào cái bộ
+[00:22:19] mà thằng AI sẽ dùng để nó học lên
+[00:22:21] bố mình hiểu rồi
+[00:22:24] Cũng nghĩa là sẽ có hai cái, một là thằng tường lửa nó chặn theo kì, hai là thằng AI là nó chặn thì là nó cứ, nó giống kiểu thằng Cloud ấy anh.
+[00:22:33] Thằng AI nó chặn cái gì?
+[00:22:35] Vâng anh.
+[00:22:35] Mẹ tao bảo thằng AI nó chặn từ nãy rồi, cứ bộ sinh bộ sinh cái lồn gì, đéo hiểu quá.
+[00:22:40] Có nghĩa là khi mày vào thì sẽ có một con AI nó chặn, bây giờ mày đang dùng AI để chặn, quay loát với những thằng ở ngoài.
+[00:22:50] Rồi.
+[00:22:51] Đúng chưa?
+[00:22:51] Đúng anh, vâng.
+[00:22:54] đấy có nghĩa là mày cứ thằng ở ngoài nó cứ cho vào bao nhiêu câu lệnh
+[00:23:00] xong là nó tự trộn trong đấy lên, nó tự suy luận, nó tự học
+[00:23:04] để nó biết là khi thằng kia nó chuyển những câu lệnh như thế nào vào thì nó chặn cái đấy gì
+[00:23:09] thì những thằng khác là nó chưa dùng AI
+[00:23:13] còn của mày hơn chúng nó là mày dùng AI cái gì
+[00:23:16] thì thế thôi
+[00:23:22] không, cho anh anh hiểu thế nó có gì hơn
+[00:23:26] cứ nãy giờ em nói thì tao anh tự
+[00:23:27] Thế bây giờ ý mày hỏi là bây giờ tao dùng AI để làm thế nào để tấn công con AI của máy hay gì?
+[00:23:34] Anh dùng AI trong công việc nó như thế nào vậy anh?
+[00:23:36] Công việc thì cứ bảo nó làm thôi
+[00:23:40] Nhưng mà nếu mà kiểu như thế thì vì anh có chuyện là anh là chuyên viên cộng cấp đấy anh
+[00:23:45] Nhưng mà ý là chính xác là cái luồng công việc riêng của anh ấy anh thì anh sẽ phải khai thác thế nào
+[00:23:54] Nếu không thì ai dùng AI nó cũng thành chuyên viên tấn công được
+[00:23:58] ta thấy ai dùng AI thành chuyên nghiệp chấm trộm được mà
+[00:24:01] không, nó còn phải kiểu dựa theo mindset với cả là
+[00:24:04] cái kinh nghiệm cá nhân của anh nữa chứ anh
+[00:24:07] thì mindset thì bây giờ nó vẫn là thử và sai thôi chứ có gì đâu
+[00:24:12] ví dụ bây giờ bảo tấn công SQL á
+[00:24:15] thì còn AI nó đã học tất cả các loại tấn công
+[00:24:18] các loại tấn quát các thứ có thể truyền lại được rồi
+[00:24:22] bây giờ nó thử hành vi thôi
+[00:24:26] hành vi của con quát xem nó có bypass được không
+[00:24:30] Còn cái web của máy chạm này thì con AI nó chỉ
+[00:24:34] Thế bây giờ mày muốn hỏi kiểu sử dụng AI như thế nào
+[00:24:40] Nó rộng, biết cái gì đó, dùng cái gì hay như nào
+[00:24:46] Thế nếu như mà không phải Blackbox thì rao nghĩa là anh kiểm thử từ bên trong nhé
+[00:24:50] Anh đã được biết rồi và lead ra các kiểu gần như mình đã biết trước đáp án rồi
+[00:24:55] Và bây giờ phải lead ra là mô hình tùy vào những vấn đề gì
+[00:24:58] Có biết con là trong môi trường bình thường hay là có môi trường AI của mày?
+[00:25:06] Môi trường công việc bình thường thôi anh
+[00:25:07] Nghĩa là ví dụ như là một công ty nó khá tự tin về khả năng bảo vệ của mình
+[00:25:12] Và thuê anh là coi như anh biết luôn cả mã nguồn
+[00:25:16] Để có thể phá thêm để đảm bảo là cái attack surface nó gần có thể, ít nhất có thể
+[00:25:23] Thì anh sẽ làm gì thì kiểu em nghĩ là lúc đấy là chỉ có những cái nó rất đặc thù thì mới có khả năng vượt qua
+[00:25:29] Đúng rồi, bây giờ mình đã có ví dụ mã nguồn đúng không?
+[00:25:33] Vâng
+[00:25:34] Thì bây giờ con AI nó sẽ phân tích là trong cái mã nguồn này nó sẽ có những payload nào bị dính, được chưa?
+[00:25:41] Rồi, phân tích rồi
+[00:25:43] Hiểu không?
+[00:25:44] Có
+[00:25:44] Có nghĩa là khi mà nó review cái mã nguồn đấy, nó sẽ phân tích ra được là những payload nào sẽ dính
+[00:25:52] Rồi
+[00:25:54] Nó ghen ra những payload đã dính được chưa?
+[00:25:57] và nếu ở ngoài nó có 1 con quáp nữa thì nó sẽ chế cháo cây loại đi theo các cách off circuit mà nó đã biết
+[00:26:05] chế cháo theo cách off circuit
+[00:26:08] em biết là cái đó làm ẩn
+[00:26:10] em đang làm theo hướng này đấy
+[00:26:13] nó ẩn những cái mà mình chế cháo đi để truyền vào và câu lệnh nó vẫn giữ nguyên không thay đổi
+[00:26:21] con ở trong nó vẫn hiểu được
+[00:26:24] và cái con quáp nó không hiểu
+[00:26:29] con AI mày làm xong ấy thì nó vẫn phải dựa vào một cái con gì đấy để nó bắt những cái đấy nó bắt
+[00:26:37] những cái mà mày gen ra hay là mày dùng công nghệ gì mà con AI nó bắt được luôn anh cứ hiểu là em
+[00:26:46] kiểu em có một cái câu lệnh và câu lệnh đấy sẽ đi qua con cloud trước để nó tự đánh giá nếu như mà
+[00:26:52] có nguy hiểm thì nó sẽ cho bỏ qua thì nếu nhưng mà nếu như câu lệnh này nó quá tinh vi thế thì ok
+[00:26:59] Ok, nhưng mà làm sao để Cloud nó xử lý được dữ liệu như thế, ví dụ
+[00:27:05] Luộc, nghĩa là kiểu nhiều quá hay như thế nào
+[00:27:09] Ví dụ ta là một thằng hacker, nó bắn cả triệu request
+[00:27:16] Đúng rồi
+[00:27:16] Đúng chưa
+[00:27:18] Và cũng có hàng triệu thằng hacker khác, nó bắn cả triệu request
+[00:27:24] Thì làm sao thằng đấy nó nói được
+[00:27:27] Thế thì mình sẽ có những cái con AI nội bộ kiểu tự train từ đầu
+[00:27:32] Nghĩa là kiểu Cloud cho riêng mình
+[00:27:34] Tao đéo nói về cái vấn đề là con cloud nó xử lý được hay không
+[00:27:39] Mà là ví dụ cả khách hàng, cả người dùng
+[00:27:43] Như làm sao mà tất cả đều qua con cloud được
+[00:27:46] Ví dụ qua như thế thì cái tốc độ của website nó như thế nào
+[00:27:50] Rồi, hiểu
+[00:27:52] Hiểu không?
+[00:27:53] Vâng
+[00:27:53] Ví dụ như con tường nửa nhá
+[00:27:57] Con web này hà
+[00:27:59] Thì nó chỉ cần matching với cái gì đấy
+[00:28:04] Chỉ cần truyền câu lệnh vào matching với cái gì
+[00:28:07] thì là như kiểu là câu lệnh đến sớt luôn thì matching cái là nó loại nó sử lý rất nhanh thì
+[00:28:15] con ai mày xử lý là bao lâu một request hiểu không bao lâu một request thì nó sẽ hệ thống
+[00:28:25] vẫn hoạt động bình thường mà vẫn an toàn chứ nếu tất cả cho con AI thì nó sẽ bị vấn đề gì về lại
+[00:28:34] hỏi con AI xem xem nó có khả thi không còn giống bình thường luồng hoạt động thì mày muốn hỏi luồng
+[00:28:47] hoạt động về cái gì bây giờ mày bảo anh cứ dùng ai trong công việc như thế nào thì ai dùng nhiều cái
+[00:28:54] làm sao mà kể hết được em nghe nói anh mua luôn gói cao nhất mà chỉ có một mình mình dùng ấy thì
+[00:29:02] sao anh phải em tưởng là anh phải đầu tư lớn đấy anh phải làm gì nó cũng một lực lượng tên luôn ừ
+[00:29:09] bất quả ti thôi bất quả ti mà cũng dùng hết có dùng hết rồi mày hay là khiếu khiếu vẫn khiếu
+[00:29:18] ừ con đấy nhiều vậy nhiều nhưng vẫn không đủ bất kiểu gì mà hết được tận cái con 200
+[00:29:29] xe à 400 xe bây giờ mày làm một tay ghép thì mày có biết là nó làm những cái gì không ví dụ
+[00:29:42] nghĩa là phải làm như cái gì Ví dụ nếu mà mày tấn công thì lúc đấy là mình sẽ scan
+[00:29:52] in cách là đưa hàng loạt câu vào để xem là bằng tưởng em ít nhất là cũng nghĩa
+[00:30:00] Nghĩa là ý em là kiểu mình sẽ đưa vào rất nhiều câu lệnh thì ở mỗi câu lệnh nó sẽ trả về một cái
+[00:30:05] một cái dấu hiệu gì đó để mình bắt đầu suy luận ra xem là đằng sau nó sẽ hệ thống ở trong như nào
+[00:30:10] thế thì cái suy luận đấy thì nó dùng cái gì suy luận thì các cái dấu hiệu mình AI tổng hợp lại và mình
+[00:30:20] sẽ là người suy luận nó chỉ tổng hợp lại cái dấu hiệu thôi Đấy là cách mà em thấy là khả thi nhất
+[00:30:27] bởi vì AI nó thường nó không suy luận tốt về cái đấy
+[00:30:34] Nghĩa là nó sẽ suy luận theo kiểu ý tưởng số đông
+[00:30:37] nếu như số đông nó đúng từ đầu thì cái đấy sẽ đúng
+[00:30:42] AI bây giờ nó suy luận hết
+[00:30:44] Nhưng cái đấy là cái dùng token đấy
+[00:30:47] Bây giờ nó sẽ là như một thằng người bình thường
+[00:30:52] nhưng mà mình sẽ chuyển mindset của mình vào cho nó thôi
+[00:30:57] Hiểu không?
+[00:30:58] Có nghĩa là bây giờ ta đã biết là ví dụ
+[00:31:03] chỗ này là cái chỗ chuyển vào đúng không?
+[00:31:04] nó sẽ từ lì con ra cái chỗ đấy cho truyền vào
+[00:31:07] và tính khả thi của nó là truyền cái gì vào
+[00:31:10] truyền cái gì vào thì nó lại thử
+[00:31:13] nó sẽ thử và nó sẽ tự suy đoạn tiếp
+[00:31:17] chỗ này truyền nó bị sao
+[00:31:20] thế những cái đấy thì những cái suy nghĩ của nó tốn tốc cân đấy
+[00:31:27] hiểu không
+[00:31:28] và lượng kiến thức của nó nhiều
+[00:31:31] con AI nó sẽ cover hết lượng kiến thức
+[00:31:36] mình chỉ hiểu luôn thôi
+[00:31:37] còn lại là nó sẽ làm hết
+[00:31:43] Còn cái hỗ trợ của mày thì tao thấy là
+[00:31:51] Nghề
+[00:31:52] Nếu mà có một con AI ở ngoài
+[00:31:54] Mà dùng được vào trong
+[00:31:55] Cái web này thì đúng là
+[00:31:57] Nó ok
+[00:31:58] Nếu mà mày dùng AI để chạm thì đề tài ok
+[00:32:04] Dùng AI chứ không phải dùng
+[00:32:05] Thuật toán nhá
+[00:32:07] Thuật toán ý
+[00:32:08] Thuật toán thì cũng không có gì kỳ quốc
+[00:32:11] Đúng rồi, dùng thuật toán ý
+[00:32:13] Thì mày sinh ra những cái gì đúng không
+[00:32:15] Sinh ra
+[00:32:15] sinh ra nhưng mà nó cũng chỉ sinh ra gọi là những cái ký vuốt đấy thôi xong là con quá vẫn phải làm
+[00:32:21] nhiệm vụ con quá hiểu chưa Còn con ai nó không làm gì nó chỉ học thôi hiểu chưa đây nhé mày bảo
+[00:32:37] là cái gì cho xin dữ liệu không sinh ra dữ liệu đi vào đâu tao vừa hỏi mày đấy sinh dữ liệu thì
+[00:32:49] vẫn phải đẩy vào cái chỗ con quát để con quát khi mà mình mình truyền cái gì vào thì con quát
+[00:32:55] nó nhận thấy những cái dữ liệu tấn công thì nó mới ngăn chặn hiểu chưa thì đây là máy vẫn là dùng con
+[00:33:02] WAP thôi chứ mà chưa dùng AI khi dùng AI là nó phải suy luận suy luận trên từng câu tấn công này
+[00:33:12] Vâng ạ
+[00:33:13] Nhưng mà...
+[00:33:14] Thôi thì để em tự tìm hiểu
+[00:33:17] Con web thì nó cũng đã detect gần như hết đánh án rồi
+[00:33:24] Hiểu không?
+[00:33:24] Mày làm nào mà thiết kế cho con AI nó suy loạn ấy
+[00:33:28] Thì cái đấy ok
+[00:33:29] Cái đề tài đấy tao thấy được
+[00:33:32] Hiểu không?
+[00:33:33] Chứ còn nếu mà sinh mô hình tấn công
+[00:33:36] Mô hình tấn công này
+[00:33:37] Con AI ở ngoài thì nó cũng sinh mô hình tấn công mẹ thôi
+[00:33:42] Cần gì phải làm đề án
+[00:33:44] Cần gì phải viết báo
+[00:33:45] Biết báo là phải những thằng chuyên lạc bây giờ
+[00:33:50] Có nghĩa là sử dụng AI phân tích được mấy thằng kia nó như vào nhưng mà nó phải nhanh
+[00:33:57] Dùng một module bé thôi của con AI
+[00:34:00] Có nghĩa là một con AI nó sẽ phân tích nhiều thứ
+[00:34:04] Phải phân tích nhiều thứ hoặc đây chỉ cho nó phân tích SQL thôi
+[00:34:09] Và một câu lệnh truyền vào tối ưu cho nó là sử lý trong 0.001 giây thôi
+[00:34:15] Ví dụ thế thì nó sử lý một nghìn request chỉ trong một giây
+[00:34:20] 1 triệu request, kiểu 10 giây là nó xử lý xong
+[00:34:24] có nghĩa là hệ thống không ảnh hưởng gì quá lớn
+[00:34:26] ví dụ thế đúng không
+[00:34:28] đấy là ý tưởng
+[00:34:29] còn cái sinh này thì nó vẫn dựa vào con quát của nó bắt này
+[00:34:34] tại vì mày sinh ra những cái dữ liệu
+[00:34:36] nó mới hơn, đúng không
+[00:34:38] sinh ra dữ liệu mới hơn
+[00:34:39] và những con quát trước và hệ thống chung chung
+[00:34:42] chưa có, thì có nghĩa là bây giờ
+[00:34:48] cái này
+[00:34:49] mày vứt cho con cloud
+[00:34:51] một cái file tầm khoảng 100.000
+[00:34:54] cái payload
+[00:34:55] Bảo là sinh như tao dữ liệu ra là con AI tự sinh, con cơ lao tự sinh, 5 phút là xong.
+[00:35:05] Cả cái đề án của mày luôn.
+[00:35:06] Cơ lao bây giờ nó mạnh, nó hãy chứa làm gì được tích hợp với một cái mức gì đấy của nó.
+[00:35:16] Nó học, xong rồi nó sinh ra kiểu gì mà nó chặn được.
+[00:35:21] Sử lý, vấn đề sử lý nó nhanh và nó vẫn thông minh.
+[00:35:27] Còn cái này là vẫn theo kỳ, ta thấy là vẫn theo kỳ.
+[00:35:30] Mày vứt vào trong con warp để nó tự... gọi là cái gì nhỉ?
+[00:35:36] Tự detect cái gì?
+[00:35:38] Rue set
+[00:35:38] Rue set bao nhiêu phần trăm thôi
+[00:35:40] Một khác gì nó vẫn dùng con warp đâu
+[00:35:43] Chứ con AI nó có nghĩ cái đoạn set đi đâu
+[00:35:48] Hiểu không?
+[00:35:51] Đấy bây giờ hướng tương lai của mày muốn làm gì?
+[00:35:54] Vậy là...
+[00:35:55] Vẫn là con này thôi
+[00:35:56] Vâng, nhưng mà...
+[00:35:58] Cả warp, sau khi mà vượt qua được warp
+[00:36:00] Chỗ này của em thì mới đến con AI mà anh
+[00:36:02] Chẳng thích thường em
+[00:36:03] Thế bây giờ cái hướng lớn nhất thì mày cứ làm theo ý của mày ban đầu thì có nghĩa là
+[00:36:09] Khi mà con này sinh ra thì nó chặn đến những cái mà con bình thường cũng có chặn được
+[00:36:14] Thế là được
+[00:36:16] Thế thôi mày lấy một cái Google Public rồi mày ghi vào
+[00:36:23] Và gọi là
+[00:36:24] Có nghĩa là khi mà thằng khác nó cho những cái câu lệnh mới vào
+[00:36:30] Thì con này nó sẽ tự học được đúng không ạ?
+[00:36:32] Đúng rồi
+[00:36:33] Nó hơn cái là nó phải tự học được chứ không cần thằng người dùng nó gì nữa
+[00:36:39] Thằng người dùng nó loại
+[00:36:42] Nó phải tự nhận biết xem có phải đáng để đưa vào không
+[00:36:45] Đúng như thế thì nó sẽ là ưu việt hơn thì nó đúng
+[00:36:50] Có nghĩa là những thằng bình thường là nó sẽ phải bị tấn công
+[00:36:55] Nó bị tấn công rồi thì nó mới biết
+[00:36:57] Có nghĩa là nó bị tấn công rồi thì nó mới xét cái đu là nếu mà gặp cái này thì phải chặn cho tao đúng không
+[00:37:03] nhưng mà dùng con của em thì chưa cần bị tấn công
+[00:37:09] có nguy cơ bị tấn công
+[00:37:11] nó nhìn ra như thế là nó đã tự biết là nó sinh ra như thế để nó chặn cho em đồ
+[00:37:16] đó, thế là cái tính thực tế và ưu việt hơn của nó
+[00:37:21] ok chưa?
+[00:37:22] ok, vâng, không hiểu
+[00:37:24] không biết người ta, người ta đang không biết là cái hôm này nói với thầy
+[00:37:37] Nói về thầy đi. Đấy chỉ chứng minh là cái thằng thuật toán của em nó hơn rồi các thuật toán thông thường ở đây.
+[00:37:45] Các thuật toán thông thường thì đánh vào kinh phí vì cái phương pháp kia nó nhanh gọn, nó không phải quá tổ kỳ.
+[00:37:51] Cần một file Python khoảng mấy MB là nó chạy được rồi.
+[00:37:56] Cái của em thì phải sinh ra một cái con mô đun nhỏ, nó tầm khoảng một ghi, nó sẽ xử lý những cái nâng cao hơn.
+[00:38:04] Thì là em có thuyết trình là chỉ cần 2 con kết hợp lại thì có thể bao quát được rộng hơn nữa thôi
+[00:38:12] Thì chỗ đấy là đủ để đố thạc sĩ hả anh?
+[00:38:15] Có nghĩa là hôm thuyết trình thì mà cái thuyết trình là gọi là thuyết trình
+[00:38:22] Là sẽ có 1 con quát bình thường và 1 phát Python chứa các cái ru
+[00:38:31] Ru thì không đủ
+[00:38:33] dữ không đủ dữ liệu dữ liệu các cái ru cộng đồng cũng chưa đủ chưa đủ báo khoát thì phải kẹt thêm
+[00:38:42] là sẽ phải sinh ra dữ liệu tấn công nhé mình bị tấn công rồi nó sẽ có cái dữ liệu đấy và bình thường là
+[00:38:49] sẽ sử dụng cái phương pháp của em để kiểu nhân bản nó lên để khiến cho cái lượng dữ liệu này nó nó dày
+[00:38:57] thì lúc đấy là Sengaru Set nó bao quát cái đồng đấy
+[00:39:02] nhưng mà set có những cái mẫu là kể cả có làm nhiều lên
+[00:39:05] bởi vì nó quá phức tạp, kiểu số lượng ký tự quá dài
+[00:39:09] thì là mô hình thường nó sẽ chủ động chặn để học nó
+[00:39:13] chỉ học những cái mà nó bao quát thôi
+[00:39:16] thì giờ sẽ là những cái mẫu đấy sẽ đưa qua con của em
+[00:39:19] để đảm bảo là thằng học không không thằng nào bị bỏ hết
+[00:39:23] đấy là hướng, gần như là hướng
+[00:39:28] Bởi vì là đoạn sau cũng vấn đề nhưng mà đấy là hướng của em
+[00:39:31] Thì em có thuyết trình thì có thể đấy là ý tưởng cũng hợp lệ cho bác
+[00:39:40] Thì bây giờ là muốn viết báo thì phải biến cái đống ý tưởng này
+[00:39:44] Thành ý nhất là phải có thực tế và phải đăng lên trên mạng để kiểm chứng
+[00:39:48] Thế nên là em nghĩ
+[00:39:50] Thực tế đi, thực tế đi
+[00:39:53] Thì lúc mà em làm em thấy cũng hơi bị bánh vẽ rồi
+[00:39:57] nên là hôm nay cần phải gặp anh để
+[00:40:00] biết là thực tế nhiều đề tài em là so với anh thì anh nghe nào
+[00:40:05] biết là hướng cần phải làm lại nếu mà làm cách cũ thì khả năng là trượt hơi cao
+[00:40:13] nói chung mày làm thế nào để, nói chung mày thì hiểu
+[00:40:19] tự nhiên là mày sẽ hiểu cái cách mà con quát nó hoạt động như thế nào
+[00:40:24] bình thường nó chặn như thế nào và mày tối ưu nó là cái gì
+[00:40:29] có hiểu con quát nó chặn như nào không em nó chặn theo ký quất kiểu hoặc là bộ ru từ trước nó đưa vào
+[00:40:36] rồi tôi biết là nó chặn như thế rồi chặn ký quất nhưng mà mình phải hiểu là nó xử lý nó như thế nào
+[00:40:44] để mình nhét con ai ai vào để nó xử lý để nó khác đéo ai cho biết nó chặn theo những từ hay là những
+[00:40:55] Như câu lận như thế nào đấy, nguy hiểm như thế nào, nhưng mà nó chẳng như thế nào là cái cách hoạt động ấy, cái cách hoạt động của cái quát nó như thế nào ấy, thì mày phải biết là cái luồng nó như thế nào.
+[00:41:08] Mày có kể được không?
+[00:41:10] Không.
+[00:41:12] Thế thì mày phải hiểu đi đã, mày phải hiểu con quát nó hoạt động như thế nào, mày phải hiểu được nó như thế nào thì mày mới tối ưu và cải tiến hơn được chứ.
+[00:41:23] Đó, đúng rồi.
+[00:41:24] Đó, thế đó.
+[00:41:36] Thế nếu như bây giờ thì bình thường là code select nó chặn. Nhưng bây giờ là mình off UK
+[00:41:42] cái code select đấy đi kiểu em ví dụ vậy thì nó sẽ là một cụm dài dặn dặn ra nữa. Thì bây giờ
+[00:41:47] bây giờ em sẽ cố gắng là bê cái cụm ấy chặn luôn cái cụm như thế thì có khả thiêu
+[00:41:56] nghĩa là nghĩa là bây giờ là có một câu select thì câu select rất là dài thì nó thấy chữ select nó chặn
+[00:42:03] nhưng mà mình obfuscate có thể là hack nó lên chẳng hạn thì từ câu select cầm khoảng 6 ký
+[00:42:09] dự đấy thì nó biến thành một cụm rất là dài các câu được hack thì có thể là tương lửa nó bỏ qua cái này
+[00:42:16] Thì em sẽ cố gắng là bê nguyên cái cụm đấy vào
+[00:42:20] Thấy là chọn
+[00:42:23] Ví dụ là
+[00:42:28] Cái hack đấy làm sao
+[00:42:29] Con ở trong nó hiểu được
+[00:42:31] Hiểu không
+[00:42:33] Cái server của mày làm sao tự nhiên cái hack đó
+[00:42:37] Để nó off-cache
+[00:42:41] Con DB
+[00:42:42] Sao nó hiểu hack
+[00:42:43] Câu select thì
+[00:42:46] Tao nghĩ là chả chuyển được cái gì đó
+[00:42:50] Select là select
+[00:42:50] không hiểu mình có phụ kết được gì hết
+[00:42:55] Nó chỉ có phụ kết được thành các chữ S
+[00:43:01] xong rồi nó cách cách ngay cách
+[00:43:03] xong sao thăng gì đấy
+[00:43:06] xong chữ L
+[00:43:09] xong các thứ
+[00:43:10] đúng như nó tách ra
+[00:43:12] hoặc là hệ thống của mày nó hiểu một cái character gì đấy
+[00:43:16] nó hiểu ký tự cha
+[00:43:18] nó tự chuyển đổi từ con server sang
+[00:43:21] Mày cũng hiểu con server nó làm cái gì, cây của nó là gì, thì mấy dí vào được là nó off-focus bằng cách nào, hiểu SQL nữa, nó làm cái gì, làm đề tài của SQL, không biết SQL, không biết ấy thì làm sao mà dìu bằng.
+[00:43:54] Như thế này mới sẽ nói nguyên cơ chứ chẳng có ít được quay được
+[00:44:07] Hôm nay...
+[00:44:08] Mày về tìm hiểu lại đi đã
+[00:44:10] Tìm hiểu xong bác vào đoạn cái nào nhé
+[00:44:13] Rồi
+[00:44:13] Rồi xong SQL là gì
+[00:44:16] Thực thi tại sao cái ốc phụ kết lấy mà ghi lại với câu hỏi thứ 3
+[00:44:23] Rồi hôm sau mày sẽ gặp một buổi khác
+[00:44:26] Nếu mày đang chưa hiểu một cái gì về SQL thì làm sao mà có thể tìm hiểu
+[00:44:44] anh em nói lại anh nói lại không cách quá phải đẹp hạt động với từng quay đoát này nhá
+[00:45:18] Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.
+[00:45:47] Có, nhưng mà chỉ hiểu đúng 4 dạng cơ bản, đấy thôi.
+[00:45:54] Tưởng còn mấy dạng kiểu con con thôi.
+[00:46:09] Aaron là cố gắng sinh ra các cái thông báo lỗi để xem là mô hình nó đang bị lỗ họng ở đâu.
+[00:46:16] Time thì sẽ là
+[00:46:17] Được
+[00:46:20] Erot Bay đúng không?
+[00:46:21] Vâng, đúng rồi
+[00:46:23] Erot Bay thì nó sinh ra
+[00:46:25] Cái Erot thì sao?
+[00:46:27] Sao FQL nó phai thác bằng kiểu gì?
+[00:46:30] Thì khi mà mình cố tình
+[00:46:32] Chuyển lỗi vào thì mô hình nó sẽ phải
+[00:46:34] Hiển thị một cái dấu hiệu gì đó
+[00:46:37] Và nếu như mà
+[00:46:38] Nó hiển thị, nó bị hiện ra ngoài
+[00:46:40] Một cái dấu hiệu mà mình có thể nhận ra
+[00:46:41] Thì mình có thể suy đoạn là có khả năng
+[00:46:44] Là nó đã không pass được
+[00:46:46] Được cái đấy và bị lộ ra thôi
+[00:46:52] Lộ dấu hiệu
+[00:46:54] Lộ dấu hiệu thì khai thác kiểu gì
+[00:47:00] E-Route Bay
+[00:47:02] Khai thác kiểu gì
+[00:47:03] Từng loại đấy khai thác kiểu gì
+[00:47:10] SVL thì từng loại khai thác này
+[00:47:12] Từng loại khai thác đấy nó khai thác như thế nào
+[00:47:14] Mày phải hiểu cách nó hoạt động
+[00:47:16] Mày mới chặn được
+[00:47:18] Mày không hiểu cách hoạt động
+[00:47:19] Mày mới chặn được gì
+[00:47:25] Thêm là tại sao
+[00:47:26] tìm kiếm sao cái phụ kết đấy Tại sao cái phụ kết đấy nó lại bài bát được ví dụ nó chặn câu lệnh
+[00:47:38] bình thường không Tại sao phụ kết thì nó lại vào được nó không cháy được chưa rồi đó xong lúc đấy
+[00:47:58] bây giờ mình đã hiểu hết được nguồn của những cái đấy nó hoạt động rồi bắt đầu mình nhắc cho
+[00:48:03] con ai của mày là con ai của mày nhét vào đoạn nào thì tùy thuộc đúng không rồi cái gan của mày
+[00:48:12] nhét vào đâu được rồi tao vẫn chưa thấy mày giải thích gì kiểu nó xinh chỗ nào nó ấy ở đâu
+[00:48:20] vâng hôm nay em biết là nhiều cái phải làm rõ kiểu mô hình của thằng này chả hiểu gì đây là toàn
+[00:48:35] Vâng, cái của em là thiên về thuật toán trước, còn bây giờ mới là lúc mà thiên về thực tế.
+[00:48:44] Để tại thạc sĩ chỉ cần đề xuất một ý tưởng thôi anh, bao nhiêu là vẫn đi độ rồi.
+[00:48:57] Thế là sau hôm qua nói chuyện với anh Minh là anh Minh cũng nghĩ lại thôi, không học thạc sĩ, an toàn, làm quản lý còn hơn.
+[00:49:11] Tổng quan của SPL đây, phân ngoại, không phải phân công đâu.
+[00:49:27] yêu cầu mới của bộ
+[00:49:28] nó thì biết nhưng mà nếu mà hỏi xem là nó bypass mà khai thác ở đây thì không
+[00:49:58] nó hoạt động
+[00:50:00] mình sẽ dùng o, o thì sẽ gồm một câu lệnh luôn đúng ở phía trước và o sẽ là câu lệnh mình khai thác
+[00:50:10] mình sẽ cố gắng nhét cái câu lệnh đấy thông qua cái toán tử đấy đấy
+[00:50:16] để có thể chuyển câu lệnh khai thác của mình vào do là ở trong o thì chuyển một về đúng
+[00:50:22] thì nó sẽ thực hiện với còn lại
+[00:50:27] thì chỉ hiểu là Boolean chỉ đơn giản là đưa một câu lệnh khai thác vào câu toán tử để có thể ép nó khai thác
+[00:50:36] Khai thác cái gì?
+[00:50:41] Có thể khai thác kiểu dữ liệu bảng hoặc là có những user nào ấy
+[00:50:46] Ừ, thì nó khai thác như thế nào? Giải thích như thế nào?
+[00:50:51] Mình sẽ đưa những câu lệnh truy vấn mà quyền của mình không đủ và đưa vào thông qua các cái toán từ đấy.
+[00:51:00] Quyền không đủ thì sao?
+[00:51:01] Em đang chờ ý thư của anh đi nào.
+[00:51:06] Đi, xem có khai thác được gì.
+[00:51:09] Về làm lab ngay.
+[00:51:11] Về làm lab ngay xem FVL khai thác được gì.
+[00:51:13] không hiểu mấy cái bài kiểu mấy cái láp trên mạng nhiều lắm
+[00:51:23] kiểu kép bm, bwap, không hiểu trong khách mạng kiểu gì
+[00:51:34] ví dụ như kiểu là cái no này đúng không
+[00:51:43] đúng không có nghĩa là ví dụ mày có một câu truy vấn đằng trước là đúng nó hiểu câu truy vấn đằng
+[00:51:51] trước đấy nó ở đâu không đúng thì chỉ cần kiểu toán tử một bằng một là nó đã coi như là luôn đúng rồi
+[00:52:00] để làm cái lần đấy hiểu ạ để nghĩa là lệnh o chỉ cần một trong hai cái đúng là nó sẽ thực thi ạ
+[00:52:08] vâng đúng rồi em chưa hiểu câu hỏi của anh có nghĩa là bây giờ mày dùng cái n o ở trong khai thác đúng
+[00:52:18] Đúng rồi, nghe bảo là có một câu đằng trước và phần khái hạng đằng sau
+[00:52:24] Ừ
+[00:52:26] Thì nếu như mà câu đằng trước đúng, nghĩa là cái toán tử O đúng
+[00:52:29] Thì sẽ thực hiện cái câu lệnh tấn công của mình
+[00:52:32] Câu đằng trước lúc đéo là cho đúng, biết tại sao không?
+[00:52:35] Do toán tử, nhưng mà ý em là chưa ý thức được là
+[00:52:42] Toán tử cái gì trời ơi
+[00:52:43] O là chỉ cần một trong hai vệt đúng anh
+[00:52:46] Cái bế đằng trước nó sai kiểu gì?
+[00:52:49] Hôm nay có đang hiểu cấu trúc của câu truy vấn không?
+[00:52:54] Hôm nay đéo hiểu cấu trúc của câu truy vấn
+[00:52:57] Em mới về tìm hiểu ký ức
+[00:53:01] Nghĩa là khi mà mày input vào đâu đấy
+[00:53:04] Mày sẽ có như kiểu là
+[00:53:08] Select A
+[00:53:10] Bằng mở ngoặc nhận đầu vào
+[00:53:12] Là của mình
+[00:53:13] Hiểu không
+[00:53:21] Mày không nghĩ là
+[00:53:23] Nói em bị hổng đến nước nhiều thế
+[00:53:25] Mày không biết cái gì đâu mà hổng
+[00:53:27] Mày hổng hết
+[00:53:31] Mày đang béo hiểu câu truy vấn này
+[00:53:33] Mày đang chưa biết
+[00:53:34] STL là cái gì
+[00:53:37] Mày đang bị hỏng cái này á, hỏng cái này rất nặng
+[00:53:41] Mày không hiểu chứ vẫn là gì
+[00:53:42] Ví dụ mày select
+[00:53:48] select name
+[00:53:50] rồi
+[00:53:52] form từ đâu đấy đúng không?
+[00:53:54] vâng
+[00:53:55] từ một cái đảng á
+[00:53:57] xong là mày sẽ so sánh cái select đấy
+[00:54:04] bằng một cái tên gì đấy mà mày chuyển vào
+[00:54:07] thì cái câu select ở đằng trước ấy
+[00:54:13] cái câu select đằng trước mà tao bảo
+[00:54:17] xong là có một cái tên chuyển vào đằng sau này này
+[00:54:19] Câu truy vấn này, câu truy vấn đằng trước này là câu truy vấn của hệ thống, là của những thằng cốt, hiểu chưa?
+[00:54:27] Nên lúc nào nó cũng đúng hết, mình chỉ chuyển vào cái đằng sau thôi.
+[00:54:33] Chuyển vào đằng sau để sử dụng, khai thác câu lệnh hệ thống này?
+[00:54:38] Vâng.
+[00:54:39] Rồi. Không, cái đấy em không cho em hiểu kỹ lưỡi về xem.
+[00:54:46] Em chưa hiểu cấu trúc của câu truy vấn về học, cấu trúc của câu truy vấn học.
+[00:54:50] học hiểu cái này hiểu cái quát thì mày mới bắt đầu làm cái này
+[00:54:56] mày chả hiểu gì mà hỏi tao, tao chán chả buồn mỏi, nói có hiểu gì đâu
+[00:55:02] đây, đề tài của mày tên là nghiên cứu mô hình gan cho sinh dữ liệu cẩn thận STL
+[00:55:11] thì phải hiểu STL, phải nâng cao phát triển dựa trên học máy đúng không?
+[00:55:18] Cái đề tài này là sử dụng mô hình gan
+[00:55:32] Ừ thì đúng
+[00:55:32] Mà nghiên cứu đúng mô hình gan thật
+[00:55:40] Ừ thì mày nghiên cứu mô hình gan là ok
+[00:55:44] Tại vì đề tài đó là nghiên cứu mô hình gan
+[00:55:46] Nó đeo liên quan gì với tấn công nhỉ
+[00:55:51] Vâng
+[00:55:53] Mày đánh tàu mày đeo bác đồng hành
+[00:56:04] À thì
+[00:56:07] Sĩ đồn gì
+[00:56:14] Thầy Lãi Minh Tuấn ở trường mình không anh
+[00:56:16] Ông ấy là phản biện ngồi
+[00:56:20] Bố em cho thầy nghỉ luôn
+[00:56:23] Hôm nay thầy không đi
+[00:56:25] Là người nhất SQL là không hỏi
+[00:56:28] Thế là mới tát
+[00:56:29] Tại có 2 người không nhận phong bì
+[00:56:37] Thế là thầy đi luôn
+[00:56:39] Tự nhiên hôm nay thầy nghỉ
+[00:56:41] Vì việc gia đình
+[00:56:44] Thầy và 1 thầy nữa
+[00:56:45] Và thầy thầy kia
+[00:56:48] Mỗi đồng có 4-5 thầy
+[00:56:51] 1 thư ký, 2 phản biện
+[00:56:53] Và 2 thầy chủ trì hội đồng
+[00:56:56] 5 thầy
+[00:56:59] Nhưng mà một ông là bên chủ trì hội đồng
+[00:57:01] Nên là không lo
+[00:57:04] Giờ kiểu quản lý được anh
+[00:57:05] Thầy đấy là liêm
+[00:57:07] Kiểu không thích kiểu cái đấy rồi
+[00:57:09] Thì không sao
+[00:57:10] Cũng quen rồi
+[00:57:11] Và thầy Tuấn
+[00:57:16] Thầy Tuấn nghĩ
+[00:57:17] Thầy chỉ cần gửi câu hỏi thôi
+[00:57:19] Còn trò thì cứ ngồi vẫn đáp
+[00:57:21] Hai câu thầy là hỏi phát là chết luôn
+[00:57:24] Em phải thừa nhận em chưa làm
+[00:57:25] Câu là cái này, cái dữ liệu này sinh ra thì ok, phần trăm ok rồi nhưng mà thực tế có dùng tấn công nổi không?
+[00:57:34] Em phải thừa nhận thẳng là mới sinh ra kiểu nhiễu.
+[00:57:38] Nhưng mà mấy cái mà vừa vừa được tường lửa chẳng qua là tường lửa nghĩ là nó không làm được gì cho đời, nó phải cho qua.
+[00:57:44] Chứ không phải là cho qua bởi vì nó có khả năng thái thác và ẩn bình.
+[00:57:50] Câu 2 là em dựa trên, nghĩa là mô hình học máy này thì dựa trên một cái bộ rule của SQL
+[00:58:04] Xong rồi dùng chính cái bộ rule đấy để kiểm tra xem dữ liệu nó có phải là SQL không kiểu đúng kiểu tự đạp bóng, tự thổi cò
+[00:58:10] Theo ông chỉ ra cái cũng phải thừa nhận là có lỗi trong thiết kế, đúng 2 câu là chết luôn
+[00:58:17] là kiểu mô hình có xu hướng tự đạp bóng tự hỏi có ý nghĩa là thằng đánh giá dựa trên một bộ
+[00:58:23] không nghe đây đây đừng ạ em tốt rồi hai thầy thì hỏi sao thầy nhắn tin cho mày thầy hỏi không em
+[00:58:39] hô câu của thầy khó quá em em phải viết em phải nốt lại xong rồi đưa vào chết gì thì cùng ra gì
+[00:58:52] Câu số 2, nếu hàm thưởng và hàm đánh giá đều dựa trên Keyword, Motif, Detect, Sở, Xây dựng
+[00:59:13] chuẩn mẹ đẹp mẹ ông bảo cứ 60 luôn 60 luôn bây giờ hỏi là chết
+[00:59:23] Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé.
+[00:59:57] Hẹn gặp lại các bạn trong những video tiếp theo.
+[01:00:00] Bây giờ mày về mày cần cải thiện cái đế đa, nếu không sẽ không bùi pháp
+[01:00:15] Vâng, mày phải hiểu đùa
+[01:00:18] Tại vì tao không học cái gan này, người ta không quan tâm
+[01:00:22] Tao quan tâm là cái tính hữu thức của nó là như thế nào
+[01:00:28] Tại các thầy đọc một lần, các thầy hiểu cái bùi này được
+[01:00:31] Mày chỉ thuyết trình trong khoảng bao nhiêu phút, một tiếng
+[01:00:36] Để các thầy hiểu được là cái đề án của em nó làm được cái gì, nó giúp ích được cái gì
+[01:00:42] Rồi
+[01:00:42] Và tao cũng chỉ cần hiểu cái đấy thôi
+[01:00:44] Tao như là các thầy của mày, trấn biển của mày
+[01:00:46] Chỉ cần hiểu là cái mô hình này của em nó có ứng dụng gì cho đời
+[01:00:51] Nó có giúp gì được cho đời không
+[01:00:55] Chứ thầy cũng địt cần hiểu là thằng gan này nó làm cái gì
+[01:00:59] Thầy chỉ biết là ví dụ mày là thằng gan này hơn cái thằng bình thường trong đời này là cái gì
+[01:01:05] Hiểu chưa
+[01:01:07] có nghĩa là đấy bây giờ mày hiểu được mình xong về sau mình ra này trình bày lại sao
+[01:01:15] khi mà hiểu rồi thì mày biết là con gan này nó sẽ áp dụng ở đâu hoặc là mày có thể tích hợp một con AI vào để mày làm lên tiến sĩ
+[01:01:24] hiểu chưa? hiểu
+[01:01:25] lên tiến sĩ là mày sẽ làm to hơn đúng không? ngoài SVL ra mày sẽ làm thêm
+[01:01:30] gần như là tất
+[01:01:31] ừ gần như là tất
+[01:01:32] dạng payload là gồm hết
+[01:01:34] Rằng này đang là dạng mà nó dễ nhất rồi
+[01:01:39] Thì mày phải hiểu là
+[01:01:42] Tại sao con AI nó lại
+[01:01:44] Làm được những cái
+[01:01:45] Mà nó học
+[01:01:47] Chứ còn mấy thứ này
+[01:01:50] Thì quát nó chặn hết rồi
+[01:01:52] Chả cần AI được
+[01:01:55] Cái rule tự sinh
+[01:01:57] Bây giờ làm nào để bái bát
+[01:01:59] Mấy cái rule đấy thì dễ vãi loàn
+[01:02:02] Bây giờ nếu mà nó thực tế
+[01:02:03] Thì phải là
+[01:02:04] Bất kỳ một thằng nào
+[01:02:06] Ví dụ mình thử trên một hệ thống thật chẳng hạn, mà mình bypass được thì nó luôn ok.
+[01:02:18] Ví dụ bây giờ mình đi mình test, ví dụ là được cho phép của hệ thống của trường,
+[01:02:24] ví dụ trường nó quát rồi, em đã chứng minh được trên khu vực của trường là như thế này, như thế này.
+[01:02:32] bài phát biệt bằng các cây lát tự sinh của em, chiếc chiếc.
+[01:02:38] Thế thì nói như là impact kỳ cực.
+[01:02:41] Mấy cái này, gu mày tự nghĩ, gu mày biết rồi.
+[01:02:45] Xong rồi bây giờ mày bảo con AI là sinh cho tao mấy cái cây lát, vượt được cái gu này.
+[01:02:51] Xong rồi mày gán cho cái con mốt thứ 2 của mày, đứng ở trên đá bóng thì vừa quay ra.
+[01:03:15] đúng kiểu tệ hơn quá
+[01:03:21] bây giờ mình phải kiểm tra xem để AI sinh đúng, sinh đúng, đối với một tí thực tế và hiểu mấy cái
+[01:03:35] WAP sử dụng như thế nào. Thì lúc đấy mình tư duy thì mình nghĩ ra những cái mà để nó thực tế bây
+[01:03:44] giờ còn không hiểu thì cũng sao mà mình nghĩ ra được. Tại vì tao nghĩ là tất cả những cái trên đầu
+[01:04:01] phần thuật toán thì phải tự cây viết không hiểu không có ai giải thích không được toán thì bắt
+[01:04:10] buộc phải đọc bài báo thì mình mới dựng y hệt được rồi có đúng phần duy nhất mà phải làm thì
+[01:04:15] thì bắt buộc phải đọc thầy phải bắt buộc phải yêu cầu chứng minh từ đầu còn các phần khác là
+[01:04:23] phải tự làm tự để ai Zen trong đó có phần là Zen liên quan tới mấy cái đặc tính của sql.exe có nghĩa
+[01:04:34] là mày hiểu tương tận với thằng gan này rồi thì mỗi môi mục tiêu của gan đấy là nó sẽ nhận vào là
+[01:04:44] là một bộ dữ liệu nó sẽ sinh ra rất nhiều dữ liệu sinh kiểu gì nó sinh bởi thuật toán lan
+[01:04:52] chuyển ngược nghĩa là khi mà cái câu lệnh nó nó sẽ đi qua rất nhiều lớp mỗi lớp nó chỉ học đúng một
+[01:04:59] cái đặc điểm thôi thì sau khi mà nó có khoảng cho nó vào rất nhiều câu lệnh của nó sẽ sử dụng thuật
+[01:05:19] sở toán logistic để có thể là tính cái ra điện nó đi ngược quay trở lại mà ở ban đầu nha sau khi
+[01:05:26] sinh hợp một dữ liệu được nói thế nào thì cái ra điện này nó làm thế nào để nó suy ngược lại nó tính
+[01:05:32] logistik thì mục tiêu thì đúng là kiểu đưa đưa cái cái đưa các cái cụm giá trị đó là toán logistik
+[01:05:42] Nếu như mà giá trị đấy về 0
+[01:05:45] Thì là đang có khả năng đi ngược về ban đầu
+[01:05:47] Thì nó sẽ
+[01:05:52] Thế ý là nó đi ngược về 0 rồi
+[01:05:55] Là nó tính như thế nào
+[01:05:57] Cách thức tính của nó
+[01:05:59] Tính thì có một
+[01:06:01] Một hàm mất mát để có thể
+[01:06:03] Thay số vào để tính
+[01:06:06] Ví dụ một câu lệnh nó thay số về gì
+[01:06:08] Không một câu lệnh sẽ đi qua mấy cái lớp mà em bảo
+[01:06:11] Để nó chuyển thành các dạng số học
+[01:06:12] Thì lúc đấy mô hình mới hiểu được
+[01:06:14] Thế thôi em về xem lại cách giải thích
+[01:06:19] Số học
+[01:06:20] Đấy mày mà hiểu với thằng gan
+[01:06:23] Nó làm gì cho tao
+[01:06:25] Gan thì chỉ là
+[01:06:28] Một thằng là thằng đánh giá
+[01:06:30] Một thằng là thằng sinh
+[01:06:31] Thằng sinh sẽ cố gắng sinh nhiều dưới đất có thể
+[01:06:33] Thằng đánh giá thì sẽ cố gắng nhận biết
+[01:06:35] Sinh là địch mà nó xáo trộn lên à
+[01:06:37] Đúng rồi gần như là xáo trộn lên
+[01:06:38] Không đúng nghĩa là nó xáo trộn lên
+[01:06:42] Cứ cho một đống từ vào
+[01:06:44] Xong nó đang đung nó nhảy loạn lên
+[01:06:46] Không đúng nghĩa thôi
+[01:06:48] Sao anh không nói cái từ đầu nhỉ
+[01:06:50] Nó có ý nghĩa bùi gì
+[01:06:51] như thế mới có thằng đánh giá
+[01:06:53] thằng đánh giá là nó sẽ dựa vào các dấu hiệu từ bộ dữ liệu gốc
+[01:06:57] đánh giá xem thằng nào là thằng giả
+[01:07:01] và thằng nào là thằng có thể là thật
+[01:07:04] thì những cái thằng random thì nó sẽ bị loại gần hết
+[01:07:07] chỉ có những cái thằng may mắn random được mấy cái keyword chuẩn
+[01:07:10] kiểu may mắn ghép ra từ select được thành công chẳng hạn
+[01:07:13] thì nó sẽ giữ lại và nó cứ xoay dần xoay dần thôi anh
+[01:07:17] random tất cả sắp xếp lần lượt từ hướng cuối
+[01:07:21] bao nhiêu từ sắp xếp từ lấy từ
+[01:07:25] đúng rồi anh nói bắt đầu nhờ cái đoạn đúng rồi không phải đúng nghĩa kiểu tạo ra một loạt các
+[01:07:38] cái kính tự linh ta linh tinh không theo thứ tự gì cả thì sẽ thằng kia nó sẽ bắt đầu mới lọc dần
+[01:07:45] lọc dần không Nhưng mà cái thằng cái thằng cái thằng đánh giá nó sẽ lọc dần rất nhiều
+[01:07:51] nhiều sao lại để nó ra đừng tất cả các chữ gì nói nhé Nếu là kiểu random dịch từ select cái từ con
+[01:08:01] thôi Ví dụ nó sắp thành select con hoặc là con select ấy thôi mày đây là sắp xếp cả những ký
+[01:08:09] tự vớ vẩn đúng không anh thì em thấy mới trong cái kết quả của em mới có mấy cái ký tự rất là
+[01:08:15] dài mà nó không có ý nghĩa bởi vì là nó không học hết quay lại không nhưng mà cái thằng kia
+[01:08:29] thế là nó khả năng đánh giá được thì bắt đầu mới thành hình được này rồi đến bước tiếp theo là thằng
+[01:08:36] này nó dựa vào cái gì để nó ra một câu lệnh mà đúng thì bình thường là nó nó chỉ biết là đâu
+[01:08:43] là dữ liệu sinh ra hoặc đâu là đâu là dữ liệu tạo ra đâu là dữ liệu từ bộ dữ liệu đây nó kiểu
+[01:08:49] chỉ đánh giá xem thằng nào kiểu hàng giả hàng giả thật cái bộ dữ liệu là cái lộn gì là cái
+[01:08:56] cái mày nhập vào đúng không anh thế làm sao để nó sinh ra những cái câu lệnh mà nó biết là xem
+[01:09:04] sẽ phù hợp nó đánh giá với bộ dữ liệu đúng không đánh giá kiểu gì đây ví dụ đây là bộ dữ liệu được
+[01:09:16] chưa rồi thế cái thằng mà nó sinh ra đâu thằng sinh ra đâu đây thằng sinh ra đây anh ạ đây đâu
+[01:09:24] sinh ra đâu nghĩa là dữ liệu sinh ra cuối cùng nó sẽ trông như thế này anh nó biết rồi thế làm
+[01:09:31] nó làm sao để nó biết là cái câu lệnh truy vấn nó sẽ sinh ra thế này
+[01:09:34] nó dựa ở đâu để nó sắp được như thế này để nó chọn ra
+[01:09:38] cái thằng đánh giá nó sẽ chặn và nó...
+[01:09:41] đánh giá bằng cái gì?
+[01:09:42] đánh giá bằng một hàm
+[01:09:44] nó sẽ đánh giá được kiểu web ấy anh, bao nhiêu điểm
+[01:09:47] nếu mà dưới điểm chuẩn là nó cho lại luôn
+[01:09:49] còn những cái thằng nào mà được đánh điểm
+[01:09:51] nó sẽ nói...
+[01:09:53] đánh điểm dựa vào cái gì?
+[01:09:54] cũng dựa vào cái hàm bất mát đấy
+[01:09:55] một cái hàm mà nó sẽ đưa cái kiểu so sánh
+[01:10:00] là cái dữ liệu mà được sinh ra dữ liệu gốc thì nó được bao nhiêu điểm
+[01:10:04] mày phải hiểu nó so sánh bằng cái gì nó so sánh bằng một thuật toán cái thuật toán đấy sẽ đưa
+[01:10:13] thuật toán hoạt động thế nào lần đấy sẽ là đưa các cái ký tự của hai đưa ký tự của bộ dữ liệu mình
+[01:10:22] mình đưa vào chuyển đổi thành một cái một cái một cái chuỗi hàm tính toán sau là sau khi mình được
+[01:10:30] chuyển thành hát một cái phương trình hơn anh một phương trình mà có rất nhiều x mỗi x sẽ là một cái
+[01:10:39] lây ở và em còn nói phần này em phải học lại cách giải vì em cũng chỉ biết nói cho ví dụ ví dụ cái
+[01:11:00] thì cái câu lệnh này nó sẽ có cái cấu trúc, được chưa?
+[01:11:05] Cấu trúc là select này, like này, vớ vẩn vớ vẩn này, random các thứ này, được chưa?
+[01:11:14] Thì cái câu ban đầu ví dụ nó như thế này
+[01:11:18] thì cái câu sinh ra nó sẽ dựa vào cái cấu trúc như kiểu là cấu trúc của những câu ban đầu
+[01:11:23] để nó xác định xem cái câu về sau nó có phù hợp với cái cấu trúc đấy không, được chưa?
+[01:11:31] Thì cái cách thức nó xác định cái cấu trúc đấy là cái gì
+[01:11:34] Thì cái hàm đấy mày phải hiểu tương tận cái hàm
+[01:11:40] Anh nói thế thì em hiểu câu hỏi của anh rồi
+[01:11:42] Thì cái phương pháp cũ nó không học được cấu trúc
+[01:11:46] Phương pháp của em thì mới học được
+[01:11:47] Nó sẽ chia cái câu payload đấy
+[01:11:49] Phương pháp cũ nằm đéo cấu trúc
+[01:11:51] Phương pháp cũ là nó
+[01:11:52] Phương pháp random mà anh hỏi là gan đi anh
+[01:11:55] Gan thì nó không học được cấu trúc
+[01:11:56] Nó chỉ đơn giản là random liên tục thôi
+[01:11:58] Cái thằng cải tiến của em là sẽ chia
+[01:12:00] Thế mày đang làm về gan mà cải tiến cái lồn gì
+[01:12:02] Có phiên bản gan và gan gốc
+[01:12:05] hoặc dựa vào đấy để chứng minh là mình ưu việt hơn, còn gan của em gọi là sequengan
+[01:12:10] một một cái thằng gan khác thì sẽ chia cái câu lệnh đấy thành 20 phần hoặc là 40 phần mình tự đưa đầu vào
+[01:12:16] sau đó là mỗi cái cụm đấy thì có thể ghép từ các cái câu kiểu có thể 1 câu hoặc là 2 câu thì tùy
+[01:12:23] nói chung là trong cái khuôn 40 ký tự đấy đi mà nhét vào sau đó là mới đưa vào trong cái mô hình
+[01:12:30] nó sẽ đánh điểm
+[01:12:31] thì nếu như cái cụ nào mà được coi là
+[01:12:35] điểm cao nhất
+[01:12:36] thì nó sẽ ví dụ như ở vị số 1
+[01:12:38] là từ select có điểm cao nhất
+[01:12:40] thì nó sẽ ưu tiên là luôn luôn bắt đầu
+[01:12:42] với câu lệnh select
+[01:12:43] và nó bắt đầu sinh ra một hàng loại các câu
+[01:12:45] với từng vị trí
+[01:12:47] có 40 vị trí thì sẽ xem là top 1
+[01:12:50] sẽ là vị trí gì, top 2 vị trí, top 3 vị trí
+[01:12:51] thì bắt đầu xáo lên
+[01:12:53] thì đấy là hàng của em
+[01:13:04] Thì cái hàm đấy là có một vấn đề
+[01:13:07] Là nếu như mà nó phân chia bị đần
+[01:13:10] Ví dụ như là có những câu mà 200 ký tự
+[01:13:13] 222, đúng rồi, 222 câu
+[01:13:15] Nhưng mà chỉ cho có đúng 40 khuôn
+[01:13:17] Và đôi lúc là nó sẽ bị chia thiếu
+[01:13:20] Hoặc là kiểu dồn hết tất cả vào khuôn cuối
+[01:13:22] Thành ra là nó không học được
+[01:13:24] Hoặc là có đúng 40 khuôn
+[01:13:26] Nhưng mà câu truyền nó chỉ có 30 khuôn
+[01:13:28] Ai học?
+[01:13:29] Thực toán của em ạ.
+[01:13:31] Nó sẽ tự học ạ?
+[01:13:33] Vâng, nó học theo thực toán, kiểu biến đổi thành số vậy anh. Chứ không phải là để con này này làm.
+[01:13:37] Là tìm sắc xuất để cái từ này, à nghĩa là ở vị số 1 thì câu select nó sẽ có sắc xuất thành công là bao nhiêu.
+[01:13:50] Ví dụ như nó là có sắc xuất thành công 40% thì chứng tỏ là nên bắt đầu câu lệnh bằng câu select thì có khả năng có dấu hiệu SQL.
+[01:13:59] Tính sắc xuất thành công kiểu bùi gì? Nó phải dựa vào cái gì chứ?
+[01:14:02] nó dựa vào hàm sắc xuất
+[01:14:04] hàm sắc xuất
+[01:14:08] 1T Caclo
+[01:14:08] nó đúng kiểu hàm sắc xuất
+[01:14:12] nghĩa là nếu như A sinh ra
+[01:14:14] thì tỷ lệ của B sinh ra bao nhiêu
+[01:14:16] gieo 1 con súc sắc
+[01:14:21] kiểu gieo 1 con súc sắc
+[01:14:22] ra 1 mặt là 2
+[01:14:25] thì sắc xuất để có thể tổng
+[01:14:27] 2 mặt là 7
+[01:14:29] thì là bao nhiêu phần trăm
+[01:14:30] em không tính sắc xuất khai thác được
+[01:14:37] Để có thể tính cái góc đó thì phải đưa vào tường lửa lúc đấy mới check được
+[01:14:40] Còn khi mà em làm em chỉ quan tâm là nó có ra được hình thủ SQLS không
+[01:14:44] Thì gặp dính câu của thầy Tuấn
+[01:14:46] Nên là mai hôm đấy thầy không đi
+[01:14:51] Nói chung là đây gan đây đúng không?
+[01:14:58] Cái mô hình của mày đây đúng không?
+[01:15:00] Mô hình của em là mô hình
+[01:15:01] Đây ạ?
+[01:15:04] À đây đấy đúng rồi đúng rồi
+[01:15:07] Cái dữ liệu thực tế sinh ra nó thể trông như thế
+[01:15:11] Như là trông rất là rác mà ít ra nó đỡ hơn mấy cái đằng sau
+[01:15:17] Thì mới cần buổi hôm nay anh ở dưới em, em cũng biết là mô hình em cũng bánh vẽ, nếu mà nộp lên hội thảo toàn quốc người ta cũng cười vào mặt sau.
+[01:15:30] Anh thấy mày đang chưa hiểu lắm nên...
+[01:15:46] Gan bản gốc này thì nó thua cái gì?
+[01:15:49] Gan bản gốc là nó cố định ở con số 20, mà payload thì thường rất là dài.
+[01:15:56] Nên là nó có cái xu hướng là dồn hết tất cả vào cái khay cuối cùng.
+[01:16:00] Và nó bị thiếu một vài cái nữa qua cái thuật toán này.
+[01:16:03] Số gan màn gốc nó xinh có ngắn thế này được không?
+[01:16:06] Vâng, bởi vì cái thằng đánh giá nó đánh mạnh quá
+[01:16:09] Thành ra nó chỉ cần phát hiện là cái câu lệnh này vượt qua cái
+[01:16:13] Nó chỉ quan tâm là gen giống hệt cái câu lệnh cũ này
+[01:16:16] Đúng
+[01:16:17] Nó
+[01:16:19] Thế nếu mà câu gan của mày mới nó chỉ xuất hiện như thế nào?
+[01:16:24] Vâng, cũng nó chỉ xuất hiện như thế này
+[01:16:24] Bởi vì là cái thằng kia mấy cái dấu hiệu đặc biệt
+[01:16:27] Là nó không học nổi
+[01:16:30] Nhưng mà nó lại học được đúng một cái câu lệnh mà chắc chắn là thành công
+[01:16:33] thì nó chỉ quan tâm đến cái câu lệnh đấy thôi
+[01:16:35] nó chỉ sinh ra giống hiện đủ cái câu lệnh
+[01:16:37] ví dụ nó nhìn thấy
+[01:16:40] phải em cái nó chặn mẹ luôn
+[01:16:42] thì cái câu đằng sau
+[01:16:44] vô nghĩa hay có gì đó
+[01:16:46] thì tao thấy thằng gan bản gốc
+[01:16:49] mày cắt đéo rồi
+[01:16:50] 0.1 u liền
+[01:16:52] nó chặn mẹ luôn
+[01:16:54] câu này hơn cái đầu bùi
+[01:16:56] cái đấy nó dài hơn
+[01:16:59] dài hơn thì được cái gì
+[01:17:01] phải u liền nó chặn luôn
+[01:17:02] Cái cuốn của tao, tao chỉ cần nó u điền, tao chặn luôn. Chưa cần giải. Hiểu chưa?
+[01:17:10] Rồi.
+[01:17:11] Cái gì mới có buổi hôm nay? Không biết thực tế là làm kẻ test nó lại trông ổn định không?
+[01:17:19] Cứ đi học thôi. 4 năm cơ mà. 4 năm thì không học được tiền test à.
+[01:17:23] 4 năm không học thì ghét đi học à.
+[01:17:27] Đi học đi. Đi học đi.
+[01:17:29] Ngồi giải thích đi.
+[01:17:31] Nghe cái đề tài gần tiếng giữa mà ngồi.
+[01:17:34] Đéo hiểu được cái đề tài này làm lộn thì tao thấy là nó chưa ok đâu.
+[01:17:39] Bây giờ mày phải nói nó thật là dễ hiểu rồi đó
+[01:17:42] Người bình thường không hiểu được
+[01:17:44] Đừng có học thuật lên
+[01:17:46] Học thuật lên chả hiểu nó
+[01:17:48] Nó không giúp ích cho cái gì được
+[01:17:49] Mày nói đơn giản thôi
+[01:17:53] Lấy ví dụ đơn giản thôi
+[01:17:58] Cái gan của mày hơn cái gì
+[01:18:01] Thuật là nơi giờ
+[01:18:03] Gạch đầu dòng ra
+[01:18:03] Cái tính ứng dụng của nó
+[01:18:08] Chứ còn đéo một thằng nào
+[01:18:11] Mày cần làm cái gì
+[01:18:13] thì làm ra cái gì là mày phải bắt buộc phải hiểu rồi
+[01:18:15] còn để cho người khác hiểu được
+[01:18:18] thì mày phải đơn giản hóa nó đi
+[01:18:21] có nghĩa là mày rất hiểu rồi
+[01:18:23] thì mày mới đơn giản hóa được
+[01:18:26] thế mình nói là đang vang vông vần thể
+[01:18:32] tao chưa hiểu
+[01:18:33] chưa hiểu cái thằng gan nó hơn cái gì
+[01:18:37] ví dụ thằng kia nó sinh bị ngắn quá
+[01:18:40] đúng không?
+[01:18:41] vâng
+[01:18:42] và thằng gan kia nó sinh nhiều hơn
+[01:18:45] dài hơn
+[01:18:45] thế tại sao nó phải sinh dài hơn
+[01:18:51] nếu mà sinh ngắn quá
+[01:18:52] chứng tỏ là mô hình của em
+[01:18:55] chỉ tập trung vào những mẫu mà chắc chắn thành công
+[01:18:58] thì nếu mà chỉ đơn giản là
+[01:18:59] tập trung vào mẫu chắc chắn thành công
+[01:19:00] thì sẽ bỏ xót toàn bộ tất cả các mẫu mà có nguy cơ bị tấn công
+[01:19:03] cái đầu nó giống nhau mà
+[01:19:07] vâng, cái đầu giống nhau
+[01:19:09] đầu giống nhau thì nó chặn rồi
+[01:19:12] ông phải so sánh được là
+[01:19:13] cái mẫu chắc chắn thành công của
+[01:19:15] của cái mẫu không chưa chắc là thành công ấy thì nó bị trùng cướp với cả cái chắc chắn thành công
+[01:19:23] như là bao nhiêu phần trăm và ông tối ưu hơn nó là bao nhiêu phần trăm hiểu chưa Đấy thì em chưa
+[01:19:31] mày hơn người ta cái gì mày cũng nói là được thì đối với ai mà biết xin câu giải hơn xin câu giải
+[01:19:41] có hiệu quả không hiểu chưa Ví dụ cái đầu nó ra giống nhau rồi thì thằng này nó cũng chặn mà có
+[01:19:48] phải mỗi thằng dài của mày nó chặn đâu hai cái đầu ví dụ nó đều là U niền thì thằng kia nó có U
+[01:19:54] niền nó cũng chặn rồi thì là sinh cái đằng sau nó không quan tâm thì có nghĩa
+[01:20:00] là cái câu lệnh dài của mày, nó gặp thì nó chặn đúng không?
+[01:20:03] Nhưng mà bên này nó cũng là câu lệnh dài ngắn thôi, nhưng mà nó gặp thì nó vẫn chặn.
+[01:20:07] Kể cả thằng kia không khuyên truyền câu lệnh dài của mày.
+[01:20:10] Nó hiểu cái buổi. Về học đi.
+[01:20:13] Vâng. Nhờ anh ạ.

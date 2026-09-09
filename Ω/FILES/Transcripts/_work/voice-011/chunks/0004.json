@@ -1,0 +1,93 @@
+{
+  "run_key": "98ab40ba2664ae7036289899aa28507c636dace272371be951c841dcbf3bd5fb",
+  "start": 2400,
+  "end": 2403.4510625,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2401.52,
+      "end": 2403.42,
+      "text": "Đây là cái bảng góc của vĩnh vụ dưới này không ạ?",
+      "avg_logprob": -0.6093749975164732,
+      "compression_ratio": 0.8607594936708861,
+      "no_speech_prob": 0.2105712890625,
+      "words": [
+        {
+          "start": 2401.52,
+          "end": 2401.8,
+          "word": " Đây",
+          "probability": 0.46533203125
+        },
+        {
+          "start": 2401.8,
+          "end": 2402.02,
+          "word": " là",
+          "probability": 0.984375
+        },
+        {
+          "start": 2402.02,
+          "end": 2402.16,
+          "word": " cái",
+          "probability": 0.481201171875
+        },
+        {
+          "start": 2402.16,
+          "end": 2402.34,
+          "word": " bảng",
+          "probability": 0.90087890625
+        },
+        {
+          "start": 2402.34,
+          "end": 2402.62,
+          "word": " góc",
+          "probability": 0.4466552734375
+        },
+        {
+          "start": 2402.62,
+          "end": 2402.68,
+          "word": " của",
+          "probability": 0.439697265625
+        },
+        {
+          "start": 2402.68,
+          "end": 2402.9,
+          "word": " vĩnh",
+          "probability": 0.4057210286458333
+        },
+        {
+          "start": 2402.9,
+          "end": 2403.04,
+          "word": " vụ",
+          "probability": 0.736328125
+        },
+        {
+          "start": 2403.04,
+          "end": 2403.18,
+          "word": " dưới",
+          "probability": 0.8006998697916666
+        },
+        {
+          "start": 2403.18,
+          "end": 2403.24,
+          "word": " này",
+          "probability": 0.45556640625
+        },
+        {
+          "start": 2403.24,
+          "end": 2403.34,
+          "word": " không",
+          "probability": 0.450439453125
+        },
+        {
+          "start": 2403.34,
+          "end": 2403.42,
+          "word": " ạ?",
+          "probability": 0.73779296875
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "6e2e5a57dd2051ee1202bef70c8a70dd7991afc67181ac3ab317404280ce5282"
+}

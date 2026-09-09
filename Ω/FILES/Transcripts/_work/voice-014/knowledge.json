@@ -1,0 +1,60 @@
+{
+  "created": "2026-09-08",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Người trình bày đang chia nội dung thành mô hình, kết quả và phân tích payload, mỗi phần khoảng 5–6 phút; chưa biết nên cắt phần nào.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00002",
+          "quote": "tập trung vào 3 phần là nói về mô hình nói về kết quả với cả phân tích"
+        },
+        {
+          "segment_id": "S00003",
+          "quote": "về payload thì đều chia ra là khoảng 5 đến 6 phút em đang chưa biết là sẽ phải loại phần nào"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C2",
+      "text": "Người trình bày nhận thấy nói lưu loát hơn vẫn chưa đủ để đưa bài xuống dưới 15 phút; đây là vấn đề đang xin góp ý, chưa có lời giải trong bản ghi.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00004",
+          "quote": "không thể hạ thấp xuống dưới 15 phút được"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N1",
+      "title": "Rút thời lượng bằng lựa chọn nội dung",
+      "question": "Cần quyết định điều gì khi luyện nói vẫn không đủ rút thời lượng?",
+      "answer": "Bản ghi nêu nhu cầu chọn phần cần giữ/cắt trong ba phần mô hình, kết quả và payload; chưa ghi được ý kiến trả lời.",
+      "context": "Người trình bày phân bổ khoảng 5–6 phút cho mỗi phần và đang hỏi thầy nhận xét.",
+      "conditions": "Chưa biết giới hạn chính thức và tiêu chí chấm; không suy ra phải bỏ một phần cụ thể.",
+      "claim_ids": [
+        "C1",
+        "C2"
+      ],
+      "connections": "Liên hệ bản thầy Lâm về làm rõ logic bài toán và slide.",
+      "tags": [
+        "trình bày nghiên cứu"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Thời lượng được phép chính thức là bao nhiêu và phần nào là trọng tâm bắt buộc?",
+    "Tên bộ đo và nhận xét về hiệu quả thực tế ở cuối bản ghi chưa rõ, câu nói bị ngắt; chưa đủ để kết luận các mô hình đều tốt như nhau."
+  ],
+  "practice": [
+    "Lập bảng ba phần đang trình bày, mỗi phần ghi một thông điệp bắt buộc và một minh chứng; chuyển chi tiết phụ sang slide dự phòng sau khi xác nhận thời lượng."
+  ]
+}

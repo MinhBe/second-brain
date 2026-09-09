@@ -1,0 +1,241 @@
+{
+  "created": "2026-09-09",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Phần nghiên cứu fake news tiếng Việt cần đặt trong bối cảnh công trình chung và giải thích khác biệt so với tiếng Anh, không chỉ nêu việc huấn luyện bằng dữ liệu tiếng Việt.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00001",
+          "quote": "Đầu tiên em phải nói về các khu vực phát hiện fake news nói chung"
+        },
+        {
+          "segment_id": "S00004",
+          "quote": "giữa phát hiện fake news tiếng Việt với tiếng Anh có gì khác nhau"
+        },
+        {
+          "segment_id": "S00021",
+          "quote": "Người ta làm cái gì để mà tạo ra sự khác biệt?"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C2",
+      "text": "Sơ đồ mô hình phải đi kèm giải thích logic, vai trò multi-scale/fusion và lý do hai nhánh; có sơ đồ lắp ghép chưa đủ chứng minh hiểu phương pháp.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00065",
+          "quote": "mình phải nói rõ được cái logic đó là cái gì"
+        },
+        {
+          "segment_id": "S00067",
+          "quote": "ý nghĩa của những cái multi-scale"
+        },
+        {
+          "segment_id": "S00081",
+          "quote": "Tại sao lại là 2 nhánh fusion?"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C3",
+      "text": "Trong phần âm thanh, mục tiêu được bàn là cải thiện kết quả tổng hợp trên hai tập dữ liệu, tránh chỉ tối ưu một tập; chỉ số và cách tổng hợp cần được định nghĩa rõ.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00194",
+          "quote": "cho cộng trung bình hai cái data set này là tốt nhất"
+        },
+        {
+          "segment_id": "S00195",
+          "quote": "Chứ không chỉ là một bộ data set"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C4",
+      "text": "Việc giải thích lựa chọn tham số và codec được gắn với yêu cầu làm ablation study thay vì chỉ khẳng định bằng lý thuyết.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00314",
+          "quote": "tại sao lại chọn các tham số này"
+        },
+        {
+          "segment_id": "S00315",
+          "quote": "chạy Appliation Study"
+        },
+        {
+          "segment_id": "S00320",
+          "quote": "Codec này thì mình cũng phải chạy Appliation Study thôi"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C5",
+      "text": "Một góp ý phản biện yêu cầu không chọn tham số bằng tập đánh giá cuối, mà dùng tập phát triển; tên tập và lớp cụ thể trong ASR cần nghe lại.",
+      "confidence": "thấp",
+      "confidence_reason": "Ý phân tách tập được nhắc nhưng ASR làm méo tên tập/thuật ngữ; cần nghe và đối chiếu review gốc.",
+      "evidence": [
+        {
+          "segment_id": "S00328",
+          "quote": "không được chọn cái chỉ số"
+        },
+        {
+          "segment_id": "S00330",
+          "quote": "trên tập đầy giá mà phải chạy trên tập Depth"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C6",
+      "text": "Báo cáo ba lần chạy là độc lập bị chất vấn vì vẫn cố định cùng random seed; trao đổi thừa nhận cần khác seed để hỗ trợ tuyên bố này.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00365",
+          "quote": "mình đã chạy trên 3 lần chạy độc lập"
+        },
+        {
+          "segment_id": "S00366",
+          "quote": "mình lại cố định cái random seed"
+        },
+        {
+          "segment_id": "S00368",
+          "quote": "Đúng rồi, phải khác nhau chứ."
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C7",
+      "text": "Khi tuyên bố SOTA bị đối chiếu với kết quả tốt hơn, hướng xử lý được trao đổi là bỏ/giảm tuyên bố và giải thích trung thực tiêu chí so sánh.",
+      "confidence": "thấp",
+      "confidence_reason": "Ý sửa tuyên bố rõ; các tên công trình, trị số và câu ASR quanh đó chưa chắc chắn.",
+      "evidence": [
+        {
+          "segment_id": "S00334",
+          "quote": "mình nhận SOTA nó cũng chưa đúng"
+        },
+        {
+          "segment_id": "S00338",
+          "quote": "không nhận SOTA nữa đoạn này"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C8",
+      "text": "Người báo cáo cho biết kiểm tra khác biệt cấu hình với tác giả và sửa cấu hình đã cải thiện kết quả tái lập, nhưng chưa chứng minh tái lập được mức công bố.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00126",
+          "quote": "cấu hình của tác giả"
+        },
+        {
+          "segment_id": "S00130",
+          "quote": "em có sửa lại các cái cấu hình trên thế thì kết quả em ra được tốt hơn"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N1",
+      "title": "Giải thích đóng góp theo bài toán và cơ chế",
+      "question": "Làm sao để mô hình không chỉ trông như ghép các khối có sẵn?",
+      "answer": "Làm rõ khoảng trống của bài toán/ngôn ngữ và logic từng thành phần quan trọng; nối sơ đồ với lập luận và kết quả.",
+      "context": "Phần đầu phản biện báo cáo fake news tiếng Việt và các khối multi-scale/fusion.",
+      "conditions": "Không áp nguyên cấu trúc mô hình này sang đề tài khác; cần đọc công trình thật để biết khác biệt ngôn ngữ.",
+      "claim_ids": [
+        "C1",
+        "C2"
+      ],
+      "connections": "Liên hệ góp ý slide trong Voice 009.",
+      "tags": [
+        "trình bày nghiên cứu",
+        "quy trình nghiên cứu",
+        "fake news tiếng Việt"
+      ]
+    },
+    {
+      "id": "N2",
+      "title": "Tái lập trước khi đánh giá cải tiến",
+      "question": "Cần kiểm tra gì khi kết quả chạy lại khác bài gốc?",
+      "answer": "Đối chiếu cấu hình trước và đánh giá cải tiến trên các tập được chọn, có tiêu chí tổng hợp rõ; không lấy việc tốt hơn một tập để kết luận tốt hơn toàn bộ.",
+      "context": "Báo cáo thử nghiệm âm thanh thay cấu hình, codec, encoder và nhánh tần số.",
+      "conditions": "Các số liệu trong audio chưa xác minh; bảng log và cấu hình của nghiên cứu mới là nguồn để so sánh.",
+      "claim_ids": [
+        "C3",
+        "C8"
+      ],
+      "connections": "Kết hợp N3 về thí nghiệm có kiểm soát.",
+      "tags": [
+        "thiết kế thực nghiệm",
+        "tái lập nghiên cứu",
+        "nhận dạng âm thanh"
+      ]
+    },
+    {
+      "id": "N3",
+      "title": "Ablation và độc lập của lần chạy",
+      "question": "Bằng chứng nào hỗ trợ lựa chọn thành phần và độ ổn định?",
+      "answer": "Thiết kế ablation cho các thành phần/tham số được hỏi và báo seed thực tế; không gọi các lần giữ nguyên seed là các thí nghiệm độc lập chỉ vì đã chạy lại.",
+      "context": "Phần trả lời reviewer của bài âm thanh.",
+      "conditions": "Định nghĩa biến được thay, cấu hình giữ nguyên, cách chọn checkpoint và các seed; không suy từ bản ghi một quy trình thống kê hoàn chỉnh.",
+      "claim_ids": [
+        "C4",
+        "C6"
+      ],
+      "connections": "Liên hệ ma trận thí nghiệm ở Voice 009.",
+      "tags": [
+        "thiết kế thực nghiệm",
+        "tái lập nghiên cứu"
+      ]
+    },
+    {
+      "id": "N4",
+      "title": "Tách chọn tham số khỏi đánh giá cuối và giữ đúng mức tuyên bố",
+      "question": "Cần sửa gì khi reviewer nghi ngờ phép so sánh?",
+      "answer": "Đối chiếu việc chọn tham số với tập phát triển/đánh giá, kiểm tra nguồn số liệu so sánh và điều chỉnh tuyên bố SOTA về đúng bằng chứng.",
+      "context": "Review nêu chọn lớp/siêu tham số và một kết quả cạnh tranh tốt hơn.",
+      "conditions": "Hai claim có confidence thấp vì tên tập và một số câu bị ASR làm méo; cần review gốc trước khi áp dụng chi tiết.",
+      "claim_ids": [
+        "C5",
+        "C7"
+      ],
+      "connections": "N2 về tiêu chí so sánh nhiều tập.",
+      "tags": [
+        "thước đo đánh giá",
+        "tái lập nghiên cứu",
+        "viết bài khoa học"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Tên mô hình, pretrained encoder, loss, tập LA/DF và các trị số cần đối chiếu slide hoặc bài gốc; không dùng transcript làm bảng benchmark.",
+    "Phần fake news nhắc mô hình tiếng Việt nhưng tên bị nhận dạng méo; cần nghe trước khi điền tên cụ thể.",
+    "Phần cuối về bypass và mẫu sinh thuộc một đề tài khác, quá nhiều đoạn chưa rõ để rút kết luận kỹ thuật.",
+    "Các câu đăng ký kênh/kết thúc video ở khoảng 35:01 và 39:45 có dấu hiệu hallucination; chưa có nghe xác nhận."
+  ],
+  "practice": [
+    "Tạo bảng đối chiếu cấu hình bài gốc và lần tái lập: dữ liệu, learning rate, batch size, checkpoint, seed và augmentation.",
+    "Lập ma trận câu hỏi reviewer → thí nghiệm/nguồn chứng minh → thay đổi trong bài; phân biệt kết quả đã có và cần chạy.",
+    "Rà mọi tuyên bố tốt nhất/SOTA cùng bảng so sánh, tên tập và quy trình chọn tham số trước khi sửa bản thảo."
+  ]
+}

@@ -1,0 +1,72 @@
+[00:00:00] Đây đây, em đang làm nó đang hơi không kiểm soát được ạ
+[00:00:10] Thì đề tài của em là em sẽ cố gắng sử dụng GAN trong
+[00:00:18] Em có, em viết tiếng Anh, quên chưa đổi lại
+[00:00:23] Thì em dùng GAN để tấn công SQL
+[00:00:32] bài toán thì là hiện tại là dữ liệu thì sẽ hầu hết sẽ là các dữ liệu của người dùng rất
+[00:00:38] bình thường đôi lúc mới có dữ liệu tấn công thì tỷ lệ sẽ rơi khoảng từ 100 trên 1 thì tới 1.000
+[00:00:44] trên 1 thì theo phương pháp bình thường thì mình sẽ chỉ đơn giản là lọc dữ liệu rồi chuyển nó thành
+[00:00:49] vector có thể dùng MOT để kiểu định dạng lại thì lúc này mình sẽ dùng GAN bởi vì GAN nó có thể
+[00:00:57] còn cái thằng kia nó chỉ đơn giản nội sinh nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+[00:01:06] nó chỉ học nội sinh thôi nhưng nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+[00:01:12] em mới đề xuất ra thì đây là mô hình của em ạ
+[00:01:16] thì là đầu tiên là em sẽ lấy dữ liệu là lấy dữ liệu trên Kaggle và một số cái Datap
+[00:01:24] lấy thêm dữ liệu của các cái CVE, nghĩa là người ta ghi nhận những cái tấn công
+[00:01:33] dữ liệu thì em lấy thì em cũng mới chỉ lấy khoảng 30.000
+[00:01:38] bởi vì là dữ liệu tấn công thực tế
+[00:01:40] thì khi mà em làm thì em thấy là hầu hết là nó chỉ là noise
+[00:01:45] nghĩa là nó chỉ có khả năng tấn công
+[00:01:48] lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có
+[00:01:52] Nó khá là ít. Này em mới nhận ra.
+[00:01:57] Tiếp theo trong mô hình nó sẽ có 2 thành phần.
+[00:02:01] Đầu tiên là thành phần Generate và thành phần Qua lịa và thành phần Quy tích.
+[00:02:08] Thì em có thêm vào là
+[00:02:12] Trong này là sẽ có thêm một
+[00:02:17] Thì trong này em sẽ có thêm cái mutation
+[00:02:25] Nghĩa là em sẽ cho nó biết định nghĩa về các
+[00:02:28] Cho cả hai thằng
+[00:02:30] Cái
+[00:02:31] Vậy là gây nhiễu nữa
+[00:02:32] Vâng
+[00:02:32] Không em cái này là em cũng mới tìm hiểu
+[00:02:37] Thì em đang hiểu là em sẽ cho nó biết là
+[00:02:40] bây giờ SQL Injection thì nó sẽ phải có những điều kiện tối thiểu là gì
+[00:02:44] em cho cả 2 thằng nó học luôn
+[00:02:47] còn nếu mà làm theo kiểu bình thường thì nó đang hơi loạn
+[00:02:50] sau khi mà critic thành công xong
+[00:02:54] em sẽ có thêm 1 lớp để check nữa
+[00:02:56] thì nó sẽ gồm 3 cái
+[00:02:58] đầu tiên kiểm tra xem có phải là SQL không
+[00:03:01] là cái lờ 1
+[00:03:02] tiếp theo sẽ kiểm tra xem khả năng Injection của nó
+[00:03:06] nghĩa là xem thực tế nó có khả năng tấn công không
+[00:03:09] Hiện tại là em mới chỉ cho quét qua bộ thư viện open source ở trên mạng
+[00:03:14] Còn cái số 3 là em sẽ quét xem là độ đa dạng
+[00:03:19] xem là nó có thật sự đa dạng, nó có thật sự hơn được
+[00:03:22] thay thế được SMODE không ạ
+[00:03:26] thì trong tương lai thì em sẽ thay thế thằng L2
+[00:03:29] bằng cách là em cho tấn công thực tế trên các tương lửa thông dụng
+[00:03:33] Và cái cuối cùng là các cái thước đo để xem là mô hình của em đạt những giá trị nào
+[00:03:40] Thì em cũng vận
+[00:03:44] Thì đây là kết quả
+[00:03:47] Thì nếu như mà tỷ lệ mà rất rất cân bằng như kiểu 500 trên 1 ạ
+[00:03:51] Cái cuộc ngoài cùng ạ
+[00:03:52] Thì là nó thì cái mô hình gan nó sẽ hơn được cái phương pháp cơ bản là 42%
+[00:04:01] Nhưng mà càng lên cao thì nếu mà tỷ lệ càng thấp
+[00:04:05] Thì thằng Smoth nó sẽ thắng được thằng Gan
+[00:04:09] Thì tỷ lệ đây em chọn là 100 trên 1
+[00:04:12] Em cho rằng tỷ lệ mất cân bằng đủ để mình có thể dùng phương pháp Gan
+[00:04:16] Thì đây thì hình bên phải
+[00:04:22] Thì là em cũng thử là chia ra là 4 trường hợp
+[00:04:26] Nghĩa là trong tấn công SQL sẽ có 4 trường hợp
+[00:04:29] Thì 2 trường hợp đầu tiên là Boolean và Error
+[00:04:33] Thì là cái này là dựa trên phản hồi của máy chủ
+[00:04:38] Nghĩa là nó không thực sự tấn công
+[00:04:41] Nó sẽ đợi xem phản hồi máy chủ là gì
+[00:04:43] Và từ đó họ sẽ
+[00:04:46] Mường tượng xem là hệ thống của
+[00:04:47] Mô hình là như nào
+[00:04:49] Thì nên là 2 cái đầu là nó sẽ không có
+[00:04:52] Không có đặc biệt
+[00:04:54] Bởi vì nó chỉ đơn giản là tấn công những cái
+[00:04:56] Mà mình đã biết rồi ạ
+[00:04:57] Nhưng mà 2 cái cuối cùng là sẽ

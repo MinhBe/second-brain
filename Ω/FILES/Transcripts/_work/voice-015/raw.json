@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "source": "C:\\Users\\Admin\\Documents\\Collection\\Data\\Recording\\Voice 015.m4a",
+  "source_sha256": "5f866b1fe79587979593d95803c2077d37ff0cfda66de4657e2f095fcd11c3b3",
+  "duration_s": 38.2665,
+  "config": {
+    "version": 1,
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "beam_size": 5,
+    "denoise": false,
+    "language": "vi",
+    "prompt": "",
+    "chunk_seconds": 600,
+    "limit_seconds": null,
+    "vad_filter": true,
+    "vad_parameters": {
+      "min_silence_duration_ms": 500,
+      "speech_pad_ms": 200
+    },
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "temperature": [
+      0,
+      0.2,
+      0.4
+    ],
+    "best_of": 5,
+    "faster_whisper": "1.2.1",
+    "ctranslate2": "4.7.2"
+  },
+  "run_key": "6355ce3ae8c6c014fbc1ab6bfcc1e695cc0edb9648e7abb9cda2cb5518e83d02",
+  "status": "asr_complete",
+  "created": "2026-09-08T16:46:42.202386+00:00",
+  "processing_s": 19.24491459998535,
+  "segments": [
+    {
+      "id": "S00001",
+      "seek": 0,
+      "start": 0.09,
+      "end": 4.62,
+      "text": "Học đợi đợi tí. Học tiền một tí nhé. Đợi anh ngồi tí nhé. Ok ok.",
+      "avg_logprob": -0.5230468556284904,
+      "compression_ratio": 1.1733333333333333,
+      "no_speech_prob": 0.1727294921875,
+      "words": [
+        {
+          "start": 0.09,
+          "end": 0.43,
+          "word": " Học",
+          "probability": 0.6925455729166666
+        },
+        {
+          "start": 0.43,
+          "end": 0.65,
+          "word": " đợi",
+          "probability": 0.6082356770833334
+        },
+        {
+          "start": 0.65,
+          "end": 0.77,
+          "word": " đợi",
+          "probability": 0.7087809244791666
+        },
+        {
+          "start": 0.77,
+          "end": 0.97,
+          "word": " tí.",
+          "probability": 0.781005859375
+        },
+        {
+          "start": 0.99,
+          "end": 1.21,
+          "word": " Học",
+          "probability": 0.8719075520833334
+        },
+        {
+          "start": 1.21,
+          "end": 1.33,
+          "word": " tiền",
+          "probability": 0.595703125
+        },
+        {
+          "start": 1.33,
+          "end": 1.43,
+          "word": " một",
+          "probability": 0.09490966796875
+        },
+        {
+          "start": 1.43,
+          "end": 1.59,
+          "word": " tí",
+          "probability": 0.73193359375
+        },
+        {
+          "start": 1.59,
+          "end": 1.73,
+          "word": " nhé.",
+          "probability": 0.743896484375
+        },
+        {
+          "start": 1.73,
+          "end": 1.97,
+          "word": " Đợi",
+          "probability": 0.7425130208333334
+        },
+        {
+          "start": 1.97,
+          "end": 2.03,
+          "word": " anh",
+          "probability": 0.91943359375
+        },
+        {
+          "start": 2.03,
+          "end": 2.11,
+          "word": " ngồi",
+          "probability": 0.825927734375
+        },
+        {
+          "start": 2.11,
+          "end": 2.27,
+          "word": " tí",
+          "probability": 0.947998046875
+        },
+        {
+          "start": 2.27,
+          "end": 2.37,
+          "word": " nhé.",
+          "probability": 0.90234375
+        },
+        {
+          "start": 4.04,
+          "end": 4.36,
+          "word": " Ok",
+          "probability": 0.71923828125
+        },
+        {
+          "start": 4.36,
+          "end": 4.62,
+          "word": " ok.",
+          "probability": 0.650390625
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "418006afc9a1aa27b88b2f744077f1c0933c906abc0b144cf6164d42310b23f9"
+}

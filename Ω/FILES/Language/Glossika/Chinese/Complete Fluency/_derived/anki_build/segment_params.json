@@ -1,0 +1,3664 @@
+[
+  {
+    "volume": 1,
+    "group_start": 1,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 1,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 153,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 153,
+        "speech_intervals": 154,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 51,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 51,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 101,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 101,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 151,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 151,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 156,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 156,
+        "speech_intervals": 157,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 201,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 201,
+    "version": "A",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 201,
+    "version": "B",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 103,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 103,
+        "speech_intervals": 104,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 251,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 251,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 153,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 153,
+        "speech_intervals": 154,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 301,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 301,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 351,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 351,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 157,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 157,
+        "speech_intervals": 156,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 401,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 401,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 159,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 159,
+        "speech_intervals": 160,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 451,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 57,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 57,
+        "speech_intervals": 58,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 451,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.8,
+    "silences": 160,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 177,
+        "speech_intervals": 178,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 197,
+        "speech_intervals": 197,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 160,
+        "speech_intervals": 161,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 501,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 501,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 154,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 154,
+        "speech_intervals": 155,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 551,
+    "version": "C",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 15,
+        "speech_intervals": 16,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 23,
+        "speech_intervals": 24,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 12,
+        "speech_intervals": 13,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 9,
+        "speech_intervals": 10,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 4,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 2.0,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.6,
+        "silences": 16,
+        "speech_intervals": 17,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.4,
+        "silences": 23,
+        "speech_intervals": 24,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.8,
+        "silences": 12,
+        "speech_intervals": 13,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.0,
+        "silences": 9,
+        "speech_intervals": 10,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 4,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 2.0,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.6,
+        "silences": 15,
+        "speech_intervals": 16,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.4,
+        "silences": 22,
+        "speech_intervals": 23,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.8,
+        "silences": 12,
+        "speech_intervals": 13,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.0,
+        "silences": 9,
+        "speech_intervals": 10,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 4,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 2.0,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.6,
+        "silences": 17,
+        "speech_intervals": 18,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.4,
+        "silences": 24,
+        "speech_intervals": 25,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.8,
+        "silences": 12,
+        "speech_intervals": 13,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.0,
+        "silences": 10,
+        "speech_intervals": 11,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 4,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 2.0,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.6,
+        "silences": 15,
+        "speech_intervals": 16,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.4,
+        "silences": 22,
+        "speech_intervals": 23,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.8,
+        "silences": 12,
+        "speech_intervals": 13,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.0,
+        "silences": 9,
+        "speech_intervals": 10,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 4,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 2.0,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 551,
+    "version": "B_ZH_FALLBACK",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 110,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 110,
+        "speech_intervals": 111,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 551,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 161,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 161,
+        "speech_intervals": 162,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 601,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 601,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 651,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 651,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 701,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 701,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 751,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 751,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 169,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 169,
+        "speech_intervals": 169,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 801,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 801,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 153,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 153,
+        "speech_intervals": 154,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 851,
+    "version": "C",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 851,
+    "version": "B_ZH_FALLBACK",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 108,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 108,
+        "speech_intervals": 109,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 851,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 157,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 157,
+        "speech_intervals": 158,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 901,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 54,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 54,
+        "speech_intervals": 55,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 901,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 165,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 165,
+        "speech_intervals": 166,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 951,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 1,
+    "group_start": 951,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1001,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1001,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 155,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 155,
+        "speech_intervals": 156,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1051,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1051,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 163,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 163,
+        "speech_intervals": 164,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1101,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1101,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1151,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1151,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 154,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 154,
+        "speech_intervals": 155,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1201,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1201,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 159,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 159,
+        "speech_intervals": 158,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1251,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 54,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1251,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 157,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 157,
+        "speech_intervals": 158,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1301,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1301,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 160,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 160,
+        "speech_intervals": 161,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1351,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 56,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 56,
+        "speech_intervals": 57,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1351,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.8,
+    "silences": 160,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 176,
+        "speech_intervals": 177,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 208,
+        "speech_intervals": 208,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 160,
+        "speech_intervals": 161,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1401,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1401,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 156,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 156,
+        "speech_intervals": 157,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1451,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1451,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 157,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 157,
+        "speech_intervals": 158,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1501,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1501,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 161,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 161,
+        "speech_intervals": 162,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1551,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 54,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1551,
+    "version": "A",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "error": "1"
+      }
+    ],
+    "error": "duration_or_silence_detection_failed"
+  },
+  {
+    "volume": 2,
+    "group_start": 1551,
+    "version": "B",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 115,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 115,
+        "speech_intervals": 114,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1601,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1601,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 168,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 168,
+        "speech_intervals": 169,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1651,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1651,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 167,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 167,
+        "speech_intervals": 168,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1701,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1701,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 157,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 157,
+        "speech_intervals": 158,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1751,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1751,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 165,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 165,
+        "speech_intervals": 166,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1801,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 54,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1801,
+    "version": "A",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.2,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.5,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.6,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.4,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.8,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.0,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.2,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.6,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.4,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.8,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.0,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.2,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.5,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.6,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.4,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.8,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.0,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.2,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.5,
+        "silences": 3,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.6,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.4,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.8,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.0,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.2,
+        "silences": 7,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.5,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 1,
+        "matched": false
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1801,
+    "version": "B",
+    "noise": "-35dB",
+    "duration": 1.0,
+    "silences": 113,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 144,
+        "speech_intervals": 145,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 165,
+        "speech_intervals": 165,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 129,
+        "speech_intervals": 130,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 113,
+        "speech_intervals": 114,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1851,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1851,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.8,
+    "silences": 168,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 178,
+        "speech_intervals": 179,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 210,
+        "speech_intervals": 210,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 168,
+        "speech_intervals": 169,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1901,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 59,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 59,
+        "speech_intervals": 60,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1901,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 1.0,
+    "silences": 155,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 189,
+        "speech_intervals": 190,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 216,
+        "speech_intervals": 216,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 170,
+        "speech_intervals": 171,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 155,
+        "speech_intervals": 156,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1951,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 2,
+    "group_start": 1951,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 159,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 159,
+        "speech_intervals": 160,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2001,
+    "version": "C",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 6,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 10,
+        "speech_intervals": 11,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.5,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 2,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.6,
+        "silences": 6,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.4,
+        "silences": 10,
+        "speech_intervals": 11,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.8,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.0,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.5,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 2,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.6,
+        "silences": 6,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.4,
+        "silences": 10,
+        "speech_intervals": 11,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.8,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.0,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.5,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 2,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.6,
+        "silences": 6,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.4,
+        "silences": 10,
+        "speech_intervals": 11,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.8,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.0,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.5,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 2,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.6,
+        "silences": 6,
+        "speech_intervals": 7,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.4,
+        "silences": 10,
+        "speech_intervals": 11,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.8,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.0,
+        "silences": 5,
+        "speech_intervals": 6,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.2,
+        "silences": 4,
+        "speech_intervals": 5,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.5,
+        "silences": 2,
+        "speech_intervals": 3,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 2.0,
+        "silences": 1,
+        "speech_intervals": 2,
+        "matched": false
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2001,
+    "version": "B_ZH_FALLBACK",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 110,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 110,
+        "speech_intervals": 111,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2001,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 163,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 163,
+        "speech_intervals": 162,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2051,
+    "version": "C",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-35dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-30dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-40dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-25dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.6,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.4,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 0.8,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.2,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 1.5,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      },
+      {
+        "noise": "-45dB",
+        "duration": 2.0,
+        "silences": 0,
+        "speech_intervals": 1,
+        "matched": false
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2051,
+    "version": "B_ZH_FALLBACK",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 109,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 109,
+        "speech_intervals": 110,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2051,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 159,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 159,
+        "speech_intervals": 160,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2101,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2101,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 151,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 151,
+        "speech_intervals": 152,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2151,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 54,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2151,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 155,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 155,
+        "speech_intervals": 156,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2201,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2201,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 153,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 153,
+        "speech_intervals": 154,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2251,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2251,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 151,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 151,
+        "speech_intervals": 152,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2301,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2301,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 153,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 153,
+        "speech_intervals": 154,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2351,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2351,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2401,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2401,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 154,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 154,
+        "speech_intervals": 155,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2451,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 54,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2451,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 160,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 160,
+        "speech_intervals": 161,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2501,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2501,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 151,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 151,
+        "speech_intervals": 152,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2551,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2551,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2601,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2601,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2651,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2651,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 157,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 157,
+        "speech_intervals": 158,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2701,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2701,
+    "version": "A",
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "error": "1"
+      }
+    ],
+    "error": "duration_or_silence_detection_failed"
+  },
+  {
+    "volume": 3,
+    "group_start": 2701,
+    "version": "B",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 105,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 105,
+        "speech_intervals": 106,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2751,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 52,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 52,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2751,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 156,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 156,
+        "speech_intervals": 155,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2801,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2801,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 154,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 154,
+        "speech_intervals": 155,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2851,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2851,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2901,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 51,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 51,
+        "speech_intervals": 52,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2901,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 152,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 152,
+        "speech_intervals": 153,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2951,
+    "version": "C",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 53,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 53,
+        "speech_intervals": 53,
+        "matched": true
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "group_start": 2951,
+    "version": "A",
+    "noise": "-35dB",
+    "duration": 0.6,
+    "silences": 155,
+    "attempts": [
+      {
+        "noise": "-35dB",
+        "duration": 0.6,
+        "silences": 155,
+        "speech_intervals": 154,
+        "matched": true
+      }
+    ]
+  }
+]

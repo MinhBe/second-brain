@@ -1,0 +1,227 @@
+1
+00:00:00,600 --> 00:00:15,800
+Đây, em đang làm, nó đang hơi không kiểm soát được, thì em cũng đề tài của em là em sẽ cố gắng sử dụng GAN trong...
+
+2
+00:00:18,000 --> 00:00:29,390
+Vâng, em có, nên em biết tiếng Anh, tại vì em quên chân đổi đã, thì em dùng GAN để tấn công SQL.
+
+3
+00:00:29,390 --> 00:00:31,110
+Thì đây là mục tiêu
+
+4
+00:00:31,110 --> 00:00:33,710
+Thì là, này anh ơi là bài toán
+
+5
+00:00:33,710 --> 00:00:35,650
+Thì là hiện tại là
+
+6
+00:00:35,860 --> 00:00:37,860
+Giữ liệu thì sẽ hầu hết sẽ là
+
+7
+00:00:37,860 --> 00:00:39,420
+Các giữ liệu của người dùng rất bình thường
+
+8
+00:00:39,420 --> 00:00:41,400
+Đôi lúc mới có giữ liệu tấn công ấy
+
+9
+00:00:41,400 --> 00:00:43,860
+Thì tỷ lệ sẽ rơi khoảng từ 100 trên 1
+
+10
+00:00:43,860 --> 00:00:45,400
+Thì tới 1000 trên 1
+
+11
+00:00:45,400 --> 00:00:48,220
+Thì theo phương pháp bình thường thì mình sẽ chỉ đơn giản là
+
+12
+00:00:48,220 --> 00:00:49,480
+Lọc giữ liệu rồi
+
+13
+00:00:49,480 --> 00:00:51,340
+Chuyển hoàn thành vector có thể dùng
+
+14
+00:00:52,060 --> 00:00:54,180
+MOT, SMOT để kiểu
+
+15
+00:00:54,510 --> 00:00:55,830
+Định dạng lại thì lúc này
+
+16
+00:00:55,830 --> 00:00:58,450
+Mình sẽ dùng GAN bởi vì GAN nó có thể học
+
+17
+00:00:58,880 --> 00:01:06,450
+Còn cái thằng kia nó chỉ đơn giản nội sinh, nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+
+18
+00:01:06,450 --> 00:01:12,470
+Nó chỉ học nội sinh thôi, nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+
+19
+00:01:13,060 --> 00:01:17,070
+Thế em mới đề xuất ra, thì đây là mô hình của em ạ
+
+20
+00:01:17,250 --> 00:01:23,330
+Thì là đầu tiên là em sẽ lấy dữ liệu, là lấy dữ liệu trên cargo và một số cái data
+
+21
+00:01:23,700 --> 00:01:29,340
+Lấy thêm dữ liệu của các cái CVR, nghĩa là những người ta ghi nhận những cái tần công
+
+22
+00:01:33,360 --> 00:01:40,620
+Vâng, dữ liệu thì em lấy, em cũng chỉ lấy khoảng 30.000vnd bởi vì dữ liệu tấn công thực tế
+
+23
+00:01:40,860 --> 00:01:48,710
+Khi mà em làm thì em thấy là hầu hết là nó chỉ là noise, nghĩa là nó chỉ có khả năng tấn công
+
+24
+00:01:48,710 --> 00:01:56,220
+Thứ nhất là lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có, nó khá là ít, này em mới nhận ra
+
+25
+00:01:56,550 --> 00:02:01,670
+Thì còn tiếp theo là em sẽ cho mô hình nó sẽ có hai thành phần
+
+26
+00:02:01,670 --> 00:02:08,960
+Đầu tiên là thành phần Generate và thành phần Quality và thành phần Featix
+
+27
+00:02:09,840 --> 00:02:16,220
+Thì em có thêm vào là trong này là sẽ có thêm một
+
+28
+00:02:21,100 --> 00:02:25,600
+Thì trong này vần này em sẽ có thêm cái Mutation
+
+29
+00:02:25,600 --> 00:02:30,660
+Nghĩa là em sẽ cho nó biết định nghĩa về các cho cả hai thằng
+
+30
+00:02:33,050 --> 00:02:37,290
+Cái này là em cũng mới tìm hiểu
+
+31
+00:02:37,290 --> 00:02:41,010
+Thì em đang hiểu là em sẽ cho nó biết là
+
+32
+00:02:41,010 --> 00:02:45,110
+Bây giờ SQN Action thì nó sẽ phải có những điều kiện tối thiểu là gì
+
+33
+00:02:45,110 --> 00:02:47,690
+Em cho cả hai thằng nó học luôn
+
+34
+00:02:48,060 --> 00:02:50,860
+Còn nếu mà làm theo cách bình thường thì nó đang hơi loạn
+
+35
+00:02:50,860 --> 00:02:57,380
+Sau khi mà critic thành công xong em sẽ có thêm một lớp để check nữa
+
+36
+00:02:57,380 --> 00:02:58,940
+Thì nó sẽ gồm 3 cái
+
+37
+00:02:58,940 --> 00:03:02,520
+Đầu tiên là kiểm tra xem có phải là SQL không là cái L1
+
+38
+00:03:02,790 --> 00:03:07,110
+Tiếp theo là sẽ kiểm tra xem là khả năng injection của nó
+
+39
+00:03:07,110 --> 00:03:09,570
+nghĩa là xem là thực tế nó có khả năng tấn công không
+
+40
+00:03:09,780 --> 00:03:13,720
+Hiện tại là em mới chỉ cho quét qua bộ thư viện
+
+41
+00:03:13,720 --> 00:03:15,040
+open-source ở trên mạng
+
+42
+00:03:15,830 --> 00:03:19,910
+Còn cái số 3 là em sẽ quét xem là độ đa dạng
+
+43
+00:03:19,910 --> 00:03:23,130
+xem là nó có thật sự đa dạng như là nó có thật sự hơn được
+
+44
+00:03:23,440 --> 00:03:26,700
+Thay thế được m... thay được hàng smooth luôn ạ
+
+45
+00:03:26,700 --> 00:03:35,380
+Thì trong tương lai thì em sẽ thay thế cái thằng L2 bằng cách em cho tấn công thực tế trên các tương lửa thông dụng ạ.
+
+46
+00:03:35,580 --> 00:03:41,240
+Và cái cuối cùng là các cái thước đo để xem là mô hình của em đạt những gà trị nào.
+
+47
+00:03:44,280 --> 00:03:53,000
+Thì đây là kết quả, nếu như mà tỷ lệ mà rất rất cân bằng như 500 trên 1 ạ, cái cỗ ngoài cùng ạ.
+
+48
+00:03:53,000 --> 00:04:02,520
+Thì là nó thì cái môi xét gan nó sẽ hơn được cái phương pháp cơ bản là 42%
+
+49
+00:04:02,520 --> 00:04:09,900
+Nhưng mà càng lên cao thì nếu mà tỷ lệ càng thấp thì thằng 1 nó sẽ thắng được thằng gan
+
+50
+00:04:09,900 --> 00:04:12,680
+Thì tỷ lệ đây em chọn là 100%
+
+51
+00:04:12,680 --> 00:04:17,080
+Em cho rằng tỷ lệ mất cân bằng đủ để mình có thể dùng phương pháp gan
+
+52
+00:04:21,870 --> 00:04:30,050
+Nhờ hình bên phải, em cũng thử chia ra 4 trường hợp, trong tấn công SQL sẽ có 4 trường hợp.
+
+53
+00:04:30,740 --> 00:04:39,320
+2 trường hợp đầu tiên là Boolean và Error. Cái này là dựa trên phản hồi của máy chủ.
+
+54
+00:04:40,180 --> 00:04:49,610
+Nó không thực sự tấn công, nó sẽ đợi xem phản hồi máy chủ và từ đó họ sẽ mường tượng xem hệ thống của môi nhà như thế nào.
+
+55
+00:04:49,820 --> 00:04:54,600
+thì nên là hai cái đầu nó sẽ không có đặc biệt
+
+56
+00:04:54,600 --> 00:04:57,740
+bởi vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi ạ
+
+57
+00:04:57,940 --> 00:04:59,980
+nhưng mà hai cái cuối cùng là sẽ...

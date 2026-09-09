@@ -1,0 +1,189 @@
+{
+  "created": "2026-09-09",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Các mức mất cân bằng nhẹ/trung bình/cao trong báo cáo là cách tự phân loại của người trình bày; được yêu cầu tìm căn cứ từ công trình trước.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00044",
+          "quote": "nhẹ trung bình cao là em tự phân loại"
+        },
+        {
+          "segment_id": "S00046",
+          "quote": "Em tự phân loại"
+        },
+        {
+          "segment_id": "S00055",
+          "quote": "Các em có bài báo nào đang chia như thế này không?"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C2",
+      "text": "Tên chỉ số và ký hiệu Delta Recall cần được giải thích nhất quán; người nghe đã phải hỏi lại định nghĩa phép đo.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00062",
+          "quote": "và cuối cùng là tính Recall"
+        },
+        {
+          "segment_id": "S00066",
+          "quote": "Delta Recon là gì? Mọi người biết không?"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C3",
+      "text": "Mỗi cải tiến cần có thử nghiệm so sánh với bản cũ và thể hiện kết quả trước/sau; chỉ nêu tên cấu hình tổng hợp chưa giúp người nghe thấy đóng góp.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00286",
+          "quote": "cải tiến thứ nhất thì có thử và ra kết quả nó hơn so với phía cũ không?"
+        },
+        {
+          "segment_id": "S00287",
+          "quote": "Cải tiến thứ 2 thì có thử và ra kết quả nó hơn so với phía cũ không?"
+        },
+        {
+          "segment_id": "S00300",
+          "quote": "Trước cải thiện như thế này và sau cải thiện kết quả như thế nào."
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C4",
+      "text": "Báo cáo phải trình bày nền tảng và phần chính rõ trước khi đi vào cải tiến; lần sửa slide được nhận xét là chưa phản ánh đủ góp ý trước.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00327",
+          "quote": "Slide này cũng chưa phản ánh được cái góp ý lần trước."
+        },
+        {
+          "segment_id": "S00342",
+          "quote": "Mình trình bày cái mặt chính luôn, tốt đi đã."
+        },
+        {
+          "segment_id": "S00345",
+          "quote": "Tại sao dùng gan để xin dữ liệu?"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C5",
+      "text": "Trong thử nghiệm đang báo cáo, không có database để xác nhận khai thác thành công; HTTP 200 có thể là qua bộ lọc hoặc chỉ là dữ liệu nhiễu, sau đó mới xem cấu trúc payload.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00381",
+          "quote": "trong chính cái kịch bản của em ạ, nó cũng không có database"
+        },
+        {
+          "segment_id": "S00381",
+          "quote": "nếu như trả về kết quả 200 thì em sẽ biết là một là nó đã vượt qua hoặc là noise"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C6",
+      "text": "Người trình bày thừa nhận phần triển khai thực tế phức tạp và lệch mục tiêu nên đã thu nhỏ phạm vi; cần viết rõ giới hạn này trong cả báo cáo và slide.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00409",
+          "quote": "Trong lúc triển khai thì phải tự nhiên nó phức tạp hơi nhiều so với mục tiêu ban đầu"
+        },
+        {
+          "segment_id": "S00410",
+          "quote": "Và cảm giác nó hơi lệch nên là mới thu nhỏ xuống"
+        },
+        {
+          "segment_id": "S00414",
+          "quote": "Mình về trình bày lại cho rõ trong văn lẫn, trong slide nhé"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N1",
+      "title": "Định nghĩa quy ước và thước đo trước khi đưa kết quả",
+      "question": "Điều gì phải rõ trước khi so sánh các tỷ lệ và bảng số liệu?",
+      "answer": "Nêu căn cứ của cách chia mức mất cân bằng và định nghĩa chỉ số, đặc biệt dấu và mốc so sánh của Delta Recall.",
+      "context": "Người nghe hỏi lại cả quy ước nhẹ/trung bình/cao lẫn ký hiệu đánh giá.",
+      "conditions": "Cách tính Delta Recall trong ASR chưa rõ chiều trừ; không tự sửa hoặc suy công thức.",
+      "claim_ids": [
+        "C1",
+        "C2"
+      ],
+      "connections": "Bản thầy Lâm N2 về công thức diversity.",
+      "tags": [
+        "thước đo đánh giá",
+        "thiết kế thực nghiệm"
+      ]
+    },
+    {
+      "id": "N2",
+      "title": "Chứng minh thay đổi thay vì liệt kê tên cải tiến",
+      "question": "Làm sao người nghe thấy được phần đóng góp?",
+      "answer": "Đưa từng thay đổi vào mô hình và đối chiếu trước/sau bằng thử nghiệm; giải thích mô hình gốc trước phần cải tiến.",
+      "context": "Các mã cấu hình trên slide chưa giúp người nghe hiểu phần được sửa.",
+      "conditions": "Cần bảng thí nghiệm gốc và sơ đồ đúng với mã; không suy hiệu quả từ tên kịch bản.",
+      "claim_ids": [
+        "C3",
+        "C4"
+      ],
+      "connections": "Voice 011 N3 về ablation; Voice 009 N3 về thứ tự chứng minh.",
+      "tags": [
+        "thiết kế thực nghiệm",
+        "trình bày nghiên cứu"
+      ]
+    },
+    {
+      "id": "N3",
+      "title": "Giới hạn kết luận từ phản hồi WAF",
+      "question": "Kết quả HTTP 200 trong thử nghiệm này chứng minh được gì?",
+      "answer": "Nó chưa chứng minh khai thác SQL injection thành công: môi trường được mô tả chỉ có bộ lọc, có thể cho dữ liệu nhiễu đi qua và không có database để kiểm chứng tác động.",
+      "context": "Phần hỏi đáp làm rõ khác biệt giữa qua ruleset, có cấu trúc SQL và tấn công thực tế.",
+      "conditions": "Giới hạn này áp dụng cho thử nghiệm đang được mô tả; không khái quát mọi hệ WAF. Đây là nhận định về phạm vi bằng chứng, không hướng dẫn khai thác.",
+      "claim_ids": [
+        "C5",
+        "C6"
+      ],
+      "connections": "Liên hệ Voice 009 N4 về kết quả phải hỗ trợ đúng tuyên bố.",
+      "tags": [
+        "thước đo đánh giá",
+        "GAN và SQL injection",
+        "giới hạn nghiên cứu"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Các mã DV7/DV8 và nhóm Union/Boolean xuất hiện không nhất quán; cần bảng gốc trước khi xác định cấu hình thắng.",
+    "Phần chọn vùng giữa có câu 'bỏ 25% đầu và 75% cuối' nhưng lại nói giữ 50%; giữ nguyên nghi vấn và đối chiếu quy tắc lấy mẫu thực tế.",
+    "Các tỷ lệ 70%/3%, số mẫu và tên bộ lọc/ruleset cần xác nhận; không dùng như thống kê đã kiểm chứng.",
+    "Cần xác định Delta Recall là sau trừ trước hay trước trừ sau, bộ phát hiện và tập đánh giá cố định là gì.",
+    "Các câu quảng cáo/kết thúc quanh đầu file và 24–26 phút có dấu hiệu hallucination; phần đầu gần ba phút chưa nhận dạng được đáng tin cậy."
+  ],
+  "practice": [
+    "Tạo bảng thuật ngữ/chỉ số có định nghĩa và công thức, kèm nguồn hoặc ghi rõ đây là quy ước tự chọn.",
+    "Vẽ lại mô hình gốc và đánh dấu từng phần thay đổi, nối mỗi thay đổi với một dòng kết quả ablation.",
+    "Viết mục giới hạn thực nghiệm, phân biệt qua bộ lọc, cấu trúc hợp lệ và khai thác thành công; sửa mọi tuyên bố vượt quá phép thử hiện có."
+  ]
+}

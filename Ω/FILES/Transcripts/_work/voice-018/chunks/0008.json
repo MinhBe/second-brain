@@ -1,0 +1,415 @@
+{
+  "run_key": "b7316f102a59259aa2bec7bf6cc0f3cf4eb4a2d71c3ba571945e0bf9fd774484",
+  "start": 4800,
+  "end": 4819.9981875,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4800.01,
+      "end": 4802.49,
+      "text": "là cái câu lệnh dài của mày, nó gặp thì nó chặn đúng không?",
+      "avg_logprob": -0.33833662449844243,
+      "compression_ratio": 1.5228215767634854,
+      "no_speech_prob": 0.371826171875,
+      "words": [
+        {
+          "start": 4800.01,
+          "end": 4800.09,
+          "word": " là",
+          "probability": 0.98193359375
+        },
+        {
+          "start": 4800.09,
+          "end": 4800.19,
+          "word": " cái",
+          "probability": 0.51904296875
+        },
+        {
+          "start": 4800.19,
+          "end": 4800.41,
+          "word": " câu",
+          "probability": 0.984130859375
+        },
+        {
+          "start": 4800.41,
+          "end": 4800.59,
+          "word": " lệnh",
+          "probability": 0.9954427083333334
+        },
+        {
+          "start": 4800.59,
+          "end": 4800.79,
+          "word": " dài",
+          "probability": 0.937744140625
+        },
+        {
+          "start": 4800.79,
+          "end": 4800.89,
+          "word": " của",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 4800.89,
+          "end": 4801.09,
+          "word": " mày,",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 4801.21,
+          "end": 4801.57,
+          "word": " nó",
+          "probability": 0.7802734375
+        },
+        {
+          "start": 4801.57,
+          "end": 4801.89,
+          "word": " gặp",
+          "probability": 0.9947916666666666
+        },
+        {
+          "start": 4801.89,
+          "end": 4801.95,
+          "word": " thì",
+          "probability": 0.93359375
+        },
+        {
+          "start": 4801.95,
+          "end": 4802.07,
+          "word": " nó",
+          "probability": 0.97998046875
+        },
+        {
+          "start": 4802.07,
+          "end": 4802.29,
+          "word": " chặn",
+          "probability": 0.9415690104166666
+        },
+        {
+          "start": 4802.29,
+          "end": 4802.43,
+          "word": " đúng",
+          "probability": 0.949951171875
+        },
+        {
+          "start": 4802.43,
+          "end": 4802.49,
+          "word": " không?",
+          "probability": 0.93359375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4803.19,
+      "end": 4806.73,
+      "text": "Nhưng mà bên này nó cũng là câu lệnh dài ngắn thôi, nhưng mà nó gặp thì nó vẫn chặn.",
+      "avg_logprob": -0.33833662449844243,
+      "compression_ratio": 1.5228215767634854,
+      "no_speech_prob": 0.371826171875,
+      "words": [
+        {
+          "start": 4803.19,
+          "end": 4803.51,
+          "word": " Nhưng",
+          "probability": 0.982177734375
+        },
+        {
+          "start": 4803.51,
+          "end": 4803.55,
+          "word": " mà",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 4803.55,
+          "end": 4803.71,
+          "word": " bên",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 4803.71,
+          "end": 4803.89,
+          "word": " này",
+          "probability": 0.9931640625
+        },
+        {
+          "start": 4803.89,
+          "end": 4804.01,
+          "word": " nó",
+          "probability": 0.8564453125
+        },
+        {
+          "start": 4804.01,
+          "end": 4804.13,
+          "word": " cũng",
+          "probability": 0.89306640625
+        },
+        {
+          "start": 4804.13,
+          "end": 4804.45,
+          "word": " là",
+          "probability": 0.94189453125
+        },
+        {
+          "start": 4804.45,
+          "end": 4804.67,
+          "word": " câu",
+          "probability": 0.948486328125
+        },
+        {
+          "start": 4804.67,
+          "end": 4804.89,
+          "word": " lệnh",
+          "probability": 0.8701171875
+        },
+        {
+          "start": 4804.89,
+          "end": 4805.03,
+          "word": " dài",
+          "probability": 0.744140625
+        },
+        {
+          "start": 4805.03,
+          "end": 4805.33,
+          "word": " ngắn",
+          "probability": 0.736328125
+        },
+        {
+          "start": 4805.33,
+          "end": 4805.53,
+          "word": " thôi,",
+          "probability": 0.97509765625
+        },
+        {
+          "start": 4805.59,
+          "end": 4805.69,
+          "word": " nhưng",
+          "probability": 0.888671875
+        },
+        {
+          "start": 4805.69,
+          "end": 4805.79,
+          "word": " mà",
+          "probability": 0.9228515625
+        },
+        {
+          "start": 4805.79,
+          "end": 4805.83,
+          "word": " nó",
+          "probability": 0.66162109375
+        },
+        {
+          "start": 4805.83,
+          "end": 4806.01,
+          "word": " gặp",
+          "probability": 0.9928385416666666
+        },
+        {
+          "start": 4806.01,
+          "end": 4806.09,
+          "word": " thì",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 4806.09,
+          "end": 4806.21,
+          "word": " nó",
+          "probability": 0.98046875
+        },
+        {
+          "start": 4806.21,
+          "end": 4806.33,
+          "word": " vẫn",
+          "probability": 0.9921875
+        },
+        {
+          "start": 4806.33,
+          "end": 4806.73,
+          "word": " chặn.",
+          "probability": 0.876953125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4807.07,
+      "end": 4809.83,
+      "text": "Kể cả thằng kia không khuyên truyền câu lệnh dài của mày.",
+      "avg_logprob": -0.33833662449844243,
+      "compression_ratio": 1.5228215767634854,
+      "no_speech_prob": 0.371826171875,
+      "words": [
+        {
+          "start": 4807.07,
+          "end": 4807.39,
+          "word": " Kể",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 4807.39,
+          "end": 4807.51,
+          "word": " cả",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 4807.51,
+          "end": 4808.21,
+          "word": " thằng",
+          "probability": 0.86572265625
+        },
+        {
+          "start": 4808.21,
+          "end": 4808.41,
+          "word": " kia",
+          "probability": 0.917724609375
+        },
+        {
+          "start": 4808.41,
+          "end": 4808.49,
+          "word": " không",
+          "probability": 0.53955078125
+        },
+        {
+          "start": 4808.49,
+          "end": 4808.73,
+          "word": " khuyên",
+          "probability": 0.9401041666666666
+        },
+        {
+          "start": 4808.73,
+          "end": 4809.01,
+          "word": " truyền",
+          "probability": 0.9329427083333334
+        },
+        {
+          "start": 4809.01,
+          "end": 4809.21,
+          "word": " câu",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 4809.21,
+          "end": 4809.39,
+          "word": " lệnh",
+          "probability": 0.9982096354166666
+        },
+        {
+          "start": 4809.39,
+          "end": 4809.55,
+          "word": " dài",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 4809.55,
+          "end": 4809.63,
+          "word": " của",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 4809.63,
+          "end": 4809.83,
+          "word": " mày.",
+          "probability": 0.998046875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 4810.69,
+      "end": 4813.74,
+      "text": "Nó hiểu cái buổi. Về học đi.",
+      "avg_logprob": -0.33833662449844243,
+      "compression_ratio": 1.5228215767634854,
+      "no_speech_prob": 0.371826171875,
+      "words": [
+        {
+          "start": 4810.69,
+          "end": 4811.01,
+          "word": " Nó",
+          "probability": 0.3380126953125
+        },
+        {
+          "start": 4812.08,
+          "end": 4812.3,
+          "word": " hiểu",
+          "probability": 0.57305908203125
+        },
+        {
+          "start": 4812.3,
+          "end": 4812.42,
+          "word": " cái",
+          "probability": 0.2705078125
+        },
+        {
+          "start": 4812.42,
+          "end": 4812.62,
+          "word": " buổi.",
+          "probability": 0.81787109375
+        },
+        {
+          "start": 4813.18,
+          "end": 4813.5,
+          "word": " Về",
+          "probability": 0.6060791015625
+        },
+        {
+          "start": 4813.5,
+          "end": 4813.6,
+          "word": " học",
+          "probability": 0.70361328125
+        },
+        {
+          "start": 4813.6,
+          "end": 4813.74,
+          "word": " đi.",
+          "probability": 0.98828125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 4813.98,
+      "end": 4817.12,
+      "text": "Vâng. Nhờ anh ạ.",
+      "avg_logprob": -0.33833662449844243,
+      "compression_ratio": 1.5228215767634854,
+      "no_speech_prob": 0.371826171875,
+      "words": [
+        {
+          "start": 4813.98,
+          "end": 4814.3,
+          "word": " Vâng.",
+          "probability": 0.7179361979166666
+        },
+        {
+          "start": 4816.56,
+          "end": 4816.88,
+          "word": " Nhờ",
+          "probability": 0.5345458984375
+        },
+        {
+          "start": 4816.88,
+          "end": 4817.02,
+          "word": " anh",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 4817.02,
+          "end": 4817.12,
+          "word": " ạ.",
+          "probability": 0.933349609375
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "08220943434717a7a3dfdc78671d0e38b373ba5e72d34d5b0d05ef6158f62d86"
+}
