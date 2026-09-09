@@ -1,0 +1,331 @@
+1
+00:00:00,600 --> 00:00:09,120
+Đây đây, em đang làm nó đang hơi không kiểm soát được
+
+2
+00:00:09,120 --> 00:00:14,240
+Thì đề tài của em là em sẽ cố gắng sử dụng GAN trong
+
+3
+00:00:16,320 --> 00:00:18,320
+Là tên, tên tổng toán anh ạ?
+
+4
+00:00:18,360 --> 00:00:23,100
+À vâng, em có, em viết tiếng Anh, quên chưa đổi lại
+
+5
+00:00:23,100 --> 00:00:29,230
+Thì em dùng GAN để detect cái SQL, tấn công SQL
+
+6
+00:00:29,230 --> 00:00:39,220
+Đây là mục tiêu, bài toán thì hiện tại dữ liệu sẽ hầu hết là dữ liệu của người dùng rất bình thường
+
+7
+00:00:39,220 --> 00:00:44,740
+Đôi lúc mới có dữ liệu tấn công thì tỷ lệ sẽ rời từ 100 trên 1 đến 1.000 trên 1
+
+8
+00:00:45,300 --> 00:00:50,040
+Theo phương pháp bình thường thì mình sẽ chỉ đơn giản là lọc dữ liệu rồi chuyển nó thành vector
+
+9
+00:00:50,040 --> 00:00:58,090
+Có thể dùng MOT để kiểu định dạng lại thì lúc này mình sẽ dùng GAN bởi vì GAN nó có thể học
+
+10
+00:00:58,520 --> 00:01:06,210
+Còn cái thằng kia nó chỉ đơn giản nội sinh, nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+
+11
+00:01:06,210 --> 00:01:12,130
+Nó chỉ học nội sinh thôi nhưng nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+
+12
+00:01:12,130 --> 00:01:16,730
+Em mới đề xuất ra, thì đây là mô hình của em ạ
+
+13
+00:01:16,730 --> 00:01:23,170
+Thì là đầu tiên là em sẽ lấy dữ liệu, là lấy dữ liệu trên Kaggle và một số cái Datap
+
+14
+00:01:24,060 --> 00:01:29,120
+lấy thêm dữ liệu của các cái CVE, nghĩa là người ta ghi nhận những cái tấn công
+
+15
+00:01:33,600 --> 00:01:38,440
+dữ liệu thì em lấy thì em cũng mới chỉ lấy khoảng 30.000
+
+16
+00:01:38,440 --> 00:01:40,140
+bởi vì là dữ liệu tấn công thực tế
+
+17
+00:01:40,140 --> 00:01:45,490
+thì khi mà em làm thì em thấy là hầu hết là nó chỉ là noise
+
+18
+00:01:45,490 --> 00:01:48,570
+nghĩa là nó chỉ có khả năng tấn công
+
+19
+00:01:48,570 --> 00:01:52,590
+lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có
+
+20
+00:01:52,590 --> 00:01:55,620
+Nó khá là ít, này em mới nhận ra
+
+21
+00:01:57,350 --> 00:01:59,370
+Còn tiếp theo là em sẽ
+
+22
+00:01:59,370 --> 00:02:01,430
+Trong mô hình nó sẽ có 2 thành phần
+
+23
+00:02:01,430 --> 00:02:05,720
+Đầu tiên là thành phần Generate
+
+24
+00:02:05,720 --> 00:02:08,480
+Và thành phần Phytic
+
+25
+00:02:08,480 --> 00:02:12,300
+Thì em có thêm vào là
+
+26
+00:02:12,300 --> 00:02:15,260
+Trong này là sẽ có thêm
+
+27
+00:02:21,360 --> 00:02:23,080
+Trong phần này em sẽ có thêm
+
+28
+00:02:23,080 --> 00:02:25,100
+Cái Mutation
+
+29
+00:02:25,100 --> 00:02:28,360
+Nghĩa là em sẽ cho nó biết định nghĩa
+
+30
+00:02:28,360 --> 00:02:30,200
+về cách cho cả hai thằng
+
+31
+00:02:30,200 --> 00:02:30,800
+cái
+
+32
+00:02:31,010 --> 00:02:32,110
+cái này
+
+33
+00:02:34,810 --> 00:02:36,370
+là em cũng mới
+
+34
+00:02:36,370 --> 00:02:37,270
+tìm hiểu ạ
+
+35
+00:02:37,270 --> 00:02:40,390
+thì em đang hiểu ạ là em sẽ cho nó biết là
+
+36
+00:02:40,390 --> 00:02:42,530
+bây giờ SPM Jackson thì nó sẽ
+
+37
+00:02:42,530 --> 00:02:44,630
+phải có những cái điều kiện tối thiểu
+
+38
+00:02:44,630 --> 00:02:46,390
+là gì ạ, em cho cả hai thằng
+
+39
+00:02:46,390 --> 00:02:48,780
+nó học luôn ạ, còn nếu mà làm
+
+40
+00:02:48,780 --> 00:02:50,420
+như kiểu bình thường thì nó đang hơi loạn ạ
+
+41
+00:02:50,420 --> 00:02:51,500
+sau khi mà
+
+42
+00:02:51,500 --> 00:02:54,640
+sau khi mà critic thành công xong ạ
+
+43
+00:02:54,640 --> 00:02:56,820
+em sẽ có thêm một lớp để check nữa
+
+44
+00:02:56,820 --> 00:02:58,780
+thì nó sẽ gồm ba cái ạ
+
+45
+00:02:58,780 --> 00:03:01,240
+Đầu tiên là kiểm tra xem có phải là SQL không
+
+46
+00:03:01,240 --> 00:03:02,160
+Là cái lờ 1
+
+47
+00:03:02,160 --> 00:03:05,010
+Tiếp theo là sẽ kiểm tra xem là
+
+48
+00:03:05,010 --> 00:03:06,710
+Khả năng injection của nó
+
+49
+00:03:06,710 --> 00:03:09,090
+Nghĩa là xem là thực tế nó có khả năng tấn công không
+
+50
+00:03:09,090 --> 00:03:11,660
+Hiện tại là em mới chỉ
+
+51
+00:03:11,660 --> 00:03:13,420
+Cho quét qua bộ thư viện
+
+52
+00:03:13,940 --> 00:03:14,940
+OpenSource ở trên mạng
+
+53
+00:03:14,940 --> 00:03:17,950
+Còn cái số 3 là em sẽ quét xem là
+
+54
+00:03:17,950 --> 00:03:19,490
+Độ đa dạng
+
+55
+00:03:19,490 --> 00:03:21,390
+Xem là nó có thực sự đa dạng
+
+56
+00:03:21,390 --> 00:03:22,530
+Nó có thực sự hơn được
+
+57
+00:03:22,530 --> 00:03:26,100
+Thay được thằng SMODE không ạ
+
+58
+00:03:27,060 --> 00:03:28,160
+Thì trong tương lai
+
+59
+00:03:28,160 --> 00:03:33,580
+Thứ hai thì em sẽ thay thế cái thằng L2 bằng cách là em cho tấn công thực tế trên các tương lửa thông dụng
+
+60
+00:03:33,580 --> 00:03:40,980
+Và cái cuối cùng là các cái thước đo để xem là mô hình của em đạt những giá trị nào
+
+61
+00:03:44,040 --> 00:03:47,280
+Vậy đây là kết quả
+
+62
+00:03:47,800 --> 00:03:51,580
+Thì nếu như mà tỷ lệ mà rất rất cân bằng như kiểu 500 trên 1
+
+63
+00:03:51,920 --> 00:03:59,880
+Cái cuộc ngoài cùng thì là nó thì cái mô hình gan nó sẽ hơn được cái phương pháp cơ bản
+
+64
+00:03:59,880 --> 00:04:01,720
+là 42%
+
+65
+00:04:01,720 --> 00:04:03,680
+nhưng mà càng lên cao
+
+66
+00:04:03,680 --> 00:04:05,620
+thì nếu mà tỷ lệ càng thấp
+
+67
+00:04:05,620 --> 00:04:08,300
+thì thằng Mod nó sẽ
+
+68
+00:04:08,300 --> 00:04:09,460
+thắng được thằng GAN
+
+69
+00:04:09,460 --> 00:04:11,460
+thì tỷ lệ đây em chọn là 100
+
+70
+00:04:11,460 --> 00:04:12,820
+100 trên 1 ạ
+
+71
+00:04:12,820 --> 00:04:16,240
+em cho rằng tỷ lệ mất cân bằng đủ để mình có thể
+
+72
+00:04:16,240 --> 00:04:16,960
+dùng phương pháp GAN
+
+73
+00:04:16,960 --> 00:04:22,930
+thì đây thì hình bên phải
+
+74
+00:04:22,930 --> 00:04:24,270
+thì là em cũng
+
+75
+00:04:24,270 --> 00:04:26,870
+thử là chia ra là 4 trường hợp
+
+76
+00:04:26,870 --> 00:04:28,850
+nghĩa là trong tấn công SQL sẽ có
+
+77
+00:04:28,850 --> 00:04:31,100
+4 trường hợp thì 2 trường hợp
+
+78
+00:04:31,100 --> 00:04:32,320
+đầu tiên là Boolean và
+
+79
+00:04:32,320 --> 00:04:38,980
+Và error thì là cái này là dựa trên phản hồi của máy chủ.
+
+80
+00:04:39,080 --> 00:04:41,440
+Nghĩa là nó không thực sự tấn công.
+
+81
+00:04:41,560 --> 00:04:49,230
+Nó sẽ đợi xem phản hồi máy chủ là gì và từ đó họ sẽ mường tượng xem là hệ thống của mô hình là như nào.
+
+82
+00:04:49,450 --> 00:04:57,320
+Thì nên là hai cái đầu là nó sẽ không có đặc biệt bởi vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi ạ.
+
+83
+00:04:57,640 --> 00:04:59,900
+Nhưng mà hai cái cuối cùng là sẽ...

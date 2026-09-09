@@ -1,0 +1,4207 @@
+1
+00:00:01,020 --> 00:00:15,230
+Nhiều khi mình cầm cái chuỗi ở đây nó chỉ là ra mặt nhiều S3 đặc biệt, mình đưa vào cái Black Box để nó phân biệt, nó phân biệt được thế là mình thành công
+
+2
+00:00:16,130 --> 00:00:30,140
+Nhìn vào chuỗi ở đây nó vẫn là đôi lệnh SQL, mặc dù là bypass là mình nhìn vào nó cũng có nghĩa là nó không còn lấy, không gặp gì nữa
+
+3
+00:00:30,840 --> 00:00:35,580
+Thế nhưng mình tự đối mình tránh cái này, cái SQL Guide thầy tin là nó sẽ làm được
+
+4
+00:00:44,960 --> 00:00:50,320
+Lần sau, lần sau nếu em trình bày kết quả mà tốt ấy thì thầy có nghĩ cho em là có thể trình bày bán
+
+5
+00:00:50,320 --> 00:00:56,120
+Nhưng mà nếu kết quả nó chưa được trình bán thì nó hơi khó thì chỉ ủng hộ ông đề án thôi
+
+6
+00:00:56,120 --> 00:01:10,850
+Rồi, thầy thì trong slime có cần phải nêu bật lên để người nghe có cảm giác là em không bị số liệu không hả thầy
+
+7
+00:01:10,850 --> 00:01:13,990
+Em có up cái này lên trên ghi học công khai rồi ạ
+
+8
+00:01:13,990 --> 00:01:16,090
+Tất cả up bên đâu mình đưa ra lên đấy
+
+9
+00:01:16,550 --> 00:01:20,600
+Tham số mình chạy là gì, máy mình chạy là gì mình đưa ra cho báo cáo
+
+10
+00:01:23,650 --> 00:01:25,450
+Chạy bao nhiêu lần là mình phải đứng bắt
+
+11
+00:01:26,740 --> 00:02:08,540
+Mình làm một cái review
+
+12
+00:02:08,780 --> 00:02:10,860
+Tạm bộ các cái nghiên cứu
+
+13
+00:02:10,860 --> 00:02:12,620
+Còn để ra tổng hợp
+
+14
+00:02:13,240 --> 00:02:15,060
+Cũng như là chạy một cái bài
+
+15
+00:02:15,060 --> 00:02:25,760
+Em thì
+
+16
+00:02:25,760 --> 00:02:30,750
+Em hồi đầu tiên đã viết một cái bài
+
+17
+00:02:30,750 --> 00:02:32,130
+Nhưng mà sau khi viết thì em cũng
+
+18
+00:02:32,130 --> 00:02:33,430
+Có rất nhiều cái lỗ hợp
+
+19
+00:02:33,430 --> 00:02:34,030
+Vì vậy là em
+
+20
+00:02:35,480 --> 00:02:37,860
+Tổng hợp em đánh định
+
+21
+00:02:37,860 --> 00:02:39,680
+Em tạm bộ
+
+22
+00:02:39,680 --> 00:02:41,840
+Viết một cái bài
+
+23
+00:02:41,840 --> 00:02:45,270
+Theo nghĩa là có các cái
+
+24
+00:02:49,870 --> 00:02:58,440
+Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+
+25
+00:03:21,500 --> 00:03:49,740
+Tức là em các cái bài báo quy tí trong cái 5 năm lần nhất của các cái trên các cái hệ thống của Scopus với lại các đọc sở hữu và các cái V-Support, V-Support.
+
+26
+00:03:49,940 --> 00:03:58,120
+Em đã ra một cái bộ tải về tất cả các cái hầu như là các cái bài báo từ những năm gần đây.
+
+27
+00:03:58,240 --> 00:04:06,510
+Em có đọc và cũng có đọc các số liệu liên quan đến cái ưu điện, cái địa điểm của cái bài báo đấy.
+
+28
+00:04:06,510 --> 00:04:18,790
+Em làm phân loại 3 hướng kế hoạch kế hoạch kế hoạch theo 3 hướng tiếp cận.
+
+29
+00:04:18,910 --> 00:04:24,680
+Một là xây dựng kiến trúc để giải phóng, diễn diễn kiến trúc.
+
+30
+00:04:24,960 --> 00:04:33,260
+Còn phần thứ 2 là phân loại các bài toán hướng thức,
+
+31
+00:04:33,340 --> 00:04:38,600
+dạng các phương pháp, các kỹ thuật TKI trong bài toán hướng thức.
+
+32
+00:04:38,600 --> 00:04:45,510
+và xem các bài báo đấy có thể giảm một số các thông số kết quả của du điểm
+
+33
+00:04:45,510 --> 00:04:48,510
+giảm các cái giá trị thực và các loại sản lượng
+
+34
+00:04:48,510 --> 00:05:00,190
+Còn cái phần loại thứ 3 là các cái thực của cái sáp này
+
+35
+00:05:00,190 --> 00:05:08,060
+thì hiện tại anh em cũng đã làm một cái bước về cái ý tưởng
+
+36
+00:05:08,060 --> 00:05:11,410
+Bây giờ tôi hỏi anh nhé, cái cơ đồ sáp em đọc chưa?
+
+37
+00:05:12,410 --> 00:05:17,140
+Cơ đồ sáp là cái cân eo này, cân eo đấy
+
+38
+00:05:17,140 --> 00:05:18,980
+Cơ đồ sáp là cái thứ 2 từ dưới lên
+
+39
+00:05:18,980 --> 00:05:21,600
+Cái thứ hai từ dưới đêm luôn
+
+40
+00:05:26,410 --> 00:05:33,580
+Thế thì hỏi hỗn nhiên thôi
+
+41
+00:05:34,140 --> 00:05:35,940
+Cái suy đọc bảo suy đọc
+
+42
+00:05:35,940 --> 00:05:40,330
+Năm tuần em mới chỉ cải thiết sáp trên cái xin em phần
+
+43
+00:05:40,330 --> 00:05:44,960
+Đây không phải là sáp, tôi chưa nói là con xin em gì cả
+
+44
+00:05:44,960 --> 00:05:48,840
+Đây là các phương pháp cải thiết của sáp để nói nhanh hơn
+
+45
+00:05:48,840 --> 00:05:58,630
+Thầy đang hiểu thế này là em đang cố gắng hiểu về các phương pháp xin em
+
+46
+00:05:58,630 --> 00:06:02,850
+Các phương pháp xin em sử dụng học sâu của con xin em
+
+47
+00:06:03,880 --> 00:06:04,760
+Đầu tiên phải hiểu cả
+
+48
+00:06:05,530 --> 00:06:05,970
+Đúng chưa?
+
+49
+00:06:06,870 --> 00:06:12,090
+Sau đó mình vượt tới là giải thích nó thông qua các cái phương pháp giải thích
+
+50
+00:06:12,090 --> 00:06:13,980
+Trong đó là một phương pháp đấy là SHARP
+
+51
+00:06:13,980 --> 00:06:21,170
+Nhưng mà vì SHARP nó chậm quá nên là em đang phải tìm đến các cái phương pháp cải tiến để nó nhanh hơn
+
+52
+00:06:21,170 --> 00:06:25,260
+Đây là một trong những phương pháp mà nó nhanh hơn
+
+53
+00:06:26,640 --> 00:06:28,260
+Nó nhanh hơn thế nào thì em phải đọc
+
+54
+00:06:29,260 --> 00:06:33,340
+Đúng không?
+
+55
+00:06:33,560 --> 00:06:35,560
+Nói tiếp đi
+
+56
+00:06:35,560 --> 00:06:37,930
+Xin hiểu ý
+
+57
+00:06:41,690 --> 00:06:49,480
+Em muốn tổng hợp một bài tạo trong bức tranh tổng thể của bài này.
+
+58
+00:06:49,600 --> 00:06:53,630
+Sau đó em đi vào đặc cục cố gắng là
+
+59
+00:06:56,160 --> 00:07:06,600
+với 3 hướng để tổng hợp những điệu và các chỉ số trong các bài tạo.
+
+60
+00:07:06,600 --> 00:07:29,700
+Sau đó em sẽ lựa chọn các bài lộ trình để tìm ra những điểm đối chống của bài này.
+
+61
+00:07:29,800 --> 00:07:38,050
+Đi theo 3 phương thức này để tìm ra những điểm đối chống của bài này.
+
+62
+00:07:42,510 --> 00:07:45,490
+Về cái này thì em đã có các loại.
+
+63
+00:07:56,970 --> 00:07:58,990
+Em có thể viết thành một bài tổng quan?
+
+64
+00:07:59,190 --> 00:08:00,480
+Dạ vâng.
+
+65
+00:08:00,480 --> 00:08:02,860
+Thì ý tưởng thì em cũng đang đầy đủ viết một cái bài
+
+66
+00:08:02,860 --> 00:08:04,760
+Yubi Paper theo cái dạng của phong cách này
+
+67
+00:08:04,760 --> 00:08:09,570
+Để em làm đúng nhóm em này
+
+68
+00:08:10,450 --> 00:08:17,320
+Thì em muốn bài 2 là em xong em đăng ký
+
+69
+00:08:20,760 --> 00:08:35,860
+Và những số bài em chạy thử
+
+70
+00:08:35,860 --> 00:08:38,490
+Chạy từng phần
+
+71
+00:08:38,490 --> 00:08:45,420
+Cố gắng từ cái bước
+
+72
+00:08:45,420 --> 00:08:50,820
+Đang số trong đấy
+
+73
+00:08:50,820 --> 00:08:58,010
+Cái bài là cái lượng một chung
+
+74
+00:08:58,010 --> 00:08:58,870
+Một phần sửa sài
+
+75
+00:08:58,870 --> 00:09:03,010
+Thì em muốn đi phép và tạo ra cái ý tưởng
+
+76
+00:09:03,010 --> 00:09:07,780
+So với những bài em đồng phát
+
+77
+00:09:07,780 --> 00:09:12,550
+Cái bản sát và 3 cái phần nhóm
+
+78
+00:09:12,550 --> 00:09:27,460
+Hôm vừa mình đi show ở phòng lab mình có một bạn đi sinh vầy mình nghe cũng dùng xk2
+
+79
+00:09:29,000 --> 00:09:37,240
+Bạn ấy có dùng các phương pháp kernel, kernel shaft, kernel này có thể với shaft, với LAN
+
+80
+00:09:37,240 --> 00:09:45,390
+Anh chú không chỉ nguyên là kernel shaft, thì bạn ấy có nói là bạn ấy chạy tốc độ khá nhanh
+
+81
+00:09:45,390 --> 00:09:51,980
+Chứ ở đây em cảm giác mình có thể nói là rất chậm, mình chưa rõ là nó công tất như thế nào
+
+82
+00:09:51,980 --> 00:09:59,800
+Bạn ấy đang nghiêm sinh, bạn ấy đang chuẩn bị sức bản bài
+
+83
+00:10:00,000 --> 00:10:08,650
+Đấy nhé
+
+84
+00:10:08,650 --> 00:10:15,780
+Bởi vì cái phương pháp cơ đeo ấy là, mản chất là chúng ta nó sử dụng cái việc là sấp xỉ
+
+85
+00:10:15,780 --> 00:10:17,530
+Em hiểu không?
+
+86
+00:10:17,770 --> 00:10:23,070
+Và sấp xỉ thì thường là chọn cái phương pháp tự tính á
+
+87
+00:10:23,070 --> 00:10:24,680
+Anh nhận được rất là nhanh
+
+88
+00:10:24,680 --> 00:10:30,950
+Nhưng mà anh chưa đọc kỹ, thật ra anh không đọc thêm
+
+89
+00:10:31,370 --> 00:10:34,210
+Nhân thể cũng được là viết cái bài tổng quan này nè
+
+90
+00:10:34,210 --> 00:10:38,460
+Thì để tìm ra cái cách, cái cách đi làm nào để mình
+
+91
+00:10:38,460 --> 00:10:41,770
+Thậm chí là cũng không chỉ là sát, anh đọc thêm là làm nữa
+
+92
+00:10:45,120 --> 00:10:48,600
+Nếu em viết được bài phỏng văn đấy thì mình nghĩ lúc này sẽ tốt hơn.
+
+93
+00:10:54,300 --> 00:11:05,850
+Bây giờ em vào hướng dẫn sinh người, thầy muốn ý kiến thêm.
+
+94
+00:11:07,160 --> 00:11:15,500
+Thầy chủ động thời gian lên ảnh, tân định ra khoảng thời gian nào mình làm cái gì,
+
+95
+00:11:15,540 --> 00:11:22,240
+đến khoảng bao lâu mình xong được cái bài survey, đúng không?
+
+96
+00:11:22,500 --> 00:11:25,980
+Vừa rồi em cũng viết bài được thảo nhưng em nhận thấy là chưa thể sử dụng bản được đúng không?
+
+97
+00:11:26,460 --> 00:11:31,800
+Vâng ạ, em cũng được viết nhưng cuối cùng em cũng rất yếu quá, không thể giải.
+
+98
+00:11:41,720 --> 00:11:48,500
+Đấy, thầy nói là em đọc thêm cả, không chỉ nguyên Sharp, có thêm LAM nữa, LIME nữa.
+
+99
+00:11:50,300 --> 00:11:59,340
+Thầy thấy bạn nói là nếu mà thân em áp dụng với LAM chẳng hạn nó chạy nhanh hơn rồi chẳng hạn, đúng không?
+
+100
+00:11:59,600 --> 00:12:12,200
+Đấy, slide liên quan đến số dây, 10 dây, 1 dây, bao nhiêu nữa. Đấy.
+
+101
+00:12:21,930 --> 00:12:28,110
+Grabcam rất nhanh, rồi thì cái đóng góp của nếu mình đưa Sharp vào nó ở chỗ này, đúng không?
+
+102
+00:12:30,950 --> 00:12:32,930
+Câu hỏi nghiên cứu đặt ra nó là cái gì?
+
+103
+00:12:33,010 --> 00:12:35,510
+Quan trọng nhất là nghiên cứu là ta phải đặt ra câu hỏi nghiên cứu
+
+104
+00:12:37,810 --> 00:12:40,390
+Nếu mình đi theo Grabcam thì đóng góc nghiên cứu mình là cái gì?
+
+105
+00:12:43,480 --> 00:12:44,560
+Vậy nên phải quay lại bình thường
+
+106
+00:12:45,790 --> 00:12:47,170
+Công chức thầy có mắc cho em một cái
+
+107
+00:12:47,730 --> 00:12:51,760
+Nếu nghiên cứu có thể là dùng thông tin sản xuất được này
+
+108
+00:12:51,760 --> 00:12:53,120
+Có thể đóng góc cũng được
+
+109
+00:12:53,480 --> 00:12:55,870
+Trong quá trình tăng cường chất lượng của mũ điện
+
+110
+00:12:55,870 --> 00:13:02,110
+Tất cả đấy nó cũng phải đưa vào trong câu hỏi nghiên cứu
+
+111
+00:13:02,110 --> 00:13:04,720
+Hồi vầy tổng quan này để mình tìm được đi
+
+112
+00:13:04,720 --> 00:13:11,080
+Sau khi định xong một thế hình quay ngược lại mũ hình
+
+113
+00:13:11,080 --> 00:13:15,540
+tăng bốc vào cái mô hình để nó nhận diện, tức là quay lượt trở lại
+
+114
+00:13:15,540 --> 00:13:20,880
+tức là quay lượt lại cái mô hình thì nó sẽ vừa đạt vừa chính xác với độ kinh cậy
+
+115
+00:13:21,990 --> 00:13:25,990
+Chứ mà nếu mà chỉ là đế giải thích không thì cái đóng bốc nó làm gì thì phải thay đổi không?
+
+116
+00:13:26,290 --> 00:13:27,190
+Phải không em?
+
+117
+00:13:27,350 --> 00:13:27,670
+Ừ
+
+118
+00:13:28,310 --> 00:13:31,270
+Thế hay là cái giữa đất cao nó tốt rồi, giữa sáp nó lại chạy chậm hơn
+
+119
+00:13:31,270 --> 00:13:34,130
+thì tại sao người ta cũng muốn nói về vùng sáp không?
+
+120
+00:13:34,510 --> 00:13:35,450
+Không chỉ ở đất cao
+
+121
+00:13:36,590 --> 00:13:38,690
+Đấy, đấy là những câu hỏi nghiên cứu mà em phải trả lời
+
+122
+00:13:52,750 --> 00:14:07,760
+Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+
+123
+00:14:19,890 --> 00:14:21,630
+bởi mặt tố đỉnh trên máy Windows,
+
+124
+00:14:21,790 --> 00:14:23,390
+bây giờ cũng hơn là 3 phút
+
+125
+00:14:23,390 --> 00:14:25,990
+để em chạy,
+
+126
+00:14:25,990 --> 00:14:27,090
+khi chạy tổng điện,
+
+127
+00:14:27,170 --> 00:14:30,130
+chạy một số dữ liệu trên Windows,
+
+128
+00:14:30,310 --> 00:14:31,850
+chạy các cái Windows
+
+129
+00:14:34,450 --> 00:14:37,580
+chậm, có cái mở
+
+130
+00:14:37,580 --> 00:14:40,460
+số trang bộ YouTube hoặc
+
+131
+00:14:40,460 --> 00:14:48,850
+trên Collab môi trường.
+
+132
+00:14:50,820 --> 00:14:52,420
+Đấy, tức là mình nhảy để
+
+133
+00:14:52,420 --> 00:14:54,380
+nếu gắt cao thì nó sẽ dứt nhanh,
+
+134
+00:14:54,770 --> 00:14:56,960
+gắt sẽ dứt nhanh, và nó
+
+135
+00:14:56,960 --> 00:14:58,800
+có thể cho mình xem cái công chú ý ở chỗ nào.
+
+136
+00:14:59,020 --> 00:15:02,520
+Thế còn cái mức độ đóng góp cụ thể như thế nào,
+
+137
+00:15:02,520 --> 00:15:08,040
+cái impact ảnh hưởng tích cực tư cực như nào của các người trên mọi đáy thì rất cao và rất khó
+
+138
+00:15:08,040 --> 00:15:14,090
+Chính vì thế là những người chắc cũng sắp được bù đắp đến lúc nào hình cứu của em phải được bắt đầu
+
+139
+00:15:16,460 --> 00:15:21,670
+Làm nghiên cứu nó không chỉ là lời giải, các bạn có thể nhớ như thế này nhé
+
+140
+00:15:21,670 --> 00:15:25,830
+Làm nghiên cứu không chỉ là lời giải mà nó còn biết cách đặt câu hỏi
+
+141
+00:15:25,830 --> 00:15:35,420
+Nếu mà mình không được đặt ra câu hỏi thì cái lời giải đấy nó sẽ làm cho mình nó cũng chỉ là một cái cụ thể
+
+142
+00:16:02,380 --> 00:16:53,600
+Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+
+143
+00:16:53,640 --> 00:16:56,260
+thử nghiệm đối với phương pháp dựng lý tuyến.
+
+144
+00:16:56,260 --> 00:17:03,100
+Thứ ba là trình bày về mô hình chỉ có lý đánh không gian
+
+145
+00:17:03,100 --> 00:17:05,670
+và tại sao lại như thế.
+
+146
+00:17:05,870 --> 00:17:10,250
+Thử nghiệm đối với bộ dữ liệu Pay for the Sick.
+
+147
+00:17:10,410 --> 00:17:13,210
+Thứ năm là một số các thay đổi
+
+148
+00:17:13,210 --> 00:17:14,470
+trong các mô hình.
+
+149
+00:17:17,040 --> 00:17:21,120
+Cuối cùng là nói về động tin cậy của mô hình.
+
+150
+00:17:21,260 --> 00:17:28,180
+Thầy thì em xin trình bày sơ dược một chút
+
+151
+00:17:28,180 --> 00:17:33,920
+về cái kiến trúc gần đây nhất của em là bảo cáo thầy
+
+152
+00:17:33,920 --> 00:17:36,820
+để thầy hình dung lặng về cái mô hình kiến trúc.
+
+153
+00:17:36,820 --> 00:17:52,740
+Trong mô hình kết thúc gửi bài báo Neural Network có thành phần Backboard và sau đó có thành phần Adaptive Routing.
+
+154
+00:17:53,000 --> 00:17:59,040
+Trong thành phần Adaptive Routing, mình đã lựa chọn ngưỡng cố định là T bằng 3.
+
+155
+00:17:59,040 --> 00:18:05,680
+thì đối với các vị gel có số lượng frame nhỏ hơn 3
+
+156
+00:18:05,680 --> 00:18:08,620
+thì nó sẽ đi vào nhánh Square Teal
+
+157
+00:18:08,620 --> 00:18:10,240
+là nhánh đối với trên
+
+158
+00:18:10,240 --> 00:18:12,580
+tại nhánh Square Teal thì nó
+
+159
+00:18:12,580 --> 00:18:16,040
+sau khi mà trích xuất đặc trưng từ Backbone
+
+160
+00:18:16,220 --> 00:18:20,920
+Backbone thì được chọn thành phần Von Neck Tiny
+
+161
+00:18:20,920 --> 00:18:26,330
+nó rơi vào khoảng 29 triệu tham số
+
+162
+00:18:26,850 --> 00:18:29,480
+thì nó sẽ đi vào nhánh Square Teal
+
+163
+00:18:29,480 --> 00:18:37,370
+tại ngãnh Spatial sẽ thực hiện thành phần Transformer
+
+164
+00:18:37,370 --> 00:18:40,930
+trong đó sẽ có 2 group Ambit
+
+165
+00:18:40,930 --> 00:18:48,820
+để chiếu lên một không gian 1024
+
+166
+00:18:48,820 --> 00:18:54,700
+và sau đó sẽ thực hiện quá trình Self-Attention
+
+167
+00:18:54,700 --> 00:18:59,500
+để ra được các phân loại trên từng các frame
+
+168
+00:19:00,840 --> 00:19:04,120
+sau khi phân loại trên từng các frame xong
+
+169
+00:19:04,120 --> 00:19:06,080
+sẽ thực hiện quá trình Aggression
+
+170
+00:19:06,080 --> 00:19:09,600
+sử dụng cơ chế Attention-Aggression
+
+171
+00:19:09,600 --> 00:19:13,860
+để tổng hợp kết quả từ hai frame này
+
+172
+00:19:13,860 --> 00:19:18,460
+tuy nhiên trong thực tế thì quá trình tổng hợp kết quả
+
+173
+00:19:18,460 --> 00:19:21,480
+thường sẽ là trung bình cộng của hai frame
+
+174
+00:19:21,480 --> 00:19:23,320
+để ra kết quả cuối
+
+175
+00:19:23,320 --> 00:19:26,270
+tại nhánh về mặt không gian
+
+176
+00:19:26,270 --> 00:19:35,240
+thì sẽ thực hiện quá trình trích xuất các đặc trưng
+
+177
+00:19:35,240 --> 00:19:38,400
+và sau đó đưa vào mô hình M-Coder
+
+178
+00:19:38,400 --> 00:19:43,940
+Tuy nhiên đối với tình đánh thời gian thì ở đây sẽ có hàng đợi
+
+179
+00:19:43,940 --> 00:19:47,000
+để thực hiện đưa từng các frame vào một
+
+180
+00:19:47,000 --> 00:19:53,260
+và sau đó nó sẽ chiếu đối với đặc trưng của từng các frame
+
+181
+00:19:53,260 --> 00:19:56,020
+và kết hợp các frame với nhau thông qua
+
+182
+00:19:56,640 --> 00:19:58,700
+và sau đấy thì sẽ thực hiện
+
+183
+00:19:58,700 --> 00:20:00,000
+cái cell extension
+
+184
+00:20:00,000 --> 00:20:07,470
+sử dụng cái tư chế là để mà che chính cái
+
+185
+00:20:07,470 --> 00:20:11,610
+cái cái của chính nó để nó không chú ý tới cái frame chính
+
+186
+00:20:11,610 --> 00:20:16,170
+nó mà chỉ chú ý tới tới tới các cái cái đặc trưng của các cái
+
+187
+00:20:16,170 --> 00:20:19,810
+khác thôi và sau đấy kìa sẽ đưa vào cái bộ phân loạn để xác
+
+188
+00:20:19,810 --> 00:20:25,730
+định à xem nó là đối với là cái mô hình lật trước thì trong
+
+189
+00:20:25,730 --> 00:20:28,350
+cái mô hình lật trước thì em cũng có thực hiện ở trên cái bộ
+
+190
+00:20:28,350 --> 00:20:46,520
+bộ dữ liệu là DF, DC và SelectDF. Trong bộ dữ liệu DF, DC thì AUC của nó thử nghiệm là 99,93% và trong bộ dữ liệu SelectDF thì chỉ số của nó là 99,78%.
+
+191
+00:20:47,360 --> 00:20:56,380
+Tổng số mô hình là 181 triệu tham số, tuy nhiên là nếu mà chỉ chạy 1 trong 2 nhánh thì nó sẽ rơi vào khoảng tầm 104 triệu tham số.
+
+192
+00:20:56,380 --> 00:21:07,720
+Đấy là mô hình đợt trước. Sau mô hình đợt trước, thầy có trao đổi cơ chế Adaptive Routing.
+
+193
+00:21:07,960 --> 00:21:16,470
+Ở đây nó chưa thực sự như vậy. Sau đấy thầy cũng có nghiên cứu được cơ chế Adaptive Routing này.
+
+194
+00:21:17,500 --> 00:21:21,100
+Trong đấy là router để thực hiện phân gánh.
+
+195
+00:21:21,100 --> 00:21:34,530
+sẽ đóng vai trò như là một cái mixture of experts. Trong này sau khi thực hiện trích xuất các đặc trưng, các khu hình thông qua hành phần thứ nhất là connect tăng đi
+
+196
+00:21:34,530 --> 00:21:44,610
+thì nó sẽ đến cái router. Router này nó sẽ đóng vai trò như là một cái bộ mô tả để mà tính các cái vector mô tả.
+
+197
+00:21:44,610 --> 00:21:52,830
+Vector mưu tả này tính dựa trên 4 chỉ số là Mu, Sigma, độ chuyển động và lốc T
+
+198
+00:21:52,830 --> 00:22:00,940
+Đấy là số các frame trong cái video đó
+
+199
+00:22:00,940 --> 00:22:06,980
+Sau khi mà tính toán thì nó sẽ xác định là nó cần đi theo cái nhánh nào
+
+200
+00:22:06,980 --> 00:22:10,350
+Theo một trong hai nhánh, nhánh special hay là nhánh
+
+201
+00:22:14,790 --> 00:22:22,800
+Sau đó nó đi vào quá trình phân loạn tương tự như là đối với mùi cũ
+
+202
+00:22:22,800 --> 00:22:25,120
+Đối với cơ chế kết tinh này
+
+203
+00:22:25,860 --> 00:22:31,450
+Trong bộ mô tả nó sẽ có 4 thành phần như em vừa mới trình bày
+
+204
+00:22:31,450 --> 00:22:41,840
+Về mô, chỉ số trung bình xác định xem video đó
+
+205
+00:22:41,840 --> 00:22:44,940
+Nó sẽ cần tính toán cái gì
+
+206
+00:22:44,940 --> 00:22:46,960
+Có nghĩa là nó sẽ nhìn tập thể toàn bộ
+
+207
+00:22:46,960 --> 00:22:50,680
+cái video, cái thứ hai là
+
+208
+00:22:50,680 --> 00:22:52,600
+cái độ lật chuẩn
+
+209
+00:22:52,600 --> 00:22:55,310
+cái độ lật chuẩn để mà nó sẽ xác định
+
+210
+00:22:55,310 --> 00:22:57,750
+các cái khung mà gần giống nhau
+
+211
+00:22:57,750 --> 00:22:59,600
+thì nó như thế nào
+
+212
+00:23:01,880 --> 00:23:04,080
+cái từng ngữ ba là cái khoảng cách
+
+213
+00:23:04,080 --> 00:23:06,580
+chuyển động trung bình, cái khung liền kè
+
+214
+00:23:06,580 --> 00:23:09,800
+cái khoảng cách nó chuyển động trung bình
+
+215
+00:23:09,800 --> 00:23:11,280
+giữa các cái khung liền kè này
+
+216
+00:23:11,280 --> 00:23:13,140
+có nghĩa là đối với là
+
+217
+00:23:13,140 --> 00:23:15,500
+cái độ lật chuẩn thì nó sẽ
+
+218
+00:23:15,500 --> 00:23:18,950
+xác định trong toàn bộ cái video
+
+219
+00:23:18,950 --> 00:23:21,230
+các cái khung liền kè thì nó sẽ
+
+220
+00:23:21,230 --> 00:23:21,890
+xác định hai
+
+221
+00:23:21,890 --> 00:23:24,370
+hai cái khung liền kè nhau
+
+222
+00:23:24,370 --> 00:23:31,010
+và lớp dụng khu để xác định video độ dài hay ngắn
+
+223
+00:23:33,750 --> 00:23:39,380
+Phương pháp để tính toán công thức như bên trên
+
+224
+00:23:39,380 --> 00:23:43,490
+Trong này có 2 cơ chế
+
+225
+00:23:44,530 --> 00:23:48,570
+Ở đây em thử nghiệm 2 cơ chế để xác định
+
+226
+00:23:48,570 --> 00:23:51,550
+Một là SOP và hai là GANBEL
+
+227
+00:23:51,550 --> 00:23:54,790
+Đối với cơ chế thứ nhất là SOP là trộn mềm
+
+228
+00:23:54,790 --> 00:23:58,010
+Nghĩa là nó sẽ chạy qua cả 2 nhánh
+
+229
+00:23:58,010 --> 00:23:59,770
+và đầu ra thì
+
+230
+00:23:59,770 --> 00:24:02,070
+nó sẽ tính toán cái chỉ số
+
+231
+00:24:02,070 --> 00:24:04,010
+ở cả cái 2 nhánh đấy
+
+232
+00:24:04,010 --> 00:24:06,470
+thì đầu ra thì có
+
+233
+00:24:07,190 --> 00:24:08,470
+tổ hợp, nó sẽ có
+
+234
+00:24:08,470 --> 00:24:09,410
+trọng số theo cái
+
+235
+00:24:09,970 --> 00:24:11,950
+cái giá trị
+
+236
+00:24:11,950 --> 00:24:14,390
+là cái giá trị tính toán từ 4
+
+237
+00:24:14,390 --> 00:24:15,950
+cái bộ mô tả
+
+238
+00:24:15,950 --> 00:24:19,940
+và sau đấy thì nó sẽ xác định
+
+239
+00:24:19,940 --> 00:24:22,060
+dựa trên cái mức độ
+
+240
+00:24:22,060 --> 00:24:23,860
+đoạn góp của mỗi nhánh là như thế nào
+
+241
+00:24:23,860 --> 00:24:26,280
+cái phương pháp của chọn cứng
+
+242
+00:24:26,280 --> 00:24:28,160
+thì nó sẽ chỉ
+
+243
+00:24:28,160 --> 00:24:33,780
+chỉ xác định để mà đi vào một trong hai nhánh thôi. Sử dụng cái
+
+244
+00:24:33,780 --> 00:24:38,780
+kỹ thuật là gắn đeo để chọn một trong hai nhánh thôi. Nó sẽ
+
+245
+00:24:38,780 --> 00:24:44,720
+không đi vào hai cả hai nhánh. ờ các cái chỉ số ở đây thì ờ
+
+246
+00:24:44,720 --> 00:24:48,860
+cũng có những cái vai trò quyết định. Cái này thì lúc nãy em
+
+247
+00:24:48,860 --> 00:24:52,400
+cũng vừa mới nói rồi. Ví dụ như cái chỉ số mua thì là nó sẽ
+
+248
+00:24:52,400 --> 00:24:55,240
+xác định cái trung bình này theo thời gian. Có nghĩa là sẽ
+
+249
+00:24:55,240 --> 00:25:00,100
+cho biết là nó đang xử lý cái cái cái cái video với các cái
+
+250
+00:25:00,100 --> 00:25:07,540
+các nội dung như thế nào. Ví dụ như hiện nay nó đang tính toán diện mạng hay là sự chuyển động.
+
+251
+00:25:08,740 --> 00:25:19,500
+Rồi đối với độ lệch chuẩn thì nó sẽ xác định các khung gần giống nhau. Nếu như mà các khung ở trong
+
+252
+00:25:19,500 --> 00:25:28,310
+video gần tương tự nhau thì có nghĩa là cái nhánh về thời gian thì không có tác dụng nhiều. Đối với
+
+253
+00:25:28,310 --> 00:25:45,470
+Đối với sự chuyển động giữa các khung gần kẻ, nếu chỉ số Motion có sự thay đổi đột ngột, có nghĩa là nó lớn, có nghĩa là nó sẽ có sự ưu tiên hơn về nhánh về mặt thời gian.
+
+254
+00:25:45,470 --> 00:25:53,030
+và đối với cái lớp số khung thì nó sẽ xác định cái số lượng các cái khung
+
+255
+00:25:53,030 --> 00:25:57,630
+ví dụ như là ít khung thì nó sẽ ưu tiên hơn đối với cái nhánh về không gian
+
+256
+00:25:57,630 --> 00:26:00,870
+nhiều khung thì nó sẽ ưu tiên hơn với nhánh về thời gian
+
+257
+00:26:00,870 --> 00:26:08,960
+sau đấy thì nó sẽ có cái phép MLP để kết hợp các cái chỉ số này
+
+258
+00:26:08,960 --> 00:26:16,790
+rồi tính cái shop up để quyết định xem là nó là đi theo cái nhánh như thế nào
+
+259
+00:26:16,790 --> 00:26:27,400
+Ví dụ như là nếu chỉ số độ chuyển động cao, số lượng khung lớn và độ lệch chuẩn theo thời gian lớn
+
+260
+00:26:27,400 --> 00:26:32,500
+thì nó sẽ ưu tiên đối với nhánh thời gian, nếu không thì ưu tiên với nhánh không không gian
+
+261
+00:26:32,500 --> 00:26:46,100
+Sau khi thử nghiệm phương pháp xong, em thấy là chuyên thử đối với bộ dữ liệu DFDC
+
+262
+00:26:46,100 --> 00:26:52,550
+trên cái bộ dữ liệu DC và test trên chính cái bộ dữ liệu đấy thì về cơ bản thì cái cái cái cái
+
+263
+00:26:52,550 --> 00:27:00,170
+chỉ số nó cũng nó cũng gần gần tương tự như là đối với lại cái kết quả trước tự nhiên là nếu như mà
+
+264
+00:27:00,170 --> 00:27:07,900
+khi mà test ở trong cái cái cái cái liên tập có nghĩa là trên ở trên cái bộ dữ liệu DC và test ở trên cái bộ dữ liệu
+
+265
+00:27:07,900 --> 00:27:15,880
+select df thì cái chỉ số AUC của nó bị tụt xuống so với cái kết quả trước đây cái kết quả trước đây thì
+
+266
+00:27:15,880 --> 00:27:27,910
+Thì khi mà em thử nghiệm thì nó với cái chỉ số T bằng 3 thì nó cái chỉ số AOC của cái việc test liên tập như thế này nó lên đến 93,89%
+
+267
+00:27:28,930 --> 00:27:35,830
+Nhưng mà bây giờ thì sau khi mà thử cái cơ chế này thì nó lại bị tụt xuống vào 90,95%
+
+268
+00:27:36,360 --> 00:27:46,490
+Trong đấy thì cái số lượng mà tính toán để mà xác định là cỏ mà trọng đúng và nó xác định đúng tuyến
+
+269
+00:27:46,490 --> 00:27:48,870
+thì nó chỉ có 47% thôi
+
+270
+00:27:48,870 --> 00:27:50,210
+và đối với
+
+271
+00:27:50,210 --> 00:27:51,950
+cái chỉ số mà
+
+272
+00:27:51,950 --> 00:27:54,490
+các cái nhánh mà có được quyết định tương đồng
+
+273
+00:27:54,490 --> 00:27:56,370
+nhau thì nó lên đến
+
+274
+00:27:56,370 --> 00:27:58,010
+98,3%
+
+275
+00:27:58,010 --> 00:28:00,970
+thì chính vì là như thế có nghĩa là
+
+276
+00:28:02,060 --> 00:28:03,620
+2 cái nhánh này nó hoạt động
+
+277
+00:28:03,620 --> 00:28:05,790
+nó có cái sự quyết định
+
+278
+00:28:05,790 --> 00:28:07,130
+nó gần tương tự nhau
+
+279
+00:28:07,130 --> 00:28:09,970
+nghĩa là cái kết quả của 2 cái nhánh gần tương tự nhau
+
+280
+00:28:09,970 --> 00:28:11,000
+nên là
+
+281
+00:28:11,640 --> 00:28:13,760
+nó nên là đi theo cái nhánh
+
+282
+00:28:13,760 --> 00:28:14,320
+như thế nào
+
+283
+00:28:14,320 --> 00:28:18,710
+thì có nghĩa là cổ ở đây
+
+284
+00:28:18,710 --> 00:28:24,880
+Trước đây nó không xác định được xem là nó nên đi theo cái nhánh nào thì nó mới chính xác
+
+285
+00:28:24,880 --> 00:28:29,740
+Nên là cái chỉ số đúng thì nó mới chỉ được có 47% thôi
+
+286
+00:28:29,740 --> 00:28:33,240
+Nên là em thấy là nó không thực sự là hiệu quả
+
+287
+00:28:33,240 --> 00:28:50,490
+Trước đây thì em không thử trên cái tập dữ liệu là Face Forensics
+
+288
+00:28:51,180 --> 00:28:53,460
+Thì tuy nhiên là sau khi mà đọc lại
+
+289
+00:28:53,460 --> 00:28:57,640
+Thì thấy các cái bài báo hiện nay là đều thử nghiệm trên cái tập dữ liệu này
+
+290
+00:28:57,640 --> 00:28:59,880
+và test ở trên cái tập dữ liệu chéo
+
+291
+00:28:59,880 --> 00:29:02,320
+thì cái đấy nó mới là cái quan trọng
+
+292
+00:29:02,320 --> 00:29:03,280
+còn lại đối với là
+
+293
+00:29:03,280 --> 00:29:05,480
+cái việc là trên trên một tập dữ liệu và test
+
+294
+00:29:05,480 --> 00:29:07,280
+trên chính cái tập dữ liệu đấy thì bây giờ
+
+295
+00:29:07,280 --> 00:29:09,220
+nó lại không quá là quan trọng nữa
+
+296
+00:29:09,580 --> 00:29:11,580
+bởi vì là nó gần như là nó bão hòa
+
+297
+00:29:12,240 --> 00:29:13,840
+rồi, nó gần như là độ chính xác
+
+298
+00:29:13,840 --> 00:29:14,780
+nó gần như tuyệt đối rồi
+
+299
+00:29:14,780 --> 00:29:17,500
+kể cả là cái việc là nó có hơn kém nhau
+
+300
+00:29:17,500 --> 00:29:19,420
+một vài các cái
+
+301
+00:29:19,420 --> 00:29:22,240
+cái phần trong đi chăng nữa thì nó cũng không quá ý nghĩa
+
+302
+00:29:22,240 --> 00:29:24,220
+mà cái sự ý nghĩa của nó
+
+303
+00:29:24,220 --> 00:29:25,580
+nằm ở cái việc là test
+
+304
+00:29:25,580 --> 00:29:28,780
+tại các cái bộ dữ liệu chéo nhau
+
+305
+00:29:28,780 --> 00:29:31,600
+và em cũng thử
+
+306
+00:29:31,600 --> 00:29:33,440
+trên cái bộ dữ liệu
+
+307
+00:29:33,440 --> 00:29:34,320
+Face Forensic này
+
+308
+00:29:34,320 --> 00:29:38,090
+thì thứ nhất là thử trên
+
+309
+00:29:38,090 --> 00:29:39,790
+đối với cái nhánh chỉ có không gian
+
+310
+00:29:39,790 --> 00:29:41,910
+thì nó, cái độ chính xác của nó
+
+311
+00:29:41,910 --> 00:29:44,250
+là 95,93%
+
+312
+00:29:46,700 --> 00:29:49,160
+và khi mà test
+
+313
+00:29:49,160 --> 00:29:50,940
+đối với cái tập dữ liệu chéo
+
+314
+00:29:51,540 --> 00:29:52,300
+Select AF
+
+315
+00:29:52,300 --> 00:29:55,620
+thì nó, cái độ
+
+316
+00:29:55,620 --> 00:29:58,480
+AOC của nó là 84,84%
+
+317
+00:29:59,360 --> 00:30:00,000
+đối
+
+318
+00:30:00,000 --> 00:30:10,090
+đối với chỉnh nhánh về thời gian thì chỉ số của nó là cao hơn là 97,65% và test chéo thì nó cũng là cao hơn
+
+319
+00:30:10,090 --> 00:30:14,880
+thử lại đối với các nhánh với giá trị là t bằng 3, t bằng 4, t bằng 5
+
+320
+00:30:15,380 --> 00:30:20,460
+bởi vì trên bộ dữ liệu File Forensic này thì em cũng trình bày sơ quan một chút là
+
+321
+00:30:20,460 --> 00:30:26,630
+trong bộ dữ liệu này thì nó có 5 phương pháp Deepfake
+
+322
+00:30:26,630 --> 00:30:32,160
+Thì ở trong đấy thì em sử dụng 4 cái phương pháp Deepfake
+
+323
+00:30:32,160 --> 00:30:35,910
+Còn 1 cái phương pháp là Face to Face
+
+324
+00:30:35,910 --> 00:30:37,110
+Em không sử dụng
+
+325
+00:30:37,110 --> 00:30:39,910
+Bởi vì là trong tất cả các cái bài báo
+
+326
+00:30:39,910 --> 00:30:42,410
+Người ta cũng chỉ sử dụng 4 cái phương pháp Deepfake thôi
+
+327
+00:30:42,410 --> 00:30:45,540
+Và trong 4 cái phương pháp Deepfake đấy
+
+328
+00:30:45,540 --> 00:30:51,440
+Thì mỗi 1 cái video thì nó tương ứng với 1 cái video Deepfake
+
+329
+00:30:51,440 --> 00:30:56,590
+Thì có nghĩa là em sẽ có 4.000 cái video của tập Fake
+
+330
+00:30:56,590 --> 00:30:59,870
+Và 1.000 video của tập Real
+
+331
+00:30:59,870 --> 00:31:07,530
+Sau đấy thì em tiền xử lý dữ liệu đối với mỗi video thì em chia thành 15 cái khung hình là tối đa
+
+332
+00:31:07,530 --> 00:31:14,820
+Và để mà thực hiện test nên là nó sẽ nhanh hơn rất nhiều so với là cái bộ dữ liệu DF, DC
+
+333
+00:31:14,820 --> 00:31:18,080
+Cái bộ dữ liệu có rất là nhiều các cái video
+
+334
+00:31:19,090 --> 00:31:22,720
+Thì sau khi mà test xong các cái nhánh như thế nào
+
+335
+00:31:22,720 --> 00:31:28,500
+Thì em thấy là đối với cái nhánh mà chỉ cần sử dụng về mặt thời gian thôi
+
+336
+00:31:28,500 --> 00:31:33,720
+thì nó cũng đáp ứng được cái độ hiệu quả rồi.
+
+337
+00:31:35,940 --> 00:31:45,960
+Cho cái bệnh bộ này cũng như là test lại đối với cái bộ dữ liệu DC lại
+
+338
+00:31:45,960 --> 00:31:51,060
+thì thậm chí là chỉ mặt thời gian nó cũng còn tôn hơn.
+
+339
+00:31:51,260 --> 00:31:59,570
+Thì cũng chính vì như thế em cũng xin phép thầy là em sẽ bỏ cái mô hình hai nhánh đi
+
+340
+00:31:59,570 --> 00:32:03,410
+Và sẽ chỉ sử dụng cánh đánh về mặt thời gian
+
+341
+00:32:03,410 --> 00:32:05,980
+Đấy là cái thứ nhất
+
+342
+00:32:05,980 --> 00:32:10,340
+Đấy là cái thứ nhất
+
+343
+00:32:10,340 --> 00:32:11,880
+Để em sẽ trình bày tiếp
+
+344
+00:32:14,520 --> 00:32:20,460
+Thì em cũng đang nghiên cứu rất là nhiều các cái cách
+
+345
+00:32:21,100 --> 00:32:23,100
+Để xem thử xem là có thể kết hợp
+
+346
+00:32:23,100 --> 00:32:26,580
+Sử dụng cái cơ chế Adaptive Routing đấy hay là không
+
+347
+00:32:26,580 --> 00:32:31,820
+Thì em nghĩ là để mà sử dụng cái cơ chế Adaptive Routing
+
+348
+00:32:31,820 --> 00:32:36,680
+thì có nghĩa là cái điểm yếu của cái nhánh thời gian này nó là gì
+
+349
+00:32:36,680 --> 00:32:44,000
+thì lúc đấy mới cần một cái nhánh nữa để mà bổ trợ cho cái nhánh thời gian
+
+350
+00:32:44,000 --> 00:32:48,410
+sau đấy thì em cũng thử rất là nhiều các cái trường hợp
+
+351
+00:32:48,410 --> 00:32:52,170
+để mà đánh giá cái độ tim cậy của mô hình của cái nhánh thời gian như thế nào
+
+352
+00:32:52,170 --> 00:32:55,990
+thì đối với cái độ tim cậy đó thì tí giờ em sẽ trình bày sau
+
+353
+00:32:55,990 --> 00:33:09,230
+thì đối với cái mô hình mà chỉ có cái nhánh thời gian
+
+354
+00:33:09,230 --> 00:33:18,510
+em cũng thử huấn luyện lại nó huấn luyện mấy lần thì cái cái kết quả nó cũng không không khác quá
+
+355
+00:33:18,510 --> 00:33:26,730
+nhiều so với lại cái lần lần trước với lại với lại cái cái việc huấn luyện với các cái cái cái chỉ số
+
+356
+00:33:26,730 --> 00:33:34,280
+như vậy có nghĩa là cái chỉ số xít mỗi một lần khi mà thực hiện huấn luyện kể cả là nó khác nhau thì
+
+357
+00:33:34,280 --> 00:33:36,020
+thì nó vẫn cho các kết quả như thế
+
+358
+00:33:36,020 --> 00:33:39,420
+Đó là chiều DFDC mà thử ở trên CELEB
+
+359
+00:33:39,420 --> 00:33:41,100
+thử xem Face Forensics đúng không?
+
+360
+00:33:41,180 --> 00:33:41,580
+Vâng
+
+361
+00:33:41,580 --> 00:33:48,370
+Thì đối với lại cái bộ DFDC này nó chủ yếu là
+
+362
+00:33:48,370 --> 00:33:52,070
+là nó có 2 cái phương pháp Deepfake thôi
+
+363
+00:33:52,380 --> 00:33:57,160
+còn lại là đối với cái bộ dữ liệu Face Forensics này nó có 4 cái phương pháp
+
+364
+00:33:57,160 --> 00:33:59,980
+còn lại là cái bộ dữ liệu CELEB DF này nó
+
+365
+00:33:59,980 --> 00:34:02,660
+chỉ có 1 cái loại phương pháp Face Squat thôi
+
+366
+00:34:02,660 --> 00:34:06,100
+Thì chính vì như thế này là đối với lại cái bộ dữ liệu
+
+367
+00:34:06,100 --> 00:34:15,430
+mà dfdc này khi mà trên ở trên nó và test ở trên cái bộ dữ liệu df này thì bởi vì là cái cái cái
+
+368
+00:34:15,430 --> 00:34:22,960
+dữ liệu từ cái bộ dữ liệu dfdc nó rất là lớn có rất là nhiều các cái dạng đích phách và nó nó cũng
+
+369
+00:34:22,960 --> 00:34:30,200
+bao phủ với các cái dạng của cái df này gần như thế nên là khi mà em thử trên lại chỉ thấy mô
+
+370
+00:34:30,200 --> 00:34:44,340
+mô hình về mặt thời gian thì cái AUC của nó còn vượt hơn so với lại cái lần trước thử nghiệm. Đấy là 95,13%, trước là 93, mấy?
+
+371
+00:34:44,560 --> 00:34:45,900
+Của cái mô hình CAT đó?
+
+372
+00:34:46,760 --> 00:34:52,120
+Vâng, đây. Đây là mô hình CAT đúng không?
+
+373
+00:34:52,580 --> 00:34:59,700
+Trước khi mà em thử thì đối với lại cái mô hình LINE thì có nghĩa là cái...
+
+374
+00:34:59,700 --> 00:35:00,340
+90,95
+
+375
+00:35:01,410 --> 00:35:02,740
+93,89
+
+376
+00:35:03,880 --> 00:35:10,340
+93,89 là khi mà trên ở trên cái bộ dữ liệu dc và test ở trên cái bộ dữ liệu tf3 đúng không?
+
+377
+00:35:10,360 --> 00:35:22,430
+Đúng rồi, cái bộ tf3. Bây giờ nếu như mà chỉ dùng một cái môn về thói thang thì em thử và test lại thì nó cao hơn 95,13
+
+378
+00:35:22,430 --> 00:35:34,460
+Và đối với lại trên ở trên cái bộ dữ liệu này là test ở trên cái bộ dữ liệu forensic thì cái AUC của nó là 76,62
+
+379
+00:35:35,520 --> 00:35:50,340
+Cái này thì nó cũng dễ hiểu thôi bởi vì là cái bộ dữ liệu này DFDC nó chỉ có 2 cái phương pháp mà Face Forensics nó có 4 cái phương pháp Big Face.
+
+380
+00:35:50,440 --> 00:36:09,360
+Em cũng thử để mà huấn luyện ở trên cái bộ dữ liệu Face Forensics với 1.000 cái video thực và 4.000 cái video giảm với tỷ lệ chia ra 70-15-15.
+
+381
+00:36:09,360 --> 00:36:12,180
+thì khi mà thử nghiệm
+
+382
+00:36:12,180 --> 00:36:13,880
+thì trên nội tập
+
+383
+00:36:13,880 --> 00:36:16,320
+thì nó, cái AUC của nó là 98.14
+
+384
+00:36:16,320 --> 00:36:18,400
+ACC là
+
+385
+00:36:18,400 --> 00:36:20,240
+94.86
+
+386
+00:36:21,560 --> 00:36:22,860
+và khi mà test
+
+387
+00:36:22,860 --> 00:36:24,200
+ở trên các cái
+
+388
+00:36:24,200 --> 00:36:25,960
+bộ dữ liệu của CLFDS
+
+389
+00:36:25,960 --> 00:36:29,220
+thì nó cho cái độ chính xác là 86.62
+
+390
+00:36:29,220 --> 00:36:31,060
+thì báo cáo thầy
+
+391
+00:36:31,060 --> 00:36:32,900
+đối với là cái việc cho cái độ chính xác
+
+392
+00:36:32,900 --> 00:36:34,160
+86.62 này
+
+393
+00:36:34,160 --> 00:36:35,720
+nó đang là
+
+394
+00:36:37,430 --> 00:36:38,710
+tốt nhất cho đến
+
+395
+00:36:38,710 --> 00:36:39,870
+kết quả bây giờ
+
+396
+00:36:39,870 --> 00:36:54,500
+Đối với bài IST VUVT trên tạp chí IAEA, độ chính xác của nó và test liên tập như thế mới chỉ lên được 84,1% thôi.
+
+397
+00:36:56,340 --> 00:37:09,880
+Nếu test trên mộ dữ liệu File Forensic này và test trên mộ dữ liệu CLFDF thì hiện nay mô hình này đang cho kết quả khả quan nhất.
+
+398
+00:37:09,880 --> 00:37:17,380
+Dĩ nhiên là ở trong cái nội tập thì là nó chỉ số nó thấp hơn trong các cái bài báo kia
+
+399
+00:37:17,760 --> 00:37:21,920
+Khi mà người ta trên ở trên cái bộ dữ liệu Forensic và test ở trên chính cái bộ dữ liệu đấy
+
+400
+00:37:21,920 --> 00:37:25,700
+Thì cái kết quả của nó chỉ 99,9 mấy
+
+401
+00:37:25,700 --> 00:37:30,340
+Thế nhưng mà thực tế thì dù là nó có hơn 1-2% đi chăng nữa
+
+402
+00:37:30,340 --> 00:37:32,480
+Nhưng mà cái đấy nó không quá là quan trọng
+
+403
+00:37:32,480 --> 00:37:36,620
+Quan trọng là test ở những cái bộ dữ liệu mà chưa nhìn thấy
+
+404
+00:37:38,840 --> 00:37:49,860
+Và test ở trên bộ dữ liệu ZFDLC này với số lượng video rất lớn thì nó cho độ chính xác 74,5%.
+
+405
+00:37:50,770 --> 00:37:55,090
+Như thế này thì nó cũng là bình thường, cũng là dễ hiểu.
+
+406
+00:37:55,170 --> 00:37:58,730
+Nghĩa là nó dễ hiểu bởi vì cái bộ dữ liệu Face Forex này của em,
+
+407
+00:37:58,790 --> 00:38:04,400
+cái thứ nhất là số lượng video của em là em chỉ cắt có 15 cái video trên giây thôi.
+
+408
+00:38:05,240 --> 00:38:10,600
+Cái thứ hai là số lượng video ít hơn rất nhiều so với bộ dữ liệu kia
+
+409
+00:38:10,810 --> 00:38:15,590
+Nếu như mà cái này của em mà sử dụng nhiều các cái video để huấn luyện hơn
+
+410
+00:38:15,590 --> 00:38:19,750
+Và em cắt nhiều hơn thì có thể là các cái độ chính xác này nó còn cao hơn nữa
+
+411
+00:38:19,750 --> 00:38:33,630
+Đây là cái kết quả thử nghiệm về cái việc là
+
+412
+00:38:34,190 --> 00:38:41,780
+Vậy thì cái phương pháp nào, cái phương pháp mà sau khi mà thử nghiệm nó lại kém
+
+413
+00:38:41,780 --> 00:38:54,200
+Thứ nhất, đối với phương pháp Bitfake và Faceswap, hai phương pháp này trong hai bộ dữ liệu là NFDC và Face Forensics đều có
+
+414
+00:38:54,890 --> 00:39:04,110
+Trong hai phương pháp này, khi mà em trên và test trên các bộ dữ liệu này, thì gần như là các phương pháp này mắc rất là tốt
+
+415
+00:39:04,110 --> 00:39:14,630
+Chính là đối với trong mô hình bằng thời gian này, trên bộ dữ liệu Face Forensics này nó mắc tốt hơn rất nhiều
+
+416
+00:39:14,630 --> 00:39:18,740
+so với mô hình dữ liệu dc kia
+
+417
+00:39:19,310 --> 00:39:24,780
+tuy nhiên đối với mô hình trên dữ liệu dc
+
+418
+00:39:25,360 --> 00:39:28,160
+khi mà test trên các phương pháp
+
+419
+00:39:28,160 --> 00:39:32,040
+face to face và neutral textural
+
+420
+00:39:32,040 --> 00:39:34,840
+thì kết quả của nó rất là kém
+
+421
+00:39:34,840 --> 00:39:36,740
+có nghĩa là nó bỏ sót rất là nhiều
+
+422
+00:39:37,250 --> 00:39:42,900
+tuy nhiên đối với kết quả trên dữ liệu face to face
+
+423
+00:39:42,900 --> 00:39:49,160
+và bắt các phép đối với các phương pháp này
+
+424
+00:39:49,600 --> 00:39:52,660
+thì nó sẽ cho các kết quả khá tốt
+
+425
+00:39:52,660 --> 00:39:54,240
+như vậy có nghĩa là
+
+426
+00:39:55,470 --> 00:39:58,110
+sau khi thử các phương pháp
+
+427
+00:39:58,110 --> 00:39:59,770
+ở đây thì thấy rằng
+
+428
+00:40:00,000 --> 00:40:08,830
+đối với mô hình hiện tại của em, việc phủ đủ các loại phương pháp này cũng khá là tốt rồi.
+
+429
+00:40:10,350 --> 00:40:20,840
+Đấy như vậy có nghĩa là đối với chỉ số hiện nay là nó vẫn còn thiếu, có nghĩa là nó chủ yếu có thể là do độc phủ dữ liệu,
+
+430
+00:40:20,920 --> 00:40:27,970
+có nghĩa là dữ liệu trên nó hơi ít, chứ không phải là do kiến trúc của mô hình nó yếu.
+
+431
+00:40:27,970 --> 00:40:43,260
+Nhưng mà nếu mà dừng lại ở cái mô hình chỉ có mỗi tem pro thôi
+
+432
+00:40:43,260 --> 00:40:47,530
+Thì quả thực là như hôm trước em có báo cáo thầy Trung
+
+433
+00:40:47,530 --> 00:40:51,730
+Và thầy Trung bảo là cái điểm đặc biệt ở sau mô hình của em
+
+434
+00:40:51,730 --> 00:40:53,370
+Nó chính là cái thành phần adaptive
+
+435
+00:40:54,240 --> 00:40:56,920
+Bây giờ nếu mà em đề xuất bỏ cái thành phần adaptive đi
+
+436
+00:40:56,920 --> 00:41:00,060
+Thì cái mô hình nó chỉ còn lại như kiểu là cắt ghép thôi
+
+437
+00:41:00,060 --> 00:41:03,750
+Nó không thực sự là có ý nghĩa đối với khoa học
+
+438
+00:41:03,750 --> 00:41:06,830
+Thì cũng chính vì như thế nên em cũng đã tìm cách này
+
+439
+00:41:06,830 --> 00:41:09,480
+xem thử xem là có cái hướng như thế nào
+
+440
+00:41:09,480 --> 00:41:11,570
+có thể vẫn giữ cái mô hình như thế
+
+441
+00:41:11,570 --> 00:41:13,110
+vì quả thực là cái mô hình đấy
+
+442
+00:41:14,260 --> 00:41:16,460
+cũng là cái mô hình không hẳn là do
+
+443
+00:41:16,460 --> 00:41:18,780
+may mắn mà em thử nghiệm rất là nhiều
+
+444
+00:41:18,780 --> 00:41:20,460
+và trên rất là nhiều lần
+
+445
+00:41:20,460 --> 00:41:22,540
+test rất là nhiều thì nó mới ra được
+
+446
+00:41:22,540 --> 00:41:23,260
+cái kết quả như vậy
+
+447
+00:41:23,260 --> 00:41:26,720
+và quả thực cho đến bây giờ thì kết quả nó khá là cao
+
+448
+00:41:26,720 --> 00:41:28,500
+chính vì như thế nên bây giờ
+
+449
+00:41:28,500 --> 00:41:31,020
+em sẽ thử với cái trường hợp
+
+450
+00:41:31,020 --> 00:41:33,000
+một là em giảm tham số
+
+451
+00:41:33,000 --> 00:41:33,780
+của cái mô hình đi
+
+452
+00:41:33,780 --> 00:41:37,560
+kể cả là có sử dụng có mỗi cái mô hình về mặt thời gian thôi
+
+453
+00:41:37,560 --> 00:41:46,460
+thì cũng tìm cách giảm cái tham số. Và ở đây thì em cũng đã thử giảm theo hai mấy cái cách như thế này.
+
+454
+00:41:47,270 --> 00:41:56,900
+Một là em thử nghiệm thay cái thành phần backbone. Có nghĩa là hiện nay cái backbone thì em đang sử dụng cái thành phần là
+
+455
+00:41:56,900 --> 00:42:05,930
+Connect Tiny. Thay cái thành phần backbone thành cái Connect Tiny 2. Trong cái Connect Tiny 2 thì nó có nhiều các cái phiên bản.
+
+456
+00:42:05,930 --> 00:42:13,910
+Ở trong đấy thì có cái phiên bản khá là nhanh, đó là Femto, nó khá là nhanh
+
+457
+00:42:13,910 --> 00:42:17,770
+Cái cũ của em là cái 104 kia đúng không? Tham số, 104 triệu tham số
+
+458
+00:42:17,770 --> 00:42:22,650
+Cái cũ là cái đầu tiên này, 104,5 triệu tham số
+
+459
+00:42:22,650 --> 00:42:36,500
+Cái đấy thì sử dụng cái mô hình là con neck tiny với cái số chiều, cái đêm của cái thành phần transformer là 1024 và nét là 6
+
+460
+00:42:36,500 --> 00:42:40,370
+Đấy thì nó là 104,5 triệu tham số
+
+461
+00:42:40,370 --> 00:42:45,470
+Đây là các kết quả thử nghiệm trên các tập sử dụng.
+
+462
+00:42:46,580 --> 00:43:27,200
+Thứ nhất, em vẫn sử dụng Backbone Connect Tiny và giảm giá trị Dim từ 1024 xuống 512.
+
+463
+00:43:27,880 --> 00:43:31,300
+Số lượng tham số của nó giảm xuống còn 47,3 triệu tham số.
+
+464
+00:43:32,790 --> 00:43:39,670
+Lần thử đó, kết quả của AUC 98,08% và các chỉ số khá tốt.
+
+465
+00:43:39,670 --> 00:43:43,070
+Tuy nhiên là sau đấy thì em thử lại vài lần nữa
+
+466
+00:43:43,070 --> 00:43:45,710
+3 lần nữa với lại cái chip khác
+
+467
+00:43:45,710 --> 00:43:49,410
+Thì nó phá vỡ mất cái trúc của cái mô hình
+
+468
+00:43:49,410 --> 00:43:51,820
+Cái AUC nó không còn được như thế này
+
+469
+00:43:51,820 --> 00:43:55,500
+Nó chỉ còn có 50 mấy, 60 mấy phần trăm thôi
+
+470
+00:43:55,800 --> 00:43:59,440
+Nên là cái này nó chỉ là 1 cái lần thử may mắn
+
+471
+00:43:59,440 --> 00:44:01,560
+Được cái chỉ số này thôi
+
+472
+00:44:01,560 --> 00:44:06,240
+Tiếp theo nữa thì em giảm tiếp
+
+473
+00:44:06,240 --> 00:44:09,990
+Đối với cái DIMM là 384
+
+474
+00:44:09,990 --> 00:44:11,690
+Xuống cái số chiều 384
+
+475
+00:44:11,690 --> 00:44:12,930
+Thì nó giảm tiếp
+
+476
+00:44:12,930 --> 00:44:17,830
+thì nó cho các cái chỉ số cũng khá là ổn
+
+477
+00:44:17,830 --> 00:44:20,220
+nhưng mà nó cũng chưa thực sự tốt lắm
+
+478
+00:44:20,220 --> 00:44:25,810
+và em cũng thử đối với nhiều các lớp backbone khác nữa
+
+479
+00:44:25,810 --> 00:44:30,280
+nhưng mà sau quá trình thử nghiệm trên xong
+
+480
+00:44:30,280 --> 00:44:32,860
+thì nó cũng không thực sự tốt
+
+481
+00:44:32,860 --> 00:44:35,360
+nghĩa là kết quả nó không đáng tin, nó không đưa vào bên trong này
+
+482
+00:44:36,990 --> 00:44:41,680
+và cái cuối cùng là đối với thành phần backbone
+
+483
+00:44:41,680 --> 00:44:55,360
+là con Connect V2 thì nó có cái phiên bản rất là nhẹ là femto và cái chỉ số msdim thì giảm xuống
+
+484
+00:44:55,360 --> 00:45:04,230
+còn 384 và depth giảm xuống 3 thì sau khi mà em trên khá là là nhiều lần thì cái cái lần thứ nhất
+
+485
+00:45:04,230 --> 00:45:16,350
+là nó chỉ số tham số nó là 10,3 triệu với cái AUC là 94,54% test ở trên cái tập dữ liệu chéo là nó 82,59%
+
+486
+00:45:16,350 --> 00:45:25,190
+cái này cũng khá là là ổn mà tham số nó chỉ có 10,3 triệu tham số thôi và sau đấy thì em đã thử lại
+
+487
+00:45:25,190 --> 00:45:33,340
+với vài lần nữa với các cái cái cái cái cái ship cũng khác nhau thì đối với là chuyên thử được với
+
+488
+00:45:33,340 --> 00:45:51,050
+Với MSDIMM là 512, có nghĩa là cái chỉ số 47,3 triệu tham số này thì nó khá là không ổn định, nó chỉ rơi vào 55,79 cộng 9,71, có nghĩa là nó chỉ rơi vào hơn 60%, hơn 50, hơn 60% thôi.
+
+489
+00:45:51,330 --> 00:45:53,190
+Như thế có nghĩa là nó suy biến khá nhiều.
+
+490
+00:45:53,690 --> 00:46:00,330
+Nhưng mà đối với lại cái này thì trên thì nó chỉ có một ship là nó không được như mong đợi thôi.
+
+491
+00:46:00,330 --> 00:46:09,200
+Còn lại là các chỉ số khác của nó xoay quanh các ngưỡng như truyền ban đầu
+
+492
+00:46:09,200 --> 00:46:16,110
+Nên đối với mô hình này em thấy nó khá là...
+
+493
+00:46:19,100 --> 00:46:25,120
+Nếu như lựa chọn mô hình như thế này thì với các chỉ số tham số nhỏ
+
+494
+00:46:25,120 --> 00:46:26,930
+Thời gian truyền của nó nhanh
+
+495
+00:46:27,370 --> 00:46:32,490
+Thì vẫn có thể xem xét để có thể xác định
+
+496
+00:46:32,490 --> 00:46:36,220
+Đây là một cái mô hình nhỏ cho việc là sử dụng đối với các cái máy nhỏ
+
+497
+00:46:36,220 --> 00:46:38,280
+Thì đấy cũng có thể là một cái hướng
+
+498
+00:46:38,280 --> 00:46:44,400
+Một cái hướng tiếp theo nữa
+
+499
+00:46:44,400 --> 00:46:47,170
+Đấy là về cái độ tin cậy của mô hình
+
+500
+00:46:47,170 --> 00:46:50,650
+Thì báo cáo thầy thì trong cái quá trình nghiên cứu thì em thấy là
+
+501
+00:46:50,650 --> 00:46:53,260
+Nó cũng mới có một cái bài báo
+
+502
+00:46:53,260 --> 00:46:55,480
+Liên quan tới cái độ tin cậy của mô hình
+
+503
+00:46:55,480 --> 00:46:59,130
+Thì bây giờ đối với là các cái mô hình mà nó dự đoán
+
+504
+00:46:59,130 --> 00:47:04,710
+Nhưng mà liệu là cái kết quả dự đoán của nó là có đúng hay là sai
+
+505
+00:47:04,710 --> 00:47:06,300
+Thì cũng không ai biết được
+
+506
+00:47:06,300 --> 00:47:08,700
+Thì có nghĩa là mình sẽ phải đo
+
+507
+00:47:08,700 --> 00:47:11,240
+Đo cái độ tự tin
+
+508
+00:47:11,240 --> 00:47:12,880
+Cái độ chắc chắn của cái kết quả đó
+
+509
+00:47:12,880 --> 00:47:15,380
+Đây cũng là một cái hướng
+
+510
+00:47:15,380 --> 00:47:17,760
+Em thấy là khá là tốt
+
+511
+00:47:19,040 --> 00:47:20,620
+Trong cái quá trình này
+
+512
+00:47:20,620 --> 00:47:23,140
+Thì em thấy là có một cái bài báo
+
+513
+00:47:23,140 --> 00:47:24,040
+Của Sama
+
+514
+00:47:24,040 --> 00:47:25,640
+Cộng sự năm 2026
+
+515
+00:47:26,400 --> 00:47:27,640
+Trên cái ARXIV
+
+516
+00:47:27,640 --> 00:47:30,260
+Cái bài báo
+
+517
+00:47:34,260 --> 00:47:37,030
+Bài báo này thì
+
+518
+00:47:37,030 --> 00:47:41,320
+Của các thác giả
+
+519
+00:47:41,320 --> 00:47:44,100
+Toàn là thành viên của IEEE thôi
+
+520
+00:47:51,340 --> 00:47:53,020
+Ngoài cái 6 còn với 7,8 thì sao?
+
+521
+00:47:54,480 --> 00:47:55,320
+6 thôi
+
+522
+00:47:55,740 --> 00:47:56,640
+Thì quay lại chơi đi
+
+523
+00:47:56,640 --> 00:47:58,870
+Cái này nó lao man lắm
+
+524
+00:47:58,870 --> 00:48:00,430
+Mình đem nhiều quá thời gian lắm
+
+525
+00:48:01,560 --> 00:48:02,340
+Mình đặt lý như thế này
+
+526
+00:48:02,340 --> 00:48:02,860
+Tức là
+
+527
+00:48:04,400 --> 00:48:05,720
+Mình quay lại cái mô hình cấp
+
+528
+00:48:09,390 --> 00:48:10,970
+Đó, cái này nhé
+
+529
+00:48:10,970 --> 00:48:12,790
+Bây giờ mình hỏi Tuấn này tức là
+
+530
+00:48:14,150 --> 00:48:16,410
+Để em đi theo cái hướng là 1 nhánh thôi
+
+531
+00:48:16,410 --> 00:48:19,240
+Rồi xoay sổ, cung gian
+
+532
+00:48:19,240 --> 00:48:21,580
+Đi theo 1 nhánh là thời gian
+
+533
+00:48:21,580 --> 00:48:23,320
+Và đi theo cả 2 nhánh
+
+534
+00:48:23,320 --> 00:48:24,040
+Vâng
+
+535
+00:48:24,040 --> 00:48:28,080
+Thì đều là những tổng cốc mới hay là không mới?
+
+536
+00:48:28,200 --> 00:48:28,600
+Đấy
+
+537
+00:48:29,020 --> 00:48:29,560
+Đều là mới
+
+538
+00:48:30,180 --> 00:48:32,700
+Mới chỗ nào? Ví dụ đi theo hướng thời gian thì mới là chỗ nào?
+
+539
+00:48:33,290 --> 00:48:41,650
+Đi theo hướng thời gian thì cái thứ nhất là đối với cái mô hình Gen Convid là người ta sử dụng cái nhánh về con Net Tiny này
+
+540
+00:48:41,650 --> 00:48:45,810
+Và sau đấy là kết hợp với một cái Transformer Handcoder
+
+541
+00:48:46,270 --> 00:48:54,930
+Nhưng mà cái Transformer Handcoder đấy nó không phải là bốc từng các cái video để mà so sánh đặc trưng của các cái video đó
+
+542
+00:48:55,600 --> 00:49:02,090
+Mà người ta là so sánh đặc trưng ở trong một cái video thôi
+
+543
+00:49:02,090 --> 00:49:04,790
+Nghĩa là nó gần gần với cái nhánh về mặt không gian này
+
+544
+00:49:04,790 --> 00:49:06,470
+Nhưng mà nó hơi khác tí
+
+545
+00:49:06,470 --> 00:49:12,050
+Người ta cũng là đối với cái bài báo đó người ta cũng sử dụng cái tài phần hybrid embed này
+
+546
+00:49:13,470 --> 00:49:13,870
+Để...
+
+547
+00:49:13,870 --> 00:49:15,450
+Có cái hình của...
+
+548
+00:49:19,010 --> 00:49:31,340
+Giờ tiếp là cái này để một miệng lần nữa thôi trước khi ta bán tiếp
+
+549
+00:50:11,500 --> 00:50:14,500
+Đây là sư đồ của họ đúng không?
+
+550
+00:50:16,280 --> 00:50:17,420
+Họ cũng dùng cái gì?
+
+551
+00:50:17,980 --> 00:50:18,640
+Con venex
+
+552
+00:50:18,640 --> 00:50:22,510
+Đúng rồi
+
+553
+00:50:22,510 --> 00:50:25,040
+Nhưng mà ở đây họ có rất nhiều con venex
+
+554
+00:50:25,040 --> 00:50:27,560
+Vâng đúng rồi
+
+555
+00:50:27,560 --> 00:50:35,860
+Mỗi một cái khối xanh da trời xanh lá cây đều là con venex cả đúng không?
+
+556
+00:50:35,900 --> 00:50:36,380
+Đúng rồi
+
+557
+00:50:38,970 --> 00:50:41,850
+Còn cái phần ở trước của nó chỉ là thằng tái tạo ảnh
+
+558
+00:50:41,850 --> 00:50:42,950
+Tái tạo ảnh
+
+559
+00:50:43,190 --> 00:50:44,070
+Tái tạo ảnh đúng không?
+
+560
+00:50:44,230 --> 00:50:44,630
+Đúng rồi
+
+561
+00:50:44,630 --> 00:50:48,410
+Và họ cũng đưa đầu vào họ là chỉ là một ảnh đúng không?
+
+562
+00:50:48,630 --> 00:50:51,350
+Đúng rồi, đầu vào là một frame
+
+563
+00:50:51,350 --> 00:50:52,530
+À một frame thôi
+
+564
+00:50:52,530 --> 00:50:53,110
+Vâng
+
+565
+00:50:53,110 --> 00:50:59,100
+Như vậy là họ có 1,2,3,4,5,6,7,8 khối Convnex
+
+566
+00:50:59,100 --> 00:51:03,860
+À 4 khối Convnex và 4 khối Swagchamper đúng không ạ?
+
+567
+00:51:03,880 --> 00:51:04,440
+Đúng rồi
+
+568
+00:51:04,440 --> 00:51:06,600
+Đấy, bây giờ Convnex xem cái slide của em
+
+569
+00:51:06,600 --> 00:51:17,410
+Thì ở đây của em là em sẽ có 1 cái Convnex
+
+570
+00:51:17,410 --> 00:51:22,810
+1 con Convnex, sau đó là em xích ra rất nhiều các frame
+
+571
+00:51:22,810 --> 00:51:25,060
+Tương tự như vậy ạ
+
+572
+00:51:25,060 --> 00:51:29,400
+Ra nhiều frame cho em đưa vào 1 cái Encoder
+
+573
+00:51:29,400 --> 00:51:34,580
+Cái encoder ở đây thì nó cũng coi như là một cái transformer nhưng mà dạng encoder thôi
+
+574
+00:51:34,580 --> 00:51:35,700
+Đúng không ạ?
+
+575
+00:51:35,760 --> 00:51:38,870
+Hoặc là Swipe transformer
+
+576
+00:51:40,410 --> 00:51:43,110
+Của mình là transformer nhưng mà dạng encoder thôi
+
+577
+00:51:43,110 --> 00:51:46,840
+Cái mô hình của họ nó chỉ tương tự như thế này
+
+578
+00:51:46,840 --> 00:51:48,420
+Nhưng mà nó chỉ đến đây thôi
+
+579
+00:51:48,420 --> 00:51:48,980
+Đúng rồi
+
+580
+00:51:48,980 --> 00:51:49,780
+Đúng rồi
+
+581
+00:51:49,780 --> 00:51:52,530
+Còn của em là thêm cái dạng này
+
+582
+00:51:52,530 --> 00:51:54,950
+Nhưng mà nó không có nhiều ý nghĩa
+
+583
+00:51:54,950 --> 00:51:57,300
+Có 4 cái
+
+584
+00:51:57,300 --> 00:51:59,720
+Đúng rồi
+
+585
+00:52:00,930 --> 00:52:01,830
+Mình có 1 thôi
+
+586
+00:52:02,360 --> 00:52:02,660
+Đúng chưa?
+
+587
+00:52:02,780 --> 00:52:11,380
+Mình có 1 thôi và mình xử nó nếu mà đi theo hướng special thì gần giống như họ
+
+588
+00:52:11,380 --> 00:52:14,030
+Mà từng cái một, đúng không ạ?
+
+589
+00:52:14,890 --> 00:52:18,540
+Vẫn đi theo hướng tempo thì mình xử lý đồng thời một số frame
+
+590
+00:52:18,540 --> 00:52:20,870
+Vâng, mình xử lý tất
+
+591
+00:52:24,620 --> 00:52:25,840
+Rồi, thế thì bây giờ như thế này
+
+592
+00:52:29,420 --> 00:52:31,600
+Cả 3 hướng này đều là đóng góp mới cả
+
+593
+00:52:35,190 --> 00:52:39,320
+Chứ không phải là người ta làm rồi
+
+594
+00:52:39,320 --> 00:52:45,450
+Đấy, và đây là Tuấn đã khẳng định là chưa từng ai làm như này cả
+
+595
+00:52:45,450 --> 00:52:50,340
+Cái đấy là chi tiết của lại em
+
+596
+00:52:50,340 --> 00:52:51,000
+Vâng
+
+597
+00:52:51,180 --> 00:52:53,180
+Thầy cũng nghĩ là chưa từng ai làm
+
+598
+00:52:54,330 --> 00:53:05,940
+Chưa từng ai làm. Thế nhưng mà cái chưa từng ai làm điều đấy cũng có nghĩa là cái góc của mình mới nhưng mà cái tính tuyệt phán nó chưa cao.
+
+599
+00:53:06,680 --> 00:53:11,860
+Ý của Thầy Trung nói trước là mình đang hiểu là tính tuyệt phán chưa cao thôi. Chứ không phải là một tính mới.
+
+600
+00:53:13,600 --> 00:53:22,050
+Hướng một là special. Nó là một cái mới thế nhưng mà so với người ta thì tính tuyệt phán chưa cao. Đúng không?
+
+601
+00:53:22,450 --> 00:53:26,750
+Đấy và mình chỉ là thay đổi các cấu trúc. Ví dụ là họ bốn phối thì mình phải có một phối.
+
+602
+00:53:26,750 --> 00:53:33,840
+Đấy, nhưng mà cái đấy chỉ có lẽ chỉ ở mức độ 1 bài báo của thằng
+
+603
+00:53:37,330 --> 00:53:41,530
+Thì cái đó, nếu theo nước Spatial thì có vượt qua thằng của họ không?
+
+604
+00:53:43,980 --> 00:53:45,440
+Chỉ nước Spatial thôi cũng gặp
+
+605
+00:53:45,440 --> 00:54:03,010
+Vượt qua thằng này không? Đứt đầu?
+
+606
+00:54:22,440 --> 00:54:23,240
+99,90
+
+607
+00:54:23,240 --> 00:54:24,740
+Không vượt qua họ được không?
+
+608
+00:54:25,520 --> 00:54:28,940
+Không, nhưng mà đây họ ấy test trong nội tập
+
+609
+00:54:28,940 --> 00:54:32,000
+À nội tập, trong liên tập
+
+610
+00:54:32,000 --> 00:54:38,700
+Em cố gắng là đưa nó vào 1 cái bảng, cái slide sau mình dễ nhìn
+
+611
+00:55:20,280 --> 00:55:26,640
+99.90, 98.10
+
+612
+00:55:26,640 --> 00:55:34,410
+Không, nhưng mà cái này nó vẫn là nội tập
+
+613
+00:55:34,410 --> 00:55:39,490
+Bởi vì là so sánh như thế thì nó cũng...
+
+614
+00:55:39,490 --> 00:55:41,230
+Bên dưới, cross bên dưới, bảng 1
+
+615
+00:55:41,230 --> 00:55:42,230
+Ở đây, đây, đây
+
+616
+00:55:42,230 --> 00:55:45,550
+Một chút nhanh
+
+617
+00:55:45,550 --> 00:55:49,900
+Đây, 55.67
+
+618
+00:55:51,040 --> 00:55:55,140
+Tóm lại là rất tốt để coi nếu nó còn gốc đúng không?
+
+619
+00:55:55,540 --> 00:55:55,980
+Vâng
+
+620
+00:55:55,980 --> 00:55:58,220
+Đấy, cái quay lại slide đi
+
+621
+00:55:58,220 --> 00:56:02,200
+Cái này bây giờ liên tập nó, cái này nó là tốt nhất đấy
+
+622
+00:56:06,690 --> 00:56:10,070
+Nếu chỉ theo hướng không gian thì liên tập của em là bao nhiêu?
+
+623
+00:56:11,330 --> 00:56:14,190
+Chỉ theo hướng không gian thì liên tập của em là 86
+
+624
+00:56:16,110 --> 00:56:17,630
+Vâng, thì em bảo là hơn mà
+
+625
+00:56:22,000 --> 00:56:26,970
+Thứ nhất là đi theo hướng không gian
+
+626
+00:56:27,820 --> 00:56:32,530
+Hướng không gian thì quất vào tính mới nhưng tính vật phán nó không gian, đúng như thế
+
+627
+00:56:33,340 --> 00:56:36,940
+Đấy, thì đấy là một hướng này
+
+628
+00:56:36,940 --> 00:56:44,810
+Hướng thứ 2 là hướng thời gian. Theo Thuấn, khảo giác hiện nay đang là tốt nhất đúng không ạ?
+
+629
+00:56:45,090 --> 00:56:46,150
+Đang là tốt nhất.
+
+630
+00:56:46,880 --> 00:56:54,510
+Theo hướng thời gian, bây giờ cái đóng góp của em ngoài việc thay đổi bằng mô hình mới, mô hình khác so với Gencombit
+
+631
+00:56:54,510 --> 00:57:05,030
+Nhưng cái đóng góp của em tính tới là cả cái video. Và nó khác hẳn với Gencombit. Gencombit là thông tin chơi yếu tố của thời gian.
+
+632
+00:57:05,030 --> 00:57:13,930
+Vâng. Đấy. Thế thì về mặt đóng góp anh nghĩ là chắc là ok chứ ạ.
+
+633
+00:57:14,520 --> 00:57:22,120
+Tức là nó nói về hẳn cái nguyên thuộc tính rất khác. Đấy nó không phải thông gian nữa mà nó nguyên thuộc tính nó là yếu tố thời gian.
+
+634
+00:57:23,740 --> 00:57:35,430
+Đấy. Thế thì nếu mà em đảm bảo nó là thực sự là kết quả tốt trên 3 tập thì cái này hoàn toàn có thể xuất bản được.
+
+635
+00:57:35,530 --> 00:57:43,420
+Nhưng mà quan trọng là cái vấn đề của Tuấn ở đây thì nó không phải là vấn đề giấy.
+
+636
+00:57:44,910 --> 00:57:46,970
+Cái vấn đề của Tuấn nhất là vấn đề giải thích
+
+637
+00:57:49,020 --> 00:57:52,000
+Cái thứ hai là những study, những nghiên cứu bỏ đi
+
+638
+00:57:52,910 --> 00:57:54,870
+Đấy là của mình trước đây là nó khá là thiếu
+
+639
+00:57:56,130 --> 00:57:59,720
+Nó khá là thiếu cho nên là người ta không, người ta
+
+640
+00:58:00,220 --> 00:58:04,890
+Thầy cho nên là mình khi mình phản biệt ngoài báo
+
+641
+00:58:04,890 --> 00:58:08,040
+Thì thấy là nó không có những cái phân tích ảnh hưởng
+
+642
+00:58:09,050 --> 00:58:11,450
+Khi mà nó thế này, khi mà thằng này nó thế nào
+
+643
+00:58:11,450 --> 00:58:13,290
+Thì gần như không có
+
+644
+00:58:15,160 --> 00:58:18,580
+Rồi tại sao nó lại như thế thì gần như là không giải thích
+
+645
+00:58:18,580 --> 00:58:25,950
+Cái vấn đề của Tuấn, nhất là chủ đề cũng bản thân tổng bí tẩm người ta đã nhận xét như thế, thầy đã copy cho em rồi đúng không?
+
+646
+00:58:26,110 --> 00:58:26,630
+Vâng ạ.
+
+647
+00:58:26,710 --> 00:58:34,610
+Đấy. Thế thì, theo bộ path thầy đánh giá là kết quả như thế vẫn ok. Đấy, vẫn ok.
+
+648
+00:58:35,210 --> 00:58:39,130
+Thế nhưng mà tiếp theo là cái việc là cộng 2 thằng nào với nhau.
+
+649
+00:58:41,870 --> 00:58:48,940
+Về logic ấy, logic ta vẫn nghĩ rằng là nó phét cạn các trường hợp, đúng không ạ?
+
+650
+00:58:49,260 --> 00:58:49,520
+Vâng.
+
+651
+00:58:49,660 --> 00:58:52,780
+Về phét cạn trường hợp thì nó có thể xấu hơn 1 trường hợp này.
+
+652
+00:58:52,780 --> 00:58:57,300
+Đấy, về logic ý, còn số là tại sao thì mình phải giải thích
+
+653
+00:58:57,300 --> 00:59:02,480
+Thế thì cái số hơn đấy thì nó ở chỗ nào
+
+654
+00:59:03,700 --> 00:59:05,540
+Thì bây giờ có 2 trường hợp
+
+655
+00:59:05,540 --> 00:59:08,020
+Cộng lại, 1 là cộng cứng như em nói là cộng tpv3
+
+656
+00:59:08,020 --> 00:59:09,240
+Đúng không?
+
+657
+00:59:09,810 --> 00:59:11,870
+Đấy, cộng tpv3 thì em phải cân tích xem là
+
+658
+00:59:11,870 --> 00:59:13,890
+Khi tpv3 thì có bao...
+
+659
+00:59:14,510 --> 00:59:19,390
+Một số em đứng là về mặt thống kê là nó rơi vào nhánh nào
+
+660
+00:59:19,390 --> 00:59:26,370
+Còn lại thì nó rơi vào nhánh không gian này
+
+661
+00:59:26,370 --> 00:59:34,340
+Thế thì tại sao nó lại như vậy, có nghĩa là phần lớn nó rơi vào Temple of Paths
+
+662
+00:59:34,340 --> 00:59:36,400
+Cho nên nó không cải thiện thêm được cái gì là đúng
+
+663
+00:59:37,320 --> 00:59:40,460
+Và nó vẫn giữ được quy trì về cơ bản là cái hiệu năng giống nhau đúng không
+
+664
+00:59:41,500 --> 00:59:42,480
+Cái hiệu năng là giống nhau
+
+665
+00:59:42,480 --> 00:59:47,990
+Thế còn cái Euductive thì cái Euductive là tại sao nó lại như vậy
+
+666
+00:59:47,990 --> 00:59:53,200
+Thế thì có 2 hướng dẫn tại sao Euductive nó không hiệu quả
+
+667
+00:59:53,200 --> 00:59:58,550
+Một là bản chất cái vấn đề dữ liệu của em là phần lớn nó chạy vào Temple of Paths
+
+668
+00:59:58,550 --> 00:59:59,190
+Lấy
+
+669
+01:00:00,000 --> 01:00:13,340
+Thế thì có những trường hợp nào sát xuất rơi vào tempo loại thấp hơn, có thể rơi nhiều hơn vào phase 1 không?
+
+670
+01:00:13,840 --> 01:00:16,480
+Có, nhưng nó lại sai.
+
+671
+01:00:18,120 --> 01:00:23,860
+kể cả hai cái bộ dữ liệu thì bây giờ nếu như mà nó rơi vào cái hướng Spatial
+
+672
+01:00:24,370 --> 01:00:31,020
+thì nhưng mà khi mà rơi vào cái hướng đấy thì nó lại là thành cái dự báo sai, dự đoán sai
+
+673
+01:00:31,020 --> 01:00:38,690
+chính vì như thế nên là nếu như mà nó rơi nhiều vào cái hướng bên trên
+
+674
+01:00:38,690 --> 01:00:40,670
+thì cái kết quả của mô hình nó tụt xuống
+
+675
+01:00:40,670 --> 01:00:45,400
+nên nó rơi nhiều vào cái hướng bên dưới thì kết quả của mô hình nó tăng lên
+
+676
+01:00:45,400 --> 01:00:54,600
+còn lại là về bản chất thì hai cái đấy nó cho ra
+
+677
+01:00:54,600 --> 01:01:02,140
+Bây giờ mình quay lại đặc tính của bộ dữ liệu ấy, có bộ dữ liệu nào mà khả năng nó rơi vào cả hai thì nó phải năng nhau thôi.
+
+678
+01:01:04,000 --> 01:01:08,760
+Đấy thì biết bộ dữ liệu mà phần lớn nó rơi vào thêm 1W thì đúng là hướng dưới Adaptive này cũng có tác dụng.
+
+679
+01:01:10,340 --> 01:01:10,620
+Vâng.
+
+680
+01:01:13,870 --> 01:01:17,930
+Đấy, bây giờ mình phải đi sâu vào phương tích tại sao nó phải tụ tưởng bộ dữ liệu.
+
+681
+01:01:20,500 --> 01:01:20,780
+Vâng.
+
+682
+01:01:20,800 --> 01:01:29,920
+Ví dụ 3 hướng dữ liệu mà phần lớn nó rơi vào thêm 1W thì đúng là hướng dưới Adaptive cũng có tác dụng, đúng chứ anh?
+
+683
+01:01:29,920 --> 01:01:36,150
+Tại vì cái Adaptive ở đây là em đang là
+
+684
+01:01:38,100 --> 01:01:40,840
+Adaptive là chỉ theo số lượng frame
+
+685
+01:01:43,010 --> 01:01:51,770
+Nếu mà một cái video mà theo cái số lượng cái frame như vậy thì thường là nó sẽ nhiều
+
+686
+01:01:51,770 --> 01:01:55,930
+Chứ nó không phải là chỉ 1, 2, nó chỉ khá là ít thôi
+
+687
+01:01:55,930 --> 01:02:02,760
+Và hiện nay đối với các cái bộ dữ liệu của em thì trung bình là nó toàn là
+
+688
+01:02:15,590 --> 01:02:18,730
+Em chọn được 4 tham số cho mô hình hoặc máy đúng không?
+
+689
+01:02:20,360 --> 01:02:25,270
+Bao gồm là gì? Thứ nhất là Mil. Mil là thời gian đúng không?
+
+690
+01:02:27,300 --> 01:02:31,980
+Mil là thời gian hay Mil chính là số?
+
+691
+01:02:32,980 --> 01:02:40,330
+Có nghĩa là cái trung bình của đặc trưng của tất cả các khung hình
+
+692
+01:02:40,330 --> 01:02:45,460
+Đặc trưng của tất cả các khung hình mà nó tính toán được
+
+693
+01:02:45,460 --> 01:02:57,390
+Nhưng mà thật sự là nếu mà với cái chế này nó có thể thoát quá thì đến cái chỗ mà cái đồng da nó được thì em vẫn chọn cái đồng da nó là tên là theo tao mà.
+
+694
+01:02:57,470 --> 01:03:03,200
+Thầy đang ý chính là chỗ này này, ý chính là chỗ này là chỗ quan trọng.
+
+695
+01:03:03,770 --> 01:03:09,010
+Tao mà thì em để tao vòng vòng 2 đến vòng 3 thì chọn cái trên là vòng tao, vòng nhỏ 4 đến 3 là vòng dưới.
+
+696
+01:03:09,210 --> 01:03:17,650
+Không, nhưng mà cái này bây giờ nếu mà làm theo cái này thì sẽ không chọn tao nữa mà là nó chọn theo cái kết quả của cái này mà.
+
+697
+01:03:18,650 --> 01:03:19,610
+Đầu ra của nó là gì?
+
+698
+01:03:23,710 --> 01:03:25,860
+Đầu ra của nó là G
+
+699
+01:03:25,860 --> 01:03:28,360
+G là gì?
+
+700
+01:03:28,680 --> 01:03:30,940
+Z là gì?
+
+701
+01:03:31,240 --> 01:03:31,600
+T là gì?
+
+702
+01:03:33,290 --> 01:03:39,770
+T là các khung hình
+
+703
+01:03:39,770 --> 01:03:51,100
+Sigma của MLP của tổng 4 thằng này
+
+704
+01:03:55,340 --> 01:03:59,180
+Tóm lại là G quyết định là gì?
+
+705
+01:03:59,420 --> 01:04:00,720
+Nó sẽ đi theo nhánh nào?
+
+706
+01:04:04,110 --> 01:04:09,370
+Không phải đi theo nhánh nào mà nó lấy kết quả gì, nó lấy kết quả của cái gì
+
+707
+01:04:09,370 --> 01:04:10,930
+Nó đều phải chạy cả 2 nhánh đấy
+
+708
+01:04:10,930 --> 01:04:17,150
+Không, nó có 2 loại, cái loại chọn mềm ấy thì nó mới là đi theo 2 nhánh
+
+709
+01:04:17,150 --> 01:04:23,310
+Thì đi theo 2 nhánh thì nó sẽ tính, thật cái nhánh thứ nhất là tính cái cũng tính cái G như thế này
+
+710
+01:04:23,310 --> 01:04:25,470
+Chọn cứng thôi, chỉ có 1 nhánh thôi đúng không?
+
+711
+01:04:25,630 --> 01:04:26,950
+Đúng rồi, chọn cứng thì
+
+712
+01:04:26,950 --> 01:04:28,650
+Kết quả của em là sao anh đã chọn cứng không em ạ?
+
+713
+01:04:29,790 --> 01:04:31,510
+Cái của em ở đây đang là chọn mềm
+
+714
+01:04:36,940 --> 01:04:44,880
+Và chọn cứng thì nó không cao hơn. Em muốn thử về chọn cứng thì nó không cao.
+
+715
+01:04:45,100 --> 01:05:01,750
+Chọn mềm thì không thể chọn mềm. Chọn mềm cứu gì nó cũng chạy qua thời gian làm sao nó tốt hơn.
+
+716
+01:05:06,590 --> 01:05:10,850
+Bởi vì chọn mềm là kết quả phân loại của hai thằng đấy cộng trung bình lại với nhau đúng không?
+
+717
+01:05:10,850 --> 01:05:16,590
+Nhưng mà nhiều lúc là một số các chỉ số của nó lại cao hơn
+
+718
+01:05:16,590 --> 01:05:21,570
+Thì đến cái lúc đấy là cái gờ của cái nhánh trên nó là lớn hơn so với cái gờ ở bên dưới
+
+719
+01:05:21,570 --> 01:05:45,110
+Được, bởi vì là cái miền đặc định nó khác nhau
+
+720
+01:05:45,490 --> 01:05:48,350
+Đấy tôi xem trên miền thời gian, thằng kia là miền không gian
+
+721
+01:05:48,350 --> 01:05:52,560
+Đấy, còn cái thằng miền không gian thì nó mới làm đầu góc nhỏ
+
+722
+01:05:52,560 --> 01:05:54,140
+Vẫn làm đầu góc nhưng mà đầu góc nhỏ
+
+723
+01:05:54,660 --> 01:05:56,320
+Còn trên miền thời gian là đầu góc hoàn toàn mới
+
+724
+01:05:56,320 --> 01:06:01,770
+Đó, cái miền thời gian này nó có một cái bài như thế này
+
+725
+01:06:02,280 --> 01:06:05,080
+Chỉ sợ là em cũng chẳng bảo điều đấy thôi. Nhưng mà thằng có làm rồi đấy.
+
+726
+01:06:06,080 --> 01:06:08,280
+Không, có người làm rồi nhưng mà khác à.
+
+727
+01:06:08,440 --> 01:06:09,170
+Khác thế nào?
+
+728
+01:06:09,680 --> 01:06:10,000
+Đây.
+
+729
+01:06:10,120 --> 01:06:15,310
+Có thể là có người khảo sát được thằng này khác một lần không ạ?
+
+730
+01:06:27,640 --> 01:06:31,600
+Trên nền thời gian này có thằng làm đúng hay không mình thì nó góp nó nhỏ.
+
+731
+01:06:54,060 --> 01:06:59,730
+Thì cái bài báo này là nó cũng dựa trên cái ý tưởng của cái bài Gen Convid kia.
+
+732
+01:07:00,920 --> 01:07:05,920
+Nó cũng là đưa vào cái mô hình như thế nhưng mà nó bổ sung thêm một cái là 3D CNN vào bên trong này.
+
+733
+01:07:06,720 --> 01:07:09,220
+Để nó phân tích về cái yếu tố về mặt thời gian.
+
+734
+01:07:09,220 --> 01:07:12,850
+Sau đó nó đưa vào Componix và Swim
+
+735
+01:07:13,890 --> 01:07:18,620
+Như thế này không so sánh với nó
+
+736
+01:07:18,620 --> 01:07:20,090
+Có chứ ạ
+
+737
+01:07:20,090 --> 01:07:22,730
+Nó là thằng nào trong cái bài của em?
+
+738
+01:07:23,010 --> 01:07:24,170
+Đây ạ, 34
+
+739
+01:07:24,170 --> 01:07:24,890
+34 chứ
+
+740
+01:07:26,780 --> 01:07:33,380
+Nhưng mà ở trong này thì nó không so sánh liên tập
+
+741
+01:07:33,380 --> 01:07:38,560
+Ở trong này thì nó chỉ
+
+742
+01:07:38,560 --> 01:07:51,550
+Cô hiểu rồi.
+
+743
+01:07:52,670 --> 01:07:53,150
+Cái đi này.
+
+744
+01:07:53,370 --> 01:07:53,970
+Đấy là đây.
+
+745
+01:07:54,390 --> 01:07:54,910
+Trông ạ.
+
+746
+01:07:56,810 --> 01:07:58,110
+Elastic thì nó là Q1.
+
+747
+01:07:59,810 --> 01:08:01,970
+Temporal thì nó tương đương Q2, Q3.
+
+748
+01:08:03,340 --> 01:08:03,740
+Đấy.
+
+749
+01:08:03,760 --> 01:08:05,960
+Tức là ý là cái mức độ...
+
+750
+01:08:07,430 --> 01:08:07,830
+Cái...
+
+751
+01:08:08,830 --> 01:08:09,490
+Cái như vậy.
+
+752
+01:08:09,670 --> 01:08:14,510
+Cái Temporal đã làm rồi.
+
+753
+01:08:14,530 --> 01:08:16,270
+Cái khác.
+
+754
+01:08:19,360 --> 01:08:21,100
+Mà môi phải nhỏ hơn.
+
+755
+01:08:21,790 --> 01:08:22,190
+Vâng.
+
+756
+01:08:22,350 --> 01:08:22,630
+Đấy.
+
+757
+01:08:22,630 --> 01:08:33,590
+Môi của em tất cả đẹp như này.
+
+758
+01:08:33,650 --> 01:08:34,070
+Tức là...
+
+759
+01:08:34,070 --> 01:08:35,370
+Em đi từ...
+
+760
+01:08:35,370 --> 01:08:36,690
+Từ thằng...
+
+761
+01:08:36,690 --> 01:08:37,750
+Gas Convict nhá.
+
+762
+01:08:38,010 --> 01:08:38,410
+Vâng.
+
+763
+01:08:38,490 --> 01:08:40,130
+Xong em phải tiến nó theo hướng...
+
+764
+01:08:40,130 --> 01:08:40,910
+Nhánh 1 là Special.
+
+765
+01:08:42,760 --> 01:08:43,160
+Đấy.
+
+766
+01:08:43,420 --> 01:08:45,040
+Special và em thấy là nó...
+
+767
+01:08:45,040 --> 01:08:52,400
+Nó hơn đứt ngân viên bởi vì hiệu năng là nó cải tiến, thành tích là cải tiến hơn
+
+768
+01:08:55,490 --> 01:08:57,920
+Nhưng tham số nó lại nhỏ đi
+
+769
+01:09:01,320 --> 01:09:03,160
+Vì nhỏ đi này đáng kể nhé
+
+770
+01:09:03,160 --> 01:09:09,340
+Nhỏ này không chỉ có 105 triệu, cơ hội xuống 1,4 triệu nữa
+
+771
+01:09:09,340 --> 01:09:10,620
+Mà tăng kia nó tăng 700 triệu
+
+772
+01:09:12,120 --> 01:09:15,540
+Mà nó xuống còn có 100 triệu, rất đáng kể mình phải nhấn mạnh vào điều đó
+
+773
+01:09:15,540 --> 01:09:16,540
+Đúng chưa?
+
+774
+01:09:17,150 --> 01:09:20,810
+Đấy. Đấy là cái tiếp cận thứ hai.
+
+775
+01:09:22,450 --> 01:09:28,940
+Nhưng mà tôi thấy là cái việc xử lý không gian này, từng frame này thì nó chưa được hiệu quả.
+
+776
+01:09:29,040 --> 01:09:33,150
+Tôi đặt ra câu hỏi nữa là bằng nhiều frame.
+
+777
+01:09:35,140 --> 01:09:38,800
+Bằng nhiều frame và với nhiều frame thì tôi cũng áp đặt cả cái thằng nhiều frame của nó.
+
+778
+01:09:39,890 --> 01:09:44,930
+Đúng không? Đấy. Và tôi có được một cái kết quả rất tốt đối với tempo fast.
+
+779
+01:09:45,370 --> 01:09:48,030
+Thế nhưng tôi chưa dừng ở đó, tôi còn đặt ra câu hỏi là
+
+780
+01:09:48,030 --> 01:09:50,940
+là việc kết hợp 2 đằng lạc với nhau như thế nào
+
+781
+01:09:53,550 --> 01:09:55,430
+Khi tôi đặt ra là kết hợp cứng
+
+782
+01:09:56,970 --> 01:09:59,370
+thì cứng của nó tề bằng 3 nhưng mà để ra tề bằng 3
+
+783
+01:09:59,370 --> 01:10:00,000
+thì tôi đã thử tề
+
+784
+01:10:00,040 --> 01:10:01,120
+4, tiền 5, tiền 6 rồi
+
+785
+01:10:02,270 --> 01:10:02,750
+đúng chưa?
+
+786
+01:10:03,730 --> 01:10:05,290
+và tôi cũng chưa dừng đến đấy
+
+787
+01:10:05,290 --> 01:10:06,650
+và bây giờ tôi ơ đạo tiếp nó
+
+788
+01:10:07,640 --> 01:10:09,100
+ơ đạo tiếp này em hình dung là
+
+789
+01:10:09,480 --> 01:10:11,760
+em chưa thể hài lòng đến như thế này được
+
+790
+01:10:11,760 --> 01:10:14,040
+em còn phải đặt ra câu hỏi tại sao
+
+791
+01:10:14,040 --> 01:10:14,600
+mình cũng phải
+
+792
+01:10:14,600 --> 01:10:17,960
+và nếu ơ đạo tiếp này mà em đặt kết quả tốt hơn TEMPRO
+
+793
+01:10:18,440 --> 01:10:20,120
+tốt hơn nở mức độ nhiễm ảnh ảnh
+
+794
+01:10:20,120 --> 01:10:22,600
+thì quản án của em quay lại đúng kết
+
+795
+01:10:24,050 --> 01:10:26,230
+còn nếu sử dụng nó không tốt hơn
+
+796
+01:10:26,230 --> 01:10:29,580
+thì quản án mình vẫn phải report nó
+
+797
+01:10:29,580 --> 01:10:31,760
+và mình phải thích đây là 4.000.000, tôi đối với tí ra
+
+798
+01:10:33,340 --> 01:10:36,380
+hoặc là thầy vẫn đang nghĩ về lựa chọn tham số đấy
+
+799
+01:10:36,380 --> 01:10:41,870
+chắc là vẫn cần phải thông tích rõ là tham số để quyết định việc là
+
+800
+01:10:41,870 --> 01:10:42,870
+nó erotic hay không
+
+801
+01:10:42,870 --> 01:10:48,640
+và erotic theo 2 nhánh liền hay là erotic theo từng nhánh một
+
+802
+01:10:49,970 --> 01:10:51,000
+đúng không?
+
+803
+01:10:54,360 --> 01:10:57,160
+và nó là thứ 2, tôi bằng 3
+
+804
+01:10:57,160 --> 01:11:00,640
+thì vẫn là theo tính loại trừ
+
+805
+01:11:00,640 --> 01:11:02,160
+chọn này thì tôi làm chiếc
+
+806
+01:11:02,160 --> 01:11:03,100
+đúng không?
+
+807
+01:11:08,140 --> 01:11:11,560
+Ước đáp tiếp theo vẫn là dạng trừ và Ước đáp tiếp theo dạng trộn cả hai
+
+808
+01:11:11,560 --> 01:11:15,960
+Đấy thì coi là cái luồng luận án em là như thế
+
+809
+01:11:15,960 --> 01:11:25,510
+Thế còn hi vọng là Ước đáp tiếp theo em vẫn phải thử để nó có kết quả khả quan ở đó
+
+810
+01:11:26,930 --> 01:11:32,090
+Thế còn trường hợp mà nó không thể làm được thì em phải xuyên lại tất nhiên là tại dữ liệu
+
+811
+01:11:32,090 --> 01:11:45,830
+Thế cái luồng luận đoán thì em hiểu là sẽ phải đưa tất cả những cái đấy vào trong luận đoán rồi.
+
+812
+01:11:46,780 --> 01:11:56,810
+Thế nhưng mà đối với cái bài báo thì nếu như như vậy thì bây giờ em sẽ tiếp tục nghiên cứu cái Adaptive để viết bài báo hay là bây giờ em...
+
+813
+01:11:56,810 --> 01:11:59,490
+Tiếp tục nghiên cứu và đồng thời là xuất bản bằng biểu hữu như thế này.
+
+814
+01:12:00,670 --> 01:12:02,970
+Thằng Spatial thì thầy đang nghĩ là xuất bản bằng hội thạc.
+
+815
+01:12:04,890 --> 01:12:08,460
+Đấy, hoặc là những bài báo trong nước, chiếm nước.
+
+816
+01:12:09,340 --> 01:12:16,600
+Thằng Tempro thì phải bắt buộc phải xuất bản bài báo quốc tế, tìm một tổ chức tập trí tùy hạn.
+
+817
+01:12:17,170 --> 01:12:21,550
+Nhưng mà cái đấy thì mình chỉ đề cập đến mỗi cái mô hình Tempro thôi.
+
+818
+01:12:23,340 --> 01:12:25,040
+Lần này viết là nó phải giải thích nhé.
+
+819
+01:12:25,960 --> 01:12:27,320
+Viết để tăng cường người giải thích.
+
+820
+01:12:27,460 --> 01:12:35,860
+Chứ không kiểu viết kiểu như là tôi thấy thằng này nó làm này, thằng kia làm cái đó.
+
+821
+01:12:35,980 --> 01:12:36,960
+Tôi đừng bắt bài lại.
+
+822
+01:12:37,120 --> 01:12:38,180
+Cháo thằng kia vào kia là xong.
+
+823
+01:12:38,660 --> 01:12:47,500
+Thế còn tiếp tục em vẫn phải nghiên cứu thẳng nơi rapid để ra được một quài báo quốc tế, hy vọng.
+
+824
+01:12:54,760 --> 01:12:57,790
+Thế còn cái giảm bớt tham số thì?
+
+825
+01:12:57,990 --> 01:13:02,670
+Giảm bớt thì chỉ là cái chư thế đóng góp mới đấy là chỗ nào.
+
+826
+01:13:06,450 --> 01:13:16,700
+Đấy thì có thể hội thảo. Ví dụ cái bài đấy em gửi cho mình cái hội thảo AI quốc gia mà thầy đang deadline vào tháng 21.
+
+827
+01:13:17,870 --> 01:13:26,000
+Không nhưng mà bây giờ gửi cái bài hội thảo đấy thì nó lại chụp với lại cái bài mà định gửi quốc tế rồi thì cũng không được.
+
+828
+01:13:26,000 --> 01:13:33,240
+Em nói là cái bài em vừa nói là cái việc giảm về tận 10 triệu tham số đấy.
+
+829
+01:13:33,400 --> 01:13:40,880
+Đấy thì cái đấy giảm về 10 triệu tham số nhưng mà về bản chất là các cái khối của nó nó chính là cái khối temporal này.
+
+830
+01:13:41,340 --> 01:13:43,400
+Nên bây giờ nếu mà mình đăng cái bài đấy là chính là...
+
+831
+01:13:43,400 --> 01:13:45,680
+Thì cái temporal này em phải nộp ngay trong tháng 8, tháng 9 đây này.
+
+832
+01:13:46,900 --> 01:13:48,340
+Thì tháng temporal em nộp thằng kia đấy.
+
+833
+01:13:49,530 --> 01:13:49,890
+Vâng.
+
+834
+01:13:50,090 --> 01:13:51,440
+Có hiểu ý không?
+
+835
+01:13:51,860 --> 01:13:52,220
+Vâng.
+
+836
+01:13:52,920 --> 01:13:55,760
+Em không có thời gian để đối với đâu, không nhiều thời gian đâu.
+
+837
+01:13:55,760 --> 01:14:00,500
+Thầy nói đi, có nghĩa là năm 1989 em phải xuất bản cả 2 thằng Spatial, thằng Camero này này
+
+838
+01:14:08,260 --> 01:14:10,980
+Thuấn cũng còn mùa xuân để kinh doanh cái đâu, mình thầy nói thật đấy
+
+839
+01:14:10,980 --> 01:14:21,560
+Thằng Spatial đó kìa, thầy đang bán đây là trình bày
+
+840
+01:14:21,560 --> 01:14:26,480
+Thằng Spatial của em xuất bản thầy 1 bài hoặc là 1 tạp chí trong lớp
+
+841
+01:14:26,480 --> 01:14:30,600
+Còn thằng Camero kia, xuất bản tạp chí Q2
+
+842
+01:14:31,300 --> 01:14:38,280
+Và sau mấy việc đấy là em phải chạy cái thằng suy nghĩ về thằng The Rapid kia
+
+843
+01:14:38,280 --> 01:14:52,990
+Tìm cách, nếu thằng The Rapid mà nó cho cái quả khả quan thì thằng đấy chắc chắn là được đi 1 được, thấy chưa?
+
+844
+01:14:52,990 --> 01:15:04,750
+Và lúc khi đấy em có thể đưa cả trường hợp là tao có cố định ghi vào để minh chứng trong bài xuất hạn đấy
+
+845
+01:15:06,450 --> 01:15:13,190
+Thế còn tháng 11 em xuất bản thầy cái bài đưa về 10 triệu dưỡng bài Hội thảo quốc gia nó ở mức độ vừa phải thôi
+
+846
+01:15:13,190 --> 01:15:21,700
+Như năm ngoái ta đi rồi đấy, năm nay ta đi vào tận Cần Thơ đấy, đúng chưa?
+
+847
+01:15:25,340 --> 01:15:29,640
+Khi nào đóng gói được cái đấy xong hết thì lúc đấy nó là bài xuất sót rồi đấy
+
+848
+01:15:29,640 --> 01:15:32,060
+Bây giờ cũng là một con đường rơi ngổ nhé.
+
+849
+01:15:32,440 --> 01:15:45,350
+X-Facial với Cepro còn cần gì phải làm nữa?
+
+850
+01:15:45,430 --> 01:15:47,350
+Coi là em có tờ lệnh có tay hết rồi.
+
+851
+01:15:48,320 --> 01:15:50,580
+Thì trong vòng được thắng, em phải xuất bản nó chứ.
+
+852
+01:15:51,580 --> 01:15:52,220
+Trần Thư gì thế?
+
+853
+01:15:52,820 --> 01:15:57,980
+Bây giờ em sẽ phải hấp lây sừng từng các thành phần một của mô hình.
+
+854
+01:16:07,970 --> 01:16:08,590
+Điều nào xa?
+
+855
+01:16:08,730 --> 01:16:16,440
+Điều cho cái tạo chính này về thập kỷ thứ hai,
+
+856
+01:16:16,620 --> 01:18:17,480
+tạo chính về phương pháp luật.
+
+857
+01:18:25,290 --> 01:18:31,250
+Tạo chính này là phù hợp nhất với các bản thân.
+
+858
+01:18:31,250 --> 01:18:33,430
+Ngoài ra còn tạo chính về multimedia tool gì đấy.
+
+859
+01:18:34,520 --> 01:18:35,800
+Springer đấy, để trung sở cái đấy.
+
+860
+01:18:35,800 --> 01:18:40,900
+Phải cắt được tiền S1 trong 2 thì phải chịu, phải cho quay thêm cổ.
+
+861
+01:18:53,520 --> 01:18:55,200
+Bài nhánh 1 là gửi cái gì nhỉ?
+
+862
+01:18:57,070 --> 01:18:58,150
+Hội thảo quốc tế
+
+863
+01:18:59,230 --> 01:19:04,140
+Chúng tôi quyết định thế đấy nhé.
+
+864
+01:19:04,360 --> 01:19:08,840
+Hội thảo quốc tế ngày nay là tháng 9 hay tháng 10
+
+865
+01:19:08,840 --> 01:19:12,740
+Nó có cái lưu của S.O.I.C.T.
+
+866
+01:19:12,940 --> 01:19:18,010
+Nếu như thằng Trúc Sơn đi lưu thằng ấy.
+
+867
+01:19:19,940 --> 01:19:24,370
+S.O.I.C.T. hoặc là R.I.B.F.
+
+868
+01:19:24,470 --> 01:19:44,530
+S.O.I.C.T. còn phần Q.B.S. đó là dưới 100.000.
+
+869
+01:19:44,530 --> 01:19:56,870
+Mùng 9-9 là gửi tấm lá 16-9, 16-9 gửi full. Đấy là mòn.
+
+870
+01:19:57,440 --> 01:19:59,840
+Còn tạp chí trong nước thì em chọn
+
+871
+01:20:00,000 --> 01:20:03,570
+với tạp chí mà nhóm mình hay gửi đấy
+
+872
+01:20:03,570 --> 01:20:06,380
+1 trong 2 cái đấy
+
+873
+01:20:06,380 --> 01:20:11,980
+Nhánh 2 thì gửi tạp chí thầy vừa xong cả đấy
+
+874
+01:20:12,420 --> 01:20:12,820
+Dạ
+
+875
+01:20:12,820 --> 01:20:25,810
+Cái giảm chiều, tháng thước xuống 10 chiều thì gửi FCK
+
+876
+01:20:26,270 --> 01:20:27,290
+Tháng 11, FCK
+
+877
+01:20:58,180 --> 01:21:16,750
+Tháng 4, tháng 7, deadline là tháng 11 đúng không anh?
+
+878
+01:21:17,490 --> 01:21:17,890
+Dạ
+
+879
+01:21:17,890 --> 01:21:20,370
+Tháng này thì các em ghi dự ở cái giờ đúng độ không được phải không?
+
+880
+01:21:24,140 --> 01:21:31,220
+Cái còn song song nó tập trung vào cái productive làm sao để có được một cái nhánh
+
+881
+01:21:31,220 --> 01:21:34,850
+Một cái nhánh nó kết quả nó khác khác
+
+882
+01:21:37,680 --> 01:21:46,660
+Nếu trong trường hợp bớt cả cán cho tội thì Thành quay lại vấn đề là không chức bản đấy mà chỉ đưa luật án và giải thích nó. Nhưng mà như thế luật án sẽ yếu.
+
+883
+01:21:52,890 --> 01:21:59,890
+Cho nên là em phải thành ra đạo nhiều hơn về tựa đắc tức đấy. Cách chọn tham số, tham số thực sự có ý nghĩa xong rồi quyết định nhanh hay không.
+
+884
+01:22:00,090 --> 01:22:14,220
+Bởi vì mình bắt đầu xuất ra điểm mình là xác định cái tàu đúng không? Xác định mình là không muốn là tàu đâu có đích.
+
+885
+01:22:14,360 --> 01:22:21,800
+Thay đổi tàu có bao nhiêu có nghĩa là mình phải dự đoán nó. Nhưng mà dự đoán cái tham số tàu thôi.
+
+886
+01:22:21,800 --> 01:22:29,600
+Thì những đặc trưng nào của video để quyết định cái tàu đó
+
+887
+01:22:29,600 --> 01:22:33,820
+Lúc đầu thì đăng nghiệp đi nhiều lần đấy nhưng mà em dự đoán cái tàu thôi
+
+888
+01:22:33,820 --> 01:22:39,400
+Nhưng mà quyết định này thì cũng được
+
+889
+01:22:39,400 --> 01:22:43,960
+Nhưng mà mình phải có cái logic của chọn tham số, chọn đặc trưng nó như thế nào
+
+890
+01:22:43,960 --> 01:22:47,160
+Nhưng mà cái quan trọng nhất là
+
+891
+01:22:48,500 --> 01:22:52,440
+Cái mô hình thứ nhất là nó phải khác so với mô hình thứ hai
+
+892
+01:22:52,440 --> 01:22:54,520
+Nhưng mà ở đây thì
+
+893
+01:22:55,100 --> 01:22:56,400
+Thứ hai là mô hình nào?
+
+894
+01:22:56,400 --> 01:23:01,680
+Nghĩa là mô hình nhánh không gian nó phải khác với mô hình nhánh thời gian.
+
+895
+01:23:04,140 --> 01:23:12,520
+Khác nhau về cách thức để thực hiện thôi, nhưng mà về kết quả thì nó không khác nhau nhiều.
+
+896
+01:23:12,960 --> 01:23:15,800
+Thì ra tìm cách cho kết quả rất khác.
+
+897
+01:23:16,080 --> 01:23:21,510
+Bây giờ em hình như là mình làm nghiên cứu hình tính logic thịt cao à.
+
+898
+01:23:21,750 --> 01:23:25,230
+Bây giờ em đề xuất cho thầy là mô hình là tao cố đấy.
+
+899
+01:23:25,390 --> 01:23:28,960
+Thầy đặt em câu hỏi là tại sao tao không thay đổi một cách để chỉnh đi.
+
+900
+01:23:28,960 --> 01:23:34,070
+Bây giờ mình đi tìm khách để dự đoán cái tao phụ thuộc vào các video cụ thể
+
+901
+01:23:34,930 --> 01:23:38,970
+Bây giờ tôi cho một cái video thì anh cho tôi ra một cái tao thương nhau
+
+902
+01:23:38,970 --> 01:23:46,490
+Đấy là cái nghi chí đầu tiên rồi mới đến cái thứ hai của em
+
+903
+01:23:48,480 --> 01:23:52,030
+Thôi nhiều khi là ra một cái dấu còn nó khá là toàn thái
+
+904
+01:23:55,500 --> 01:23:57,900
+Giờ thì hãy xuống
+
+905
+01:23:57,900 --> 01:24:02,310
+Ý tưởng của thầy lúc đầu chỉ là có phải là tao có thể điều chỉnh được hay không
+
+906
+01:24:02,310 --> 01:24:24,280
+Em đưa ra môi mình phải bảo vệ nó đến cùng
+
+907
+01:24:24,280 --> 01:24:28,550
+Chứ đừng thấy mọi người chê bắt mình bỏ vô những điều khác
+
+908
+01:24:28,550 --> 01:24:36,000
+Quan điểm của mình là như thế, mình mướn em là như thế
+
+909
+01:24:36,000 --> 01:24:40,000
+Mình bảo vệ ở những câu cũng chỉ đến khi, đến câu mà cũng ra nổi các đồng ý, chuyển hướng
+
+910
+01:24:40,000 --> 01:24:46,180
+Bây giờ người ta, mình em gửi đi tạp chí, người ta từ chối, người ta luôn nói về cái tao
+
+911
+01:24:46,180 --> 01:24:48,900
+Đầu tiên mình phải tập trung mình giải quyết cái tao này ra
+
+912
+01:24:48,900 --> 01:24:50,260
+Xong rồi đi ra phương pháp mới
+
+913
+01:24:50,260 --> 01:24:54,410
+Bây giờ mình hoàn toàn không quan tâm về cái tao nữa
+
+914
+01:24:54,410 --> 01:25:00,120
+Thì như vậy là rõ ràng là em đưa mình vào những cái sự bắt quái khác hẳn
+
+915
+01:25:00,120 --> 01:25:09,180
+Thế bây giờ thầy này nói như vậy là rõ ràng là cái tao này em đi giải quyết
+
+916
+01:25:09,180 --> 01:25:12,420
+Em đi vào cái ghiết tinh, cái ghiết tinh kiểu ghiết tinh
+
+917
+01:25:32,280 --> 01:25:36,620
+Đầu tiên là tàu em thử của bố định ra, tàu hồng 3 hồng hồng 5 em thấy là như thế ok
+
+918
+01:25:36,620 --> 01:25:40,920
+Nhưng các thầy thấy là chưa đủ, có thể là tôi hỏi là tàu có thể chạy tự động rồi đấy không?
+
+919
+01:25:40,980 --> 01:25:46,930
+Thì em hãy đưa ra một mô hình dự báo, đầu vào nó là cái video, đầu ra nó là giá trị tàu
+
+920
+01:25:46,930 --> 01:25:51,120
+Tức là các thầy hiểu là em cấy một mô hình học máy nằm ở giữa đó
+
+921
+01:25:51,120 --> 01:25:56,180
+Thêm một mô hình dự đoán cho cả frame đấy, thêm một mô hình dự đoán giá trị tàu
+
+922
+01:25:56,180 --> 01:26:07,380
+Và đầu hàng nó là video và môi dự đoán tâu là một thành phần của cả môi to của em.
+
+923
+01:26:07,440 --> 01:26:21,010
+Và khi em huấn luyện khung điều hồ đấy, em cũng huấn luyện cả môi dự đoán ấy luôn.
+
+924
+01:26:21,150 --> 01:26:22,590
+Nó là một thành phần tươi.
+
+925
+01:26:25,680 --> 01:26:28,700
+Nhưng mà thường ra ý của em thì như thế này này.
+
+926
+01:26:29,570 --> 01:26:31,590
+Dĩ nhiên là việc chọn tâu là một chuyện.
+
+927
+01:26:32,380 --> 01:26:35,360
+Nhưng mà dù nó đi theo nhánh thứ nhất hay đi theo nhánh thứ hai,
+
+928
+01:26:35,580 --> 01:26:40,560
+thì kết quả của nó cũng tương tự nhau.
+
+929
+01:26:40,560 --> 01:26:42,660
+Cái mà phát hiện ra được thì...
+
+930
+01:27:32,580 --> 01:27:36,200
+có thể hướng là nó mới như thế thì thầy thấy là quá là khí
+
+931
+01:27:36,200 --> 01:27:40,790
+mà như thế nghiên cứu sinh nó không phải là 10 năm đâu
+
+932
+01:27:40,790 --> 01:27:42,610
+sinh của em thời gian nó có hạn
+
+933
+01:27:42,610 --> 01:27:46,750
+hoặc là em có thể làm từ lúc sọc sóng của cả 2 người ấy
+
+934
+01:27:46,750 --> 01:27:58,290
+bây giờ em chạy theo cái ý kiến của mọi người
+
+935
+01:27:58,290 --> 01:28:00,450
+xong dần dần cũng biết nó ra được cái gì
+
+936
+01:28:00,450 --> 01:28:03,120
+thế bây giờ là giả lũ đi theo tempo lột phát
+
+937
+01:28:03,120 --> 01:28:05,180
+bây giờ một phát lên lại góc cao trở lại
+
+938
+01:28:05,180 --> 01:28:07,120
+thế về em lại đổi lên một cái mới hoàn toàn
+
+939
+01:28:07,120 --> 01:28:08,440
+thì các thầy cũng chào buông
+
+940
+01:28:08,440 --> 01:28:15,960
+thầy kiên trì chứ, thầy nghiên cứu thầy kiên trì
+
+941
+01:28:15,960 --> 01:28:19,580
+làm sao mà làm ấy
+
+942
+01:28:19,580 --> 01:28:30,420
+Cái này nó cao thôi, thử nhìn nó cao hơn, nhưng mà khi bảo nó có chất bếp nó không nên nó khó, lại nó chắc.
+
+943
+01:28:30,460 --> 01:28:35,070
+Đúng thức lạ như thầy Nam nói, bây giờ có 2 cái hướng dẫn thế.
+
+944
+01:28:35,170 --> 01:28:38,350
+Nhưng mà thứ nhất là cái temple ấy, nhưng mà mới có người báo.
+
+945
+01:28:38,900 --> 01:28:39,840
+Cả người đều biết chứ.
+
+946
+01:28:39,880 --> 01:28:42,100
+Còn thật ra là người báo kia thì biết rồi rồi.
+
+947
+01:28:42,320 --> 01:28:49,940
+Còn người báo gọi là aratif ấy, người báo gọi là cái tao ấy, thì sẽ tìm được cái mô hình để thiên theo cái tao ấy.
+
+948
+01:28:53,060 --> 01:28:58,200
+Nó phải như thế em ạ. Đầu tiên em chỉ cần một mô hình, thậm chí là mô hình tương tính thôi.
+
+949
+01:28:58,200 --> 01:29:01,740
+Ví dụ là hồi tư kiên tính để tính ra sau
+
+950
+01:29:03,050 --> 01:29:05,170
+Dựa trên một số tham số của video
+
+951
+01:29:08,450 --> 01:29:09,710
+Một số tạ chức của video
+
+952
+01:29:10,710 --> 01:29:15,410
+Mà em phải biên luận được tạ chức đấy có ảnh hưởng đến quyết định tao
+
+953
+01:29:15,410 --> 01:29:20,880
+Nó là cái gì thì cũng phải trả lời thay em được
+
+954
+01:29:20,880 --> 01:29:21,760
+Bây giờ em phải đứng ra
+
+955
+01:29:22,960 --> 01:29:24,360
+Rồi nó mới đến cái đối tượng đó
+
+956
+01:29:24,360 --> 01:29:26,120
+Tiếp tục đọc bánh cả hai nhánh
+
+957
+01:29:26,120 --> 01:29:30,180
+Rồi là vân vân thứ theo đến một cái kinh tế nó phức tạp như thế
+
+958
+01:29:30,180 --> 01:29:37,080
+Đừng có người ta chê thế là sau đó mình bỏ đi
+
+959
+01:29:37,420 --> 01:29:39,220
+Thầy thấy có quá khí, thầy thấy rất tiếc
+
+960
+01:29:39,220 --> 01:29:44,200
+Mình phải nghiêm tin vào cái mình làm
+
+961
+01:29:44,640 --> 01:29:46,320
+Bản thân em không nghiêm tin thì các thầy cũng chịu
+
+962
+01:29:52,060 --> 01:29:54,480
+Thầy chịu bằng mấy thông số mà em đưa ra
+
+963
+01:29:54,480 --> 01:29:55,680
+Thì không được không
+
+964
+01:30:02,080 --> 01:30:19,140
+Nó chỉ là cái quyết tượng xong của các trường bào, nó chạy rất nhanh.
+
+965
+01:30:22,220 --> 01:30:28,020
+Đấy là một ý tưởng, thầy em có thể đến ý tưởng khác nhưng mà mình cứ kiên trì đi đã để xem thế nào.
+
+966
+01:30:29,060 --> 01:30:33,000
+Có khi nó chỉ cần dẫn thêm một chút xíu nữa thôi, đừng nhảy hẳn sang cái mới.
+
+967
+01:30:35,860 --> 01:30:40,980
+Còn về logic thầy vẫn nghĩ là cái hướng kết hợp bao giờ nó sẽ đem lại cái tốt.
+
+968
+01:30:41,350 --> 01:30:49,500
+Chỉ có mình chưa chọn đúng cái cấu hình đó, chưa chọn đúng cái bộ dữ liệu mà nó phù hợp.
+
+969
+01:30:51,300 --> 01:30:58,060
+Thử thêm cái kết hợp kết quả của hai cái nhánh trước xem thế nào.
+
+970
+01:31:00,420 --> 01:31:04,890
+Đầu tiên của em là bây giờ nhé, nói đi lần lại.
+
+971
+01:31:05,050 --> 01:31:07,710
+Một là cái Facebook ra bài báo không nào.
+
+972
+01:31:07,950 --> 01:31:10,310
+Hai, Facebook ra bài báo cũng thế.
+
+973
+01:31:10,810 --> 01:31:20,110
+Ba là ý điểm, cái mô hình dựng báo tao một cách tự động để bổ sung vào cái bài đang có này.
+
+974
+01:31:20,110 --> 01:31:22,740
+cũng bỏ đi qua phim
+
+975
+01:31:22,740 --> 01:31:27,320
+chỉ là cái phần graph cao nhất
+
+976
+01:31:27,320 --> 01:31:30,210
+có thể test ra thành một cái mục nghị
+
+977
+01:31:30,210 --> 01:31:30,670
+nào đấy thôi
+
+978
+01:31:30,670 --> 01:31:35,420
+nếu nghị đưa vào nó bị trở thành cái người ta chê
+
+979
+01:31:36,430 --> 01:31:55,970
+là mình thấy là test
+
+980
+01:31:56,550 --> 01:31:57,550
+cao của 3 tốt hơn
+
+981
+01:31:58,210 --> 01:31:59,740
+cao của 5, cao của 6 đúng không
+
+982
+01:31:59,740 --> 01:32:01,340
+như thế trên một bộ dữ liệu
+
+983
+01:32:01,340 --> 01:32:08,640
+nó sẽ thay đổi như vậy là mình cũng thể cảm nhận được là
+
+984
+01:32:08,640 --> 01:32:11,240
+khi nào nó bằng 3, khi nào nó bằng 4
+
+985
+01:32:12,500 --> 01:32:15,820
+em phải đặt ra một mô hình suy diễn nó chứ
+
+986
+01:32:15,820 --> 01:32:18,060
+dự báo nó một cách đơn giản thôi
+
+987
+01:32:18,060 --> 01:32:22,790
+Ví dụ là em tính ra mức độ phụ thuộc
+
+988
+01:32:22,790 --> 01:32:27,290
+Thầy đang nói một cách tìm hiểu không nhé
+
+989
+01:32:27,290 --> 01:32:30,380
+Mức độ phụ thuộc giữa các frame này hả
+
+990
+01:32:30,380 --> 01:32:34,230
+Phụ thuộc càng cao thì rõ ràng là cái tàu càng lớn đúng không
+
+991
+01:32:35,700 --> 01:32:39,820
+Đấy đúng không
+
+992
+01:32:40,420 --> 01:32:42,700
+Đấy mức độ phụ thuộc giữa các frame càng lớn
+
+993
+01:32:42,700 --> 01:32:46,350
+Cái correlation giữa các frame càng lớn thì cái tàu số điểm phải dài ra
+
+994
+01:32:46,350 --> 01:32:51,230
+Thế nhưng mà cái mức độ phụ thuộc nó có thể lên xuống lên xuống như này
+
+995
+01:32:52,880 --> 01:32:57,500
+Mức độ đấy có nghĩa là tàu sẽ nhỏ nhưng mà nó cố gắng ra được một dự báo cách tiểu
+
+996
+01:32:57,500 --> 01:33:03,660
+Thì có nghĩa là em đã đúng rồi
+
+997
+01:33:05,420 --> 01:33:08,680
+Nếu em thấy tàu tự động, em sẽ lập tức gửi đi thẳng điện tiếp ngay
+
+998
+01:33:08,680 --> 01:33:12,640
+Nhưng vì tàu tự động là bị loại, có phải phí không?
+
+999
+01:33:12,820 --> 01:33:24,010
+Đầu tiên tàu tự động em chỉ ngang được với thằng Tepro chẳng?
+
+1000
+01:33:24,090 --> 01:33:32,950
+Còn nếu tàu tự động vẫn work, vẫn làm việc nhưng mà nó không được bằng Tepro
+
+1001
+01:33:32,950 --> 01:33:36,050
+Thì em giảm cấp cái bài đề viên vào thành tật chính xác
+
+1002
+01:33:36,050 --> 01:33:44,720
+Nhưng mà thầy rất tin là mình phải hướng tới làm sao cái mô hình grip đấy
+
+1003
+01:33:44,720 --> 01:33:47,870
+Là nó phải hướng tới ít nhất là bằng Tepro hơn
+
+1004
+01:33:47,870 --> 01:33:52,220
+Bằng gì có nghĩa là tính ổn định nó cao hơn, mình phải khảo sát tính ổn định
+
+1005
+01:33:53,600 --> 01:33:55,910
+Cái bằng cao hơn thì là lý tưởng nhất rồi
+
+1006
+01:33:57,010 --> 01:34:01,420
+Với Thuấn, hôm nay thầy cũng nói rất nhiều nhưng mà cố gắng tức kỷ niệm
+
+1007
+01:34:01,420 --> 01:34:04,070
+Làm như không có một con đường nào khác
+
+1008
+01:34:08,030 --> 01:35:10,540
+Đúng vâng thưa Việt
+
+1009
+01:35:11,000 --> 01:35:14,360
+Thì mai nay dựa đến cái em bầu vầy máu
+
+1010
+01:35:14,360 --> 01:35:21,160
+Em ở cái hồi thảo là H026 vừa qua
+
+1011
+01:35:23,080 --> 01:35:24,640
+Hôm qua em đặt schedule
+
+1012
+01:35:24,640 --> 01:35:27,350
+thì còn chơi cái khoảng nữa.
+
+1013
+01:35:27,410 --> 01:35:29,100
+Thì cái nội dung của em thì
+
+1014
+01:35:29,100 --> 01:35:31,230
+xin bảo cậu thêm là
+
+1015
+01:35:31,900 --> 01:35:34,180
+vừa rồi thì em vẫn là tập huấn
+
+1016
+01:35:34,180 --> 01:35:35,540
+lưỡng đường này. Thì
+
+1017
+01:35:35,540 --> 01:35:38,560
+cơ bản thì còn nhiều cái
+
+1018
+01:35:38,560 --> 01:35:41,650
+cần phải, những điều thêm
+
+1019
+01:35:41,650 --> 01:35:43,490
+nhưng mà cũng đảm bảo một cái
+
+1020
+01:35:43,490 --> 01:35:45,590
+kết quả chẳng đối là khá là tốt.
+
+1021
+01:35:46,030 --> 01:35:48,110
+Thì đấy cũng là cái cơ sở mà để
+
+1022
+01:35:48,110 --> 01:35:49,730
+em tiếp tục
+
+1023
+01:35:50,270 --> 01:35:52,020
+khai thác chủ đề này.
+
+1024
+01:35:52,160 --> 01:35:59,600
+Sau khi mà cùng với
+
+1025
+01:35:59,600 --> 01:36:02,110
+cơ sở lưỡi, em đang
+
+1026
+01:36:02,930 --> 01:36:40,120
+Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+
+1027
+01:36:42,160 --> 01:36:50,100
+Về thân giới thiệu thì em xin phép là vừa cùng trực sản qua cái thân này.
+
+1028
+01:36:51,660 --> 01:37:15,490
+Về công trình nghiên cứu liên quan thì đối vật đó là công trình nghiên cứu của Ninh và Công sư đề xuất một mô hình kết hợp chiều Transformer và BLS-10 và CNM cho quốc Việt và đồng bọc vào một tập xử liệu của bài báo đó là tập xử liệu VF-NDD.
+
+1029
+01:37:15,490 --> 01:37:26,030
+Thì cái tập dựng điều KD này em cũng lấy và làm 5 trong các bài báo cáo của em
+
+1030
+01:37:26,570 --> 01:37:30,500
+2 tập dựng điều thì nó là 1 trong 2 tập dựng điều đó
+
+1031
+01:37:30,500 --> 01:37:40,640
+Với công ty nghiên cứu nữa của tác giả Võ Bình Vinh và Bộ Phúc
+
+1032
+01:37:40,640 --> 01:37:42,200
+Đến từ Trường Đại học Công nghệ
+
+1033
+01:37:42,200 --> 01:37:48,420
+Thì cái bài báo này nó cũng sử dụng trên cái bộ tiếng Việt
+
+1034
+01:37:51,540 --> 01:38:06,690
+có một kết quả khá là cao liên quan đến sử dụng mô hình BLSTM và 2 mô hình kết hợp
+
+1035
+01:38:06,690 --> 01:38:20,850
+đó là CNM và BLSTM và kết quả tương đối là cao. Đây là 2 bài báo liên quan đến phát triển
+
+1036
+01:38:20,850 --> 01:38:27,580
+dành kính giá trong thân biệt, lúc nào cũng phải phát triển những kiểu liên quan trong liên bản của em.
+
+1037
+01:38:29,040 --> 01:38:38,100
+Về phương pháp đề xuất của em thì mô hình đề xuất bao gồm 2 nhánh như thay nhìn trên hình vẽ.
+
+1038
+01:38:38,440 --> 01:38:50,500
+Nhánh thứ nhất là bên tay trái thì kết hợp giữa vẽ cối CBNHK tỷ lệ và BLSTM và phở bợt
+
+1039
+01:38:50,500 --> 01:38:55,170
+thì chuỗi đơn bản qua các cái cối sẽ cho ra một tập tử điều tập trưng.
+
+1040
+01:38:55,170 --> 01:39:07,260
+đặc trưng và phong phía bên phải thì đó là sự kết hợp đó là lấy các cái việc mà khi sắp ra cái
+
+1041
+01:39:07,680 --> 01:39:17,110
+cái tập đặc trưng thủ công thì cũng và từ đó hai cái hai cái đặc trưng mà từ hai nhánh kết hợp với
+
+1042
+01:39:17,110 --> 01:39:30,270
+nhau thì mình sẽ sẽ đưa qua một cái gọi là cái phương sơn thì ở phía bên phía trái thì tín hiệu
+
+1043
+01:39:30,270 --> 01:39:38,650
+Đầu tiên, văn bản được tốc tẩn hóa và bảo hỏa bằng phở vợt, đảo văn vườn trước và thân chuỗi elevator.
+
+1044
+01:39:39,870 --> 01:39:48,560
+Chuỗi elevator này giao nguồn nghĩa vào với kích thước 768 để đưa vào nhẫn văn bản.
+
+1045
+01:39:48,660 --> 01:39:58,680
+Trong khi, một elevator đặc trưng phong cách kích thước cổ định và đưa vào nhẫn thủ công.
+
+1046
+01:39:58,680 --> 01:39:59,920
+Các bạn hãy
+
+1047
+01:40:00,000 --> 01:40:05,960
+thiết kế này bao gồm 4 giai đoạn và mạng hóa được cần trích xuất đặc trưng
+
+1048
+01:40:05,960 --> 01:40:31,600
+trong sông. Đầu tiên, cửa văn bản đưa vào phở bợt và phở bợt encoding là kích thước 7, 6, 8
+
+1049
+01:40:31,600 --> 01:40:42,200
+Và cùng với Spatial Dropout thì tạo ra một cái vector dầu người Việt, dầu thông tin
+
+1050
+01:40:42,200 --> 01:40:50,860
+Và dùng cái Spatial Dropout để loại bỏ cái ngộ nhiên một số chiều để tránh cái Overfitting
+
+1051
+01:40:52,490 --> 01:40:56,970
+Tiếp theo đó là trích xuất lập trưng, bút bút bằng CNN
+
+1052
+01:40:56,970 --> 01:41:11,220
+Thì ở đây thì em dùng cái cách CNN đó là CNN đa thỷ lệ và Candle là 3, 4, 5 với 64 là bộ lộc.

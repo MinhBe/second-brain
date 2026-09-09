@@ -1,0 +1,450 @@
+[00:00:24] Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+[00:02:57] nhằm nâng cao và phát triển sự chiến học máy
+[00:03:01] và mục tiêu của em sẽ là các mô hình tấn công SQL Injection
+[00:03:05] thì em xin phép vào phần đặt vấn đề
+[00:03:10] hiện trạng là dữ liệu tấn công SQL Injection trong tập huấn luyện bị mất cân bằng nghiêm trọng
+[00:03:16] thường là lớp ATTACK sẽ có tỷ lệ ít hơn lớp NORMAL rất là nhiều
+[00:03:24] Nên mục tiêu của em là sẽ sinh ra thêm dữ liệu SQL, injection tổng hợp
+[00:03:30] Và vừa có thể giữ được đúng cấu trúc SQL, vừa có tính đa dạng và cũng sẽ cải thiện Recall Look Attack
+[00:03:39] Thì đầu tiên là em sẽ có 4 mô hình
+[00:03:42] Thì đầu tiên là nhóm phương pháp Baylight
+[00:03:46] Thì đại diện sẽ là SMOD
+[00:03:48] Thì cơ chế sẽ chỉ là nội sinh để có thể sinh ra dữ liệu
+[00:03:53] Tiếp theo là 3 nhóm tạo mô hình sinh dữ liệu
+[00:03:56] sẽ gồm có GAN cơ bản, CT GAN và mô hình SQL GAN
+[00:04:05] Đây là mô hình GAN cơ bản
+[00:04:07] Mô hình GAN cơ bản sẽ là sự đối kháng giữa Generator và Discriminator
+[00:04:17] Mô hình CT GAN thay vì nhận dữ liệu trực tiếp
+[00:04:22] thì sẽ biến đổi thành các dạng bảng để có thể dễ dàng tính toán gradient để có thể tìm hướng để cải thiện mô hình
+[00:04:32] Còn mô hình Sequence GAN thì là thay vì sử dụng dạng bảng thì sẽ sử dụng Policy Gradient
+[00:04:43] Tiếp theo là sẽ đến với các mức cân bằng mà em dùng để thử nghiệm
+[00:04:48] Em sẽ có 3 mức độ cân bằng
+[00:04:50] Mức cân bằng thì đầu tiên là mức độ nhẹ là 1 trên 10 và 1 trên 20
+[00:04:54] nghĩa là cứ có 1 mẫu tấn công
+[00:04:57] à cứ có 20 mẫu
+[00:04:59] bình thường thì sẽ có ít nhất 1 mẫu tấn công
+[00:05:02] và tương tự với 1 trên 50
+[00:05:04] 1 trên 100
+[00:05:04] 1 trên 200 và 1 trên 500
+[00:05:06] em sẽ chọn lấy
+[00:05:10] trong quá trình triển khai
+[00:05:12] thì em nhận thấy là
+[00:05:14] mẫu 1 trên 10 và 1 trên 20
+[00:05:16] thì có khá nhiều mẫu attack
+[00:05:18] và có tỷ lệ nó khá là tốt
+[00:05:21] trong khi đó là mẫu
+[00:05:23] 1 trên 50 và 1 trên 100
+[00:05:25] thì nó lại vừa cân bằng
+[00:05:28] nghĩa là nó có đủ độ khó khăn
+[00:05:30] để em có thể nhìn thấy được ra kết quả
+[00:05:31] thế nên trong mô hình thì em
+[00:05:33] ra loại, loại đi các mức độ nhẹ
+[00:05:35] và chỉ tập trung vào mức độ trung bình và cao
+[00:05:37] Thế thì hỏi là cái phân loại
+[00:05:40] nhẹ trung bình cao là em tự phân loại hay là
+[00:05:42] có bài làm ra không ạ?
+[00:05:44] Em tự phân loại
+[00:05:47] Vâng em tự phân loại bởi thứ nhất là
+[00:05:50] trong mô hình thì thường là
+[00:05:51] mức độ nhẹ là em lại không đủ dữ liệu
+[00:05:53] một số dạng tấn công ví dụ như là
+[00:05:58] Thì khi mà em chạy là nó không đủ dữ liệu để em có thể chạy được tỷ lệ 1 trên 10
+[00:06:03] Và khi mà em chạy thì em cảm thấy là tỷ lệ 1 trên 10, 1 trên 20 nó không đóng góp quá nhiều
+[00:06:09] Và nó lại khá tốn thời gian để training
+[00:06:12] Nên là em đã loại bỏ và chỉ tập trung vào 4 tỷ lệ còn lại
+[00:06:20] Các em có bài báo nào đang chia như thế này không?
+[00:06:23] em sẽ về tìm hiểu. Nhưng mà trong các bài báo em đọc thì em em chưa gặp bài báo nào chia như
+[00:06:32] tỷ lệ của em. Em sẽ về tìm hiểu thêm ạ. Thì tiếp theo là em sẽ dựa trên bốn chỉ số đánh giá chất
+[00:06:40] lượng ạ. Thì đầu tiên là structure ạ. Là kiểm tra xem là có dấu hiệu SQL không ạ. Thì mục tiêu của
+[00:06:51] em là kiểm tra xem là payload còn giữ được hình dạng của SQL injection hay không. Tiếp theo là
+[00:06:57] là độ độc nhất là em sẽ so khớp đến từng ký tự xem là bị trùng bao nhiêu phần trăm do với dữ liệu đổ vào
+[00:07:05] tiếp theo là Overlap là lần này em sẽ làm mở rộng hơn là không từng ký tự mà là các cụm từ, các cụm câu để xem là trùng bao nhiêu phần trăm
+[00:07:15] và cuối cùng là tính Recall để xem là liệu là có các cái phương pháp liệu có tăng hoặc là giảm bức Recall hay không
+[00:07:26] Có cái dấu gì Delta để trước dịp Recon?
+[00:07:31] Delta Recon là giữa Bayline trừ đi cả iWomen
+[00:07:34] là sự thay đổi của Recon
+[00:07:38] Delta Recon là gì? Mọi người biết không?
+[00:07:43] Em lấy Recon của mẫu tính đầu vào
+[00:07:48] sau đó trừ đi, sau khi mà sinh ra thì em lại tính thêm 1 lần Random Forest nữa để trừ đi
+[00:08:04] Đấy là tiếng Việt nhé, không phải tiếng Anh
+[00:08:12] Thì đây là em sẽ tiến hành khảo sát ban đầu
+[00:08:19] Quay lại trước
+[00:08:21] Rồi quay lại sau
+[00:08:22] Thì tự nhiên nhảy vào nguồn vụ tiên ra
+[00:08:24] Chỉ số đây đúng không?
+[00:08:27] Vâng
+[00:08:28] Lúc trước nó quả nguồn vụ tiên hoặc là gì?
+[00:08:32] Nó là trùng lập
+[00:08:33] Đây là nguồn vụ tiên
+[00:08:36] Cột này em đang chưa
+[00:08:40] Dự kiện nha
+[00:08:41] Dự kiện
+[00:08:41] Nó dựa vào AI nhiều quá
+[00:08:44] Thì tiếp
+[00:08:51] Vâng thì là nguồn vụ tiên
+[00:08:52] theo là em sẽ đề xuất là sẽ có 2 hướng cải thiện
+[00:08:57] à vâng
+[00:08:58] thì đầu tiên là
+[00:08:59] 3 mô hình đầu tiên
+[00:09:01] thì là do là chỉ là nội sinh
+[00:09:04] và cũng học
+[00:09:07] khá là
+[00:09:07] nó không cố gắng sinh ra dữ liệu mới
+[00:09:12] mà nó chỉ học từ dữ liệu cũ
+[00:09:14] nên là 3 mô hình đầu tiên
+[00:09:16] thì có structure
+[00:09:17] giống hệt S-Penetration
+[00:09:18] có mô hình sinh quần găng gốc
+[00:09:20] thì là do cố gắng học các mối quan hệ
+[00:09:23] nên là sinh ra dữ liệu thì có cấu trúc nó sẽ không thể được bằng 3 mềm còn lại
+[00:09:30] tuy nhiên là tỷ lệ sinh ra dữ liệu độc nhất thì nó sẽ cao hơn
+[00:09:40] hai cuộc cuối em sẽ về em chỉnh lại
+[00:09:42] cái này em chưa được chỉnh hết
+[00:09:44] nhưng mà em muốn nói là sau khi mà chạy xong khám xác ban đầu
+[00:09:49] thì em có thể nhận thấy là 3 mềm còn lại là về nếu mà tiếp tục sử dụng
+[00:09:55] Thì nó cũng sẽ chỉ có khả năng là dựa vào bộ
+[00:10:00] dữ liệu cũ và nó không có khả năng sinh ra dữ liệu có tính mới
+[00:10:02] Và rất dễ có thể bị bắt và có thể bị đánh chặn
+[00:10:06] Trong khi đó là mô hình si quần gan
+[00:10:08] Thì là tuy là hiện tại nó không sinh ra được mẫu có cấu trúc SQL
+[00:10:14] Nhưng mà nó lại sinh ra các mẫu có độ độc nhất cao
+[00:10:17] Nên là em sử dụng mô hình si quần gan và cố gắng cải tiến để tăng khả năng sinh dữ liệu của mô hình si quần gan
+[00:10:26] Thì em có 2 hướng đề xuất
+[00:10:31] Thì đầu tiên là sẽ cải thiện dữ liệu là phân phối lại dữ liệu đầu vào
+[00:10:36] Thì đầu tiên là em sẽ chia ra làm 3 trường hợp tấn công
+[00:10:41] À 4 trường hợp tấn công thì sẽ gồm có Union, Boland, Time và Erin
+[00:10:47] Em sẽ tách input theo từng đặc trưng để có
+[00:10:50] Theo từng family để mô hình tạo sinh có thể học được đúng pattern của từng loại
+[00:10:56] Tránh bị trống chéo giữa các family heat train
+[00:11:00] Tiếp theo là em sẽ chuẩn hóa độ dài input về các khoảng hợp lý
+[00:11:06] Tránh cho việc generator học lệch theo một vài mẫu hiếm
+[00:11:09] Thiện tiện thứ 2 là hướng thuật toán
+[00:11:12] Mục tiêu của em là muốn mô hình lần này sẽ học đúng cấu trúc SQL thay vì chỉ đánh lừa discriminator
+[00:11:20] Tiếp theo em sẽ tokenize từng unit riêng thay vì tách từng ký tự trần
+[00:11:27] Giúp generator học pháp dễ hơn
+[00:11:30] Và cuối cùng là em sẽ bổ sung phương pháp chấm điểm payload với mục tiêu là kiểm tra dữ liệu sinh ra có đúng khủng pháp SQL không
+[00:11:39] Và em sẽ cộng thẳng reward này và update vào generator
+[00:11:45] Đầu tiên em sẽ đến với 6 kịch bản cải thiện dữ liệu
+[00:11:48] Thì trong đó kịch bản A là em sẽ vẫn giữ nguyên phương phong cách em lựa chọn cũ sau lúc chạy đồ vào để coi như là mốc ban đầu
+[00:12:04] Tiếp theo là em sẽ chọn ưu tiên là các ký tự ngắn
+[00:12:07] C là em sẽ ưu tiên độ dài phổ biến, trung vị
+[00:12:12] D là em sẽ random không hoàn lại trong vùng trung vị
+[00:12:22] Em sẽ bỏ 25% đầu và 75% cuối và chỉ tập trung vào 50% ở giữa
+[00:12:27] Tiếp theo là em sẽ random cho toàn bộ dữ liệu
+[00:12:30] Và em sẽ giữ chỉ số random trong toàn bộ mô hình này là 88
+[00:12:37] Để đảm bảo là tính đồng nhất
+[00:12:39] Và cuối cùng là em sẽ chọn theo phương án...
+[00:12:48] Em sẽ chọn theo phương án...
+[00:12:51] Em chọn theo...
+[00:12:53] Để một tí ạ. Cái này em đang...
+[00:12:56] Để tiếng Anh em sẽ viết nó ạ.
+[00:12:57] Nhưng mà em muốn nói là cái phương pháp N này là em sẽ cố gắng chọn để có thể lấy được đa dạng nhất có thể các cái tí tự.
+[00:13:05] Thì em sẽ chọn theo phương án...
+[00:13:08] Chọn theo phương án 3 gram.
+[00:13:17] Tiếp theo là hướng cải thiện thuật toán
+[00:13:19] sẽ có 3 hướng, đầu tiên là em sẽ tokenize hóa các dữ liệu SQL
+[00:13:30] thay vì để những dữ liệu có chung ý nghĩa
+[00:13:35] em sẽ tokenize hóa để tránh việc mô hình vốn học những mẫu
+[00:13:42] sinh ra những mẫu đặc biệt mà không có ý nghĩa
+[00:13:46] Tiếp theo là tăng Pre-Chain, em sẽ tăng Pre-Chain từ 120 lên 160 để tránh bị Collapse và cũng làm cho mô hình Pre-Chain Trayator vững chãi hơn
+[00:13:58] Và cuối cùng là em sẽ tăng thưởng điểm Rewards
+[00:14:05] Thay vì em để 100% là Disc Creator Rewards thì em sẽ để 70% là Disc Miner Rewards
+[00:14:11] và 30% còn lại sẽ là SQL SPA REWARD để có thể mong dữ liệu sinh ra được
+[00:14:18] có cấu trúc SQL hơn ạ
+[00:14:20] và đây là tổng là sẽ có 8 kịch bản
+[00:14:26] 2 mục 3
+[00:14:27] thì là sẽ có là 8 kịch bản
+[00:14:36] thì sau khi mà áp dụng tất cả các kịch bản đồng thời
+[00:14:44] thì em sẽ có các cái đánh giá
+[00:14:47] Đây là mô hình mà có điểm cấu trúc cao nhất
+[00:14:51] là mô hình thiên nhiên
+[00:14:54] Bây giờ lại thành Dominant rồi
+[00:14:55] Bây giờ lại Dominant rồi
+[00:14:58] Nếu mà tìm đồ gì thì tìm đồ quý đấy nhé
+[00:15:04] Vâng
+[00:15:08] Đây là các cái mô hình cấu trúc
+[00:15:16] các cái kết quả mô hình ạ
+[00:15:18] thì ở đây sẽ
+[00:15:20] trong mô hình này thì kịch bản là BV8
+[00:15:23] là kịch bản mà chiếm gần như đa số
+[00:15:27] đa số đứng top đầu như đa số trong các lĩnh vực trong đó sẽ có hai kịch bản là cũng đứng top là
+[00:15:36] sẽ gồm có Bolin dv7 và Union dv2 thì sau đó dựa vào thông số trên ạ thì em đề xuất là cộng cộng
+[00:15:46] là sẽ có 11 kịch bản em lựa chọn để chạy ạ thì đầu tiên là ứng viên thứ nhất là sẽ là dv8 như em
+[00:15:56] Tiếp theo là ứng viên số 2 là các kịch bản cũng nằm ở trong top đã được đề xuất ở bên trên
+[00:16:04] Và ứng viên số 3 là em sẽ chọn để có thể lấy mẫu để có thể so sánh
+[00:16:10] Thì ở Poland, trong kết quả thực tế là mô hình V8 và V7 là chiếm vị trí rất là cao và bỏ xa
+[00:16:21] So với các kết quả khác
+[00:16:25] Em sẽ chọn lấy
+[00:16:27] Phần top 3 để em ưu tiên
+[00:16:29] Tính ngẫu nhiên
+[00:16:30] Còn đối với kịch bản Aaron
+[00:16:35] Lỗi thì em sẽ chọn
+[00:16:36] V4 bởi vì là
+[00:16:38] Mũ hình này cũng nằm trong top 3
+[00:16:40] Và cũng có chỉ số ổn định
+[00:16:41] Tương tự với cả A
+[00:16:43] V8 thì đối với kịch bản Time
+[00:16:46] Là nó đặc biệt hơn
+[00:16:47] Bởi vì là nó cần phải
+[00:16:49] Nó cần phải học được
+[00:16:50] Nó cần phải biết được chính xác được
+[00:16:55] được cả là các ngữ pháp cho từng database riêng nên là trong kịch bản Time này thì chỉ có 3 mô
+[00:17:03] hình là không bị collapse đến cuối. Và cuối cùng đến kịch bản Union thì là em sẽ chọn Fv3 là ưu
+[00:17:12] tiên sự đa dạng. Đây là kết quả cuối cùng. Đầu tiên là kết quả với các mô hình cơ bản, 4 mô
+[00:17:21] Mô hình cơ bản ban đầu thì ở đây là các mô hình, 3 mô hình đầu thì vẫn như cũ là cũng sẽ có tỷ lệ học được cấu trúc SQL rất là cao.
+[00:17:34] Tuy nhiên là độ unique của nó là không hề tăng và chỉ số recall cũng không tăng quá nhiều và có một vài mô hình bị giảm rất là cao.
+[00:17:53] Trong khi đó còn các mô hình mà em đề xuất
+[00:18:01] Thì em đưa ra kết quả của top 5 mô hình tốt nhất
+[00:18:06] Thì là mô hình DV
+[00:18:11] Nếu mà sử dụng kịch bản DV8 cho yêu nhiệt
+[00:18:15] Thì sẽ là tốt nhất có thể
+[00:18:17] Tương tự với cả Bolin là DV7
+[00:18:20] Time là DV8
+[00:18:22] Error là DV3
+[00:18:23] Thì em kết luận là
+[00:18:29] Đối với các mô hình cơ bản, độ độc nhất sẽ bị giảm dần nếu như càng tăng mức tỷ lệ càng khắc nhiệt thì độ unique sẽ càng càng giảm
+[00:18:44] Điểm cấu trúc sẽ luôn rất cao nhưng tỷ lệ trùng lọc cũng đồng thời rất cao
+[00:18:49] Còn so sánh giữa mô hình si quần góc và si quần cải tiến của em
+[00:18:56] lần này là em đã thật sự sinh ra chuỗi mới
+[00:18:58] và bản gốc thì structure đã sụp đổ và bị collapse
+[00:19:03] khi mà tiến đến tới tỷ lệ 1 trên 50
+[00:19:06] còn bản của em là vẫn có thể sinh ra dữ liệu
+[00:19:10] và khả năng cân bằng tốt hơn
+[00:19:12] và trong đó là sẽ có 2 kịch bản tốt nhất
+[00:19:14] đó chính là Union thì sẽ sử dụng kịch bản DV8
+[00:19:18] và Bowden là kịch bản DV7
+[00:19:21] thì đây cuối cùng là em sẽ đưa vào mô hình tương lượng thực tế
+[00:19:27] còn đây là các thiết lập của em
+[00:19:29] thì là khi mà đưa vào thì là sẽ có tỷ lệ bị chặn là 70% trên toàn bộ
+[00:19:38] và tỷ lệ không bị chặn là 3%
+[00:19:41] mà sau khi mà em đọc em xem các cái kết quả thực tế
+[00:19:47] thì em nhận ra là hầu hết cái tỷ lệ không bị chặn này là do là nó dịch ra dữ liệu nhiễu
+[00:19:54] Nó thật sự không có tác dụng tấn công
+[00:19:56] Nên nó có khả năng vượt qua được tường lửa
+[00:19:58] Thế nên là em sẽ
+[00:20:00] show luôn dữ liệu payload thực tế để phân tích ạ.
+[00:20:07] Thì đây là đối với mô hình SMODE ạ. Thì ở đây các mẫu sinh ra rất là tốt ạ.
+[00:20:17] Tuy nhiên là nó sinh ra khá nhiều các mẫu có khoảng trắng và một vài mẫu bị lệch kỹ thuật ạ.
+[00:20:25] Nghĩa là nếu mà đối với một số mẫu mà yêu cầu về ngữ pháp khá là cao
+[00:20:32] Ví dụ như Timeline chẳng hạn là rất dễ có thể bị lệch kỹ thuật
+[00:20:36] Bởi vì nó chỉ biết ghép chứ nó không học được các mối quan hệ
+[00:20:40] Thế tương tự
+[00:20:43] Tôi có thể hỏi cái điểm chéo Warp là gì?
+[00:20:46] Trong này là điểm 100 là đánh giá
+[00:20:51] Đây là điểm đánh giá xem là có phải là mẫu SQL không
+[00:20:55] Còn Warp ở đây là kết quả trả về sau khi mà đưa vào tấn công
+[00:20:59] Là HTTP 403 ở đây là không có kết quả trả về
+[00:21:23] Tiếp theo là đối với mô hình gan thì nó cũng bị giống như với mô hình smooth thì nó cũng có bít trùng lặp
+[00:21:38] và một số các cái mô hình
+[00:21:41] à một số các cái phan đi
+[00:21:43] mà yêu cầu ngữ pháp cao
+[00:21:45] thì là nó cũng không học được
+[00:21:47] nó cũng không học được mà
+[00:21:49] nó chỉ biết lặp lại
+[00:21:51] mà nó không học được mối quan hệ ngữ pháp
+[00:21:54] đối với mô hình CT gan
+[00:21:57] thì là cũng bị vấn đề như vậy
+[00:22:00] còn mô hình CT gan
+[00:22:02] thì như ở trên thông số
+[00:22:04] là nó thật sự đã học được
+[00:22:07] cấu trúc nhưng mà khi mà
+[00:22:08] càng ngày mà càng khắc nhiệt
+[00:22:10] Kỷ lệ khắc nhật thì nó sẽ cố gắng tìm tới những cái mẫu mà cơ bản và càng ngắn bởi vì nó ưu tiên an toàn.
+[00:22:19] Mã 200 là vượt qua được ạ.
+[00:22:24] Có không? Vượt qua nhưng mà nó không có ý nghĩa gì cả đúng không?
+[00:22:34] Ví dụ như là mã đầu là có tấn công được ạ.
+[00:22:42] Như bắt đầu có tấn công được nhưng mà nó sẽ chỉ cố gắng là sinh ra những mẫu siêu ngắn bởi vì nó bị collapse và cố gắng ép tới những cái trường hợp mà thật sự an toàn
+[00:22:52] Thì đến cuối cùng là mô hình cải tiến là nó đã sửa được những gì mà mô hình si quần gan gốc của em gặp vấn đề là nó đã sinh ra dữ liệu dài hơn
+[00:23:07] Tuy nhiên là nó cũng khi mà gặp những cái kịch bản family mà nó yêu cầu mức pháp quá khắc khe
+[00:23:14] như là Time và Alien thì nó cũng không học được củ pháp ạ.
+[00:23:20] Thế nên là trong toàn bộ mô hình của em chỉ có đúng 2 mô hình
+[00:23:25] là DV8 đối với Poland và DV7 đối với Union
+[00:23:29] là thật sự sinh ra kết quả tốt và có khả năng ứng dụng được đấy ạ.
+[00:23:34] Còn 11 kịch bản còn lại thì thật sự là không có kịch bản nào
+[00:23:38] có thể sinh ra dữ liệu mà có thể sử dụng được.
+[00:23:45] sẽ đưa đến quyết luận là mô hình của em đã giải quyết được những vấn đề mà mô hình SQL GAN cũ đã gặp phải
+[00:23:54] nhưng mà tuy nhiên trên thực tế là sẽ chỉ có 2 kịch bản Union và Boland là nó thật sự học được
+[00:24:03] do là yếu tố yêu cầu về ngữ pháp của nó sẽ thấp hơn so với 2 family còn lại
+[00:24:10] và 2 family còn lại là kết quả của em là không có quá nhiều cải thiện
+[00:24:16] Cảm ơn các bạn đã theo dõi và hẹn gặp lại.
+[00:26:13] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:26:53] Nó là kết hợp giữa cả là dữ liệu và thuật toán, dữ liệu sẽ là kịch bản B và D, còn thuật toán là kịch bản B8, thì em có đưa 2 cái bản ở đây.
+[00:27:16] Nếu như mấy loại xe cuốn gan bình thường, xe cuốn gan và xe cuốn gan ở đằng kia thì nó là cái gì mà mua hay không?
+[00:27:27] Em xin lỗi thầy, nhưng em chưa ý thức được câu hỏi của thầy ạ.
+[00:27:34] Thì nghĩa là bây giờ em nên viết ra tổng hợp là kịch bản DV8 và DV7 của em là thật sự có những cái gì hay là gì nào?
+[00:27:42] Không phải, em dở lại cái mô hình của cái xe cuốn gan.
+[00:27:47] Rồi, đây.
+[00:27:50] Đấy, trong mô hình này thì em đã tìm cái gì?
+[00:27:52] Thì trong mô hình này, em cải thiện 3 cái
+[00:27:57] Đầu tiên là em sẽ tăng thông số pre-chain lên từ 120 lên 160
+[00:28:04] Để cho mô hình generator sẽ có vững hơn để tránh bị collapse
+[00:28:10] Tiếp theo là em sẽ có reward thay vì để 100% là distributor reward
+[00:28:18] thì em sẽ để là 70% thôi ạ
+[00:28:21] và em sẽ thêm 30% reward của SQL
+[00:28:24] để mong là mô hình có sinh ra được cấu trúc dòng SQL hơn ạ
+[00:28:31] Ví dụ như em bảo là có 3 cải tiến
+[00:28:33] thì cải tiến thứ nhất thì có thử và ra kết quả nó hơn so với phía cũ không?
+[00:28:40] Cải tiến thứ 2 thì có thử và ra kết quả nó hơn so với phía cũ không?
+[00:28:44] Ờ em có ạ
+[00:28:47] Thì em sẽ chạy toàn bộ luôn ạ
+[00:28:50] là em sẽ áp dụng tổng cộng
+[00:28:52] Từ từ đã đi đây, tôi muốn hỏi là cái sức khỏe gian của em, em nghĩ cái gì ý đâu ạ?
+[00:28:58] Em không vẽ vào mô hình ở đây ạ.
+[00:29:01] Thầy nhập tóc hiểu được.
+[00:29:03] À rồi, em hiểu như thế.
+[00:29:09] Nó là sức khỏe gian đúng không?
+[00:29:10] Sức khỏe gian đẹp đến là không.
+[00:29:12] Chưa có đúng không ạ?
+[00:29:13] Vâng ạ, em chưa có mô hình.
+[00:29:15] Thì cái thật chính của em là cái phần trình bày về cái sức khỏe nguồn cảnh thì em phải nói rõ là phải cải thiện như gì.
+[00:29:20] Trước cải thiện như thế này và sau cải thiện kết quả như thế nào.
+[00:29:23] Kết quả bình thường là bạn có sinh ra như thế này và sau khi sinh ra như thế này, các thầy chỉ có đợi ở đấy thôi.
+[00:29:32] Có bảo vệ, có những lời không để lên nữa thì tốt để lấy trong đó. Chưa hiểu được sinh ra là gì, sao thì hiểu sao.
+[00:29:46] Cảm ơn thầy.
+[00:29:50] Thầy tiếp theo.
+[00:29:55] Có đó.
+[00:29:57] Em không...
+[00:29:58] Có đó.
+[00:29:59] Em không...
+[00:29:59] Thầy,
+[00:30:00] là tỷ lệ
+[00:30:07] Cải thiện cái gì thay cũng chả hiểu, cải thiện cái gì đâu
+[00:30:17] Ở mức độ kinh nghiệm thì cái cải thiện chỉ là để các thành thường hiểu cho em
+[00:30:24] Thì còn chứ không cần trình bày phải cải thiện đâu, em hiểu chưa?
+[00:30:31] Thì đấy là nội dung của kinh nghiệm
+[00:30:35] Nhưng mà cái trình bày của em vừa rồi cũng dối quá là mọi người không hiểu
+[00:30:39] Thì thay cũng chưa hiểu đâu
+[00:30:43] Bây giờ anh tập trung vào một cái tầm mồm là từ cái SQL, bây giờ em sinh ra một cái SQL, đó là một cái cách thức để em đề xuất,
+[00:30:51] thì em tập trung vào cái việc mà em gọi là để sinh ra.
+[00:30:55] Trong những cái sinh ra đấy thì em cũng đề xuất là có một cái mô hình mà em muốn gọi là cho nó mất hơn những cái mô hình bình thường.
+[00:31:02] Thì còn hai cái đấy thôi, thì chúng ta hiểu được là chúng ta tổng thân là tổng thân sinh ra cái SQL Edition.
+[00:31:07] Và trong các cái mô hình em sử dụng SQL Edition thì em sử dụng trên cả mô hình là SQL GAM và có một phần kiểm nghiệm thôi.
+[00:31:13] Thế thôi. Nghĩa là nó kiểm tra được những lợi ích gì.
+[00:31:17] Thế thôi.
+[00:31:18] Nếu thầy nghĩa là vệt bản và...
+[00:31:22] Bây giờ em mở quyển luật văn ra xin mở ra cho thầy xem cái chỗ nào là thầy đi.
+[00:31:26] Có ý thầy bảo em là thầy có ý thầy đi vào.
+[00:32:25] Slide này cũng chưa phản ánh được cái góp ý lần trước.
+[00:32:27] Rồi trình bày lại nhiều cái chuyện là đây là cái nhóm mà sinh nhật chưng, đây là cái nhóm sinh chuối.
+[00:32:38] Đúng không? Lần trước thầy đã góp ý rất nhiều rồi cũng chưa thấy thay đổi bao nhiêu cả.
+[00:32:52] Đề án mình tập trung vào nghiên cứu về dùng mạng gan để hỗ trợ sinh sinh dữ liệu
+[00:33:04] Thì em hình dung là cái chuyện em tìm hiểu
+[00:33:08] Citygan hay Citygan đấy là nó góp rồi
+[00:33:13] Thì trong tìm hiểu đấy mình nói là mình phân biệt ra 2 loại
+[00:33:16] Một là sinh liệt chức
+[00:33:17] Sinh liệt chức là ra cái thứ mà không ai hiểu là cái gì cả
+[00:33:20] Nhưng mà đưa vào cái mô hình máy thì nó vẫn nhận
+[00:33:25] Cái anh ta là sinh hẳn cái chú ý thật
+[00:33:27] Anh ta bảo Citygan là sinh rất là chú ý thật
+[00:33:40] Cái này thầy cũng đang chưa hiểu
+[00:33:41] Đúng ạ. Thì là gan với cả CD gan là nó cũng chỉ sinh đặc trưng vào xây quần gan thì là...
+[00:33:51] Đúng thế. Cái vấn đề là em cứ tập trung cái chuyện cải tiến này, cải tiến là đấy là làm hết.
+[00:33:57] Mình trình bày cái mặt chính luôn, tốt đi đã. Đúng không?
+[00:34:04] Thay là nói đồ ăn về cái mạng gan. Thế trước đây em trình bày mạng gan ở chỗ nào nhỉ? Đúng chưa?
+[00:34:13] Trước đây trình bày mạng gan, gan cấu trúc những thành phần như thế nào, hàm lót xuất như thế nào. Đúng không?
+[00:34:20] Tại sao dùng gan để xin dữ liệu?
+[00:34:22] Chứ nếu em cứ nhảy vào thì cải thiện luôn, hóa ra đầy dài phải đi vào là trọng tâm em cải thiện ra không?
+[00:34:35] Chưa vẽ mô hình, em cũng chỉ vẽ là lưu đồ thật toán.
+[00:34:55] Cần về cái gì em phải cải thiện.
+[00:34:58] Về xem lại đi.
+[00:34:59] Vâng.
+[00:35:00] Có 1 cái slide cho mà hơn 1 tuần rồi em cũng thử lại cái này rồi.
+[00:35:14] Em có 1 phần thử nghiệm với tường lửa phải không?
+[00:35:17] Dạ.
+[00:35:17] Nhưng mà cái đấy thì có cái mẫu nào mà đúng tốt đấy mà thân hiệp gọi quản được không?
+[00:35:24] Có, có 157 mẫu, nhưng mà trong lúc thuyết trình em cảm giác là em đang bị nói hơi không đúng trọng tâm nha em đã
+[00:35:35] Cái này em hơi thắc mắc tại vì là thường các cái tường lửa và ứng dụng thì ví dụ như nó bắt câu lệnh thì nó bắt theo cấu trúc rồi
+[00:35:49] Tức là cái đoạn thay hội theo số thì chúng ta vẫn biết tại vì nó tuân thuyết cấu trúc rất lớn nhỉ
+[00:35:55] bình thường cái tên ngựa mà đi bắt một câu đấy xí lệch thì nó đi qua
+[00:36:00] thì nó sẽ thường cũng đã biết cái cấu trúc vừa rồi
+[00:36:05] còn cái thay tham số thì nó vẫn bắt lại
+[00:36:10] trong mô hình của em là em sử dụng cái phương án nó không cao cấp
+[00:36:19] và nó khá đặc trà là most security và rule là OAV
+[00:36:24] nên là với cả em cũng không có xây dựng cái DB nó quá là đầy đủ
+[00:36:31] Ví dụ như chỉ cần tấn công vượt qua mà báo về mẫu 200 mà lúc đấy em sẽ ngồi đọc payload xem là có các đặc tính
+[00:36:41] Nếu mà đưa vào thực tế thì có thể nó sẽ không khai thác được quá nhiều
+[00:36:46] Thế là đây là em có cao tiền với cái mẫu 200
+[00:36:50] Em không thay đổi, em tải rồi em sử dụng lại nên không thay đổi trong quá trình chạy học
+[00:36:59] Nó có 2 kiểu trường hợp, một là dữ liệu sinh ra nó không theo cấu trúc của SQL vượt qua được
+[00:37:07] hoặc là cũng nhiễu đúng không?
+[00:37:08] Đúng ạ
+[00:37:09] Cái đó là nếu nó tốt như cấu trúc thì cái tham số trong đấy nó phải như nào đó đúng không?
+[00:37:15] Phải có giá trị địa tấn công đúng không?
+[00:37:16] Vâng
+[00:37:16] Cái đấy mình hỏi là cái đấy có sinh ra cả đám kia thế như thế không để vượt qua tấn công không?
+[00:37:22] Vượt qua tầng lửa của tấn công không?
+[00:37:26] Nếu vượt qua tường lửa của em, trong mô hình của em, nếu vượt qua được 200
+[00:37:34] Lúc đấy em sẽ thật sự vào để em đọc và xem có cấu trúc
+[00:37:37] Còn nếu yêu cầu trong môi trường thực tế, tường lửa của các doanh nghiệp thì chắc chắn là không vượt qua
+[00:37:46] Cái mô security của nó khá là mạnh, sinh cái streamer SQL và đưa theo
+[00:37:52] Bản chất của nó chỉ là theo cái tham số thôi chứ đúng không?
+[00:37:55] Không nghĩa là bởi vì trong chính cái kịch bản của em ạ, nó cũng không có database ạ, nó chỉ đơn giản là đưa vào bộ lọc và nếu như trả về kết quả 200 thì em sẽ biết là một là nó đã vượt qua hoặc là noise, lúc đấy em bắt đầu mới đọc xem là nó có cấu trúc SV ạ, còn em trong mô hình này em không có thử nhận xem có tấn công được để em không.
+[00:38:20] Nếu mà đạt về 200 nó trả lời nó hoạt động, những khu vực này bình thường thì nó vẫn hoạt động của mình trong cơ sở thì có gì nó sẽ hoàn thành được để đạt ra đợt tổng hợp SRL?
+[00:38:34] Đúng rồi. Thì là trong mô hình thì mình chỉ tập trung vào việc là một cái câu SRL, Injection có cấu trúc SRL khi đeo qua tường lửa và trả về kết quả 200
+[00:38:49] Chứ nó không bị chặn 403. Thì mình sẽ chỉ tập trung khai thác những cái thông tin như thế
+[00:38:55] nghĩa là AFL có sự tuyên bẩn và có sự tỉnh đại
+[00:38:59] có sự tỉnh đại thì cứ xử lý được mình mới có gì để cho nó ra ra được
+[00:39:06] rồi
+[00:39:07] người ta chỉ cần phát hiện được thôi
+[00:39:10] cái câu lệnh mà đi qua mà theo những kiểu tấn công để xem nó sinh ra như thế nào
+[00:39:17] không có chuyện khác
+[00:39:21] nghĩa là nếu mà câu lệnh này chính phẩm AFL thì mình chỉ cần kiểm thử được
+[00:39:26] vì mình có thể phản định câu lệnh này là AFL chính phẩm tuyên bẩn
+[00:39:33] mình là nhắn một tay cả hẳn
+[00:39:35] nhưng mà bản thân nó có phải tự tin cho AFL là một nền để tương ứng
+[00:39:38] thế thì vấn đề nó cũng hỏi đấy
+[00:39:51] Bộ dữ liệu này có tấn công đa dạng trên nhiều DB và nó cũng yêu
+[00:40:00] cũng yêu cầu các cái đầu vào payload và các cái cấu trúc là nó khác biệt chứ nó không tưởng chung một cái cú pháp
+[00:40:09] Thế nên là trước là mình cũng có làm là cũng có xây dựng lên nhưng mà là do là phải thêm thấp những cái HTTP phải chuẩn thì lúc đó nó thật sự ảnh hưởng
+[00:40:23] nên là lúc đấy là mình mới bỏ phương án đấy và mình chỉ quan tâm việc là có vượt qua được bộ rule set và có trả về 200 hay không
+[00:40:35] Nếu mà xây dựng như Lam nói thì khả năng cao là sẽ không vượt qua được thật
+[00:40:45] Nhưng mà giả sử nếu cần phải làm chia sẻ mức đấy thì sẽ phải viết từng cái cấu trúc để cho từng cái tài loại một và đưa vào
+[00:40:58] Chứ không thể kiểu sửa ứng dụng đại trà được
+[00:41:00] Thì đấy là vấn đề mà mình gặp phải về cái đưa vào từng lượng
+[00:41:05] Thế là mục tiêu này là sinh ra dữ liệu kiểm công không? Kiểm thử dễ công không?
+[00:41:09] Đúng
+[00:41:10] Còn có thể là test thử với bộ phát hiện người mốt sinh ra dữ liệu không để test thử xem
+[00:41:23] Cũng làm, cũng hạ hạ xuống
+[00:41:29] Vì lúc đầu cũng đúng như anh với cả Lao nói là cũng muốn là thật sự xem là tường lửa có được không
+[00:41:36] Trong lúc triển khai thì phải tự nhiên nó phức tạp hơi nhiều so với mục tiêu ban đầu
+[00:41:43] Và cảm giác nó hơi lệch nên là mới thu nhỏ xuống
+[00:41:46] Nó chỉ đơn giản là chỉ cần trả về mẫu 200 sau khi vượt qua đổi thu xét, kiểm tra xem có dùng SVL Injection hay không, hay là nhiễu
+[00:41:55] Nếu như là SVL Injection thì sẽ đưa vào luôn
+[00:42:00] Mẫu tấn công này có đặc tính SVL Injection chứ không nhằm tới việc là có thật sự định nghĩa và khai thác thực tế
+[00:42:17] Mình về trình bày lại cho rõ trong văn lẫn, trong slide nhé
+[00:42:23] Đấy, thứ nhất thầy nói thì bạn phải lấy cường để ghi như thầy nói cả
+[00:42:26] Trước đây có bị ít rồi, tuần này có lệch
+[00:42:30] Thứ hai là đầu tiên phải nói về cái bài thoáng phát hiện
+[00:42:33] Tấn công là chỉ quen với một section rất clear ở trên slide
+[00:42:40] Người ta đã từng làm gì thế nào?
+[00:42:43] Người ta đã từng làm gì?
+[00:42:46] Đấy chưa?
+[00:42:50] Cái work và cái detector nó là những cái gì?
+[00:42:53] Đấy chưa?
+[00:43:21] Tiếp theo là liên quan tới sinh dữ liệu
+[00:43:24] Cơ bản người ta dùng SMOTE
+[00:43:27] Và trong luận văn này em tìm hiểu về một phương pháp sử dụng sinh dữ liệu
+[00:43:37] Thì gan nó là cái gì? Tại sao phải sử dụng gan?
+[00:43:42] Mình cứ nói cho không xuyên xoay
+[00:43:46] Và trong đoàn đề án này em tìm hiểu những mùi gan như sau
+[00:43:51] CT gan, CT cột gan
+[00:43:54] Được kết quả như thế này
+[00:43:59] Trình bày những phần bản đánh vọng thôi
+[00:44:02] Các thầy không thể hiểu các thầy làm cái gì lắm
+[00:44:06] Em dạng được kết quả như thế này
+[00:44:09] Chỉ phải đúng theo dựa dựa như thế này nhé
+[00:44:13] Đã được kết quả như thế này
+[00:44:17] Và em thấy với sinh quần ngoan, sinh quần gan
+[00:44:21] Thì nó khác cái gan kia nó là cái gì
+[00:44:23] Hai nhóm, một nhóm là sinh đặc trưng
+[00:44:26] Một nhóm là sinh sinh quần
+[00:44:27] Ví dụ nó như thế này
+[00:44:28] Ví dụ vào thành phần ngay trên slide
+[00:44:37] Sinh đặc trưng nó sinh cái gì
+[00:44:45] Sinh chuỗi nó như thế này
+[00:44:47] Với kết quả hiện nay sinh quần gan nó đạt được mức độ như thế này
+[00:44:50] Em thấy là nó chưa được tốt lắm
+[00:44:52] Như vậy em có một đề xuất thêm, cải thiện xịt bồn gan, xịt bồn gan và cải thiện cái gì phải nói rõ.
+[00:44:59] Và cuối cùng kết quả đạt được như thế nào?
+[00:45:09] Quay trước thôi, em phải sửa làm sao để phản ảnh hiểu được.
+[00:45:26] Chưa, em hãy bổ sung giải thích câu hỏi này dầu quá.

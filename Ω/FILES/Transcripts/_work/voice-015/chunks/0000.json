@@ -1,0 +1,117 @@
+{
+  "run_key": "6355ce3ae8c6c014fbc1ab6bfcc1e695cc0edb9648e7abb9cda2cb5518e83d02",
+  "start": 0,
+  "end": 38.2665,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.09,
+      "end": 4.62,
+      "text": "Học đợi đợi tí. Học tiền một tí nhé. Đợi anh ngồi tí nhé. Ok ok.",
+      "avg_logprob": -0.5230468556284904,
+      "compression_ratio": 1.1733333333333333,
+      "no_speech_prob": 0.1727294921875,
+      "words": [
+        {
+          "start": 0.09,
+          "end": 0.43,
+          "word": " Học",
+          "probability": 0.6925455729166666
+        },
+        {
+          "start": 0.43,
+          "end": 0.65,
+          "word": " đợi",
+          "probability": 0.6082356770833334
+        },
+        {
+          "start": 0.65,
+          "end": 0.77,
+          "word": " đợi",
+          "probability": 0.7087809244791666
+        },
+        {
+          "start": 0.77,
+          "end": 0.97,
+          "word": " tí.",
+          "probability": 0.781005859375
+        },
+        {
+          "start": 0.99,
+          "end": 1.21,
+          "word": " Học",
+          "probability": 0.8719075520833334
+        },
+        {
+          "start": 1.21,
+          "end": 1.33,
+          "word": " tiền",
+          "probability": 0.595703125
+        },
+        {
+          "start": 1.33,
+          "end": 1.43,
+          "word": " một",
+          "probability": 0.09490966796875
+        },
+        {
+          "start": 1.43,
+          "end": 1.59,
+          "word": " tí",
+          "probability": 0.73193359375
+        },
+        {
+          "start": 1.59,
+          "end": 1.73,
+          "word": " nhé.",
+          "probability": 0.743896484375
+        },
+        {
+          "start": 1.73,
+          "end": 1.97,
+          "word": " Đợi",
+          "probability": 0.7425130208333334
+        },
+        {
+          "start": 1.97,
+          "end": 2.03,
+          "word": " anh",
+          "probability": 0.91943359375
+        },
+        {
+          "start": 2.03,
+          "end": 2.11,
+          "word": " ngồi",
+          "probability": 0.825927734375
+        },
+        {
+          "start": 2.11,
+          "end": 2.27,
+          "word": " tí",
+          "probability": 0.947998046875
+        },
+        {
+          "start": 2.27,
+          "end": 2.37,
+          "word": " nhé.",
+          "probability": 0.90234375
+        },
+        {
+          "start": 4.04,
+          "end": 4.36,
+          "word": " Ok",
+          "probability": 0.71923828125
+        },
+        {
+          "start": 4.36,
+          "end": 4.62,
+          "word": " ok.",
+          "probability": 0.650390625
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "3f395f99839a0a8851f37925ad35dff50f95fa3758608ae8c7f6d26a8825326d"
+}

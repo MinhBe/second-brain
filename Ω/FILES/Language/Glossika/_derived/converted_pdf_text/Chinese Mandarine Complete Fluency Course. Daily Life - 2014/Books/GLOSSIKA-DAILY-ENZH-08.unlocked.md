@@ -1,0 +1,966 @@
+# GLOSSIKA-DAILY-ENZH-08.unlocked
+
+Source: `GLOSSIKA-DAILY-ENZH-08.unlocked.pdf`
+
+## Page 2
+
+Unit 8
+
+## Page 3
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+3
+Business any better lately?
+最近生意有起色了嗎？
+最近生意有起色了吗？
+[ʦ⁼ʷèʲ ʨ⁼ìn ʂɤ̄ŋ ì jóʷ ʨʰǐ sɤ̀ lɤ• ]
+Zuìjìn shēngyì yǒu qǐsèle mā?
+351
+
+## Page 4
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+4
+Her sickness is starting to look better.
+她的病開始有了起色
+她的病开始有了起色
+[tʰā t⁼ɤ• p⁼ìŋ kʰāʲ ʂʅ́ jǒʷ lɤ• ʨʰǐ sɤ̀ ]
+Tā de bìng kāishǐ yǒule qǐsè
+352
+
+## Page 5
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+5
+He's not even qualified for that!
+他一點也不夠格！
+他一点也不够格！
+[tʰā ì t⁼ʲɛ́n jɛ̌ p⁼ú k⁼òʷ k⁼ɤ́ ]
+Tā yīdiǎn yě bùgòu gé!
+353
+
+## Page 6
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+6
+Are you holding a grudge against me?
+你是不是懷恨在心？
+你是不是怀恨在心？
+[nǐ ʂʅ̀ p⁼ú ʂʅ̀ hʷáʲ hə̀n ʦ⁼àʲ ɕīn ]
+Nǐ shì bùshì huáihèn zàixīn?
+354
+
+## Page 7
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+7
+He likes to hold grudges.
+真的很愛記仇。
+真的很爱记仇。
+[t͡ʂ⁼ə̄n t⁼ɤ• hə̌n àʲ ʨ⁼ì t͡ʂʰóʷ ]
+Zhēn de hěn ài jìchóu.
+355
+
+## Page 8
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+8
+Don't talk behind people's backs.
+對人要厚道一點
+对人要厚道一点
+[t⁼ʷèʲ ʐə́n jàʷ hòʷ t⁼àʷ ì t⁼ʲɛ̌n ]
+Duì rén yào hòudào yīdiǎn
+356
+
+## Page 9
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+9
+It's really comical.
+這真的很滑稽
+这真的很滑稽
+[t͡ʂ⁼ɤ̀ t͡ʂ⁼ə̄n t⁼ɤ• hə̌n hʷá ʨ⁼ī ]
+Zhè zhēn de hěn huájī
+357
+
+## Page 10
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+10
+You should treat him to dinner to return the favor.
+你應該要請他吃頓飯，報答他
+你应该要请他吃顿饭，报答他
+[nǐ īʲŋ k⁼āʲ jàʷ ʨʰǐʲŋ tʰā t͡ʂʰʅ̄ t⁼ùʷn fàn | p⁼àʷ t⁼á tʰā ]
+Nǐ yīnggāi yào qǐng tā chī dùn fàn, bàodá tā
+358
+
+## Page 11
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+11
+Get up and move around a bit.
+你可以起來活動一下
+你可以起来活动一下
+[nǐ kʰɤ́ í ʨʰǐ láʲ hʷó t⁼ʊ̀ŋ í ɕʲà ]
+Nǐ kěyǐ qǐlái huódòng yīxià
+359
+
+## Page 12
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+12
+At first, it sounded pretty good.
+乍聽之下還不錯
+乍听之下还不错
+[zha4 tʰīŋ t͡ʂ⁼ʅ̄ ɕʲà háʲ p⁼ú ʦʰʷò ]
+Zhà tīng zhī xià hái bùcuò
+360
+
+## Page 13
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+13
+I'm telling you sincerely what's on my mind.
+我說的是真心話
+我说的是真心话
+[wɔ̌ ʂʷō t⁼ɤ• ʂʅ̀ t͡ʂ⁼ə̄n ɕīn hʷà ]
+Wǒ shuō de shì zhēnxīn huà
+361
+
+## Page 14
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+14
+Don't avoid the problem.
+不要逃避問題
+不要逃避问题
+[p⁼ú jàʷ tʰáʷ p⁼ì wə̀n tʰí ]
+Bùyào táobì wèntí
+362
+
+## Page 15
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+15
+Relax! I'll take care of it.
+放心！我照辦就是了！
+放心！我照办就是了！
+[fàŋ ɕīn || wɔ̌ t͡ʂ⁼àʷ p⁼àn ʨ⁼ʲòʷ ʂʅ̀ lɤ• ]
+Fàngxīn! Wǒ zhàobàn jiùshìle!
+363
+
+## Page 16
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+16
+Why did she just turn around and leave like that?
+為什麼她掉頭就走？
+为什么她掉头就走？
+[wèʲ ʂɤ́ mɤ• tʰā t⁼ʲàʷ tʰóʷ ʨ⁼ʲòʷ ʦ⁼ǒʷ ]
+Wèishéme tā diàotóu jiù zǒu?
+364
+
+## Page 17
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+17
+Make yourself at home!
+不要太拘束！
+不要太拘束！
+[p⁼ú jàʷ tʰàʲ ʨ⁼ӯ ʂù ]
+Bùyào tài jūshù!
+365
+
+## Page 18
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+18
+Please help yourself.
+請自便
+请自便
+[ʨʰǐʲŋ ʦ⁼ɿ̀ p⁼ʲɛ̀n ]
+Qǐng zì biàn
+366
+
+## Page 19
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+19
+I never expected it would turn out like that!
+我真的沒料到事情會這樣
+我真的没料到事情会这样
+[wɔ̌ t͡ʂ⁼ə̄n t⁼ɤ• méʲ lʲàʷ t⁼àʷ ʂʅ̀ ʨʰíʲŋ hʷèʲ t͡ʂ⁼ɤ̀ jàŋ ]
+Wǒ zhēn de méi liào dào shìqíng huì zhèyàng
+367
+
+## Page 20
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+20
+I don't want to have to spend any more money on a 
+new computer.
+我捨不得再花錢買一台新電腦
+我舍不得再花钱买一台新电脑
+[wɔ́ ʂɤ̌ p⁼u• t⁼ɤ́ t⁼ɤ́ ʦ⁼àʲ hʷā ʨʰʲɛ́n mǎʲ ī tʰáʲ ɕīn t⁼ʲɛ̀n nǎʷ ]
+Wǒ shěbudé zài huā qián mǎi yī tái xīn diànnǎo
+368
+
+## Page 21
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+21
+I feel that she's purposely putting me on the spot.
+我覺得她故意刁難我
+我觉得她故意刁难我
+[wɔ̌ ʨ⁼ʸœ́ t⁼ɤ• tʰā k⁼ù ì t⁼ʲāʷ nàn wɔ̌ ]
+Wǒ juéde tā gùyì diāonàn wǒ
+369
+
+## Page 22
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+22
+I won!
+我贏了！
+我赢了！
+[wɔ̌ íʲŋ lɤ• ]
+Wǒ yíngle!
+370
+
+## Page 23
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+23
+I lost!
+他輸了！
+他输了！
+[tʰā ʂū lɤ• ]
+Tā shūle!
+371
+
+## Page 24
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+24
+We're tied!
+我們打成平手！
+我们打成平手！
+[wɔ̌ mən• t⁼ǎ t͡ʂʰɤ́ŋ pʰíŋ ʂǒʷ ]
+Wǒmen dǎ chéng píngshǒu!
+372
+
+## Page 25
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+25
+You look like you need some sleep.
+你看起來需要多睡一點
+你看起来需要多睡一点
+[nǐ kʰàn ʨʰǐ láʲ ɕȳ jàʷ t⁼ʷō ʂʷèʲ ī t⁼ʲɛ̌n ]
+Nǐ kàn qǐlái xūyào duō shuì yīdiǎn
+373
+
+## Page 26
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+26
+You look dreadful.
+你看起來糟透了
+你看起来糟透了
+[nǐ kʰàn ʨʰǐ láʲ ʦ⁼āʷ tʰòʷ lɤ• ]
+Nǐ kàn qǐlái zāo tòule
+374
+
+## Page 27
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+27
+You look terrible.
+你看起來好糟糕
+你看起来好糟糕
+[nǐ kʰàn ʨʰǐ láʲ hǎʷ ʦ⁼āʷ k⁼āʷ ]
+Nǐ kàn qǐlái hǎo zāogāo
+375
+
+## Page 28
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+28
+You look a sight.
+你看來很糟
+你看来很糟
+[nǐ kʰàn láʲ hə̌n ʦ⁼āʷ ]
+Nǐ kàn lái hěn zāo
+376
+
+## Page 29
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+29
+You're a sight.
+你看起來真邋遢
+你看起来真邋遢
+[nǐ kʰàn ʨʰǐ láʲ t͡ʂ⁼ə̄n lā tʰà ]
+Nǐ kàn qǐlái zhēn lātà
+377
+
+## Page 30
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+30
+That face could stop a clock.
+你氣色不好
+你气色不好
+[nǐ ʨʰǐ sɤ̀ p⁼ù hǎʷ ]
+Nǐ qìsè bù hǎo
+378
+
+## Page 31
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+31
+Are you having a bad hair day?
+你今天過得不太好嗎?
+你今天过得不太好吗？
+[nǐ ʨ⁼īn tʰʲɛ̄n k⁼ʷò t⁼ɤ́ p⁼ú tʰàʲ hǎʷ mā ]
+Nǐ jīntiān guòdé bú tài hǎo mā?
+379
+
+## Page 32
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+32
+Are you having a bad day?
+你今天是糟糕的一天嗎?
+你今天是糟糕的一天吗？
+[nǐ ʨ⁼īn tʰʲɛ̄n ʂʅ̀ ʦ⁼āʷ k⁼āʷ t⁼ɤ• ī tʰʲɛ̄n mā ]
+Nǐ jīntiān shì zāogāo de yītiān mā?
+380
+
+## Page 33
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+33
+Are you okay?
+你還好嗎?
+你还好吗？
+[nǐ háʲ hǎʷ mā ]
+Nǐ hái hǎo mā?
+381
+
+## Page 34
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+34
+Are you feeling okay?
+你感覺還好嗎?
+你感觉还好吗？
+[ní k⁼ǎn ʨ⁼ʸœ́ háʲ hǎʷ mā ]
+Nǐ gǎnjué hái hǎo mā?
+382
+
+## Page 35
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+35
+Are you all right?
+你還好吧?
+你还好吧？
+[nǐ háʲ hǎʷ p⁼a• ]
+Nǐ hái hǎo ba?
+383
+
+## Page 36
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+36
+Do you feel all right?
+你一切都好嗎?
+你一切都好吗？
+[nǐ ī ʨʰʲɛ̀ t⁼ōʷ hǎʷ mā ]
+Nǐ yīqiè dōu hǎo mā?
+384
+
+## Page 37
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+37
+You don't look well.
+你看起來不好
+你看起来不好
+[nǐ kʰàn ʨʰǐ láʲ p⁼ù hǎʷ ]
+Nǐ kàn qǐlái bù hǎo
+385
+
+## Page 38
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+38
+You don't look too good.
+你看起來不太好
+你看起来不太好
+[nǐ kʰàn ʨʰǐ láʲ p⁼ú tʰàʲ hǎʷ ]
+Nǐ kàn qǐlái bú tài hǎo
+386
+
+## Page 39
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+39
+You don't look so good.
+你看起來不是很好
+你看起来不是很好
+[nǐ kʰàn ʨʰǐ láʲ p⁼ú ʂʅ̀ hə́n hǎʷ ]
+Nǐ kàn qǐlái bú shì hěn hǎo
+387
+
+## Page 40
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+40
+You look like death.
+你看起來很虛弱
+你看起来很虚弱
+[nǐ kʰàn ʨʰǐ láʲ hə̌n ɕȳ ʐʷò ]
+Nǐ kàn qǐlái hěn xūruò
+388
+
+## Page 41
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+41
+You look flushed.
+你看起來好像病了
+你看起来好像病了
+[nǐ kʰàn ʨʰǐ láʲ hǎʷ ɕʲàŋ p⁼ìŋ lɤ• ]
+Nǐ kàn qǐlái hǎoxiàng bìngle
+389
+
+## Page 42
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+42
+You look pale.
+你看起來很蒼白
+你看起来很苍白
+[nǐ kʰàn ʨʰǐ láʲ hə̌n ʦʰāŋ p⁼áʲ ]
+Nǐ kàn qǐlái hěn cāngbái
+390
+
+## Page 43
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+43
+You're pale.
+你面色蒼白
+你面色苍白
+[nǐ mʲɛ̀n sɤ̀ ʦʰāŋ p⁼áʲ ]
+Nǐ miànsè cāngbái
+391
+
+## Page 44
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+44
+You're white as a ghost.
+你好蒼白
+你好苍白
+[ní hǎʷ ʦʰāŋ p⁼áʲ ]
+Nǐ hǎo cāngbái
+392
+
+## Page 45
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+45
+I'm allergic to it.
+我對它過敏
+我对它过敏
+[wɔ̌ t⁼ʷèʲ tʰā k⁼ʷò mǐn ]
+Wǒ duì tā guòmǐn
+393
+
+## Page 46
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+46
+I'm allergic to penicillin.
+我對盤尼西林過敏
+我对盘尼西林过敏
+[wɔ̌ t⁼ʷèʲ pʰàn ní ɕī lín k⁼ʷò mǐn ]
+Wǒ duì pánníxīlín guòmǐn
+394
+
+## Page 47
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+47
+I'm allergic to cats.
+我對貓過敏
+我对猫过敏
+[wɔ̌ t⁼ʷèʲ māʷ k⁼ʷò mǐn ]
+Wǒ duì māo guòmǐn
+395
+
+## Page 48
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+48
+I'm allergic to pollen.
+我對花粉過敏
+我对花粉过敏
+[wɔ̌ t⁼ʷèʲ hʷā fə̌n k⁼ʷò mǐn ]
+Wǒ duì huāfěn guòmǐn
+396
+
+## Page 49
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+49
+I'm allergic to dust.
+我對灰塵過敏
+我对灰尘过敏
+[wɔ̌ t⁼ʷèʲ hʷēʲ t͡ʂʰə́n k⁼ʷò mǐn ]
+Wǒ duì huīchén guòmǐn
+397
+
+## Page 50
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+50
+I'm allergic to bees.
+我對蜜蜂過敏
+我对蜜蜂过敏
+[wɔ̌ t⁼ʷèʲ mì fɤ̄ŋ k⁼ʷò mǐn ]
+Wǒ duì mìfēng guòmǐn
+398
+
+## Page 51
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+51
+I'm allergic to bee stings.
+我對蜂蜇過敏
+我对蜂蜇过敏
+[wɔ̌ t⁼ʷèʲ fɤ̄ŋ t͡ʂ⁼ɤ̄ k⁼ʷò mǐn ]
+Wǒ duì fēng zhē guòmǐn
+399
+
+## Page 52
+
+繁
+簡
+英
+拚
+IPA
+Unit 8
+f
+You
+Tube
+52
+I'm allergic to shrimp.
+我對蝦子過敏
+我对虾子过敏
+[wɔ̌ t⁼ʷèʲ ɕʲā ʦ⁼ɿ• k⁼ʷò mǐn ]
+Wǒ duì xiāzi guòmǐn
+400
+
+## Page 53
+
+See you back here tomorrow 
+in the next unit! 
+ 
+You're already making great 
+progress!

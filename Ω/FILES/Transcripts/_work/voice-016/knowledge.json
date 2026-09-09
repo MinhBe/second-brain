@@ -1,0 +1,13 @@
+{
+  "created": "2026-09-08",
+  "claims": [],
+  "nodes": [],
+  "open_questions": [
+    "Không xác định được chủ đề từ 5 đoạn ASR. Các ngày, giờ và tên được nhận dạng không đủ tin cậy để ghi nhận thành sự kiện.",
+    "Đoạn lặp và câu kêu gọi đăng ký kênh có dấu hiệu hallucination; chưa nghe nên không khẳng định đó là lời có thật hoặc chắc chắn không có trong audio.",
+    "Có khoảng dài không được nhận dạng; cần phân biệt im lặng với lời nói bị VAD/ASR bỏ sót."
+  ],
+  "practice": [
+    "Nghe bản gốc tại 00:21–01:30 và một đoạn sau 02:00; ghi lại vài câu chuẩn trước khi thử tham số nhận dạng khác."
+  ]
+}

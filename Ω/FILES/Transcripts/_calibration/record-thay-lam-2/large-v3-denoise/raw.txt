@@ -1,0 +1,83 @@
+[00:00:00] Đây đây, em đang làm nó đang hơi không kiểm soát được
+[00:00:09] Thì đề tài của em là em sẽ cố gắng sử dụng GAN trong
+[00:00:16] Là tên, tên tổng toán anh ạ?
+[00:00:18] À vâng, em có, em viết tiếng Anh, quên chưa đổi lại
+[00:00:23] Thì em dùng GAN để detect cái SQL, tấn công SQL
+[00:00:29] Đây là mục tiêu, bài toán thì hiện tại dữ liệu sẽ hầu hết là dữ liệu của người dùng rất bình thường
+[00:00:39] Đôi lúc mới có dữ liệu tấn công thì tỷ lệ sẽ rời từ 100 trên 1 đến 1.000 trên 1
+[00:00:45] Theo phương pháp bình thường thì mình sẽ chỉ đơn giản là lọc dữ liệu rồi chuyển nó thành vector
+[00:00:50] Có thể dùng MOT để kiểu định dạng lại thì lúc này mình sẽ dùng GAN bởi vì GAN nó có thể học
+[00:00:58] Còn cái thằng kia nó chỉ đơn giản nội sinh, nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+[00:01:06] Nó chỉ học nội sinh thôi nhưng nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+[00:01:12] Em mới đề xuất ra, thì đây là mô hình của em ạ
+[00:01:16] Thì là đầu tiên là em sẽ lấy dữ liệu, là lấy dữ liệu trên Kaggle và một số cái Datap
+[00:01:24] lấy thêm dữ liệu của các cái CVE, nghĩa là người ta ghi nhận những cái tấn công
+[00:01:33] dữ liệu thì em lấy thì em cũng mới chỉ lấy khoảng 30.000
+[00:01:38] bởi vì là dữ liệu tấn công thực tế
+[00:01:40] thì khi mà em làm thì em thấy là hầu hết là nó chỉ là noise
+[00:01:45] nghĩa là nó chỉ có khả năng tấn công
+[00:01:48] lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có
+[00:01:52] Nó khá là ít, này em mới nhận ra
+[00:01:57] Còn tiếp theo là em sẽ
+[00:01:59] Trong mô hình nó sẽ có 2 thành phần
+[00:02:01] Đầu tiên là thành phần Generate
+[00:02:05] Và thành phần Phytic
+[00:02:08] Thì em có thêm vào là
+[00:02:12] Trong này là sẽ có thêm
+[00:02:21] Trong phần này em sẽ có thêm
+[00:02:23] Cái Mutation
+[00:02:25] Nghĩa là em sẽ cho nó biết định nghĩa
+[00:02:28] về cách cho cả hai thằng
+[00:02:30] cái
+[00:02:31] cái này
+[00:02:34] là em cũng mới
+[00:02:36] tìm hiểu ạ
+[00:02:37] thì em đang hiểu ạ là em sẽ cho nó biết là
+[00:02:40] bây giờ SPM Jackson thì nó sẽ
+[00:02:42] phải có những cái điều kiện tối thiểu
+[00:02:44] là gì ạ, em cho cả hai thằng
+[00:02:46] nó học luôn ạ, còn nếu mà làm
+[00:02:48] như kiểu bình thường thì nó đang hơi loạn ạ
+[00:02:50] sau khi mà
+[00:02:51] sau khi mà critic thành công xong ạ
+[00:02:54] em sẽ có thêm một lớp để check nữa
+[00:02:56] thì nó sẽ gồm ba cái ạ
+[00:02:58] Đầu tiên là kiểm tra xem có phải là SQL không
+[00:03:01] Là cái lờ 1
+[00:03:02] Tiếp theo là sẽ kiểm tra xem là
+[00:03:05] Khả năng injection của nó
+[00:03:06] Nghĩa là xem là thực tế nó có khả năng tấn công không
+[00:03:09] Hiện tại là em mới chỉ
+[00:03:11] Cho quét qua bộ thư viện
+[00:03:13] OpenSource ở trên mạng
+[00:03:14] Còn cái số 3 là em sẽ quét xem là
+[00:03:17] Độ đa dạng
+[00:03:19] Xem là nó có thực sự đa dạng
+[00:03:21] Nó có thực sự hơn được
+[00:03:22] Thay được thằng SMODE không ạ
+[00:03:27] Thì trong tương lai
+[00:03:28] Thứ hai thì em sẽ thay thế cái thằng L2 bằng cách là em cho tấn công thực tế trên các tương lửa thông dụng
+[00:03:33] Và cái cuối cùng là các cái thước đo để xem là mô hình của em đạt những giá trị nào
+[00:03:44] Vậy đây là kết quả
+[00:03:47] Thì nếu như mà tỷ lệ mà rất rất cân bằng như kiểu 500 trên 1
+[00:03:51] Cái cuộc ngoài cùng thì là nó thì cái mô hình gan nó sẽ hơn được cái phương pháp cơ bản
+[00:03:59] là 42%
+[00:04:01] nhưng mà càng lên cao
+[00:04:03] thì nếu mà tỷ lệ càng thấp
+[00:04:05] thì thằng Mod nó sẽ
+[00:04:08] thắng được thằng GAN
+[00:04:09] thì tỷ lệ đây em chọn là 100
+[00:04:11] 100 trên 1 ạ
+[00:04:12] em cho rằng tỷ lệ mất cân bằng đủ để mình có thể
+[00:04:16] dùng phương pháp GAN
+[00:04:16] thì đây thì hình bên phải
+[00:04:22] thì là em cũng
+[00:04:24] thử là chia ra là 4 trường hợp
+[00:04:26] nghĩa là trong tấn công SQL sẽ có
+[00:04:28] 4 trường hợp thì 2 trường hợp
+[00:04:31] đầu tiên là Boolean và
+[00:04:32] Và error thì là cái này là dựa trên phản hồi của máy chủ.
+[00:04:39] Nghĩa là nó không thực sự tấn công.
+[00:04:41] Nó sẽ đợi xem phản hồi máy chủ là gì và từ đó họ sẽ mường tượng xem là hệ thống của mô hình là như nào.
+[00:04:49] Thì nên là hai cái đầu là nó sẽ không có đặc biệt bởi vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi ạ.
+[00:04:57] Nhưng mà hai cái cuối cùng là sẽ...

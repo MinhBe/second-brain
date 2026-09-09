@@ -1,0 +1,57 @@
+[00:00:00] Đây, em đang làm, nó đang hơi không kiểm soát được, thì em cũng đề tài của em là em sẽ cố gắng sử dụng GAN trong...
+[00:00:18] Vâng, em có, nên em biết tiếng Anh, tại vì em quên chân đổi đã, thì em dùng GAN để tấn công SQL.
+[00:00:29] Thì đây là mục tiêu
+[00:00:31] Thì là, này anh ơi là bài toán
+[00:00:33] Thì là hiện tại là
+[00:00:35] Giữ liệu thì sẽ hầu hết sẽ là
+[00:00:37] Các giữ liệu của người dùng rất bình thường
+[00:00:39] Đôi lúc mới có giữ liệu tấn công ấy
+[00:00:41] Thì tỷ lệ sẽ rơi khoảng từ 100 trên 1
+[00:00:43] Thì tới 1000 trên 1
+[00:00:45] Thì theo phương pháp bình thường thì mình sẽ chỉ đơn giản là
+[00:00:48] Lọc giữ liệu rồi
+[00:00:49] Chuyển hoàn thành vector có thể dùng
+[00:00:52] MOT, SMOT để kiểu
+[00:00:54] Định dạng lại thì lúc này
+[00:00:55] Mình sẽ dùng GAN bởi vì GAN nó có thể học
+[00:00:58] Còn cái thằng kia nó chỉ đơn giản nội sinh, nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+[00:01:06] Nó chỉ học nội sinh thôi, nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+[00:01:13] Thế em mới đề xuất ra, thì đây là mô hình của em ạ
+[00:01:17] Thì là đầu tiên là em sẽ lấy dữ liệu, là lấy dữ liệu trên cargo và một số cái data
+[00:01:23] Lấy thêm dữ liệu của các cái CVR, nghĩa là những người ta ghi nhận những cái tần công
+[00:01:33] Vâng, dữ liệu thì em lấy, em cũng chỉ lấy khoảng 30.000vnd bởi vì dữ liệu tấn công thực tế
+[00:01:40] Khi mà em làm thì em thấy là hầu hết là nó chỉ là noise, nghĩa là nó chỉ có khả năng tấn công
+[00:01:48] Thứ nhất là lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có, nó khá là ít, này em mới nhận ra
+[00:01:56] Thì còn tiếp theo là em sẽ cho mô hình nó sẽ có hai thành phần
+[00:02:01] Đầu tiên là thành phần Generate và thành phần Quality và thành phần Featix
+[00:02:09] Thì em có thêm vào là trong này là sẽ có thêm một
+[00:02:21] Thì trong này vần này em sẽ có thêm cái Mutation
+[00:02:25] Nghĩa là em sẽ cho nó biết định nghĩa về các cho cả hai thằng
+[00:02:33] Cái này là em cũng mới tìm hiểu
+[00:02:37] Thì em đang hiểu là em sẽ cho nó biết là
+[00:02:41] Bây giờ SQN Action thì nó sẽ phải có những điều kiện tối thiểu là gì
+[00:02:45] Em cho cả hai thằng nó học luôn
+[00:02:48] Còn nếu mà làm theo cách bình thường thì nó đang hơi loạn
+[00:02:50] Sau khi mà critic thành công xong em sẽ có thêm một lớp để check nữa
+[00:02:57] Thì nó sẽ gồm 3 cái
+[00:02:58] Đầu tiên là kiểm tra xem có phải là SQL không là cái L1
+[00:03:02] Tiếp theo là sẽ kiểm tra xem là khả năng injection của nó
+[00:03:07] nghĩa là xem là thực tế nó có khả năng tấn công không
+[00:03:09] Hiện tại là em mới chỉ cho quét qua bộ thư viện
+[00:03:13] open-source ở trên mạng
+[00:03:15] Còn cái số 3 là em sẽ quét xem là độ đa dạng
+[00:03:19] xem là nó có thật sự đa dạng như là nó có thật sự hơn được
+[00:03:23] Thay thế được m... thay được hàng smooth luôn ạ
+[00:03:26] Thì trong tương lai thì em sẽ thay thế cái thằng L2 bằng cách em cho tấn công thực tế trên các tương lửa thông dụng ạ.
+[00:03:35] Và cái cuối cùng là các cái thước đo để xem là mô hình của em đạt những gà trị nào.
+[00:03:44] Thì đây là kết quả, nếu như mà tỷ lệ mà rất rất cân bằng như 500 trên 1 ạ, cái cỗ ngoài cùng ạ.
+[00:03:53] Thì là nó thì cái môi xét gan nó sẽ hơn được cái phương pháp cơ bản là 42%
+[00:04:02] Nhưng mà càng lên cao thì nếu mà tỷ lệ càng thấp thì thằng 1 nó sẽ thắng được thằng gan
+[00:04:09] Thì tỷ lệ đây em chọn là 100%
+[00:04:12] Em cho rằng tỷ lệ mất cân bằng đủ để mình có thể dùng phương pháp gan
+[00:04:21] Nhờ hình bên phải, em cũng thử chia ra 4 trường hợp, trong tấn công SQL sẽ có 4 trường hợp.
+[00:04:30] 2 trường hợp đầu tiên là Boolean và Error. Cái này là dựa trên phản hồi của máy chủ.
+[00:04:40] Nó không thực sự tấn công, nó sẽ đợi xem phản hồi máy chủ và từ đó họ sẽ mường tượng xem hệ thống của môi nhà như thế nào.
+[00:04:49] thì nên là hai cái đầu nó sẽ không có đặc biệt
+[00:04:54] bởi vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi ạ
+[00:04:57] nhưng mà hai cái cuối cùng là sẽ...

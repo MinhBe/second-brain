@@ -1,0 +1,208 @@
+{
+  "created": "2026-09-09",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Người góp ý yêu cầu nêu căn cứ cho tỷ lệ dữ liệu và giải thích mục tiêu thay vì mặc định những con số như 10% là đúng.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00067",
+          "quote": "10% ở đâu? thông số chỗ nào ra?"
+        },
+        {
+          "segment_id": "S00021",
+          "quote": "Nhờ cái đấy để mày viết ra cái gì thì mày hỏi cái đấy"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C2",
+      "text": "Người trình bày xác nhận phép thử được nói đến chỉ đưa mẫu qua bộ luật để kiểm tra; một số mẫu được cho qua vì sinh linh tinh, chưa phải chứng minh khai thác thành công.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00208",
+          "quote": "linh tinh quá nên là nó không nhận ra nó có phải"
+        },
+        {
+          "segment_id": "S00209",
+          "quote": "payload không thì nó cho qua"
+        },
+        {
+          "segment_id": "S00215",
+          "quote": "thì không tấn công qua chỉ đưa qua bộ reset để check thôi anh"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C3",
+      "text": "Cuộc trao đổi phải làm rõ đầu ra sinh dữ liệu được đưa vào bộ dữ liệu cho mô hình học, vì câu hỏi 'sinh xong đưa vào đâu' chưa được giải thích rõ từ đầu.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00325",
+          "quote": "hàng trăm hàng nghìn câu lệnh của mày nó đút vào đâu ấy?"
+        },
+        {
+          "segment_id": "S00359",
+          "quote": "mà thằng AI sẽ dùng để nó học lên"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C4",
+      "text": "Khi đề xuất AI xử lý request trên đường đi của website, cần tính thời gian mỗi request và ảnh hưởng đến tốc độ hệ thống; ví dụ tải lớn trong cuộc nói chuyện chưa phải benchmark.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00436",
+          "quote": "Ví dụ qua như thế thì cái tốc độ của website nó như thế nào"
+        },
+        {
+          "segment_id": "S00445",
+          "quote": "bao lâu một request"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C5",
+      "text": "Người góp ý yêu cầu hiểu luồng hoạt động hiện tại trước khi tối ưu và quay lại học cấu trúc truy vấn, thực hành lab để bù nền tảng.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S00617",
+          "quote": "mày phải hiểu được nó như thế nào thì mày mới tối ưu và cải tiến hơn được chứ"
+        },
+        {
+          "segment_id": "S00717",
+          "quote": "Về làm lab ngay."
+        },
+        {
+          "segment_id": "S00769",
+          "quote": "Em chưa hiểu cấu trúc của câu truy vấn về học, cấu trúc của câu truy vấn học."
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C6",
+      "text": "Người trình bày kể lại phản biện rằng dùng cùng bộ rule để học rồi đánh giá gây vấn đề trong thiết kế; cần kiểm tra mức độc lập của phép đánh giá.",
+      "confidence": "vừa",
+      "confidence_reason": "Lời kể rõ nhưng là thuật lại phản biện; chưa có mã hàm thưởng/hàm đánh giá để xác nhận mức trùng lặp.",
+      "evidence": [
+        {
+          "segment_id": "S00818",
+          "quote": "Xong rồi dùng chính cái bộ rule đấy để kiểm tra xem dữ liệu nó có phải là SQL không"
+        },
+        {
+          "segment_id": "S00819",
+          "quote": "Theo ông chỉ ra cái cũng phải thừa nhận là có lỗi trong thiết kế"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    },
+    {
+      "id": "C7",
+      "text": "Phần kết nhấn mạnh trình bày bằng ví dụ đơn giản và chứng minh hiệu quả cụ thể; sinh câu dài hơn tự nó chưa giải thích được phần hơn.",
+      "confidence": "vừa",
+      "confidence_reason": "Có lời trực tiếp trong văn bản; chưa nghe duyệt hoặc kiểm chứng bên ngoài.",
+      "evidence": [
+        {
+          "segment_id": "S01082",
+          "quote": "Lấy ví dụ đơn giản thôi"
+        },
+        {
+          "segment_id": "S01086",
+          "quote": "Cái tính ứng dụng của nó"
+        },
+        {
+          "segment_id": "S01102",
+          "quote": "thế tại sao nó phải sinh dài hơn"
+        },
+        {
+          "segment_id": "S01112",
+          "quote": "ông phải so sánh được là"
+        }
+      ],
+      "verification": "chưa kiểm chứng"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N1",
+      "title": "Vẽ rõ đường đi từ dữ liệu sinh đến lợi ích",
+      "question": "Vì sao người nghe vẫn chưa hiểu đề tài dù đã nghe tên GAN và các con số?",
+      "answer": "Mục tiêu, căn cứ dữ liệu và nơi sử dụng đầu ra chưa rõ. Cần mô tả đầu vào, đầu ra, thành phần tiêu thụ và ví dụ lợi ích đo được.",
+      "context": "Người góp ý nhiều lần hỏi nguồn số liệu và 'sinh xong đưa vào đâu'.",
+      "conditions": "Không đồng nhất bộ sinh, bộ phát hiện học máy và WAF; lời hội thoại có lúc trộn các khái niệm này.",
+      "claim_ids": [
+        "C1",
+        "C3",
+        "C7"
+      ],
+      "connections": "Voice 009 về kết quả phải hỗ trợ tuyên bố; bản thầy Lâm về phân biệt sinh/phát hiện.",
+      "tags": [
+        "trình bày nghiên cứu",
+        "GAN và SQL injection"
+      ]
+    },
+    {
+      "id": "N2",
+      "title": "Đánh giá phải độc lập và đo đúng hiệu quả",
+      "question": "Phép kiểm tra hiện có chưa hỗ trợ những kết luận nào?",
+      "answer": "Mẫu qua bộ luật có thể là nhiễu; việc dùng cùng tiêu chí cho học và đánh giá cũng cần xem lại. Phải xác định rõ bằng chứng cho từng kết luận.",
+      "context": "Người trình bày thừa nhận giới hạn thử qua ruleset và thuật lại phản biện về vòng đánh giá.",
+      "conditions": "Chưa có mã, bảng gốc hoặc kết quả chạy môi trường thực tế để xác nhận tác động. Không coi lời kể phản biện là tài liệu gốc.",
+      "claim_ids": [
+        "C2",
+        "C6"
+      ],
+      "connections": "Voice 012 N3 và Voice 013 N3 về giới hạn phản hồi WAF.",
+      "tags": [
+        "thước đo đánh giá",
+        "giới hạn nghiên cứu",
+        "thiết kế thực nghiệm"
+      ]
+    },
+    {
+      "id": "N3",
+      "title": "Hiểu luồng hiện tại và chi phí trước khi chèn AI",
+      "question": "Cần bổ sung gì để chuyển ý tưởng sang một thiết kế có thể kiểm tra?",
+      "answer": "Hiểu cấu trúc truy vấn và luồng xử lý hiện tại qua lab, xác định vị trí AI tham gia, rồi đo độ trễ và khả năng chịu tải.",
+      "context": "Cuộc trao đổi chất vấn việc đưa mọi request qua AI và khoảng trống kiến thức nền.",
+      "conditions": "Các số 0,001 giây, triệu request và tỷ lệ chặn trong hội thoại là ví dụ hoặc phát biểu chưa kiểm chứng, không phải mục tiêu đã đạt.",
+      "claim_ids": [
+        "C4",
+        "C5"
+      ],
+      "connections": "Liên hệ thiết kế thực nghiệm: kiểm giả thuyết bằng phép đo trước khi khái quát.",
+      "tags": [
+        "học qua thực hành",
+        "thiết kế thực nghiệm",
+        "giới hạn nghiên cứu"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Dùng sơ đồ/mã gốc xác định chính xác vai trò bộ sinh, bộ phát hiện và WAF; hội thoại có nhiều lần hiểu khác nhau.",
+    "Đối chiếu hàm thưởng với hàm đánh giá và tập test để xác định sự phụ thuộc; chưa kết luận loại lỗi chỉ từ lời kể.",
+    "Các ví dụ thuật toán, SQL, token/ký tự, tốc độ và tỷ lệ trong ASR có chỗ sai hoặc mâu thuẫn; không học như định nghĩa chuẩn.",
+    "Chuyện hội đồng và nhận xét về cá nhân là lời kể chưa xác minh, không đưa thành claim tri thức hay suy danh tính người nói.",
+    "Chưa có căn cứ cho phát biểu AI hiện nay làm được mọi bước hoặc mọi WAF chặn gần hết; giữ chúng trong transcript, không khái quát thành sự thật."
+  ],
+  "practice": [
+    "Vẽ một trang đầu vào → bộ sinh → nơi sử dụng đầu ra → phép đo lợi ích, rồi giải thích bằng một ví dụ ngắn.",
+    "Lập bảng tách tiêu chí dùng khi học khỏi tiêu chí và nguồn dữ liệu đánh giá; ghi rõ bằng chứng còn thiếu.",
+    "Ôn cấu trúc truy vấn và luồng phòng vệ trong lab được phép; ghi nhận cơ chế và độ trễ, không suy từ độ dài mẫu."
+  ]
+}

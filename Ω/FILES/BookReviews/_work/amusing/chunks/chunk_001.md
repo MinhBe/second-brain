@@ -1,0 +1,9 @@
+[R1 00:00]
+Xin chào các bạn, mình là Introvert Reader. Hôm nay thì mình bị đau họng cho nên là giọng nói của mình nó hơi bị khàn một chút. Những ngày này thì mỗi lần mình kết nối Wi-Fi để vào mạng xã hội ấy là một lần mà mình cảm thấy rất là mệt mỏi. 10 năm trước thì chúng ta sợ hãi khi lên mạng đọc báo bởi vì sợ là sẽ thấy tràn ngập những cái bản tin giật gân về các vụ án như là cướp, hiếp, giết. Còn hai ba năm trước thì chúng ta sợ hãi khi lên mạng vì sẽ thấy những người ta xé quần xé áo nhau đánh ghen giữa đường vì một người đàn ông tệ bạc nào đó, thấy những dòng trạng thái bóc phốt, chửi rủa nhau. Còn hôm nay thì sao?
+
+[R1 00:37]
+Hôm nay thì trên mạng chỉ toàn là những con người trí thức với những điều tốt đẹp, những bài viết đầy chữ nghĩa rất là dài mà có khi chính người đăng cũng chả hiểu mình nói cái gì nữa. Bởi vì là những cái câu chữ triết lý đầy hiểu biết hay là đầy cảm xúc đó, những cái bức hình thú vị đó đều là sản phẩm của trí tuệ nhân tạo. Không có cái gì là thật cả, kể cả con người. Ừ không chỉ là những cái tài khoản đăng bài hoàn toàn là sản phẩm của AI mà cả những cái bình luận trong bài ấy cũng có thể chỉ là do một con AI nào đó nó tạo ra mà thôi. Chúng ta không còn phân biệt được thật giả nhưng mà vẫn cứ đắm chìm vào đó.
+
+[R1 01:11]
+Chúng ta có thể đồng tình với ai hoặc thậm chí là trong cái mấy chục cái comment ở trên mạng ấy có thể là đó là chúng ta đang cãi nhau với AI hoặc thậm chí đó là hai con AI nó cãi nhau với nhau ấy. Và đây chính là cái thời điểm mà mình cảm thấy là lời tiên tri của Neil Postman nói cách đây 40 năm ứng nghiệm. Ông nói rằng là cách dễ nhất để hủy hoại loài người chính là trao cho họ một nguồn giải trí bất tận. Postman viết cuốn sách Giải trí đến chết. Cuốn sách này có tên tiếng Anh là Amusing Ourselves to Death vào năm 1985. Đó là cái thời điểm mà truyền hình đang thống trị đời sống tinh thần của nước Mỹ. Internet vẫn còn chưa phổ biến và mạng xã hội thì vẫn chưa xuất hiện.
+

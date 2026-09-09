@@ -1,0 +1,22 @@
+{
+  "source_sha256": "9e3b3dd2028f23da915a9ac58eb17a5760cb6acfe39c5a99313cc46043760d01",
+  "measurements": [
+    {
+      "start_s": 0,
+      "duration_s": 29.9904375,
+      "rms_left": 0.006714650567771037,
+      "rms_right": 0.006714650567771037,
+      "rms_mix": 0.006714650567770679,
+      "channel_correlation": 1.0
+    },
+    {
+      "start_s": 1800,
+      "duration_s": 29.9998125,
+      "rms_left": 0.017303191076055654,
+      "rms_right": 0.017303191076055654,
+      "rms_mix": 0.01730319107605523,
+      "channel_correlation": 1.0
+    }
+  ],
+  "listening": "pending"
+}

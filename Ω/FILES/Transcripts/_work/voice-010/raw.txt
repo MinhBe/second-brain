@@ -1,0 +1,1052 @@
+[00:00:01] Nhiều khi mình cầm cái chuỗi ở đây nó chỉ là ra mặt nhiều S3 đặc biệt, mình đưa vào cái Black Box để nó phân biệt, nó phân biệt được thế là mình thành công
+[00:00:16] Nhìn vào chuỗi ở đây nó vẫn là đôi lệnh SQL, mặc dù là bypass là mình nhìn vào nó cũng có nghĩa là nó không còn lấy, không gặp gì nữa
+[00:00:30] Thế nhưng mình tự đối mình tránh cái này, cái SQL Guide thầy tin là nó sẽ làm được
+[00:00:44] Lần sau, lần sau nếu em trình bày kết quả mà tốt ấy thì thầy có nghĩ cho em là có thể trình bày bán
+[00:00:50] Nhưng mà nếu kết quả nó chưa được trình bán thì nó hơi khó thì chỉ ủng hộ ông đề án thôi
+[00:00:56] Rồi, thầy thì trong slime có cần phải nêu bật lên để người nghe có cảm giác là em không bị số liệu không hả thầy
+[00:01:10] Em có up cái này lên trên ghi học công khai rồi ạ
+[00:01:13] Tất cả up bên đâu mình đưa ra lên đấy
+[00:01:16] Tham số mình chạy là gì, máy mình chạy là gì mình đưa ra cho báo cáo
+[00:01:23] Chạy bao nhiêu lần là mình phải đứng bắt
+[00:01:26] Mình làm một cái review
+[00:02:08] Tạm bộ các cái nghiên cứu
+[00:02:10] Còn để ra tổng hợp
+[00:02:13] Cũng như là chạy một cái bài
+[00:02:15] Em thì
+[00:02:25] Em hồi đầu tiên đã viết một cái bài
+[00:02:30] Nhưng mà sau khi viết thì em cũng
+[00:02:32] Có rất nhiều cái lỗ hợp
+[00:02:33] Vì vậy là em
+[00:02:35] Tổng hợp em đánh định
+[00:02:37] Em tạm bộ
+[00:02:39] Viết một cái bài
+[00:02:41] Theo nghĩa là có các cái
+[00:02:49] Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+[00:03:21] Tức là em các cái bài báo quy tí trong cái 5 năm lần nhất của các cái trên các cái hệ thống của Scopus với lại các đọc sở hữu và các cái V-Support, V-Support.
+[00:03:49] Em đã ra một cái bộ tải về tất cả các cái hầu như là các cái bài báo từ những năm gần đây.
+[00:03:58] Em có đọc và cũng có đọc các số liệu liên quan đến cái ưu điện, cái địa điểm của cái bài báo đấy.
+[00:04:06] Em làm phân loại 3 hướng kế hoạch kế hoạch kế hoạch theo 3 hướng tiếp cận.
+[00:04:18] Một là xây dựng kiến trúc để giải phóng, diễn diễn kiến trúc.
+[00:04:24] Còn phần thứ 2 là phân loại các bài toán hướng thức,
+[00:04:33] dạng các phương pháp, các kỹ thuật TKI trong bài toán hướng thức.
+[00:04:38] và xem các bài báo đấy có thể giảm một số các thông số kết quả của du điểm
+[00:04:45] giảm các cái giá trị thực và các loại sản lượng
+[00:04:48] Còn cái phần loại thứ 3 là các cái thực của cái sáp này
+[00:05:00] thì hiện tại anh em cũng đã làm một cái bước về cái ý tưởng
+[00:05:08] Bây giờ tôi hỏi anh nhé, cái cơ đồ sáp em đọc chưa?
+[00:05:12] Cơ đồ sáp là cái cân eo này, cân eo đấy
+[00:05:17] Cơ đồ sáp là cái thứ 2 từ dưới lên
+[00:05:18] Cái thứ hai từ dưới đêm luôn
+[00:05:26] Thế thì hỏi hỗn nhiên thôi
+[00:05:34] Cái suy đọc bảo suy đọc
+[00:05:35] Năm tuần em mới chỉ cải thiết sáp trên cái xin em phần
+[00:05:40] Đây không phải là sáp, tôi chưa nói là con xin em gì cả
+[00:05:44] Đây là các phương pháp cải thiết của sáp để nói nhanh hơn
+[00:05:48] Thầy đang hiểu thế này là em đang cố gắng hiểu về các phương pháp xin em
+[00:05:58] Các phương pháp xin em sử dụng học sâu của con xin em
+[00:06:03] Đầu tiên phải hiểu cả
+[00:06:05] Đúng chưa?
+[00:06:06] Sau đó mình vượt tới là giải thích nó thông qua các cái phương pháp giải thích
+[00:06:12] Trong đó là một phương pháp đấy là SHARP
+[00:06:13] Nhưng mà vì SHARP nó chậm quá nên là em đang phải tìm đến các cái phương pháp cải tiến để nó nhanh hơn
+[00:06:21] Đây là một trong những phương pháp mà nó nhanh hơn
+[00:06:26] Nó nhanh hơn thế nào thì em phải đọc
+[00:06:29] Đúng không?
+[00:06:33] Nói tiếp đi
+[00:06:35] Xin hiểu ý
+[00:06:41] Em muốn tổng hợp một bài tạo trong bức tranh tổng thể của bài này.
+[00:06:49] Sau đó em đi vào đặc cục cố gắng là
+[00:06:56] với 3 hướng để tổng hợp những điệu và các chỉ số trong các bài tạo.
+[00:07:06] Sau đó em sẽ lựa chọn các bài lộ trình để tìm ra những điểm đối chống của bài này.
+[00:07:29] Đi theo 3 phương thức này để tìm ra những điểm đối chống của bài này.
+[00:07:42] Về cái này thì em đã có các loại.
+[00:07:56] Em có thể viết thành một bài tổng quan?
+[00:07:59] Dạ vâng.
+[00:08:00] Thì ý tưởng thì em cũng đang đầy đủ viết một cái bài
+[00:08:02] Yubi Paper theo cái dạng của phong cách này
+[00:08:04] Để em làm đúng nhóm em này
+[00:08:10] Thì em muốn bài 2 là em xong em đăng ký
+[00:08:20] Và những số bài em chạy thử
+[00:08:35] Chạy từng phần
+[00:08:38] Cố gắng từ cái bước
+[00:08:45] Đang số trong đấy
+[00:08:50] Cái bài là cái lượng một chung
+[00:08:58] Một phần sửa sài
+[00:08:58] Thì em muốn đi phép và tạo ra cái ý tưởng
+[00:09:03] So với những bài em đồng phát
+[00:09:07] Cái bản sát và 3 cái phần nhóm
+[00:09:12] Hôm vừa mình đi show ở phòng lab mình có một bạn đi sinh vầy mình nghe cũng dùng xk2
+[00:09:29] Bạn ấy có dùng các phương pháp kernel, kernel shaft, kernel này có thể với shaft, với LAN
+[00:09:37] Anh chú không chỉ nguyên là kernel shaft, thì bạn ấy có nói là bạn ấy chạy tốc độ khá nhanh
+[00:09:45] Chứ ở đây em cảm giác mình có thể nói là rất chậm, mình chưa rõ là nó công tất như thế nào
+[00:09:51] Bạn ấy đang nghiêm sinh, bạn ấy đang chuẩn bị sức bản bài
+[00:10:00] Đấy nhé
+[00:10:08] Bởi vì cái phương pháp cơ đeo ấy là, mản chất là chúng ta nó sử dụng cái việc là sấp xỉ
+[00:10:15] Em hiểu không?
+[00:10:17] Và sấp xỉ thì thường là chọn cái phương pháp tự tính á
+[00:10:23] Anh nhận được rất là nhanh
+[00:10:24] Nhưng mà anh chưa đọc kỹ, thật ra anh không đọc thêm
+[00:10:31] Nhân thể cũng được là viết cái bài tổng quan này nè
+[00:10:34] Thì để tìm ra cái cách, cái cách đi làm nào để mình
+[00:10:38] Thậm chí là cũng không chỉ là sát, anh đọc thêm là làm nữa
+[00:10:45] Nếu em viết được bài phỏng văn đấy thì mình nghĩ lúc này sẽ tốt hơn.
+[00:10:54] Bây giờ em vào hướng dẫn sinh người, thầy muốn ý kiến thêm.
+[00:11:07] Thầy chủ động thời gian lên ảnh, tân định ra khoảng thời gian nào mình làm cái gì,
+[00:11:15] đến khoảng bao lâu mình xong được cái bài survey, đúng không?
+[00:11:22] Vừa rồi em cũng viết bài được thảo nhưng em nhận thấy là chưa thể sử dụng bản được đúng không?
+[00:11:26] Vâng ạ, em cũng được viết nhưng cuối cùng em cũng rất yếu quá, không thể giải.
+[00:11:41] Đấy, thầy nói là em đọc thêm cả, không chỉ nguyên Sharp, có thêm LAM nữa, LIME nữa.
+[00:11:50] Thầy thấy bạn nói là nếu mà thân em áp dụng với LAM chẳng hạn nó chạy nhanh hơn rồi chẳng hạn, đúng không?
+[00:11:59] Đấy, slide liên quan đến số dây, 10 dây, 1 dây, bao nhiêu nữa. Đấy.
+[00:12:21] Grabcam rất nhanh, rồi thì cái đóng góp của nếu mình đưa Sharp vào nó ở chỗ này, đúng không?
+[00:12:30] Câu hỏi nghiên cứu đặt ra nó là cái gì?
+[00:12:33] Quan trọng nhất là nghiên cứu là ta phải đặt ra câu hỏi nghiên cứu
+[00:12:37] Nếu mình đi theo Grabcam thì đóng góc nghiên cứu mình là cái gì?
+[00:12:43] Vậy nên phải quay lại bình thường
+[00:12:45] Công chức thầy có mắc cho em một cái
+[00:12:47] Nếu nghiên cứu có thể là dùng thông tin sản xuất được này
+[00:12:51] Có thể đóng góc cũng được
+[00:12:53] Trong quá trình tăng cường chất lượng của mũ điện
+[00:12:55] Tất cả đấy nó cũng phải đưa vào trong câu hỏi nghiên cứu
+[00:13:02] Hồi vầy tổng quan này để mình tìm được đi
+[00:13:04] Sau khi định xong một thế hình quay ngược lại mũ hình
+[00:13:11] tăng bốc vào cái mô hình để nó nhận diện, tức là quay lượt trở lại
+[00:13:15] tức là quay lượt lại cái mô hình thì nó sẽ vừa đạt vừa chính xác với độ kinh cậy
+[00:13:21] Chứ mà nếu mà chỉ là đế giải thích không thì cái đóng bốc nó làm gì thì phải thay đổi không?
+[00:13:26] Phải không em?
+[00:13:27] Ừ
+[00:13:28] Thế hay là cái giữa đất cao nó tốt rồi, giữa sáp nó lại chạy chậm hơn
+[00:13:31] thì tại sao người ta cũng muốn nói về vùng sáp không?
+[00:13:34] Không chỉ ở đất cao
+[00:13:36] Đấy, đấy là những câu hỏi nghiên cứu mà em phải trả lời
+[00:13:52] Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+[00:14:19] bởi mặt tố đỉnh trên máy Windows,
+[00:14:21] bây giờ cũng hơn là 3 phút
+[00:14:23] để em chạy,
+[00:14:25] khi chạy tổng điện,
+[00:14:27] chạy một số dữ liệu trên Windows,
+[00:14:30] chạy các cái Windows
+[00:14:34] chậm, có cái mở
+[00:14:37] số trang bộ YouTube hoặc
+[00:14:40] trên Collab môi trường.
+[00:14:50] Đấy, tức là mình nhảy để
+[00:14:52] nếu gắt cao thì nó sẽ dứt nhanh,
+[00:14:54] gắt sẽ dứt nhanh, và nó
+[00:14:56] có thể cho mình xem cái công chú ý ở chỗ nào.
+[00:14:59] Thế còn cái mức độ đóng góp cụ thể như thế nào,
+[00:15:02] cái impact ảnh hưởng tích cực tư cực như nào của các người trên mọi đáy thì rất cao và rất khó
+[00:15:08] Chính vì thế là những người chắc cũng sắp được bù đắp đến lúc nào hình cứu của em phải được bắt đầu
+[00:15:16] Làm nghiên cứu nó không chỉ là lời giải, các bạn có thể nhớ như thế này nhé
+[00:15:21] Làm nghiên cứu không chỉ là lời giải mà nó còn biết cách đặt câu hỏi
+[00:15:25] Nếu mà mình không được đặt ra câu hỏi thì cái lời giải đấy nó sẽ làm cho mình nó cũng chỉ là một cái cụ thể
+[00:16:02] Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+[00:16:53] thử nghiệm đối với phương pháp dựng lý tuyến.
+[00:16:56] Thứ ba là trình bày về mô hình chỉ có lý đánh không gian
+[00:17:03] và tại sao lại như thế.
+[00:17:05] Thử nghiệm đối với bộ dữ liệu Pay for the Sick.
+[00:17:10] Thứ năm là một số các thay đổi
+[00:17:13] trong các mô hình.
+[00:17:17] Cuối cùng là nói về động tin cậy của mô hình.
+[00:17:21] Thầy thì em xin trình bày sơ dược một chút
+[00:17:28] về cái kiến trúc gần đây nhất của em là bảo cáo thầy
+[00:17:33] để thầy hình dung lặng về cái mô hình kiến trúc.
+[00:17:36] Trong mô hình kết thúc gửi bài báo Neural Network có thành phần Backboard và sau đó có thành phần Adaptive Routing.
+[00:17:53] Trong thành phần Adaptive Routing, mình đã lựa chọn ngưỡng cố định là T bằng 3.
+[00:17:59] thì đối với các vị gel có số lượng frame nhỏ hơn 3
+[00:18:05] thì nó sẽ đi vào nhánh Square Teal
+[00:18:08] là nhánh đối với trên
+[00:18:10] tại nhánh Square Teal thì nó
+[00:18:12] sau khi mà trích xuất đặc trưng từ Backbone
+[00:18:16] Backbone thì được chọn thành phần Von Neck Tiny
+[00:18:20] nó rơi vào khoảng 29 triệu tham số
+[00:18:26] thì nó sẽ đi vào nhánh Square Teal
+[00:18:29] tại ngãnh Spatial sẽ thực hiện thành phần Transformer
+[00:18:37] trong đó sẽ có 2 group Ambit
+[00:18:40] để chiếu lên một không gian 1024
+[00:18:48] và sau đó sẽ thực hiện quá trình Self-Attention
+[00:18:54] để ra được các phân loại trên từng các frame
+[00:19:00] sau khi phân loại trên từng các frame xong
+[00:19:04] sẽ thực hiện quá trình Aggression
+[00:19:06] sử dụng cơ chế Attention-Aggression
+[00:19:09] để tổng hợp kết quả từ hai frame này
+[00:19:13] tuy nhiên trong thực tế thì quá trình tổng hợp kết quả
+[00:19:18] thường sẽ là trung bình cộng của hai frame
+[00:19:21] để ra kết quả cuối
+[00:19:23] tại nhánh về mặt không gian
+[00:19:26] thì sẽ thực hiện quá trình trích xuất các đặc trưng
+[00:19:35] và sau đó đưa vào mô hình M-Coder
+[00:19:38] Tuy nhiên đối với tình đánh thời gian thì ở đây sẽ có hàng đợi
+[00:19:43] để thực hiện đưa từng các frame vào một
+[00:19:47] và sau đó nó sẽ chiếu đối với đặc trưng của từng các frame
+[00:19:53] và kết hợp các frame với nhau thông qua
+[00:19:56] và sau đấy thì sẽ thực hiện
+[00:19:58] cái cell extension
+[00:20:00] sử dụng cái tư chế là để mà che chính cái
+[00:20:07] cái cái của chính nó để nó không chú ý tới cái frame chính
+[00:20:11] nó mà chỉ chú ý tới tới tới các cái cái đặc trưng của các cái
+[00:20:16] khác thôi và sau đấy kìa sẽ đưa vào cái bộ phân loạn để xác
+[00:20:19] định à xem nó là đối với là cái mô hình lật trước thì trong
+[00:20:25] cái mô hình lật trước thì em cũng có thực hiện ở trên cái bộ
+[00:20:28] bộ dữ liệu là DF, DC và SelectDF. Trong bộ dữ liệu DF, DC thì AUC của nó thử nghiệm là 99,93% và trong bộ dữ liệu SelectDF thì chỉ số của nó là 99,78%.
+[00:20:47] Tổng số mô hình là 181 triệu tham số, tuy nhiên là nếu mà chỉ chạy 1 trong 2 nhánh thì nó sẽ rơi vào khoảng tầm 104 triệu tham số.
+[00:20:56] Đấy là mô hình đợt trước. Sau mô hình đợt trước, thầy có trao đổi cơ chế Adaptive Routing.
+[00:21:07] Ở đây nó chưa thực sự như vậy. Sau đấy thầy cũng có nghiên cứu được cơ chế Adaptive Routing này.
+[00:21:17] Trong đấy là router để thực hiện phân gánh.
+[00:21:21] sẽ đóng vai trò như là một cái mixture of experts. Trong này sau khi thực hiện trích xuất các đặc trưng, các khu hình thông qua hành phần thứ nhất là connect tăng đi
+[00:21:34] thì nó sẽ đến cái router. Router này nó sẽ đóng vai trò như là một cái bộ mô tả để mà tính các cái vector mô tả.
+[00:21:44] Vector mưu tả này tính dựa trên 4 chỉ số là Mu, Sigma, độ chuyển động và lốc T
+[00:21:52] Đấy là số các frame trong cái video đó
+[00:22:00] Sau khi mà tính toán thì nó sẽ xác định là nó cần đi theo cái nhánh nào
+[00:22:06] Theo một trong hai nhánh, nhánh special hay là nhánh
+[00:22:14] Sau đó nó đi vào quá trình phân loạn tương tự như là đối với mùi cũ
+[00:22:22] Đối với cơ chế kết tinh này
+[00:22:25] Trong bộ mô tả nó sẽ có 4 thành phần như em vừa mới trình bày
+[00:22:31] Về mô, chỉ số trung bình xác định xem video đó
+[00:22:41] Nó sẽ cần tính toán cái gì
+[00:22:44] Có nghĩa là nó sẽ nhìn tập thể toàn bộ
+[00:22:46] cái video, cái thứ hai là
+[00:22:50] cái độ lật chuẩn
+[00:22:52] cái độ lật chuẩn để mà nó sẽ xác định
+[00:22:55] các cái khung mà gần giống nhau
+[00:22:57] thì nó như thế nào
+[00:23:01] cái từng ngữ ba là cái khoảng cách
+[00:23:04] chuyển động trung bình, cái khung liền kè
+[00:23:06] cái khoảng cách nó chuyển động trung bình
+[00:23:09] giữa các cái khung liền kè này
+[00:23:11] có nghĩa là đối với là
+[00:23:13] cái độ lật chuẩn thì nó sẽ
+[00:23:15] xác định trong toàn bộ cái video
+[00:23:18] các cái khung liền kè thì nó sẽ
+[00:23:21] xác định hai
+[00:23:21] hai cái khung liền kè nhau
+[00:23:24] và lớp dụng khu để xác định video độ dài hay ngắn
+[00:23:33] Phương pháp để tính toán công thức như bên trên
+[00:23:39] Trong này có 2 cơ chế
+[00:23:44] Ở đây em thử nghiệm 2 cơ chế để xác định
+[00:23:48] Một là SOP và hai là GANBEL
+[00:23:51] Đối với cơ chế thứ nhất là SOP là trộn mềm
+[00:23:54] Nghĩa là nó sẽ chạy qua cả 2 nhánh
+[00:23:58] và đầu ra thì
+[00:23:59] nó sẽ tính toán cái chỉ số
+[00:24:02] ở cả cái 2 nhánh đấy
+[00:24:04] thì đầu ra thì có
+[00:24:07] tổ hợp, nó sẽ có
+[00:24:08] trọng số theo cái
+[00:24:09] cái giá trị
+[00:24:11] là cái giá trị tính toán từ 4
+[00:24:14] cái bộ mô tả
+[00:24:15] và sau đấy thì nó sẽ xác định
+[00:24:19] dựa trên cái mức độ
+[00:24:22] đoạn góp của mỗi nhánh là như thế nào
+[00:24:23] cái phương pháp của chọn cứng
+[00:24:26] thì nó sẽ chỉ
+[00:24:28] chỉ xác định để mà đi vào một trong hai nhánh thôi. Sử dụng cái
+[00:24:33] kỹ thuật là gắn đeo để chọn một trong hai nhánh thôi. Nó sẽ
+[00:24:38] không đi vào hai cả hai nhánh. ờ các cái chỉ số ở đây thì ờ
+[00:24:44] cũng có những cái vai trò quyết định. Cái này thì lúc nãy em
+[00:24:48] cũng vừa mới nói rồi. Ví dụ như cái chỉ số mua thì là nó sẽ
+[00:24:52] xác định cái trung bình này theo thời gian. Có nghĩa là sẽ
+[00:24:55] cho biết là nó đang xử lý cái cái cái cái video với các cái
+[00:25:00] các nội dung như thế nào. Ví dụ như hiện nay nó đang tính toán diện mạng hay là sự chuyển động.
+[00:25:08] Rồi đối với độ lệch chuẩn thì nó sẽ xác định các khung gần giống nhau. Nếu như mà các khung ở trong
+[00:25:19] video gần tương tự nhau thì có nghĩa là cái nhánh về thời gian thì không có tác dụng nhiều. Đối với
+[00:25:28] Đối với sự chuyển động giữa các khung gần kẻ, nếu chỉ số Motion có sự thay đổi đột ngột, có nghĩa là nó lớn, có nghĩa là nó sẽ có sự ưu tiên hơn về nhánh về mặt thời gian.
+[00:25:45] và đối với cái lớp số khung thì nó sẽ xác định cái số lượng các cái khung
+[00:25:53] ví dụ như là ít khung thì nó sẽ ưu tiên hơn đối với cái nhánh về không gian
+[00:25:57] nhiều khung thì nó sẽ ưu tiên hơn với nhánh về thời gian
+[00:26:00] sau đấy thì nó sẽ có cái phép MLP để kết hợp các cái chỉ số này
+[00:26:08] rồi tính cái shop up để quyết định xem là nó là đi theo cái nhánh như thế nào
+[00:26:16] Ví dụ như là nếu chỉ số độ chuyển động cao, số lượng khung lớn và độ lệch chuẩn theo thời gian lớn
+[00:26:27] thì nó sẽ ưu tiên đối với nhánh thời gian, nếu không thì ưu tiên với nhánh không không gian
+[00:26:32] Sau khi thử nghiệm phương pháp xong, em thấy là chuyên thử đối với bộ dữ liệu DFDC
+[00:26:46] trên cái bộ dữ liệu DC và test trên chính cái bộ dữ liệu đấy thì về cơ bản thì cái cái cái cái
+[00:26:52] chỉ số nó cũng nó cũng gần gần tương tự như là đối với lại cái kết quả trước tự nhiên là nếu như mà
+[00:27:00] khi mà test ở trong cái cái cái cái liên tập có nghĩa là trên ở trên cái bộ dữ liệu DC và test ở trên cái bộ dữ liệu
+[00:27:07] select df thì cái chỉ số AUC của nó bị tụt xuống so với cái kết quả trước đây cái kết quả trước đây thì
+[00:27:15] Thì khi mà em thử nghiệm thì nó với cái chỉ số T bằng 3 thì nó cái chỉ số AOC của cái việc test liên tập như thế này nó lên đến 93,89%
+[00:27:28] Nhưng mà bây giờ thì sau khi mà thử cái cơ chế này thì nó lại bị tụt xuống vào 90,95%
+[00:27:36] Trong đấy thì cái số lượng mà tính toán để mà xác định là cỏ mà trọng đúng và nó xác định đúng tuyến
+[00:27:46] thì nó chỉ có 47% thôi
+[00:27:48] và đối với
+[00:27:50] cái chỉ số mà
+[00:27:51] các cái nhánh mà có được quyết định tương đồng
+[00:27:54] nhau thì nó lên đến
+[00:27:56] 98,3%
+[00:27:58] thì chính vì là như thế có nghĩa là
+[00:28:02] 2 cái nhánh này nó hoạt động
+[00:28:03] nó có cái sự quyết định
+[00:28:05] nó gần tương tự nhau
+[00:28:07] nghĩa là cái kết quả của 2 cái nhánh gần tương tự nhau
+[00:28:09] nên là
+[00:28:11] nó nên là đi theo cái nhánh
+[00:28:13] như thế nào
+[00:28:14] thì có nghĩa là cổ ở đây
+[00:28:18] Trước đây nó không xác định được xem là nó nên đi theo cái nhánh nào thì nó mới chính xác
+[00:28:24] Nên là cái chỉ số đúng thì nó mới chỉ được có 47% thôi
+[00:28:29] Nên là em thấy là nó không thực sự là hiệu quả
+[00:28:33] Trước đây thì em không thử trên cái tập dữ liệu là Face Forensics
+[00:28:51] Thì tuy nhiên là sau khi mà đọc lại
+[00:28:53] Thì thấy các cái bài báo hiện nay là đều thử nghiệm trên cái tập dữ liệu này
+[00:28:57] và test ở trên cái tập dữ liệu chéo
+[00:28:59] thì cái đấy nó mới là cái quan trọng
+[00:29:02] còn lại đối với là
+[00:29:03] cái việc là trên trên một tập dữ liệu và test
+[00:29:05] trên chính cái tập dữ liệu đấy thì bây giờ
+[00:29:07] nó lại không quá là quan trọng nữa
+[00:29:09] bởi vì là nó gần như là nó bão hòa
+[00:29:12] rồi, nó gần như là độ chính xác
+[00:29:13] nó gần như tuyệt đối rồi
+[00:29:14] kể cả là cái việc là nó có hơn kém nhau
+[00:29:17] một vài các cái
+[00:29:19] cái phần trong đi chăng nữa thì nó cũng không quá ý nghĩa
+[00:29:22] mà cái sự ý nghĩa của nó
+[00:29:24] nằm ở cái việc là test
+[00:29:25] tại các cái bộ dữ liệu chéo nhau
+[00:29:28] và em cũng thử
+[00:29:31] trên cái bộ dữ liệu
+[00:29:33] Face Forensic này
+[00:29:34] thì thứ nhất là thử trên
+[00:29:38] đối với cái nhánh chỉ có không gian
+[00:29:39] thì nó, cái độ chính xác của nó
+[00:29:41] là 95,93%
+[00:29:46] và khi mà test
+[00:29:49] đối với cái tập dữ liệu chéo
+[00:29:51] Select AF
+[00:29:52] thì nó, cái độ
+[00:29:55] AOC của nó là 84,84%
+[00:29:59] đối
+[00:30:00] đối với chỉnh nhánh về thời gian thì chỉ số của nó là cao hơn là 97,65% và test chéo thì nó cũng là cao hơn
+[00:30:10] thử lại đối với các nhánh với giá trị là t bằng 3, t bằng 4, t bằng 5
+[00:30:15] bởi vì trên bộ dữ liệu File Forensic này thì em cũng trình bày sơ quan một chút là
+[00:30:20] trong bộ dữ liệu này thì nó có 5 phương pháp Deepfake
+[00:30:26] Thì ở trong đấy thì em sử dụng 4 cái phương pháp Deepfake
+[00:30:32] Còn 1 cái phương pháp là Face to Face
+[00:30:35] Em không sử dụng
+[00:30:37] Bởi vì là trong tất cả các cái bài báo
+[00:30:39] Người ta cũng chỉ sử dụng 4 cái phương pháp Deepfake thôi
+[00:30:42] Và trong 4 cái phương pháp Deepfake đấy
+[00:30:45] Thì mỗi 1 cái video thì nó tương ứng với 1 cái video Deepfake
+[00:30:51] Thì có nghĩa là em sẽ có 4.000 cái video của tập Fake
+[00:30:56] Và 1.000 video của tập Real
+[00:30:59] Sau đấy thì em tiền xử lý dữ liệu đối với mỗi video thì em chia thành 15 cái khung hình là tối đa
+[00:31:07] Và để mà thực hiện test nên là nó sẽ nhanh hơn rất nhiều so với là cái bộ dữ liệu DF, DC
+[00:31:14] Cái bộ dữ liệu có rất là nhiều các cái video
+[00:31:19] Thì sau khi mà test xong các cái nhánh như thế nào
+[00:31:22] Thì em thấy là đối với cái nhánh mà chỉ cần sử dụng về mặt thời gian thôi
+[00:31:28] thì nó cũng đáp ứng được cái độ hiệu quả rồi.
+[00:31:35] Cho cái bệnh bộ này cũng như là test lại đối với cái bộ dữ liệu DC lại
+[00:31:45] thì thậm chí là chỉ mặt thời gian nó cũng còn tôn hơn.
+[00:31:51] Thì cũng chính vì như thế em cũng xin phép thầy là em sẽ bỏ cái mô hình hai nhánh đi
+[00:31:59] Và sẽ chỉ sử dụng cánh đánh về mặt thời gian
+[00:32:03] Đấy là cái thứ nhất
+[00:32:05] Đấy là cái thứ nhất
+[00:32:10] Để em sẽ trình bày tiếp
+[00:32:14] Thì em cũng đang nghiên cứu rất là nhiều các cái cách
+[00:32:21] Để xem thử xem là có thể kết hợp
+[00:32:23] Sử dụng cái cơ chế Adaptive Routing đấy hay là không
+[00:32:26] Thì em nghĩ là để mà sử dụng cái cơ chế Adaptive Routing
+[00:32:31] thì có nghĩa là cái điểm yếu của cái nhánh thời gian này nó là gì
+[00:32:36] thì lúc đấy mới cần một cái nhánh nữa để mà bổ trợ cho cái nhánh thời gian
+[00:32:44] sau đấy thì em cũng thử rất là nhiều các cái trường hợp
+[00:32:48] để mà đánh giá cái độ tim cậy của mô hình của cái nhánh thời gian như thế nào
+[00:32:52] thì đối với cái độ tim cậy đó thì tí giờ em sẽ trình bày sau
+[00:32:55] thì đối với cái mô hình mà chỉ có cái nhánh thời gian
+[00:33:09] em cũng thử huấn luyện lại nó huấn luyện mấy lần thì cái cái kết quả nó cũng không không khác quá
+[00:33:18] nhiều so với lại cái lần lần trước với lại với lại cái cái việc huấn luyện với các cái cái cái chỉ số
+[00:33:26] như vậy có nghĩa là cái chỉ số xít mỗi một lần khi mà thực hiện huấn luyện kể cả là nó khác nhau thì
+[00:33:34] thì nó vẫn cho các kết quả như thế
+[00:33:36] Đó là chiều DFDC mà thử ở trên CELEB
+[00:33:39] thử xem Face Forensics đúng không?
+[00:33:41] Vâng
+[00:33:41] Thì đối với lại cái bộ DFDC này nó chủ yếu là
+[00:33:48] là nó có 2 cái phương pháp Deepfake thôi
+[00:33:52] còn lại là đối với cái bộ dữ liệu Face Forensics này nó có 4 cái phương pháp
+[00:33:57] còn lại là cái bộ dữ liệu CELEB DF này nó
+[00:33:59] chỉ có 1 cái loại phương pháp Face Squat thôi
+[00:34:02] Thì chính vì như thế này là đối với lại cái bộ dữ liệu
+[00:34:06] mà dfdc này khi mà trên ở trên nó và test ở trên cái bộ dữ liệu df này thì bởi vì là cái cái cái
+[00:34:15] dữ liệu từ cái bộ dữ liệu dfdc nó rất là lớn có rất là nhiều các cái dạng đích phách và nó nó cũng
+[00:34:22] bao phủ với các cái dạng của cái df này gần như thế nên là khi mà em thử trên lại chỉ thấy mô
+[00:34:30] mô hình về mặt thời gian thì cái AUC của nó còn vượt hơn so với lại cái lần trước thử nghiệm. Đấy là 95,13%, trước là 93, mấy?
+[00:34:44] Của cái mô hình CAT đó?
+[00:34:46] Vâng, đây. Đây là mô hình CAT đúng không?
+[00:34:52] Trước khi mà em thử thì đối với lại cái mô hình LINE thì có nghĩa là cái...
+[00:34:59] 90,95
+[00:35:01] 93,89
+[00:35:03] 93,89 là khi mà trên ở trên cái bộ dữ liệu dc và test ở trên cái bộ dữ liệu tf3 đúng không?
+[00:35:10] Đúng rồi, cái bộ tf3. Bây giờ nếu như mà chỉ dùng một cái môn về thói thang thì em thử và test lại thì nó cao hơn 95,13
+[00:35:22] Và đối với lại trên ở trên cái bộ dữ liệu này là test ở trên cái bộ dữ liệu forensic thì cái AUC của nó là 76,62
+[00:35:35] Cái này thì nó cũng dễ hiểu thôi bởi vì là cái bộ dữ liệu này DFDC nó chỉ có 2 cái phương pháp mà Face Forensics nó có 4 cái phương pháp Big Face.
+[00:35:50] Em cũng thử để mà huấn luyện ở trên cái bộ dữ liệu Face Forensics với 1.000 cái video thực và 4.000 cái video giảm với tỷ lệ chia ra 70-15-15.
+[00:36:09] thì khi mà thử nghiệm
+[00:36:12] thì trên nội tập
+[00:36:13] thì nó, cái AUC của nó là 98.14
+[00:36:16] ACC là
+[00:36:18] 94.86
+[00:36:21] và khi mà test
+[00:36:22] ở trên các cái
+[00:36:24] bộ dữ liệu của CLFDS
+[00:36:25] thì nó cho cái độ chính xác là 86.62
+[00:36:29] thì báo cáo thầy
+[00:36:31] đối với là cái việc cho cái độ chính xác
+[00:36:32] 86.62 này
+[00:36:34] nó đang là
+[00:36:37] tốt nhất cho đến
+[00:36:38] kết quả bây giờ
+[00:36:39] Đối với bài IST VUVT trên tạp chí IAEA, độ chính xác của nó và test liên tập như thế mới chỉ lên được 84,1% thôi.
+[00:36:56] Nếu test trên mộ dữ liệu File Forensic này và test trên mộ dữ liệu CLFDF thì hiện nay mô hình này đang cho kết quả khả quan nhất.
+[00:37:09] Dĩ nhiên là ở trong cái nội tập thì là nó chỉ số nó thấp hơn trong các cái bài báo kia
+[00:37:17] Khi mà người ta trên ở trên cái bộ dữ liệu Forensic và test ở trên chính cái bộ dữ liệu đấy
+[00:37:21] Thì cái kết quả của nó chỉ 99,9 mấy
+[00:37:25] Thế nhưng mà thực tế thì dù là nó có hơn 1-2% đi chăng nữa
+[00:37:30] Nhưng mà cái đấy nó không quá là quan trọng
+[00:37:32] Quan trọng là test ở những cái bộ dữ liệu mà chưa nhìn thấy
+[00:37:38] Và test ở trên bộ dữ liệu ZFDLC này với số lượng video rất lớn thì nó cho độ chính xác 74,5%.
+[00:37:50] Như thế này thì nó cũng là bình thường, cũng là dễ hiểu.
+[00:37:55] Nghĩa là nó dễ hiểu bởi vì cái bộ dữ liệu Face Forex này của em,
+[00:37:58] cái thứ nhất là số lượng video của em là em chỉ cắt có 15 cái video trên giây thôi.
+[00:38:05] Cái thứ hai là số lượng video ít hơn rất nhiều so với bộ dữ liệu kia
+[00:38:10] Nếu như mà cái này của em mà sử dụng nhiều các cái video để huấn luyện hơn
+[00:38:15] Và em cắt nhiều hơn thì có thể là các cái độ chính xác này nó còn cao hơn nữa
+[00:38:19] Đây là cái kết quả thử nghiệm về cái việc là
+[00:38:34] Vậy thì cái phương pháp nào, cái phương pháp mà sau khi mà thử nghiệm nó lại kém
+[00:38:41] Thứ nhất, đối với phương pháp Bitfake và Faceswap, hai phương pháp này trong hai bộ dữ liệu là NFDC và Face Forensics đều có
+[00:38:54] Trong hai phương pháp này, khi mà em trên và test trên các bộ dữ liệu này, thì gần như là các phương pháp này mắc rất là tốt
+[00:39:04] Chính là đối với trong mô hình bằng thời gian này, trên bộ dữ liệu Face Forensics này nó mắc tốt hơn rất nhiều
+[00:39:14] so với mô hình dữ liệu dc kia
+[00:39:19] tuy nhiên đối với mô hình trên dữ liệu dc
+[00:39:25] khi mà test trên các phương pháp
+[00:39:28] face to face và neutral textural
+[00:39:32] thì kết quả của nó rất là kém
+[00:39:34] có nghĩa là nó bỏ sót rất là nhiều
+[00:39:37] tuy nhiên đối với kết quả trên dữ liệu face to face
+[00:39:42] và bắt các phép đối với các phương pháp này
+[00:39:49] thì nó sẽ cho các kết quả khá tốt
+[00:39:52] như vậy có nghĩa là
+[00:39:55] sau khi thử các phương pháp
+[00:39:58] ở đây thì thấy rằng
+[00:40:00] đối với mô hình hiện tại của em, việc phủ đủ các loại phương pháp này cũng khá là tốt rồi.
+[00:40:10] Đấy như vậy có nghĩa là đối với chỉ số hiện nay là nó vẫn còn thiếu, có nghĩa là nó chủ yếu có thể là do độc phủ dữ liệu,
+[00:40:20] có nghĩa là dữ liệu trên nó hơi ít, chứ không phải là do kiến trúc của mô hình nó yếu.
+[00:40:27] Nhưng mà nếu mà dừng lại ở cái mô hình chỉ có mỗi tem pro thôi
+[00:40:43] Thì quả thực là như hôm trước em có báo cáo thầy Trung
+[00:40:47] Và thầy Trung bảo là cái điểm đặc biệt ở sau mô hình của em
+[00:40:51] Nó chính là cái thành phần adaptive
+[00:40:54] Bây giờ nếu mà em đề xuất bỏ cái thành phần adaptive đi
+[00:40:56] Thì cái mô hình nó chỉ còn lại như kiểu là cắt ghép thôi
+[00:41:00] Nó không thực sự là có ý nghĩa đối với khoa học
+[00:41:03] Thì cũng chính vì như thế nên em cũng đã tìm cách này
+[00:41:06] xem thử xem là có cái hướng như thế nào
+[00:41:09] có thể vẫn giữ cái mô hình như thế
+[00:41:11] vì quả thực là cái mô hình đấy
+[00:41:14] cũng là cái mô hình không hẳn là do
+[00:41:16] may mắn mà em thử nghiệm rất là nhiều
+[00:41:18] và trên rất là nhiều lần
+[00:41:20] test rất là nhiều thì nó mới ra được
+[00:41:22] cái kết quả như vậy
+[00:41:23] và quả thực cho đến bây giờ thì kết quả nó khá là cao
+[00:41:26] chính vì như thế nên bây giờ
+[00:41:28] em sẽ thử với cái trường hợp
+[00:41:31] một là em giảm tham số
+[00:41:33] của cái mô hình đi
+[00:41:33] kể cả là có sử dụng có mỗi cái mô hình về mặt thời gian thôi
+[00:41:37] thì cũng tìm cách giảm cái tham số. Và ở đây thì em cũng đã thử giảm theo hai mấy cái cách như thế này.
+[00:41:47] Một là em thử nghiệm thay cái thành phần backbone. Có nghĩa là hiện nay cái backbone thì em đang sử dụng cái thành phần là
+[00:41:56] Connect Tiny. Thay cái thành phần backbone thành cái Connect Tiny 2. Trong cái Connect Tiny 2 thì nó có nhiều các cái phiên bản.
+[00:42:05] Ở trong đấy thì có cái phiên bản khá là nhanh, đó là Femto, nó khá là nhanh
+[00:42:13] Cái cũ của em là cái 104 kia đúng không? Tham số, 104 triệu tham số
+[00:42:17] Cái cũ là cái đầu tiên này, 104,5 triệu tham số
+[00:42:22] Cái đấy thì sử dụng cái mô hình là con neck tiny với cái số chiều, cái đêm của cái thành phần transformer là 1024 và nét là 6
+[00:42:36] Đấy thì nó là 104,5 triệu tham số
+[00:42:40] Đây là các kết quả thử nghiệm trên các tập sử dụng.
+[00:42:46] Thứ nhất, em vẫn sử dụng Backbone Connect Tiny và giảm giá trị Dim từ 1024 xuống 512.
+[00:43:27] Số lượng tham số của nó giảm xuống còn 47,3 triệu tham số.
+[00:43:32] Lần thử đó, kết quả của AUC 98,08% và các chỉ số khá tốt.
+[00:43:39] Tuy nhiên là sau đấy thì em thử lại vài lần nữa
+[00:43:43] 3 lần nữa với lại cái chip khác
+[00:43:45] Thì nó phá vỡ mất cái trúc của cái mô hình
+[00:43:49] Cái AUC nó không còn được như thế này
+[00:43:51] Nó chỉ còn có 50 mấy, 60 mấy phần trăm thôi
+[00:43:55] Nên là cái này nó chỉ là 1 cái lần thử may mắn
+[00:43:59] Được cái chỉ số này thôi
+[00:44:01] Tiếp theo nữa thì em giảm tiếp
+[00:44:06] Đối với cái DIMM là 384
+[00:44:09] Xuống cái số chiều 384
+[00:44:11] Thì nó giảm tiếp
+[00:44:12] thì nó cho các cái chỉ số cũng khá là ổn
+[00:44:17] nhưng mà nó cũng chưa thực sự tốt lắm
+[00:44:20] và em cũng thử đối với nhiều các lớp backbone khác nữa
+[00:44:25] nhưng mà sau quá trình thử nghiệm trên xong
+[00:44:30] thì nó cũng không thực sự tốt
+[00:44:32] nghĩa là kết quả nó không đáng tin, nó không đưa vào bên trong này
+[00:44:36] và cái cuối cùng là đối với thành phần backbone
+[00:44:41] là con Connect V2 thì nó có cái phiên bản rất là nhẹ là femto và cái chỉ số msdim thì giảm xuống
+[00:44:55] còn 384 và depth giảm xuống 3 thì sau khi mà em trên khá là là nhiều lần thì cái cái lần thứ nhất
+[00:45:04] là nó chỉ số tham số nó là 10,3 triệu với cái AUC là 94,54% test ở trên cái tập dữ liệu chéo là nó 82,59%
+[00:45:16] cái này cũng khá là là ổn mà tham số nó chỉ có 10,3 triệu tham số thôi và sau đấy thì em đã thử lại
+[00:45:25] với vài lần nữa với các cái cái cái cái cái ship cũng khác nhau thì đối với là chuyên thử được với
+[00:45:33] Với MSDIMM là 512, có nghĩa là cái chỉ số 47,3 triệu tham số này thì nó khá là không ổn định, nó chỉ rơi vào 55,79 cộng 9,71, có nghĩa là nó chỉ rơi vào hơn 60%, hơn 50, hơn 60% thôi.
+[00:45:51] Như thế có nghĩa là nó suy biến khá nhiều.
+[00:45:53] Nhưng mà đối với lại cái này thì trên thì nó chỉ có một ship là nó không được như mong đợi thôi.
+[00:46:00] Còn lại là các chỉ số khác của nó xoay quanh các ngưỡng như truyền ban đầu
+[00:46:09] Nên đối với mô hình này em thấy nó khá là...
+[00:46:19] Nếu như lựa chọn mô hình như thế này thì với các chỉ số tham số nhỏ
+[00:46:25] Thời gian truyền của nó nhanh
+[00:46:27] Thì vẫn có thể xem xét để có thể xác định
+[00:46:32] Đây là một cái mô hình nhỏ cho việc là sử dụng đối với các cái máy nhỏ
+[00:46:36] Thì đấy cũng có thể là một cái hướng
+[00:46:38] Một cái hướng tiếp theo nữa
+[00:46:44] Đấy là về cái độ tin cậy của mô hình
+[00:46:47] Thì báo cáo thầy thì trong cái quá trình nghiên cứu thì em thấy là
+[00:46:50] Nó cũng mới có một cái bài báo
+[00:46:53] Liên quan tới cái độ tin cậy của mô hình
+[00:46:55] Thì bây giờ đối với là các cái mô hình mà nó dự đoán
+[00:46:59] Nhưng mà liệu là cái kết quả dự đoán của nó là có đúng hay là sai
+[00:47:04] Thì cũng không ai biết được
+[00:47:06] Thì có nghĩa là mình sẽ phải đo
+[00:47:08] Đo cái độ tự tin
+[00:47:11] Cái độ chắc chắn của cái kết quả đó
+[00:47:12] Đây cũng là một cái hướng
+[00:47:15] Em thấy là khá là tốt
+[00:47:19] Trong cái quá trình này
+[00:47:20] Thì em thấy là có một cái bài báo
+[00:47:23] Của Sama
+[00:47:24] Cộng sự năm 2026
+[00:47:26] Trên cái ARXIV
+[00:47:27] Cái bài báo
+[00:47:34] Bài báo này thì
+[00:47:37] Của các thác giả
+[00:47:41] Toàn là thành viên của IEEE thôi
+[00:47:51] Ngoài cái 6 còn với 7,8 thì sao?
+[00:47:54] 6 thôi
+[00:47:55] Thì quay lại chơi đi
+[00:47:56] Cái này nó lao man lắm
+[00:47:58] Mình đem nhiều quá thời gian lắm
+[00:48:01] Mình đặt lý như thế này
+[00:48:02] Tức là
+[00:48:04] Mình quay lại cái mô hình cấp
+[00:48:09] Đó, cái này nhé
+[00:48:10] Bây giờ mình hỏi Tuấn này tức là
+[00:48:14] Để em đi theo cái hướng là 1 nhánh thôi
+[00:48:16] Rồi xoay sổ, cung gian
+[00:48:19] Đi theo 1 nhánh là thời gian
+[00:48:21] Và đi theo cả 2 nhánh
+[00:48:23] Vâng
+[00:48:24] Thì đều là những tổng cốc mới hay là không mới?
+[00:48:28] Đấy
+[00:48:29] Đều là mới
+[00:48:30] Mới chỗ nào? Ví dụ đi theo hướng thời gian thì mới là chỗ nào?
+[00:48:33] Đi theo hướng thời gian thì cái thứ nhất là đối với cái mô hình Gen Convid là người ta sử dụng cái nhánh về con Net Tiny này
+[00:48:41] Và sau đấy là kết hợp với một cái Transformer Handcoder
+[00:48:46] Nhưng mà cái Transformer Handcoder đấy nó không phải là bốc từng các cái video để mà so sánh đặc trưng của các cái video đó
+[00:48:55] Mà người ta là so sánh đặc trưng ở trong một cái video thôi
+[00:49:02] Nghĩa là nó gần gần với cái nhánh về mặt không gian này
+[00:49:04] Nhưng mà nó hơi khác tí
+[00:49:06] Người ta cũng là đối với cái bài báo đó người ta cũng sử dụng cái tài phần hybrid embed này
+[00:49:13] Để...
+[00:49:13] Có cái hình của...
+[00:49:19] Giờ tiếp là cái này để một miệng lần nữa thôi trước khi ta bán tiếp
+[00:50:11] Đây là sư đồ của họ đúng không?
+[00:50:16] Họ cũng dùng cái gì?
+[00:50:17] Con venex
+[00:50:18] Đúng rồi
+[00:50:22] Nhưng mà ở đây họ có rất nhiều con venex
+[00:50:25] Vâng đúng rồi
+[00:50:27] Mỗi một cái khối xanh da trời xanh lá cây đều là con venex cả đúng không?
+[00:50:35] Đúng rồi
+[00:50:38] Còn cái phần ở trước của nó chỉ là thằng tái tạo ảnh
+[00:50:41] Tái tạo ảnh
+[00:50:43] Tái tạo ảnh đúng không?
+[00:50:44] Đúng rồi
+[00:50:44] Và họ cũng đưa đầu vào họ là chỉ là một ảnh đúng không?
+[00:50:48] Đúng rồi, đầu vào là một frame
+[00:50:51] À một frame thôi
+[00:50:52] Vâng
+[00:50:53] Như vậy là họ có 1,2,3,4,5,6,7,8 khối Convnex
+[00:50:59] À 4 khối Convnex và 4 khối Swagchamper đúng không ạ?
+[00:51:03] Đúng rồi
+[00:51:04] Đấy, bây giờ Convnex xem cái slide của em
+[00:51:06] Thì ở đây của em là em sẽ có 1 cái Convnex
+[00:51:17] 1 con Convnex, sau đó là em xích ra rất nhiều các frame
+[00:51:22] Tương tự như vậy ạ
+[00:51:25] Ra nhiều frame cho em đưa vào 1 cái Encoder
+[00:51:29] Cái encoder ở đây thì nó cũng coi như là một cái transformer nhưng mà dạng encoder thôi
+[00:51:34] Đúng không ạ?
+[00:51:35] Hoặc là Swipe transformer
+[00:51:40] Của mình là transformer nhưng mà dạng encoder thôi
+[00:51:43] Cái mô hình của họ nó chỉ tương tự như thế này
+[00:51:46] Nhưng mà nó chỉ đến đây thôi
+[00:51:48] Đúng rồi
+[00:51:48] Đúng rồi
+[00:51:49] Còn của em là thêm cái dạng này
+[00:51:52] Nhưng mà nó không có nhiều ý nghĩa
+[00:51:54] Có 4 cái
+[00:51:57] Đúng rồi
+[00:52:00] Mình có 1 thôi
+[00:52:02] Đúng chưa?
+[00:52:02] Mình có 1 thôi và mình xử nó nếu mà đi theo hướng special thì gần giống như họ
+[00:52:11] Mà từng cái một, đúng không ạ?
+[00:52:14] Vẫn đi theo hướng tempo thì mình xử lý đồng thời một số frame
+[00:52:18] Vâng, mình xử lý tất
+[00:52:24] Rồi, thế thì bây giờ như thế này
+[00:52:29] Cả 3 hướng này đều là đóng góp mới cả
+[00:52:35] Chứ không phải là người ta làm rồi
+[00:52:39] Đấy, và đây là Tuấn đã khẳng định là chưa từng ai làm như này cả
+[00:52:45] Cái đấy là chi tiết của lại em
+[00:52:50] Vâng
+[00:52:51] Thầy cũng nghĩ là chưa từng ai làm
+[00:52:54] Chưa từng ai làm. Thế nhưng mà cái chưa từng ai làm điều đấy cũng có nghĩa là cái góc của mình mới nhưng mà cái tính tuyệt phán nó chưa cao.
+[00:53:06] Ý của Thầy Trung nói trước là mình đang hiểu là tính tuyệt phán chưa cao thôi. Chứ không phải là một tính mới.
+[00:53:13] Hướng một là special. Nó là một cái mới thế nhưng mà so với người ta thì tính tuyệt phán chưa cao. Đúng không?
+[00:53:22] Đấy và mình chỉ là thay đổi các cấu trúc. Ví dụ là họ bốn phối thì mình phải có một phối.
+[00:53:26] Đấy, nhưng mà cái đấy chỉ có lẽ chỉ ở mức độ 1 bài báo của thằng
+[00:53:37] Thì cái đó, nếu theo nước Spatial thì có vượt qua thằng của họ không?
+[00:53:43] Chỉ nước Spatial thôi cũng gặp
+[00:53:45] Vượt qua thằng này không? Đứt đầu?
+[00:54:22] 99,90
+[00:54:23] Không vượt qua họ được không?
+[00:54:25] Không, nhưng mà đây họ ấy test trong nội tập
+[00:54:28] À nội tập, trong liên tập
+[00:54:32] Em cố gắng là đưa nó vào 1 cái bảng, cái slide sau mình dễ nhìn
+[00:55:20] 99.90, 98.10
+[00:55:26] Không, nhưng mà cái này nó vẫn là nội tập
+[00:55:34] Bởi vì là so sánh như thế thì nó cũng...
+[00:55:39] Bên dưới, cross bên dưới, bảng 1
+[00:55:41] Ở đây, đây, đây
+[00:55:42] Một chút nhanh
+[00:55:45] Đây, 55.67
+[00:55:51] Tóm lại là rất tốt để coi nếu nó còn gốc đúng không?
+[00:55:55] Vâng
+[00:55:55] Đấy, cái quay lại slide đi
+[00:55:58] Cái này bây giờ liên tập nó, cái này nó là tốt nhất đấy
+[00:56:06] Nếu chỉ theo hướng không gian thì liên tập của em là bao nhiêu?
+[00:56:11] Chỉ theo hướng không gian thì liên tập của em là 86
+[00:56:16] Vâng, thì em bảo là hơn mà
+[00:56:22] Thứ nhất là đi theo hướng không gian
+[00:56:27] Hướng không gian thì quất vào tính mới nhưng tính vật phán nó không gian, đúng như thế
+[00:56:33] Đấy, thì đấy là một hướng này
+[00:56:36] Hướng thứ 2 là hướng thời gian. Theo Thuấn, khảo giác hiện nay đang là tốt nhất đúng không ạ?
+[00:56:45] Đang là tốt nhất.
+[00:56:46] Theo hướng thời gian, bây giờ cái đóng góp của em ngoài việc thay đổi bằng mô hình mới, mô hình khác so với Gencombit
+[00:56:54] Nhưng cái đóng góp của em tính tới là cả cái video. Và nó khác hẳn với Gencombit. Gencombit là thông tin chơi yếu tố của thời gian.
+[00:57:05] Vâng. Đấy. Thế thì về mặt đóng góp anh nghĩ là chắc là ok chứ ạ.
+[00:57:14] Tức là nó nói về hẳn cái nguyên thuộc tính rất khác. Đấy nó không phải thông gian nữa mà nó nguyên thuộc tính nó là yếu tố thời gian.
+[00:57:23] Đấy. Thế thì nếu mà em đảm bảo nó là thực sự là kết quả tốt trên 3 tập thì cái này hoàn toàn có thể xuất bản được.
+[00:57:35] Nhưng mà quan trọng là cái vấn đề của Tuấn ở đây thì nó không phải là vấn đề giấy.
+[00:57:44] Cái vấn đề của Tuấn nhất là vấn đề giải thích
+[00:57:49] Cái thứ hai là những study, những nghiên cứu bỏ đi
+[00:57:52] Đấy là của mình trước đây là nó khá là thiếu
+[00:57:56] Nó khá là thiếu cho nên là người ta không, người ta
+[00:58:00] Thầy cho nên là mình khi mình phản biệt ngoài báo
+[00:58:04] Thì thấy là nó không có những cái phân tích ảnh hưởng
+[00:58:09] Khi mà nó thế này, khi mà thằng này nó thế nào
+[00:58:11] Thì gần như không có
+[00:58:15] Rồi tại sao nó lại như thế thì gần như là không giải thích
+[00:58:18] Cái vấn đề của Tuấn, nhất là chủ đề cũng bản thân tổng bí tẩm người ta đã nhận xét như thế, thầy đã copy cho em rồi đúng không?
+[00:58:26] Vâng ạ.
+[00:58:26] Đấy. Thế thì, theo bộ path thầy đánh giá là kết quả như thế vẫn ok. Đấy, vẫn ok.
+[00:58:35] Thế nhưng mà tiếp theo là cái việc là cộng 2 thằng nào với nhau.
+[00:58:41] Về logic ấy, logic ta vẫn nghĩ rằng là nó phét cạn các trường hợp, đúng không ạ?
+[00:58:49] Vâng.
+[00:58:49] Về phét cạn trường hợp thì nó có thể xấu hơn 1 trường hợp này.
+[00:58:52] Đấy, về logic ý, còn số là tại sao thì mình phải giải thích
+[00:58:57] Thế thì cái số hơn đấy thì nó ở chỗ nào
+[00:59:03] Thì bây giờ có 2 trường hợp
+[00:59:05] Cộng lại, 1 là cộng cứng như em nói là cộng tpv3
+[00:59:08] Đúng không?
+[00:59:09] Đấy, cộng tpv3 thì em phải cân tích xem là
+[00:59:11] Khi tpv3 thì có bao...
+[00:59:14] Một số em đứng là về mặt thống kê là nó rơi vào nhánh nào
+[00:59:19] Còn lại thì nó rơi vào nhánh không gian này
+[00:59:26] Thế thì tại sao nó lại như vậy, có nghĩa là phần lớn nó rơi vào Temple of Paths
+[00:59:34] Cho nên nó không cải thiện thêm được cái gì là đúng
+[00:59:37] Và nó vẫn giữ được quy trì về cơ bản là cái hiệu năng giống nhau đúng không
+[00:59:41] Cái hiệu năng là giống nhau
+[00:59:42] Thế còn cái Euductive thì cái Euductive là tại sao nó lại như vậy
+[00:59:47] Thế thì có 2 hướng dẫn tại sao Euductive nó không hiệu quả
+[00:59:53] Một là bản chất cái vấn đề dữ liệu của em là phần lớn nó chạy vào Temple of Paths
+[00:59:58] Lấy
+[01:00:00] Thế thì có những trường hợp nào sát xuất rơi vào tempo loại thấp hơn, có thể rơi nhiều hơn vào phase 1 không?
+[01:00:13] Có, nhưng nó lại sai.
+[01:00:18] kể cả hai cái bộ dữ liệu thì bây giờ nếu như mà nó rơi vào cái hướng Spatial
+[01:00:24] thì nhưng mà khi mà rơi vào cái hướng đấy thì nó lại là thành cái dự báo sai, dự đoán sai
+[01:00:31] chính vì như thế nên là nếu như mà nó rơi nhiều vào cái hướng bên trên
+[01:00:38] thì cái kết quả của mô hình nó tụt xuống
+[01:00:40] nên nó rơi nhiều vào cái hướng bên dưới thì kết quả của mô hình nó tăng lên
+[01:00:45] còn lại là về bản chất thì hai cái đấy nó cho ra
+[01:00:54] Bây giờ mình quay lại đặc tính của bộ dữ liệu ấy, có bộ dữ liệu nào mà khả năng nó rơi vào cả hai thì nó phải năng nhau thôi.
+[01:01:04] Đấy thì biết bộ dữ liệu mà phần lớn nó rơi vào thêm 1W thì đúng là hướng dưới Adaptive này cũng có tác dụng.
+[01:01:10] Vâng.
+[01:01:13] Đấy, bây giờ mình phải đi sâu vào phương tích tại sao nó phải tụ tưởng bộ dữ liệu.
+[01:01:20] Vâng.
+[01:01:20] Ví dụ 3 hướng dữ liệu mà phần lớn nó rơi vào thêm 1W thì đúng là hướng dưới Adaptive cũng có tác dụng, đúng chứ anh?
+[01:01:29] Tại vì cái Adaptive ở đây là em đang là
+[01:01:38] Adaptive là chỉ theo số lượng frame
+[01:01:43] Nếu mà một cái video mà theo cái số lượng cái frame như vậy thì thường là nó sẽ nhiều
+[01:01:51] Chứ nó không phải là chỉ 1, 2, nó chỉ khá là ít thôi
+[01:01:55] Và hiện nay đối với các cái bộ dữ liệu của em thì trung bình là nó toàn là
+[01:02:15] Em chọn được 4 tham số cho mô hình hoặc máy đúng không?
+[01:02:20] Bao gồm là gì? Thứ nhất là Mil. Mil là thời gian đúng không?
+[01:02:27] Mil là thời gian hay Mil chính là số?
+[01:02:32] Có nghĩa là cái trung bình của đặc trưng của tất cả các khung hình
+[01:02:40] Đặc trưng của tất cả các khung hình mà nó tính toán được
+[01:02:45] Nhưng mà thật sự là nếu mà với cái chế này nó có thể thoát quá thì đến cái chỗ mà cái đồng da nó được thì em vẫn chọn cái đồng da nó là tên là theo tao mà.
+[01:02:57] Thầy đang ý chính là chỗ này này, ý chính là chỗ này là chỗ quan trọng.
+[01:03:03] Tao mà thì em để tao vòng vòng 2 đến vòng 3 thì chọn cái trên là vòng tao, vòng nhỏ 4 đến 3 là vòng dưới.
+[01:03:09] Không, nhưng mà cái này bây giờ nếu mà làm theo cái này thì sẽ không chọn tao nữa mà là nó chọn theo cái kết quả của cái này mà.
+[01:03:18] Đầu ra của nó là gì?
+[01:03:23] Đầu ra của nó là G
+[01:03:25] G là gì?
+[01:03:28] Z là gì?
+[01:03:31] T là gì?
+[01:03:33] T là các khung hình
+[01:03:39] Sigma của MLP của tổng 4 thằng này
+[01:03:55] Tóm lại là G quyết định là gì?
+[01:03:59] Nó sẽ đi theo nhánh nào?
+[01:04:04] Không phải đi theo nhánh nào mà nó lấy kết quả gì, nó lấy kết quả của cái gì
+[01:04:09] Nó đều phải chạy cả 2 nhánh đấy
+[01:04:10] Không, nó có 2 loại, cái loại chọn mềm ấy thì nó mới là đi theo 2 nhánh
+[01:04:17] Thì đi theo 2 nhánh thì nó sẽ tính, thật cái nhánh thứ nhất là tính cái cũng tính cái G như thế này
+[01:04:23] Chọn cứng thôi, chỉ có 1 nhánh thôi đúng không?
+[01:04:25] Đúng rồi, chọn cứng thì
+[01:04:26] Kết quả của em là sao anh đã chọn cứng không em ạ?
+[01:04:29] Cái của em ở đây đang là chọn mềm
+[01:04:36] Và chọn cứng thì nó không cao hơn. Em muốn thử về chọn cứng thì nó không cao.
+[01:04:45] Chọn mềm thì không thể chọn mềm. Chọn mềm cứu gì nó cũng chạy qua thời gian làm sao nó tốt hơn.
+[01:05:06] Bởi vì chọn mềm là kết quả phân loại của hai thằng đấy cộng trung bình lại với nhau đúng không?
+[01:05:10] Nhưng mà nhiều lúc là một số các chỉ số của nó lại cao hơn
+[01:05:16] Thì đến cái lúc đấy là cái gờ của cái nhánh trên nó là lớn hơn so với cái gờ ở bên dưới
+[01:05:21] Được, bởi vì là cái miền đặc định nó khác nhau
+[01:05:45] Đấy tôi xem trên miền thời gian, thằng kia là miền không gian
+[01:05:48] Đấy, còn cái thằng miền không gian thì nó mới làm đầu góc nhỏ
+[01:05:52] Vẫn làm đầu góc nhưng mà đầu góc nhỏ
+[01:05:54] Còn trên miền thời gian là đầu góc hoàn toàn mới
+[01:05:56] Đó, cái miền thời gian này nó có một cái bài như thế này
+[01:06:02] Chỉ sợ là em cũng chẳng bảo điều đấy thôi. Nhưng mà thằng có làm rồi đấy.
+[01:06:06] Không, có người làm rồi nhưng mà khác à.
+[01:06:08] Khác thế nào?
+[01:06:09] Đây.
+[01:06:10] Có thể là có người khảo sát được thằng này khác một lần không ạ?
+[01:06:27] Trên nền thời gian này có thằng làm đúng hay không mình thì nó góp nó nhỏ.
+[01:06:54] Thì cái bài báo này là nó cũng dựa trên cái ý tưởng của cái bài Gen Convid kia.
+[01:07:00] Nó cũng là đưa vào cái mô hình như thế nhưng mà nó bổ sung thêm một cái là 3D CNN vào bên trong này.
+[01:07:06] Để nó phân tích về cái yếu tố về mặt thời gian.
+[01:07:09] Sau đó nó đưa vào Componix và Swim
+[01:07:13] Như thế này không so sánh với nó
+[01:07:18] Có chứ ạ
+[01:07:20] Nó là thằng nào trong cái bài của em?
+[01:07:23] Đây ạ, 34
+[01:07:24] 34 chứ
+[01:07:26] Nhưng mà ở trong này thì nó không so sánh liên tập
+[01:07:33] Ở trong này thì nó chỉ
+[01:07:38] Cô hiểu rồi.
+[01:07:52] Cái đi này.
+[01:07:53] Đấy là đây.
+[01:07:54] Trông ạ.
+[01:07:56] Elastic thì nó là Q1.
+[01:07:59] Temporal thì nó tương đương Q2, Q3.
+[01:08:03] Đấy.
+[01:08:03] Tức là ý là cái mức độ...
+[01:08:07] Cái...
+[01:08:08] Cái như vậy.
+[01:08:09] Cái Temporal đã làm rồi.
+[01:08:14] Cái khác.
+[01:08:19] Mà môi phải nhỏ hơn.
+[01:08:21] Vâng.
+[01:08:22] Đấy.
+[01:08:22] Môi của em tất cả đẹp như này.
+[01:08:33] Tức là...
+[01:08:34] Em đi từ...
+[01:08:35] Từ thằng...
+[01:08:36] Gas Convict nhá.
+[01:08:38] Vâng.
+[01:08:38] Xong em phải tiến nó theo hướng...
+[01:08:40] Nhánh 1 là Special.
+[01:08:42] Đấy.
+[01:08:43] Special và em thấy là nó...
+[01:08:45] Nó hơn đứt ngân viên bởi vì hiệu năng là nó cải tiến, thành tích là cải tiến hơn
+[01:08:55] Nhưng tham số nó lại nhỏ đi
+[01:09:01] Vì nhỏ đi này đáng kể nhé
+[01:09:03] Nhỏ này không chỉ có 105 triệu, cơ hội xuống 1,4 triệu nữa
+[01:09:09] Mà tăng kia nó tăng 700 triệu
+[01:09:12] Mà nó xuống còn có 100 triệu, rất đáng kể mình phải nhấn mạnh vào điều đó
+[01:09:15] Đúng chưa?
+[01:09:17] Đấy. Đấy là cái tiếp cận thứ hai.
+[01:09:22] Nhưng mà tôi thấy là cái việc xử lý không gian này, từng frame này thì nó chưa được hiệu quả.
+[01:09:29] Tôi đặt ra câu hỏi nữa là bằng nhiều frame.
+[01:09:35] Bằng nhiều frame và với nhiều frame thì tôi cũng áp đặt cả cái thằng nhiều frame của nó.
+[01:09:39] Đúng không? Đấy. Và tôi có được một cái kết quả rất tốt đối với tempo fast.
+[01:09:45] Thế nhưng tôi chưa dừng ở đó, tôi còn đặt ra câu hỏi là
+[01:09:48] là việc kết hợp 2 đằng lạc với nhau như thế nào
+[01:09:53] Khi tôi đặt ra là kết hợp cứng
+[01:09:56] thì cứng của nó tề bằng 3 nhưng mà để ra tề bằng 3
+[01:09:59] thì tôi đã thử tề
+[01:10:00] 4, tiền 5, tiền 6 rồi
+[01:10:02] đúng chưa?
+[01:10:03] và tôi cũng chưa dừng đến đấy
+[01:10:05] và bây giờ tôi ơ đạo tiếp nó
+[01:10:07] ơ đạo tiếp này em hình dung là
+[01:10:09] em chưa thể hài lòng đến như thế này được
+[01:10:11] em còn phải đặt ra câu hỏi tại sao
+[01:10:14] mình cũng phải
+[01:10:14] và nếu ơ đạo tiếp này mà em đặt kết quả tốt hơn TEMPRO
+[01:10:18] tốt hơn nở mức độ nhiễm ảnh ảnh
+[01:10:20] thì quản án của em quay lại đúng kết
+[01:10:24] còn nếu sử dụng nó không tốt hơn
+[01:10:26] thì quản án mình vẫn phải report nó
+[01:10:29] và mình phải thích đây là 4.000.000, tôi đối với tí ra
+[01:10:33] hoặc là thầy vẫn đang nghĩ về lựa chọn tham số đấy
+[01:10:36] chắc là vẫn cần phải thông tích rõ là tham số để quyết định việc là
+[01:10:41] nó erotic hay không
+[01:10:42] và erotic theo 2 nhánh liền hay là erotic theo từng nhánh một
+[01:10:49] đúng không?
+[01:10:54] và nó là thứ 2, tôi bằng 3
+[01:10:57] thì vẫn là theo tính loại trừ
+[01:11:00] chọn này thì tôi làm chiếc
+[01:11:02] đúng không?
+[01:11:08] Ước đáp tiếp theo vẫn là dạng trừ và Ước đáp tiếp theo dạng trộn cả hai
+[01:11:11] Đấy thì coi là cái luồng luận án em là như thế
+[01:11:15] Thế còn hi vọng là Ước đáp tiếp theo em vẫn phải thử để nó có kết quả khả quan ở đó
+[01:11:26] Thế còn trường hợp mà nó không thể làm được thì em phải xuyên lại tất nhiên là tại dữ liệu
+[01:11:32] Thế cái luồng luận đoán thì em hiểu là sẽ phải đưa tất cả những cái đấy vào trong luận đoán rồi.
+[01:11:46] Thế nhưng mà đối với cái bài báo thì nếu như như vậy thì bây giờ em sẽ tiếp tục nghiên cứu cái Adaptive để viết bài báo hay là bây giờ em...
+[01:11:56] Tiếp tục nghiên cứu và đồng thời là xuất bản bằng biểu hữu như thế này.
+[01:12:00] Thằng Spatial thì thầy đang nghĩ là xuất bản bằng hội thạc.
+[01:12:04] Đấy, hoặc là những bài báo trong nước, chiếm nước.
+[01:12:09] Thằng Tempro thì phải bắt buộc phải xuất bản bài báo quốc tế, tìm một tổ chức tập trí tùy hạn.
+[01:12:17] Nhưng mà cái đấy thì mình chỉ đề cập đến mỗi cái mô hình Tempro thôi.
+[01:12:23] Lần này viết là nó phải giải thích nhé.
+[01:12:25] Viết để tăng cường người giải thích.
+[01:12:27] Chứ không kiểu viết kiểu như là tôi thấy thằng này nó làm này, thằng kia làm cái đó.
+[01:12:35] Tôi đừng bắt bài lại.
+[01:12:37] Cháo thằng kia vào kia là xong.
+[01:12:38] Thế còn tiếp tục em vẫn phải nghiên cứu thẳng nơi rapid để ra được một quài báo quốc tế, hy vọng.
+[01:12:54] Thế còn cái giảm bớt tham số thì?
+[01:12:57] Giảm bớt thì chỉ là cái chư thế đóng góp mới đấy là chỗ nào.
+[01:13:06] Đấy thì có thể hội thảo. Ví dụ cái bài đấy em gửi cho mình cái hội thảo AI quốc gia mà thầy đang deadline vào tháng 21.
+[01:13:17] Không nhưng mà bây giờ gửi cái bài hội thảo đấy thì nó lại chụp với lại cái bài mà định gửi quốc tế rồi thì cũng không được.
+[01:13:26] Em nói là cái bài em vừa nói là cái việc giảm về tận 10 triệu tham số đấy.
+[01:13:33] Đấy thì cái đấy giảm về 10 triệu tham số nhưng mà về bản chất là các cái khối của nó nó chính là cái khối temporal này.
+[01:13:41] Nên bây giờ nếu mà mình đăng cái bài đấy là chính là...
+[01:13:43] Thì cái temporal này em phải nộp ngay trong tháng 8, tháng 9 đây này.
+[01:13:46] Thì tháng temporal em nộp thằng kia đấy.
+[01:13:49] Vâng.
+[01:13:50] Có hiểu ý không?
+[01:13:51] Vâng.
+[01:13:52] Em không có thời gian để đối với đâu, không nhiều thời gian đâu.
+[01:13:55] Thầy nói đi, có nghĩa là năm 1989 em phải xuất bản cả 2 thằng Spatial, thằng Camero này này
+[01:14:08] Thuấn cũng còn mùa xuân để kinh doanh cái đâu, mình thầy nói thật đấy
+[01:14:10] Thằng Spatial đó kìa, thầy đang bán đây là trình bày
+[01:14:21] Thằng Spatial của em xuất bản thầy 1 bài hoặc là 1 tạp chí trong lớp
+[01:14:26] Còn thằng Camero kia, xuất bản tạp chí Q2
+[01:14:31] Và sau mấy việc đấy là em phải chạy cái thằng suy nghĩ về thằng The Rapid kia
+[01:14:38] Tìm cách, nếu thằng The Rapid mà nó cho cái quả khả quan thì thằng đấy chắc chắn là được đi 1 được, thấy chưa?
+[01:14:52] Và lúc khi đấy em có thể đưa cả trường hợp là tao có cố định ghi vào để minh chứng trong bài xuất hạn đấy
+[01:15:06] Thế còn tháng 11 em xuất bản thầy cái bài đưa về 10 triệu dưỡng bài Hội thảo quốc gia nó ở mức độ vừa phải thôi
+[01:15:13] Như năm ngoái ta đi rồi đấy, năm nay ta đi vào tận Cần Thơ đấy, đúng chưa?
+[01:15:25] Khi nào đóng gói được cái đấy xong hết thì lúc đấy nó là bài xuất sót rồi đấy
+[01:15:29] Bây giờ cũng là một con đường rơi ngổ nhé.
+[01:15:32] X-Facial với Cepro còn cần gì phải làm nữa?
+[01:15:45] Coi là em có tờ lệnh có tay hết rồi.
+[01:15:48] Thì trong vòng được thắng, em phải xuất bản nó chứ.
+[01:15:51] Trần Thư gì thế?
+[01:15:52] Bây giờ em sẽ phải hấp lây sừng từng các thành phần một của mô hình.
+[01:16:07] Điều nào xa?
+[01:16:08] Điều cho cái tạo chính này về thập kỷ thứ hai,
+[01:16:16] tạo chính về phương pháp luật.
+[01:18:25] Tạo chính này là phù hợp nhất với các bản thân.
+[01:18:31] Ngoài ra còn tạo chính về multimedia tool gì đấy.
+[01:18:34] Springer đấy, để trung sở cái đấy.
+[01:18:35] Phải cắt được tiền S1 trong 2 thì phải chịu, phải cho quay thêm cổ.
+[01:18:53] Bài nhánh 1 là gửi cái gì nhỉ?
+[01:18:57] Hội thảo quốc tế
+[01:18:59] Chúng tôi quyết định thế đấy nhé.
+[01:19:04] Hội thảo quốc tế ngày nay là tháng 9 hay tháng 10
+[01:19:08] Nó có cái lưu của S.O.I.C.T.
+[01:19:12] Nếu như thằng Trúc Sơn đi lưu thằng ấy.
+[01:19:19] S.O.I.C.T. hoặc là R.I.B.F.
+[01:19:24] S.O.I.C.T. còn phần Q.B.S. đó là dưới 100.000.
+[01:19:44] Mùng 9-9 là gửi tấm lá 16-9, 16-9 gửi full. Đấy là mòn.
+[01:19:57] Còn tạp chí trong nước thì em chọn
+[01:20:00] với tạp chí mà nhóm mình hay gửi đấy
+[01:20:03] 1 trong 2 cái đấy
+[01:20:06] Nhánh 2 thì gửi tạp chí thầy vừa xong cả đấy
+[01:20:12] Dạ
+[01:20:12] Cái giảm chiều, tháng thước xuống 10 chiều thì gửi FCK
+[01:20:26] Tháng 11, FCK
+[01:20:58] Tháng 4, tháng 7, deadline là tháng 11 đúng không anh?
+[01:21:17] Dạ
+[01:21:17] Tháng này thì các em ghi dự ở cái giờ đúng độ không được phải không?
+[01:21:24] Cái còn song song nó tập trung vào cái productive làm sao để có được một cái nhánh
+[01:21:31] Một cái nhánh nó kết quả nó khác khác
+[01:21:37] Nếu trong trường hợp bớt cả cán cho tội thì Thành quay lại vấn đề là không chức bản đấy mà chỉ đưa luật án và giải thích nó. Nhưng mà như thế luật án sẽ yếu.
+[01:21:52] Cho nên là em phải thành ra đạo nhiều hơn về tựa đắc tức đấy. Cách chọn tham số, tham số thực sự có ý nghĩa xong rồi quyết định nhanh hay không.
+[01:22:00] Bởi vì mình bắt đầu xuất ra điểm mình là xác định cái tàu đúng không? Xác định mình là không muốn là tàu đâu có đích.
+[01:22:14] Thay đổi tàu có bao nhiêu có nghĩa là mình phải dự đoán nó. Nhưng mà dự đoán cái tham số tàu thôi.
+[01:22:21] Thì những đặc trưng nào của video để quyết định cái tàu đó
+[01:22:29] Lúc đầu thì đăng nghiệp đi nhiều lần đấy nhưng mà em dự đoán cái tàu thôi
+[01:22:33] Nhưng mà quyết định này thì cũng được
+[01:22:39] Nhưng mà mình phải có cái logic của chọn tham số, chọn đặc trưng nó như thế nào
+[01:22:43] Nhưng mà cái quan trọng nhất là
+[01:22:48] Cái mô hình thứ nhất là nó phải khác so với mô hình thứ hai
+[01:22:52] Nhưng mà ở đây thì
+[01:22:55] Thứ hai là mô hình nào?
+[01:22:56] Nghĩa là mô hình nhánh không gian nó phải khác với mô hình nhánh thời gian.
+[01:23:04] Khác nhau về cách thức để thực hiện thôi, nhưng mà về kết quả thì nó không khác nhau nhiều.
+[01:23:12] Thì ra tìm cách cho kết quả rất khác.
+[01:23:16] Bây giờ em hình như là mình làm nghiên cứu hình tính logic thịt cao à.
+[01:23:21] Bây giờ em đề xuất cho thầy là mô hình là tao cố đấy.
+[01:23:25] Thầy đặt em câu hỏi là tại sao tao không thay đổi một cách để chỉnh đi.
+[01:23:28] Bây giờ mình đi tìm khách để dự đoán cái tao phụ thuộc vào các video cụ thể
+[01:23:34] Bây giờ tôi cho một cái video thì anh cho tôi ra một cái tao thương nhau
+[01:23:38] Đấy là cái nghi chí đầu tiên rồi mới đến cái thứ hai của em
+[01:23:48] Thôi nhiều khi là ra một cái dấu còn nó khá là toàn thái
+[01:23:55] Giờ thì hãy xuống
+[01:23:57] Ý tưởng của thầy lúc đầu chỉ là có phải là tao có thể điều chỉnh được hay không
+[01:24:02] Em đưa ra môi mình phải bảo vệ nó đến cùng
+[01:24:24] Chứ đừng thấy mọi người chê bắt mình bỏ vô những điều khác
+[01:24:28] Quan điểm của mình là như thế, mình mướn em là như thế
+[01:24:36] Mình bảo vệ ở những câu cũng chỉ đến khi, đến câu mà cũng ra nổi các đồng ý, chuyển hướng
+[01:24:40] Bây giờ người ta, mình em gửi đi tạp chí, người ta từ chối, người ta luôn nói về cái tao
+[01:24:46] Đầu tiên mình phải tập trung mình giải quyết cái tao này ra
+[01:24:48] Xong rồi đi ra phương pháp mới
+[01:24:50] Bây giờ mình hoàn toàn không quan tâm về cái tao nữa
+[01:24:54] Thì như vậy là rõ ràng là em đưa mình vào những cái sự bắt quái khác hẳn
+[01:25:00] Thế bây giờ thầy này nói như vậy là rõ ràng là cái tao này em đi giải quyết
+[01:25:09] Em đi vào cái ghiết tinh, cái ghiết tinh kiểu ghiết tinh
+[01:25:32] Đầu tiên là tàu em thử của bố định ra, tàu hồng 3 hồng hồng 5 em thấy là như thế ok
+[01:25:36] Nhưng các thầy thấy là chưa đủ, có thể là tôi hỏi là tàu có thể chạy tự động rồi đấy không?
+[01:25:40] Thì em hãy đưa ra một mô hình dự báo, đầu vào nó là cái video, đầu ra nó là giá trị tàu
+[01:25:46] Tức là các thầy hiểu là em cấy một mô hình học máy nằm ở giữa đó
+[01:25:51] Thêm một mô hình dự đoán cho cả frame đấy, thêm một mô hình dự đoán giá trị tàu
+[01:25:56] Và đầu hàng nó là video và môi dự đoán tâu là một thành phần của cả môi to của em.
+[01:26:07] Và khi em huấn luyện khung điều hồ đấy, em cũng huấn luyện cả môi dự đoán ấy luôn.
+[01:26:21] Nó là một thành phần tươi.
+[01:26:25] Nhưng mà thường ra ý của em thì như thế này này.
+[01:26:29] Dĩ nhiên là việc chọn tâu là một chuyện.
+[01:26:32] Nhưng mà dù nó đi theo nhánh thứ nhất hay đi theo nhánh thứ hai,
+[01:26:35] thì kết quả của nó cũng tương tự nhau.
+[01:26:40] Cái mà phát hiện ra được thì...
+[01:27:32] có thể hướng là nó mới như thế thì thầy thấy là quá là khí
+[01:27:36] mà như thế nghiên cứu sinh nó không phải là 10 năm đâu
+[01:27:40] sinh của em thời gian nó có hạn
+[01:27:42] hoặc là em có thể làm từ lúc sọc sóng của cả 2 người ấy
+[01:27:46] bây giờ em chạy theo cái ý kiến của mọi người
+[01:27:58] xong dần dần cũng biết nó ra được cái gì
+[01:28:00] thế bây giờ là giả lũ đi theo tempo lột phát
+[01:28:03] bây giờ một phát lên lại góc cao trở lại
+[01:28:05] thế về em lại đổi lên một cái mới hoàn toàn
+[01:28:07] thì các thầy cũng chào buông
+[01:28:08] thầy kiên trì chứ, thầy nghiên cứu thầy kiên trì
+[01:28:15] làm sao mà làm ấy
+[01:28:19] Cái này nó cao thôi, thử nhìn nó cao hơn, nhưng mà khi bảo nó có chất bếp nó không nên nó khó, lại nó chắc.
+[01:28:30] Đúng thức lạ như thầy Nam nói, bây giờ có 2 cái hướng dẫn thế.
+[01:28:35] Nhưng mà thứ nhất là cái temple ấy, nhưng mà mới có người báo.
+[01:28:38] Cả người đều biết chứ.
+[01:28:39] Còn thật ra là người báo kia thì biết rồi rồi.
+[01:28:42] Còn người báo gọi là aratif ấy, người báo gọi là cái tao ấy, thì sẽ tìm được cái mô hình để thiên theo cái tao ấy.
+[01:28:53] Nó phải như thế em ạ. Đầu tiên em chỉ cần một mô hình, thậm chí là mô hình tương tính thôi.
+[01:28:58] Ví dụ là hồi tư kiên tính để tính ra sau
+[01:29:03] Dựa trên một số tham số của video
+[01:29:08] Một số tạ chức của video
+[01:29:10] Mà em phải biên luận được tạ chức đấy có ảnh hưởng đến quyết định tao
+[01:29:15] Nó là cái gì thì cũng phải trả lời thay em được
+[01:29:20] Bây giờ em phải đứng ra
+[01:29:22] Rồi nó mới đến cái đối tượng đó
+[01:29:24] Tiếp tục đọc bánh cả hai nhánh
+[01:29:26] Rồi là vân vân thứ theo đến một cái kinh tế nó phức tạp như thế
+[01:29:30] Đừng có người ta chê thế là sau đó mình bỏ đi
+[01:29:37] Thầy thấy có quá khí, thầy thấy rất tiếc
+[01:29:39] Mình phải nghiêm tin vào cái mình làm
+[01:29:44] Bản thân em không nghiêm tin thì các thầy cũng chịu
+[01:29:52] Thầy chịu bằng mấy thông số mà em đưa ra
+[01:29:54] Thì không được không
+[01:30:02] Nó chỉ là cái quyết tượng xong của các trường bào, nó chạy rất nhanh.
+[01:30:22] Đấy là một ý tưởng, thầy em có thể đến ý tưởng khác nhưng mà mình cứ kiên trì đi đã để xem thế nào.
+[01:30:29] Có khi nó chỉ cần dẫn thêm một chút xíu nữa thôi, đừng nhảy hẳn sang cái mới.
+[01:30:35] Còn về logic thầy vẫn nghĩ là cái hướng kết hợp bao giờ nó sẽ đem lại cái tốt.
+[01:30:41] Chỉ có mình chưa chọn đúng cái cấu hình đó, chưa chọn đúng cái bộ dữ liệu mà nó phù hợp.
+[01:30:51] Thử thêm cái kết hợp kết quả của hai cái nhánh trước xem thế nào.
+[01:31:00] Đầu tiên của em là bây giờ nhé, nói đi lần lại.
+[01:31:05] Một là cái Facebook ra bài báo không nào.
+[01:31:07] Hai, Facebook ra bài báo cũng thế.
+[01:31:10] Ba là ý điểm, cái mô hình dựng báo tao một cách tự động để bổ sung vào cái bài đang có này.
+[01:31:20] cũng bỏ đi qua phim
+[01:31:22] chỉ là cái phần graph cao nhất
+[01:31:27] có thể test ra thành một cái mục nghị
+[01:31:30] nào đấy thôi
+[01:31:30] nếu nghị đưa vào nó bị trở thành cái người ta chê
+[01:31:36] là mình thấy là test
+[01:31:56] cao của 3 tốt hơn
+[01:31:58] cao của 5, cao của 6 đúng không
+[01:31:59] như thế trên một bộ dữ liệu
+[01:32:01] nó sẽ thay đổi như vậy là mình cũng thể cảm nhận được là
+[01:32:08] khi nào nó bằng 3, khi nào nó bằng 4
+[01:32:12] em phải đặt ra một mô hình suy diễn nó chứ
+[01:32:15] dự báo nó một cách đơn giản thôi
+[01:32:18] Ví dụ là em tính ra mức độ phụ thuộc
+[01:32:22] Thầy đang nói một cách tìm hiểu không nhé
+[01:32:27] Mức độ phụ thuộc giữa các frame này hả
+[01:32:30] Phụ thuộc càng cao thì rõ ràng là cái tàu càng lớn đúng không
+[01:32:35] Đấy đúng không
+[01:32:40] Đấy mức độ phụ thuộc giữa các frame càng lớn
+[01:32:42] Cái correlation giữa các frame càng lớn thì cái tàu số điểm phải dài ra
+[01:32:46] Thế nhưng mà cái mức độ phụ thuộc nó có thể lên xuống lên xuống như này
+[01:32:52] Mức độ đấy có nghĩa là tàu sẽ nhỏ nhưng mà nó cố gắng ra được một dự báo cách tiểu
+[01:32:57] Thì có nghĩa là em đã đúng rồi
+[01:33:05] Nếu em thấy tàu tự động, em sẽ lập tức gửi đi thẳng điện tiếp ngay
+[01:33:08] Nhưng vì tàu tự động là bị loại, có phải phí không?
+[01:33:12] Đầu tiên tàu tự động em chỉ ngang được với thằng Tepro chẳng?
+[01:33:24] Còn nếu tàu tự động vẫn work, vẫn làm việc nhưng mà nó không được bằng Tepro
+[01:33:32] Thì em giảm cấp cái bài đề viên vào thành tật chính xác
+[01:33:36] Nhưng mà thầy rất tin là mình phải hướng tới làm sao cái mô hình grip đấy
+[01:33:44] Là nó phải hướng tới ít nhất là bằng Tepro hơn
+[01:33:47] Bằng gì có nghĩa là tính ổn định nó cao hơn, mình phải khảo sát tính ổn định
+[01:33:53] Cái bằng cao hơn thì là lý tưởng nhất rồi
+[01:33:57] Với Thuấn, hôm nay thầy cũng nói rất nhiều nhưng mà cố gắng tức kỷ niệm
+[01:34:01] Làm như không có một con đường nào khác
+[01:34:08] Đúng vâng thưa Việt
+[01:35:11] Thì mai nay dựa đến cái em bầu vầy máu
+[01:35:14] Em ở cái hồi thảo là H026 vừa qua
+[01:35:23] Hôm qua em đặt schedule
+[01:35:24] thì còn chơi cái khoảng nữa.
+[01:35:27] Thì cái nội dung của em thì
+[01:35:29] xin bảo cậu thêm là
+[01:35:31] vừa rồi thì em vẫn là tập huấn
+[01:35:34] lưỡng đường này. Thì
+[01:35:35] cơ bản thì còn nhiều cái
+[01:35:38] cần phải, những điều thêm
+[01:35:41] nhưng mà cũng đảm bảo một cái
+[01:35:43] kết quả chẳng đối là khá là tốt.
+[01:35:46] Thì đấy cũng là cái cơ sở mà để
+[01:35:48] em tiếp tục
+[01:35:50] khai thác chủ đề này.
+[01:35:52] Sau khi mà cùng với
+[01:35:59] cơ sở lưỡi, em đang
+[01:36:02] Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+[01:36:42] Về thân giới thiệu thì em xin phép là vừa cùng trực sản qua cái thân này.
+[01:36:51] Về công trình nghiên cứu liên quan thì đối vật đó là công trình nghiên cứu của Ninh và Công sư đề xuất một mô hình kết hợp chiều Transformer và BLS-10 và CNM cho quốc Việt và đồng bọc vào một tập xử liệu của bài báo đó là tập xử liệu VF-NDD.
+[01:37:15] Thì cái tập dựng điều KD này em cũng lấy và làm 5 trong các bài báo cáo của em
+[01:37:26] 2 tập dựng điều thì nó là 1 trong 2 tập dựng điều đó
+[01:37:30] Với công ty nghiên cứu nữa của tác giả Võ Bình Vinh và Bộ Phúc
+[01:37:40] Đến từ Trường Đại học Công nghệ
+[01:37:42] Thì cái bài báo này nó cũng sử dụng trên cái bộ tiếng Việt
+[01:37:51] có một kết quả khá là cao liên quan đến sử dụng mô hình BLSTM và 2 mô hình kết hợp
+[01:38:06] đó là CNM và BLSTM và kết quả tương đối là cao. Đây là 2 bài báo liên quan đến phát triển
+[01:38:20] dành kính giá trong thân biệt, lúc nào cũng phải phát triển những kiểu liên quan trong liên bản của em.
+[01:38:29] Về phương pháp đề xuất của em thì mô hình đề xuất bao gồm 2 nhánh như thay nhìn trên hình vẽ.
+[01:38:38] Nhánh thứ nhất là bên tay trái thì kết hợp giữa vẽ cối CBNHK tỷ lệ và BLSTM và phở bợt
+[01:38:50] thì chuỗi đơn bản qua các cái cối sẽ cho ra một tập tử điều tập trưng.
+[01:38:55] đặc trưng và phong phía bên phải thì đó là sự kết hợp đó là lấy các cái việc mà khi sắp ra cái
+[01:39:07] cái tập đặc trưng thủ công thì cũng và từ đó hai cái hai cái đặc trưng mà từ hai nhánh kết hợp với
+[01:39:17] nhau thì mình sẽ sẽ đưa qua một cái gọi là cái phương sơn thì ở phía bên phía trái thì tín hiệu
+[01:39:30] Đầu tiên, văn bản được tốc tẩn hóa và bảo hỏa bằng phở vợt, đảo văn vườn trước và thân chuỗi elevator.
+[01:39:39] Chuỗi elevator này giao nguồn nghĩa vào với kích thước 768 để đưa vào nhẫn văn bản.
+[01:39:48] Trong khi, một elevator đặc trưng phong cách kích thước cổ định và đưa vào nhẫn thủ công.
+[01:39:58] Các bạn hãy
+[01:40:00] thiết kế này bao gồm 4 giai đoạn và mạng hóa được cần trích xuất đặc trưng
+[01:40:05] trong sông. Đầu tiên, cửa văn bản đưa vào phở bợt và phở bợt encoding là kích thước 7, 6, 8
+[01:40:31] Và cùng với Spatial Dropout thì tạo ra một cái vector dầu người Việt, dầu thông tin
+[01:40:42] Và dùng cái Spatial Dropout để loại bỏ cái ngộ nhiên một số chiều để tránh cái Overfitting
+[01:40:52] Tiếp theo đó là trích xuất lập trưng, bút bút bằng CNN
+[01:40:56] Thì ở đây thì em dùng cái cách CNN đó là CNN đa thỷ lệ và Candle là 3, 4, 5 với 64 là bộ lộc.

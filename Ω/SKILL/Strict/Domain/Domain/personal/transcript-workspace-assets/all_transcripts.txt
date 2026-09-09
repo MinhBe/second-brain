@@ -1,0 +1,3139 @@
+=== Transcript: uGouKEuej4k ===
+Bạn có biết bước sang 2026, một data
+không chỉ còn cần có Excel và SQL nữa.
+AI đã thay đổi hoàn toàn cuộc [âm nhạc]
+chơi và tác động đến công việc phân tích
+dự liệu rất là nhiều. Chào các bạn, mình
+là Mask. Mình vừa hoàn thành thông
+website về lộ trình tự học các kỹ năng
+data analytics với AI dành cho [âm nhạc]
+sinh viên, người đi làm hay kể cả bất kỳ
+công việc nào mà đang muốn học về data.
+Và rootmap này mình đã update rất là
+nhiều so với version Radmap từ 3 năm về
+trước. Nên là nếu các bạn đang muốn nâng
+cấp bản thân với các kỹ năng phân tích
+dữ liệu hay các bạn muốn học data với AI
+để tìm kiếm những cơ hội mới cho công
+việc của mình thì hãy cùng mình xem hết
+video này. Chúng ta sẽ cùng bóc tấp chi
+tiết các kỹ năng theo từng giai đoạn từ
+cơ bản, medium cho tới nâng cao, từ các
+cái tài liệu về sách cũng như các khóa
+học online cho đến các nền tảng code. Và
+cùng xem các AI nào đang hỗ trợ và tác
+động đến công việc phân tích dữ liệu và
+chúng ta sẽ học nó như thế nào nha.
+Trước khi đi vào roadmap chi tiết, mình
+muốn mọi người hiểu một cái điều rằng là
+việc chúng ta học các kỹ năng nghi data
+hay AI không hoàn toàn là chúng ta phải
+đi làm công việc của một DA dataalist.
+Việc học các kỹ năng phân tích dữ liệu
+sẽ thật sự giúp các bạn nâng cấp các kỹ
+năng cần thiết cho công việc sắp tới sau
+này của các bạn và đôi khi nó sẽ mở ra
+những cái cánh cửa mới cho cái sự nghiệp
+của mình và có thể là tạo ra một bước
+ngoặc rất lớn. Một người học thông minh
+á là người ta biết mình là ai, mình đang
+ở đâu, mình thiếu gì và mình cần học các
+kỹ năng nào để phục vụ hiệu quả nhất cho
+công việc và năng lực của bản thân mình.
+Cho nên những bạn ở đây nếu bạn đang là
+một sinh viên Ntech thì các bạn có thể
+cho phép bản thân mình bắt đầu làm quen
+với phân tích dữ liệu, với các kiến thức
+về thống kê hoặc phân tích với Excel hay
+là nâng cấp hơn là phân tích với PI.
+Điều này sẽ giúp các bạn có thể áp dụng
+ngay vào các bài tiểu luận hay là nghiên
+cứu khoa học ở trên trường. Còn nếu các
+bạn đang là một sinh viên trong ngành
+data science, data analytics thì việc
+các bạn phải giỏi hết tất cả các kỹ năng
+về data. Đó là điều hiển nhiên. Và ngoài
+ra các bạn phải nhanh chóng lao vào cái
+công việc thực tế. Bởi vì thị trường
+công việc ở ngoài kia cái pass m ở công
+ty á nó rất là khác rất là nhiều so với
+những cái bài tập mà các bạn làm ở trên
+trường. Còn nếu các bạn ở đây là những
+người đã đi làm rồi, các bạn có thể làm
+marketing analyst, các bạn có thể làm
+operation, các bạn có thể làm quản trị
+rủi ro thì các bạn hãy nghĩ xem là công
+việc hiện tại của mình là mình đang xử
+lý data bằng công cụ nào, các bạn muốn
+cải thiện và nâng cấp nó hơn như thế nào
+nữa. Giả sử các bạn đang làm báo cáo
+hàng ngày với Excel thì các bạn chắc
+chắn phải master Excel. Bước tiếp theo
+là các bạn có thể cải thiện hơn bằng
+cách là xây dựng báo cáo với Power BI để
+tự động hóa nó hay là học thêm Python để
+setup các cái công cụ hoạt động một cách
+tự động hóa nhanh hơn. Còn nếu các bạn
+đang là một business strategies, công
+việc của các [âm nhạc] bạn là phân tích
+dữ liệu để tạo ra chiến lược thì thật sự
+các bạn cần nên học một số cái kiến thức
+về xác suất thống kê những [âm nhạc] mô
+hình về Mining để có thể giải được những
+cái bài toán dự đoán, dự báo làm cho cái
+chiến lược của mình đưa ra nó mang tính
+khoa học hơn rất là nhiều. Nên là chúng
+ta ở đây học data analytics hay là AI
+[âm nhạc] không chỉ để làm DA mà chúng
+ta có thể làm marketing analyst,
+operation analyst, risalyst hay là
+business strategies. Ok, bây giờ chúng
+ta sẽ đi vào phần chính. Mình sẽ bốc
+tách cái rootmap trong vòng 6 tháng sắp
+tới. Thì đây chính là trang web roadmap
+mà mình đã dày không thực hiện trong
+vòng suốt một tuần vừa qua. Và chúng ta
+sẽ bắt đầu nó với bốn cái trụ chính mà
+chúng ta sẽ học để mình có thể nâng cấp
+được cái khả năng tới dực điệu của mình.
+Trụ cột đầu tiên chính là data analytic
+knowledge. Trụ cột thứ hai là data tools
+như là SL, SL, Python. Chụ cột thứ ba
+chính là AI và kiến thức về m learning.
+Và trụ cột cuối cùng chính là kiến thức
+kỹ năng mềm như là tư duy, phân tích và
+những cái phương pháp giải quyết bài
+toán dữ liệu.
+Và chúng ta sẽ bắt đầu cái road map này
+với face số 1 ở phần đầu tiên là xây
+dựng nền [âm nhạc] tảng fundamental.
+Tháng thứ nhất mình muốn mọi người sẽ
+tập trung vào việc xây dựng được kiến
+thức về business statistic là nền tảng
+về thống kê, học được Excel cho phân
+tích dữ liệu. Hãy cho phép mình làm quen
+với cái công việc phân tích dữ liệu với
+Excel với những kiến thức kê mà mình
+được học. Sang tháng thứ [âm nhạc] hai,
+hãy làm quen với ngôn ngữ SQL để dùng để
+quản lý database, đồng thời học SQL để
+thực hiện các truy vấn trong việc chúng
+ta làm những cái bài phân tích data.
+Chúng ta sẽ đi đến cái face số hai đó là
+intermediate. Ở phần này chúng ta sẽ tập
+trung ở tháng thứ ba là chúng ta sẽ tích
+lũy về tư duy phân tích, phương pháp
+giải quyết vấn đề analytical thinking và
+xây dựng dashboard Power BI hay data
+visualization với những B2 như là Power
+BI. Thứ tư là giai đoạn mình nâng cấp
+lên vượt bậc với ngôn ngữ phân tích dữ
+liệu cao là Python. Ở đây chúng ta sẽ
+học các cái thư viện của Python để xử lý
+data frame, từ đó phân tích cũng như
+chuẩn bị cho giai đoạn chạy những mô
+hình về thống kê hay là learing.
+Đến giai đoạn expense là tháng thứ năm.
+Ở tháng thứ năm chúng ta sẽ tập trung
+vào câu chuyện là master là giỏi cái kỹ
+năng là kiến thức về m learning các mô
+hình phân tích dữ liệu dự báo. Chúng ta
+sẽ dành cho một tháng thứ năm này để học
+các mô hình đó. Ở tháng thứ sáu chúng ta
+sẽ đóng gói lại tất cả những kiến thức
+chúng ta học trong suốt 5 tháng vừa qua
+từ Excel, PowerPi, SQL, Python và đến
+cái dạy cuối cùng là các kiến thức về
+một. Chúng ta sẽ thực hiện các cái
+project để tạo nên portfolio và đó là
+đóng gói lại cho cái hành trình chúng ta
+chuẩn bị, chuyển việc cũng như là tìm
+kiếm những cơ hội mới. Và tất nhiên
+xusuk cái root map này chúng ta không
+thể nào thiếu đi một phần quan trọng đó
+là sự trợ giúp của các AI trong phân
+tích dữ liệu. Thì bốn cái AI mà mình sẽ
+thường dùng trong công việc phân tích dữ
+liệu của mình bao gồm chatbt, Clot,ini
+và GitHub. Thì ở đây hướng dẫn sử dụng
+các cái AI này cho công việc phân tích
+dữ liệu mình cũng đã làm ra những cái
+video thì mọi người có thể check ngay
+những cái video này ở trên kênh YouTube
+của mình như là CL hay là Germin hay là
+J CPT thì dục phân tích dữ liệu ra sao.
+Bây giờ mình sẽ cùng mọi người bước chân
+vào từng tháng mình sẽ chỉ ra các điểm
+nội dung cần học chi tiết ở từng kỹ năng
+cho mọi người ha. Đầu tiên chúng ta sẽ
+đi đến với tháng thứ nhất đó là học về
+Business Statistic và Excel for Data
+Analysis. Chúng ta sẽ có tuần số một và
+tuần số hai là hai cái tuần mà chúng ta
+dùng để build cái nền tảng kiến thức về
+data. [âm nhạc] Những bạn mới á chúng ta
+chưa biết gì về dữ liệu thì hãy cho phép
+mình một tuần đầu tiên hãy học cho mình
+về các kiến thức về data analytics như
+là các cái loại dữ liệu nó có được cấu
+trúc ra sao. Các phương pháp phân tích
+từ phân tích mô tả, phân tích chẩn đoán,
+phân tích dự báo, phân tích đề xuất.
+Tiếp theo là [âm nhạc] data type. Chúng
+ta sẽ có hai kiểu định tính và định
+lượng có cấu trúc và không có cấu trúc.
+Kiến thức về thống kê. Chúng ta tập
+trung vào kiến thức về desive statistic
+bao gồm các cái chỉ số phân tích mô tả
+cho đến những cái phương pháp phân tích
+về suy luận như là lấy mẫu, kiểm định
+các giả thuyết hay là xác suất. Những
+cái nguồn học ở đây mình có đính kèm như
+[âm nhạc] là quyển sách về naked
+statistics. Thì các bạn có thể ấn vào
+đây nó sẽ ra cái link về cái tài liệu mà
+mình có thể tải về ha. Tiếp theo chúng
+ta có thể muốn học một cái kênh YouTube
+mình có để đính kèm một cái kênh là
+Starw. Mọi người ấn vào đây nó sẽ dẫn
+đến cái kênh YouTube. Chúng ta có thể
+bắt đầu cái phần học kỹ th ở đây. Tiếp
+theo chúng ta sẽ có một khóa học nền
+tảng đó là Google Analytics. Mọi người
+có thể ấn vào đây thì đây là khóa học
+rất phù hợp cho những người mới bắt đầu
+mọi người có thể tham khảo. Thì nếu các
+bạn muốn học với mình các kỹ năng nền
+tảng về data bao gồm là thống kê, Excel,
+SQL, tư duy phân tích thì các bạn có thể
+tham khảo khóa học Data Analytic 101 F1
+này ha. Sau cái tuần thứ nhất và tuần
+thứ hai, chúng ta sẽ đi đến tuần thứ ba
+và tuần thứ bốn. Ở thai tuần này á hãy
+cho phép mình làm quen với một công cụ
+phân tích phổ biến nhất 99% người đi làm
+sẽ sử dụng đó là Excel. Excel ở đây
+chúng ta sẽ tập trung vào câu chuyện là
+sử dụng các hàm cơ bản và quan trọng
+nhất bao gồm Botable, Vlop Cup, Hlup hay
+là index mat. Chúng ta sẽ sử dụng cách
+học cách cách và formatting các bạn dữ
+liệu như là conditional formatting hay
+là data validation. Chúng ta học cách vẽ
+những cái tr biểu đồ vẽ Excel, học cách
+đi một dashboard với power by, power
+query làm những cái data visualization.
+Thì đây là cái giai đoạn để mình có thể
+hình dung được rằng là một người làm
+phân tích dữ liệu là một người biết xử
+lý data, biết phân tích vẽ biểu đồ và
+trực quan hóa dữ liệu đó với Excel thì
+đóng gói lại cái giai đoạn ở tháng thứ
+nhất chúng ta sẽ có thể chinh phục được
+kỹ năng business statistic và Excel.
+Bước sang sáng thứ hai là câu chuyện
+chúng ta nâng cấp mình hơn một bậc nữa.
+Chúng ta học về việc dùng SQL để quản lý
+database và truy vấn dữ liệu và bắt đầu
+thuần thục sử dụng một cái AI để trợ
+giúp trong quá trình học SQL này. Ở tuần
+số 5ă số 6. Hãy dành hai tuần này ra để
+học về SQL. Mình sẽ đảm bảo những kiến
+thức sau đây. Thứ nhất là database
+concept. Mình phải hiểu được database là
+gì? Cái cấu trúc quản lý database chuẩn
+hóa dữ liệu đó ra sao? Primary key,
+foreign key, cấu trúc bảng và các dòng
+dữ liệu các record như thế nào? Tiếp
+theo học cách truy vấn cơ bản với những
+cái lệnh như là select from, group buy,
+order buy. Nâng cấp hơn chúng ta sẽ có
+những lệnh ghép bản như là joy. Chúng ta
+sẽ có những cái lệnh tính toán như là
+cum min, max subquery, cti và cuối cùng
+nâng cấp hơn một xíu nữa là mệnh đề
+Windows function. Thì để học s á thì
+mình ở đây mình đã đính kèm một số cái
+kênh YouTube như là của bạn Alast the
+Analyst. Mọi người ấn vào đây nó sẽ ra
+một cái series. Mọi người có thể chọn
+học một khóa học trên Cera là SQL for
+Data Science. Mọi người cũng có thể có
+một sự lựa chọn thứ ba là mọi người có
+thể tham gia khóa học SQL của mình. Thì
+mình cũng có lớp SQL thì mọi người đang
+đánh giá lớp này rất là tốt bởi vì mình
+dạy từ cơ bản cho tới trung cấp cho kỹ
+năng SQL này. Sau khi tuần số 5ă số 6
+mình học được SQL rồi, chúng ta sẽ tiếp
+nối tuần số 7, số 8 là nâng cấp hơn. Ở
+đây chúng ta sẽ làm một công việc giống
+như là những bạn làm database
+administrator, những database admin hoặc
+là những bạn làm data engineer. Thì việc
+học performance optimization cho các
+đoạn query, học database design, học
+management database đó với những cái câu
+lệnh về control data, học ETL một cái
+luồng data, viết một cái script SQL để
+chạy dữ liệu, tổng hợp dữ liệu lại thì
+đây chính là giai đoạn mà chúng ta cần
+nâng cấp cái kỹ năng về quản trị
+database. Những cái AI sẽ giúp mình có
+thể sử dụng trong giai đoạn này như là
+chat CPT hay lot là những AI có thể
+hướng dẫn mình rất là nhiều. Nhưng mà
+quan trọng là mình phải nắm được cái nền
+cơ bản thì mình dùng ai mới hiệu quả.
+Thì đó là chúng ta đóng gói được cái
+giai đoạn thứ hai ở tháng thứ hai. Bây
+giờ sau khi mình đã học xong tháng thứ
+hai, mình sẽ bước sang tháng thứ ba là
+chúng ta sẽ chinh phục kỹ năng về tư duy
+phân tích, giải quyết vấn đề và kỹ năng
+về PO BI cũng như data visualization
+Toolent. Thì bây giờ mình sẽ cùng bước
+vào cái root map ha. Trong rock map này
+mọi người sẽ thấy mình sẽ chia ra tuần
+số 9 và tuần số 10. Tường số 9 và tuần
+số 10 này mọi người hãy cố gắng là học
+những cái phương pháp giải quyết vấn đề,
+phương pháp tư duy để mình có thể đặt ra
+những giải thuyết. Mình biết cách cấu
+rút cái bài toán của mình một cách
+logic, chặt chẽ. Mình biết cách là áp
+dụng các chiến lược phân tích của mình
+để trước khi mình bước vào câu chuyện là
+xây dựng dashboard hay là mình bước vào
+câu chuyện là tạo ra những cái bài phân
+tích á nó sẽ cực kỳ logic và hiệu quả.
+Thì sau khi mình đã có được cái tư duy
+phân tích này rồi thì mình có thể bước
+sang tuần số 11 và tuần số 12 học data
+visualization phân tích làm dashboard
+với Power BI hoặc tablo thì ở đây mình
+sẽ recommend PO PI bởi vì Power BI là
+một công cụ BI đang phổ biến nhất trên
+thị trường nó cũng phổ biến so với những
+doanh nghiệp SME còn tablo là một công
+cụ nền tảng BI lâu năm lâu đời nhưng mà
+chi phí nó rất là cao. Cho nên là những
+công ty sử dụng tao thì thông thường nó
+sẽ là những công ty rất rất lớn và cũng
+như lâu đời rồi. Thì đối với cái tuần mà
+chúng ta học về data visual hay là B
+Tool thì mọi người hãy tập trung cho
+mình những nhóm kiến thức sau đây.
+[âm nhạc] Thứ nhất là học cách connect
+data với PO PI ở từ rất là nhiều nguồn
+như là File CSV, file Excel, Google
+Sheet những database. Sau đó tạo các
+model, sử dụng những câu ngôn ngữ DX để
+chúng ta có thể visualization tạo những
+cái dashboard học cách mà thiết kế das
+Dashboard có nhiều tầng làm sao chúng ta
+biết được là dashboard chúng ta có ba
+trang hay bốn trang. Sau đó publist báo
+cáo chúng ta lên PowerP Service. Thì
+tổng hợp cái này lại chúng ta sẽ hoàn
+thiện được cái kỹ năng là build được một
+cái automatic dashboard. Thì mọi người
+có thể xem ở đây mình có một cái
+dashboot ví [âm nhạc] dụ từ cái giai
+đoạn là chúng ta xử lý data, sau đó
+chúng ta xử lý công thức sau đó chúng ta
+setup data model visualization và mình
+sẽ publish cái báo cáo này lên trên
+power [âm nhạc] service thì mọi người sẽ
+thấy là nguyên cái process này mình đóng
+gói ở đây nó chỉ có pha 30 giây hay 20
+giây thôi nha mọi người nhìn thấy là cái
+khối lượng công việc rất là nhiều cho
+nên là để chinh phục được kỹ năng này
+thật sự là một kỹ năng rất khó và cái
+nguồn học ở kỹ năng này á thì mình có
+đính kèm ở đây. Nếu các bạn muốn tự học
+trên YouTube mình có một channel YouTube
+là Data Guide InCB thì mọi người có thể
+xem cái channel này. Nếu các bạn cần một
+khóa học thì mình có một khóa học Master
+Analytical Thinking và Analysis with
+PPI. Thì khóa học này của mình thì tập
+trung hai kỹ năng này luôn. Kỹ năng tư
+duy phân tích để lên chiến lược phân
+tích làm báo cáo và kỹ năng xây dựng
+automatic Dashboard. thì mọi người sẽ
+nhìn thấy được cái kết quả của cái khóa
+học này là các bạn học viên của mình sẽ
+có thể xây dựng được những cái dashboard
+chuẩn chỉnh ở trên BPI public lên BI
+service. Các bạn có thể làm được những
+cái bài phân tích chuẩn chỉnh từ A tới Z
+chuẩn data consultant ở đây. Thì nếu các
+bạn muốn thì các bạn có thể tham khảo
+cái khóa học này của mình ha. Tiếp theo
+sau khi chúng ta đã chinh phục được cái
+tháng thứ ba chúng ta đã master được
+thêm hai kỹ năng nữa là tư duy [âm nhạc]
+phân tích và kỹ năng data visual B tool
+với forbi BI. Thì với mình đây thật sự
+là những kỹ năng quan trọng và cần
+[âm nhạc] thiết cho bất kỳ đối tượng nào
+có làm việc với data chứ không kể là các
+bạn muốn học làm DA. Những anh chị nào
+đang làm phân tích dữ liệu data inside,
+trình bày những cái report lên slide
+phân tích trên PowerPoint mà cảm thấy là
+nó rói tung, nó không có một phương pháp
+nào hết thì mình hoàn toàn có thể học
+ngay cái tư duy phân tích cũng như
+phương pháp vấn đề để có thể build ra
+những cái slide phân tích chuẩn data
+discultant. Chúng ta sẽ bước sang tháng
+thứ tư là cái tháng để cho phép mình làm
+quen với một cái ngôn ngữ mới đó là
+Python, một ngôn ngữ phân tích dữ liệu
+vậ cao. Thì trong tháng này mình sẽ dành
+ra bn tuần để học cái cơ bản thôi. Mình
+sẽ có chi tiết trong cái tuần số 13 và
+tuần số 14 chúng ta sẽ học hai thư viện
+về Numbai và Bandas. Thì hai đây là hai
+thư viện chuyên để phân tích dữ liệu
+trong Python. Sau khi chúng ta học qua
+hai cái thư viện Numai và Bandas, chúng
+ta sẽ bước sang cái phần tuần số 15 với
+16 để chúng ta học data resolution với
+những thư viện khác như là [âm nhạc]
+CBON, Plotly hay là MLC Lip. Ở đây chúng
+ta sẽ học cái cách vẽ từng cái biểu đồ,
+cái cách để xử lý những cái data, cái
+cách để trực quai hóa dữ liệu bằng ngôn
+ngữ Python. Sau khi chúng ta đã hoàn tất
+cái giai đoạn là biết cơ bản P bonhon ở
+tháng thứ tư, chúng ta sẽ đi đến tháng
+thứ năm. Tháng thứ năm này là cái giai
+đoạn mà mình nghĩ rằng là nó sẽ thật sự
+là challenge cho tất cả mọi người muốn
+học về data bởi vì nó là một cái chuyên
+đề khó. Học về statistic, về machining
+đó là một câu chuyện hoàn toàn khác so
+với câu chuyện chúng ta học các công cụ
+SL, SQL hay PPI hay là Python. Bởi vì
+chúng ta phải vừa học về thống kê, vừa
+học kiến thức về thuật toán và vừa học
+cách chạy những cái code đó trong ngôn
+ngữ Python để giải quyết cái vấn đề của
+chúng ta. Và bây giờ mình sẽ cùng hướng
+dẫn mọi người chi tiết cái phần nội dung
+của nó trong tháng thứ năm này nha. Quay
+trở lại cái map trong tháng thứ năm,
+mình sẽ dành ra tuần thứ 17, số 18 là
+hai cái tuần này để mọi người có thể bắt
+đầu học các kiến thức, nền tảng về thuật
+toán, Merc learning, bao gồm các cái
+kiến thức về những mô hình cơ bản về
+Superving hay là unsupervice để chúng ta
+hiểu được các mô hình phân cụm hay là
+các mô hình dự đoán hồi quy. Đó là những
+mô hình mang tính chất nào và áp dụng
+như thế nào trong những bài toán kinh
+doanh, trong những bài toán thực điển.
+Giả sử các bạn làm marketing, các bạn
+muốn đánh giá khách hàng của mình đang
+thuộc cái nhóm khách hàng A, nhóm khách
+hàng B, nhóm khách hàng trung thành hay
+là nhóm khách hàng mang lại nhiều value
+hay là nhóm khách hàng có rủi ro thì các
+bạn không muốn à phân chia khách hàng đó
+bằng tay thì các bạn có thể áp dụng ngay
+cái mô hình segmentation lustering để có
+thể chia nó một cách tự động hóa và khoa
+học hơn với cái kỹ thuật về machine
+learning. Sau khi tuần thứ 17, 18 mình
+đã học về cái lý thuyết về cái cái
+phương pháp mô hình mình sẽ dành ra tuần
+số 19 và tuần số 20 để chạy những cái mô
+hình đó bằng ngôn ngữ Python. Thì ở đây
+AI sẽ hỗ trợ mọi người rất là nhiều.
+Mình hoàn toàn có sử dụng chermin tích
+hợp với Google Collab để có thể chạy
+ngay một đoạn code đó trong Google
+Collab một cách dễ dàng. Mình hoàn toàn
+sử dụng VS Code với Cursor vẫn có thể
+chạy cái AI để phân tích trong cái giai
+đoạn này. Cho nên là mọi người đừng có
+ngại khó trong cái việc là phải COD.
+Hiện nay AI đã hỗ trợ rất là tốt trong
+cái việc này. Và nếu các bạn muốn thử
+thách bản thân mình hơn, triển khai
+những cái mô hình đó trong thực tế trong
+doanh nghiệp của mình thì có thể học
+thêm cái việc auto những cái MC Learning
+by Apply hoặc là những cái AI tool để có
+thể giúp mình làm trong cái giai đoạn
+này thì mình sẽ đóng gói được tháng thứ
+năm. Và sau tháng thứ năm là cả một hành
+trình rất là vất vả vừa qua. Chúng ta sẽ
+sẵn sàng tự tin vào bản thân mình để
+bước sang tháng cuối cùng là hoàn thiện
+cái profile. Thì hoàn thiện profile ở
+đây thì mọi người chú ý giúp mình mình
+sẽ có hai cái, một là CV và hai là
+portfolio. CV sẽ là cái bước đầu để mình
+bước qua được cái vòng HR và portfolio
+sẽ là cái nơi để tạo dựng niềm tin cũng
+như là tăng cái sự tin cậy của bản thân
+mình với nhà tuyển dụng. Cho nên là hãy
+đóng gói lại hết tất cả các kỹ năng của
+chúng ta vừa học. chúng [âm nhạc] ta sẽ
+thực hiện nó, trình bày nó lên một cái
+portfolio. Thì để làm được portfolio á,
+điều đầu tiên là mọi người hãy chọn lựa
+cho mình được những cái project để mình
+đưa vào portfolio. Thì ở đây mình có
+chia sẻ với mọi người một số cái project
+cơ bản mọi người có thể tham khảo nha.
+Thì mọi người có thể xem nó ở cái phần
+là Bu portfolio project. Mình đang để
+cho mọi người ba cái chủ đề chính rất là
+phổ biến là marketing analytics, sale
+analytics [âm nhạc] và risk analytics.
+Ví dụ mọi người chọn marketing analytics
+thì mọi người có thể thực hiện một số
+các project như là phân tích chiến dịch
+quảng cáo, áp dụng machine learning để
+thực hiện customer segmentation. Chúng
+ta có thể build được những cái model để
+chạy cái màu xanning đó hoặc là build
+những cái dashboard để theo dõi
+campaign. Nếu các bạn chọn sale
+analytic, chúng ta sẽ có thể làm một cái
+dashboard về sale performance. Dự đoán
+về doanh thu, lợi nhuận, chúng ta có thể
+dự đoán được vòng đời của khách hàng.
+Nếu các bạn có thể chọn chủ đề risk
+analytics, chúng ta có thể làm được
+những cái bài toán như là credit ris,
+phân tích về tín dụng, phân tích về
+prod, [âm nhạc] hành vi rủi ro của khách
+hàng và cuối cùng là thực hiện những cái
+model dự đoán về điểm tín dụng của khách
+hàng scoring. Và cái mọi người có thể
+quan tâm nhất đó là mọi người lấy
+dataset ở đâu để thực hành thì mình cũng
+có thể chuẩn bị cho mọi người ở đây luôn
+là bốn cái chủ đề dataset và mọi người
+có thể tham khảo sales, hacker, CRM hay
+là marketing. Mọi người hãy ấn vào đây,
+click [âm nhạc] và access mọi người sẽ
+dẫn tới một cái link thì ở link này là
+một cái bà blog mình đã tổng hợp tất cả
+7 tám cái dataset. Mọi người có thể
+nhanh chóng download vào cái dataset mà
+mình muốn ở đây ha. Thì cái link này sẽ
+mở free để mọi người có thể chủ động tải
+những dat về để mình có thể thực hành
+[âm nhạc] nó cho những cái project của
+bản thân mình. Phần tiếp theo trong pro
+map này không chỉ dừng lại là liệt kê
+các nội dung và những cái thông tin tài
+liệu hồi nãy giờ mình đã liệt kê, mình
+còn chuẩn bị cho mọi người những cái
+nguồn để mọi người có thể hoàn toàn thể
+tự học mà một cách chủ động hơn bao gồm
+là những cái quyển sách mà mình tâm đắc
+nhất trong công việc học phân tích dữ
+liệu. Đầu tiên là quyển về phân tích về
+thống kê, quyển về kỹ năng làm data
+storytelling, data visualization quyển
+về hộp bython, quyển về mc learning và
+quyển về SQL. Mọi người có thể click vào
+tương ứng với từng cái link này để lấy
+quyển sách mà mình mong muốn ha. những
+cái khóa học online mà mọi người hoàn
+toàn có thể tự học trong giai đoạn thời
+gian rảnh như là những cái top khóa học
+mà mình cảm thấy tâm đắc nhất. Ví dụ
+khóa học đầu tiên là Google Analytics,
+thứ hai là Mine learning của NGNG, Power
+PI, Python và SQL. Mọi người có thể
+click vào đường link tương ứng mình đã
+chuẩn bị sẵn nó sẽ dẫn đến cái trang
+khóa học đó luôn. Và nếu các bạn muốn
+xem những cái kênh YouTube, mọi người
+cũng có thể click vào đây. À Minh có
+kênh YouTube này thì mọi người cũng có
+thể xem lại những cái video cũ của mình.
+Đây là những cái video cũng có rất nhiều
+chủ đề về data. Tiếp theo mọi người muốn
+học về thống kê có thể học ở kênh
+Startweb. Mọi người có thể tham khảo cái
+kênh channel khác như là Alasd Analyst.
+Rồi những nền tảng để coding như là SQL
+mọi người có thể click vào đây. Ví dụ
+như Le code nó sẽ dẫn đến trang web để
+mọi người code phần SQL này luôn. Hay là
+Python Go để mọi người tìm dataset. Mình
+cũng có thể đính kèm cái link vào đây.
+Tiếp theo là data Glummer hay là Tablo
+Bower BI Community. Đây là những cái
+đường link mà mình đã chuẩn bị sẵn để
+giúp mọi người có thể tự chủ động tìm
+những cái nguồn tài liệu một cách chủ
+động hơn. Và nếu các bạn có quan tâm đến
+những khóa học của MAS là mình thì mình
+hiện tại có bốn khóa học đi từ cơ bản
+cho tới nâng cao. Khóa học nền tảng đầu
+tiên là Data Analytics 101. Khóa học này
+sẽ giúp các bạn chinh phục được cái nền
+tảng về data bao gồm thống kê Excel và
+tư duy phân tích. Khoa học chuyên về
+SQL, khóa học chuyên về tư duy phân tích
+Analical thinking và PV BI. Và cuối cùng
+là khóa học về Python thì mình cũng có
+thể đính kèm. Thì mình cũng đã đếm tìm ở
+đây thì mọi người có thể click vào đây
+nó sẽ mở ra cái đường link trang web.
+Mọi người có thể đọc và tham khảo để xem
+coi là mình có phù hợp với những khóa
+này hay không ha. Rồi và cuối cùng là
+chúng ta đã sẵn sàng [âm nhạc] chinh
+phục cái hành trình phân tích dữ liệu
+trong năm 2026 với những cái công cụ
+mới, với những cái AI mới để có thể giúp
+mọi người có thể nâng cấp bản thân mình
+một cách nhanh chóng [âm nhạc] hơn. Và
+tất cả những cái tài liệu này mình đứng
+kèm trong link CRmap mọi người hãy lấy
+nó trong phần mô tả. Và nếu mọi người
+thích video này thì nhớ ủng hộ mình bằng
+một like hoặc là một subscribe.
+[âm nhạc]
+Và hẹn mọi người trong video kế tới.
+
+=== Summary ===
+Video chia sẻ lộ trình 6 tháng tự học Data Analytics với AI năm 2026. Tác giả Mask giới thiệu 4 trụ cột: kiến thức DA, công cụ (SQL, Python), AI/Machine Learning, và kỹ năng mềm. Chi tiết từng tháng: tháng 1-2 học Excel/SQL, tháng 3 học tư duy phân tích/Power BI, tháng 4 học Python, tháng 5 học Machine Learning, tháng 6 xây dựng portfolio với các dự án Marketing/Sales/Risk analytics.
+
+=== Transcript: m9yayKNK7yw ===
+Trong cái hành trình 7 năm đi làm phân
+tích dữ liệu tại VNG, tại Techbank cũng
+như là mình cũng đã đi dạy kỹ năng phân
+tích này cho hơn 1000 học viên, mình
+nhận thấy một điều rằng là bây giờ nếu
+chúng ta chỉ dừng lại cái việc là biết
+các công cụ phân tích như là SQL, Power
+BI hay Python thì chúng ta rất khó để có
+thể trở thành một data list giỏi. Nếu
+chỉ dừng lại việc học tool đơn thuần các
+bạn sẽ không thể nào tưởng tượng rằng là
+một cái luồng datably trong thực tế công
+ty nó diễn ra sao. hay khi các bạn lao
+và phân tích thực chiến á thì một người
+thiếu kinh nghiệm á sẽ rất khó trong
+việc trình bày inside chưa kể tới việc
+làm các cái size báo cáo thuyết trình
+trước khách hàng trước sếp nữa. Nếu bạn
+cũng đang học và làm phân tích dữ liệu
+theo cái cách thiếu thực tế như vậy thì
+video này sẽ giúp các bạn tỉnh táo lại.
+Bởi vì mình sẽ chia sẻ với các bạn năm
+kỹ năng quan trọng cái mà tạo ra sự khác
+biệt giữa một người đi giỏi cho với
+những người làm phân tích bình thường.
+Mình sẽ không đề cập tới cái việc học kỹ
+năng như là Excel, PVI hay là Tablo mà
+những kỹ năng này nó chính là lệnh hết
+cạnh tranh giúp bạn nổi bật hơn so với
+những người đang học DA ở ngoài kia. Bắt
+đầu luôn nha. Đầu tiên trong bốn chu cột
+năng lực của một data list giỏi bao gồm
+tool nè, kiến thức chuyên ngành nè, kiến
+thức về database system và mindset thì
+tư duy phân tích và khả năng chú vấn đề
+là kỹ năng quan trọng nhất. Tại sao mình
+lại nói như vậy và mình đưa nó lên kỹ
+năng số một? Bởi vì rằng là cho dù bạn
+có nghiệp vụ giỏi, bạn có khả năng truy
+vấn database với SQL hay thậm chí là bạn
+có thể sử dụng các machine learning để
+apply vào những cái model phân tích của
+mình tăng cao á. Nhưng mà bạn thiếu đi
+tư duy phân tích, bạn đưa ra inside
+nhưng mà bạn không biết tổng hợp thành
+chiến lược thành những cái giải pháp thì
+kết quả mà bạn mang lại á nó không có
+giá trị. Analytical thinking là kỹ năng
+thiên về tư duy. Nó có thể giúp bạn có
+khả năng bốc tách được vấn đề, biết cách
+để đặt ra được những giả thuyết, trình
+bày kết quả của mình một cách logic và
+chặt chẽ. Để rèn luyện skill này á, bạn
+có thể xem lại cái video ngay đây của
+mình. Mình đang làm rất là chi tiết về
+nó. Bản thân mình trong suốt hành trình
+làm data list thì cũng đã sử dụng qua
+rất nhiều cái công cụ để cải thiện cái
+tư duy phân tích. Và sau đây là ba cái
+công cụ mà mình đến bây giờ vẫn sử dụng
+hàng ngày trong cái quá trình mình làm
+phân tích. Đầu tiên là MBC Framework.
+Đây là phương pháp giúp bạn chi nhỏ vấn
+đề từ bao quát cho tới chi tiết một cách
+không trồng chéo. Kết quả của phương
+pháp này là các sơ đồ My map Map hệ
+thống hóa lại cái bức tranh toàn cảnh
+của cái bài toán mà bạn đang phân tích
+không một kẻ hở. không một lỗ hỏng. Số
+hai là IC Scoring. Mình luôn luôn sử
+dụng cái phương pháp đánh giá này trong
+cái quá trình mà mình xác định các cái
+hypothesis là giả thuyết trước khi đi
+phân tích. Cũng như là cái quá trình mà
+sau khi mình đã đưa ra các giải pháp
+rồi, mình cũng đều đánh giá lại giải
+pháp đó xem coi là mức độ impact của nó
+ra sao, độ tin cậy của giải pháp này
+hiệu quả như thế nào và cuối cùng rằng
+là cái action mà mình thực hiện trong
+cái giải pháp này nó có dễ dàng hay
+không. Và cái số ba là mình cố gắng học
+và sử dụng những phương pháp trong ba
+giai đoạn phân tích là phân tích mô tả,
+phân tích chuẩn đoán và phân tích dự
+báo. Đây cũng chính là cái chìa khóa
+giúp mình có nhiều phương pháp để tiếp
+cận với nhiều bài toán khác nhau trong
+nhiều cái chủ đề mình mong muốn. Sau tru
+cột về năng lực tư duy, điều bạn cần
+tiếp theo là nền tảng kiến thức khoa học
+để phân tích đúng không gì khác đó chính
+là kiến thức về thống kê kinh doanh,
+business statistic. Mình nói thật điều
+này có thể hơi phủ nhưng mà 90% người
+học đã hiện nay đều bị cuốn vào cái việc
+là cố gắng vẽ những cái trạc, những
+dashboard đẹp hay thậm chí là Code SQL
+hay là Python thật ngầu nhưng mà chưa
+thật sự hiểu cái số liệu mình đang phân
+tích là gì. Một ví dụ đơn giản khi bạn
+thấy lượt mua bị giảm bạn sẽ phân tích
+theo kênh bán và phát hiện ra một vấn đề
+là lượt mua bị giảm do kênh bán a đang
+suy yếu đi. Nhưng rồi bạn lại bỏ qua
+những yếu tố khác như là loại sản phẩm,
+thời gian bán, các chương trình khuyến
+mãi có ảnh hưởng trong thời điểm bán
+hàng này hay không. Đây chính là cái lỗi
+mà chúng ta chỉ biết phân tích đơn biến,
+chúng ta bị bias trong cái việc hiểu dữ
+liệu. Và điều này thường xuyên xảy ra
+đối với những bạn không có nền tảng tốt
+về thống kê. Và cách duy nhất để vượt
+qua sự non tay này là không gì khác là
+phải học kiến thức kê. Chúng ta không
+cần học sâu như là một data scientist
+nhưng mà nếu là da thì hãy nắm vững ba
+kiến thức này. Đầu tiên là thống kê mô
+tả để giúp chúng ta có thể hiểu được
+tổng quan về dữ liệu, khi nào dùng min,
+khi nào dùng median, khi nào biết vẽ box
+floss và khi nào biết vẽ histogram. Thứ
+hai là thống kê suy luận để chúng ta có
+thể đưa ra những kết luận từ việc phân
+tích mẫu. Chúng ta biết cách chọn mẫu
+bao nhiêu là đảm bảo ý nghĩa thống kê.
+Thứ ba là kiểm định giả thuyết. Khi nào
+chúng ta dùng AB testing, dùng Test,
+Test hay là Z test, rồi Blue có ý nghĩa
+như thế nào? Và mình thật sự khuyên bạn
+là hãy đọc ngay quyển sách Statistic for
+Data Scientist. Chỉ cần bạn học được ba
+chương đầu tiên thôi thì mình tin chắc
+rằng là bạn đã vượt qua 70% người làm
+phân tích một cách cảm tính ở ngoài kia.
+Kỹ năng số ba, một trong những loại hỏng
+lớn nhất của những người học phân thức
+dữ liệu đó là không biết chuyện gì đã
+xảy ra trước khi dữ liệu xuất hiện trong
+dashboard hay là có sẵn trong các
+database mà các bạn query hàng ngày. Khi
+các bạn chưa làm những công ty có cơ sở
+hợ tầng data bài bản rất khó để các bạn
+có thể hình dung rằng là trước khi dữ
+liệu sẵn sàng cho các bạn kéo thả một
+biểu đồ á thì nó đã trải qua một cái quá
+trình ETL nè, data byly nè để chuyển đổi
+qua các data warehouse đi đến datam nơi
+mà các bạn có thể sử dụng các bảng đã
+làm tin gọn sạch sẽ để sử dụng trong
+công việc phân tích và báo cáo hàng
+ngày. Ai mà mới đi làm phân tích mà chọc
+thẳng truy vấn vào cái data craw trong
+hệ thống hay là kéo nguyên một cái bảng
+transational data lên Power BI hay Tablo
+sau đó thiết kế một cái data model chằn
+ như một cái mạng nhện như thế này
+thì đảm bảo là ngày hôm sau khi mà data
+update thì hệ thống DAS này sẽ sập và đơ
+luôn cả hệ thống luôn. Vì sao vậy? Vì
+nếu các bạn truy vấn thẳng vào những cái
+database đang phục vụ những usơ thật thì
+chắc chắn nó sẽ làm tắt ngãn cả hệ thống
+vận hành của công ty. Còn nếu mà các bạn
+kéo những cái bảng transitional data,
+những cái bản craw data lên những cái BI
+Tool thì những cái tablo hay là Power BI
+nó phải tải một lượng data rất lớn, đồng
+thời chịu thêm cái lượng tính toán phức
+tạp bằng những công thức trên cái BI
+Tool đó. Bạn tưởng tượng rằng là ngày
+mai khi dữ liệu plus sẽ có thêm vài
+triệu dòng data và cái tool nào mà chịu
+nổi. Như vậy một data list chuyên nghiệp
+cần làm gì? Chắc chắn bạn phải có kiến
+thức cơ bản về data model link, dat ma
+bản Tây Chiên bản phát, bản dimension.
+Biết cách phối hợp với các dater hoặc tự
+xử lý dữ liệu khi các bạn cần data dùng
+mà cứ có sẵn sàng trong cái data
+warehouse. Bạn không cần phải trở thành
+những kỹ sư dữ liệu nhưng mà bạn phải đủ
+hiểu để không làm sai, để không gây họa
+cho hệ thống. Và gợi ý là nếu bạn muốn
+nâng cái phần này thì có thể thử học cái
+khóa học Analytic Engineer của DBT. Hình
+như là khóa học này miễn phí á. Nó sẽ
+giúp bạn hiểu cách xây dựng luồng dữ
+liệu, mô hình hóa. Kỹ năng thứ tư, đi
+làm rồi mở thấy 8/10 slide hết trình ở
+công ty mình được xem đều rất xấu. Thậm
+chí có những ins rất hay nhưng chính cái
+cách trình bày lại khiến mọi người muốn
+bỏ qua luôn cái phần trình bày đó. bản
+thân mình từng được một anh manager khác
+ngõ ý vui ràng là mời qua team làm việc
+chỉ vì anh ấy xem cái buổi thuyết trình
+của mình trong một cuộc họp với cái báo
+cáo mình làm rõ ràng mạch lạc và anh ấy
+xem chăm trước từ đầu tới cuối. Mình
+không nói là chúng ta phải làm slide như
+các designer nhưng mình thật sự muốn bạn
+hiểu slide là cách để bạn truyền tải tư
+duy và cũng là cách để bạn bán chính
+mình. Thế nên hà cớ gì một người da làm
+phân tích cả tuần để ra một bài báo cáo
+rồi trình bày một cái slide xấu quắc coi
+như là công sức chúng ta đổ sông đổ bể
+và giảm giảm đi cái chất lượng hiệu quả
+công việc của bản thân mình nữa. Vậy
+cách làm slide như một da chuyên nghiệp
+là gì? Bản thân mình đã học được cái kỹ
+năng làm slide chuyên nghiệp ngay từ
+những ngày đầu từ người sếp đầu tiên của
+mình. Anh đã dạy mình cách làm slide như
+một consultant học được từ công ty Mines
+và đến bây giờ mình vẫn áp dụng hàng
+ngày trong cái quá trình mình làm các
+bài phân tích báo cáo. Và bốn nguyên tắc
+mình luôn follow theo khi làm một cái
+slide fut trình. Đầu tiên mình luôn luôn
+nhớ trong một bất kỳ một slide nào mình
+làm ra đều có ba phần là mở, thân và
+kết. Đối với phần mở bài, mình luôn dùng
+phương pháp SCQI bao gồm situation,
+complications, question và answer để dẫn
+dắt, truyền đạt cái ngữ cảnh, cái tình
+huống, cái bức tranh của bài phân tích
+của mình nó phức tạp ra sao. Từ đó mình
+đưa ra những mục tiêu, những câu hỏi mà
+mình cần phải giải quyết. Từ đó mới trả
+lời cái phần phân tích của mình. Ở cái
+phần tiếp theo là phần thân bài. Trong
+phần thân bài là phần số hai. Đối với
+những cái slide tiếp theo đó, mình luôn
+trình bày theo phương pháp là pyramid
+inside. Ở mỗi slide mình luôn có key
+inside nè, supporting idea nè, data để
+mình đưa vào bài bản rõ ràng cụ thể để
+cho người ta thấy được thông điệp rõ
+ràng nhất đến những cái phần mà mình bổ
+sung thêm để làm rõ cái ý của mình ra.
+Số ba, kết bài là lúc mà mình đưa ra
+những giải pháp, những cái chiến lược
+mình đời xuất từ kết quả mình phân tích.
+Tại đây mình luôn luôn đánh giá lại xem
+coi nàng là mình ưu tiên cái nào lên
+trước để hệ thống hóa thành một bức
+tranh toàn cảnh. Ở đây mình share với
+mọi người một cái templet báo cáo mà
+mình cũng thường hay sử dụng trong các
+bài phân tích mà mình đã làm. Mọi người
+có thể tham khảo nó trong phần mô tả
+mình để bên dưới. Và kỹ năng cuối cùng
+nhưng mình tin là sống còn nhất đó chính
+là khả năng tự học và sự thích nghi. Bản
+thân mình tự học rất nhiều thứ trong
+những năm đầu đi làm vì mình hiểu, không
+ai có thể dẫn dắt mình mãi mãi. Chỉ có
+mình tự đi thì mới đi được xa. Huống hồ
+chi trong ngành data này từ công nghệ,
+công cụ, bài toán phân tích, hành vi
+người tiêu dùng đều thay đổi liên tục
+mỗi ngày. Đó là cái chúng ta phải liên
+tục update bản thân để cập nhật với xu
+hướng trên thị trường. Và từ khi AI xuất
+hiện mình càng là phải học nhiều hơn
+nhưng mà đồng thời mình cũng càng học
+cách học thông minh hơn. Và nếu các bạn
+có quan tâm tới những công cụ AI phù hợp
+với công việc của người phân tích dữ
+liệu, những bạn data á mà mình cũng hay
+sử dụng á thì mình chia sẻ với các bạn
+bốn cái công cụ mình hay dùng. Thứ nhất
+là CH CVT rất là thích hợp để việc chúng
+ta khai phá cái tư duy, cái khả năng mà
+chúng ta phân tích những cái ý tưởng
+mới. Thứ hai đó là claw. Đối với clo nó
+mạnh mẽ trong cái việc là code thì chỉ
+cần một câu firm nó sẽ cho mọi người
+nguyên một cái đoạn code khả năng chính
+xác của nó rất là cao hay thậm chí là có
+lần mình cần demo ngay một cái dashboard
+để đi resent với khách hàng á thì mình
+cho nó một cái yêu cầu và sau đó mình
+không ngờ r là cái mình nhận được là một
+bản demo dashboard interactive tương tác
+hiệu quả luôn và mình nhìn thấy được cụ
+thể các con số các biểu đồ trực quan và
+mình chỉ cần mang cái đó trình bày cho
+khách hàng họ cũng khá là ấn tượng với
+cái kết quả mà con loa nó làm ra. Cái
+thứ ba làity. Mình dùng để nghiên cứu
+research những cái thông tin trên thị
+trường mà rất khó nếu mà mình tự
+research bằng Google. Ví dụ khi mình
+phân tích hành vi khách hàng vay nợ,
+mình muốn biết coi là tỷ lệ nợ xấu ở
+những năm 2014 15 á ở Mỹ là bao nhiêu
+phần trăm là hợp lý. Thì chỉ cần một
+dòng lệ trên bity nó cho ngay mình một
+cái kết quả đồng thời là kèm với những
+cái tài liệu bổ sung thêm. Và mình cảm
+thấy rằng là để học domain knowledge thì
+Vity hoàn toàn là tuyệt vời giúp các bạn
+có thể tích lũy được nó ngay lập tức
+luôn. Thứ tư là bộ công cụ CL và Zapier
+giúp mình có thể tự động hóa các công
+việc hàng ngày như là gửi mail, theo dõi
+các chỉ số hoạt động của các học viên,
+họ đang học ra sao, bao nhiêu bạn n bài,
+bao nhiêu bạn chưa nộp bài để tự động
+hóa những công việc của mình có thể làm
+tay chân tiết kiệm rất rất là nhiều thời
+gian trong cái quá trình mà mình đi làm
+việc. Nếu các bạn đang loay hoay, không
+biết học gì trước, học gì sau thì các
+bạn hãy nhớ rằng là ngoài việc học công
+cụ SL, Python, BBI thì các bạn cần học
+những cái kỹ năng thực chiến mà mình vừa
+đề cập. Và nếu các bạn muốn có một lộ
+trình học bài bản, có người tận tay để
+giúp các bạn tích lũy được những kinh
+nghiệm thực chiến như cách mà mình đề
+cập phía trên thì các bạn có thể tham
+khảo khóa học Master Analytical Thinking
+and Data Analysis with PO VII mà mình
+vừa ra mắt trong năm vừa qua. Đây là
+khóa học thực chiến để giúp các bạn có
+thể tích lũy được cái kỹ năng làm
+dashboard tự động hóa với POBI, đồng
+thời là tích hợp tư duy phân tích để thể
+phân tích được data trình bày báo cáo
+chuyên nghiệp như những người DA thực
+thụ. Link lớp học này thì mình để ở phần
+mô tả và cảm ơn các bạn đã xem hết video
+này và chúc các bạn sẽ có một hành trình
+học data tích lũy kỹ năng phân tích vững
+vàng hơn trong tương lai. Hẹn gặp bạn ở
+video tiếp theo nhé. Bye bye.
+
+=== Summary ===
+Video chia sẻ 5 kỹ năng để trở thành Data Analyst giỏi: (1) Tư duy phân tich (Analytical thinking) sử dụng MECE Framework, IC Scoring; (2) Kiến thức thống kê kinh doanh (descriptive/inferential statistics, hypothesis testing); (3) Hiểu luồng ETL và data modeling; (4) Kỹ năng trình bày slide chuyên nghiệp (SCQA, Pyramid principle); (5) Khả năng tự học và thích nghi với AI tools (ChatGPT, Claude, Perplexity, Zapier).
+
+=== Transcript: VIyK8Tq3YRw ===
+chúng ta đang sống trong một xã hội phát
+triển mạnh mẽ với công nghệ một xã hội
+mà nhu cầu hiểu biết về con số trở nên
+cực kỳ quan trọng Cứ mỗi sáng thức dậy
+chúng ta lại được gọi học và mắt những
+tin tức công ty x sẽ thẳng 12.000 nhân
+viên tỷ lệ mắc bệnh ung thư của những
+người trên 50 tuổi ở Việt Nam là ít ít
+phần trăm hiệu quả của vắc xin Visa là
+90% nhân viên ngân hàng trung bình lương
+40 triệu
+sau đó mình cũng làm ở ngân hàng mà
+lương tèo tèo có vài triệu
+có những con số dễ hiểu Nhưng mà đa số
+các con số đòi hỏi phải có sự đầu tư
+nghiên cứu thì mới hiểu tượng tận được
+bí quyết để giúp chúng ta có thể hiểu rõ
+ý nghĩa của các con số đó là kiến thức
+xét số thống kê đó là cái mô mỡ đại học
+Chúng ta đã từng được dạy nhưng phải
+chăng lúc đó mình chỉ học cho có cho qua
+môn để giờ đây phải đơ người ra mỗi khi
+thấy các con số đó số trung bình phương
+sai phân bổ trong các báo cáo Mà không
+tài nào hiểu được
+và với nội dung lần này mình sẽ chia sẻ
+với mọi người cách áp dụng các kỹ thuật
+phân tích Thống kê trong công việc hàng
+ngày của mình đồng thời cách mà mình tư
+duy Đánh giá những vấn đề trong cuộc
+sống bằng tư duy thống kê nữa những cái
+kiến thức nền tảng về thống kê cơ bản mà
+bất kỳ ai cũng phải nắm rõ Nhưng mà
+trước khi bắt đầu hãy giúp mình ấn like
+cũng như là Subscribe kênh YouTube này
+để giúp cho YouTube có thể sớm nhận diện
+được Đây là chiếc video hết và lan tỏa
+thêm với những bạn khác nữa Ok Còn bây
+giờ thì chúng ta bắt đầu thôi Let's Go
+đầu tiên kiến thức về xác suất thống kê
+là một kỹ năng kiến thức cốt lõi cần có
+của bất kỳ người làm phân tích dữ liệu
+nào thì đó là cái điều Không bàn cãi rồi
+ngoài ra với cái tư duy thống kê nó còn
+giúp mình đánh giá các vấn đề xảy ra
+trong cuộc sống này tốt hơn rất là nhiều
+quay trở lại câu chuyện thông tin ban
+đầu vắc xin Visa có hiệu quả 90%, có
+phải rằng là 100 người tiêm vắc xin visa
+thì vắc xin sẽ bảo vệ khoảng 90 người
+không bị nhiễm covid hay không thì ban
+đầu mình cũng hiểu như vậy á Nhưng mà
+cách hiểu này hoàn toàn là sai khi mình
+tìm hiểu kỹ mình mới biết công thức để
+tính ra hiệu quả của vắcxin là Vi
+19 người đâu mọi người đúng không và một
+cái ví dụ nữa đó là cậu mình đã mất vì
+ung thư dạ dày trong nhiều năm trước Và
+khi phát hiện ra ung thư dạ dày thì bác
+sĩ đã thông báo với cậu mình rằng là cậu
+có thể sống thêm 17 tháng nữa kể từ khi
+phát bệnh nhưng mà thật ra sau đó chỉ
+trong vòng gần nửa năm cậu mình đã qua
+đời vậy Cái con số 17 tháng đó ở đâu ra
+mà Bác sĩ đã nói với cậu mình vậy và các
+sự thật rằng là con số 17 ở đây là một
+con số trung bình của những cái thống kê
+từ rất là nhiều cái bệnh nhân bị ung thư
+dạ dày và họ quan sát được rằng là sau
+khi khỏi bệnh thì những bệnh nhân này có
+thể tiếp tục sống thêm khoảng thời gian
+bao lâu 3 tháng 4 tháng 10 tháng thậm
+chí là 30 40 tháng thì trong cái thống
+kê Này mọi người thấy rằng là có rất là
+nhiều bệnh nhân ở đây và 17 Nó là một
+con số trung bình Nó là một con số Hà
+Tiện Và nó đã vô tình giúp chúng ta loại
+bỏ đi hết tất cả những thông tin còn lại
+những thông tin đó là gì có rất là nhiều
+người sống cao hơn sống lâu hơn cái mức
+17 tháng nhưng mà cũng có rất là nhiều
+người chỉ dừng lại Phước là 3 tháng mà 4
+tháng mà thôi cho nên rằng là một con số
+trung bình nó không đại diện được cho
+bất kỳ cái trường hợp nào cả và trong
+trường hợp này thay vì chỉ nói là anh có
+thể sống được 17 tháng nữa thì bác sĩ
+nên nói rằng là theo nghiên cứu thì có
+hơn 50% bệnh nhân sau khi phát bệnh ung
+thư dạ dày thì có thể sống lâu hơn 17
+tháng nhưng mà con số chính xác là bao
+nhiêu thì tôi không chắc nhưng mà nó sẽ
+phụ thuộc rất nhiều vào tinh thần lạc
+quan sự yêu đời của bệnh nhân thì nó sẽ
+giúp cho anh cải thiện được cái khoảng
+thời gian mình sống lâu hơn và những cái
+ví dụ mà mình đưa ra cho mọi người hồi
+nãy giờ hoàn toàn là những cái sự kiện
+xảy ra trong thực tế xung quanh chúng ta
+hàng ngày và nếu chúng ta không có cái
+nét về thống kê đôi khi chúng ta hiểu
+lầm nó và người ta gọi đó là những cái
+ngụy biện thống kê Và đôi khi mình đi
+đánh lừa Lúc nãy ở đầu video mình có
+nhắc là chúng ta đang sống trong cái
+thời đại công nghệ bùng nổ ai xâm nhập
+thị trường Và từ đó cũng làm thay đổi
+cái cục diện về tình hình lao động trên
+thị trường hiện nay mọi người có thể
+thấy rằng là ai có thể cắt bỏ đi một số
+công việc nhưng nó cũng có thể tạo thêm
+nhiều công việc thế giới trong cái Thời
+đại bây giờ và theo một cái báo cáo về
+tình hình về thị trường việc làm hiện
+nay cũng như là dự đoán trong vòng 5 năm
+sắp tới thì mình nhận thấy những thông
+tin rất là hữu ích như thế này đầu tiên
+phải thừa nhận rằng là công nghệ
+Technology Nó sẽ thay thế các công việc
+trong mảng data trong mạng ai nhưng mà
+mất hiện tại chỉ có 5% trong khi dự báo
+nó sẽ tạo ra hơn 58% vị trí mới trong
+cái mảng này và nổi bật nhất trong đó là
+nhóm ngành datalis data sandis
+sẽ tăng từ 30 đến 50% để bắt kịp với cái
+thời đại công nghệ Digital những công ty
+tập trung mạnh mẽ vào cái mảng này và
+với kinh nghiệm là một người làm trong
+mảng data 56 năm vừa qua Mình nghĩ để
+chúng ta có thể trở thành một nhà phân
+tích dữ liệu những người làm trong mảng
+data xuất sắc thì cái kỹ năng kiến thức
+cốt lõi đó là xác suất thống kê ai cũng
+cần phải có mọi người sẽ thấy rằng là nó
+không bắt đầu từ cái việc là bọn người
+phải làm công việc phân tích đâu và ngay
+cả trong cái quá trình tuyển dụng phỏng
+vấn đi tìm việc làm thì những cái câu
+hỏi trong buổi phỏng vấn cũng có rất rất
+là nhiều câu hỏi hỏi về kiến thức thống
+kê mà không biết mọi người có để ý hay
+không với cái kinh nghiệm phỏng vấn của
+mình và cũng như những đồng nghiệp khác
+thì mình thấy rằng là khi và bước vào
+phỏng vấn chúng ta sẽ dễ dàng gặp những
+câu hỏi ví dụ như là các chỉ số về thống
+kê mô tả bạn có hiểu nó hay không mining
+Mode median trung vị phương sai độ lệch
+chuẩn hay là tương quan correction hay
+thả thậm chí những cái kiến thức thống
+kê phức tạp hơn và trong số đó có một
+cái câu hỏi hết sức thú vị về chủ đề
+thống kê đó là xuất phát từ cái câu
+chuyện chiến tranh trong quá khứ và
+người ta thấy rằng là khi mà các máy bay
+chiến đấu bị thương và quay về thì có
+rất là nhiều cái viên đạn đã gây ra cái
+sự thiệt hại trên chiếc máy bay đó và
+tất cả cho cái bức hình này mọi người
+thấy là có nhiều cái vết đạn Lộ Lộ xung
+quanh chiếc máy bay và nếu như bạn là
+một người sửa chữa máy bay thì bạn sẽ
+chấp vá cho máy bay ở cái vị trí nào để
+kiên cố cái máy bay hơn và tăng cường
+sức chiến đấu hơn nếu là một người bình
+thường thì khi mà nhìn vô cái hình này
+thì chắc chắn chúng ta sẽ tập trung vá
+những cái chỗ mà bị thương đúng không
+những cái sao mà có nhiều cái viên đạn
+như vậy nè để tăng cường cái sức chiến
+đấu của máy bay nhưng mà không rõ ràng
+trong cái ví dụ này chúng ta nên bị dẫn
+dắt và bị sai lầm bởi một cái kiến thức
+Đó là chúng ta đã sai trong cái việc là
+chọn mẫu để phân tích những cái chiếc
+máy bay có thể quay về là những chiếc
+máy bay sống sót và có phải nếu như
+chiếc máy bay của chúng ta bị trúng đạn
+ở những cái vị trí ở động cơ những cái
+chỗ mà những viên đạn này chưa có xuất
+hiện thì họ đã rơi trên thị chiến trường
+rồi hay không Chúng ta nên gia cố ở
+những cái vị trí mà không có viên đạn
+Bởi vì khi chúng những vị trí đó thì
+nguy cơ máy bay rơi ở chiến trường rất
+là cao và nó sẽ không quay trở về nữa Và
+đây là một cái ví dụ điển hình về một
+cái kiến thức gọi là Survival bios tức
+là chúng ta có khuynh hướng thiên vị
+những cái người sống sót những người có
+thể quay trở về và đó được gọi là những
+cái sai lầm trong cái việc chọn mẫu và
+trải qua ngần ấy thời gian đi làm mình
+nhận rằng là bản thân mình là một người
+rất là dễ bị phân tâm vì những tiếng ồn
+ào cho nên là lúc đi làm ở văn phòng
+mình hay sử dụng những chiếc tai nghe để
+giúp sự khác biệt khỏi thế giới Tránh xa
+những cái cây hài vui nhộn hay cười đùa
+lớn tiếng trong tim của mình em ít pro
+là cái tai nghe đầu tiên mà mình dùng
+lúc đó thì cũng khá là ưng nhưng mà sau
+khi có cơ hội sử dụng cái tai nghe Sony
+wf 1000xm5 thì mình ưng gấp đôi luôn ban
+đầu mình cứ sợ là iPhone với Macbook khó
+tưa thích với tai nghe Sony này nhưng mà
+sau khi dùng rồi thì rõ ràng là khả năng
+kết nối của nó khá là ok Nó có thể kết
+nối đồng thời hai thiết bị rất là tiện
+lợi cho những người đa nhiệm như mình
+thì thao tác cảm ứng trên tai nghe này
+cũng khá là linh hoạt mình chạm hai lần
+bên phải là chuyển bài chạm một lần là
+tạm ngừng còn chạm một lần bên tay trái
+là Thoát chế độ nôi kem solation không
+biết ở đây có ai giống mình không Mình
+thì chỉ hay nghe mấy dạng lô file hay là
+dạng không lời để tập trung tuyệt đối
+trong lúc làm việc thì những cái live
+list mà mình hay nghe là những cái nhạc
+lâu phai chiêu này nè mình hay comment
+luôn thì khi mà đi qua best Sony này á
+mấy cái âm trầm từ càng Trumpet hay là
+piano vang lên thì nó cũng nghe ấm hơn
+rất là nhiều nữa những lúc cuối tuần thì
+mình cũng thường hay ra quán cà phê để
+làm việc có một tính năng khá đặc biệt
+của chiếc tai nghe Sony này là khi có
+người gọi đến Mình không cần phải mở
+điện thoại mình chỉ cần gật đầu một cái
+là tự động nhận cô gọi liền và khi mình
+nghe cái âm thanh cuộc gọi cũng khá là
+ổn là không có bị rè và cũng không mất
+tín hiệu nữa bởi vì cái màng lọc gió của
+nó khá là tốt nên chất lượng thu âm
+tương tự nó cũng tốt theo luôn Mình thấy
+khi mình chuyển qua dùng chiếc tai nghe
+Sony này so với chiếc airpod thì khả
+năng chống ồn của nó xịn phết luôn Nhiều
+lúc vào quán cà phê xong rồi mình order
+xong ly cà phê Mình gắn tai nghe vào là
+mình ngồi bất di bất dịch luôn không
+quan tâm đến hết sự bên ngoài hoặc là
+khi cần vào cái flow làm việc nghĩa là
+tập trung cao độ thì dù mình ở nhà mình
+cũng bật chế độ chống ồn của Sony không
+một tiếng đồng lạ để ngắt quãng các pho
+đó khi mình coi số liệu nè mình ngồi có
+mình ngồi phân tích inside data thì rất
+là hiệu quả luôn do nhiều khi mình đeo
+tai nghe cũng khá là lâu ta 4 tiếng liên
+tục và có lời mình cũng đã bị đau Tay
+rất là nhiều khi Ê luôn Nhưng mà khi
+dùng với Sony này thì khá là êm bởi vì
+là cái nút vặn thiết kế của nó rất là
+nhỏ gọn và nhìn cũng rất là thẩm mỹ nữa
+review ngắn về các sản phẩm này để mấy
+bạn tham khảo ha Mình nghĩ để làm việc
+hiệu quả thì cần tập trung cao độ thì
+chiếc Sony
+wf1000sm5 này quả thật là một chiến hữu
+đắc lực đấy tiếp nối các câu chuyện về
+thống kê áp dụng như thế nào trong công
+việc của những người làm phân tích thì
+một điều chắc chắn rằng là sau suốt 5 6
+năm đi làm vừa qua không một bài phân
+tích nào không một đánh giá nào mà mình
+không dựa vào kiến thức thống kê cả bởi
+lẽ khi mình làm một bài phân tích mọi
+người biết rồi mình sẽ trải qua rất là
+nhiều giai đoạn từ bước mình xác định
+cái yêu cầu bài toán thì mình để mình
+define được những cái áo boot những cái
+requirment rõ ràng hơn cho đến cái bước
+mình thu thập data mình làm sạch dữ liệu
+mình truy vấn dữ liệu mình trình bày dữ
+liệu mình phân tích mình tìm inside và
+cuối cùng là mình báo cáo cái việc mà
+mình vững vàng kiến thức thống kê sẽ
+giúp mình đánh giá dữ liệu một cách toàn
+vẹn hơn thay vì sau khi mình Trình bày
+cái dữ liệu lên mình chỉ đánh giá top 5
+sản phẩm Top 10 khách hàng tốt nhất top
+3 khu vực hiệu quả nhất thì những con số
+top 10 top 3 đó nó không đại diện cho
+toàn vẹn về mặt tổng thể và nó cũng
+không có gì nếu mà chúng ta cứ đánh giá
+một cách ngẫu nhiên như vậy và bây giờ
+áp dụng thống kê như thế nào đây thì
+mình sẽ lấy một cái ví dụ cho mọi người
+hình dung dễ hơn ha giả sử như mình sẽ
+là một người phân tích dữ liệu hoặc là
+mình là một người bus sản phẩm tính năng
+chuyển tiền liên ngân hàng trong một cái
+app ngân hàng thì trong vòng 5 năm vừa
+qua ngân hàng đang áp dụng một cái
+travetry một cái hạn mức đó là mỗi khách
+hàng chỉ được chuyển tối đa 300 triệu
+trong vòng 24 giờ thôi thì team Katashi
+mới quyết định rằng là sẽ review xem cái
+hạn mức đất có còn phù hợp hay không Cái
+trải nghiệm khách hàng ra sao Và nếu có
+thể mình có đề xuất được một cái hạn mức
+mới vẫn đảm bảo được cái hiệu quả cho
+người dùng và tối ưu hóa về mặt cái rủi
+ro hay không và dưới góc độ là những
+người phân tích thì mình sẽ bắt đầu nó
+như thế nào đấy bước đầu tiên chắc chắn
+rồi ha mình sẽ làm rõ yêu cầu bài toán
+hiểu cái mục đích của bài toán này là
+đánh giá hiệu quả của các hạn mức này có
+còn phù hợp hay không Và nếu được mình
+sẽ đề xuất một hạn mức mới vẫn đảm bảo
+về mặt traffic và quản trị rủi ro cho
+các sản phẩm này và sau khi mình đã xác
+định được cái yêu cầu đó mình sẽ tiến
+hành đi collect data collect dữ liệu
+Bước tiếp theo mình sẽ bắt đầu áp dụng
+một số các kiến thức thống kê để mình
+hiểu rõ về hành vi của người dùng về
+trạng thái của các sản phẩm đó Nó đang
+như thế nào Và tất nhiên đầu tiên mình
+sẽ quan sát những cái chỉ số đo lường
+cái vị trí cũng như là sự phân bổ thứ
+nhất là những cái chỉ số thống kê mô tả
+như là min max medium độ lệch chuẩn khi
+mà nhìn vào đây mình thấy giá trị trung
+bình của hạn mức chuyển tiền tối đa một
+ngày mà khách hàng sử dụng của toàn bộ
+khách hàng là 25 triệu khi mình nhìn vào
+standard devilson thì mình thấy sốt càng
+lớn thì mức độ phân bổ phân tán của nó
+càng cao và nếu mà chỉ dừng lại ở những
+chiếc số này chúng ta hoàn toàn không
+nhìn thấy được bức tranh toàn cảnh và
+chính vì vậy mình sẽ sử dụng thêm một số
+cái Magic về để đo lường được cái sự
+phân bổ mình sẽ vẽ tổng số cái lượng
+chuyển tiền mỗi ngày của khách hàng lên
+thành một cái biểu đồ histam và khi mà
+nhìn vào cái historam này mình thấy rõ
+ràng luôn một điều rằng là hầu hết khách
+hàng của chúng ta đang kiếm tiền ở cái
+mức 5 triệu cho tới 30 triệu là nhiều
+nhất và khi mình nâng con số này lên từ
+10 triệu 100 triệu hay thậm chí là trên
+100 triệu chúng ta thấy rõ ràng là nó ít
+dần và tối đa là 300 triệu tất nhiên rồi
+vì đây là cái hạn mức cô cũ mà đúng
+không và để cụ thể hóa thành con số thì
+chỉ số tiếp theo mình cần quan tâm đó là
+bờ Sentai khi mình tính cái chỉ số bật
+Sentai ra tức là từng cái phân vị theo
+phần trăm thì mình nhìn thấy rõ ràng là
+nếu chúng ta chọn cái móc persentai bằng
+90% thì rõ ràng trong cái hình này chúng
+ta đang cover được 90% số lượng khách
+hàng và các hạn mức X ở đây là bé hơn 50
+triệu đồng nếu chúng ta muốn tăng cái tỷ
+lệ bao phủ lên là 99% chúng ta chọn mốc
+bờ Sentai bằng 99% thì khi đó chúng ta
+thấy được cái hạn mức đang là bé hơn
+bằng 100 triệu thì rõ ràng với cái kết
+quả này cái hạn mức bé hơn bằng 100
+triệu chúng ta có thể dùng được rồi bởi
+vì nó đang phục vụ được cho 99% khách
+hàng công ty chúng ta chỉ đang loại bỏ
+đi khoảng 1% khách hàng mà họ có thể
+thanh toán hơn 100 triệu một ngày mà
+thôi nhưng mà để có thể phù hợp hơn thì
+chúng ta có thể cân nhắc tách tập Khách
+hàng của chúng ta ra thành nhiều các xác
+mình tan lại cách nhau hình những cái
+phân khúc khác nhau ví dụ dựa vào cái
+loại khách hàng khách hàng loại 1 loại 2
+loại Gold loại Titanium thì sẽ có cái
+ngưỡng khác nhau khách hàng có mức độ ưu
+tiên nhiều hơn thì chúng ta có thể nâng
+hạng mức lên Và khi đó chúng ta có thể
+đưa ra được nhiều cái hạn mức khác nhau
+ví dụ khách hàng loại 1 thì bé hơn bằng
+100 triệu khách hàng loại 2 thì bé hơn
+bằng 200 triệu và nếu trong một trường
+hợp mà chúng ta có nhiều cái hạn mức mà
+đang phân vân thì chúng ta có thể làm
+một cái bài AB testing thì chúng ta đo
+lường xem là cái hạn mức 1 và hạn mức 2
+thì cái nào sẽ phù hợp hơn và hiệu quả
+hơn thì sau khi chúng ta có thể test cái
+hạn mức đó trên 2 tập khách hàng giống
+nhau hoàn toàn và đo lường các chỉ số
+như là trải nghiệm người dùng cái volume
+có nhiều hay không Cái traffic có nhiều
+hay không rồi cái mức độ rủi ro thất
+thoát về broad có nhiều hay không để
+chúng ta đưa ra một cái hạn mức phù hợp
+nhất vẫn đảm bảo được mặt tăng trưởng
+khách hàng vẫn đảm bảo được trải nghiệm
+người dùng và tối ưu được cái việc là
+thất thoát về tài chính cho nên là khi
+mình đã áp dụng được nhiều cái chỉ số
+thống kê nó giúp mình hiểu rõ về cái
+data hiện tại của mình Những chất lượng
+mình đưa ra cũng có cơ sở hơn chứ không
+phải là dựa vào kinh nghiệm mình nghĩ là
+à mình thấy là hạn mức 100 là phù hợp
+hay là ngân hàng ABC ngoài kia dùng hạn
+mức 200 thì chúng ta phải liều dùng hạn
+mức 200 mọi thứ nó đều có cái cơ sở dựa
+vào cái data hiện tại của công ty của
+mình vậy bây giờ mình sẽ cần nắm vững
+những kiến thức thống kê nào đây thì với
+kinh nghiệm của mình thì sau đây sẽ là
+danh sách những cái phần kiến thức thống
+kê mà mọi người cần phải nắm rõ dù cho
+bạn là có làm trong lĩnh vực phân tích
+hay không hay bạn chỉ làm miễn vi văn
+phòng ở những cái mảng khác về marketing
+về phải nên việc person nhưng mà có dùng
+tới data trong người bạn hàng ngày thì
+thống kê sẽ cực kỳ cần thiết số 1 Chúng
+ta phải nắm vững được loại dữ liệu loại
+dữ liệu có nghĩa là cái kiểu data của
+cái trường thông tin đó chúng ta sẽ có
+hai nhóm một là nhóm katakuriko dạng
+phân loại hai loại nhóm data nemorical
+là ta dạng con số khi mà data dạng
+nemodical chúng ta sẽ có hai nhóm nhỏ là
+dạng liên tục và rời rạc Nếu dữ liệu là
+dữ liệu liên tục như là chiều cao nè như
+là giá tiền nè như là doanh niềm vui là
+chi phí nè thì chúng ta có thể biểu diễn
+dữ liệu theo biểu đồ historia biểu đồ ba
+trẻ biểu đồ livestream còn các nhóm số 2
+là dạng catorical là ra đa dạng phân
+loại thì trong đó sẽ có dạng phân loại
+rời rạc và dạng phân loại theo thứ tự
+thì mọi người có thể biểu diễn data bằng
+những cái biểu đồ như là byte như là buy
+hay là Magic phần số 2 đó là các chỉ số
+thống kê mô tả chúng ta sẽ có những cái
+chỉ số về ước lượng vị trí hoặc là sự
+phân bổ Min Mode medium phương sai độ
+lệch chuẩn về ước lượng phân bổ như là
+biểu đồ historia biểu đồ castillove rồi
+chúng ta nắm được những cái chỉ số như
+là bờ Sentai như là quantai Thì đó đo
+lường theo vị trí phần trăm và một cái
+nữa đó là nếu chúng ta đánh giá sự tương
+quan của những yếu tố rồi chúng ta đang
+phân tích thì phải nắm vững cái lý
+thuyết về correction là sự Tuyên Quang
+rồi khi nào correction sẽ là colson và
+cosion sẽ gây ra Collection topic lớn số
+3 đó là chọn mẫu thì nếu mà bạn làm cho
+lĩnh vực về marketing hiển thị trường
+thì chắc chắn là mẹ bạn sẽ thấy được tầm
+quan trọng của bạn chọn mẫu đúng không
+chọn mẫu như thế nào để đại diện cho
+tổng thể chọn mẫu như thế nào để cho có
+thể chính xác không bị có bị thiên vị
+không bị buys thì cái kiến thức về xem
+link xempelling là một cái kiến thức mà
+mọi người phải nắm thì cũng từ cái
+phương pháp chọn mẫu đó đôi khi chúng ta
+cần dùng một số cái phương pháp kiểm
+định giả thuyết ví dụ như là zted rồi
+dùng pitaly
+khi nào dưới 5% thì chúng ta mới bác bỏ
+cái giả thuyết luôn cho nên mọi người
+hãy thật sự vững vàng ở những kiến thức
+này nha Và nếu được mọi người cần biết
+thêm một số cái mô hình hội quy như là
+hồi quy tuyến tính hội logistics thì
+chúng ta có thể giúp để chúng ta có thể
+làm những cái bài toán đơn giản như là
+dự báo Doanh thu chi phí lên kế hoạch
+trong những cái năm thiết Thới là dạng
+tiếp theo và tài liệu chi tiết cho phần
+này mình đã có một chiếc video và cũng
+như là cái trang web này thì mọi người
+có thể check ở đường link ở đây cũng như
+là ở dưới phần mô tả nha Thì trong trang
+web mình có để sách nè mình có thể kênh
+YouTube nào mà mình thích nói cái sơ đồ
+cái may map khi mọi người cần học phần
+thống kê thì mọi người xem ở đó thì sẽ
+đầy đủ hơn thay vì nghĩ rằng thống kê sẽ
+là một môn học khô khan thì mọi người
+hãy nghĩ cái việc học thống kê nếu như
+là một cái kỹ năng quan trọng trong thời
+đại data ai Ngày nay vậy nếu ta muốn
+xuất sắc chúng ta muốn dùng dữ liệu tốt
+để chúng ta phải có thống kê Và khi
+chúng ta có hiểu biết về thống kê chúng
+ta sẽ đánh giá nhìn nhận nhiều vấn đề
+trong cuộc sống này một cách xác đáng
+hơn một cách phù hợp hơn chúng ta biết
+xác suất để chúng một tờ vé số là 1 trên
+10.000 xác suất để chúng ta có thể thắng
+được cái ván bài đó là bao nhiêu phần
+trăm khi chúng ta nghe tin nhân viên
+ngân hàng lương 40 triệu thì chúng ta
+biết rằng là con số 40 triệu đó là một
+con số trung bình nó bị bios nó bị thiên
+vị bởi những cái người mà có cái mức
+lương cực cao 200 500 triệu trong ngân
+hàng và khi mình bước vào một cuộc họp
+với công ty mình xem người khác Trình
+bày cái báo cáo mình nhìn ra được những
+cái điểm hỏng trong cái data mà người ta
+trình bày Nếu có toàn vẹn hay không nó
+có phân bổ đúng hay không nó có Bill nó
+có vẻ biểu đồ đúng cái kiểu dữ liệu đó
+hay không và đó hoàn toàn là những cái
+lý thuyết những cái kiến thức giúp chúng
+ta có thể làm việc tốt hơn rất là nhiều
+mình Hi vọng là sau cái phần chia sẻ này
+của mình thì mọi người sẽ thấy được cái
+giá trị của kiến thức thống kê xác suất
+trong cuộc sống này và xem nó như là một
+cái phần không thể thiếu và nhanh chóng
+ôn tập cũng như là rèn luyện lại cho
+mình nhé Và nếu mọi người hay thích
+video này thì hãy giúp mình like cũng
+như Subscribe ủng hộ mình và không bỏ
+lại những video kế tiếp và video đến đây
+là hết rồi Bye bye mọi người
+[âm nhạc]
+
+=== Summary ===
+Video nhấn mạnh tầm quan trọng của thống kê trong phân tích dữ liệu và cuộc sống. Tác giả giải thích các ngụy biện thống kê (survivor bias), cách áp dụng descriptive statistics (min, max, median, standard deviation) và percentile để ra quyết định kinh doanh (ví dụ: hạn mức chuyển tiền ngân hàng). Video cung cấp danh sách kiến thức thống kê cần nắm: loại dữ liệu, chỉ số mô tả, chọn mẫu, kiểm định giả thuyết, hồi quy.
+
+=== Transcript: qkATC8JO3lM ===
+trong chiếc very hôm nay mình sẽ chia sẻ
+với mọi người top 9 những quyển sách mà
+mình tâm đắc nhất trong mạng phân tích
+dữ liệu và trong suốt hành trình 6 đang
+làm vừa qua có một điều mình luôn tâm
+đắc và nhắn nhủ bản thân mình rằng là
+bản thân mình phải luôn luôn update để
+cho giờ học hỏi thêm không ngừng nghỉ
+lúc trước lúc nào bởi vì mình biết rằng
+là thời đại thay đổi có nghĩa update ai
+ra đời chúng ta có thể dễ dàng bị đào
+thải Nếu chúng ta không phát triển hơn
+mỗi ngày để có thể trở thành một data
+lên giỏi bản thân mình đã không ngừng cố
+gắng trau dồi bản thân ở cả ba mạng lĩnh
+vực và kiến thức sau đây thứ nhất là
+mình phải có được kiến thức chuyên ngành
+và kỹ năng phân tích dữ liệu tốt thứ hai
+mình phải có khả năng sử dụng được các
+công cụ phân tích dữ liệu thứ ba mình
+phải có kiến thức thống kê và các kỹ
+năng mềm để có thể trở thành một người
+không thích đi được xuất sắc Nếu một
+cách thật lòng thì mình cảm thấy rằng là
+công việc của những người phân tích dữ
+liệu nó thật sự khó bởi vì nó đòi hỏi
+một người phải giỏi ở cả ba mã lực
+chuyên môn mà mình vừa kể phía trên và
+đôi khi chúng ta sẽ không thể nào hoàn
+thiện ở cả ba mạng lĩnh vực đó được bản
+thân mình hồi lúc mới vào nghề thì mình
+cảm giác là mình cũng chỉ đạt được 50%
+cái yêu cầu đó thôi cho nên là những
+quyển sách sau đây là những quyển sách
+là những cái cuốn tài liệu và mình đã
+nghiên cứu rất là kỹ càng bạn nó sẽ xoay
+quanh chủ đề chính ở ba bản kiến thức đó
+mình sẽ dựa trên những tiêu chí là nội
+dung gần gũi dễ đọc và mang lại nhiều
+cái giá trị thiết thực trong thực tế để
+chia sẻ với mọi người và hi vọng là mọi
+người sẽ có thể trau dồi cho bản thân
+mình hơn nhiều kiến thức nữa nha Ok bắt
+đầu thôi
+đầu tiên cái điều mình nghĩ là quan
+trọng nhất cho bất cứ ai muốn dấn thân
+vào lĩnh vực phân tích dữ liệu data đã
+là mọi người phải có được cái kiến thức
+tổng quát về cái nghề này những cái ứng
+dụng của data trong thực tế doanh nghiệp
+offline và những cái lĩnh vực kinh doanh
+nó đang như thế nào để từ đó mọi người
+có thể hệ thống hóa được một cái bức
+tranh toàn cảnh trước khi mọi người bắt
+tay học và những kỹ năng chuyên sâu của
+nó và cho nên quyển sách đầu tiên mà
+mình muốn recommen cho tất cả mọi người
+Đó là quyển đi từ science
+atlantis for business mình nghĩ đây là
+một quyển sách phù hợp cho tất cả mọi
+người đặc biệt là những ai mới bắt đầu
+tìm hiểu về cái nghề này
+chúng ta sẽ giúp bạn trả lời được những
+câu hỏi như big Data là gì Tại sao Data
+là quan trọng đối với business quá trình
+phân tích dữ liệu ra sao và quyển tiếp
+anh ấy tức là gì từ đó mọi người sẽ nhìn
+thấy một loạt các ví dụ giúp bạn hình
+dung rõ các bài toán áp dụng prepeptit
+Atlantic trong các lĩnh vực từ vài
+nestléc quản trị rủi ro và vận hành và
+sau khi đọc xong quyển sách này mình
+phải thốt lên rằng là giá như vào 6 năm
+về trước có ai giới thiệu cho mình quyển
+sách này lúc đó mình đã thể hóng quá
+được một lượng kiến thức rất là nhất
+định về cái nghề này mình nhìn thấy được
+cái bức tranh toàn cảnh về người ta và
+mình sẽ không còn hoang mang và chắc
+chắn rằng là mình sẽ học các kiến thức
+trong bản này sẽ rất là nhanh hơn rất là
+nhiều và tiếp nối chủ đề cung cấp nguồn
+lượng kiến thức nền tảng về phân tích dữ
+liệu dành cho tất cả mọi người thì quyển
+sách thứ hai mà mình recommen cho mọi
+người Đó là quyển hpr guy data listick
+basic for managers ở quyển sách này Nó
+là một quyển sách hữu ích và thực tế
+dành cho những người quản lý đang quan
+tâm đến phân tích dữ liệu Cuốn sách này
+cung cấp một cái nhìn tổng quan về các
+khái niệm cơ phiên bản quy trình hết
+nhiên liệu giúp bạn tư duy như một data
+sandis các bạn sẽ biết cách giao tiếp
+với người làm data đồng thời hiểu rõ một
+số ý nghĩa của các case thực tế hay dùng
+như là avting đánh giá mức độ tin cậy
+của dữ liệu hay là sự tương quan ở các
+dãy số Magic trong phân tích dữ liệu một
+quỹ mạnh của quyển sách này là ngôn ngữ
+được viết ra rất là dễ hiểu Nó giúp
+những người là chưa có background và
+phát tài liệu có một cái định hướng rõ
+ràng hơn về cái lĩnh vực này từ đó giúp
+cho các nhà quản lý Đặc biệt là các bạn
+Các anh chị mà đang làm với những bạn
+làm data trong team của mình sẽ biết
+cách giao tiếp với nhau nhuần nhuyễn hơn
+và phối hợp với nhau cũng như là đưa ra
+những cái bài toán và cái giải quyết về
+data nó tốt hơn rất là nhiều luôn cho
+nên là mình hay đi comment là những anh
+chị làm Manager hãy cố gắng xem cái
+quyển này nha
+chủ đề số 2 là myset trải qua nhiều năm
+đi làm mình phát hiện ra một điều rằng
+là sự khác biệt giữa một người phân tích
+dữ liệu giỏi và một người phân tích dữ
+liệu bình thường nó nằm ở cái người đó
+có khả năng tư duy nhạy bén một cách hệ
+thống cái số liệu hay không nó đòi hỏi
+là người đó phải có khả năng giữ vấn đề
+tốt nè trình bày logic nè thuyết phục
+người ta hiệu quả Nè và có khả năng vận
+dụng tới cả những kỹ năng mềm để đưa ra
+một cái kết quả đúng đắn từ data và
+thuyết phục busic có thể đưa ra được
+quyết định cho kinh doanh cho nên là
+điều này thật sự khó để có thể thay đổi
+được Điều đầu tiên bạn cần có là bạn
+phải thay đổi cái Mai sách của mình và
+điều thứ hai là bạn phải có một cái
+phương pháp làm việc với dữ liệu nó hiệu
+quả hơn thay vì chúng ta cứ nghĩ gì
+chúng ta làm đó một cách vô tư đúng
+không và để giúp mọi người có thể thay
+đổi được vai sát khi làm việc với dữ
+liệu thì mình sẽ giới thiệu cho mọi
+người quyển sách đó là Tiên Kiên quyết
+data How to turn information in to
+inside và đối với quyển này mình vô cùng
+tâm đắc bởi vì tác giả đã nhắc nhở mình
+một điều rằng là chúng ta phải thật sự
+luôn luôn suy nghĩ Why before house tức
+là trước khi bắt tay vào giải quyết một
+cái vấn đề hay là một bài phân tích gì
+đó với dữ liệu thì mọi người phải hiểu
+tương tự về cái chủ đề mình đang làm cái
+yêu cầu của bài toán cái mục đích cái
+bức tranh tổng quan để mình có thể cái
+góc nhìn rõ ràng hơn mình xác định được
+cái hướng đi từ đó mình mới có thể làm
+việc tốt được có thể mọi người đã từng
+nghe nói rằng là 80% thời gian công việc
+của da là dành để ngồi với máy tính để
+xử lý dữ liệu để có thể vẽ biểu đồ đúng
+không cho nên là nếu mà không xác định
+đúng cái hướng đi ngay từ đầu á chúng ta
+sẽ rất là dễ làm được lạc lối Và khi đó
+sẽ tốn rất là nhiều công sức cho nên
+trong quyển sách này nó sẽ nhắc nhở bạn
+là trước khi bắt đầu làm công việc nào
+đó hãy xác định toàn bộ các bức tranh về
+cái chủ đề của chúng ta thứ nhất ngữ
+cảnh đó là gì thứ hai xác định rõ nhu
+cầu của sếp của khách hàng thứ ba nhìn
+thấy được cái tầm nhìn sứ mệnh của dự án
+đó và cuối cùng là define Rõ ràng cái
+aocum cái output của cái bài toán mình
+sẽ trả lời có như thế thì bạn mới có thể
+thay đổi hoàn toàn cái tư duy và mang
+xác của mình khi chúng ta làm phân tích
+dữ liệu chúng ta không chỉ là một mình
+và chúng ta phải làm việc với đồng đội
+của chúng ta với khách hàng với sếp và
+để làm được hiệu quả thì hãy bắt đầu
+White before house và Lúc nãy mình có
+nhắc tới một cái chủ đề đó là probl
+sovic tức là chúng ta cần có kỹ năng
+giải quyết vấn đề đối với công việc của
+người làm data Thì bây giờ mình sẽ giới
+thiệu với mọi người luôn một cái quyển
+sách về pháp luật sau Vinh Đó là quyển
+pháp luật sư huynh 101 của tác giả người
+Nhật quanh ta đã B Tại sao người làm
+data Alice cần phải có kỹ năng giải
+quyết vấn đề bởi vì là mọi người biết
+rồi đó phân tích dữ liệu nó rất là khó
+và phức tạp chúng ta cần tốn nhiều thời
+gian có thể là những cái dự án một tuần
+hai tuần hay cả tháng chứ là nếu chúng
+ta không có khả năng giữ vấn đề tốt
+chúng ta không đưa ra được một cái kết
+quả cuối cùng để có thể mang cái tính
+thay đổi đối với doanh nghiệp thì chúng
+ta thất bại nhiệm vụ của chúng ta là
+phải giải quyết được cái vấn đề của
+business đúng không cho nên là kỹ năng
+giải quyết vấn đề đó là một cái mà mọi
+người cần phải quan tâm và trong quyển
+sách của tác giả người Nhật này mọi
+người sẽ được trình bày một cách rất là
+đơn giản và dễ hiểu Khi chúng ta đối
+diện với một cái vấn đề việc chúng ta
+làm như thế nào để hệ thống hóa cái vấn
+đề đó một cách rõ ràng chúng ta cảm thấy
+là chúng ta cần giải quyết theo bao
+nhiêu hướng theo bao nhiêu khía cạnh
+chúng ta có thể cover bao phủ hết tất cả
+các trường hợp có thể xảy ra và như vậy
+trong hướng tư liệu cũng tương tự như
+vậy luôn có thể đưa ra được nhiều inside
+hay không đó là việc chúng ta xác định
+đầy đủ cái hướng phân tích của chúng ta
+nè không bỏ sót mỗi góc nhìn nào và khi
+mà người đọc xong quyển sách này mình
+biết chắc rằng là cái ma sát và tư duy
+của mọi người á khi đánh giá và nhìn vấn
+đề nó sẽ hoàn toàn thay đổi Chúng ta
+phải luôn cảm thấy là mình cần phải đầy
+đủ hơn chặt chẽ hơn khi đánh giá mọi vấn
+đề Và từ đó chúng ta sẽ làm cho công
+việc phân tích dữ liệu của chúng ta tốt
+hơn rất là nhiều
+và tôi biết tiếp theo sẽ nói về chủ đề
+xác suất thống kê thì theo như mình biết
+thì những ai mà học trong cái Mảng về
+business về lập trình thì chắc chắn là
+đã được học qua cái môn xác suất thống
+kê ở thời đại học rồi đúng không Tuy
+nhiên ở thời điểm đó thì hầu hết mình
+cảm thấy là các bạn sinh viên học những
+cái môn đó như là cho qua môn vậy Bởi vì
+các bạn đâu có hiểu được cái tính ứng
+dụng thực tế đâu Mấy bạn học các chỉ số
+nhóm kia như là Min Mode median thì còn
+dễ đúng không tới khi qua những cái mô
+hình testing như là gtas hay là TTS hay
+là demary hay là Anova thì lúc đó thì
+cảm giác như là tẩu qua nhập ma luôn và
+mình không nhìn thấy Lý do là mình không
+nhìn thấy được cái ứng dụng trong thực
+tế cho nên là mình cảm thấy chán và đến
+khi làm phân tích dữ nhiều thì Ối giời
+ơi tất cả mọi vấn đề mà mình cần giải
+quyết để điều xoay quanh thống kê và bây
+giờ mình phải học lại ngay từ đầu thôi
+đó là điều hiển nhiên và nếu mọi người
+hỏi mình trong công việc của người làm
+data Alice thì phần kiến thức thống kê
+nào mình sẽ sử dụng nhiều nhất thì đó là
+thứ nhất desistics atlantis và thứ hai
+là inperu
+tả và thống kê suy luận và trong chủ đề
+thống kê này thì mình sẽ recommen cho
+mọi người hai quyển sách thì quyển thứ
+nhất sẽ là cái quyển particle tctice
+Đây là một cái quyển mà giả viết vô cùng
+đầy đủ và chi tiết tất cả những cái kiến
+thức cũng như là các nội dung chủ đề
+trong thống kê dành cho một người làm
+phân tích dữ liệu và dưới góc độ của
+những người làm data list thì mình tin
+chắc rằng là quyển sách này sẽ thật sự
+đầy đủ mọi người sẽ cần quan tâm cho
+mình nhiều nhất là ở chương số 1 và
+chương số 2 Chương số 1 là giúp chúng ta
+khai phá dữ liệu với những chỉ số thống
+kê chỉ số 2 là hướng dẫn mọi người cái
+phương pháp chọn mẫu chương số 3 là
+[âm nhạc]
+luôn ha Mọi người nhớ ha Nó Kiệt the
+titistic
+và chủ đề thứ 4 đó là data visually
+Jason thì nói với chủ đề này thì mình
+nghĩ nó khá là quen thuộc với mọi người
+rồi và bản thân mình tin chắc rằng là
+cái chủ đề về Trực Quan Hóa nhiên liệu
+nó không phải là chỉ cần thiết cho những
+người làm phân tích đâu mà nó sẽ cần
+thiết cho bất cứ ai mà đang làm với dữ
+liệu hàng ngày từ những bạn làm văn
+phòng cho tới những bạn làm sinh viên
+phải làm khóa luận hay là gì đó ở trường
+đại học thì Data visuallyatation là một
+cái vô cùng cần thiết và trong cái chủ
+đề này thì mình sẽ recommen cho mọi
+người cái quyển mà vô cùng nổi tiếng đó
+là Style theo link Watt data đúng không
+Thì mọi người có thể tham khảo Quyển này
+ngay lập tức Ha à khoan khoan nếu như
+bạn chưa từng đọc cái quyển này thì mình
+nói là hãy ngưng hết những quyển hồi nãy
+giờ mình giới thiệu ha đọc trước buổi
+này cho mình bởi vì nó sẽ là cái chìa
+khóa để thay đổi hoàn toàn Tư duy và cái
+mai set của mọi người khi mọi người
+trình bày một cái biểu đồ một cái table
+cho một cái báo cáo cho một cái
+PowerPoint mọi người đi làm hàng ngày
+cho nên là nếu chưa đọc thì hãy đọc ngay
+bây giờ đi nha cái lý do mà mình kêu mọi
+người đọc ngay đó là mọi người biết rồi
+80% thời gian công việc của data là làm
+cái dữ liệu mình đã bỏ một tuần hai tuần
+đến cả tháng để làm phân tích và nếu như
+mình không trình bày tốt á thì cái kết
+quả đó coi như công cóc cho nên là phần
+trình bày kết quả đó với sếp của mình
+với khách hàng của mình nó vô cùng quan
+trọng và hầu hết các kỹ thuật để trình
+bày tốt cho một cái PowerPoint nó xuất
+phát từ rất là nhiều yếu tố Từ cái lúc
+mà bạn chọn một cái chạc đúng nè bạn
+chọn màu sắc phù hợp nè bạn viết loại bỏ
+những thông tin gây nhiễu nè bạn trình
+bày như thế nào để có thể hướng khách
+hàng vào cái chủ đề mình muốn nói một
+cách hiệu quả nhất nó vô cùng quan trọng
+cho nên là trailb data là một quyển sách
+mà nó cần thiết cho bất kỳ ai đang làm
+data trong công việc của mình nha mọi
+người nhé
+[âm nhạc]
+và chủ đề cuối cùng đó là nhiều quyển
+sách hướng dẫn chúng ta những kỹ năng về
+coding và đối với người phát biểu dữ
+liệu chúng ta chắc chắn sẽ không cần học
+những cái ngôn ngữ như là seal Plus hay
+là C6 đúng không và cao chúng ta cần học
+đó là SQL và bitone
+thì thông thường Chúng ta có một cái
+thói quen là sẽ học trên những cái nền
+tảng online như liệu ví dụ như là w3
+school giftcode đúng không Nhưng mà ở
+với những người bạn đó Hầu hết chúng ta
+luyện tập theo từng cái câu lệnh đơn lẻ
+mọi người sẽ không thể nào hình dung
+được lại khi đi làm thực tế một cái dự
+án phân tích dữ liệu với chúng ta cần
+làm ra sao đâu cho nên là mình sẽ chia
+sẻ với mọi người một cái quyển sách mà
+mình cảm thấy là vô cùng hay Đó là quyển
+SQL fordator thì trong cái quyển này tác
+giả thay đổi hoàn toàn cái cái cách lập
+trình bày kiến thức SQL tác giả sẽ xuất
+phát từ những cái câu chuyện những cái
+nhiệm vụ của chúng ta đó là xử lý dữ
+liệu nè phân tích dữ liệu nè trình bày
+nó ra sao nè giải quyết những cái bài
+toán thực tế ví dụ như là time series
+hay là code hay những cái bài cảm xúc
+khách hàng phức tạp từ đó mọi người có
+thể nhìn thấy rõ ràng luôn là SQL nó sẽ
+được apply như thế nào và cái việc học
+của chúng ta nó sẽ trở nên thú vị rất là
+nhiều thay vì chúng ta chỉ biết
+selectrum que hay là một vài câu lệnh
+đơn giản trên những cái nền tảng như nãy
+mình nói wbop League có thể hacker ren
+và quyển sách cuối cùng đó là sẽ nói về
+chủ đề học bài thôi như thế nào và mình
+sẽ recommen Nguyễn Bite
+và điều mình thích nhất là quyển sách
+chỉ xoay quanh những cái chủ đề chính về
+biton cho vòng phân tích dữ liệu thôi
+Bởi vì mọi người biết là Bitcoin thì nó
+sẽ rất là nhiều bạn kiến thức Nếu mà
+dùng dao lập trình thì nó sẽ khác nhưng
+mà khi mà chúng ta dùng cho phân tích dữ
+liệu chúng ta chỉ cần học những cái
+môđun rất là gần gũi ví dụ như là Dubai
+bananas Be The lightstian và đó là những
+cái cần thiết cho người bạn làm mất tích
+dữ liệu và trong quyển này người ta sẽ
+hướng dẫn mình có trên cái nền tảng là
+do Peter notebook nó cũng khá là gần gũi
+với những người làm phân tích luôn cho
+nên là nếu có cơ hội thì mọi người có
+thể tham khảo cái quyển này nha và trên
+đây là chính quyển sách mình yêu quý
+nhất về chủ đề là học gì cho người phân
+tích dữ liệu
+với bản thân mình để trở thành một người
+datales giỏi nó không đơn thuần là bạn
+có khả năng có tốt hay là ai bảo bạn là
+cái gì bạn làm cái nấy mà người datalice
+giỏi là phải có khả năng tư duy của một
+người làm tư vấn nè có khả năng trình
+bày thuyết trình như một States trailer
+có khả năng học có được dùng thun được
+như một lập trình và một người có khả
+năng kiến thức thống kê để có thể biết
+được phân tích như thế nào cho hiệu quả
+chỉ có như thế các bạn mới có thể trở
+thành một datalid giỏi trong cái thị
+trường hiện nay và video này là hết rồi
+nếu các bạn cảm thấy thích video này thì
+nhớ ấn like cũng như Subscribe Để ủng hộ
+mình và nhớ share thêm cho nhiều bạn bè
+biết về những cái kiến thức này nha và
+cảm ơn người đã xem hết và hẹn mọi người
+ở video kế tiếp Bye bye
+[âm nhạc]
+
+=== Summary ===
+Video giới thiệu 9 quyển sách tâm đắc cho người học Data Analytics: (1) Data Science for Business - tổng quan nghề nghiệp; (2) HP Data Analytics Basic for Managers - cho nhà quản lý; (3) Think with Data - tư duy 'Why before house'; (4) Problem Solving 101 - kỹ năng giải quyết vấn đề; (5) Statistics for Data Scientists; (6) Storytelling with Data - trình bày trực quan; (7) SQL for Data Analytics; (8) Python for Data Analysis. Tác giả nhấn mạnh DA giỏi cần cả tư duy, thống kê, và kỹ năng mềm.
+
+=== Transcript: TbCTOBKv1P4 ===
+nếu hai năm trước đây có cái Trang mà
+người formo theo chứng khoán thì bây giờ
+cũng có cái trang mọi người formo theo
+một ngày đi đây mọi người nghe nói rằng
+là Họp Pa không cần phải trao liên quan
+có thể làm được việc các bạn chỉ cần đầu
+tư mới chục triệu vào trung tâm sau 3
+tháng chúng ta sẽ cắm đến các bạn công
+việc làm nhưng rồi cũng chính các bạn
+đang là những cái group trên Facebook
+than vãn rằng là mình cần boss lại khóa
+học hoặc là mình là like mãi vẫn không
+tìm được công việc gì cả dẫn đến cái bản
+Hoang Mang và tuyệt vọng mình nghĩ sẽ có
+rất nhiều lý do dẫn đến câu chuyện này
+là mọi người homo quá nhiều theo cái
+trào lưu này trong khi thị trường này nó
+khan hiếm việc làm hoặc là thật ra các
+bạn đang bị cái kinh tế bất kỳ đùi gà đó
+và các bạn không biết nhưng mình nghĩ lý
+do cốt lõi bạn nào mà chính chúng ta bản
+thân chúng ta đã chưa tìm hiểu đủ kĩ rủ
+sâu về cái nghề này mình tin rằng nếu
+mọi người tìm hiểu đủ sâu mọi người sẽ
+có quyết định một cái chính xác hơn Vậy
+nên trong chiếc video ngày hôm nay mình
+sẽ chia sẻ với các bạn những gì mình
+biết về lĩnh vực cây cờ làice dựa trên 6
+năm kinh nghiệm đi làm và tìm hiểu của
+mình để không biết điều rằng là ở Hi
+trường Ngoài kia có một công ty có bao
+nhiêu tia data và trong một teamata có
+bao nhiêu vị trí và những vị trí đã có
+những cái đặc điểm yêu cầu đòi hỏi cái
+năng lực của ứng viên ra sao vậy Thì đó
+mọi người hãy cảm nhận xem là mình sẽ
+phù hợp với cái nghề nào nếu với bạn
+muốn theo đuổi bạn data này nha à Mà
+khoan trước khi xem thì mọi người nhớ ấn
+like cũng như là Subscribe kênh của mình
+nha và nhớ xem hết video Ok bắt đầu thôi
+bản thân mình đã từng là một trang giấy
+trắng không biết gì cả Và bây giờ cái
+trang y chang này cũng đã vượt ngoài
+tuyệt vời và năm cho nên là mình sẽ chia
+sẻ thêm một cách dễ dàng nhất cho mọi
+người cùng hiểu biết nha Thứ nhất nói
+nôm Na lĩnh vực York có nghĩa là ứng
+dụng các kỹ thuật công nghệ để chuyển
+hóa từ datah những cái inside thành
+những cái gợi ý thành những cái mô hình
+thành những cái giải pháp chúng ta không
+chỉ ứng dụng data trong quá khứ để cung
+cấp ra inside để gợi ý những cái
+recommendation mà chúng ta còn có thể dự
+báo được cả tương lai điều gì sẽ xảy ra
+để chuẩn bị để lên kế hoạch theo công ty
+Ví dụ như là công ty cần Lê kế hoạch bao
+nhiêu nguồn nhân lực trên năm sau với
+khi người dùng Hiện tại thì khả năng họ
+sẽ mua những sản phẩm nào khi họ lướt
+cái trang web của chúng ta hay là việc
+xây dựng các hệ thống xác thực bằng
+giọng nói bằng hình ảnh cũng như là đầu
+tư vào các giải pháp để phòng chống rủi
+ro gian lận ở các công ty tài chính và
+đó là tất cả những cái ứng dụng từ data
+mà chúng ta có thể apply và công việc
+hàng ngày cho các doanh nghiệp hiện tại
+ngày nay vậy là một người đang hiểu
+chiếc xe mà vai trò của data rồi ha và
+cũng từ cái ý nghĩa đó các công ty doanh
+nghiệp hiện nay sẽ chia
+[âm nhạc]
+sẽ quy định bộ phận data có hai bản chức
+năng sau đây số 1 visitationz
+Thì Nhiệm vụ của một diot là ứng dụng
+cái data trong quá khứ để giải quyết cái
+vấn đề hiện tại thì phải một cách kịp
+thời và nhanh chóng cho nên là cái vai
+trò cũng như là chức năng cũng như là
+nhiệm vụ mobilec mà người thường thấy đó
+là chuyển hóa data chuẩn chỉnh của cái
+database để tạo mạng để tạo ra các hệ
+thống báo cáo test chỉ số vận hành kỹ
+năng công ty hoặc là chuẩn chỉnh data
+luôn sẵn sàng trong các lá thơm để khi
+mà tiêm virus ở data thì luôn luôn
+ứng dụng data trong quá khứ để giải
+quyết các vấn đề của tương lai ngay từ
+signe sẽ khác với vai chỗ là x giải
+quyết các vấn đề hay không cũng như là
+xây dựng các hệ thống báo cáo các spa và
+sẽ tập trung vào các bài toán nâng cao
+những phân tích chuyên sâu để tìm ra
+inside từ đó ứng dụng những cái mô hình
+học máy những mô hình thống kê để tạo ra
+những cái giải pháp mang tính dài hơn
+trong những cái dự án lớn và đó là câu
+chuyện của lý thuyết còn trên thực tế
+thì thiên biến vạn hóa kể cả thị trường
+Việt Nam hay là thế giới ở mỗi công ty
+hãy đều có cấu trúc và các bưu điện khác
+nhau có những công ty Global những công
+ty và high tech những công ty mà có quán
+quân dân sự lớn những công ty công nghệ
+thì có hệ thống viết data Và đôi khi mọi
+người sẽ thấy là có cả biit và phải có
+cả datashite
+có nơi vận hành hay mua bánh centre like
+Tức là chỉ có một teamily
+phục vụ cho tất cả các phòng ban còn lại
+hoặc là có công ty đi mô tô hơn thì sẽ
+quản lý theo mô hình dientenite
+sẽ có một đội bii sẽ có một đội đi từ xa
+riêng chỉ chuyên phục vụ cho những cái
+bài toán lĩnh vực của một cái phim đó
+thôi để kịp thời đảm bảo tiến độ phát
+triển kinh doanh vận hành của những công
+việc đó ngay phức tạp và mệt mỏi ha Ước
+gì công ty nào cũng chuẩn chỉnh Cả
+Nhưng mà không sao Mình hy vọng là các
+bạn sẽ nắm được những kiến thức cơ bản
+này để làm gì để các bạn biết là vị trí
+nào khi nào có thể phù hợp với bản thân
+của các bạn để các bạn có thể đưa ra một
+quyết định phù hợp nhất và dù là cho các
+bạn làm cho một biit hay là một dsc thì
+cả hai cái bộ phận này đều có những cái
+vị trí cũng khá quãng đường đầu nhau và
+đây chính là cái sơ đồ mình chia sẻ mọi
+người Mình sẽ có một ly trà xanh và một
+team để có các vị trí chức năng đi là để
+tạo Genie
+hoặc là detob tương tự như vậy trong
+bidveloper
+cho nên bây giờ điều quan trọng là mọi
+người hãy tự cảm nhận xem mình sẽ phụ
+thuộc vào vị trí nào nếu bạn học các bạn
+là ứng viên xuất thân từ background phát
+hành kinh tế như là visit International
+ecoming
+thích đào sâu thì viên sai tức là báo
+cáo có khả năng tiến trình tốt Giữ vấn
+đề tốt trình bày một cách logic thì mình
+nghĩ các vị trí như là da hay là dial đó
+[âm nhạc]
+các bạn sẽ đào sau các bài toán chuyên
+về cái lĩnh vực đó ví dụ là biexing
+Marketing thì sẽ tập trung vào cái mảnh
+Marketing làm bios cho mạng phải nên thì
+sẽ tập trung vào cái mạng người phải net
+vn
+cao hơn về mặt các cái hồ xíu ngoài câu
+chuyện ứng dụng phân tích data từ inside
+hay là làm báo cáo test thì các bạn đôi
+khi bạn hãy hiểu rõ về thống kê để sử
+dụng một số cái mô hình thống kê cơ bản
+để giải quyết những câu chuyện Phân tích
+chuyên sâu hơn khi làm da Các bạn có thể
+sẽ đảm nhận nhiều cái mảng chuyên môn
+khác nhau cho từng quyển sách khác nhau
+các bạn sẽ thử có cơ hội được học rộng
+nhưng mà chưa chắc và sau và các bạn là
+vì ai ở một lĩnh vực chuyên môn nữa nha
+Còn nếu bạn là người có xuất phát điểm
+từ ngành
+Ito học tool cực kỳ nhanh các bạn không
+có khả năng giao tiếp tốt các bạn cảm
+thấy là mình không có nhạy bén lắm số
+liệu khi những cái vị trí như này Đây là
+gtage database afghanistrator hay là
+những ai điểm đến là sẽ rất là phù hợp
+với các bạn vì những vị trí này đòi hỏi
+một cái kỹ năng về data rất là nhiều như
+là quản lý hệ thống database cơ sở dữ
+liệu các bạn phải biết là
+etyl process databas các bạn phải biết
+xây dựng các hệ thống báo cáo các blog
+hơn để đảm bảo về mặt vận hành data còn
+nếu bạn là người có xuất phát điểm từ
+ngành datashien hay là tao thích thì
+mình nghĩ vị trí đây tờ santage và
+selene sẽ rất phù hợp với mọi người nơi
+đây sẽ cho các bạn cơ hội 7 vùng để giải
+quyết các bài toán về dự báo và hiện tại
+doanh nghiệp ban đầu họ với các bạn Ờ
+sau tiền toàn và nghiên cứu và đó là nói
+về tính chất công việc còn nói về mức
+lương thì theo nhiều lời đồn đoán trên
+mạng cũng như là cái sự Tìm hiểu về
+nhiều chuyện của mình với cái mối quan
+hệ trong cơ thể của mình á thì mình thấy
+link Pa và
+Palestine
+cao hơn bởi vì các bạn là người có đòi
+hỏi nhiều kỹ năng người ta là người tạo
+ra các hệ thống là người xây dựng ra
+những cái báo cáo bát cơm phục vụ cho
+tao cho công ty Bởi lẽ nếu không có data
+thì dna lấy gì để công thức đúng không
+và theo mình biết thì mức lương 1 năm
+kinh nghiệm hay là thương hiệu cho tới
+vị trí DHA thì dao động khoảng 12 triệu
+đến 18 triệu khi các bạn từ 3 năm đến 5
+năm thì có thể đạt mức lương từ 20 hoặc
+35 40 triệu thì dds sẽ chênh lệch đó là
+5 đến 10 triệu 15 triệu mình sẽ không có
+thể nào nói chính xác một con số được
+bởi vì là mức lương sẽ phụ thuộc vào rất
+là nhiều yếu tố và tùy từng công ty nữa
+chung quy lại là scarbucks của bạn có
+làm gì hay không rồi Rainbow công ty sẽ
+chi trả cho các bạn trong khoảng nào và
+cái giá trị kinh nghiệm và năng lực các
+bạn ra sao để công ty có thể chi trả một
+mức lương phù hợp câu chuyện tiếp theo
+chúng ta nên chọn công ty nào làm data
+tất nhiên phải vào những công ty nào mà
+có một hệ thống data tiến triển lớn và
+có nhiều data cho mọi người bạn vùng các
+công ty hiện nay mà có hệ thống bit data
+như là những công ty tài chính công nghệ
+những công ty về thương mại điện tử ngân
+hàng đây là những công ty có đầy đủ công
+cụ và có đầy đủ data thì các bạn giải
+quyết nhiều bài toán khác nhau cho doanh
+nghiệp điều đó thì các bạn cũng sẽ học
+hỏi cực kỳ nhanh và phát triển năng lực
+của mình cực kỳ tuyệt vời Còn đối với
+người mới ra trường các bạn sinh viên
+khi mình nghĩ là cái bạn chồng của công
+ty thì nên đào sâu tìm hiểu kỹ một cái
+nơi mà ở đó Mình có cơ hội học tập được
+nhiều nhất có thể học tập từ kinh nghiệm
+của những người leader những người sinh
+giờ trực tiếp hướng dẫn các bạn để sau
+này hai năm ba năm các bạn có đủ kinh
+nghiệm rồi đủ kỹ năng rồi Các bạn có thể
+nhảy sang một công ty mới khi đó các bạn
+có thể dễ dàng đi vào mức lương 1000 đô
+thì các bạn mong muốn Chúc tất cả các
+bạn sẽ sớm tìm được một công việc phù
+hợp nếu các bạn thích thì được cái nghề
+data này nha hiểu mình hiểu nghệ và mình
+tin làm các bạn sẽ làm được Cố lên nha
+[âm nhạc]
+
+=== Summary ===
+Video phân tích chi tiết về nghề Data Analyst: vai trò trong doanh nghiệp, cấu trúc team (Data Analyst, Data Scientist, Data Engineer, Data Architect), mức lương (12-40 triệu VND tùy kinh nghiệm), và các vị trí phù hợp với từng background (Kinh tế, IT, Data Science). Tác giả khuyên nên chọn công ty có hệ thống data tốt (ngân hàng, fintech, e-commerce) để học hỏi nhanh.
+
+=== Transcript: lqkocF3j2f0 ===
+[âm nhạc]
+Nếu mà bắt mình phải xóa hết tất cả
+những ký ức mình sẽ quên hết những kỹ
+năng cũng như kiến thức về ng data thì
+chắc là mình cũng sẽ bị các bạn sale các
+khhoa học ở ngoài trung tâm thị trường
+ngoài kia làm cho mắt chữ a mồm chữ O và
+đầu ốc mụ mị vì thấy rất là nhiều quảng
+cáo như thế này bạn có thể trở thành da
+qua Khoa Học năm buổi 8 buổi 15 buổi
+hoặc là Thậm chí người ta nói là da chỉ
+cần bạn biết kéo thả làm m sale làm bit
+mà không cần phải có nghe thích mọi
+người nhớ cảm giác như là mình chỉ cần
+đầu tư một chục triệu và khóa học đó
+mình có thể làm được công việc này rồi
+thì dạ gì mà không thử đúng không Nhưng
+mà khoan trong series chuyện nghề data
+mình sẽ bắt đầu với một cái chiếc video
+nói về top 5 những khó khăn và thử thách
+mà bất kỳ người data nào hay là người
+data scientist nào cũng gặp trong hàng
+việc hàng ngày của mình để cho mọi người
+thấy rằng là ngoài cái bề nổi mà các bạn
+as đang thổi Phong lên ở ngoài kia thì
+vén bước màng sự thật cái mặt trái của
+cái nghề này những cái khó khăn những
+cái đớn đau những cái giá mà các bạn làm
+da DS phải trả là những cái gì thì để
+mọi người có thể hiểu được và hình dung
+được nó rõ hơn nha nếu như bạn đã theo
+dõi mình từ lâu nhưng mà chưa có
+Subscribe thì nhớ ấn cái nút Subscribe
+bên dưới này nha Còn những bạn mới thì
+hãy xem hết chế video này nếu mọi người
+Thích thì nhớ Subscribe cũng như like để
+ủng hộ mình
+nha cái sự khó khăn đầu tiên đó là kiến
+thức chuyên ngành khả năng hiệu sản phẩm
+nó vô cùng khó học hơn rất là nhiều so
+với việc bạn học s SQL Python Đừng nói
+tới việc là chị học kéo thải trên tablo
+hay là power bi bản thân mình cứ nhớ mãi
+những ngày đầu tiên khi làm da á mình
+mất rất là nhiều thời gian công sức
+không chỉ dành cho việc xử lý data làm
+sạch dữ liệu rồi tính toán trong cơ sở
+dữ liệu làm sao đâu mà sau đó mình còn
+mất đến năm lần bảy lượt phải sửa đi sửa
+lại những cái báo cáo những cái bài phân
+tích của mình bởi vì một lý do duy nhất
+thôi đó là mình không có đủ hiểu về cái
+sản phẩm cái bài toán Mình đang phân
+tích cho nên là mình phải phân tích bị
+thiếu rồi không có đúng cái yêu cầu của
+sế của khách hàng ban đầu á Mình cứ
+tưởng sế mình bảo là em hãy phân tích
+cho anh cái performance của sản phẩm Thế
+là mình nhanh chân mình phân tích một
+vài cái chỉ số dựa trên những cái kiến
+thức mà mình biết ví dụ như là
+conversion rate sucess rate cost
+turnaround time sau đó Mình mới đi lấy
+data mình tính toán mình xử lý mình vẽ
+video đồ mình làm báo cáo Nhưng mà mình
+quên mất đi rằng là sếp Mình đang muốn
+rất là nhiều chỉ số khác ví dụ như là
+customer satisfaction rate l rate rồi cả
+user journey cái mà ship mình quan tâm
+nhất đó là đánh giá xem là khách hàng có
+đang hài lòng với trạ nghiệm sản phẩm
+hay không thì những cái đó mình hoàn
+toàn không có biết tới và mình cũng làm
+thiếu luôn không có trong bài phân tích
+của mình mặc dù cái bài phân tích của
+mình á trình bài tốt vẽ biểu đồ đẹp
+nhưng mà những cái nội dung trong đó thì
+nó không đúng cái nhu cầu của business
+cho nên mọi người nhớ với mình là domain
+list khả năng am hiểu về chuyên môn sản
+phẩm lĩnh vực của mình đang phân tích á
+nó vô cùng quan trọng và cái điều này á
+nó không phải mọi người có thể tích lũy
+được một hai ngày đâu nó phải là trải
+qua một cái quá trình mọi người đi làm 1
+năm 2 năm trong cái mảng đó Linh vực đó
+thì mọi người mới có đủ được cái kinh
+nghiệm cái trải nghiệm về cái mảng mà
+mọi người đang đang chịu trách nhiệm để
+phân tích cho nên để giải quyết cái khó
+khăn này á thì chỉ có cách là mọi người
+phải liên tục trau dòi kiến thức tích
+lũy trải nghiệm cũng như là research
+thêm những cái báo cáo những cái tài
+liệu trên internet để mọi người có thể
+lĩnh hội được những kiến thức cũng như
+là những cái best practice mà trên thế
+giới họ đang dùng trong cái mạng này để
+mọi người có thể học hỏi thêm
+nha số hai khổ nhất là những công ty mà
+chưa có database data system chuẩn chỉnh
+á khiến cho các bạn làm da hay DS phải
+mất rất là nhiều thời gian để tổng hợp
+data sử lý data thì mới lấy được cái
+lượng data mà mình cần thì nói tới vấn
+đề này á thì mình sẽ nhắc lại cái quá
+trình phân tích dữ liệu mà các bạn da
+hay là DS phải làm á đầu tiên là sẽc
+định vấn đề nè Thứ hai là thu thập data
+số ba là chuẩn bị data số bốn là phân
+tích tìm inside số năm là làm data Model
+và số S là trình bày kết quả của mình
+thì ở cái bước số hai á trong cái giai
+đoạn mà chúng ta thu thập và sau đó
+chúng ta Chuẩn bị dữ liệu á thì nếu mà
+các bạn làm trong các công ty startup á
+thì tức là công ty đó chưa có đầu tư
+nhiều lắm hệ thống database data system
+á thì các bạn làm data của như chúng ta
+nè phải tốn rất là nhiều thời gian công
+sức để tổng hợp data từ ở rất là tiền
+nhiều nguồn mọi người đừng có nghĩ là
+những cái data mà mình làm phân tích á
+nó sẽ sạch sẽ gọn gàng giống như những
+cái Data publish trên các gole hay là
+những cái Data trên mạng mà thực ra nếu
+mà các bạn làm data thì thường mình sẽ
+lấy data từ trong database trong data
+warehouse nhưng mà data đó chưa Vẫn chưa
+dùng được đâu Chúng ta cần phải xử lý
+cấu trúc lại theo đúng cái nhu cầu của
+mình những bạn nào làm trong những công
+ty mà có hệ thống data tốt rồi thì rất
+là đỡ nha Còn nếu mà làm công ty mà data
+đến từ rất là nhiều nguồn thậm chí họ
+lưu trữ trong ph sale hay hay là trên
+Google Sis hay là trên những cái hệ
+thống khác từ Digital marketing xuống
+hoặc là t những cái máy những cái hệ
+thống bên ngoài thì khi đó bạn phải tốn
+rất là nhiều công sức để tổng hợp mấy
+bạn hã tư tưởng tượng là trong một pháa
+sale á Mấy bạn có thể lưu một cái column
+một cái cột á có rất là nhiều loại dữ
+liệu khác nhau thì khi bạn làm phân tích
+bạn phải xử lý một cái mới data hỗn độ
+nó đó có thể mất đến vài ngày hoặc là cả
+tuần luôn
+[Tiếng cười]
+mọi người sẽ thấy nè Làm việc với
+datasource á đi tìm data ở đâu trong
+database nào trong cái warehouse nào đã
+khó khăn rồi mà đến khi mà mình tìm được
+data rồi mà mình không có cái tài liệu
+mô tả về cái data đó thì nó khủng khiếp
+tới cỡ nào bản thân mình á đã từng trải
+qua không biết bao nhiêu là lần trong
+cái câu chuyện là data không có tài liệu
+mình không có hiểu về cái cục data mình
+lấy ra nó có ý nghĩa nào để phân tích
+luôn Sau đó mình mất cả vài ngày đến một
+tuần để làm một việc duy nhất thôi đó là
+đi tìm người tạo ra cái data đó mà mình
+không tìm được luôn Mọi người bởi vì cái
+người đó đã nghĩ rồi mọi người phải biết
+rằng là một cái data được sinh ra chắc
+chắn sẽ có người data on cái người đó là
+người define xem là chúng ta cần thu
+thập cái trường thông tin nào trong một
+cái tính năng nào bất kỳ cái thông tin
+nào đều phải có người xác định ra thì
+người đó phải chịu trách nhiệm luôn là
+define ra cái document cái tài liệu để
+mô tả về cái bản dữ liệu đó nếu mà họ
+không làm á thì chỉ có một mình họ mới
+biết về cái data đó có ý nghĩa nào thôi
+Và khi họ nghĩ đi rồi á thì ai ai sẽ giả
+cho chúng ta
+còn chúng ta là những người dùng nata
+Đôi khi mình phải đi một người hai người
+Ba người bốn người năm người vẫn chưa
+tìm được người đó luôn ch nên là cái cơn
+ác mộng này nó khủng khiếp lắm mọi người
+hãy tư tưởng tượng là mỗng ng một ngày
+Các bạn lấy một cái table ra Các bạn
+thấy là trong đó có những cái column rất
+là thú vị tên là Extra 1 Extra info 2
+Extra info 3 ủa C Nó là cái gì vậy Làm
+sao mà biết nó là ý nghĩa nào để phân
+tích đúng không một cái khó khăn tiếp
+theo đó là cũng trong cái bước thu thập
+và xử lý data đó là nếu bạn không có
+quyền truy cập vào cái data bạn cần á
+thì có thể là bạn phải đợi đến một tuần
+hai tuần bạn muốn có cái quyền để truy
+cập cái data base mà mình muốn cái điều
+này nó thầy rất thường xuyên không biết
+là mấy bạn có gặp một cái trường hợp này
+không Ví dụ như là sáng sớm sế nhờ mình
+là Hiếu ơi hôm nay em lấy cho anh cái
+thống kê xem coi là tuần vừa rồi khách
+hàng của chúng ta đến từ cái khu vực
+tỉnh thành nào nhiều nhất vậy Mình rất
+là hí ha h Hưng để trả lời cho sếp rằng
+là sơ cho em 10 phút nha Vì mình biết để
+giải quyết cái bài này Chỉ cần có 10
+phút thôi th mình bắt tay vào ngay làm
+một câu chuyện để là mình mở máy tính
+lên mình mở cái phần mềm truy vấn data
+mình mới bắt đầu viết là select from
+from from Ủa rồi r cái table
+nào Sau một hồi mình trao đổi với các
+bạn di á thì mình mới phát hiện ra rằng
+là cái table mà mình cần á lưu trữ thông
+tin về vị trí Delete Khách hàng á Nó nằm
+trong một cái database khác và mình chưa
+có cái quyền truy cập vào đó cho nên là
+để xin cái quyền truy cập này á mình
+phải qua 77 49 bước Mình viết một cái
+email cho sếp mình duyện Sau đó mình gửi
+email của mình qua cái sếp khác duyện
+sau rồi tới cái người data own đó duyệt
+mình mới có được cấp phép vào cái
+database này thì thật ra Á có những công
+ty công nghệ á những công ty về stop á
+thì cái process này nó sẽ rất là nhanh
+có thể là bạn cần 2 ngày thôi Nhưng mà
+có những công ty khác cái quy trình nó
+rùm ràng hơn có thể bạn mất một tuần hai
+tuần bạn mẫn có được cái quyền cấp phép
+vào cái data mình muốn cho nên là là sau
+đó mình phải xin lỗi sếp sếp ơi em muốn
+lắm nhưng mà cái tas này phải phụ thuộc
+vào người khác rồi em mất thêm 2i ngày
+nữa mới làm xong thì đó là một thực
+trạng mà đôi khi mọi mình cũng khá là
+buồn bởi vì khá là tiếc bởi vì là khi
+mình làm da á mình mong muốn là mình
+dành nhiều thời gian hơn cho việc phân
+tích dữ liệu tìm ra inside nhưng mà đâu
+đó Nhiều lúc mình lại mất rất là nhiều
+thời gian trong việc chờ đợi phụ thuộc
+vào người khác thì nó sẽ ảnh hưởng chung
+đến công việc của
+mình có những cái lời đồ mọi người rất
+là nghe hay thường xuyên đó là làm da
+thì 90 ph các bạn sẽ dành thời gian làm
+việc với data chỉ có 10 ph các bạn sẽ
+làm việc với con người và trong cái quá
+trình làm data đó đó thì 80 ph công sức
+các bạn sẽ dành cho câu chuyện là làm
+sạch dữ liệu và chỉ có 2 ph công sức của
+mình là dành cho việc là phân tích tìm
+insight và làm báo cáo mà thôi ban đầu
+khi nghe những cái thông tin đó thì mình
+nghĩ là à chắc mình cũng làm được bởi vì
+là bản thân mình cũng thích làm việc với
+số liệu nhưng mà trong suốt khoảng thời
+gian đi làm vừa qua mình đã tr trải qua
+không ít lần cảm giác chán chường cảm
+thấy mình thất bại bởi vì là có những
+lúc mình mất từ vài ngày cho đến vài
+tuần mới làm xong một cái bài phân tích
+và mọi người biết rồi business thì họ
+chỉ quan tâm là bạn tạo ra bao nhiêu cái
+giá trị cái ảnh hưởng tới doanh thu chi
+phí của họ thôi họ ít quan tâm tới câu
+chuyện là mình đã trải qua những khó
+khăn nào để làm được cái công việc đó
+thậm chí là kể cả sếp của bạn nhiều khi
+cũng hơi vô tâm một tí chứ đừng nói là
+những khách hàng hay những người trong
+bộ phận khác nếu bạn làm tốt á thì bạn
+sẽ được đánh giá cao còn khi mà bạn làm
+không tốt á kết quả không tạo ra nhiều
+cái impact á thì bạn thường sẽ rất dễ bị
+đánh giá thấp và trong cái câu chuyện
+này mình nghĩ bản thân mình cũng không
+có cô đưng lắm bởi vì mình biết là có
+rất là nhiều bạn làm da ở ngoài kia thậm
+chí là các bạn trên thế giới luôn á họ
+cũng rất là vất vả khó khăn với cái quá
+trình xử lý tiền xử lý dữ liệu làm sạch
+data không có nhiều cái data ở trong
+công ty mà nó gọn gàn ngăn nắp sạch sẽ
+để mọi người có thể dùng một vài cái
+thao tác click chuột bằng bơ bi hay thậm
+chí l để có thể xử lý được đâu cho nên
+là mọi người đừng có nghĩ đừng có bị
+thao túng tâm lý Bởi bởi những cái câu
+chuyện ngoài kia mà người ta nói là mấy
+bạn là da chỉ cần biết bao bị ai kéo thả
+làm được rồi Hoàn toàn không có chuyện
+đó đâu mọi người ha Mình rất là hy vọng
+các bạn đang làm da hay những bạn sắp
+choi vào lĩnh vực này á thì hãy nhớ cho
+mình một cái tiêu chí đó là đừng bao giờ
+làm việc một mình khi mấy bạn lập một
+cái lỗi trong quá trình xử lý dữ liệu
+các bạn hãy Hỏi Google hỏi chbt hỏi đồng
+nghiệp để có được kết quả nhanh nhất có
+thể khi các bạn bí ý tưởng các bạn có
+thể trao đổi với sếp của mình với khách
+hàng với team business để các bạn có
+thêm nhiều cái insight để từ đó họ cũng
+có thể hiểu được cái cái bạn đang làm có
+đúng hay không Và họ cũng cảm nhận được
+những cái khó khăn mà bạn trải qua để họ
+thấu hiểu hơn mọi người và rồi mình vừa
+than vãn với mọi người xong năm cái khó
+khăn thử thách mà mình cảm thấy là vô
+cùng vất vả khi làm công việc da này thì
+nếu các bạn đang làm nữ lực có thêm
+những cái khó khăn nào những cái thử
+thách nào muốn chia sẻ với mọi người á
+thì mọi người có thể comment bên dưới ha
+để chúng mình cùng có thể trao đổi và
+chia sẻ thêm Và nếu mọi người thấy thích
+cái video này thì nhớ ấn like cũng như
+là cho mình một Subscribe để mình có
+thêm động lực và mọi người không bỏ lại
+những video tiếp theo của mình nha và
+chào tạm biệt mọi người hẹn mọi người ở
+video kế tiếp Bye bye
+[âm nhạc]
+
+=== Summary ===
+Video chia sẻ 5 thử thách lớn nhất của Data Analyst: (1) Thiếu kiến thức chuyên ngành (domain knowledge); (2) Công ty chưa có database/system chuẩn chỉnh, phải tốn nhiều thời gian thu thập/xử lý dữ liệu; (3) Thiếu tài liệu mô tả dữ liệu (data dictionary); (4) Không có quyền truy cập dữ liệu, phải chờ đợi phê duyệt; (5) Chỉ 10-20% thời gian dành cho phân tích, còn lại là xử lý dữ liệu. Tác giả khuyên nên hỏi Google/ChatGPT/đồng nghiệp để làm việc hiệu quả hơn.
+
+=== Transcript: 0O0iHqK2fh4 ===
+mọi người nói chúng ta có thể trở thành
+DHA khi học một vài chứng chỉ online
+trên mạng mà không cần có background về
+nghề data hay là kinh nghiệm trong lĩnh
+vực phân tích dữ liệu Oh no không thể
+nào hoặc là rất là hiếm Chỉ khi bạn
+thuộc top những người xuất chúng nhất
+trong những người học đã tạo ngoài kia
+kể cả Đó là những chứng chỉ hàng đầu
+trên thế giới cũng không thể giúp bạn
+một bước có được công việc dda bởi vì
+công việc đia là cần cả một quá trình
+thực hành và luyện tập myset kiến thức
+và các kỹ năng về data Tuy nhiên có hai
+chứng chỉ sẽ cung cấp cho các bạn một
+nền tảng vững chắc về ba khía cạnh phía
+trên bước đầu nó giúp các bạn xác định
+Xem dia là làm gì vai trò và định hướng
+của nghề này ra sao từ đó xác định chính
+bản thân mình coi là thật sự mình có phù
+hợp với nghề này hay không và với một
+chi phí thấp nhất vài trăm ngàn mỗi
+tháng thậm chí là free thay vì bạn lao
+đầu vào học các trung tâm ngoài kia 10
+triệu 20 triệu quá là đắt đỏ và chưa
+Chắc bạn có đủ đam mê theo đuổi hết cái
+lộ trình đó nữa và đó là hai chứng chỉ
+Google data atlantis và ibmdator list
+đến từ hai công ty công nghệ hàng đầu
+trên thế giới với các giảng Đây là những
+người có kinh nghiệm sừng sỏ trong lĩnh
+vực này ba từ mình dùng để miêu tả về
+hai chứng chỉ này thôi đó là ngon bộ và
+rẻ phần tiếp theo mình sẽ đánh giá hai
+khóa học này dựa vào kinh nghiệm học và
+thực hành của mình qua ba cái tiêu chí
+Tổng quan về khóa học những kinh nghiệm
+và kỹ năng mình học được và các điểm
+mạnh và điểm yếu mình cảm thấy từ hai
+cái chứng chỉ này hy vọng là qua phần
+nhận xét của mình mọi người sẽ có thêm
+một góc nhìn Và từ đó chọn cho mình một
+cái chứng chỉ phù hợp nhé Ok Let's go
+vào tháng 3 năm 2021 Google đã chính
+thức ra mắt khóa học đào tạo về chuyên
+ngành data có tên gọi là Google datax
+professional
+trình để đào tạo và xây dựng những kỹ
+năng kiến thức cần có của người đi theo
+nào
+tiếp theo mình sẽ nói tới phần kiến thức
+và kỹ năng mình học được trong suốt khóa
+học của Google này nhé trong trình tán
+hóa học của chứng chỉ này bạn sẽ thấy là
+chúng ta sẽ trải qua 6 giai đoạn của quá
+trình phân tích dữ liệu hóa học đầu tiên
+đó là phòng Nation data
+Google sẽ giải thích một số khái niệm cơ
+bản trong môi trường và công việc phân
+tích dữ liệu như là giấy tờ ecosistant
+và các tiêu chuẩn tiêu chí của một người
+để tạo list từ đó bạn sẽ có được những
+kiến thức tổng quan nhất cũng như hiểu
+được vì sao Google lại chia Nội dung
+khóa học này thành 8 khóa học nhỏ nó
+tương ứng với các giai đoạn trong quá
+trình phân tích dữ liệu mà Google đã đề
+xuất khóa số 2 expression to makeson mọi
+người thường nghĩ di làm phân tích trong
+lúc xử lý data để tìm ra sai đúng không
+Nhưng mà thực tế là công việc phân tích
+đã bắt đầu ngay từ khi mà chúng ta tiếp
+nhận yêu cầu của một bài toán khóa số 3
+là rebelin data for experation Chuẩn bị
+dữ liệu sẽ là giai đoạn thứ hai trong
+quá trình phân tích dữ liệu mà Google đề
+cập bước này vô cùng quan trọng vì vậy
+là đây là một khóa học cần thiết của mọi
+người cần học qua ha tiếp theo chúng ta
+sẽ tới khóa thứ tư là process
+mình sẽ sau khi mình có được data chuẩn
+bị data rồi thì chúng ta sẽ tới giai
+đoạn là chúng ta phải làm sạch data thì
+trong khóa học này thì Google sẽ trình
+bày chúng ta các cái phương pháp để làm
+sạch dữ liệu khóa số 5 sẽ là phân tích
+dữ liệu để trả lời các câu hỏi của chúng
+ta thì ở chương này các bạn sẽ được học
+và SQL để truy vấn xử lý dữ liệu và các
+function tính toán của SQL có số 6 mình
+sẽ trình bày kết quả mình vừa làm ra có
+tên gọi là shareater
+bluezation thì chúng ta ngoài cái việc
+mà chúng ta phân tích dữ liệu với excel
+rồi với SQL rồi thì mình sẽ học các
+phương pháp trực quan hóa với table thì
+taply sẽ là cái tool mà Google sẽ dạy
+trong suốt khóa học này khóa số 7 là
+phân tích dữ liệu với ngôn ngữ rồi khóa
+số 8 là Final Craft stone Project Đây là
+cái khóa mà các bạn sẽ thực hành một cái
+project của Google ứng dụng các kỹ năng
+từ Excel sang table với O để phân tích
+dữ liệu và sau khi các bạn làm xong các
+bạn có thể đính kèm vào cái port Level
+của mình để có thể làm một cái profile
+đi xin việc OK tổng kết lại với khóa học
+của Google các bạn sẽ học được gì đầu
+tiên excel nè Thứ hai là SQL nè Thứ ba
+là twell này thứ tư ngoài ra các bạn còn
+đã được các chuyên gia của Google để
+giải thích cụ thể các bạn biết là trong
+quá trình phân tích dữ liệu chúng ta sẽ
+trải qua 6 giai đoạn và ở mỗi giai đoạn
+chúng ta sẽ sử dụng những kỹ thuật về
+data riêng và từ đó mình có thể xử lý
+được ra ta liên hệ phân tích Từ ra ta và
+mình có thể đưa ra được inside cho
+business đúng không
+Mình thấy là khóa học của Google có
+những cái điểm tốt sau đây thứ nhất Đây
+là một cái học khóa học nền tảng cung
+cấp cho các bạn mẫu kiến thức tổng quan
+một cái bức tranh về nghề để trợ lý rất
+là tốt để cho các bạn biết là trên thị
+trường công việc phân tích dữ liệu nó ra
+sao cần những kỹ năng và kiến thức nào
+và trong quá trình làm mình phải trải
+qua một googlecess như thế nào để có thể
+deliver được cái kết quả một cách tốt
+nhất và nó rất là thích hợp cho các bạn
+và mới bắt đầu tìm hiểu về nghề này số 2
+là giảng viên hướng dẫn cái khóa học này
+toàn là những cái chuyên gia của công ty
+Google thôi các bạn có thể thấy là từ
+các chuyên gia về marketing mang tính số
+liệu tới những chuyên gia trong lĩnh vực
+tài chính những người mà có sử dụng data
+thì sẽ cung cấp cho mọi người nhiều góc
+nhìn hơn và cách nó áp dụng trong thực
+tế công việc ra sao trong các cái topic
+của khóa học có rất là nhiều cái khách
+mời đến để chia sẻ cho các bạn thêm cái
+góc nhìn về cái người điều này thì để
+các bạn thấy là ngoài những diễn viên
+chính thì có những người khác có thể
+chia sẻ cho các bạn thêm để các bạn có
+thể hình dung rõ về cái nghề này hơn nữa
+nói về những điểm không tốt thì thực sự
+về các bản thân mình cảm thấy thì khóa
+học của Google này nó chỉ dừng lại cái
+mức là một cung cấp cho các bạn một cái
+phaolution về cái nghề đi chợ Alice các
+kỹ năng cần thiết nếu có là gì còn nói
+về đào tạo chuyên sâu về các kỹ năng như
+là Excel hay là SQL hay là Taplo hay là
+or cũng chỉ là cưỡi ngựa xem hoa thôi
+Thật ra thì khi mà mình học một cái ngôn
+ngữ một cái tool nào đó mình cần có rất
+nhiều thời gian cũng như là cần có rất
+là nhiều sự đầu tư trên đó cho nên là
+chỉ với khóa học này trong vòng gần 2
+tháng không thể nào các bạn có thể học
+hết được những cái chuyên sâu về những
+cái kỹ năng đó bắt buộc là các bạn phải
+học thêm cho nên là nếu mà nói là các
+bạn có thể sử dụng Thành Thục thành thạo
+những cái kỹ năng này sau khi kết thúc
+khóa học thì mình nói là sẽ không sẽ
+không có thể làm được việc đó đâu ha
+tiếp theo chúng ta sẽ nói tới khóa học
+cái tư liệu nào sắp xếp các biểu đồ đó
+thành một cái dashboard tự động và nhìn
+nó đẹp đẽ và có thể phân tích dữ liệu ở
+khóa thứ 4 và khóa thứ năm đây là hai
+khóa nói về cái chủ đề về biden Và mình
+thấy là hai khóa này thì nghĩ mình nghĩ
+là nó sẽ phù hợp hơn cho đối với những
+bạn theo đầu theo đuổi cái lĩnh vực là
+datash luôn á cho nên là nếu mà các bạn
+có cơ hội thì bạn cứ học còn nếu mà theo
+mình thì mấy bạn có thể skip cả hai khóa
+này luôn so với mấy bạn bắt tay ngay vào
+cái khóa số 6 và khóa số 7 số 8 đó là ở
+khoá số 7 các bạn học bài thần với hai
+cái thư viện là dumbai và vandas thì đây
+là hai cái thư viện xử lý số liệu quan
+trọng nhất trong cái công việc phân tích
+dữ liệu của mình khóa số 8 thì mình sẽ
+học video listen với pitton ở hai thư
+viện đó là max lock clip và shibon và
+miss you listen là một cái và cực kỳ
+quan trọng không thể nào thiếu được thì
+mình có số 8 mình phải cần thiết ha
+Ok tổng kết lại những cái gì mình học
+được trong khóa của IBM chúng ta có
+Excel chúng ta có SQL chúng ta có boy
+chúng ta có
+Ok ha Thì đó là những cái kỹ năng
+những cái phần mà lan man bên ngoài
+còn nói về những điểm không tốt so với
+khoa học của Google thì khóa học của IBM
+thì những cái bài test cuối khóa học thì
+rất là nặng nên là với góc độ là những
+người đã đi làm nhưng mình rồi thì mình
+rất ít thời gian để học có những giai
+đoạn mình cảm thấy là mình hơi bị nản
+bởi vì là mình chán làm bài tập quá
+nhiều bài tập quá mọi người cho nên là
+đó là câu 1 một cái trở ngại còn một cái
+nữa là trong khóa học của IBM thì không
+có như vậy cho mọi người về Bi ai tu Ví
+dụ như Taplo thì không có Và nếu mọi
+người muốn học về một cái BIDV mà họ
+phải học thêm một cái khóa chuyên sâu ở
+ngoài nữa còn ipn thì nó không có bao
+gồm những cái lộ trình này hết những cái
+thông tin khác mà Mình nghĩ mọi người
+cần chú ý rất là đầu tiên là nói về thời
+lượng thời lượng võ học Google Thì theo
+cái giáo án thì mọi người sẽ mất 240 giờ
+mất 140 giờ mọi người có thể theo dõi
+cái bảng thống kê này để mọi người nhìn
+thấy được cái tỷ lệ phân bổ của các kỹ
+năng nữa như các học phần về phần chi
+phí thì như mình đã đề cập rồi thì cả
+hai khóa học đều được xây dựng trên cơ
+sở ra thì để học chỉ có xảy ra thì các
+bạn phải tốn chi phí là 39 đô 1 tháng
+còn nếu các bạn muốn học free thì hãy
+xin từ NASA thì cả hai khóa học đều có
+tài trợ luôn
+và phần cuối sẽ là lời khuyên của mình
+dành cho mọi người đối tượng nào phù hợp
+nên học cái khóa học này Đầu tiên sẽ là
+những bạn mà muốn bắt đầu hành trình
+chinh phục cái nghề Phân tích dữ liệu
+chưa có nhiều kinh nghiệm kiến thức
+background và nhân vật này muốn tìm hiểu
+xem là trong cái công việc này nó có gì
+cái kỹ năng cần thiết ra sao và các
+chuyên gia trên thế giới nên họ đang nói
+gì về cái nghề này Vậy thì thật sự đây
+là hai khóa học phù hợp với bạn số 2 là
+những bạn nào muốn trau dồi cái kỹ năng
+phân tích dữ liệu với pitton thì chắc
+chắn là nên chọn khóa học của IBM Còn
+mấy bạn nào muốn học theo cái Style chỉ
+nghe nói nhiều hơn thì học khóa học của
+Google số 3 Nó sẽ phù hợp với các bạn là
+đã đi làm 1 2 năm rồi muốn mở rộng mở
+mang theo kiến thức của mình thì cũng có
+thể học để trau dồi thêm với kiến thức
+của mình về lĩnh vực này để xem coi là
+những người ngoài kia ở công ty hàng đầu
+thế giới họ đang nói gì về cái lĩnh vực
+này cái nghề này vậy cái kỹ năng cần
+phải phát triển thêm là gì thì từ đó
+mình có thể trau dồi hơn và cuối cùng là
+nó sẽ cần thiết cho những ai mà muốn bổ
+sung thêm cái profile của mình bổ sung
+lên cv của mình có thể thay cái chứng
+chỉ của công ty Google và của công ty
+IBM như vậy Những đối tượng nào mình
+nghĩ là không có phù hợp thì tới từ đầu
+tiên chắc chắn là những anh chị những
+bạn nào đã có kinh nghiệm trong cái nghề
+Phân tích dữ liệu này lâu năm rồi ba bốn
+năm rồi với bản thân mình đi khi mình đi
+làm khoảng 3 năm 4 năm mình cũng quay
+lại học hai khóa học này thì mình cái
+mình nhận được điều nhất đó là mình biết
+thêm về cái kiến thức tổng quan về cái
+đánh giá về cái góc nhìn của trên thị
+trường trên thế giới họ nhìn nhận về cái
+lĩnh vực này Công việc này ra sao Và một
+điều cuối cùng mọi người cần phải nhớ đó
+là chứng chỉ chỉ là một cái phần trong
+cái quá trình đánh giá năng lực của một
+ứng viên mà thôi Thực ra mỗi công ty
+người ta tuyển dụng một cái vị trí để tờ
+Alice thì người ta sẽ có chúng ta đem
+điện cũng như là các tiêu chí truyền
+dụng khác nhau Mình không có thể nào
+biết hết được tất cả các tiêu chí của
+một công ty đâu cho nên là có thêm một
+chứng chỉ nó sẽ giúp cái Hành Trang giúp
+cho bản thân mình tự tin hơn mình cũng
+cố thêm được kiến thức của mình thì mình
+càng giỏi hơn trong mắt nhà tuyển dụng
+còn việc trau dồi kỹ năng và kiến thức
+về lĩnh vực này thì mọi người hãy nhớ
+cho mình có 3 nhóm killset đầu tiên đó
+là anical skill thứ hai là doman elite
+và thứ ba là shop skill học gì cũng được
+nhưng mà miễn xoay quanh ba cái chủ đề
+đó thì chắc chắn bạn sẽ trở thành một đề
+tài Alice giỏi còn nói riêng về chứng
+chỉ của Google và IBM về data list này á
+thì mình nghĩ là ở thị trường Việt Nam
+thì hiện tại chưa có trường Đại học nào
+đào tạo chuyên ngành để tạo list cả cho
+nên là trong vòng 3 năm đến 5 năm tới
+thì mình nghĩ hai chứng chỉ này vẫn còn
+độ hot của nó và nó vẫn giá trị trong
+mắt nhà Tuyển dụng cũng như là cung cấp
+thêm một người rất là nhiều kinh nghiệm
+và kiến thức cho lĩnh vực này Cho nên là
+mình nghĩ học thì hoàn toàn lời chứ đâu
+có lỗ đâu mọi người và nếu các bạn nào ở
+đây đã từng hoàn thành hai chứng chỉ này
+rồi thì hãy để lại comment chia sẻ thêm
+cái cảm nhận của các bạn cho những bạn
+khác biết nha Và nếu mọi người thích
+chiếc video của mình thì hãy ấn like để
+thuật toán có YouTube có thể sớm nhận
+diện video của mình và recommen theo
+nhiều bạn mới mà bạn nào thích chủ đề
+của kênh thì cho mình một Subscribe mình
+sẽ vô cùng vui và cảm ơn các bạn đã xem
+hết video hẹn gặp mọi người ở video kế
+tiếp Bye bye
+[âm nhạc]
+
+=== Summary ===
+Video so sánh 2 chứng chỉ Google Data Analytics Professional Certificate và IBM Data Analyst Professional Certificate. Google: 240 giờ, tập trung vào Excel, SQL, Tableau, phù hợp người mới bắt đầu, có các chuyên gia Google hướng dẫn. IBM: 140 giờ, tập trung vào Excel, SQL, Python (Pandas, Matplotlib, Seaborn), phù hợp người muốn học sâu Python. Cả hai đều có thể học free qua tài trợ từ Coursera.
+
+=== Transcript: CoY8145FxFE ===
+là một người mà một tuần có 40 tiếng thì
+bạn sẽ dành hết 39.5 tiếng để có để vẽ
+biểu đồ để xử lý Data trên máy tính
+datalis là một nghề mà hot trong thời
+điểm hiện tại bạn có thể dễ dàng đạt
+được hai ba ngàn đô chỉ với 2 3 năm kinh
+nghiệm
+Hi xin chào các bạn đã đến với channel
+của mình mình là max 1 Simi ở đây tại
+Alice có gần 6 năm kinh nghiệm đi làm
+trong lĩnh vực phimtech và hôm nay mình
+sẽ chính thức gỡ rối cho tất cả các bạn
+đang quan tâm tới lĩnh vực datalis với
+kinh nghiệm là một người đi làm trong
+lĩnh vực ngân hàng ví điện tử có cơ hội
+may mắn được làm trong một cái team có
+đầy đủ các vị trí từ
+deapsda cho nên là mình sẽ giải thích
+cho tất cả mọi người một cách rõ ràng
+nhất về nghề đây là Alice là gì Day có
+vai trò như thế nào trong doanh nghiệp
+và phần cuối mình sẽ so sánh
+deadbi và Pa cho nên là mọi người nhớ
+theo dõi đến cuối nha đầu tiên data
+analys là gì để giải thích cho các bạn
+khái niệm này thì mình sẽ giải thích cho
+mọi người cái khái niệm data alasis
+trước nhé đầu tiên nói về quá trình data
+access là quá trình phân tích dữ liệu nó
+sẽ bắt đầu từ giai đoạn bạn xác định cái
+nhu cầu phân tích bài toán của mình là
+gì tiếp theo bạn cần thu thập các nguồn
+data data có sẽ có ở trong hệ thống
+database hoặc là nó có thể đến từ các
+file manally bằng cái file hoặc là trên
+Google swistant khi chúng ta đã xác định
+được các data chúng ta cần lấy rồi thì
+việc tiếp theo chúng ta cần làm là chuẩn
+bị data chuẩn bị data có nghĩa là mình
+cần làm sạch dữ liệu nè xử lý dữ liệu bị
+thiếu nè xử lý dữ liệu bị không tốt nè
+chuẩn chỉnh format nè trước khi mình đưa
+tới cái bước phân tích Thì tại Bước tiếp
+theo là bước phân tích và khai phá ra dữ
+liệu nhiệm vụ chính của chúng ta là tìm
+điểm sai Tìm các thông tin mà data có
+thể giúp spot được cho business các bài
+toán về kinh doanh về vận hành rồi sau
+khi chúng ta đã hiểu được inside của
+data rồi chúng ta có thể đến cái bước
+thứ năm đó là mình sẽ ứng dụng một số
+cái mô hình về thống kê mô hình về học
+máy để giải quyết một số cái bài toán về
+dự báo trong tương lai sau khi mình đã
+trải qua
+đưa những cái inside từ đó có thể đưa ra
+những được cái solution những giải pháp
+cho doanh nghiệp giải quyết các vấn đề
+trong kinh doanh hiện tại hoặc là vận
+hành của chúng ta thì từ cái quá trình
+đó mọi người sẽ thấy là data Altis là
+người sẽ có chức năng nhiệm vụ thu thập
+data xử lý chuẩn hóa data phân tích data
+để tìm inside từ đó có thể cung cấp được
+những giải pháp giải quyết các vấn đề
+tình hình kinh doanh của business của
+doanh nghiệp của chúng ta Đúng không cho
+nên là trong quá trình trên datalak sẽ
+có vai trò là data reperation data
+explory và communication is inside còn
+cái bước mà làm data Model link thì nó
+sẽ tùy thuộc vào vị trí công việc của
+bạn có yêu cầu giải quyết các bài toán
+về dự báo hay không và thông thường Công
+việc này sẽ rất là hiếm cho vị trí die
+mà nó sẽ thiên về cái vị trí DS home vậy
+vai trò của Dead thực tế xảy ra sao Thật
+ra nói về ứng dụng của data thì nó đã có
+từ rất là lâu rồi có thể là 20 năm về
+trước 30 về trước người ta vẫn dùng data
+trong công việc quản lý doanh nghiệp
+nhưng mà trong thời điểm mà Hiện nay
+công nghệ phát triển hơn doanh nghiệp
+cần có data để đưa ra quyết định một
+cách chính xác và nhanh chóng kịp thời
+hơn thì vì thế vị trí đang chờ Alice
+ngày càng trở nên hot bạn có thể dễ dàng
+nhìn thấy trong các công ty về lĩnh vực
+tài chính ngân hàng ví điện tử những sàn
+thương mại Logistic người ta ứng dụng đã
+ra rất là nhiều và trong các công ty này
+thì nền tảng data của họ rất là vững
+mạnh họ có xây dựng một cái hệ thống tốt
+và cơ hội của nghề da thì càng có nhiều
+cơ hội rộng mở hơn có thể chia vai trò
+của data trong doanh nghiệp thành hai
+mảng đầu tiên là vị trí hỗ trợ các bài
+toán trong mạng visit internation hiểu
+nôm na busintedition là việc ứng dụng đã
+các kỹ thuật công nghệ để chuyển hóa dữ
+liệu thô thành các inside để phục vụ các
+bài toán trong business để giúp unes trả
+lời các câu hỏi là nên đưa ra quyết định
+như thế nào ở thời điểm hiện tại ví dụ
+shopee đang chạy xe 11 tháng 11 và trong
+12 giờ đầu tiên thì
+trên marketing thấy là chỉ đạt khoảng
+30% kpi Thôi thì bây giờ chúng ta nên
+Action như thế nào thì lúc đó chúng ta
+cần có data đi ra quyết định và chúng ta
+cần data gì đầu tiên là chúng ta muốn
+biết xem là ngành hàng nào đang chạy
+không tốt thứ hai là phân khúc khách
+hàng nào đang chưa hiệu quả và thứ ba
+này chúng ta nên xúc tiến các phương
+pháp nào cung cấp thêm khuyến mãi hay là
+không để trả lời những câu hỏi đó có
+phải là chúng ta cần dùng data không Và
+khi đó vị trí datalid sẽ là người truy
+vấn data trong hệ thống ra tính toán các
+Magic mà bạn cần để đưa ra số liệu trình
+bày trong báo cáo để giúp cho business
+có thể là đưa ra quyết định một cách tốt
+nhất nên chọn các Phương phán là khuyến
+mãi như thế nào mà cho ngành hàng nào
+trong thời điểm nào để cải thiện cái
+tình hình hiện tại của business lúc đó
+số 2 ngoài câu chuyện giải quyết các vấn
+đề ở hiện tại thì da còn có khả năng
+giúp đỡ doanh nghiệp có thể giải quyết
+những bài toán về dự báo trong tương lai
+cụ thể là sẽ ứng dụng dạng phân tích
+redstis và có thể dự trù trong kinh
+doanh Ví dụ như là công ty cần lên kế
+hoạch cho năm sau là chuẩn bị bao nhiêu
+nguồn nhân lực với tốc độ phát triển của
+hiện tại thì dự đoán trong năm sau chúng
+ta sẽ đạt được bao nhiêu phần trăm kba
+rồi chúng ta nên chọn loại phân khúc
+khách hàng nào để phát chương trình
+khuyến mãi để giúp trải nghiệm người
+dùng khách hàng được tăng lên chúng ta
+nên chọn những loại sản phẩm nào đi bán
+kèm với nhau để tăng doanh thu hơn đó là
+những cái ví dụ thực tiễn trong cái việc
+là giải quyết những bài toán về dự báo
+có thể thấy rằng vai trò của người die
+là một câu nói vô cùng quan trọng giữa
+data và các quyết định trong kinh doanh
+Vì vậy một doanh nghiệp muốn phát triển
+thì họ phải ứng dụng được data trong quá
+khứ Hiện Tại Và cả tương lai nữa tất cả
+những quyết định được điều tra ở dựa
+trên số liệu có bằng chứng chứng cứ rõ
+ràng chứ không phải là dựa trên cảm tính
+của những người đứng đầu giống như lúc
+trước nữa đúng không tiếp theo chúng ta
+sẽ nói tới câu chuyện là các nhóm kỹ
+năng và kiến thức cần có của một data
+analys thì theo mình sẽ chia ra làm 3
+nhóm kỹ năng và kiến thức thứ nhất là
+technical skill thứ hai là domenolice và
+thứ ba và sub
+thì các bạn cần phải biết ít nhất một
+trong số các ngôn ngữ phân tích và xử lý
+dữ liệu sau đây đầu tiên là SQL nè Thứ
+hai chúng ta có pitton hoặc là all Kế
+đến bạn cần có kỹ năng sử dụng được các
+business & tellithant
+những yếu tố Thứ hai chúng ta nói đến là
+yếu tố về kiến thức trong phần kiến thức
+này thì mình sẽ có hai nhánh đầu tiên là
+dominolice của bạn thiên về cái chuyên
+môn mà bạn sẽ làm trong lĩnh vực đó ví
+dụ bạn muốn làm phân tích dữ liệu cho
+Marketing thì bạn phải biết về marketing
+bạn muốn làm dữ liệu cho bảng
+appleration hay là Finance thì bạn phải
+có kiến thức về finalsperation đồng thời
+Ngoài ra bạn cần có nắm vững thêm lý
+thuyết về sáng suốt thống kê bởi vì đây
+là cái lý thuyết cơ bản để giúp bạn hiểu
+được tính chất của dữ liệu để bạn hiểu
+và phân tích đúng dữ liệu hơn nhóm yếu
+tố cuối cùng là sub
+phần kỹ năng mềm này mình có đề xuất ra
+một số kỹ năng tiên quyết ví dụ như là
+bạn phải có khả năng communication giao
+tiếp một cách hiệu quả giữa bạn với đồng
+nghiệp của bạn hoặc là giữa bạn với
+khách hàng hoặc là với sếp của mình
+ngoài ra mình cần có một kỹ năng giữ vấn
+đề tốt với phòng solvin để có thể đề ra
+được một cái chiến lược phân tích dữ
+liệu đúng đắn và nhanh nhất có thể Lucy
+sẽ giúp cho chúng ta có thể tư duy được
+tốt hơn trong các bạn phân tích và cái
+cuối cùng là cái khả năng predition cũng
+như là cách mà mình trình bày thuyết
+trình kể câu chuyện với data một cách
+mạch lạc thuyết phục trước đối tượng
+người xem của mình là khách hàng hoặc là
+sếp của mình khi mà mình muốn thuyết
+thuyết phục họ nghe theo cái bài phân
+tích của mình rồi rồi rồi vậy da khác gì
+với dsba và bi đầu tiên DS là datage là
+nhà khoa học dữ liệu mà đã gọi là nhà
+khoa học rồi thì sẽ thiên hướng nghiêng
+về nghiên cứu nhiều hơn là business cụ
+thể công việc của DS là ứng dụng data để
+chuyên giải quyết các bài toán về dự báo
+ví dụ
+khi bạn đăng ký một tài khoản ngân hàng
+có yêu cầu xác thực ở kwc bạn phải chụp
+hình chứng minh nhân dân cũng như là cái
+hình selfie của mình thì cái mô hình để
+xem coi kiểm tra coi là cái hình selfie
+của bạn có max với các hình trên chứng
+minh nhân dân không á Nó được xây dựng
+bởi những người đi tờ sandis họ phải xây
+dựng ra mô hình dự đoán xem coi là với
+cái điểm số về cái khả năng chính xác
+này thì cái mặt của bạn hình selfie của
+bạn có giống với hình giống ai căn cước
+công dân hay không Nếu giống thì bạn sẽ
+được xác thực thành công Còn nếu không
+thì bạn sẽ bị chặn lại dịch ra lại vì
+thế mà người DS cần rất nhiều skill về
+Granny với lại ngôn ngữ lập trình họ rất
+là vững vàng về kiến thức Toán mọi sinh
+lên đi Lênin các dự án của DS thì thường
+kéo dài từ 6 tháng đến 1 năm và hơn thế
+nữa chứ không phải là các công việc giải
+quyết các vấn đề ép hot của visit thời
+điểm hiện tại như là da tiếp theo là
+bios tức là người phân tích kinh doanh
+thì công việc cũng sẽ gần giống như vai
+trò của người data analys nhưng mà họ sẽ
+thiên về các cái công việc phân tích
+giải quyết các vấn đề về busip đang gặp
+phải ở thời điểm hiện tại họ ít invôn
+vào những cái bài toán bị dự báo cho nên
+là mọi người sẽ thấy là bios thì phải đi
+kèm với business thường xuyên lúc nào
+visit cần data thì beels phải lấy được
+data phải có được báo cáo để đưa số liệu
+ra để giúp bus giải quyết được cái bài
+toán đó kịp thời nhanh chóng cuối cùng
+ba là business analys Thật ra các khái
+niệm này thì nó không quen với bạn data
+lắm Bởi vì người ta thường gọi bas là ám
+chỉ tới vị trí là it busive and Alice
+tức là người phân tích nghiệp vụ hệ
+thống thì với cái vị trí này á thì nhiệm
+vụ chính của người via là những người am
+hiểu về sản phẩm về hệ thống nhất để tư
+vấn các giải pháp cho khách hàng và từ
+đó họ và câu nói giữa khách hàng với cái
+team technical team tức là team lập
+trình những người developer để xây dựng
+lên sản phẩm đó họ có nhiệm vụ là
+Transfer họ chuyển quá Cái yêu cầu đó
+cho những người lập trình họ hiểu họ xây
+dựng lên hệ thống những cái giải pháp đó
+cho nên là kỹ năng của những người B ấy
+là họ phải rất là rành về hệ thống họ
+hiểu được quá trình làm việc của đội
+textical và họ có khả năng lưu trữ dog
+Human lại những cái tài liệu để đảm bảo
+cho là cái quá trình xây dựng Thiết kế
+những cái sản phẩm những giải pháp đó Nó
+chuẩn chỉnh và nó có thể đảm bảo được
+tiến độ đúng cái yêu cầu business Ok
+chốt lại các nội dung của video ngày hôm
+nay là một da là người biết sử dụng các
+công cụ phân tích dữ liệu xử lý data
+trực văn hóa dữ liệu để tìm ra inside từ
+đó có thể đưa ra được những giải pháp
+cải thiện tình hình vận hành kinh doanh
+của business trong cả Hiện Tại Và cả
+tương lai số 2 vai trò của da thì luôn
+gắn liền với business DS khác với DHA ở
+chỗ là họ thiên về nghiên cứu họ cần
+phải biết nhiều toán mời xin Lênin và
+Deep Lênin để giải quyết các bài toán
+chuyên về dự đoán bi ai khác với da ở
+chỗ là họ cần tập trung giải quyết các
+vấn đề business ở hiện tại càng nhanh
+càng tốt một cách kịp thời còn nói về Pa
+là nhắc tới
+it business analys nha mọi người
+điều đó là tất cả những chia sẻ dựa trên
+kinh nghiệm và kiến thức của bản thân
+mình còn mọi người có suy nghĩ như thế
+nào hãy để lại comment cho mình và các
+bạn khác biết nha Và nếu mọi người thấy
+chiếc video này hay thì hãy nhớ ấn like
+cho mình cũng như là Follow kênh của
+mình để cho YouTube có thể nhận diện
+được Đây là một thông điệp hay và giúp
+mình có thể chia sẻ được với nhiều khán
+giả các bạn hơn Cảm ơn mọi người đã theo
+dõi và hẹn mọi người ở video tiếp theo
+Bye bye
+
+=== Summary ===
+Video giải thích chi tiết nghề Data Analyst: quá trình phân tích dữ liệu (xác định vấn đề → thu thập → chuẩn bị → phân tích → trình bày), các nhóm kỹ năng cần có (technical skill: SQL/Python/BI tools, domain knowledge, soft skills: communication/problem solving/presentation). So sánh DA vs Data Scientist (DS thiên về nghiên cứu/mô hình dự báo) vs Business Analyst (BA thiên về nghiệp vụ/business requirements).
+
+==================================================
+=== OVERALL SUMMARY ===
+
+Tất cả 8 video đều được tạo bởi tác giả Mask - một Data Analyst với 6 năm kinh nghiệm tại VNG, Techbank. 
+
+Nội dung chính xoay quanh:
+1. Lộ trình tự học Data Analytics 6 tháng với AI (Excel → SQL → Power BI → Python → Machine Learning → Portfolio)
+2. Các kỹ năng cốt lõi: Tư duy phân tích (Analytical thinking), Thống kê kinh doanh, Trực quan hóa dữ liệu, Kỹ năng trình bày
+3. Giới thiệu tài liệu học tập: 9 quyển sách tâm đắc (Data Science for Business, Storytelling with Data, Statistics for Data Scientists...)
+4. Thực trạng nghề nghiệp: Mức lương DA (12-40 triệu), cấu trúc team data, các vị trí (DA, DS, DE, BA)
+5. Thử thách: Xử lý dữ liệu không chuẩn, thiếu domain knowledge, quy trình phức tạp
+6. Chứng chỉ: So sánh Google Data Analytics vs IBM Data Analyst Professional Certificate
+7. Ứng dụng AI trong công việc: ChatGPT, Claude, Perplexity để hỗ trợ code, research, tự động hóa
+
+Thông điệp xuyên suốt: DA giỏi không chỉ giỏi công cụ mà còn cần tư duy logic, kiến thức thống kê vững chắc và kỹ năng mềm tốt.

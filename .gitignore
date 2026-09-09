@@ -34,3 +34,36 @@ Thumbs.db
 Desktop.ini
 ~$*
 *.tmp
+
+# Media and binary assets (kept local, not for GitHub)
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.aac
+*.ogg
+*.mka
+*.mp4
+*.mkv
+*.webm
+*.pdf
+*.djvu
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.torrent
+*.apkg
+
+# Local tool caches and scratch dirs
+.npm-cache/
+.agents/
+.tmp/
+
+# Large model binaries (kept local)
+*.bin
+*.onnx
+*.safetensors
+*.pt

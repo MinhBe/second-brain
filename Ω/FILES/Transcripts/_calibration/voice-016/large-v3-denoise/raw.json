@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "source": "C:\\Users\\Admin\\Documents\\Collection\\Data\\Recording\\Voice 016.m4a",
+  "source_sha256": "0c7a0131faaa129898ec1f89631d9f4141ec7879c1daf6696db0726c88985484",
+  "duration_s": 300.0123125,
+  "config": {
+    "version": 1,
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "beam_size": 5,
+    "denoise": true,
+    "language": "vi",
+    "prompt": "",
+    "chunk_seconds": 600,
+    "limit_seconds": 300.0,
+    "vad_filter": true,
+    "vad_parameters": {
+      "min_silence_duration_ms": 500,
+      "speech_pad_ms": 200
+    },
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "temperature": [
+      0,
+      0.2,
+      0.4
+    ],
+    "best_of": 5,
+    "faster_whisper": "1.2.1",
+    "ctranslate2": "4.7.2"
+  },
+  "run_key": "51f3afc38d7b5eda3f2c25ad55b24359dfac398c0045ee9a73428c42f59ed5ad",
+  "status": "asr_complete",
+  "created": "2026-09-08T16:40:31.788281+00:00",
+  "processing_s": 28.33082579995971,
+  "segments": [
+    {
+      "id": "S00001",
+      "seek": 0,
+      "start": 26.07,
+      "end": 51.86,
+      "text": "Hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+      "avg_logprob": -0.26637619504561794,
+      "compression_ratio": 1.0163934426229508,
+      "no_speech_prob": 0.82421875,
+      "words": [
+        {
+          "start": 26.07,
+          "end": 27.27,
+          "word": " Hãy",
+          "probability": 0.4237060546875
+        },
+        {
+          "start": 27.61,
+          "end": 27.71,
+          "word": " đăng",
+          "probability": 0.6202392578125
+        },
+        {
+          "start": 27.71,
+          "end": 27.95,
+          "word": " ký",
+          "probability": 0.92333984375
+        },
+        {
+          "start": 27.95,
+          "end": 27.99,
+          "word": " kênh",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 27.99,
+          "end": 27.99,
+          "word": " để",
+          "probability": 0.9453125
+        },
+        {
+          "start": 27.99,
+          "end": 30.01,
+          "word": " ủng",
+          "probability": 0.90576171875
+        },
+        {
+          "start": 31.86,
+          "end": 36.74,
+          "word": " hộ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 39.18,
+          "end": 39.28,
+          "word": " kênh",
+          "probability": 0.97509765625
+        },
+        {
+          "start": 39.28,
+          "end": 39.28,
+          "word": " của",
+          "probability": 0.6640625
+        },
+        {
+          "start": 39.28,
+          "end": 39.28,
+          "word": " mình",
+          "probability": 0.77294921875
+        },
+        {
+          "start": 45.12,
+          "end": 51.86,
+          "word": " nhé.",
+          "probability": 0.99755859375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": "S00002",
+      "seek": 3000,
+      "start": 87.94,
+      "end": 133.38,
+      "text": "Hãy đăng ký kênh để ủng hộ kênh của mình nhé!",
+      "avg_logprob": -0.23963341059593055,
+      "compression_ratio": 1.0163934426229508,
+      "no_speech_prob": 0.84033203125,
+      "words": [
+        {
+          "start": 87.94,
+          "end": 89.34,
+          "word": " Hãy",
+          "probability": 0.49468994140625
+        },
+        {
+          "start": 91.95,
+          "end": 92.27,
+          "word": " đăng",
+          "probability": 0.6783447265625
+        },
+        {
+          "start": 92.27,
+          "end": 94.89,
+          "word": " ký",
+          "probability": 0.96044921875
+        },
+        {
+          "start": 124.8,
+          "end": 126.34,
+          "word": " kênh",
+          "probability": 0.9949544270833334
+        },
+        {
+          "start": 126.34,
+          "end": 126.34,
+          "word": " để",
+          "probability": 0.955078125
+        },
+        {
+          "start": 126.34,
+          "end": 127.92,
+          "word": " ủng",
+          "probability": 0.86572265625
+        },
+        {
+          "start": 130.91,
+          "end": 131.49,
+          "word": " hộ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 132.72,
+          "end": 132.86,
+          "word": " kênh",
+          "probability": 0.9775390625
+        },
+        {
+          "start": 132.86,
+          "end": 133.0,
+          "word": " của",
+          "probability": 0.70751953125
+        },
+        {
+          "start": 133.0,
+          "end": 133.38,
+          "word": " mình",
+          "probability": 0.73193359375
+        },
+        {
+          "start": 133.38,
+          "end": 133.38,
+          "word": " nhé!",
+          "probability": 0.9970703125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": "S00003",
+      "seek": 6000,
+      "start": 163.96,
+      "end": 203.14,
+      "text": "Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn",
+      "avg_logprob": -0.22410301036304897,
+      "compression_ratio": 0.9347826086956522,
+      "no_speech_prob": 0.93505859375,
+      "words": [
+        {
+          "start": 163.96,
+          "end": 164.92,
+          "word": " Hãy",
+          "probability": 0.50146484375
+        },
+        {
+          "start": 165.44,
+          "end": 165.44,
+          "word": " subscribe",
+          "probability": 0.55322265625
+        },
+        {
+          "start": 165.44,
+          "end": 165.5,
+          "word": " cho",
+          "probability": 1.0
+        },
+        {
+          "start": 165.5,
+          "end": 165.98,
+          "word": " kênh",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 165.98,
+          "end": 166.08,
+          "word": " La",
+          "probability": 0.1995849609375
+        },
+        {
+          "start": 167.64,
+          "end": 168.9,
+          "word": " La",
+          "probability": 0.9814453125
+        },
+        {
+          "start": 168.9,
+          "end": 168.9,
+          "word": " School",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 168.9,
+          "end": 169.18,
+          "word": " Để",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 187.59,
+          "end": 187.77,
+          "word": " không",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 187.77,
+          "end": 188.05,
+          "word": " bỏ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 188.05,
+          "end": 188.43,
+          "word": " lỡ",
+          "probability": 1.0
+        },
+        {
+          "start": 189.89,
+          "end": 191.05,
+          "word": " những",
+          "probability": 1.0
+        },
+        {
+          "start": 191.58,
+          "end": 192.38,
+          "word": " video",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 192.94,
+          "end": 195.86,
+          "word": " hấp",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 199.9,
+          "end": 203.14,
+          "word": " dẫn",
+          "probability": 1.0
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "eb8073ef434214d03d1630e3a0236d1dd00f4ce84b371241e5a0e68b4f3b3aad"
+}

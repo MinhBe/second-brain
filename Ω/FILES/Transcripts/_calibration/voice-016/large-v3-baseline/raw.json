@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "source": "C:\\Users\\Admin\\Documents\\Collection\\Data\\Recording\\Voice 016.m4a",
+  "source_sha256": "0c7a0131faaa129898ec1f89631d9f4141ec7879c1daf6696db0726c88985484",
+  "duration_s": 300.0123125,
+  "config": {
+    "version": 1,
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "beam_size": 5,
+    "denoise": false,
+    "language": "vi",
+    "prompt": "",
+    "chunk_seconds": 600,
+    "limit_seconds": 300.0,
+    "vad_filter": true,
+    "vad_parameters": {
+      "min_silence_duration_ms": 500,
+      "speech_pad_ms": 200
+    },
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "temperature": [
+      0,
+      0.2,
+      0.4
+    ],
+    "best_of": 5,
+    "faster_whisper": "1.2.1",
+    "ctranslate2": "4.7.2"
+  },
+  "run_key": "83dd99ea91abb0ec8bd732db84cbfafd3ad8a14035512546613cfb2ebfa6583d",
+  "status": "asr_complete",
+  "created": "2026-09-08T16:40:02.182291+00:00",
+  "processing_s": 73.93696740001906,
+  "segments": [
+    {
+      "id": "S00001",
+      "seek": 0,
+      "start": 21.5,
+      "end": 34.95,
+      "text": "Em hôm nay 18 tháng 7, xe tập truyện đến nơi 12h30.",
+      "avg_logprob": -0.5048668296610723,
+      "compression_ratio": 1.945054945054945,
+      "no_speech_prob": 0.266845703125,
+      "words": [
+        {
+          "start": 21.5,
+          "end": 21.62,
+          "word": " Em",
+          "probability": 0.2060546875
+        },
+        {
+          "start": 21.62,
+          "end": 24.0,
+          "word": " hôm",
+          "probability": 0.55670166015625
+        },
+        {
+          "start": 24.0,
+          "end": 24.22,
+          "word": " nay",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 24.22,
+          "end": 24.48,
+          "word": " 18",
+          "probability": 0.40576171875
+        },
+        {
+          "start": 24.48,
+          "end": 24.66,
+          "word": " tháng",
+          "probability": 0.6116943359375
+        },
+        {
+          "start": 24.66,
+          "end": 24.7,
+          "word": " 7,",
+          "probability": 0.051727294921875
+        },
+        {
+          "start": 25.26,
+          "end": 26.4,
+          "word": " xe",
+          "probability": 0.5218505859375
+        },
+        {
+          "start": 28.88,
+          "end": 29.24,
+          "word": " tập",
+          "probability": 0.460693359375
+        },
+        {
+          "start": 29.24,
+          "end": 29.44,
+          "word": " truyện",
+          "probability": 0.5547688802083334
+        },
+        {
+          "start": 29.44,
+          "end": 30.1,
+          "word": " đến",
+          "probability": 0.355712890625
+        },
+        {
+          "start": 33.31,
+          "end": 34.09,
+          "word": " nơi",
+          "probability": 0.86572265625
+        },
+        {
+          "start": 34.09,
+          "end": 34.95,
+          "word": " 12h30.",
+          "probability": 0.8058268229166666
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": "S00002",
+      "seek": 0,
+      "start": 35.25,
+      "end": 52.62,
+      "text": "Trình truyền về những chương trình ngày thành lập truyền thống bác tư yêu.",
+      "avg_logprob": -0.5048668296610723,
+      "compression_ratio": 1.945054945054945,
+      "no_speech_prob": 0.266845703125,
+      "words": [
+        {
+          "start": 35.25,
+          "end": 35.75,
+          "word": " Trình",
+          "probability": 0.2537841796875
+        },
+        {
+          "start": 46.2,
+          "end": 47.82,
+          "word": " truyền",
+          "probability": 0.5751139322916666
+        },
+        {
+          "start": 47.82,
+          "end": 47.92,
+          "word": " về",
+          "probability": 0.2255859375
+        },
+        {
+          "start": 47.92,
+          "end": 48.08,
+          "word": " những",
+          "probability": 0.290771484375
+        },
+        {
+          "start": 48.08,
+          "end": 48.54,
+          "word": " chương",
+          "probability": 0.841064453125
+        },
+        {
+          "start": 48.54,
+          "end": 48.76,
+          "word": " trình",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 48.76,
+          "end": 49.58,
+          "word": " ngày",
+          "probability": 0.76025390625
+        },
+        {
+          "start": 50.84,
+          "end": 51.0,
+          "word": " thành",
+          "probability": 0.962890625
+        },
+        {
+          "start": 51.0,
+          "end": 51.24,
+          "word": " lập",
+          "probability": 0.88623046875
+        },
+        {
+          "start": 51.24,
+          "end": 51.44,
+          "word": " truyền",
+          "probability": 0.7967122395833334
+        },
+        {
+          "start": 51.44,
+          "end": 51.68,
+          "word": " thống",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 51.68,
+          "end": 52.3,
+          "word": " bác",
+          "probability": 0.23779296875
+        },
+        {
+          "start": 52.3,
+          "end": 52.44,
+          "word": " tư",
+          "probability": 0.62744140625
+        },
+        {
+          "start": 52.44,
+          "end": 52.62,
+          "word": " yêu.",
+          "probability": 0.66455078125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": "S00003",
+      "seek": 0,
+      "start": 52.88,
+      "end": 63.12,
+      "text": "Hôm sau, ngày 12 tháng 9, truyền thống bác tư yêu.",
+      "avg_logprob": -0.5048668296610723,
+      "compression_ratio": 1.945054945054945,
+      "no_speech_prob": 0.266845703125,
+      "words": [
+        {
+          "start": 52.88,
+          "end": 53.26,
+          "word": " Hôm",
+          "probability": 0.54827880859375
+        },
+        {
+          "start": 54.08,
+          "end": 54.1,
+          "word": " sau,",
+          "probability": 0.619140625
+        },
+        {
+          "start": 54.38,
+          "end": 54.84,
+          "word": " ngày",
+          "probability": 0.2646484375
+        },
+        {
+          "start": 54.84,
+          "end": 55.2,
+          "word": " 12",
+          "probability": 0.271484375
+        },
+        {
+          "start": 55.2,
+          "end": 55.48,
+          "word": " tháng",
+          "probability": 0.95263671875
+        },
+        {
+          "start": 55.48,
+          "end": 55.68,
+          "word": " 9,",
+          "probability": 0.97607421875
+        },
+        {
+          "start": 59.01,
+          "end": 60.71,
+          "word": " truyền",
+          "probability": 0.683349609375
+        },
+        {
+          "start": 62.52,
+          "end": 62.68,
+          "word": " thống",
+          "probability": 0.9716796875
+        },
+        {
+          "start": 62.68,
+          "end": 62.9,
+          "word": " bác",
+          "probability": 0.93701171875
+        },
+        {
+          "start": 62.9,
+          "end": 62.96,
+          "word": " tư",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 62.96,
+          "end": 63.12,
+          "word": " yêu.",
+          "probability": 0.9990234375
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": "S00004",
+      "seek": 0,
+      "start": 65.53,
+      "end": 78.87,
+      "text": "Nhưng mà trường bác tư yêu, trường bác tư yêu, trường bác tư yêu, trường bác tư yêu, trường bác tư yêu.",
+      "avg_logprob": -0.5048668296610723,
+      "compression_ratio": 1.945054945054945,
+      "no_speech_prob": 0.266845703125,
+      "words": [
+        {
+          "start": 65.53,
+          "end": 66.03,
+          "word": " Nhưng",
+          "probability": 0.75341796875
+        },
+        {
+          "start": 67.36,
+          "end": 67.48,
+          "word": " mà",
+          "probability": 0.7431640625
+        },
+        {
+          "start": 67.48,
+          "end": 68.14,
+          "word": " trường",
+          "probability": 0.484130859375
+        },
+        {
+          "start": 68.14,
+          "end": 68.34,
+          "word": " bác",
+          "probability": 0.39178466796875
+        },
+        {
+          "start": 68.34,
+          "end": 68.34,
+          "word": " tư",
+          "probability": 0.913818359375
+        },
+        {
+          "start": 68.34,
+          "end": 68.34,
+          "word": " yêu,",
+          "probability": 0.88623046875
+        },
+        {
+          "start": 68.46,
+          "end": 68.68,
+          "word": " trường",
+          "probability": 0.6600341796875
+        },
+        {
+          "start": 68.68,
+          "end": 68.68,
+          "word": " bác",
+          "probability": 0.9140625
+        },
+        {
+          "start": 68.68,
+          "end": 68.82,
+          "word": " tư",
+          "probability": 0.988037109375
+        },
+        {
+          "start": 68.82,
+          "end": 68.9,
+          "word": " yêu,",
+          "probability": 0.962890625
+        },
+        {
+          "start": 72.21,
+          "end": 72.89,
+          "word": " trường",
+          "probability": 0.8349609375
+        },
+        {
+          "start": 72.89,
+          "end": 73.61,
+          "word": " bác",
+          "probability": 0.962890625
+        },
+        {
+          "start": 73.61,
+          "end": 74.05,
+          "word": " tư",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 74.05,
+          "end": 74.11,
+          "word": " yêu,",
+          "probability": 0.984375
+        },
+        {
+          "start": 74.11,
+          "end": 74.13,
+          "word": " trường",
+          "probability": 0.919921875
+        },
+        {
+          "start": 74.13,
+          "end": 74.99,
+          "word": " bác",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 74.99,
+          "end": 75.07,
+          "word": " tư",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 75.07,
+          "end": 75.13,
+          "word": " yêu,",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 75.19,
+          "end": 77.21,
+          "word": " trường",
+          "probability": 0.937255859375
+        },
+        {
+          "start": 77.21,
+          "end": 77.79,
+          "word": " bác",
+          "probability": 0.992431640625
+        },
+        {
+          "start": 77.79,
+          "end": 78.31,
+          "word": " tư",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 78.31,
+          "end": 78.87,
+          "word": " yêu.",
+          "probability": 0.98681640625
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": "S00005",
+      "seek": 3000,
+      "start": 80.89,
+      "end": 106.22,
+      "text": "Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn",
+      "avg_logprob": -0.25028934522911356,
+      "compression_ratio": 0.9347826086956522,
+      "no_speech_prob": 0.5068359375,
+      "words": [
+        {
+          "start": 80.89,
+          "end": 81.61,
+          "word": " Hãy",
+          "probability": 0.611328125
+        },
+        {
+          "start": 82.33,
+          "end": 82.41,
+          "word": " subscribe",
+          "probability": 0.86572265625
+        },
+        {
+          "start": 82.41,
+          "end": 82.43,
+          "word": " cho",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 82.43,
+          "end": 83.67,
+          "word": " kênh",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 83.67,
+          "end": 83.97,
+          "word": " La",
+          "probability": 0.0628662109375
+        },
+        {
+          "start": 83.97,
+          "end": 85.29,
+          "word": " La",
+          "probability": 0.97119140625
+        },
+        {
+          "start": 86.97,
+          "end": 87.79,
+          "word": " School",
+          "probability": 1.0
+        },
+        {
+          "start": 91.74,
+          "end": 91.98,
+          "word": " Để",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 91.98,
+          "end": 92.24,
+          "word": " không",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 92.24,
+          "end": 94.32,
+          "word": " bỏ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 100.82,
+          "end": 102.38,
+          "word": " lỡ",
+          "probability": 1.0
+        },
+        {
+          "start": 103.9,
+          "end": 103.92,
+          "word": " những",
+          "probability": 1.0
+        },
+        {
+          "start": 103.92,
+          "end": 105.04,
+          "word": " video",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 105.5,
+          "end": 106.12,
+          "word": " hấp",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 106.12,
+          "end": 106.22,
+          "word": " dẫn",
+          "probability": 1.0
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "2f9e71aa778f270eee0436eb905a84745612c27408348708b694242000e5bfa2"
+}

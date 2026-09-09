@@ -1,0 +1,9 @@
+[R1 29:43]
+[âm nhạc] Phần sáu, khi nào nên buông tay? Nghệ thuật giải thoát khỏi người không dành cho bạn. Đây có lẽ là chương khó nuốt nhất của cuốn sách nhưng cũng là chương cần thiết nhất. Nó buộc chúng ta phải đối mặt với một sự thật trần trụi mà không ai muốn thừa nhận. Đôi khi tình yêu là không đủ. Levin mở đầu bằng câu chuyện đầy ám ảnh của Masa và CR, một ví dụ điển hình cho cái bẫy lo âu né tránh ở mức cực đoan. CR liên tục hạ thấp Masa, so sánh cô một cách tàn nhẫn với vợ cũ và công khai thờ ơ với cô trước đám đông. Một người ngoài cuộc sẽ thốt lên tại sao cô ấy không bỏ Quách anh ta đi nhưng Masa không thể.
+
+[R1 30:25]
+Tại sao chúng ta lại bám víu lấy người làm tổn thương mình? Levin giải thích dưới góc độ khoa học thần kinh khi hệ thống gắn kết kích hoạt ở mức báo động đỏ do sự bất an liên tục, khả năng rời bỏ mối quan hệ gần như bị tê liệt. Não bộ chúng ta được lập trình từ thời nguyên thủy để coi sự chia ly là một mối đe dọa sinh tồn. Các bản trục cộng hưởng từ cho thấy nỗi đau khi chia tay kích hoạt cùng một vùng não xử lý nỗi đau thẻ xác như [âm nhạc] gãy chân. Vì vậy khi ta nói tim tôi tan nát, não bộ thực sự cảm nhận nỗi đau đó chân thật như một vết thương vật lý. Tuy nhiên, Levin [âm nhạc] khẳng định việc rời đi đau đớn không có nghĩa là bạn nên ở lại.
+
+[R1 31:05]
+Ông đưa ra một bài kiểm tra thực tế tàn nhẫn. Bạn đang được đối xử như một nữ hoàng, nhà vua hay như một kẻ thù. Dưới đây là những dấu hiệu cho thấy bạn đang sống chung với kẻ thù trong chính mối quan hệ của mình. Một sự xấu hổ bí mật bạn không dám kể cho bạn bè. Người thân nghe chi tiết về cách đối phương đối xử với bạn vì sợ họ sẽ phán xét hoặc khuyên bạn chia tay. Hai, thua kém người lạ, đối phương lịch sự, tử tế với người lạ hơn là với bạn. Ba, vắng mặt khi nguy cấp. Bạn không dám chắc liệu họ có xuất hiện khi bạn gặp tai nạn hay khủng hoảng hay không. Vốn bị hạ thấp giá trị, bạn thường xuyên bị chỉ trích, mỉa mai hoặc bị so sánh tiêu cực với người khác.
+

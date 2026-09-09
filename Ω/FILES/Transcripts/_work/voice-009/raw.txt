@@ -1,0 +1,451 @@
+[00:00:00] Các thầy mình còn đợi ai không?
+[00:00:03] Xin phép trình bày báo cáo tổng hợp toàn bộ
+[00:00:06] Phần nghiên cứu của em về sử dụng mô hình sinh dữ liệu
+[00:00:11] Để sinh dữ liệu tấn công SQN Injection
+[00:00:14] Nhằm nâng cao phát hiện dựa trên hỏng máy
+[00:00:18] Thì là mục tiêu của em
+[00:00:20] Mục tiêu tổng quát là sinh
+[00:00:23] Lựa chọn các phương pháp sinh hoặc bổ sung
+[00:00:25] Dữ liệu SQN Injection có kiểm soát
+[00:00:27] Để hỗ trợ mô hình
+[00:00:28] để nâng cao chất lượng của mô hình học máy
+[00:00:32] thì sẽ có tổng cộng là có 5 bước
+[00:00:35] đầu tiên là em sẽ kiểm soát dữ liệu
+[00:00:39] thì là em sẽ cố gắng điều chỉnh dữ liệu
+[00:00:42] để nó phù hợp hơn với mô hình bài toán
+[00:00:44] tiếp theo là em sẽ đề xuất tổng cộng là 5 phương pháp
+[00:00:49] thì sẽ có 4 phương pháp là 4 mô hình
+[00:00:53] đầu tiên là mô hình SMOTE là mô hình nội sinh dữ liệu
+[00:00:57] dữ liệu mô hình gan cơ bản là mô hình sinh dữ liệu gan cơ bản mô hình CT gan và si quần gan thì
+[00:01:05] CT gan là cũng là phương pháp gan nhưng mà chuyên xử lý cho dữ liệu dạng bảng còn si quần gan là
+[00:01:13] chuyên xử lý cho mô hình dữ liệu rời rạc sau đó là em sau khi so sánh xong thì em cảm thấy là mô
+[00:01:22] hình si quần gan có thể học được các mối quan hệ và cấu trúc câu nên là em đề xuất các phương án
+[00:01:27] và em sẽ đánh giá tổng cộng cả 5 mô hình này trên cùng một đầu và dữ liệu chung
+[00:01:39] Tên đề tài của em là nghiên cứu mô hình GAN cho sinh dữ liệu tổng cộng XQN
+[00:01:47] nhằm nâng cao mô hình phát hiện dựa trên hộp máy
+[00:01:51] Đây là tên đề tài của em
+[00:01:52] Rồi bây giờ quay lại kia, thế này nó phải thể hiện được tên đề tài
+[00:01:56] Cho nên cái mục tiêu rủng quát là phải gắn với gan
+[00:02:00] Lúc trước trong tin nhắn của người của em
+[00:02:03] Thế là em phải đi với cái tên đề tài
+[00:02:06] Học dụng của em có giúp bây giờ thầy đề tài được rồi
+[00:02:08] Nhưng mà người khách biết, cái mục tiêu rủng quát em phải xem trong đề cương
+[00:02:13] Thứ mục tiêu trong đề cương mình biết là kiểu này, kiểu này nó lại bị lệch nhau
+[00:02:16] Em hiểu
+[00:02:19] Thầy Châu Ước
+[00:02:19] Cái của em Minh ấy
+[00:02:21] Tức là mục tiêu là dùng
+[00:02:23] nghiên cứu về gan
+[00:02:24] và gan sử dụng trong sinh dữ liệu
+[00:02:27] Để hỗ trợ nâng cao cái
+[00:02:29] sức lượng hộp máy luôn đúng không anh nhỉ
+[00:02:33] Đúng rồi
+[00:02:34] Thế thì thầy muốn là
+[00:02:34] Đấy là mục tiêu thủng quá
+[00:02:35] Thế còn đi vào phép chi tiết ấy
+[00:02:37] Thì mới đoàn là
+[00:02:37] Thứ nhất là
+[00:02:38] không phải kiểm soát dữ liệu
+[00:02:39] mà đây là tìm hiểu về dữ liệu
+[00:02:41] Đúng không
+[00:02:44] Đấy mình tìm hiểu về cái bài toán
+[00:02:46] Bài toán và dữ liệu
+[00:02:47] Cái đấy em hiểu nhé
+[00:02:50] Nhớ với liên quan bài toán và dữ liệu
+[00:02:54] Bài toán nó là cái gì, dữ liệu là cái gì, đặc trưng là gì vân vân
+[00:02:58] Dữ liệu nó chỉ là cái mục 1, không phải kiểm soát dữ liệu
+[00:03:02] Dữ liệu nó chỉ là một hình ảnh nhỏ thôi
+[00:03:05] Đúng chưa?
+[00:03:06] Sau đó là các phương pháp giải quyết nó
+[00:03:09] Theo thầy nói em là cái SMODE nó là baseline của các phương pháp cân bằng
+[00:03:15] Để dữ liệu làm cân bằng
+[00:03:18] Rồi đến nhóm các phương pháp khí văn gân
+[00:03:24] Nó mới tách ra
+[00:03:26] Nhóm gân đấy là nhóm trọng tâm của đoán
+[00:03:31] Và trong nhóm gân đấy thì có 2 nhóm
+[00:03:36] 1 là nhóm sinh đặc trưng
+[00:03:40] Nhóm thứ 2 là sinh gân
+[00:03:45] Nhóm sinh đặc trưng chính là gân truyền thống
+[00:03:48] rồi WANIGAN, rồi CITIGAN
+[00:03:50] rồi bắt đầu đến SEQUENT ONE
+[00:03:53] là nhóm XINYA CHUỐI
+[00:03:55] XINYA CHUỐI THẬT luôn đấy
+[00:03:58] Được chưa?
+[00:04:00] Riêng cái phần đấy em đã chạy được
+[00:04:02] so sánh SEQUENT GAN, SO SÁNH CITIGAN
+[00:04:04] so sánh SEQUENT GAN, SO SÁNH CITIGAN
+[00:04:06] Đấy cũng đã làm phần lớn
+[00:04:08] mục đích của
+[00:04:09] của gì nhỉ?
+[00:04:11] của đồ án
+[00:04:13] cộng với cái phần kiểm tra toàn này nữa
+[00:04:16] để mình xem chất lượng nó như thế nào
+[00:04:23] Cái phần làm thêm xuất sắc chính là phần cải tiến này.
+[00:04:28] Đó chính là đoán nền cao của em.
+[00:04:35] Cái đấy phải nhớ về chỉnh sửa cho nó đúng theo đề phương nhé.
+[00:04:40] Đầu tiên là nguồn dữ liệu.
+[00:04:43] Đây là dữ liệu về SQL index được tải nhiều nhất trên Kaggle
+[00:04:48] và có rất nhiều bài báo có đề cập tới tài liệu này nên em sử dụng làm đại diện đặc trưng ạ
+[00:04:55] thì tổng dữ liệu thì sẽ có hơn 30.000 ạ
+[00:04:59] thì sau khi được tiền xử lý là loại bỏ các cái dữ liệu trùng lập
+[00:05:03] thì xuống còn cũng 30.800 ạ
+[00:05:08] trong đó thì các chuỗi bình thường thì 19.000 ạ
+[00:05:12] chuỗi đắn công là 11.000 ạ
+[00:05:20] Nhược điểm của các phương pháp truyền thống là người ta sẽ đưa thẳng toàn bộ dữ liệu của SQL vào mà không phân chia gì
+[00:05:28] Nên là khi mà sinh ra dữ liệu thì một câu lệnh có thể có nhiều đặc tính của nhiều dạng tầm công khác nhau
+[00:05:35] Thế nên là thường là dữ liệu sinh ra là dữ liệu nhiễu và không có giá trị về mặt thực tế
+[00:05:40] Thế nên là em sẽ tiến hành là sẽ chia nhỏ ra làm các thành phần riêng để có thể tập trung vào các đặc trưng của từng phương pháp
+[00:05:52] Thì trong này thì em sẽ chia ra làm 4 họ tấn công
+[00:05:55] Thì sẽ có là tấn công kiểu Poland, Union, Tham và Ireland
+[00:06:00] Thì trong này là có các cơ chế
+[00:06:03] Thì trong này có dấu hiệu thường gặp của Boland là trong cái câu toán toán tử đấy sẽ có các cái có
+[00:06:12] n o các phép so sánh dùng nháy common Union thì sẽ có các từ ngữ nhảy Union select danh sách cột
+[00:06:19] hoặc là null Time Bay thì sẽ có các hàm tạo độ chế thì ở trong này thì sẽ từng từng database thì nó
+[00:06:28] thì nó sẽ có những hàm tham bấy khác nhau ạ và Aaron thì là sẽ có hàm cố tình gây ra lỗi ạ
+[00:06:33] Cái chút này thầy có ghi cho em rồi nhưng em chưa sửa
+[00:06:35] Nghĩa là nó đã kể ra trong trình bày trong văn đề phần thông tin này luôn là có thêm phần thông tin
+[00:06:40] Ví dụ
+[00:06:41] Đấy em luôn cho luôn cái chuỗi ví dụ ở đây
+[00:06:44] Thì trình bày của thầy thì em thấy là rõ rất nhiều
+[00:06:47] Cả trong báo cáo cũng trong slides
+[00:06:51] Vâng ạ
+[00:06:51] Đúng chưa
+[00:06:52] Thì em gắn gọn thôi không cần dài
+[00:06:54] Vâng
+[00:06:54] Thì đây là quy trình tiền xử lý rượu của em ạ
+[00:07:01] Thì là đầu tiên là em sẽ có một bộ dữ liệu
+[00:07:04] Thì bộ dữ liệu này chỉ đơn giản là có hai cột
+[00:07:06] Một cột payload và một cột được đánh nhán
+[00:07:08] Tiếp theo là em sẽ chuẩn hóa
+[00:07:11] Thì là em sẽ cố gắng chuyển tất cả các chữ kiểu dấu nháy
+[00:07:16] Chữ hoa, chữ thường và khoảng trắng
+[00:07:18] Khoảng trắng dài
+[00:07:19] Thì sẽ chuyển hết về một khoảng trắng
+[00:07:22] Và chữ hoa, chữ thường thì chuyển hết về chữ thường
+[00:07:26] Nghĩa là đồng bộ hóa lại để hạn chế việc là
+[00:07:30] sinh giặc học quá nhiều token, học quá nhiều các đặc trưng
+[00:07:35] si quần gan là học quá nhiều đặc trưng nên là trước đây em làm
+[00:07:41] vấn đề mà em gặp phải là quá nhiều đặc tính nó hồi học
+[00:07:46] nên là em làm thế này để hạ thấp các đặc tính xuống
+[00:07:48] tiếp theo
+[00:07:49] thầy trước này nhé, xác ngược thầy chung thầy chủ tịch thôi
+[00:07:53] nhưng mà mình nói như thế này là theo thầy trên website
+[00:07:57] nên chỉ có mỗi 1 cái shadow này
+[00:08:00] Em gạch đầu dòng có thể có 1 số lý do tại sao tiền sử dụng như em nói
+[00:08:04] Đúng không? Đấy nó rất hợp chút nào thì mình cần tiền sử dụng
+[00:08:10] Đúng không? Chứ em nói bao giờ gần như mọi người chắc không vào tay được
+[00:08:15] Thế nên mình vừa nói thì phải có vừa 1 số gạch đầu dòng trên slide đó
+[00:08:20] Em đặt thầy vậy là em nên đưa ra ví dụ hay em cũng chỉ giải thích
+[00:08:24] Không, trước này là 1 ví dụ, trước này là gạch 1 số đầu dòng là lý do tại sao
+[00:08:27] để sử dụng vật làm cái gì. Sau đó em mô tả quy trình này.
+[00:08:34] Chứ kể cái pseudo nó quá bé nên nó tăng cái text lên.
+[00:08:42] Ở đây mình không thể nhìn được cái text nhỏ nhỏ.
+[00:08:51] Tiếp theo là tạo fingerprint.
+[00:08:54] Ở đây thay vì trong các câu lệnh sẽ có những số như 1, 2, 3 hoặc là 99.
+[00:09:03] thì nếu như để số riêng như thế thì là mô hình nó sẽ học ví dụ như có 99 con số cùng một chức năng
+[00:09:11] nghĩa là chỉ có giá trị số thì mô hình sẽ phải học tận 99 đặc tính
+[00:09:16] thay vì thế là em sẽ chuyển hóa tất cả những giá trị ký tự dạng số này thành một chuỗi là ví dụ như 5
+[00:09:22] để mã hóa lại hoặc là character để mã hóa lại để tập trung dữ liệu hơn
+[00:09:29] Nghĩa là những cái dữ liệu mà có chung chức năng thì em sẽ em hóa lại ở chung ạ.
+[00:09:33] Mình nhớ rất là hẻm thẻ em có 15 phần trình bày.
+[00:09:35] Hôm tới bảo hỏi 8 thế.
+[00:09:36] Nếu em cứ lăm man này thì em sẽ không đi vào chính được.
+[00:09:41] Đây là tập để không báo cáo luôn đấy.
+[00:09:43] Cảm ơn.
+[00:09:45] Giờ em cũng mới nhận ra.
+[00:09:46] Em hãy chú ý kỹ hơn.
+[00:09:48] Tiếp theo là cuối cùng là em sẽ phân loại ra 4 họp SQL dựa trên các đặc tính mà em có nói ở slide trước ạ.
+[00:09:55] Thông qua một thư viện gọi là SQL Power.
+[00:10:01] trong này sẽ có 2 nhánh sinh dữ liệu
+[00:10:07] thì là đầu tiên là trong này sẽ có nhánh sinh dạng dữ liệu cấu trúc
+[00:10:16] nghĩa là dạng kiểu token
+[00:10:17] còn những dạng mà chỉ cần dạng bình thường
+[00:10:22] nghĩa là dữ liệu dạng chỉ có 2 cột là cột payload và cột đánh nhãn
+[00:10:27] thì em sẽ sinh ra làm 2 nhánh để phục vụ cho 2 mục tiêu riêng
+[00:10:31] Đây là tổng quan về 5 phương pháp của em
+[00:10:36] Thì đầu tiên là em sẽ đến với thuật toán của SMOD
+[00:10:46] Thì là em dựa trên bài báo vào năm 2002
+[00:10:51] Về bài báo liên quan đến nội sinh gốc
+[00:10:54] Bài báo gốc về thuật toán
+[00:10:56] Thì đây là cấu trúc
+[00:10:58] Thì cấu trúc của nó là nó sẽ cố gắng nội sinh
+[00:11:05] Để tìm ra được giá trị gần nhất
+[00:11:09] Tìm ra được giá trị gần nhất
+[00:11:11] phù hợp và từ đó là nó sẽ sinh ra dữ liệu
+[00:11:17] sinh ra dữ liệu mà có cái độ tương đồng gần nhất
+[00:11:20] thì trong này sẽ có các công thức
+[00:11:28] anh muốn hỏi là
+[00:11:29] em về nhà tập, có 15 chừng 7
+[00:11:33] tập cho nó chuẩn những cái gì mà nó không phải trọng tâm của mày
+[00:11:37] để có định sự đi xa
+[00:11:40] tiếp theo là GAN thì là dựa trên bài báo 2014 của Godfrey
+[00:11:46] Thì bài báo này cũng là nền tảng của mô hình GAN
+[00:11:49] Thì đây cũng là lưu đồ thật toán
+[00:11:54] Thì nó khá là cơ bản
+[00:11:56] Sẽ tạo ra một generator và tạo ra một discriminator và cố gắng đối kháng
+[00:12:02] Để có thể tự tiện 2 mỗi 2 thành phần đấy tự tiện hóa để có thể sinh ra dữ liệu tốt hơn
+[00:12:09] Còn mô hình CTGAN
+[00:12:15] Mô hình CT GAN là giải quyết bài toán của mô hình GAN là sẽ thay thế hàm mất mát
+[00:12:23] Bởi vì là mô hình GAN là sẽ rất cần
+[00:12:27] CT GAN là Contribusal Tabular GAN
+[00:12:35] Em nhậm Conditional Tabular GAN
+[00:12:43] Trong mô hình này thì mô hình sẽ không hiểu được ý nghĩa của một chuỗi
+[00:12:50] Vì vậy là sẽ yêu cầu là cần phải phân tích một chuỗi để ra làm rất nhiều các đặc tính nhỏ hơn
+[00:12:56] Và từ đó là sẽ học các đặc tính đấy
+[00:13:00] Quay lại slide trước
+[00:13:13] Bây giờ em thay thêm một cái hình vẽ khung Facebook của Dan nó dễ hiểu hơn cái này
+[00:13:22] Đâu là cuối giờ, đâu là cuối đêm, giữ mình vẽ ra
+[00:13:32] Em đưa thầy phần giải thích của em có cần phải cải thiện
+[00:13:35] Hay là hỏi em phải phóng thói thì người ta hãy tự tươi dây nhìn với sơ đồ em
+[00:13:38] thì đọc hỏi nó là cái gì đấy.
+[00:13:41] Còn người ta đã quen với vật ngang nữa rồi thì mình nên theo chủ ngang.
+[00:13:46] Chạy từ trái sang phải.
+[00:13:49] Bây giờ em tự sợ trên mạng mình một cái sơ đồ gàn bao giờ đã vẽ là chạy trái sang phải
+[00:13:53] thì chạy xuống dưới chiếc của em.
+[00:13:57] Gàn mô đồ. Đúng chưa?
+[00:14:03] Ít nhất là một vài cái em thấy nó chạy từ trái sang phải.
+[00:14:06] Đúng không?
+[00:14:10] Mình đừng có phát minh ra một cái mới gì cho nó khó hình dung.
+[00:14:15] Chọn cái tiêu biểu nhất để thầy hay dùng.
+[00:14:17] Được chưa anh? Rồi, tiếp theo là Sequel Gantt
+[00:14:30] Sequel Gantt, anh sẽ chú ý để vẽ kỹ hơn
+[00:14:41] Một người chú ý giúp mình nghĩ là các em nếu dùng AI sinh slide thì phải chú ý
+[00:14:46] Nó còn sinh bé xíu, tức là mình phải cố gắng nhìn và điều chỉnh
+[00:14:53] Ở nhà anh để máy tính lên lớp cách cao khoảng 10-15m xem mình có thể nhìn được không
+[00:15:08] Thì đây là các vấn đề em quan sát ở gan cơ sở
+[00:15:18] Thì đây là em nêu ra các vấn đề mà em nhận thấy mô hình si quần gan gặp phải
+[00:15:28] Thì đầu tiên là cần phải tokenize theo ký tự
+[00:15:33] bởi vì là các ký tự mà có chung cái mục đích và có chung chức năng
+[00:15:38] thì nếu như mà không tokenize hóa lại
+[00:15:41] thì nó sẽ sinh ra rất nhiều các cái đặc tính
+[00:15:43] mặc dù là nó không giải quyết vấn đề gì ạ
+[00:15:45] tiếp theo là trong bài toán mà tác giả Yu đưa ra
+[00:15:50] thì độ dài tối đa là 20 ạ
+[00:15:52] thì là đối với những payload mà nó quá dài
+[00:15:55] thì nó sẽ bị cắt đi rất nhiều thành phần khá quan trọng ạ
+[00:15:58] tiếp theo là reward thì chỉ đến từ discriminator
+[00:16:03] Thì nghĩa là trong này Discriminator chỉ có khả năng nhận biết xem là
+[00:16:08] Theo thầy như thế này, tức là em sẽ trình bày như thế này
+[00:16:15] Tức là em sẽ trình bày sức khỏe gan sau
+[00:16:16] Và em sẽ trình bày luôn phần thử nghiệm
+[00:16:20] Thử nghiệm giữa các hộ gan với nhau
+[00:16:23] Và với SMOTE
+[00:16:25] Sau đó em sẽ đi sang phần nhận xét về vấn đề của nó và các cải tiến
+[00:16:32] Anh chú ý cho đấy
+[00:16:33] Rồi, em xin hãy trình bày tiếp nốt slide này ạ
+[00:16:39] Thì Reward của Digital Editor chỉ có khả năng nhận biết xem là dữ liệu có phải dữ liệu tạo sinh hay không
+[00:16:44] Chứ không có khả năng nhận biết là có phải mẫu SQL thực tế hay không
+[00:16:48] Và bất cân bằng nghiêm trọng thì ở đây là khi mà dữ liệu càng ngày càng ít đi ạ
+[00:16:55] Thì dữ liệu nó sẽ chỉ cố gắng sinh ra những dữ liệu mà nó có khả năng đạt điểm cao nhất ạ
+[00:17:01] Thế nên là nó sẽ lập điệp lại một cấu trúc chung ạ
+[00:17:05] Và tường lửa thực tế thì nó sẽ bị nhận nhầm
+[00:17:10] Nghĩa là nó sẽ bị nhận nhầm nhoi thành tấn công ạ
+[00:17:12] Đây là 5 vấn đề mà em đã gặp phải trong lúc triển khai thử nghiệm ạ
+[00:17:17] Thì đấy em sẽ đề xuất là 4 phương án cải tiến để xử lý cho các vấn đề trên ạ
+[00:17:24] Thì đầu tiên là như em nói là có tokenize SQL ạ
+[00:17:29] những cái ký tự mà có chung cái ý nghĩa thì sẽ được tokenize hóa lại ạ
+[00:17:34] tiếp theo là em sẽ tăng pre-chain lên ạ
+[00:17:38] bởi vì là discriminator là khá là mạnh
+[00:17:42] nên là em sẽ cố gắng tăng cái generator pre-chain lên
+[00:17:46] một con số cao hơn là 120
+[00:17:50] em sẽ so sánh giữa 120 là của tác giả và 160 là của em ạ
+[00:17:58] của tác giả là chỉ có 120 nên là khi em làm là vẫn bị cô lao tiếp theo là em sẽ tăng độ dài thì
+[00:18:09] là tăng từ 20 lên 160 độ dài của trách tờ thì là độ dài độ dài Vâng vâng độ dài của chuỗi đầu vào
+[00:18:25] Thì ở 20 thì mô hình sẽ chỉ học từng câu nhưng nếu mà tăng lên 1.600 là mô hình sẽ học đến có thể là từng ký tự trong câu
+[00:18:37] Và cuối cùng là reward cấu trúc thì thay vì để 100% là discriminator thì em sẽ lấy thêm 0.3 đánh giá đến từ SQL PAR
+[00:18:49] để có thể cố gắng học được cả cấu trúc của SQL nữa
+[00:18:53] Thì đấy là 4 phần cập nhật mà em áp dụng vào
+[00:19:03] Đây là mô hình của em được chia làm 5 giai đoạn
+[00:19:11] Thì đầu tiên giai đoạn đầu vào là sẽ chạy 4 mô hình cơ bản
+[00:19:20] không em không không được em cái này em cắt từ bên luận án bài Word của em xa em
+[00:19:35] thì đầu tiên là khảo sát ban đầu ạ để xem là vấn đề thực tế gặp phải của các mô hình sinh
+[00:19:44] tính dữ liệu khi giải quyết bài toán SQL injection
+[00:19:46] Sau đó là em sẽ chọn các tỷ lệ và chọn dạng dữ liệu
+[00:19:53] Đầu nghĩa là em sẽ phân tích xem là liệu biến đổi ở phần dữ liệu nó có tác dụng không
+[00:19:58] và biến đổi ở các
+[00:20:00] cái tỷ lệ thông số chạy thì nó có tác dụng không ạ tiếp theo
+[00:20:04] là khi đó là em sẽ đề xuất các 8 phương án để có thể thay thế nâng cấp của mô hình sinh quần gan ạ
+[00:20:12] thì như ở trong sai trước ạ em có đề xuất là 4 cái hướng xử lý ạ thì em sẽ cho chạy thì là kết hợp
+[00:20:23] kết hợp 4 cái phương án đấy
+[00:20:25] thì nó sẽ để ra là 8 kịch bản
+[00:20:28] thì có kịch bản sẽ là không phương án
+[00:20:31] nâng cấp nào và sẽ có kịch bản là chỉ 2 phương án nâng cấp
+[00:20:34] thì tổng cộng là 8 phương án nâng cấp để xem là đâu là
+[00:20:37] mô hình có độ ổn định cao nhất
+[00:20:39] cuối cùng là em sẽ chạy đánh giá đầy đủ
+[00:20:42] khi này là em sẽ chạy với cấu hình tối đa
+[00:20:45] như khi này là sẽ chạy full Epoch
+[00:20:48] để đảm bảo là tất cả mô hình đều có chung
+[00:20:52] chất lượng
+[00:20:52] và cuối cùng là em sẽ đưa vào trong mô hình tường lửa
+[00:20:55] để đánh giá kết quả thực tế
+[00:20:57] thì kết quả của giai đoạn 1
+[00:21:01] thì là ở đây
+[00:21:03] thì là mô hình smooth
+[00:21:04] và 3 mô hình đầu tiên
+[00:21:07] thì là họ có kết quả rất là tốt
+[00:21:09] nhưng mà lại là
+[00:21:10] có bị trùng lặp
+[00:21:13] khá là cao, trong đó thì mô hình
+[00:21:15] sequence găng cơ sở thì tuy là
+[00:21:19] thông số lại xấu hơn
+[00:21:20] nhưng mà độ trùng lặp thì nó
+[00:21:22] chỉ rơi khoảng 19,4%
+[00:21:26] Dạ, nghĩa là bị trùng cấu trúc ạ, cấu trúc của một câu SQL nó bị trùng khớp luôn ạ, nó chỉ đơn giản là thay thế các cái thông số thôi ạ.
+[00:21:38] Vâng ạ, bản chất chỉ có một cấu trúc riêng ạ.
+[00:21:42] Vâng, thì khi đấy là em nhận ra là tuy là SQLGAN là có điểm cấu trúc nó thấp hơn và độ độc nhất cũng sẽ thấp nhưng mà nó không bị trùng dữ liệu đầu vào.
+[00:21:53] Thế nên là em sẽ cố gắng để nâng cấp mô hình SQL Ga lên
+[00:22:00] Ở giai đoạn 2 thì em sẽ chia ra làm 4 dạng family
+[00:22:09] Và có 8 kịch bản như em có đề xuất ở trên
+[00:22:16] Phần này em bị thiếu, em không quên mất công việc
+[00:22:28] thì đây là từ A đến F thì nó sẽ là các kịch bản để em sử dụng để thay thế đấy
+[00:22:36] kịch bản không thay đổi gì hả kịch bản?
+[00:22:38] dạ
+[00:22:39] không thay đổi là A
+[00:22:42] phần này em bị thiếu, em xin phép em mở vào Facebook của em đi
+[00:22:48] phần này em không để ý, em đã không đưa vào
+[00:23:45] thì đây ạ, tổng cộng là 6 kịch bản ạ
+[00:23:55] Nghĩa là khi mà chọn dữ liệu mất cân bằng
+[00:23:59] Nghĩa là em sẽ
+[00:24:01] Nghĩa là ví dụ như em sẽ có 3.000 dữ liệu
+[00:24:03] Em sẽ chỉ lấy 1.000 dữ liệu
+[00:24:05] Để có thể mô tả được về việc mất cân bằng dữ liệu
+[00:24:08] Thì trong đó em sẽ có tổng cộng là 6 phương án chọn
+[00:24:11] Thì đầu tiên là em sẽ chọn theo thứ tự
+[00:24:15] Độ dài
+[00:24:16] Vâng ạ
+[00:24:20] Thì sẽ có tổng cộng là
+[00:24:24] Thì A và B sẽ chọn theo độ dài
+[00:24:27] thì A sẽ là chọn ưu tiên dài nhất
+[00:24:29] và B là ưu tiên ngắn nhất
+[00:24:31] C là ưu tiên các cái chuỗi
+[00:24:34] mà nằm ở trong
+[00:24:35] phần phân vị
+[00:24:36] nghĩa là những cái chuỗi mà có độ khổ biến cao
+[00:24:40] tiếp theo là D là em sẽ
+[00:24:42] chọn ở trong khoảng phân vị
+[00:24:43] nghĩa là em sẽ bỏ đi
+[00:24:46] 25% đầu và
+[00:24:48] 75% sau sẽ chỉ tập trung vào
+[00:24:50] những cái phần dữ liệu mà có mật độ
+[00:24:52] cao nhất. Tiếp theo là em sẽ lấy
+[00:24:54] ngẫu nhiên và con số ngẫu nhiên của em
+[00:24:56] ở đây em lấy là 88
+[00:24:57] Và cái cuối cũng là em sẽ lấy theo độ đa dạng
+[00:25:01] Nghĩa là
+[00:25:02] Em sẽ tập trung vào
+[00:25:06] Em sẽ tập trung để lấy
+[00:25:08] Có thể lấy nhiều nhất các cái đặc tính nhất có thể
+[00:25:10] Thì đây là tổng cộng là 6 hướng
+[00:25:13] Mà em đề xuất
+[00:25:14] Em sẽ chú ý hơn
+[00:25:17] Bổ sung
+[00:25:21] Thì đây ạ
+[00:25:22] Thì kết quả của giai đoạn
+[00:25:29] Thì đây là kết quả của giai đoạn 2A
+[00:25:33] Thì là kịch bản
+[00:25:35] Kịch bản E và D
+[00:25:36] ED và B là 3 kịch bản
+[00:25:40] mà có được
+[00:25:42] thứ hạng 1 hoặc 2
+[00:25:44] cao nhất ạ
+[00:25:45] nên em sẽ chọn lấy các 3 kịch bản này ạ
+[00:25:47] đây là bảng xếp hạng ạ
+[00:25:49] tiếp theo là đến giai đoạn 2B
+[00:25:55] thì em sẽ
+[00:25:57] ở đây em sẽ có tổng cộng là 8 kịch bản
+[00:26:01] thì ở đây ạ
+[00:26:12] thì đầu tiên là mã V1
+[00:26:14] thì sẽ là của
+[00:26:15] tác giả luôn ạ, không thay thế ạ
+[00:26:18] thì V2 thì em sẽ tăng
+[00:26:20] độ dài chuỗi đơn vị tối đa lên
+[00:26:21] và phần còn lại thì vẫn giữ nguyên
+[00:26:24] và tương tự với các cái
+[00:26:26] đặc tính đấy nó là 4 cái hướng
+[00:26:28] mà em đề xuất
+[00:26:39] em đang
+[00:26:46] em chuyển từ
+[00:26:57] Word sang
+[00:26:57] đây là
+[00:27:16] một kịch bản mà có
+[00:27:18] các cái giá trị cao nhất
+[00:27:20] ví dụ như của Boland
+[00:27:21] thì là sẽ có kịch bản D
+[00:27:24] ở cái phần hàn 2A
+[00:27:27] Và kịch bản V8 là những kịch bản mà có top những cái giá thông số tốt nhất
+[00:27:36] Thông số tốt nhất là vẫn là như thế, đầu tiên là dữ liệu sẽ phải độc nhất
+[00:27:42] Tiếp theo là phải có cấu trúc không bị trùng lập với các cấu trúc ban đầu
+[00:27:47] Có độ độc nhất riêng và phần quan trọng nhất là phải có cấu trúc SQL
+[00:27:51] Theo thầy nghĩ là con số cụ thể giống như ở giai đoạn 1, 100% trùng bắp, 19% trùng bắp.
+[00:28:02] Thầy thì khi mà em làm như thế thì nó sẽ có rất nhiều bảng bởi vì là như ở trong này là của em đã có tận 80 kịch bản.
+[00:28:11] Thì là em không biết là có nên đưa hẳn toàn bộ thông số vào hay là em nên chỉ tập trung vào những cái mà em lựa chọn nữa.
+[00:28:18] Nó vẫn khá là nhiều.
+[00:28:19] Trước mắt em chỉ phải đầy đủ hết đã, sau đó người ta quyết định chọn cái nào.
+[00:28:24] Vâng, em sẽ điều chỉnh lại.
+[00:28:29] Trên này có tổng cộng 11 kịch bản.
+[00:28:33] Do kịch bản V8 thắng ở mọi kịch bản nên nó bị mất đi 1 kịch bản.
+[00:28:45] Bởi vì nó bị trùng nhau.
+[00:28:46] Nhưng mà tổng cộng là ở đây em có 11 kịch bản là em sẽ đề xuất để nâng cấp đưa vào trong mô hình si quần gan để chạy thử
+[00:28:53] Thì đây là kết quả của giai đoạn 3
+[00:29:03] Thì khi ở đây em sẽ chỉ tập trung chạy mô hình si quần gan với các nâng cấp của em
+[00:29:10] Thì ở đây là cấu trúc V8 thì sẽ có thông số tốt nhất
+[00:29:15] Thì độ độc nhất rất là cao
+[00:29:17] Và học được cấu trúc là tỷ lệ đến gần 85%
+[00:29:22] Tiếp theo sau là 3 mô hình còn lại
+[00:29:25] Thì đến cuối cùng là giai đoạn cuối là em sẽ chạy
+[00:29:31] Em sẽ chạy toàn bộ
+[00:29:33] Thì đây là thông số
+[00:29:38] Thì ở đây là em sẽ chỉ tập trung vào 3 tỷ lệ
+[00:29:40] Là 1 trên 100, 1 trên 200 và 1 trên 500
+[00:29:44] Đây em đang bị đưa thiếu khá nhiều thông tin
+[00:29:54] Thì em này xin phép là để buổi sau em sẽ bổ sung kỹ hơn
+[00:29:59] Vì
+[00:30:00] nói ra hơi bị dài
+[00:30:02] tiếp theo là
+[00:30:04] em sẽ đưa toàn bộ tất cả dữ liệu
+[00:30:06] được sinh ra từ các kịch bản
+[00:30:08] trên và đưa qua
+[00:30:09] từng lửa
+[00:30:10] thì là ở mô hình si quần gan cải tiến
+[00:30:16] của em ạ, thì tỷ lệ
+[00:30:17] bị chặn là nó sẽ
+[00:30:21] bị chặn
+[00:30:25] xe này cũng bị đưa
+[00:30:27] xe này cũng bị đưa thiếu
+[00:30:28] nhưng mà ý em là
+[00:30:29] trong mô hình si quần gan thì là
+[00:30:31] là tỷ lệ mà vừa bị không bị chặn và vẫn có cấu trúc ạ thì nó nhân đôi với nhau ạ thì nó sẽ có
+[00:30:38] thông số là cao nhất ạ còn các mô hình còn lại thì là hầu hết là do bị nó được vượt qua từng lửa là
+[00:30:45] do là nó sinh ra dữ liệu nhiếu ạ đấy thì cái chỗ đấy em để mấy người phân tích nhiều ở đây thì
+[00:30:50] Vâng, em bị đưa thiếu, em sẽ chú ý hơn.
+[00:31:06] Em nhớ cái này giống như của anh Nam, mình đưa lên cái gì nó phải hỗ trợ ra cái quan điểm của mình.
+[00:31:16] Phần trình bày của em đến đây kết thúc ạ.
+[00:31:19] Em vẫn muốn em có một ví dụ về kết quả thực tế của em.
+[00:31:22] Ví dụ về kết quả thực tế của em.
+[00:31:24] Ví dụ một cái chuỗi như thế này với cơ sở sinh gan.
+[00:31:30] Một cái chuỗi như thế này.
+[00:31:34] Ngoài các số liệu thống kê này thì giá trị của sườn gan là nó sinh ra chuỗi.
+[00:31:42] Chuỗi là người ta nhìn được.
+[00:31:46] Đúng không?
+[00:31:46] Vâng, xin cho em là em kết thúc bài trình bày của em và em sẽ cố gắng chỉnh sửa để có thể đưa ra bản size tốt hơn ạ.
+[00:32:01] Thầy nghĩ là những cái nó coi như là nó ngắn bọn thôi nhưng mà nó toát lên được cái mình làm cái gì và kết quả đạt được cái gì.
+[00:32:07] Vâng.
+[00:32:08] Đúng không?
+[00:32:08] Đúng ạ.
+[00:32:11] Thế hướng này cũng hay, quan trọng là có thể là cái kết quả sinh ra có thể nó chưa chua nhất, chưa tốt nhưng mà nó có cái hướng phát triển.
+[00:32:23] Để ví dụ các cơ quan khác thì chỉ xin các chức luôn
+[00:32:30] Cái này nó xin môn ra nữa
+[00:32:32] Xin môn ra
+[00:32:42] Xin môn ra
+[00:32:46] Xin ra rồi
+[00:32:59] Cái này là bạn xin xong đây
+[00:33:01] Nên là có thể giúp anh thấy
+[00:33:02] Sai trước em là em có đưa ví dụ không truyền đoạn
+[00:33:12] Và do là em nghĩ là nó
+[00:33:14] Em lại cho là nó không cần tiên
+[00:33:16] Em không đưa vào hàng sai
+[00:33:19] Cái này mới bị tiến rất là cao
+[00:33:29] Nếu mà em làm thành công
+[00:33:31] Thì em có thể đối với là
+[00:33:32] Là một cái côn

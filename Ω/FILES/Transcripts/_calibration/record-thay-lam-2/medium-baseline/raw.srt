@@ -1,0 +1,231 @@
+1
+00:00:00,570 --> 00:00:09,540
+Đây đây, em đang làm nó đang hơi không kiểm soát được ạ.
+
+2
+00:00:11,020 --> 00:00:16,430
+Thì đề tài của em là em sẽ cố gắng sử dụng GAN trong...
+
+3
+00:00:16,580 --> 00:00:18,280
+Tên hả? Tên của Manny?
+
+4
+00:00:18,380 --> 00:00:23,220
+À vâng, em có, nên em biết tiếng Anh, tại em quên chưa đổi đã.
+
+5
+00:00:24,180 --> 00:00:29,420
+Thì em dùng GAN để detect cái SQL, tấn công SQL.
+
+6
+00:00:29,420 --> 00:00:31,080
+Thì đây là mục tiêu
+
+7
+00:00:32,920 --> 00:00:35,940
+Bài toán thì hiện tại là
+
+8
+00:00:35,940 --> 00:00:37,840
+Dữ liệu thì sẽ hầu hết sẽ là
+
+9
+00:00:37,840 --> 00:00:39,400
+các dữ liệu của người dùng rất bình thường
+
+10
+00:00:39,400 --> 00:00:40,860
+Đôi lúc mới có dữ liệu tấn công
+
+11
+00:00:40,860 --> 00:00:43,420
+thì tỷ lệ sẽ rơi khoảng từ 100%
+
+12
+00:00:43,420 --> 00:00:45,360
+đến 1000%
+
+13
+00:00:45,360 --> 00:00:48,260
+Thì theo phương pháp bình thường thì mình sẽ chỉ đơn giản là
+
+14
+00:00:48,260 --> 00:00:49,460
+lọc dữ liệu rồi
+
+15
+00:00:49,460 --> 00:00:51,320
+chuyển hoạt hành Vector có thể dùng
+
+16
+00:00:52,100 --> 00:00:53,440
+MOT, SMOT để
+
+17
+00:00:54,490 --> 00:00:55,810
+định dạng lại thì lúc này
+
+18
+00:00:55,810 --> 00:00:57,990
+mình sẽ dùng GAN, bởi vì GAN nó có thể
+
+19
+00:00:59,100 --> 00:01:06,440
+Còn cái thằng kia nó chỉ tôn giả nội sinh nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+
+20
+00:01:06,440 --> 00:01:12,900
+Nó chỉ học nội sinh thôi nhưng nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp ạ
+
+21
+00:01:13,210 --> 00:01:17,130
+Thế nên mới đề xuất ra, thì đây là mô hình của em ạ
+
+22
+00:01:17,300 --> 00:01:23,280
+Thì là đầu tiên là em sẽ lấy dữ liệu, là lấy dữ liệu trên cargo và một số cái data
+
+23
+00:01:23,590 --> 00:01:29,610
+Lấy thêm dữ liệu của các cvr, người ta ghi nhận những cái tấn công
+
+24
+00:01:33,710 --> 00:01:38,510
+Dữ liệu thì em lấy, thì em cũng mới chỉ lấy khoảng 30.000
+
+25
+00:01:38,510 --> 00:01:40,650
+Bởi vì là dữ liệu tấn công thực tế
+
+26
+00:01:40,860 --> 00:01:45,680
+Khi mà em làm, thì em thấy là hầu hết là nó chỉ là noise
+
+27
+00:01:45,680 --> 00:01:48,680
+Nó chỉ có khả năng tấn công
+
+28
+00:01:48,680 --> 00:01:56,270
+Lúc mà em gõ thật thì khả năng tấn công lực tế của nó là không có, nó khá là ít, này em mới nhận ra
+
+29
+00:01:57,860 --> 00:02:08,870
+Còn tiếp theo là trong mô hình sẽ có 2 thành phần, đầu tiên là thành phần generate và thành phần quality và thành phần fatigue
+
+30
+00:02:08,870 --> 00:02:16,320
+Thì em có thêm vào là trong này là sẽ có thêm một
+
+31
+00:02:21,140 --> 00:02:30,700
+Thì trong này vẫn là em sẽ có thêm cái mutation nghĩa là em sẽ cho nó biết định nghĩa về các cho cả hai thằng
+
+32
+00:02:30,880 --> 00:02:32,220
+Vậy là gây nhiếm không?
+
+33
+00:02:32,440 --> 00:02:37,240
+Vâng, không, em cái này là em cũng mới tìm hiểu
+
+34
+00:02:37,240 --> 00:02:45,080
+Thì em đang hiểu là em sẽ cho nó biết là bây giờ SQ Injection thì nó sẽ phải có những điều kiện tối thiểu là gì
+
+35
+00:02:45,080 --> 00:02:47,420
+Em cho cả 2 thằng nó học luôn
+
+36
+00:02:47,720 --> 00:02:50,820
+Còn nếu mà làm nó cứ bình thường thì nó đang hơi loạn
+
+37
+00:02:50,820 --> 00:02:57,380
+Sau khi mà critic thành công sau em sẽ có thêm 1 lớp để check nữa
+
+38
+00:02:57,380 --> 00:02:58,880
+Thì nó sẽ gồm 3 cái
+
+39
+00:02:58,880 --> 00:03:02,580
+Đầu tiên là kiểm tra xem có phải là SQ EO không là cái L1
+
+40
+00:03:02,760 --> 00:03:07,080
+Tiếp theo là sẽ kiểm tra xem là khả năng Injection của nó
+
+41
+00:03:09,700 --> 00:03:15,060
+Hiện tại là em mới chỉ cho quét qua bộ thư viện open source trên mạng
+
+42
+00:03:15,330 --> 00:03:22,550
+Còn số 3 là em sẽ quét xem độ đa dạng, xem nó có thật sự đa dạng hay nó có thật sự hơn
+
+43
+00:03:22,820 --> 00:03:26,620
+Thay thế được smote hông ạ?
+
+44
+00:03:27,420 --> 00:03:34,020
+Thì trong tương lai em sẽ thay thế thằng L2 bằng cách cho tấn công thực tế trên các tương lửa thông dụng
+
+45
+00:03:35,280 --> 00:03:41,540
+Và cái cuối cùng là các cái thước đo để xem là mô hình của em đảm những là trị nào.
+
+46
+00:03:41,920 --> 00:03:47,780
+Thì đây là kết quả.
+
+47
+00:03:48,200 --> 00:03:51,580
+Thì nếu như mà tỷ lệ rất mất cân bằng như kiểu 500%
+
+48
+00:03:51,580 --> 00:03:59,040
+cái cổ ngoài cùng thì mô hình gan nó sẽ hơn được
+
+49
+00:03:59,040 --> 00:04:02,500
+cái phương pháp cơ bản là 42%.
+
+50
+00:04:02,500 --> 00:04:09,890
+Nhưng mà càng lên cao thì nếu mà tỷ lệ càng thấp thì thằng SMOTE nó sẽ thắng được thằng GAN
+
+51
+00:04:09,890 --> 00:04:12,670
+Thì tỷ lệ đây em chọn là 100%
+
+52
+00:04:12,670 --> 00:04:17,330
+Em cho rằng tỷ lệ mất cân bằng đủ để mình có thể dùng phương pháp GAN
+
+53
+00:04:20,070 --> 00:04:27,030
+Thì ở hình bên phải thì em cũng thử chia ra là 4 trường hợp
+
+54
+00:04:27,030 --> 00:04:30,050
+Nghĩa là trong tấn công SQL sẽ có 4 trường hợp
+
+55
+00:04:30,190 --> 00:04:39,250
+Thì hai trường hợp đầu tiên là Boolean và Error thì cái này là dựa trên phản hồi của máy chủ
+
+56
+00:04:39,250 --> 00:04:49,700
+nghĩa là nó không thật sự tấn công, nó sẽ đợi xem phản hồi máy chủ là gì và từ đó họ sẽ mường tượng xem hệ thống của mô hình như thế nào
+
+57
+00:04:49,880 --> 00:04:57,400
+Thì nên là hai cái đầu nó sẽ không có đặc biệt, vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi
+
+58
+00:04:57,610 --> 00:04:59,990
+Nhưng mà 2 cái cuối cùng là xe cuối cùng
