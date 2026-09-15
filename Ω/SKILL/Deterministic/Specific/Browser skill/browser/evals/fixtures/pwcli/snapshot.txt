@@ -1,0 +1,62 @@
+### Page
+- Page URL: http://127.0.0.1:47831/
+- Page Title: bw smoke fixture
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - heading "bw smoke fixture" [level=1] [ref=e2]
+  - paragraph [ref=e3]: idle
+  - generic [ref=e4]:
+    - heading "Actions" [level=2] [ref=e5]
+    - button "Set state" [ref=e6]
+    - button "Ask confirm" [ref=e7]
+    - paragraph
+  - generic [ref=e8]:
+    - heading "Form" [level=2] [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - text: Name
+        - textbox "Name" [ref=e12]:
+          - /placeholder: your name
+      - generic [ref=e13]:
+        - text: Color
+        - combobox "Color" [ref=e14]:
+          - option "Red" [selected]
+          - option "Green"
+          - option "Blue"
+      - generic [ref=e15]:
+        - checkbox "Agree" [ref=e16]
+        - text: Agree
+      - button "Submit form" [ref=e17]
+    - paragraph
+  - generic [ref=e18]:
+    - heading "Links" [level=2] [ref=e19]
+    - list [ref=e20]:
+      - listitem [ref=e21]:
+        - link "Example" [ref=e22] [cursor=pointer]:
+          - /url: https://example.com/
+      - listitem [ref=e23]:
+        - link "Page two" [ref=e24] [cursor=pointer]:
+          - /url: /page2.html
+      - listitem [ref=e25]:
+        - link "Top" [ref=e26] [cursor=pointer]:
+          - /url: "#top"
+  - generic [ref=e27]:
+    - heading "Table" [level=2] [ref=e28]
+    - table [ref=e29]:
+      - rowgroup [ref=e30]:
+        - row [ref=e31]:
+          - columnheader "Item" [ref=e32]
+          - columnheader "Qty" [ref=e33]
+          - columnheader "Price" [ref=e34]
+      - rowgroup [ref=e35]:
+        - row [ref=e36]:
+          - cell "Apple" [ref=e37]
+          - cell "3" [ref=e38]
+          - cell "1.20" [ref=e39]
+        - row [ref=e40]:
+          - cell "Pear" [ref=e41]
+          - cell "5" [ref=e42]
+          - cell "0.80" [ref=e43]
+```

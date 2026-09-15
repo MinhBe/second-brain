@@ -1,0 +1,39 @@
+# Fixed defaults. Applied only when the request omits the field; every applied
+# default is echoed in output.request.defaults_applied so nothing is silent.
+version: 1
+
+result_count: 20
+result_count_words: {few: 5, some: 5, batch: 20, many: 50, max: 100}
+result_count_max: 100
+
+sort:
+  default: "-citedby-count"
+  when_freshness: "-coverDate"
+
+freshness:
+  latest: {years_back: 3}
+  recent: {years_back: 5}
+
+language: english                # english | any
+document_type: article_or_review # article | review | article_or_review | any
+
+scopus:
+  language_clause:
+    english: "LANGUAGE(english)"
+    any: null
+  document_type_clause:
+    article: "DOCTYPE(ar)"
+    review: "DOCTYPE(re)"
+    article_or_review: "(DOCTYPE(ar) OR DOCTYPE(re))"
+    any: null
+
+page_size: 25
+http_timeout_s: 45
+outdir: "./downloads"
+workdir: "./work"
+
+analysis:
+  full_text_min_chars: 2000
+  quote_min_chars: 15
+  quote_max_chars: 300
+  doi_scan_pages: 2

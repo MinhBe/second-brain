@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+# scripts/browser-fill.sh — fill an input by --ref eN or --selector CSS with --text or --secret-stdin.
+# Usage: bash scripts/browser-fill.sh [--site NAME] [--tool NAME] [--dry-run]
+#                                     [--raw] (--ref eN | --selector CSS)
+#                                     (--text VALUE | --secret-stdin)
+#
+# CRITICAL: --secret-stdin reads the secret from this script's stdin and pipes
+# it to the adapter; the secret never appears on argv (anti-pattern AP-7).
+# Test: tests/browser-fill.bats::secret-not-in-argv.
+#
+# --selector path enables Phase 11 cache dispatch (cache stores selectors,
+# not snapshot-relative refs). Mirrors browser-click.sh's --ref/--selector
+# precedent.
+
+set -euo pipefail
+IFS=$'\n\t'
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib/common.sh
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/lib/common.sh"
+# shellcheck source=lib/output.sh
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/lib/output.sh"
+# shellcheck source=lib/router.sh
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/lib/router.sh"
+# shellcheck source=lib/verb_helpers.sh
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/lib/verb_helpers.sh"
+# shellcheck source=lib/stats.sh
+# shellcheck disable=SC1091
+source "${SCRIPT_DIR}/lib/stats.sh"
+
+init_paths
+
+SUMMARY_T0="$(now_ms)"; export SUMMARY_T0
+
+parse_verb_globals "$@"
+
+# Resolve site/session → BROWSER_SKILL_STORAGE_STATE (no-op if neither set).
+# Router's rule_session_required reads the env var to prefer playwright-lib
+# (which natively supports --secret-stdin via stdin-pipe to driver).
+resolve_session_storage_state
+
+ref="" selector="" text="" use_stdin=0
+verb_argv=()
+i=0
+while [ "${i}" -lt "${#REMAINING_ARGV[@]}" ]; do
+  case "${REMAINING_ARGV[i]}" in
+    --ref)
+      ref="${REMAINING_ARGV[i+1]:-}"
+      [ -n "${ref}" ] || die "${EXIT_USAGE_ERROR}" "--ref requires a value"
+      verb_argv+=(--ref "${ref}")
+      i=$((i + 2))
+      ;;
+    --selector)
+      selector="${REMAINING_ARGV[i+1]:-}"
+      [ -n "${selector}" ] || die "${EXIT_USAGE_ERROR}" "--selector requires a value"
+      verb_argv+=(--selector "${selector}")
+      i=$((i + 2))
+      ;;
+    --text)
+      text="${REMAINING_ARGV[i+1]:-}"
+      [ -n "${text}" ] || die "${EXIT_USAGE_ERROR}" "--text requires a value"
+      verb_argv+=(--text "${text}")
+      i=$((i + 2))
+      ;;
+    --secret-stdin)
+      use_stdin=1
+      verb_argv+=(--secret-stdin)
+      i=$((i + 1))
+      ;;
+    *)
+      verb_argv+=("${REMAINING_ARGV[i]}")
+      i=$((i + 1))
+      ;;
+  esac
+done
+
+if [ -n "${ref}" ] && [ -n "${selector}" ]; then
+  die "${EXIT_USAGE_ERROR}" "--ref and --selector are mutually exclusive"
+fi
+if [ -z "${ref}" ] && [ -z "${selector}" ]; then
+  die "${EXIT_USAGE_ERROR}" "fill requires --ref eN or --selector CSS"
+fi
+if [ -n "${text}" ] && [ "${use_stdin}" = "1" ]; then
+  die "${EXIT_USAGE_ERROR}" "--text and --secret-stdin are mutually exclusive"
+fi
+if [ -z "${text}" ] && [ "${use_stdin}" = "0" ]; then
+  die "${EXIT_USAGE_ERROR}" "fill requires --text VALUE or --secret-stdin"
+fi
+
+if [ "${ARG_DRY_RUN:-0}" = "1" ]; then
+  ok "dry-run: would fill ${ref:-${selector}}"
+  emit_summary verb=fill tool=none why=dry-run status=ok ref="${ref}" selector="${selector}" dry_run=true
+  exit 0
+fi
+
+picked="$(pick_tool fill "${verb_argv[@]}")"
+tool_name="${picked%%$'\t'*}"
+why="${picked#*$'\t'}"
+
+source_picked_adapter "${tool_name}"
+
+# stdin (if --secret-stdin) flows through to tool_fill -> adapter binary.
+# Capture stdout in subshell; stdin inherits naturally.
+stats_t0="$(now_ms)"
+set +e
+adapter_out="$(invoke_with_retry fill "${verb_argv[@]}")"
+adapter_rc=$?
+set -e
+
+# Phase 12 part 1 + Phase 14 (Bundle #2): per-action telemetry. CRITICAL — when
+# --secret-stdin was used, NEVER auto-derive EXPECT_VALUE from the secret
+# (would leak the secret into stats.jsonl per AP-7). Auto-derive only fires when
+# (a) --text was used (no secrets) AND (b) BROWSER_SKILL_STRICT_POSTCOND=1
+# opts in. Opt-in default: many fill adapters don't echo the typed value back,
+# so a blanket auto-check would generate false oblivious_success events.
+# Future: compose with a follow-up snapshot to read the actual element value.
+if [ "${BROWSER_SKILL_STRICT_POSTCOND:-0}" = "1" ] \
+   && [ "${use_stdin}" = "0" ] && [ -n "${text}" ] \
+   && [ "${adapter_rc}" -eq 0 ]; then
+  : "${BROWSER_STATS_EXPECT_TYPE:=element_value}"
+  : "${BROWSER_STATS_EXPECT_MATCH:=include}"
+  : "${BROWSER_STATS_EXPECT_VALUE:=${text}}"
+fi
+: "${BROWSER_STATS_OBSERVED:=${adapter_out}}"
+export BROWSER_STATS_EXPECT_TYPE BROWSER_STATS_EXPECT_MATCH BROWSER_STATS_EXPECT_VALUE BROWSER_STATS_OBSERVED
+
+stats_run_adapter_emit \
+  "fill" "${tool_name}" "${stats_t0}" "${adapter_rc}" "${adapter_out}" "" \
+  -- "${verb_argv[@]}" || true
+
+[ -n "${adapter_out}" ] && printf '%s\n' "${adapter_out}"
+
+if [ "${adapter_rc}" -eq 0 ]; then
+  emit_summary verb=fill tool="${tool_name}" why="${why}" status=ok ref="${ref}" selector="${selector}"
+  exit 0
+fi
+emit_summary verb=fill tool="${tool_name}" why="${why}" status=error ref="${ref}" selector="${selector}"
+exit "${adapter_rc}"

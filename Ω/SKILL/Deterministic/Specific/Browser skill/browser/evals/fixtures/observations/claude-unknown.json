@@ -1,0 +1,13 @@
+{
+  "url": "https://claude.ai/new?incognito=",
+  "title": "Claude",
+  "aria_yaml": "- main [ref=e1]:\n  - heading \"Welcome back\" [level=1] [ref=e2]\n  - paragraph [ref=e3]: Loading your workspace\n",
+  "alerts": [],
+  "dialogs": [],
+  "iframes": [],
+  "visible_text_sample": "Welcome back Loading your workspace",
+  "provenance": "synthetic",
+  "expect": {
+    "state": "UNKNOWN"
+  }
+}

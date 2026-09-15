@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "browser-skill/profile",
+  "title": "profiles/profiles.json",
+  "type": "object",
+  "required": [
+    "version",
+    "profiles"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "display_name",
+          "automation_user_data_dir",
+          "enabled",
+          "created_at",
+          "updated_at",
+          "providers"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]{1,31}$"
+          },
+          "display_name": {
+            "type": "string"
+          },
+          "chrome_profile_directory": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "automation_user_data_dir": {
+            "type": "string"
+          },
+          "copied_from": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "providers": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "enum": [
+                    "UNKNOWN",
+                    "READY",
+                    "LOGIN_REQUIRED",
+                    "SESSION_EXPIRED",
+                    "USAGE_EXHAUSTED",
+                    "RATE_LIMITED",
+                    "VERIFICATION_REQUIRED",
+                    "CAPTCHA",
+                    "ERROR",
+                    "UNAVAILABLE",
+                    "BUSY"
+                  ]
+                },
+                "evidence": {},
+                "last_checked_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "last_success_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "cooldown_until": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

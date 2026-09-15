@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>bw smoke fixture</title>
+<style>body{font-family:system-ui;margin:24px;max-width:720px}section{margin-bottom:20px}#status{font-weight:bold}</style>
+</head>
+<body>
+<h1>bw smoke fixture</h1>
+<p id="status">idle</p>
+<p id="restored" hidden>restored</p>
+
+<section>
+  <h2>Actions</h2>
+  <button id="set-state" type="button">Set state</button>
+  <button id="ask" type="button">Ask confirm</button>
+  <p id="dialog-result"></p>
+</section>
+
+<section>
+  <h2>Form</h2>
+  <form id="f">
+    <label>Name <input id="name" name="name" type="text" placeholder="your name"></label>
+    <label>Color
+      <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+    </label>
+    <label><input id="agree" name="agree" type="checkbox"> Agree</label>
+    <button id="submit" type="submit">Submit form</button>
+  </form>
+  <p id="submitted"></p>
+</section>
+
+<section>
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://example.com/">Example</a></li>
+    <li><a href="/page2.html">Page two</a></li>
+    <li><a href="#top">Top</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Table</h2>
+  <table id="t">
+    <thead><tr><th>Item</th><th>Qty</th><th>Price</th></tr></thead>
+    <tbody>
+      <tr><td>Apple</td><td>3</td><td>1.20</td></tr>
+      <tr><td>Pear</td><td>5</td><td>0.80</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<script>
+  (function () {
+    if (document.cookie.includes('smoke=1') || localStorage.getItem('smoke') === '1') {
+      document.getElementById('restored').hidden = false;
+      document.getElementById('status').textContent = 'restored';
+    }
+    document.getElementById('set-state').addEventListener('click', function () {
+      document.cookie = 'smoke=1; path=/';
+      localStorage.setItem('smoke', '1');
+      document.getElementById('status').textContent = 'clicked';
+    });
+    document.getElementById('ask').addEventListener('click', function () {
+      var r = window.confirm('Proceed?');
+      document.getElementById('dialog-result').textContent = r ? 'confirmed' : 'dismissed';
+    });
+    document.getElementById('f').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var v = document.getElementById('name').value;
+      document.getElementById('submitted').textContent = 'submitted: ' + v;
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+# Fixed acquisition chain. Order is never changed at runtime.
+# Each resolver yields candidate PDF URLs; the downloader tries them in order.
+version: 3
+chain: [arxiv_direct, unpaywall, europe_pmc, openalex, semantic_scholar, arxiv_preprint, scihub_fallback, metadata_only]
+
+http:
+  user_agent: "scientific-paper-research/1.1 (mailto:{email})"
+  alt_user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+  retry_alt_ua_on_403: true
+  ssl:
+    retry_unverified: true      # on CERTIFICATE_VERIFY_FAILED retry once without verification; item.warnings += [ssl_unverified]
+  follow_html_pdf_link: true    # if a candidate returns HTML, follow its PDF link once
+  impersonate_on_403: true      # after UA retry still 403: one more try via curl_cffi (only if that package is installed)
+  manual_urls_max: 5
+  challenge_markers: ["challenge", "verify you are", "just a moment", "captcha", "enable javascript"]
+  challenge_max_bytes: 20000   # a small HTML page with a marker is a JS challenge -> failure_class blocked_challenge
+
+arxiv_direct:
+  pdf_url: "https://arxiv.org/pdf/{id}"
+  landing_url: "https://arxiv.org/abs/{id}"
+  api_url: "https://export.arxiv.org/api/query?id_list={id}"   # title only, for the file name
+
+unpaywall:
+  email_env: UNPAYWALL_EMAIL    # resolver is skipped (with a warning) when unset
+  base_url: "https://api.unpaywall.org/v2"
+  timeout_s: 45
+
+europe_pmc:
+  search_url: "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+  pdf_url: "https://europepmc.org/articles/{pmcid}?pdf=render"
+  landing_url: "https://europepmc.org/article/PMC/{pmcid}"
+
+openalex:
+  base_url: "https://api.openalex.org"
+
+semantic_scholar:             # no key; ~100 requests / 5 min. Gives openAccessPdf and the arXiv id of a paper
+  api_url: "https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}?fields=title,openAccessPdf,externalIds"
+
+arxiv_preprint:               # last resort before scihub: the arXiv preprint of a paywalled/blocked paper (version: preprint)
+  search_url: "https://export.arxiv.org/api/query?search_query={query}&max_results=5"
+  pdf_url: "https://arxiv.org/pdf/{id}"
+  landing_url: "https://arxiv.org/abs/{id}"
+  require_exact_title: true   # normalized arXiv title must equal the paper title; never the closest match
+
+# Deterministic URL expansion. Rewrites add one URL per matching candidate/landing URL (after the originals);
+# landing expanders turn a landing page into file URLs through a public API.
+candidate_rewrites:
+  - name: ieee_stamp        # ielx7/.../<arnumber>.pdf and document/<arnumber> -> stampPDF (returns PDF for OA articles)
+    pattern: 'ieeexplore\.ieee\.org/(?:ielx\d+/\d+/\d+/(\d+)\.pdf|(?:abstract/)?document/(\d+))'
+    template: "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber={n}"
+landing_expanders: [figshare]
+figshare:
+  pattern: 'figshare\.com/articles/[^/]+/[^/]+/(\d+)'
+  api_url: "https://api.figshare.com/v2/articles/{id}"
+
+scihub_fallback:
+  mode: auto                    # auto | off | force
+  command_override: null
+  timeout_s: 180
+  timeout_divisor: 3
+  extra_args: ["-r", "2", "-p", "1", "--no-fast-fail"]
+
+metadata_only:
+  evidence_level: metadata_only
+  full_text_available: false
+
+manifest:
+  enabled: true                 # <outdir>/.acquired.json lets a rerun skip verified downloads (method: cache)
+  filename: ".acquired.json"
+
+failure_classes: [none, blocked_403, blocked_challenge, ssl_error, invalid_pdf, network, subscription_only, no_oa, not_found]
+
+verify:
+  require_pdf_magic: true
+  min_bytes: 1024
+  compute_sha256: true
+
+filename:
+  strategy: title_then_doi
+  max_len: 120

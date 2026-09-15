@@ -1,0 +1,18 @@
+{
+  "url": "https://claude.ai/new?incognito=",
+  "title": "Just a moment...",
+  "aria_yaml": "- main [ref=e1]:\n  - heading \"Verify you are human\" [ref=e2]\n",
+  "alerts": [],
+  "dialogs": [],
+  "iframes": [
+    {
+      "title": "Widget containing a Cloudflare security challenge",
+      "src_host": "challenges.cloudflare.com"
+    }
+  ],
+  "visible_text_sample": "Verify you are human",
+  "provenance": "synthetic",
+  "expect": {
+    "state": "CAPTCHA"
+  }
+}

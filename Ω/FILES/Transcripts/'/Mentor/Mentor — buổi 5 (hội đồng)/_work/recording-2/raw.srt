@@ -1,0 +1,3803 @@
+1
+00:00:04,220 --> 00:00:16,820
+Sau đó, khi tập trung nghiên cứu một số mô đồ và các kiến thức cụ thể thì kiến thức cơ bản xét xử để giúp chúng ta cố gắng để tìm hiểu đặc trưng phần của phần này.
+
+2
+00:00:17,040 --> 00:00:24,840
+Sau khi tìm hiểu kiến thức xét xử cơ bản thì ta có xem một số đặc trưng xét xử đã giải quyết trong các bài báo.
+
+3
+00:00:24,840 --> 00:00:34,200
+Ví dụ như là các thương kỳ chia lấy mà thích hợp với lại để chia sẻ với các thương kỳ
+
+4
+00:00:37,040 --> 00:00:45,220
+và hoặc là kênh trực sử dụng kênh mạng. Đấy là một số phát triển của các thương kỳ cơ bản
+
+5
+00:00:45,220 --> 00:00:49,080
+và có sức khỏe trong một chủ kế hoạch trước đó.
+
+6
+00:00:49,220 --> 00:00:57,700
+Và cũng có hướng đảm thời dự kiến theo hướng này,
+
+7
+00:00:57,780 --> 00:01:00,700
+có tìm hiểu dự kiến sản phẩm hữu trang trọng thể,
+
+8
+00:01:00,800 --> 00:01:05,500
+với từng cơ bản được phát triển,
+
+9
+00:01:05,660 --> 00:01:08,600
+có thể dự kiến ra một số kiến thức mới.
+
+10
+00:01:08,840 --> 00:01:19,240
+đây kết hợp kết hợp với các cái bài một số các cái mô đồ
+
+11
+00:01:19,700 --> 00:01:39,790
+em cũng chờ em cũng gọi một sử dụng cái hình để ra cái bản thì tiếp đến thì về mặt tức là có
+
+12
+00:01:39,790 --> 00:01:47,500
+sau đó trong kỹ thuật các kỹ thuật này nó hoạt động thế giới như thế nào
+
+13
+00:01:47,500 --> 00:01:54,070
+phần của em cũng có những kỹ thuật có thể dùng
+
+14
+00:01:55,300 --> 00:02:02,620
+Tiếp tế về phương tác CPI thì cũng có thể kê các phương tác CPI trong những lần tiếp theo
+
+15
+00:02:02,940 --> 00:02:05,500
+và em sẽ đi vào cách thức giảm những kỹ thuật
+
+16
+00:02:05,500 --> 00:02:09,580
+tức là em tìm hiểu các kỹ thuật của các phương tác cơ bản
+
+17
+00:02:09,580 --> 00:02:25,420
+Ví dụ như là tham hay là tìm hiểu những cái phương tác cải tiến, cũng là đã cải tiến trong các loại bài báo, các cái phương tác khác đã cải tiến trong một số các loại bài báo mỗi tuần đây.
+
+18
+00:02:25,910 --> 00:02:42,860
+Ví dụ như là cải tiến về các cái tổ chức của các cái tổ chức phân mạch trong khi mà chúng ta chưa tìm ra hoặc là cải tiến như vậy.
+
+19
+00:02:57,740 --> 00:03:25,420
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+20
+00:03:26,380 --> 00:03:44,530
+Các bước trong sơ đồ này có các đầu vào, các mô hình của các xung pháp cũ và các cải tiến của từng xung pháp đấy.
+
+21
+00:03:44,530 --> 00:03:57,600
+Ví dụ như là trải tuyến trong phân tất cấu trúc cây để tính các liên minh để kiểm tra, để trải tuyến kỹ thuật kết hợp các liên minh quốc gia chứng.
+
+22
+00:03:58,810 --> 00:04:04,780
+Rồi là cách trải tuyến ở dưới mẫu, trong các dưới mẫu để chúng ta tìm kiếm.
+
+23
+00:04:08,360 --> 00:04:17,530
+Rồi là cách tổ chức các huấn luyện các kỹ thuật mạng, tức là các kỹ thuật mạng để hỗ trợ trong việc phát triển trong phương pháp xã.
+
+24
+00:04:18,680 --> 00:04:24,990
+Từ đấy thì cũng có dự kiến của phần này này.
+
+25
+00:04:25,330 --> 00:04:29,830
+Tuy nhiên ở đây thì trong phần vừa rồi em tập trung với em
+
+26
+00:04:29,830 --> 00:04:35,710
+đang dự kiến ra bức tranh tổng thể của 2 nội dung này.
+
+27
+00:04:37,700 --> 00:04:42,900
+Về phần thứ 3 thì phần thứ 3 khó hơn người ta nghe
+
+28
+00:04:42,900 --> 00:04:45,260
+và cũng chưa tĩnh hơn phần này.
+
+29
+00:04:45,260 --> 00:04:51,780
+tập trung hướng tới của em vì em đi vào cái phần chủ yếu, đi vào hai cái phần đầu.
+
+30
+00:04:51,900 --> 00:04:57,860
+Phần thứ nhất là cái phần về sẽ tập trung vào cái phần giải thoát các kiến trúc này.
+
+31
+00:04:57,960 --> 00:05:02,090
+Và các kiến trúc thì cũng là đi từ các kiến trúc căn bản.
+
+32
+00:05:02,150 --> 00:05:06,010
+Sau rồi là sẽ có các hệ tiến của các kiến trúc đấy.
+
+33
+00:05:06,010 --> 00:05:11,930
+sau đó xác định rõ các ảnh tuyến này sẽ có đặc trưng của ảnh tuyến này
+
+34
+00:05:11,930 --> 00:05:20,240
+và tìm hiểu và giải thích được tất cả chi tiết của ảnh tuyến này
+
+35
+00:05:20,240 --> 00:05:26,640
+và từ đấy chúng ta sẽ xem, kiểm tra một số dự kiến
+
+36
+00:05:28,460 --> 00:05:33,700
+có thể ôm vào một cái dự báo về một chế độ mới
+
+37
+00:05:33,700 --> 00:05:39,290
+cái dự báo trong sếp 1 thì một chế độ này
+
+38
+00:05:40,430 --> 00:05:44,050
+cái thứ 2 là tập trung vào phần công tác nghiên cứu
+
+39
+00:05:44,050 --> 00:05:49,970
+trong đó thì công tác nghiên cứu về công tác về sắc
+
+40
+00:05:50,810 --> 00:05:54,980
+cũng đã có phát triển tổn thương về sắc tơ màng
+
+41
+00:05:54,980 --> 00:06:00,740
+Ví dụ như bà cũng đã có một số cải tiến, tầm hợp một số cải tiến của sát
+
+42
+00:06:00,740 --> 00:06:08,820
+Thì em sẽ cố gắng tập trung vào giới giáo những cải tiến này
+
+43
+00:06:08,820 --> 00:06:18,390
+Nó rất cụ thể để có một cái bài cổ thể chi tiết trong phát trang này
+
+44
+00:06:33,410 --> 00:06:40,960
+Về mặt cơ bản, trong tuần mình đánh giá là em mới đăng ký nghiên cứu kỹ thuật tỏa thật.
+
+45
+00:06:41,000 --> 00:06:46,920
+Còn về mục chi tiết thì em đã bỏ cơ bản, nghiên cứu chi tiết giải thích một số phần nhỏ.
+
+46
+00:06:46,920 --> 00:06:54,020
+Tuy nhiên thì ở nhà thì em cũng có chạy thương tác, thương tác về ví dụ.
+
+47
+00:06:54,240 --> 00:07:02,670
+Thì em buổi tới thì em cũng muốn thường thường sẽ trình bày sau khi mà đã có được cái bộ phổ biến dữ liệu này
+
+48
+00:07:02,670 --> 00:07:08,540
+thì em sẽ làm những cái sự phát triển của các tín chức này nó không chỉ có mức 2 tín chức này
+
+49
+00:07:08,540 --> 00:07:10,720
+mà chúng ta có thêm nhiều hơn.
+
+50
+00:07:10,900 --> 00:07:17,220
+Thì em sẽ cùng chung cái phần đấy và sẽ chỉ ra, cố gắng chỉ ra được cái sự tạo của các tín chức này.
+
+51
+00:07:20,480 --> 00:07:30,220
+Em xin được tin báo cáo thầy về một nội dung mà em cố gắng.
+
+52
+00:07:30,800 --> 00:07:41,660
+Nó do quá nhiều cái khái niệm trong đây thì em cũng ở trong bài thì em cũng cố gắng em và em đưa các công cụ để đọc và giải thích.
+
+53
+00:07:41,660 --> 00:07:59,480
+Để đọc và giải thích, nội dung chính thì sử dụng 5 cái đài điệu từ năm 2022 đến nay để đọc và cố gắng để hiểu từng cái tên cơ bản của cái giải thích.
+
+54
+00:07:59,480 --> 00:08:04,800
+thì nó cũng có những cái phần phương pháp cơ bản, phần cải tiến, thái thức cải tiến
+
+55
+00:08:04,800 --> 00:08:10,410
+thì các bước cải tiến chi tiết, các bước bảo vệ, các bước kiến dụng
+
+56
+00:08:10,410 --> 00:08:14,780
+thì các em sẽ làm cái báo cáo nổi tiếng trước
+
+57
+00:08:14,780 --> 00:08:19,200
+và trong cái phương pháp nổi tiếng thứ 3 thì sẽ có tài liệu trong phần sau
+
+58
+00:08:19,200 --> 00:08:31,690
+thì các bước phần này là những phần bảo vệ, những phần bảo vệ, những phần bảo vệ
+
+59
+00:08:31,690 --> 00:08:40,480
+thì các em sẽ làm cái báo cáo nổi tiếng trước
+
+60
+00:08:40,480 --> 00:09:13,260
+Về mẫu dữ liệu mẫu thì như thế này, về so sánh các mẫu dữ liệu, em tìm mẫu dữ liệu này, hiện nay em cũng có tải mẫu dữ liệu, mẫu dữ liệu, mẫu dữ liệu, mẫu dữ liệu khác về 2 mẫu dữ liệu này.
+
+61
+00:09:15,660 --> 00:09:23,570
+Hai bộ dữ liệu này cũng khá nặng. Hiện nay dữ liệu ở Liên bang đang để ở phía bên cạnh.
+
+62
+00:09:23,970 --> 00:09:32,150
+Về cơ bản, sẽ có chương trình tập trưng của một bộ dữ liệu.
+
+63
+00:09:32,830 --> 00:09:43,680
+Có từng bộ dữ liệu của dữ liệu. Hiện nay mới than tạo một bộ dữ liệu và có một bảng so sánh.
+
+64
+00:09:43,680 --> 00:09:59,730
+Như là phần giải thích thì mình đang tìm hiểu là có phần giải thích ra nhưng chưa được được
+
+65
+00:10:00,170 --> 00:10:04,780
+tưởng nguyên thông qua các dẫn chứng để vinh hạt các tầng giải thích đây.
+
+66
+00:10:07,220 --> 00:10:16,000
+Với em xin lấy ra các tầng dữ liệu 2, đặc biệt là 2 tầng dữ liệu này,
+
+67
+00:10:16,780 --> 00:10:23,980
+em sẽ bổ sung phần cụ thể về dữ liệu này để sử dụng.
+
+68
+00:10:23,980 --> 00:10:35,650
+Ok, tháng 11 phải có thảo ở AI chứ, đúng không ạ?
+
+69
+00:10:35,770 --> 00:10:36,450
+Dạ vâng
+
+70
+00:10:36,990 --> 00:10:39,390
+Nghiệp thì thảo ở AI, đúng không ạ?
+
+71
+00:10:40,280 --> 00:10:43,720
+Vậy thì em xin phép là sang phần thứ 3 em cũng cảm ơn quý vị
+
+72
+00:10:44,920 --> 00:10:51,920
+Tính tới đến phần thứ 1 là em sẽ bổ sung phần khác biệt
+
+73
+00:10:51,920 --> 00:10:55,220
+Một số kỹ thuật, tăng kỹ thuật đến phần thứ 2
+
+74
+00:10:55,220 --> 00:10:59,940
+Em sẽ giải thích những ảnh phần trong phần kỹ thuật được kế
+
+75
+00:11:00,940 --> 00:11:12,980
+Với lại về cái phương pháp thì cũng sẽ tương tự là cái phương pháp mà em sẽ bổ sung cái phương pháp ở đây là phương pháp để xác từ có phương pháp cân bản này thì em hiểu rồi.
+
+76
+00:11:13,000 --> 00:11:19,380
+Với lại cái phương pháp cải tiến thì các phương cạnh cải tiến đây thì em sẽ có các hiệu của báo cáo này ở phương pháp cân bản này.
+
+77
+00:11:19,700 --> 00:11:29,550
+Còn cái đồ đồ truyền chỉ cho tới chỗ thì ta mới đã thấy cái bộ hình điệu thì em sẽ làm cái rõ sông cánh cái bộ hình điệu đấy có hình chữ cũng này cả.
+
+78
+00:11:29,630 --> 00:11:32,400
+Rồi cảm ơn anh.
+
+79
+00:12:16,500 --> 00:12:17,960
+bây giờ hết rồi em
+
+80
+00:12:26,310 --> 00:12:27,570
+bây giờ thì hết rồi
+
+81
+00:12:41,180 --> 00:12:49,860
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+82
+00:13:39,100 --> 00:13:43,260
+Vừa qua thì em có chạy tên tên kiến trúc Share Attention
+
+83
+00:13:43,260 --> 00:13:46,060
+khi mà đưa vào trong mô định STDN lúc ban đầu.
+
+84
+00:13:48,190 --> 00:13:50,970
+Sau đấy thì em có chạy tên các tập toán về Solution,
+
+85
+00:13:51,860 --> 00:13:54,600
+sau đó chạy tên Addition và thì cũng đã có kết quả.
+
+86
+00:13:54,760 --> 00:14:01,780
+Rồi em sẽ cài quát lại các kết quả này để mà trong vòng vùng cải tiến
+
+87
+00:14:01,780 --> 00:14:02,820
+từ dù bài STDN.
+
+88
+00:14:03,510 --> 00:14:07,450
+Chỉ đã, gọi là tìm tìm và rút gọn số những các tính từ hồi sáng.
+
+89
+00:14:08,340 --> 00:14:09,860
+Rồi lúc xuống còn một kết quả thứ hai,
+
+90
+00:14:09,980 --> 00:14:11,380
+thì là kết quả ESDN.
+
+91
+00:14:11,380 --> 00:14:22,990
+Và qua bài S-A-D-S, từ STDN, em đã xây một phần TNN thành một phần Share Attention.
+
+92
+00:14:23,210 --> 00:14:28,630
+Tôi đã tham số vì em không hiểu, chỉ khoảng 169 sản số trong kỹ thuật.
+
+93
+00:14:31,580 --> 00:14:40,740
+Đây là về phần kỹ thuật mà nó vận dạng với đồ viết sản mạng thì cũng được giữ lại kỳ nguyên từ bài STDN.
+
+94
+00:14:42,630 --> 00:14:46,310
+Còn này thì em có đi qua về chỗ nào em đã thay thế Share Attention.
+
+95
+00:14:46,310 --> 00:14:55,460
+Tức là cái block shape function này sau này thì em đặt thay cái nhánh EX1 và cái nhánh tổng hợp các tập trưng dấu vết C, C, F và dấu vết.
+
+96
+00:14:56,290 --> 00:15:01,930
+Đối với S, A, B thì cái kích thước ma trận của nó nhỏ thì em để kích thước của cái block S, A là kích thước của block 3.
+
+97
+00:15:02,390 --> 00:15:10,290
+Và từ đối với ma trận dấu vết C thì em để kích thước ma trận dấu vết T thì em để kích thước của S, A lên toàn.
+
+98
+00:15:11,190 --> 00:15:14,630
+Thì đây là cái phần khai phát qua từ cái mô hình mà em đã cải thiện.
+
+99
+00:15:14,630 --> 00:15:26,780
+Trong Share Attention này thì em có tham khảo từ bài SCCV từ năm 2008, đối với cơ chế chú ý.
+
+100
+00:15:28,350 --> 00:15:31,870
+Trước thì cơ chế chú ý trong mô hình SP là chưa có.
+
+101
+00:15:32,230 --> 00:15:37,610
+Trong này thì trong cái nhạc tổng cộng các đặc trưng, các bức ưu viết, thì em có đưa ra cơ chế chú ý lái dân kết nối 3 trận thái.
+
+102
+00:15:37,810 --> 00:15:42,500
+Số lượng tham số thì tăng lên chỉ 169 tham số.
+
+103
+00:15:42,640 --> 00:15:45,100
+Khi mà em tìm thấy bộ Share Attention thì mới được.
+
+104
+00:15:47,630 --> 00:15:49,570
+Về phần áp mất mát thì vẫn như thế.
+
+105
+00:15:49,670 --> 00:15:51,430
+Nhưng mà tuy nhiên thì em vẫn điều chỉnh cái chọn số.
+
+106
+00:15:51,430 --> 00:15:59,520
+chọn số, chọn số trong VHR mất mát, đấy là cái mối SR tưởng tên cối cho điểm phân loạn, thì ở đây
+
+107
+00:15:59,520 --> 00:16:06,170
+em đã nâng lên thành là 50, nó có lý do tại vì cái mối sharpness thì nó nặng với cái phần con luyện
+
+108
+00:16:06,170 --> 00:16:13,860
+và trong khi đấy thì cái mạng của em thì kết quả nó cũng cao tệ khi mà giảm tỷ lệnh, tỷ lệnh SR đến gốc
+
+109
+00:16:13,860 --> 00:16:24,360
+và tỷ lệnh của S tỷ lệnh tăng nó lên thành 50 để cho nó tươi tươi tẩy. Em đã đi qua về cái mô hình SA-SR
+
+110
+00:16:26,770 --> 00:16:29,230
+Bây giờ đến phần trò toán hợp nhất các mô hình.
+
+111
+00:16:31,540 --> 00:16:33,780
+Hợp nhất các mô hình có 2 lực phương pháp.
+
+112
+00:16:33,940 --> 00:16:35,660
+Phương pháp lấy trung vịnh ra kết quả.
+
+113
+00:16:36,140 --> 00:16:37,280
+Phương pháp lấy trung vịnh.
+
+114
+00:16:37,320 --> 00:16:41,540
+Hoặc là phương pháp tí dụng như đoạn cá giải trình, tức là line-line của 2 phương pháp.
+
+115
+00:16:42,020 --> 00:16:49,790
+Hoặc là sử dụng một cái cây quyết định, cây trang tưởng trong giá quyết định giữa các mô hình.
+
+116
+00:16:50,630 --> 00:16:55,520
+Đầu tiên thì sẽ phải tròn hóa đầu trang của tất cả các mô hình về dưới dặn, không bị mống.
+
+117
+00:16:57,100 --> 00:17:09,020
+Những câu thức này thì câu thức truyền hóa là hướng dẫn tiêu chuẩn. Sau đấy thì em có sử dụng toán toán tổ hợp tốt nhất, tức là em sẽ có khá là nhiều mô hình.
+
+118
+00:17:09,240 --> 00:17:14,060
+Như mọi người thấy sẽ có cả mô hình Vision Transformer, Vision Transformer.
+
+119
+00:17:14,920 --> 00:17:18,920
+Cái sắp có, cái lập tức này thì là cái mô hình hành cải tiến của em.
+
+120
+00:17:21,320 --> 00:17:23,520
+Mô hình LDA thì cũng là một cái showtime ở đây.
+
+121
+00:17:24,520 --> 00:17:30,230
+Và cái mô hình no-adv, mô hình STDN của em,
+
+122
+00:17:30,310 --> 00:17:33,450
+thì mà em tắt cái nhánh phân luyện đột án trong GAN đi,
+
+123
+00:17:33,530 --> 00:17:36,380
+thì bằng cái thuật toán gọi là LAN,
+
+124
+00:17:36,440 --> 00:17:39,060
+thì em gửi được lại một cái độ hợp mô hình của 4 mô hình,
+
+125
+00:17:39,760 --> 00:17:42,160
+và nó cho cái kết quả để lưu ý làm thật nhất.
+
+126
+00:17:42,340 --> 00:17:47,720
+Và đây là một số các thuật toán mà em đã chạy thử nghiệm,
+
+127
+00:17:47,740 --> 00:17:51,240
+thì ở trong này thì em có phân ra thuật toán nào sử dụng nhãn
+
+128
+00:17:51,240 --> 00:17:54,080
+để học cho cái việc hợp nhất mô hình,
+
+129
+00:17:54,140 --> 00:17:56,160
+và thuật toán nào sử dụng ảnh
+
+130
+00:17:56,160 --> 00:18:01,740
+để đưa vào trong phương pháp tập luyện mô hình, thì ở đây thì cái trọng toán trung bình hạn,
+
+131
+00:18:01,820 --> 00:18:07,790
+tức là trọng toán tự bản nhất, thì nó cho kết quả tốt nhất là 476 trên phủ test để tỷ lệ đổi.
+
+132
+00:18:08,090 --> 00:18:12,470
+Một số phương pháp khác nâng cao hơn, nhưng mà lại cho kết quả đầy thường.
+
+133
+00:18:12,610 --> 00:18:17,730
+Em có huấn luyện các mô hình đẹp cũng remote ở đây.
+
+134
+00:18:18,130 --> 00:18:22,570
+Cách xét các mô hình thì tầm lớn các mô hình đều huấn luyện với tỷ lệ bỗng hết là trên 4,
+
+135
+00:18:22,670 --> 00:18:30,880
+nhưng mà tuy nhiên bằng phương pháp trung bình hạn thì kết quả tỷ lệ đổi nó đã xuất vững với 476.
+
+136
+00:18:32,980 --> 00:18:38,860
+Trên bớt một số mô hình, trong đấy đặc biệt lưu ý là mô hình kiến trúc hình thể xuất, mô hình S-A-S-V.
+
+137
+00:18:39,060 --> 00:18:46,580
+Nếu như bỏ nó đi thì tỷ lệ bộ hình nó tăng lên không bằng mô hình Sotar, tức là nó đóng một vai trò một thước và chẳng tròn.
+
+138
+00:18:46,960 --> 00:18:53,380
+Một số mô hình khác bỏ đi thì nó cũng không thay đổi nhiều, tăng lên 0% hoặc 0% hoặc 0%. Nó không đáng kể bằng mô hình S-A-S-V.
+
+139
+00:18:56,720 --> 00:19:02,020
+Đây là cái bản của em hợp tác với các cái sổ ta trên bộ Setup and School lần này.
+
+140
+00:19:03,570 --> 00:19:06,570
+Mô hình mà nó có kết quả tốt nhất bây giờ đang là mô hình TPM.
+
+141
+00:19:07,110 --> 00:19:10,770
+Mô hình LDA thì họ mới đăng vào trên Tokai, họ chưa có tốt bố được.
+
+142
+00:19:10,890 --> 00:19:12,090
+Nhưng mà tuy nhiên vẫn đưa report.
+
+143
+00:19:12,590 --> 00:19:16,210
+Khi mà sổ ta trên thì lấy lỗi IOC hay là Acer.
+
+144
+00:19:17,570 --> 00:19:20,390
+Mô hình của em là tốt nhất trong tất cả các cái sổ.
+
+145
+00:19:23,070 --> 00:19:33,160
+Thế đây là kết luận. Thưa các bạn, thư pháp của em đề xuất thì thắng trên các thư pháp số này và còn có thêm về đề xuất S, A, S, L.
+
+146
+00:19:35,200 --> 00:19:42,640
+Về mặt đối hành thì nó cũng rất rõ ràng. Cái kết cục này thì nó cũng giống như là chỉ phát nút những cái còn lại của các mô hình.
+
+147
+00:19:43,080 --> 00:19:48,480
+Cả kết tiếp cái kết quả này thì phải, một là đề xuất mô hình mới, hai là đề xuất thêm các mô hình vào tổng cộng.
+
+148
+00:19:48,480 --> 00:20:00,000
+Hãy subscribe cho kênh La La School Để không bỏ
+
+149
+00:20:00,060 --> 00:20:00,060
+tán.
+
+150
+00:20:31,470 --> 00:20:39,480
+Trước một lúc thì em đã tìm được một số sổ dung về phó đề xuất cho bài PSD.
+
+151
+00:20:44,170 --> 00:20:50,670
+Với bài đó thì em tập trung vào tập trung quanh sự lý về chuyển về sức tận ứng và các phương tiện.
+
+152
+00:20:54,390 --> 00:20:57,870
+Mục tiêu nhất là giải quyết về sự không thiết hiệu,
+
+153
+00:20:58,230 --> 00:21:01,890
+chủ yếu là tập trung vào ý kiến về an ninh,
+
+154
+00:21:02,110 --> 00:21:04,390
+không biết về trán,
+
+155
+00:21:04,530 --> 00:21:10,120
+thứ hai là không biết về số lượng vỏ,
+
+156
+00:21:10,260 --> 00:21:18,090
+thứ hai là nhận định được số lượng đất kiếm tại các cây rừng.
+
+157
+00:21:21,520 --> 00:21:29,220
+Đầu tiên là về cái bài phép của CS6 thì em đã kết hợp cái star với cái novice assessment.
+
+158
+00:21:33,520 --> 00:21:40,880
+Cái star là cái đặc trưng dành cho toàn bộ novice assessment và để ưu tiên cái tổng hợp lý của góc truyền.
+
+159
+00:21:40,880 --> 00:21:53,880
+Khi mà được các góp ý, cũng như là góp ý của các đặc biệt, góp ý của thầy thì có một số cái hạn đế đối với bài TNCP là tất cả về cái rủi ro của rủi rò rỉ ở các team.
+
+160
+00:21:54,200 --> 00:22:01,420
+Thứ hai là cái xử lý ở trước, trước giai đoạn xử lý tình hợp hợp phía P7 và Chieftain vẫn sử dụng cái MHAV.
+
+161
+00:22:01,680 --> 00:22:12,090
+Thứ ba là nó quá nhẹ cho phần tiềm giá và có các cái đối với cục của FI, FI thì nó có là 0.95 nhưng mà cái collision nó 0.6.
+
+162
+00:22:12,090 --> 00:22:21,750
+Chỉ có cảnh báo nhiều, khá nhiều. Chỉ có những cái VNN có bình tĩnh về cái tổ chức nghiên cứu là tổ chức nghiên cứu là hữu quẩy.
+
+163
+00:22:25,290 --> 00:22:33,740
+Câu hỏi nghiên cứu đây là đó sẽ biến thành là xử lý giải server và biến thành đến là ưu tiên các cái dự án.
+
+164
+00:22:33,880 --> 00:22:36,360
+Ưu tiên các cái để diễn chuyển là các mất của trước kìa.
+
+165
+00:22:36,360 --> 00:22:41,400
+Thứ 3 là điều khiển vụ lệnh ở server.
+
+166
+00:22:41,640 --> 00:22:45,600
+Thứ 2 là điều khiển cục bộ theo điều khiển.
+
+167
+00:22:46,780 --> 00:22:55,040
+Bởi vì nếu bây giờ mình luôn luôn vận chuyển đồng ưu tiên trên lớp tiệm thì nó sẽ có các dấu hiệu rất nhiều, các cảnh báo rất nhiều.
+
+168
+00:22:55,900 --> 00:23:00,000
+Tùy vào tập lớp thì mình sẽ vận quyền ưu tiên thực hiện.
+
+169
+00:23:00,000 --> 00:23:07,890
+Và sẽ em gửi đến server lấy thông tin, nhất là về tập trung của mô hình và đơn án,
+
+170
+00:23:07,950 --> 00:23:11,900
+và về số lượng lớp của tài trung lượng đấy.
+
+171
+00:23:12,430 --> 00:23:14,710
+Chứ không gửi đến thông tin như bài VSD.
+
+172
+00:23:17,520 --> 00:23:20,800
+Thực tế thì em đã viên hành vi phục vụ các tổng thủy kinh doanh
+
+173
+00:23:21,440 --> 00:23:23,440
+đối với việc lấy sử dụng phép kiếm này.
+
+174
+00:23:24,080 --> 00:23:26,340
+Thì các tổng thủy kinh doanh này có một số hướng chính,
+
+175
+00:23:27,000 --> 00:23:29,830
+nhất là phép ẩm crop, sử dụng phép crop, phép global,
+
+176
+00:23:30,050 --> 00:23:33,630
+có thể là về sử dụng phép được nhớ viết, sử dụng phép không hình nhất.
+
+177
+00:23:33,940 --> 00:24:04,880
+nhưng chưa thể hiện ra được những lực lượng đặc biệt của các lực lượng.
+
+178
+00:24:06,700 --> 00:24:18,470
+Các bạn có thể tìm tìm kiếm sức mắc bộ nhưng mà vẫn đang dùng phép ARRIVAL và phép ARRIVAL là cái bài mở của VST-206
+
+179
+00:24:18,470 --> 00:24:30,020
+thì tiêu chuẩn sức mắc bộ, cải thiện cái default nó biến mấy logic 30 phần và vẫn sử dụng cái tham số để cố định phần thay hơn
+
+180
+00:24:32,260 --> 00:24:35,260
+và lọc cành máu cao.
+
+181
+00:24:35,500 --> 00:24:38,880
+Thứ ba là về sát của Proto.
+
+182
+00:24:40,220 --> 00:24:43,860
+Proto thì hỗ trợ rất chưa quan sát nhưng chi phí rất đông.
+
+183
+00:24:43,960 --> 00:24:46,820
+Hiện tại đang cao khoảng 412 triệu đồng.
+
+184
+00:24:48,540 --> 00:24:51,230
+Từ những khuẩn trọng đặc biệt là
+
+185
+00:24:51,230 --> 00:24:52,950
+từ những khuẩn trọng đặc biệt là
+
+186
+00:24:52,950 --> 00:24:54,670
+nhất là về có thể làm cho biết
+
+187
+00:24:55,270 --> 00:24:57,670
+hỗ trợ trong những bất kỳ thời gian
+
+188
+00:25:00,370 --> 00:25:03,110
+và vẫn bảo hẳn kỹ thuật sau.
+
+189
+00:25:03,210 --> 00:25:07,850
+Giờ em đề xuất phương pháp kỹ thuật của mình.
+
+190
+00:25:09,140 --> 00:25:11,000
+Đầu tiên, các doanh nghiệp sẽ được huấn luyện.
+
+191
+00:25:13,280 --> 00:25:15,680
+Trước huấn luyện thì sẽ được tưởng bá,
+
+192
+00:25:17,420 --> 00:25:20,300
+bằng cái star bây giờ, như quả VST.
+
+193
+00:25:20,700 --> 00:25:25,720
+Sau khi được huấn luyện thì sẽ đổi 2 đồng số lên cho server.
+
+194
+00:25:25,720 --> 00:25:32,080
+Thứ nhất là về số lượng giá của lớp đấy tại lĩnh đại.
+
+195
+00:25:32,700 --> 00:25:34,640
+Để mình nhận được lớp nào của lớp kia.
+
+196
+00:25:34,860 --> 00:25:40,220
+Và số lượng có của tại lĩnh đại và so với lĩnh khác.
+
+197
+00:25:41,560 --> 00:25:45,680
+Sau đó thì em tiến hành sử dụng API.
+
+198
+00:25:46,200 --> 00:25:52,300
+Thứ nhất là, nếu mình sử dụng bài PHP,
+
+199
+00:25:52,600 --> 00:25:54,480
+thì sử dụng tổng chức Android,
+
+200
+00:25:55,580 --> 00:25:57,040
+thì sử dụng tổng chức chung.
+
+201
+00:25:57,040 --> 00:26:00,460
+Nhưng mà một số cây lớn thì nó chất cổ cái lớp tiềm đại
+
+202
+00:26:00,460 --> 00:26:03,840
+Còn mình thì mình chất cổ cái lớp trung thì đó là hiếu
+
+203
+00:26:03,840 --> 00:26:08,530
+Và nó làm cái ảnh hưởng so với cây classical
+
+204
+00:26:10,310 --> 00:26:14,510
+Ở đây thì em chỉ là tổng của những cây mà có lớp tiềm đại
+
+205
+00:26:14,510 --> 00:26:19,700
+Thứ hai ở phần backboard là cái phần vào của phương hình
+
+206
+00:26:19,700 --> 00:26:22,480
+Em sử dụng cây CPU
+
+207
+00:26:24,370 --> 00:26:30,540
+Thay vì em sử dụng volume, nó chỉ có 1 chỉ số trong 1 cái lần,
+
+208
+00:26:30,620 --> 00:26:43,840
+chính vì thế em không tiến hành trung bình chân của số lượng mẫu của cái lần đấy.
+
+209
+00:26:44,550 --> 00:26:48,190
+Không tính trung bình chân của số lượng mẫu của cái lần sau tổng cộng.
+
+210
+00:26:48,190 --> 00:26:58,610
+Và sẽ tiến hành đấy là, ví dụ có 3 phần thì em sẽ lấy 1 phần 3 của cái trung bình chân của từng nhãn một
+
+211
+00:26:58,990 --> 00:27:03,590
+so với tổng lại để tổng hợp là sẽ ưu tiên cho cái lớp điểm ở đây.
+
+212
+00:27:03,730 --> 00:27:10,860
+Và thứ 3 là cái gx, gc để là em tiến hành đấy là bật hoặc không bật cái chế độ mà
+
+213
+00:27:17,050 --> 00:27:21,990
+hoặc là mình xây dựng bình thường theo từng lượng, từng lớp.
+
+214
+00:27:22,710 --> 00:27:28,760
+Thì em đang có một số kết quả, một số so sánh so với các tương tác của VNCT.
+
+215
+00:27:28,960 --> 00:27:31,560
+Thế là về sử dụng hợp thì mình cũng quay thuốc.
+
+216
+00:27:32,060 --> 00:27:35,230
+Sử dụng hợp này đã có so với giải VNCT.
+
+217
+00:27:35,630 --> 00:27:40,530
+Về tương tác backboard, product, cũng như là hợp định phục vụ này đã có so với giải VNCT.
+
+218
+00:27:40,530 --> 00:27:45,620
+Về tòa áp, mình sử dụng 4 mũi thú tiểu,
+
+219
+00:27:46,600 --> 00:27:51,160
+DLT, DLT-15, SILT và CIDIS-57.
+
+220
+00:27:51,900 --> 00:27:55,140
+Về cấu hình, nguyện, truyền dụng số lượng,
+
+221
+00:27:55,220 --> 00:27:57,650
+mình sử dụng 10, sử dụng gây dịch viết,
+
+222
+00:27:57,650 --> 00:27:58,730
+sử dụng trang số 3, 5,
+
+223
+00:27:58,830 --> 00:28:00,590
+và sử dụng khu vực vòng ủng hộ được,
+
+224
+00:28:00,630 --> 00:28:03,070
+cũng sử dụng khu vực vòng Epoch.
+
+225
+00:28:03,980 --> 00:28:06,890
+Về thích thắc, so sánh,
+
+226
+00:28:06,970 --> 00:28:08,690
+mình sử dụng 10 ký ức,
+
+227
+00:28:09,110 --> 00:28:10,510
+mình sẽ tiến hành thực nghiệm là
+
+228
+00:28:10,510 --> 00:28:13,340
+theo số thực nghiệm mình,
+
+229
+00:28:13,340 --> 00:28:15,870
+để so sánh với công nghệ của công nghệ đó.
+
+230
+00:28:18,100 --> 00:28:19,760
+Đây là một số kết quả chính của công pháp.
+
+231
+00:28:20,380 --> 00:28:23,160
+Nhất là về kết quả pháp ROAS-1
+
+232
+00:28:23,160 --> 00:28:29,540
+cũng như ROAS-1 trên 4 nội dung điểm của pháp thủy xuất là S-C-S-A
+
+233
+00:28:30,440 --> 00:28:31,420
+đạt được pháp thủy xuất của công nghệ.
+
+234
+00:28:33,090 --> 00:28:38,530
+Về so sánh đối với từng thành phần trong pháp thủy xuất,
+
+235
+00:28:39,330 --> 00:28:43,690
+khi mà do hình ảnh tổng hợp lại cả phép mà mình đặt ra
+
+236
+00:28:43,690 --> 00:28:47,350
+thì kết quả là tốt hơn so với từng pháp thủy xuất như thế này.
+
+237
+00:28:50,730 --> 00:29:02,190
+So với các nghiên cứu hôm nay, đối với bộ CAC, SID và NB15 thì kết quả rất là tốt.
+
+238
+00:29:02,570 --> 00:29:05,650
+Sẽ có kết quả tốt hơn từ tuần trước qua.
+
+239
+00:29:06,050 --> 00:29:10,710
+Đối với bộ SONIT, số được bảo làm tiền của bộ đó rất là ít.
+
+240
+00:29:10,830 --> 00:29:13,710
+Vì thế nên bây giờ mình sẽ thay đổi khác hơn một chút.
+
+241
+00:29:15,750 --> 00:29:18,210
+Em đang thực hành phát triển kỹ ở chỗ này để kiểm soát kết quả.
+
+242
+00:29:33,400 --> 00:29:36,900
+ở chỗ như là đi xa
+
+243
+00:30:19,570 --> 00:30:25,980
+xin phép vào báo cáo nhanh thì là tuần trước là em cũng đã thành công bảo vệ thạc sĩ thành
+
+244
+00:30:26,720 --> 00:30:40,440
+nhà đề tài thì đây là thông số mà em có thuyết trình ạ Hiện tại thì các thầy ông hội đồng có
+
+245
+00:30:40,440 --> 00:30:46,960
+nói là cho các mô hình đề xuất thì chỉ có mô hình sport và mô hình của em là có thông số khả quan
+
+246
+00:30:46,960 --> 00:30:53,820
+Các mô hình khác thì là thông số và kết quả đưa ra là nó chưa đủ thuyết phục
+
+247
+00:30:53,820 --> 00:30:57,560
+Nên với cả là các bài báo khoa học mà em dựa vào
+
+248
+00:30:57,560 --> 00:31:01,890
+Thì là em có chỉ ra rằng là hiện nay để tiết kiệm chi phí
+
+249
+00:31:01,890 --> 00:31:06,330
+Và bởi vì mô hình dữ liệu rất là lớn nên là người ta sẽ ưu tiên dùng phương pháp SMOTE
+
+250
+00:31:06,330 --> 00:31:09,190
+Còn phương pháp sinh dữ liệu để bổ sung vào cơ sở dữ liệu
+
+251
+00:31:09,190 --> 00:31:13,730
+Thì là em như em đang tìm hiểu thì đang chưa có nhiều bài báo nào
+
+252
+00:31:13,730 --> 00:31:16,190
+thì sau khi em áp dụng
+
+253
+00:31:16,190 --> 00:31:17,510
+thì đây là kết quả
+
+254
+00:31:17,510 --> 00:31:19,110
+thì đối với mô hình
+
+255
+00:31:19,670 --> 00:31:20,610
+smooth thông thường
+
+256
+00:31:20,610 --> 00:31:23,070
+thì là các dấu hiệu cơ bản
+
+257
+00:31:23,070 --> 00:31:24,770
+thì mô hình có khả năng nhận biết rất rõ
+
+258
+00:31:24,770 --> 00:31:27,550
+tuy nhiên là các dữ liệu
+
+259
+00:31:27,550 --> 00:31:29,490
+mà có yếu tố đặc trưng hơn
+
+260
+00:31:29,490 --> 00:31:31,130
+thì thường bị lẫn vào
+
+261
+00:31:31,130 --> 00:31:32,870
+ví dụ ở đây là nhóm
+
+262
+00:31:32,870 --> 00:31:34,950
+mà mục tiêu là sinh dữ liệu bôi lần
+
+263
+00:31:35,730 --> 00:31:37,530
+thì đôi lúc lại có thêm
+
+264
+00:31:37,530 --> 00:31:39,170
+một số nhãn về time
+
+265
+00:31:39,170 --> 00:31:41,710
+và đôi lúc là nó quên
+
+266
+00:31:41,710 --> 00:31:43,230
+chưa đóng dấu câu
+
+267
+00:31:43,230 --> 00:31:44,630
+như là phần em bôi đỏ
+
+268
+00:31:45,620 --> 00:31:47,880
+Câu lệnh đấy là câu lệnh sẽ bị lỗi
+
+269
+00:31:47,880 --> 00:31:49,680
+Và sẽ bị chặn ngay tức
+
+270
+00:31:49,680 --> 00:31:51,260
+Còn dữ liệu
+
+271
+00:31:52,240 --> 00:31:53,040
+Mô hình của em
+
+272
+00:31:53,040 --> 00:31:54,420
+Thì là ở 2
+
+273
+00:31:56,020 --> 00:31:56,460
+Nhóm
+
+274
+00:31:57,800 --> 00:31:59,120
+2 nhóm đầu tiên
+
+275
+00:32:00,540 --> 00:32:01,740
+Các cái dấu hiệu
+
+276
+00:32:01,740 --> 00:32:02,800
+Về Bolin và Aaron
+
+277
+00:32:02,800 --> 00:32:05,800
+Là mô hình của em đã có khả năng sinh ra rồi
+
+278
+00:32:05,800 --> 00:32:07,300
+Và đã được chặn
+
+279
+00:32:07,300 --> 00:32:08,720
+Chặn ở đây nghĩa là
+
+280
+00:32:08,720 --> 00:32:10,940
+Cái tường lửa nó đã nhận biết được
+
+281
+00:32:10,940 --> 00:32:12,420
+Là đây có những dấu hiệu tấn công
+
+282
+00:32:12,420 --> 00:32:14,540
+Không phải là những dấu hiệu nhiễu nữa
+
+283
+00:32:14,540 --> 00:32:17,470
+còn đối với 2 cái mô hình còn lại
+
+284
+00:32:17,470 --> 00:32:18,410
+là Time và Union
+
+285
+00:32:18,410 --> 00:32:21,050
+thì cấu trúc ngữ pháp nó yêu cầu cao hơn
+
+286
+00:32:21,050 --> 00:32:23,410
+nên khi mà sinh ra dữ liệu
+
+287
+00:32:23,410 --> 00:32:25,450
+thì mô hình của em lại đang không học được
+
+288
+00:32:25,450 --> 00:32:27,230
+thế nên là sinh ra dữ liệu
+
+289
+00:32:27,230 --> 00:32:28,010
+nhiều rất là nhiều
+
+290
+00:32:28,010 --> 00:32:29,790
+và không khỏe năng khai thác thực tế
+
+291
+00:32:29,790 --> 00:32:33,080
+thì trong tuần này là em cũng đã cố gắng
+
+292
+00:32:33,080 --> 00:32:34,740
+thay đổi các cái thông số
+
+293
+00:32:34,740 --> 00:32:35,900
+ở trong mô hình nhưng mà
+
+294
+00:32:36,420 --> 00:32:39,100
+kết quả thì vẫn đang chưa được khả quan
+
+295
+00:32:39,100 --> 00:32:40,980
+thì hôm nay em trình bày để mong là
+
+296
+00:32:40,980 --> 00:32:41,940
+thầy cho em một
+
+297
+00:32:43,350 --> 00:32:45,130
+định hướng để có thể cải thiện
+
+298
+00:32:45,130 --> 00:32:50,990
+thì hiện tại mục tiêu của em là em cho rằng là đối với các loại dữ liệu thông thường
+
+299
+00:32:50,990 --> 00:32:54,070
+nghĩa là có dữ liệu tấn công lớn mà nhiều
+
+300
+00:32:54,070 --> 00:32:58,500
+thì phương pháp SMODE nó sẽ ưu việt hơn về mặt chi phí
+
+301
+00:32:58,500 --> 00:33:02,040
+tuy nhiên là ở những mẫu mà yêu cầu ngữ pháp cao hơn
+
+302
+00:33:02,040 --> 00:33:05,280
+thì mô hình của em sẽ tốt hơn để có thể bổ sung vào
+
+303
+00:33:05,280 --> 00:33:07,980
+thì em hiện tại đang đi theo hướng này
+
+304
+00:33:07,980 --> 00:33:11,160
+đây là kết quả của em
+
+305
+00:33:16,880 --> 00:33:18,280
+thì hiện tại
+
+306
+00:33:18,280 --> 00:33:21,540
+sẽ có 2 nhóm
+
+307
+00:33:21,540 --> 00:33:23,260
+đầu tiên là 2 nhóm bên trên
+
+308
+00:33:23,260 --> 00:33:24,800
+thì cấu trúc của nó
+
+309
+00:33:24,800 --> 00:33:25,900
+nó sẽ rất là đơn giản
+
+310
+00:33:25,900 --> 00:33:27,580
+nó sẽ chỉ cần yêu cầu
+
+311
+00:33:27,580 --> 00:33:30,080
+ví dụ như nhóm Aaron là cố gắng sinh ra lỗi
+
+312
+00:33:30,080 --> 00:33:32,180
+còn nhóm Boland là cố gắng
+
+313
+00:33:32,180 --> 00:33:33,000
+ép
+
+314
+00:33:35,330 --> 00:33:37,230
+thì nói chung là 2 mẫu này
+
+315
+00:33:37,230 --> 00:33:38,890
+thì nó sẽ yêu cầu
+
+316
+00:33:38,890 --> 00:33:39,590
+nữ pháp rất là thấp
+
+317
+00:33:39,590 --> 00:33:42,740
+còn 2 mẫu còn lại thì nó sẽ yêu cầu
+
+318
+00:33:42,740 --> 00:33:48,430
+đâu phải thứ nhất là phải đúng cơ sở dữ liệu mà nó tấn công vào thì nó nói chung là hai mẫu dưới
+
+319
+00:33:48,430 --> 00:33:58,620
+nó yêu cầu cao hơn đến cả phương pháp mốt nó cũng không làm ổn hết ạ thì hiện thì vợ thì em đang định
+
+320
+00:33:58,620 --> 00:34:03,930
+làm tập trung vào hai phương án khó hơn ạ Nhưng mà hai phương án khó hơn hiện tại em đang cố gắng mà
+
+321
+00:34:03,930 --> 00:34:15,440
+vẫn chưa có cải thiện nên là đang định xin mong muốn xin định hướng của thầy làm xoay thì phải
+
+322
+00:34:28,020 --> 00:34:38,700
+mô hình này chứ có bé quá mô hình của em là em dựa trên các cái phần em đánh dấu vuông là em
+
+323
+00:34:38,700 --> 00:34:47,680
+bốn phương ở bốn cái phương án đề xuất đầu tiên là em sẽ cố gắng tách theo chuỗi cú pháp SQL thì
+
+324
+00:34:47,680 --> 00:35:01,760
+Thì thay vì đưa vào các cái thông số như kiểu 1, 2, 3 thì em sẽ biến thành keyword là number hoặc là các cái cụm SQL thì em sẽ chuẩn hòa nó lại để tránh việc phải học quá nhiều dữ liệu mà có chung mục đích ạ.
+
+325
+00:35:02,370 --> 00:35:08,030
+Tiếp theo là trong bộ sinh thì là em sẽ tăng số lượng chuỗi nhé.
+
+326
+00:35:08,050 --> 00:35:13,830
+Thay vì ở bài gốc của tác giả này là 20 thì em sẽ tăng lên thành 160 ạ.
+
+327
+00:35:14,290 --> 00:35:23,330
+Còn huấn luyện trước bộ sinh thì em sẽ tăng cường việc huấn luyện trước bộ sinh để tránh việc mô hình bị sụp đổ quá sớm
+
+328
+00:35:23,330 --> 00:35:26,380
+Và cuối cùng là em sẽ kết hợp điểm thưởng
+
+329
+00:35:26,380 --> 00:35:33,960
+Thì thay vì nhận biết là dữ liệu thật hay giả thì sẽ phải thêm một cái nữa là liệu dữ liệu đấy có cấu trúc SQL không ạ
+
+330
+00:35:33,960 --> 00:35:36,110
+Đây là 3 thành phần ạ
+
+331
+00:35:36,110 --> 00:35:40,810
+Thì các thầy hội đồng cũng đã nhận ra là em có một vấn đề khá lớn với phần điểm thưởng ạ
+
+332
+00:35:40,810 --> 00:35:42,390
+bởi vì đầu tiên là
+
+333
+00:35:42,390 --> 00:35:45,200
+cái hàm đánh giá
+
+334
+00:35:45,200 --> 00:35:46,160
+mô hình SQL
+
+335
+00:35:46,160 --> 00:35:48,460
+thì nó lại có sự tương đương với
+
+336
+00:35:48,460 --> 00:35:49,780
+hàm đánh giá
+
+337
+00:35:49,780 --> 00:35:52,140
+nghĩa là kiểu đào bóng vừa thổi còi
+
+338
+00:35:52,140 --> 00:35:54,100
+thế nên là nó sẽ
+
+339
+00:35:54,100 --> 00:35:55,960
+khiến cho mô hình của em là
+
+340
+00:35:55,960 --> 00:35:57,440
+có xu hướng là cố gắng
+
+341
+00:35:57,440 --> 00:36:00,660
+học những cái thành phần để điểm cao
+
+342
+00:36:00,660 --> 00:36:02,340
+thì đây là phần em
+
+343
+00:36:02,340 --> 00:36:04,620
+cũng đang cố gắng tìm hiểu
+
+344
+00:36:04,620 --> 00:36:05,140
+để cải thiện
+
+345
+00:36:05,140 --> 00:36:07,020
+còn các thành phần khác thì
+
+346
+00:36:07,860 --> 00:36:09,420
+em chưa gặp vấn đề gì
+
+347
+00:36:09,420 --> 00:36:28,780
+cái gì ạ Bởi sao anh muốn nghe rõ cái gì buồn tính như thế nào Vâng thế thì một số em sẽ làm
+
+348
+00:36:29,380 --> 00:36:39,080
+sai chi tiết hơn về phần này có giải thích cho thầy đấy còn về định hướng phần làm của em có
+
+349
+00:36:39,080 --> 00:37:00,410
+cần phải chỉnh sửa hay là em cứ làm rõ các vấn đề thì nó biết biết bài thảo lựa chọn cái này
+
+350
+00:37:00,410 --> 00:38:40,070
+Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+
+351
+00:38:49,820 --> 00:38:58,050
+Thế chung có yêu cầu em lật chỉnh thêm phần kế hoạch mỗi một quá trình của EVOX sinh ra dữ liệu
+
+352
+00:38:58,450 --> 00:39:04,450
+thì sẽ tổng kê tổng kết cấu dữ liệu mẫu hoạt động sinh ra mỗi một EVOX
+
+353
+00:39:04,450 --> 00:39:09,800
+và cũng kiểm tra xem độ trùng lọc của các mẫu hoạt động sinh ra bởi mô hình
+
+354
+00:39:09,800 --> 00:39:13,940
+đồng thời sẽ tính loại bỏ những mẫu hoạt động trùng lọc
+
+355
+00:39:14,500 --> 00:39:20,820
+tính TPR dựa trên những mẫu mà không trùng lọc được mẫu sinh ra
+
+356
+00:39:20,820 --> 00:39:27,870
+dựa ra là mỗi mình ra nó có thể nó cũng có mẫu bằng thời gian sẽ giá trị tính tên bây giờ thì
+
+357
+00:39:28,460 --> 00:39:36,340
+em đã thực hiện việc đó và cũng là trải qua quá trình thực hiện được sinh dữ liệu như vậy là loại
+
+358
+00:39:36,340 --> 00:39:41,910
+mẫu mẫu việc cũng là từ mặt mỗi phóc thế nào thì đầu tiên từ thứ hai là đã thực hiện việc
+
+359
+00:39:41,910 --> 00:39:50,150
+mà thức nào kiểm tra lại là cũng như ghi ra và bộ các là những dữ liệu được sinh ra bảo môi nhiều
+
+360
+00:39:50,150 --> 00:39:56,030
+nhiều cây cốt đơn thành phần thất phai CSP ở 4 vòng để thành một bộ thí nghiệm tổng hợp.
+
+361
+00:39:56,270 --> 00:39:59,670
+Sau đó thì thực hiện kỹ thuật tống
+
+362
+00:40:00,670 --> 00:40:05,530
+kê để kiểm tra xem dữ liệu nó có bị trùng lặng có bị bố khóa nát hay không
+
+363
+00:40:05,530 --> 00:40:14,870
+thực hiện các bước như vậy thì sau đó thì cũng đã đến thời gian vừa rồi thì đã đến ngày hôm hôm trước
+
+364
+00:40:14,870 --> 00:40:22,060
+thì đã kết quả có kết quả nó phản quan hơn so với phần trước thì em đã ngồi với thẩm minh để cùng
+
+365
+00:40:22,060 --> 00:40:27,640
+nhau kiểm tra dữ liệu sinh ra thì cái kết quả như vậy có tính không thì mỗi lần đầu chạy thì hiện
+
+366
+00:40:27,640 --> 00:40:39,440
+Hiện nay, mùi của em có kết quả như thế này, các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé.
+
+367
+00:40:42,220 --> 00:40:45,340
+Hôm trước, em đã đặt vấn đề về mùi ban ra.
+
+368
+00:40:47,400 --> 00:40:50,300
+Nó về giá trị bổng.
+
+369
+00:40:51,220 --> 00:40:53,060
+Giá trị này là giá trị trải nghiệm.
+
+370
+00:40:53,580 --> 00:40:57,040
+Chuyện vấn đề true positive càng thấp thì càng tốt.
+
+371
+00:40:57,330 --> 00:41:01,760
+Hôm trước, em có thắc mắc tại sao nó về vụ không.
+
+372
+00:41:01,760 --> 00:41:05,160
+không thì em có kiểm tra lại, chạy lại, đoán đeo cho hữu ích.
+
+373
+00:41:05,520 --> 00:41:11,700
+Phương pháp như thấy trong hướng dẫn là đương toàn mình đoán bỏ một từ nhau đi và kiểm tra lại để chỉ chính xác.
+
+374
+00:41:12,240 --> 00:41:16,760
+Thì cái chỉ số này thì hiện tại nó đã khác lần hôm trước.
+
+375
+00:41:18,400 --> 00:41:22,540
+Cái nguồn măn DNA can này thì em đã chạy lại trên bộ thí nghiệm của DB.
+
+376
+00:41:25,490 --> 00:41:30,330
+Về mặt so sánh thì cái bộ măn DNA can này thì vẫn đang ở phương mặt của măn can.
+
+377
+00:41:32,690 --> 00:41:40,660
+thì còn cái nguồn nhờ cuối cùng cho một mình đang được xuất mới một mang ô tô tốc đơn thì
+
+378
+00:41:41,600 --> 00:41:49,240
+mùi này thì trong lần đầu tiên em chạy thì chứng kết quả ra đang rất là tốt như này có một vài
+
+379
+00:41:49,240 --> 00:41:55,020
+các cái bộ đi tơ thì gần như là vượt qua một trăm phần trăm có khoảng 20 lịch tơ thì vẫn
+
+380
+00:41:55,020 --> 00:42:03,190
+hiện ra trong mẫu hoạt động sinh ra thì em đang chạy lần thứ hai để kiểm tra kết quả này của mình
+
+381
+00:42:03,190 --> 00:42:12,710
+là có vấn đề gì không. Hiện tại thì với lần 1 thì những kết quả này của em thì em đã có tất cả các file CSV sinh ra
+
+382
+00:42:12,710 --> 00:42:19,940
+và em có dùng các công cụ tấn kênh thì các thông báo dữ liệu sinh ra thì nó không có vấn đề gì bất thường cả
+
+383
+00:42:20,530 --> 00:42:28,880
+và nó là dữ liệu nó không bị trình bỏng. Thì nếu mà em chạy thêm một lần nữa, hoặc một hai lần nữa
+
+384
+00:42:30,740 --> 00:42:39,000
+Kết quả này của mình không có vấn đề gì cả vì lý do này hoàn toàn đạt yêu cầu đặt ra
+
+385
+00:42:39,000 --> 00:42:46,890
+đó là mẫu thuyết trưng ra và mô hình mà phụ thuật hành động đơn giới Việt Nam đang xây dựng mẫu hoặc thất lượng
+
+386
+00:42:47,290 --> 00:42:51,370
+Đã trở thành kết quả lần thứ 2
+
+387
+00:42:51,870 --> 00:42:59,950
+Với kết quả lần 1 thì toàn bộ dữ liệu đã trích và thông qua các cục cụ AI trích những bội viện về thuyết trưng ra
+
+388
+00:43:00,950 --> 00:43:19,730
+Đây là cái bộ thí điệu mà em đã gọi là sau mỗi một cái dần chạy thì đều tổng hợp thành cái vượt kho thí điệu để có một bước xuống kê lại.
+
+389
+00:43:23,280 --> 00:43:26,290
+Ví dụ ở đây là vượt kho thí điệu.
+
+390
+00:43:37,900 --> 00:43:46,000
+sinh ra chính là mỗi một file sẽ chứa các cái mã đồng sinh ra và các mẫu mã đồng này đã vượt qua
+
+391
+00:43:46,000 --> 00:43:55,840
+được cái mẫu mã đồng thì nó cũng đều lưu lại để làm cho anh minh chứng. Thì cái này thì em cũng
+
+392
+00:43:55,840 --> 00:44:03,920
+đã báo cáo với giảm tính chung rồi em cũng nén lại toàn bộ các file này cũng dùng vào công cụ AI để
+
+393
+00:44:03,920 --> 00:44:07,700
+để test xem sụp dùng lặng của video này có vấn đề gì không, có video gốc.
+
+394
+00:44:08,150 --> 00:44:10,550
+Hiện tại báo rằng nó không dùng lặng.
+
+395
+00:44:10,950 --> 00:44:14,590
+Ví dụ sinh ra nó là động viên hành tinh thần thương hiệu.
+
+396
+00:44:14,790 --> 00:44:18,920
+Về hành tinh thần thương hiệu, em xin kể thông thầy
+
+397
+00:44:18,920 --> 00:44:28,710
+hiện tại bộ thảo SOSCT sẽ có một trải nghiệm phần độc và đáng chia sẻ.
+
+398
+00:44:28,870 --> 00:44:34,730
+Nếu em có thể hoàn thiện bài này trong thời gian thứ 3,
+
+399
+00:44:34,730 --> 00:44:48,980
+cái kết quả này thì em đã đến thời điểm này thấy là nó đã thêm một lần kiểm tra nữa thì
+
+400
+00:44:48,980 --> 00:45:00,040
+em đã kết quả rất là thật được từ từ trong cái giáo. Ở cái hội thảo SOICT thì em cũng đã tìm
+
+401
+00:45:00,040 --> 00:45:07,830
+hiểu qua rồi các chủ điểm để họ tùy bài thì họ có 2 khác nhau thì em cũng chưa biết là
+
+402
+00:45:09,490 --> 00:45:19,500
+Họ sẽ có một phần chuyên về thông tin và một phần chuyên về phòng máy.
+
+403
+00:45:20,040 --> 00:45:28,320
+Với phần phòng máy, họ lại có một phần liên quan lặng thang.
+
+404
+00:45:29,980 --> 00:45:37,940
+Trong chủ điểm của họ, họ có một phần về Security làm trên cụm.
+
+405
+00:45:39,730 --> 00:45:50,980
+Ở dưới này, họ có một phần liên quan đến thông tin .
+
+406
+00:45:52,360 --> 00:46:15,860
+Tuy nhiên, hội thẳng này còn có phần liên quan đến AI, gọi là relative AI, liên quan đến mục, các phần liên quan đến mạng gian, mồ hình sinh.
+
+407
+00:46:19,070 --> 00:46:30,810
+Chuyên độc hội thẳng rất là dễ dàng, nên thầy được nộp vào mục về AI hay mục về an toàn tin.
+
+408
+00:47:17,480 --> 00:47:17,620
+kết quả của em
+
+409
+00:47:25,870 --> 00:47:34,870
+bây giờ đang thầy trong đẹp của bạn thầy hiệu phó đang có giấy truyền chuyển nha tớ tôi loạn lắm
+
+410
+00:47:34,870 --> 00:47:45,940
+mày mà tôi còn chạy trước hiểu như kiểu sáng nay có quyết định cả đầy đầy báo cáo lên cả
+
+411
+00:47:49,580 --> 00:47:58,800
+khả năng sắp xuống phân biệt vật mạng phân biệt vật mạng
+
+412
+00:48:03,730 --> 00:48:08,050
+bán cơ yếu thì có trường với cả bác sĩ chính phủ
+
+413
+00:48:08,050 --> 00:48:13,550
+Nói chung là bác sĩ sẽ học làm kiểu nhà nước
+
+414
+00:48:17,040 --> 00:48:22,760
+Nhưng mà thầy ôm cái đấy chưa biết
+
+415
+00:48:22,760 --> 00:48:54,030
+không biết tôi biết thật nhưng mà khả năng chưa Bởi vì nếu mà đi phải cấp quản lý cao
+
+416
+00:48:58,040 --> 00:49:12,740
+sẽ phải hạ cánh xương thì biết hơi nhiều với cả bốn của anh bị hút thì mong nhanh tôi được
+
+417
+00:49:12,740 --> 00:49:22,480
+được thì khả năng là sẽ đi tại sự quản sự quản các nước lân cận với khả năng lào đếm nhà giả
+
+418
+00:49:22,480 --> 00:49:35,010
+nếu mà đi với cam với nhà thái thì thì hơi nhạy cảm chưa biết được khả năng cả bố mẹ tôi đi khoảng
+
+419
+00:49:43,610 --> 00:49:51,650
+tôi chỉ học bằng 60% thôi, vì tôi học trên trường ấy, nếu mà làm sinh trên trường thì sẽ không học bổ sung
+
+420
+00:50:07,230 --> 00:50:08,310
+Đăng ký cho ai ạ?
+
+421
+00:50:09,430 --> 00:50:10,450
+Đăng ký cho ai ạ?
+
+422
+00:50:11,320 --> 00:50:12,040
+Đăng ký cho ai ạ?
+
+423
+00:50:12,260 --> 00:50:12,740
+Đăng ký cho ai ạ?
+
+424
+00:50:12,800 --> 00:50:13,420
+Đăng ký cho ai ạ?
+
+425
+00:50:14,150 --> 00:50:15,530
+Đăng ký cho ai ạ?
+
+426
+00:50:15,530 --> 00:50:16,550
+Đăng ký cho ai ạ?
+
+427
+00:50:16,590 --> 00:50:21,850
+Đăng ký cho ai ạ?
+
+428
+00:50:22,590 --> 00:50:23,370
+Đăng ký cho ai ạ?
+
+429
+00:50:24,530 --> 00:50:27,690
+Đăng ký cho ai ạ?
+
+430
+00:50:27,750 --> 00:50:28,750
+Đăng ký cho ai ạ?
+
+431
+00:50:28,830 --> 00:50:31,150
+Đăng ký cho ai ạ?
+
+432
+00:50:31,830 --> 00:50:35,330
+Đăng ký cho ai ạ?
+
+433
+00:50:36,400 --> 00:50:45,460
+Chỉ có đề quản từ tầng công mạng. Với cả phòng thủ là 2 môn, bạn sẽ phải làm.
+
+434
+00:50:46,020 --> 00:50:48,080
+Ôi 200% em được phải làm.
+
+435
+00:50:48,720 --> 00:50:50,240
+300% được chứ.
+
+436
+00:50:53,490 --> 00:50:55,450
+Đấy là làm phòng đấy là đúng không?
+
+437
+00:50:55,630 --> 00:50:56,280
+Đúng không?
+
+438
+00:50:56,380 --> 00:50:56,680
+Đúng không?
+
+439
+00:50:57,260 --> 00:50:57,720
+Đúng không?
+
+440
+00:50:58,710 --> 00:50:59,870
+Đúng không?
+
+441
+00:50:59,990 --> 00:51:00,590
+Đúng không?
+
+442
+00:51:01,130 --> 00:51:01,670
+Đúng không?
+
+443
+00:51:01,770 --> 00:51:01,970
+Đúng không?
+
+444
+00:51:01,970 --> 00:51:02,450
+Đúng không?
+
+445
+00:51:02,710 --> 00:51:03,390
+Đúng không?
+
+446
+00:51:09,330 --> 00:51:10,210
+Đúng không?
+
+447
+00:51:25,770 --> 00:51:55,820
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+448
+00:52:32,130 --> 00:52:49,230
+Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.
+
+449
+00:52:59,040 --> 00:53:32,060
+Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.
+
+450
+00:53:37,440 --> 00:53:49,310
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+451
+00:54:05,970 --> 00:54:07,750
+Các bạn thuộc 1.000 khu phòng
+
+452
+00:54:07,750 --> 00:54:41,000
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+453
+00:54:41,600 --> 00:54:48,870
+Mình có nói là không lý về kẻ mạnh
+
+454
+00:54:48,870 --> 00:54:52,140
+Kẻ mạnh đây là ví dụ những ngành giáo dục
+
+455
+00:54:53,240 --> 00:54:55,060
+Ngành giáo dục bác đời này
+
+456
+00:54:55,060 --> 00:54:56,200
+Chứ kêu gọi bác được
+
+457
+00:54:57,770 --> 00:54:59,110
+Như quân đội công an này
+
+458
+00:54:59,110 --> 00:55:00,330
+Đúng là hệ xuất cao được
+
+459
+00:55:00,330 --> 00:55:02,860
+Cái ngành giáo viên này xuất
+
+460
+00:55:02,860 --> 00:55:08,140
+Tôi tin nói nó cũng mạnh bằng
+
+461
+00:55:11,080 --> 00:55:12,140
+Thứ nhất là an ninh mạnh
+
+462
+00:55:13,140 --> 00:55:14,120
+Mạnh của mạnh luôn
+
+463
+00:55:14,600 --> 00:55:16,050
+300%
+
+464
+00:55:20,460 --> 00:55:22,220
+Giáo viên thì nếu mà nói về quan trọng
+
+465
+00:55:22,220 --> 00:55:23,020
+Giáo viên thì quan trọng hơn
+
+466
+00:55:24,500 --> 00:55:25,980
+Mạng thì quan trọng nhưng mà làm sao
+
+467
+00:55:33,060 --> 00:55:37,320
+Nhưng mà người giáo viên thì lúc nào cũng là người cao quý nhất, nhưng mà lương vận chắc cũng thấp.
+
+468
+00:55:43,600 --> 00:55:47,980
+Nó vươn ra thêm một số tiêu chuẩn, không phải ai chứ.
+
+469
+00:55:48,870 --> 00:55:50,430
+Nó có chứng trị.
+
+470
+00:55:51,230 --> 00:55:51,990
+Chứng trị hả?
+
+471
+00:55:52,290 --> 00:55:52,870
+Quốc tế.
+
+472
+00:55:53,010 --> 00:55:53,690
+Nghĩa chứng trị hả?
+
+473
+00:55:54,560 --> 00:55:55,240
+À cái này.
+
+474
+00:55:55,240 --> 00:55:55,540
+Cho tỉnh.
+
+475
+00:55:55,640 --> 00:55:56,260
+Cho tỉnh.
+
+476
+00:55:58,660 --> 00:56:01,340
+Chúng ta hành hãy đối với nhau đấy.
+
+477
+00:56:01,340 --> 00:56:05,270
+rồi mấy vô nghỉ mùng 18 bây giờ phải nôi ra
+
+478
+00:56:05,270 --> 00:56:06,560
+đã soạn lại
+
+479
+00:56:06,560 --> 00:56:08,880
+một loạt phong thay
+
+480
+00:56:08,880 --> 00:56:14,740
+10 đàn đô
+
+481
+00:56:14,740 --> 00:56:16,850
+mua nhà bỏ xe hết rồi
+
+482
+00:56:17,490 --> 00:56:18,890
+cái lúc kia không chả
+
+483
+00:56:18,890 --> 00:56:21,010
+không chả
+
+484
+00:56:21,010 --> 00:56:23,270
+không chả
+
+485
+00:56:23,270 --> 00:56:23,870
+không chả
+
+486
+00:56:23,870 --> 00:56:26,050
+không chả
+
+487
+00:56:26,050 --> 00:56:28,710
+nếu như đã bắn sai phạm
+
+488
+00:56:28,710 --> 00:56:30,210
+ông đã sai phạm rồi
+
+489
+00:56:30,210 --> 00:56:31,690
+bây giờ không chả chết
+
+490
+00:56:32,920 --> 00:56:34,280
+ông ấy cũng sai
+
+491
+00:56:34,280 --> 00:56:36,310
+và ông sẽ được nghỉ hưu
+
+492
+00:56:37,110 --> 00:56:49,210
+tài chính đã là sai nguyên tắc tài chính rất là có mục tiêu mà nó cũng có mục tiêu của trả
+
+493
+00:56:49,210 --> 00:56:50,680
+nó không trả gì đâu
+
+494
+00:56:52,290 --> 00:56:53,030
+tương đương
+
+495
+00:56:53,650 --> 00:56:54,830
+tương tất nước dân
+
+496
+00:56:55,350 --> 00:56:56,750
+thế mà cái kết hợp với UB
+
+497
+00:56:56,750 --> 00:56:57,310
+thì ok
+
+498
+00:56:57,310 --> 00:57:02,070
+thế nhưng mà
+
+499
+00:57:02,070 --> 00:57:03,030
+riêng tiền
+
+500
+00:57:03,030 --> 00:57:04,310
+một cái chi sai
+
+501
+00:57:04,310 --> 00:57:06,790
+cái loại sai thì nghĩa là tiền
+
+502
+00:57:06,790 --> 00:57:08,130
+nó là cái sai
+
+503
+00:57:08,130 --> 00:57:10,430
+ông cầm tiền đấy
+
+504
+00:57:10,430 --> 00:57:12,110
+thì có nghĩa là tiền đấy không có
+
+505
+00:57:12,110 --> 00:57:14,580
+đấy nó giỏ
+
+506
+00:57:14,580 --> 00:57:17,600
+thế là mình đoán là
+
+507
+00:57:17,600 --> 00:57:19,120
+nó nhằm
+
+508
+00:57:19,880 --> 00:57:21,360
+nhằm vào thuần tiền thôi
+
+509
+00:57:24,420 --> 00:57:39,960
+Như thế nó khá là bất cập. Bởi vì tiêu chí của 1.8 là không xét được vị trí của họ.
+
+510
+00:57:41,580 --> 00:57:48,160
+Nếu mà họ vẫn còn tốt đắt thì vị trí của họ sẽ là khác, mức lương của họ sẽ là khác.
+
+511
+00:57:49,600 --> 00:57:51,280
+Bây giờ phải thu hút lại toàn bộ
+
+512
+00:57:51,280 --> 00:57:53,300
+Cho họ
+
+513
+00:57:53,300 --> 00:57:54,220
+Cái học về đó
+
+514
+00:57:54,220 --> 00:57:55,500
+Không phù hợp
+
+515
+00:57:57,510 --> 00:57:59,810
+Nó sai chứ này
+
+516
+00:58:00,630 --> 00:58:01,710
+Mình thì không biết sai đâu
+
+517
+00:58:01,710 --> 00:58:03,390
+Nhưng mà nếu nói thì nghe ký sinh giờ nó bảo
+
+518
+00:58:03,390 --> 00:58:04,790
+Ông ban mặt cả trời
+
+519
+00:58:05,910 --> 00:58:07,250
+Nói chuyện thiếm một xíu
+
+520
+00:58:08,120 --> 00:58:09,200
+Nói về cái
+
+521
+00:58:09,900 --> 00:58:11,220
+Nói chuyện thiếm một xíu
+
+522
+00:58:11,980 --> 00:58:12,580
+Đúng quá
+
+523
+00:58:15,800 --> 00:58:16,480
+Điều giải
+
+524
+00:58:18,470 --> 00:58:20,450
+Đấy là cái
+
+525
+00:58:27,330 --> 00:58:36,000
+bình thường không về thì cũng cầm nhiều tiền về quán thì là nó phải nó phải hỏi cái gì phải
+
+526
+00:58:36,000 --> 00:58:43,600
+lưu không xác ngoài hỏi như vì không vừa được lưu vừa cầm một khoản tiền to này mấy tỷ người
+
+527
+00:58:52,530 --> 00:59:24,790
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+528
+00:59:24,810 --> 00:59:40,630
+Vì ai đỡ bây giờ, tôi vẫn là một trong những cái đũ, tức là một hầu tiệm sợ hãi, toàn hầu tiệm người cũng sai, người cũng mong manh
+
+529
+00:59:41,700 --> 00:59:49,210
+Đôi khi là nó cũng cái thời hiểm, cái thời hiểm đấy nó phải làm thì nó mới làm được
+
+530
+00:59:49,210 --> 00:59:53,990
+Nếu mà không làm thì phải làm thời hiểm, còn đấy thì phải mỏi trong người ta rồi
+
+531
+00:59:55,410 --> 00:59:58,820
+Người ta biết là sai nhưng vẫn phải phải làm
+
+532
+01:00:05,610 --> 01:00:13,790
+đó là tiền vẫn mất thằng muốn cho nghỉ chịu suy nghĩ không có trong nghỉ thì nó lại đâu rồi đấy
+
+533
+01:00:15,300 --> 01:00:22,920
+anh Sơn là một tình hình anh Sơn nói thẳng nếu anh Sơn vẫn phải làm chuyên môn có tốt
+
+534
+01:00:43,640 --> 01:00:54,290
+bài toán về về quản lý về làm cái bài toán rất lớn
+
+535
+01:01:04,280 --> 01:01:25,470
+trường em thì là một trong 23 trường toàn cư trong cả nước là tự chủ tự chủ toàn phần trường em sắp
+
+536
+01:01:25,470 --> 01:01:26,050
+trường Việt Hung
+
+537
+01:01:26,690 --> 01:01:28,870
+bên đấy thì nó yếu hơn cũng khá nhiều
+
+538
+01:01:28,870 --> 01:01:30,870
+lực lượng bên em rất là lực chính
+
+539
+01:01:31,550 --> 01:01:32,290
+tuy nhiên thì
+
+540
+01:01:33,250 --> 01:01:34,890
+cũng bài toán về nhân sự
+
+541
+01:01:34,890 --> 01:01:36,690
+cũng là một vấn đề vì khi mà ghép
+
+542
+01:01:36,690 --> 01:01:38,750
+hai nơi thì nó sẽ là ghép thêm ngành
+
+543
+01:01:39,390 --> 01:01:40,970
+ngoài ghép đơn vị nhưng mà có ngành
+
+544
+01:01:40,970 --> 01:01:42,470
+nữa thì nó dẫn đến câu chuyện là
+
+545
+01:01:42,470 --> 01:01:44,110
+cái chuẩn
+
+546
+01:01:44,110 --> 01:01:46,370
+của duy trì ngành thì bắt buộc
+
+547
+01:01:46,370 --> 01:01:48,350
+phải đạt được nhưng mà nó rất khó trong
+
+548
+01:01:48,350 --> 01:01:49,010
+việc đội ngũ
+
+549
+01:01:49,990 --> 01:01:51,710
+thì đấy là một cái vấn đề
+
+550
+01:01:52,430 --> 01:01:53,810
+có rất nhiều vấn đề khác nữa
+
+551
+01:01:55,990 --> 01:01:58,990
+Em nghĩ là mỗi thời mỗi thế
+
+552
+01:02:00,270 --> 01:02:01,330
+Đều phải nhìn nhận
+
+553
+01:02:01,330 --> 01:02:01,810
+Và xem
+
+554
+01:02:02,850 --> 01:02:05,050
+Các lãnh đạo tốt tài tốt khéo
+
+555
+01:02:05,050 --> 01:02:06,390
+Mà xử lý và duy trì
+
+556
+01:02:06,390 --> 01:02:08,010
+Mà sử dụng nhân lực thế nào
+
+557
+01:02:09,350 --> 01:02:10,470
+Cũng giống như là
+
+558
+01:02:10,470 --> 01:02:12,450
+Thầy hay là mọi người cũng vừa nói
+
+559
+01:02:12,450 --> 01:02:13,930
+Mình không thể nói trước được hôm nay
+
+560
+01:02:13,930 --> 01:02:15,550
+Có thể mình làm đúng nói đúng như này
+
+561
+01:02:15,550 --> 01:02:16,750
+Nhưng mà sau một thời kỳ khác
+
+562
+01:02:16,750 --> 01:02:18,210
+Nó là câu chuyện khác
+
+563
+01:02:18,210 --> 01:02:20,980
+Câu chuyện là mình có đủ nhìn nhận ra
+
+564
+01:02:20,980 --> 01:02:24,040
+Đấy là vai trò vị trí của mình
+
+565
+01:02:24,040 --> 01:02:25,700
+Mình lúc này nào phức tranh toàn cục thế nào
+
+566
+01:02:25,700 --> 01:02:27,240
+Nó lại là một câu chuyện
+
+567
+01:02:27,240 --> 01:02:29,300
+Mà phải đòi hỏi một cái tư duy
+
+568
+01:02:29,300 --> 01:02:31,040
+Của những người ấy là nó đủ
+
+569
+01:02:31,040 --> 01:02:32,870
+Một tầm để thôi
+
+570
+01:02:39,440 --> 01:02:40,600
+Nhưng ai nghỉ hưu
+
+571
+01:02:40,600 --> 01:02:42,840
+Mình cũng đang nghĩ nghỉ hưu về là khoảng youtuber
+
+572
+01:02:43,580 --> 01:02:44,460
+Ui thầy
+
+573
+01:02:44,960 --> 01:02:46,000
+Youtuber bị giặt
+
+574
+01:02:46,000 --> 01:02:46,860
+Giặt bạn kia quá
+
+575
+01:02:49,360 --> 01:02:49,800
+Thầy
+
+576
+01:02:51,200 --> 01:02:51,640
+Thầy
+
+577
+01:02:53,560 --> 01:02:54,000
+Thầy
+
+578
+01:02:59,280 --> 01:03:07,380
+Cái đấy thực ra bản chất em nghĩ là nó thu lợi của YouTube quá nhiều mà nó lại lọt vào ngân sách nhà nước nhiều quá
+
+579
+01:03:10,560 --> 01:03:13,220
+Vì lợi cá nhân nhiều mà nhà nước không được hưởng lợi
+
+580
+01:03:13,220 --> 01:03:17,820
+Thì đấy thôi, những người đầu trò đánh điển hình thôi
+
+581
+01:03:17,820 --> 01:03:20,420
+Chứ còn sẽ rất nhiều người
+
+582
+01:03:34,630 --> 01:03:35,270
+Vâng.
+
+583
+01:03:37,010 --> 01:03:45,330
+Vâng, phải thế thầy. Trên năm 2020, 2019 toàn bởi cái ảnh hưởng xấu dưới trẻ.
+
+584
+01:03:52,390 --> 01:03:58,450
+như là YouTube hoặc là các cái doanh nghiệp Mỹ lại không có chi nhánh ở Việt Nam không
+
+585
+01:03:58,450 --> 01:04:00,110
+không phải đóng thuế quá nhiều
+
+586
+01:04:00,110 --> 01:04:01,730
+mới phải làm
+
+587
+01:04:01,730 --> 01:04:03,530
+cái thằng tên đó là
+
+588
+01:04:04,720 --> 01:04:05,380
+Hải Sapa
+
+589
+01:04:07,360 --> 01:04:08,940
+châu thịt châu ẩn độ
+
+590
+01:04:10,340 --> 01:04:11,860
+nếu so với cái thằng kia
+
+591
+01:04:11,860 --> 01:04:12,460
+thì nó bình thường
+
+592
+01:04:12,460 --> 01:04:14,740
+nó không quá bình thường
+
+593
+01:04:14,740 --> 01:04:16,140
+nhưng mà chắc nó còn bù lọc
+
+594
+01:04:16,140 --> 01:04:17,380
+Hải Sapa
+
+595
+01:04:18,040 --> 01:04:19,560
+nó chắc là bù lọc gì cả
+
+596
+01:04:21,080 --> 01:04:21,840
+Hải Sapa
+
+597
+01:04:21,840 --> 01:04:24,860
+thấy là một cái bài viết
+
+598
+01:04:24,860 --> 01:04:26,620
+nói một cái tổng thể của Hải Sapa
+
+599
+01:04:26,620 --> 01:04:28,160
+nó xuất phân từ gọi là
+
+600
+01:04:29,780 --> 01:04:32,620
+Đầu tiên là chỉ lái xe du lịch
+
+601
+01:04:32,620 --> 01:04:33,970
+Lái xe du lịch
+
+602
+01:04:33,970 --> 01:04:36,270
+Sau đó là qua các lái xe du lịch
+
+603
+01:04:36,270 --> 01:04:37,390
+Thì bắt đầu mới là
+
+604
+01:04:37,390 --> 01:04:40,830
+Từ đấy bắt đầu mới là qua các liên lạc về mặt truyền thông
+
+605
+01:04:40,830 --> 01:04:42,350
+Thì bắt đầu mới làm YouTube
+
+606
+01:04:43,010 --> 01:04:44,590
+YouTube sau bắt đầu mới quen
+
+607
+01:04:44,590 --> 01:04:46,430
+Cái đội Huấn Hòa Hồng rồi là Phú Lê
+
+608
+01:04:46,430 --> 01:04:48,770
+Thì lập một cái đội gọi là Anh Em Kết Nghĩa Vườn Đào
+
+609
+01:04:49,290 --> 01:04:50,650
+Thì bắt đầu là cái mảng
+
+610
+01:04:50,650 --> 01:04:52,150
+Mảng làm cái mảng đấy
+
+611
+01:04:52,150 --> 01:04:54,230
+Và cộng với cái đội của cái mảng
+
+612
+01:04:54,230 --> 01:04:55,330
+Của Huấn Hòa Hồng Phú Lê
+
+613
+01:04:55,330 --> 01:04:57,130
+Cái thứ là làm cái YouTube
+
+614
+01:04:57,130 --> 01:05:02,210
+của YouTube nhưng mà bản chất của YouTube đấy lại kết hợp nhau là làm các cái bán kinh doanh ở trong
+
+615
+01:05:02,210 --> 01:05:07,570
+nữa ở trong đấy thì một trong những cái việc ý là đó chính là quảng bá các sản phẩm trong đó là có
+
+616
+01:05:07,570 --> 01:05:12,350
+cái thịt trâu là ngoài ra thì có rất nhiều những cái quảng bá đương nhiên là làm YouTube nói quảng
+
+617
+01:05:12,350 --> 01:05:21,270
+bá thì nó sẽ không đúng sự thật không đúng sự thật cho chỉ là một cái một cái lý do chủ yếu là
+
+618
+01:05:23,710 --> 01:05:24,670
+phụ lệ
+
+619
+01:05:27,520 --> 01:05:29,700
+nhau đấy thì quấn hoa hồng với phụ đen
+
+620
+01:05:36,580 --> 01:05:40,600
+nhưng mà chắc nó cũng có một số chữ và
+
+621
+01:05:59,910 --> 01:06:06,770
+cả 3 cái chỗ đấy đều là quyên có tiền tài trợ rất nhiều lấy cái tiền tài trợ đấy nhưng mà tiền
+
+622
+01:06:06,770 --> 01:06:09,230
+nhiều nhưng mà thực ra là tất cả các tiền tài trợ của các
+
+623
+01:06:09,230 --> 01:06:13,370
+đơn vị ấy là nơi mà mình nghĩ là hình ảnh thì không phải
+
+624
+01:06:13,370 --> 01:06:23,620
+tội. Nếu mà đúng thì đúng rồi. Không sai thế này thì thì sai
+
+625
+01:06:23,620 --> 01:06:28,620
+vậy. Hôm nay có một cái đời báo có một đời báo của một cái
+
+626
+01:06:29,900 --> 01:06:35,840
+cầu là giám đốc của công ty về cái cái quản thuyết đưa lên
+
+627
+01:06:44,480 --> 01:07:11,880
+Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+
+628
+01:07:12,120 --> 01:07:19,610
+Nếu như làm ăn chân chính thì lại nó cũng đáng, làm ăn chân chính thì lại cũng đáng.
+
+629
+01:07:20,610 --> 01:07:33,240
+Làm ăn để có một kỳ xảo thì chỉ có việc là dựa cái kỳ xảo đấy thì đúng.
+
+630
+01:07:33,440 --> 01:07:39,170
+Nếu như mà điều tra cho đúng thì là đúng, mà không cho đúng thì là nó là sai.
+
+631
+01:07:47,050 --> 01:07:57,700
+sửa sửa bột sửa bột nhưng mà thực ra cả cái bộ xây là sửa bột đầu nành này rồi cả cái bộ
+
+632
+01:07:57,700 --> 01:08:05,780
+được thanh tách ăn xanh đi kiểm kiểm tra lúc đó là nó đủ thân là là chuẩn nhưng mà khi đưa ra bán ở
+
+633
+01:08:05,780 --> 01:08:08,360
+Ngoài cả cái nhiệt độ đủ thực tiểu
+
+634
+01:08:08,360 --> 01:08:09,100
+Nó tác động vào
+
+635
+01:08:09,100 --> 01:08:11,510
+Thì nó giảm xuống một chút
+
+636
+01:08:12,930 --> 01:08:14,190
+Bình thường là 5%
+
+637
+01:08:15,030 --> 01:08:16,730
+Bây giờ chỉ có 48% thôi
+
+638
+01:08:16,730 --> 01:08:18,990
+Thì cái sản phẩm đấy
+
+639
+01:08:18,990 --> 01:08:20,190
+Sẽ được quý vang
+
+640
+01:08:20,190 --> 01:08:22,050
+Là 4 bản thân giảm
+
+641
+01:08:22,050 --> 01:08:24,000
+Rất chỉ thấp hơn một chút
+
+642
+01:08:24,000 --> 01:08:26,120
+Nó sẽ trở thành 4 bản thân giảm
+
+643
+01:08:26,120 --> 01:08:27,540
+Bởi vì theo cái
+
+644
+01:08:28,860 --> 01:08:30,520
+Thông số mà bạn đăng ký
+
+645
+01:08:30,520 --> 01:08:31,600
+Là nó 5%
+
+646
+01:08:31,600 --> 01:08:33,020
+Bây giờ tự nhiên là 4%
+
+647
+01:08:34,220 --> 01:08:35,940
+Thay biệt là tất cả mọi cái
+
+648
+01:08:35,940 --> 01:08:40,380
+Chắc nó đều có sự biến đổi. Nếu như vậy, ta không dừng trong môi trường.
+
+649
+01:08:40,460 --> 01:08:46,180
+Nó đúng. Nó không đúng do phần chuyển là cái gì, nó sẽ sai sổ.
+
+650
+01:08:46,300 --> 01:08:52,660
+Nó sai sổ đưa ra là đương nhiên là quý bà thằng giả luôn, thằng giả kém chất lượng.
+
+651
+01:08:53,220 --> 01:08:54,320
+Đấy, nó nguy hiểm như thế.
+
+652
+01:08:54,840 --> 01:09:03,100
+Ngay cả cái bản đồ xanh của Hải Dương chẳng hạn, ai chẳng thẳng định ra là cái tiêu chỉ, tiêu chuẩn đấy nó chuẩn đâu.
+
+653
+01:09:03,100 --> 01:09:08,660
+Khi mà đưa ra thị trường xáy rồi ép được thế nào đưa ra thị trường cái thật phần vẫn còn.
+
+654
+01:09:09,330 --> 01:09:15,300
+Nó có chỗ đấy. Nên khi mà bọc tách ra là dễ lắm.
+
+655
+01:09:16,680 --> 01:09:27,490
+Dễ lắm thật. Rất mong manh. Kiểu như Tung Tung mà đi xói thì đừng lấy ai xói thì làm sao mà thoát được.
+
+656
+01:09:29,410 --> 01:09:38,600
+Bật quyền. Bật quyền. Bây giờ em bảo cầu thê là bật quyền. Đơn giản thế này.
+
+657
+01:09:38,600 --> 01:09:41,950
+Thực ra ở Việt Nam mình mua được bản quyền mua rất dễ
+
+658
+01:09:41,950 --> 01:09:44,430
+Nhưng mà đầy cả cái bản quyền đấy
+
+659
+01:09:44,430 --> 01:09:45,890
+Nó sẽ trở nên rất đắt
+
+660
+01:09:45,890 --> 01:09:48,870
+Cái máy tính biên thường chỉ có 12-13 triệu
+
+661
+01:09:48,870 --> 01:09:50,970
+Bây giờ thêm được khoảng 13 triệu nữa
+
+662
+01:09:50,970 --> 01:09:52,150
+Một cái bản quyền
+
+663
+01:09:52,150 --> 01:09:52,950
+Bản quyền là Win
+
+664
+01:09:52,950 --> 01:09:54,250
+Xong rồi Optic nữa
+
+665
+01:09:54,250 --> 01:09:56,630
+Optic thì nếu như Optic dùng ngoài mạng
+
+666
+01:09:56,630 --> 01:09:58,390
+Thì cũng đâu đó có gần 4 triệu
+
+667
+01:09:58,790 --> 01:09:59,910
+Đấy gần 4
+
+668
+01:10:00,000 --> 01:10:04,460
+triệu, chưa kể về Optics của Photoshop, chưa kể đến các cái phần mềm khác thì
+
+669
+01:10:04,460 --> 01:10:12,780
+nó không phải là 13 triệu. Thì đương nhiên là sinh viên mình làm sao để cái đó truyền được thông
+
+670
+01:10:12,780 --> 01:10:21,640
+tưởng. Đơn giản như thế thôi. Ví dụ như nhà em, nhà em có 40 tỷ và tất cả bản quyền thì cố lương
+
+671
+01:10:23,450 --> 01:10:29,110
+bây giờ đúng thì kiểm tra thì không kiểm tra
+
+672
+01:10:29,110 --> 01:10:35,890
+thế Việt Nam của mình bây giờ em nói thầy vì các trường đại học
+
+673
+01:10:35,890 --> 01:10:40,650
+ví dụ trường bác khoa thì có bao nhiêu sinh viên dùng bản quyền của photoshop
+
+674
+01:10:43,600 --> 01:10:46,020
+hoặc là phần bên alsocard
+
+675
+01:10:56,140 --> 01:10:58,860
+nó phải bắt nguồn nguyên gọi đồng Adobe
+
+676
+01:10:58,860 --> 01:11:10,380
+chỉ có thể là
+
+677
+01:11:10,380 --> 01:11:12,440
+tải nguồn không trình thống
+
+678
+01:11:12,440 --> 01:11:14,990
+Đấy tất cả cũng mua thằng truyền thống nghĩa là lẫu
+
+679
+01:11:15,750 --> 01:11:16,690
+Thì vâng thì
+
+680
+01:11:16,690 --> 01:11:17,930
+Không có thằng truyền thống
+
+681
+01:11:18,430 --> 01:11:20,490
+Hoặc là ông đưa cả cái trang để crack
+
+682
+01:11:20,490 --> 01:11:22,360
+Thì chắc gì ông đi
+
+683
+01:11:23,900 --> 01:11:24,340
+Vâng
+
+684
+01:11:25,220 --> 01:11:25,820
+Thì đấy
+
+685
+01:11:25,820 --> 01:11:28,160
+Có những vấn đề cực kỳ năng giả
+
+686
+01:11:28,160 --> 01:11:29,540
+Đúng hay sai
+
+687
+01:11:30,590 --> 01:11:36,600
+Tất nhiên hẳn tỷ hẳn tỷ
+
+688
+01:11:37,920 --> 01:11:39,280
+Hẳn tỷ hẳn tỷ
+
+689
+01:11:40,140 --> 01:11:42,170
+Chỉ đâu chả sai
+
+690
+01:11:42,170 --> 01:11:45,300
+Vấn đề là có văn thích không
+
+691
+01:11:45,300 --> 01:11:48,300
+Ông có gì mới thay đổi không
+
+692
+01:11:48,300 --> 01:11:50,500
+Em chưa có gì đấy
+
+693
+01:11:51,860 --> 01:11:57,940
+truyền hợp thời gian kết hợp cả thứ 3, cả phần bộ, kế mặt chạy.
+
+694
+01:11:58,640 --> 01:11:59,400
+Chắc là xong rồi.
+
+695
+01:12:00,240 --> 01:12:03,260
+Mình rất hy vọng bài gửi được chức nha.
+
+696
+01:12:03,640 --> 01:12:10,440
+Bài này mình thấy thời mặt chất lượng chắc còn 2 tuần nữa.
+
+697
+01:12:11,210 --> 01:12:11,670
+Nhanh nhất.
+
+698
+01:12:12,180 --> 01:12:13,580
+Hy vọng thế cũng được 1 tuần thôi.
+
+699
+01:12:15,920 --> 01:12:17,140
+Phấn mới gửi ký ký với Tuấn.
+
+700
+01:12:17,380 --> 01:12:20,220
+Đó là lúc này em cũng chuẩn bị bài báo.
+
+701
+01:12:22,310 --> 01:12:24,630
+Lại thì em quyết thành bài báo.
+
+702
+01:12:25,390 --> 01:12:27,630
+Đối với em, hiểu sâu là cái gì em? Có gì đảm biệt?
+
+703
+01:12:27,950 --> 01:12:29,750
+Chi tiết mình sẽ đọc.
+
+704
+01:12:29,750 --> 01:12:40,440
+Anh bảo có thể là con môi hộp của em có hợp tác của chúng ta, hoặc là hợp tác của các bạn.
+
+705
+01:12:43,330 --> 01:12:45,810
+Chị Minh Thị cũng chắc là huyện Thực Vĩ Giang.
+
+706
+01:12:50,040 --> 01:12:52,100
+Chắc mình cũng chắc luôn nhỉ.
+
+707
+01:12:56,290 --> 01:13:14,470
+Cảm ơn các bạn đã theo dõi và đăng ký kênh của mình.
+
+708
+01:13:44,980 --> 01:14:07,410
+Cảm ơn các bạn đã theo dõi và hẹn gặp lại.
+
+709
+01:14:14,120 --> 01:14:23,920
+Đồng thời, sau nhiều bài viết bẩn, vừa qua anh cũng cử khả năng là nhiều để mà viết bản gói này.
+
+710
+01:14:24,380 --> 01:14:26,740
+Trong bản gói này, tôi tự kiếm là tên của bản gói này.
+
+711
+01:14:26,920 --> 01:14:32,740
+Tên của bản gói này là F.L.F.A.
+
+712
+01:14:33,180 --> 01:14:43,220
+Như vậy, F.L.F.A. có nghĩa là Front Level Feature Presidual and Be Anti-F.A.
+
+713
+01:14:46,320 --> 01:14:50,940
+cái tên này tập dối não
+
+714
+01:14:57,740 --> 01:15:01,820
+bỏ cái quýt
+
+715
+01:15:02,530 --> 01:15:03,330
+video
+
+716
+01:15:03,330 --> 01:15:15,160
+video protection chắc chắn là em được cái tên này
+
+717
+01:15:15,370 --> 01:15:24,190
+mô hình
+
+718
+01:15:24,190 --> 01:15:37,360
+mô hình trên mạng hơn cái bài bảo tâm tìm em cũng đánh viết hài báo rồi trong đấy thì mô hình đấy
+
+719
+01:15:37,360 --> 01:15:56,080
+các bạn cái mô hình tương tự như thế này sau đấy kìa qua cái bước sau đấy kìa sử dụng sau khi mà
+
+720
+01:15:56,080 --> 01:16:00,930
+và qua cái mạch mòn phần này tăng đi thì mình sẽ sử dụng các đặc trưng
+
+721
+01:16:00,930 --> 01:16:05,340
+trong mỗi một cái framework trong Excel.
+
+722
+01:16:05,900 --> 01:16:07,180
+Phần này rõ ràng rồi.
+
+723
+01:16:07,800 --> 01:16:08,950
+Phần sau không?
+
+724
+01:16:09,090 --> 01:16:16,430
+Phần sau đấy là nó sẽ chiếu các cái framework này,
+
+725
+01:16:16,450 --> 01:16:19,050
+gồm là chiếu các cái framework này
+
+726
+01:16:19,050 --> 01:16:24,800
+để được đưa qua một cái framework Feature Red Symbol.
+
+727
+01:16:28,660 --> 01:16:36,560
+của nó là để mà nó sẽ bắt được các cái khác nhau
+
+728
+01:16:36,560 --> 01:16:48,230
+với nhau sẽ có thông tin
+
+729
+01:16:54,590 --> 01:17:04,000
+ở đây mình sẽ chọn ra các cái đặc trưng mà nó khác nhau không không không có giống nhau
+
+730
+01:17:06,800 --> 01:17:16,050
+tính năng này cũng gần tương tự như tính năng Cell Subtract trong bài báo IST-OPT
+
+731
+01:17:16,050 --> 01:17:19,120
+và nó đang ở trên IED của năm 2018.
+
+732
+01:17:21,130 --> 01:17:26,520
+Bài báo này được phát dụng, được khám chiếu khá nhiều.
+
+733
+01:17:27,760 --> 01:17:32,880
+Bài báo này được tìm theo một lực lượng chính xác của crop attention,
+
+734
+01:17:40,750 --> 01:17:49,980
+cho đến bây giờ thì các nội dung mà cái mô hình tích hợp đối với cái cảnh về thời gian
+
+735
+01:17:50,280 --> 01:18:01,660
+sau khi thực hiện quá trình để trích xuất các đặc trưng khác nhau các cái trong cái
+
+736
+01:18:01,660 --> 01:18:05,550
+Ví dạng họ sẽ đưa qua mô hình Transformer Hand Folder
+
+737
+01:18:05,550 --> 01:18:10,620
+Tại mô hình Transformer Hand Folder không sản xuất được mô hình Transformer Hand Folder tổng thường
+
+738
+01:18:10,620 --> 01:18:16,310
+Họ sẽ sử dụng cơ chế Diagonal Max
+
+739
+01:18:16,310 --> 01:18:18,290
+Điều hợp kênh Shell Attention
+
+740
+01:18:19,150 --> 01:18:23,480
+Sẽ che chín chiếc nó
+
+741
+01:18:24,140 --> 01:18:28,840
+Để từng các trải nghiệm, khi nó so sánh với nhau
+
+742
+01:18:28,840 --> 01:18:31,320
+Nó không so sánh với chiếc đó
+
+743
+01:18:31,320 --> 01:18:37,080
+Khi mà nó so sánh với trị đó thì cái giá trị nó so sánh với trị đó thì nó sẽ cao nhất so với tất cả
+
+744
+01:18:37,080 --> 01:18:45,180
+Cái việc nó so sánh với người khác, với người khác thì đấy là hai cái cơ chế mà đề xuất ở trong cái mô hình này
+
+745
+01:18:46,300 --> 01:18:52,710
+Thế thì ở trong cái bài báo của anh Phụng Vương nó giải thích về cái cơ chế đó có cả cái thử nghiệm
+
+746
+01:18:52,710 --> 01:19:05,490
+Thì trong bài báo này đối với giá trị của anh Phụng Vương
+
+747
+01:19:06,930 --> 01:19:16,780
+có nghĩa là đối với các cơ chế của 116 triệu tham số thế nào nó hữu sự là nó nhỏ hơn khá nhiều so với
+
+748
+01:19:19,290 --> 01:19:29,730
+Ví dụ như là COVID-19 thì nó nặng 600, 600, 600, 300 triệu.
+
+749
+01:19:33,460 --> 01:19:36,480
+Giờ đây nó thấy COVID-19 thì nó nặng hơn 100 triệu.
+
+750
+01:19:37,460 --> 01:19:40,240
+Với cái vụ kẹt của em, nó nặng 100 triệu.
+
+751
+01:19:43,440 --> 01:19:50,400
+Còn cái khác là phụ hành về nặng, nặng giải thích, nặng là tên của em.
+
+752
+01:19:54,960 --> 01:19:57,700
+Các bạn xem phần intro ạ, introduction.
+
+753
+01:20:03,080 --> 01:20:10,710
+điện thoại phần can lọt điện can lọt mình làm cái gì hay đối với anh cái cái thằng đi cho
+
+754
+01:20:10,710 --> 01:20:19,100
+nó dần này thì chúng nó là nói đến cái việc mà hiện nay đối với các cái mô hình hiện nay trong
+
+755
+01:20:19,100 --> 01:20:28,970
+việc phát hiện tích thì là về cơ bản là là là đối với bằng các cái kết quả và đánh giá ở trên nội
+
+756
+01:20:28,970 --> 01:20:37,220
+tập là nó vừa đường đã bảo bảo rồi có nghĩa là cái được độ chính xác hoặc là các cái chỉ số AUC
+
+757
+01:20:37,220 --> 01:20:46,220
+Nó gần như tuyệt đối rồi. Nên là cái sự so sánh thì nó không tiên về kinh tế độc tập.
+
+758
+01:20:47,140 --> 01:20:55,870
+Và nó chủ yếu là so sánh đối với các huấn luyện ở trên tập dữ liệu tầng và kiểm tưởng trên tập dữ liệu khác.
+
+759
+01:20:56,310 --> 01:21:00,730
+Cái tinh thẻ trong bài này của em cũng là huấn luyện ở trên những tập dữ liệu
+
+760
+01:21:00,730 --> 01:21:07,720
+tập dữ liệu, K-Pholex, hoặc là DLPC, và test ở trên tập dữ liệu là SelectDF.
+
+761
+01:21:07,800 --> 01:21:10,280
+Đúng là test trên tập dữ liệu lên tập.
+
+762
+01:21:10,990 --> 01:21:17,860
+Đối với bài báo hiện nay, thông thường khi mà huấn luyện ở trên tập dữ liệu, ví dụ K-Pholex chẳng hạn,
+
+763
+01:21:17,920 --> 01:21:24,630
+hoặc test ở trên tập dữ liệu SelectDF, thường là nó sẽ rơi xuống độ phục tự chạm,
+
+764
+01:21:24,630 --> 01:21:39,850
+Kể kể AUC thì nó sẽ rơi đến số khoảng 99%, nhưng mà khi nó test ở trên liên tập thì nó sẽ rơi đến số khoảng 60-75% thôi.
+
+765
+01:21:41,380 --> 01:21:51,080
+kể cả là cái mô hình là gian phân tích thì nó cũng chứng nhận xét liên tập thì nó chỉ
+
+766
+01:21:51,080 --> 01:21:59,870
+rơi được đến khoảng tầm trên 50% khi nhìn kẻ xét cái mô hình liên tập cũng chính vì như thế là
+
+767
+01:22:02,910 --> 01:22:12,550
+bây giờ mình nghĩ rằng anh phát hiện đi phanh kế suất nguồn thuộc sâu không đi về mặt nghịch
+
+768
+01:22:12,550 --> 01:22:26,810
+thủ sinh năm nay rồi chụp mới mới đúng không đúng không mình luôn mới mình mới mới ở đây có nghĩa là
+
+769
+01:22:26,810 --> 01:22:36,960
+đó là là lấy xuất một cái mô hình để mà có thể phát thương nhưng mà nó phải là nó có khả năng
+
+770
+01:22:36,960 --> 01:22:43,120
+tạo thoát hóa tốt tốt hơn cho các cái mô hình hệ tạo tạo thoát hóa thể hiện ở chung quanh hình tạo
+
+771
+01:22:43,120 --> 01:22:47,460
+thoát hóa thể hiện tạo thí nghiệm là huấn luyện ở trên một cái mũ sĩ liệu và để trao ra trên một
+
+772
+01:22:47,460 --> 01:22:54,060
+cái mũ sĩ liệu tương tự thì nó phải là inter data set đúng không cái cái inter data set nó nằm ở
+
+773
+01:22:54,060 --> 01:23:31,590
+ở đâu trong phần xác và chưa xếp phần tiêu đề tiêu đề tiêu đề
+
+774
+01:23:32,480 --> 01:23:46,460
+nó chỉ là một mặt chứ bây giờ cái vấn đề mà em giải quyết mà được thiệt được sự cột phá
+
+775
+01:23:46,460 --> 01:23:59,640
+đây nó là cái gì cái gì phải chăng đó là inter domain cross domain cross domain nó được thể hiện
+
+776
+01:23:59,640 --> 01:24:08,800
+thể hiện tầm quan trọng chỗ nào trong tất cả cái cái cái đấy thì ở trong thương mẹ em chưa thể hiện
+
+777
+01:24:08,800 --> 01:24:15,680
+cái việc đó nhưng mà trong hết chắc thì đã thể hiện rồi rồi em cho anh đi cho con trong intro
+
+778
+01:24:15,680 --> 01:24:23,590
+hoặc trong tất cả những có mục riêng cho nó không biết cái định sản không không nói mà thể hiện ở
+
+779
+01:24:23,590 --> 01:24:33,580
+trong trong khách kế nội dung vẫn kìa vẫn đừng xem nội dung sau mấy sau mấy mấy cái bác tạp chí vừa
+
+780
+01:24:33,580 --> 01:24:35,860
+rồi họ không đồng ý với cái bài này
+
+781
+01:24:35,860 --> 01:24:37,260
+thì người ta phải nghĩ lại
+
+782
+01:24:37,260 --> 01:24:38,240
+và nói lại rõ hơn
+
+783
+01:24:39,620 --> 01:24:42,280
+đa số họ nghĩ là mình đề xuất
+
+784
+01:24:42,280 --> 01:24:44,220
+một phương pháp giữa trường sâu
+
+785
+01:24:44,220 --> 01:24:47,070
+để cải thiện gì đấy để người ta lấy
+
+786
+01:24:47,070 --> 01:24:49,160
+nhưng họ cảm nhận là nó chưa có gì
+
+787
+01:24:50,140 --> 01:24:50,720
+đáng giá
+
+788
+01:24:50,720 --> 01:24:53,220
+với đặc biệt trên các tạp chí lớn
+
+789
+01:24:53,220 --> 01:24:56,500
+trên tạp chí lớn là họ muốn là
+
+790
+01:24:56,500 --> 01:24:59,670
+bài này đề xuất cái gì đấy
+
+791
+01:24:59,670 --> 01:25:01,590
+một cái vấn đề gì đấy mà
+
+792
+01:25:01,590 --> 01:25:02,710
+thật sự nó là mới
+
+793
+01:25:07,320 --> 01:25:08,900
+cho nên thầy mới hỏi tôi một câu
+
+794
+01:25:08,900 --> 01:25:10,320
+như em nói là
+
+795
+01:25:10,320 --> 01:25:23,860
+đó là trên cross nó là vấn đề quan trọng, ít thằng nó lớn. Thì mình có thể tự tiêu đề cho tổng mục riêng nó.
+
+796
+01:25:31,680 --> 01:25:39,500
+Vừa rồi mình thấy là đáng không có người nói là, đây ông chỉ có mỗi lần, thấy thằng này làm hay, không ghét thằng này làm hay với nhau.
+
+797
+01:25:39,500 --> 01:25:42,610
+để trở thành một cái thằng này
+
+798
+01:25:42,610 --> 01:25:45,070
+thì các bạn chưa có gì đồng ý
+
+799
+01:25:45,070 --> 01:25:47,390
+ok, tốt
+
+800
+01:25:48,050 --> 01:25:49,570
+nhưng chưa phải là
+
+801
+01:25:51,100 --> 01:25:52,000
+nó gọi là gì
+
+802
+01:25:52,000 --> 01:25:56,930
+interesting nhưng mà
+
+803
+01:25:57,860 --> 01:25:58,520
+I'm sorry
+
+804
+01:25:59,360 --> 01:26:00,280
+very interesting
+
+805
+01:26:00,280 --> 01:26:00,840
+but I'm sorry
+
+806
+01:26:00,840 --> 01:26:01,640
+I'm sorry
+
+807
+01:26:03,600 --> 01:26:05,150
+cái gì
+
+808
+01:26:05,150 --> 01:26:06,810
+cái gì thể hiện là
+
+809
+01:26:06,810 --> 01:26:09,250
+cái điểm gì đó mình
+
+810
+01:26:09,250 --> 01:26:09,810
+chưa đúng
+
+811
+01:26:12,310 --> 01:26:13,390
+thầy thích đi nhé
+
+812
+01:26:19,960 --> 01:26:35,690
+bây giờ ta phải bàn kia nhau em là cái cái vấn đề chính của em cái bên coi cái điểm mà là lấy điểm
+
+813
+01:26:35,690 --> 01:26:52,860
+điểm vấn đề vấn đề lúc ta đang muốn giải thích đó là mình phải toán thì các bạn khó rồi đúng không
+
+814
+01:26:52,860 --> 01:26:57,570
+Đấy, để em thấy là đúng là cái Drop Dataset ok.
+
+815
+01:26:58,280 --> 01:26:59,800
+Vâng, chính là cái đấy.
+
+816
+01:27:01,920 --> 01:27:05,740
+Ừ, để em thể hiện tiêu đề cho tới một cái mục ở trong.
+
+817
+01:27:07,750 --> 01:27:14,140
+Trong cái phần Distribution này của em là đều xoay quanh cái vấn đề Drop Domain đấy.
+
+818
+01:27:15,770 --> 01:27:18,690
+Phần Address cũng xoay quanh cái vấn đề Drop Domain.
+
+819
+01:27:18,830 --> 01:27:27,640
+Nhưng mà trong cái phần tiêu đề chưa đẩy, thì anh sẽ phải sửa lại cái phần tiêu đề.
+
+820
+01:27:35,600 --> 01:27:56,740
+Trong tất cả những vấn đề dưới cũng đều đề cập kinh tế nguyên hợp đánh giá trên một dữ liệu khác, một dữ liệu chưa nhìn thấy để tăng kết quả của những dữ liệu chưa nhìn thấy.
+
+821
+01:27:57,000 --> 01:28:00,810
+Trong tất cả các nội dung dưới đều đề cập một cái như thế này.
+
+822
+01:28:00,810 --> 01:28:12,200
+và trong các cái luật tập các chứng minh cũng nói thế hệ đó trong lý cái này em cũng cử khoảng
+
+823
+01:28:12,200 --> 01:28:27,240
+55 lần nghe sinh đầu lên chưa đặt ra câu hỏi là nếu đặt ra cái bè là cái gì đấy em bồ con
+
+824
+01:28:28,340 --> 01:28:44,900
+cho nó được không được lúc đầu em cũng như thế rồi nhưng em thấy là nó nó nó nó nó nó nó chưa nhấn mạnh
+
+825
+01:29:08,890 --> 01:29:11,690
+nếu mà
+
+826
+01:29:12,160 --> 01:29:21,180
+nếu bằng cái nếu mà thật sự nó hay kiếm dự đoạn vòng 12 câu vật vòng nó cũng không phải tắt kẹt
+
+827
+01:29:21,180 --> 01:29:32,080
+cái hiểu đấy nếu như có đúng đấy và thực ra là trong toàn bộ cái xoài này thì cái góc lên mới
+
+828
+01:29:32,080 --> 01:29:39,490
+là cái tính và em giáo dế còn tính cái cho nên là nếu đúng như thế thì đến ngay từ tiêu đề cho
+
+829
+01:29:41,350 --> 01:29:43,610
+đọc quá là nó tràn ngập được
+
+830
+01:29:45,520 --> 01:29:46,960
+chưa thằng nào mà làm được điều đấy
+
+831
+01:29:46,960 --> 01:29:47,800
+thì mình là làm
+
+832
+01:29:49,250 --> 01:29:51,410
+tính ra mà nếu em làm như thế thì mình nghĩ là sẽ ăn hiểm
+
+833
+01:29:56,180 --> 01:29:56,500
+ok
+
+834
+01:30:01,610 --> 01:30:07,520
+tất cả kết quả sau phấn mình nghĩ là cũng thậm chí cái mình nghĩ chả làm thêm cả vấn đề làm
+
+835
+01:30:07,520 --> 01:30:13,380
+thế nào đặt nó vào một cái cái cái cái cái điểm rơi thôi cái là cái kiểu mà sự quan tâm
+
+836
+01:30:20,040 --> 01:30:26,160
+đều đều đều nó cũng giống như người khác làm thôi đấy thấy là mẹ hay là mẹ hay không tồn
+
+837
+01:30:26,160 --> 01:30:34,070
+tất cả mọi người nhau mà không phải kiểu đấy tên phản thì không phải đấy mình làm tạm dõi
+
+838
+01:30:41,070 --> 01:30:43,270
+quá đầy đủ vừa
+
+839
+01:30:50,170 --> 01:31:00,100
+đủ mình có mình mình đã mình đã đi thay hai ngõ một đã có nguyên liệu về tình cảm thành
+
+840
+01:31:00,100 --> 01:31:06,990
+nhưng mà vấn đề là người cho cho thị trường biết cái bảng phối mình là thật chất ngon hơn với thằng
+
+841
+01:31:06,990 --> 01:31:14,650
+khác đấy là nhiệm vụ của phấn hiểm quá chứ là trả lời cho mình có hỏi câu hỏi từ quá chính là cái
+
+842
+01:31:14,650 --> 01:31:27,090
+được cái gì thì tự nếu em nói là có tư vấn của chính thì em cũng không hiểu hiển quỹ thì chúng
+
+843
+01:31:27,090 --> 01:31:45,140
+bây giờ thôi em thì mình nói trước là ngoài cái chắc ngon rồi làm thế nào để gắn vào nó
+
+844
+01:32:01,360 --> 01:32:11,560
+Câu hỏi lần sau nhé, nếu mà mình làm luân án, học sâu cho pháp lịch bí phách tiếng Việt, thì điểm nhấn nó là cái gì?
+
+845
+01:32:14,020 --> 01:32:17,360
+Về mặt học tuần, nó là cái gì mà người ta sẽ thể thức được?
+
+846
+01:32:17,360 --> 01:32:47,150
+Có thể là em nghĩ rằng là cái bài của các em thì nếu như mà thay nó mà em được thì em nghĩ rằng là em đang giải quyết vấn đề của tiếng Việt từng ngày ra được con người tiếng Anh nhận thức được và em sẽ tập trung theo cái hướng là tiếng Việt về cái cơ sở dự điều mà em đang đăng kế trên cái cơ sở dự điều này.
+
+847
+01:32:47,150 --> 01:32:54,470
+Bây giờ, cơ sở video được 1.500 bản tin, cộng với 100 bản tin từ Sinh và Hà Nội
+
+848
+01:32:55,230 --> 01:32:57,510
+Đã tiến hành từ đây đến nay
+
+849
+01:33:00,860 --> 01:33:03,400
+Đấy là cái tâm lưu lợi của bản tin của chúng ta
+
+850
+01:33:03,400 --> 01:33:07,470
+Họ sẽ bảo vệ tiếp tục thế niệm để khi data xác định
+
+851
+01:33:07,470 --> 01:33:11,500
+Và thưa quý vị, bài sẽ không có bổ
+
+852
+01:33:11,870 --> 01:33:14,590
+Bài được đưa là hỗ trợ tiền thay đổi nhất
+
+853
+01:33:14,590 --> 01:33:17,820
+Bài còn sẵn sàng từ xưa đến giờ
+
+854
+01:33:20,660 --> 01:33:25,750
+Nếu được đi qua bên nhạc báo cáo thì cũng phải slide thầy, chuẩn trí trước.
+
+855
+01:33:27,260 --> 01:33:29,300
+Thì bà Hai Khánh Minh có rối, mình cũng làm.
+
+856
+01:33:30,800 --> 01:33:33,540
+Các tù học ngay từ ngu dụng đó là các slide chúng ta phát hiện.
+
+857
+01:33:33,740 --> 01:33:36,380
+Đó là hai cái điểm này.
+
+858
+01:33:38,720 --> 01:33:41,320
+Thì chỉ nói cho em là tất cả các chủ đề của Cát Minh cũng chuyên như vậy.
+
+859
+01:33:42,020 --> 01:33:48,460
+Thường chuyên game phải thảo sát xem người ta đã làm, người ta đang làm, người ta sẽ làm gì.
+
+860
+01:33:48,560 --> 01:33:55,800
+Trong tất cả những công trình, nếu game vào năm 2026 thì em phải thảo sát đến tận tháng 9 2026.
+
+861
+01:33:55,800 --> 01:34:10,540
+thì mình biết là xuống thế này mà khi xuống thế nó ra thì người ta là nhiều lĩnh vực này thì đương
+
+862
+01:34:10,540 --> 01:34:17,980
+nhiên đến mình lao lên là lao vào đá đúng không? Thế nhưng mà người ta lao phía Bắc thì mình lao
+
+863
+01:34:17,980 --> 01:34:28,140
+phía Nam. Phía Nam là cái gì đúng không? Đấy tức là mình phải đặt hết để xem người ta làm gì. Tiếng
+
+864
+01:34:28,140 --> 01:34:34,850
+Việt đúng là mình cũng thích người khác nhưng mà chắc chắn là cái gì thì em cũng phải nói thành lời
+
+865
+01:34:34,850 --> 01:34:36,390
+thay vì bài tiết rồi.
+
+866
+01:34:39,140 --> 01:34:42,860
+Em bảo thầy vì cái lúc tình huyền nữa nè,
+
+867
+01:34:42,860 --> 01:34:43,700
+em cần 3 tuần được,
+
+868
+01:34:43,760 --> 01:34:45,020
+để làm data set của mình.
+
+869
+01:34:45,300 --> 01:34:49,500
+Có data set của mình thì mình rất khó để tìm cụ ta được.
+
+870
+01:34:50,710 --> 01:34:52,760
+Em để ý cái đó,
+
+871
+01:34:52,780 --> 01:34:54,780
+chân một cái kinh tế mạnh.
+
+872
+01:34:57,340 --> 01:34:58,220
+Rồi, hiển lực.
+
+873
+01:34:58,300 --> 01:34:58,520
+Ok.
+
+874
+01:35:00,790 --> 01:35:04,540
+Minh, cám ơn thầy.
+
+875
+01:35:04,920 --> 01:35:06,600
+Nghe rồi mà nhưng mà chưa rõ.
+
+876
+01:35:10,560 --> 01:35:11,640
+Bây giờ thầy hỏi Minh là
+
+877
+01:35:11,640 --> 01:35:17,020
+cái kết quả đó thì thầy đặt tay tổ lực.
+
+878
+01:35:17,020 --> 01:35:19,600
+Trong tháng 9 em gian được cái bài bản hẳn không?
+
+879
+01:35:21,060 --> 01:35:26,490
+Đợt nghỉ lễ em gian viết một bản draft, khoản kinh nghiệm về xã hội.
+
+880
+01:35:29,510 --> 01:35:32,960
+Với các bạn khác, nói với mình, gian viết ngay từ đầu.
+
+881
+01:35:35,490 --> 01:35:38,130
+Vâng. Ý là em cũng có một khoản kinh nghiệm.
+
+882
+01:35:41,690 --> 01:35:45,700
+Mấy hôm nay, đợt nghỉ lễ, em báo cáo thầy là 1,59.
+
+883
+01:35:46,580 --> 01:35:48,780
+Giờ này em báo cáo thầy là 1,76.
+
+884
+01:35:49,060 --> 01:35:52,120
+Tức là cái đợt đấy giả sát lại thì nó không có lỗi.
+
+885
+01:35:56,690 --> 01:36:06,940
+Các bạn có thể tự tin là có thể sử dụng được cái tạp chí tư dân đấy chứ?
+
+886
+01:36:07,910 --> 01:36:16,100
+Vâng, cái chủ đề rất là sáng, rất là ngon, rất là tự nhiên, rất là hữu hữu.
+
+887
+01:36:16,740 --> 01:36:26,590
+Vừa rồi mình ngồi rất nhiều cái luận án như thế là, các bạn em cũng nói trời đền gì, nhưng mà trong các cái phần thông tin sáng sáng nghe mà không có công trình sát nút của em thì trái tim.
+
+888
+01:36:26,590 --> 01:36:36,480
+Vì năm nay 26 mà em không so sánh với những cái công trình 6 tháng trở về trước, năm 1 năm trước thì không ai tìm.
+
+889
+01:36:38,900 --> 01:36:39,540
+Có cái gì không?
+
+890
+01:36:42,360 --> 01:36:49,030
+Em so sánh với sát giạc của cái bộ quý liệu đấy luôn. Sát giạc của bộ quý liệu đấy thì họ cũng khá là sản xuất.
+
+891
+01:36:49,300 --> 01:36:52,760
+Hay không hay tư thọc xuất, hay là tư thọc xuất bằng người.
+
+892
+01:36:52,920 --> 01:36:58,800
+Hoặc là đang đưa cài để sử dụng hết phòng.
+
+893
+01:37:01,370 --> 01:37:04,350
+Như vậy sắp tới nhá, cái OECD thì Nam đang ký một vài đúng không?
+
+894
+01:37:06,700 --> 01:37:07,860
+Cái này thì đã diễn rồi.
+
+895
+01:37:08,040 --> 01:37:11,550
+Hạt còng thì là Lam rồi đúng không?
+
+896
+01:37:11,710 --> 01:37:17,770
+Chứ còn cái ngụy tạo FCK thì đang ký mình một vài.
+
+897
+01:37:34,260 --> 01:38:09,510
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+898
+01:38:22,250 --> 01:38:28,850
+cho mình mình con tới mình trình bày kỹ thuật này nghe là cái gì buồn tính như thế này cũng
+
+899
+01:38:29,640 --> 01:38:36,760
+phải là thầy thầy còn đang vắng vất ở trên nghe được nhưng mà thầy chưa thấy gì mày phận gì buồn
+
+900
+01:38:37,280 --> 01:38:48,440
+muốn đi sâu vào toán đóng góp của bạn thì đấy là cái em phải trình bày sắp tới mình rõ ràng là gì
+
+901
+01:38:48,440 --> 01:38:58,280
+buồn tính như thế nào đấy như thế nào và ảnh hưởng gửi bọn đấy như thế nào và mình cải thiện cái gì
+
+902
+01:38:58,280 --> 01:39:09,460
+có gì mà liên quan đến cái gì bộ tộc và đối với là nếu em tiếp tục làm lưu sinh thì các
+
+903
+01:39:09,460 --> 01:39:16,530
+thầy bài toán rất có ý nghĩa bài toán sinh được cái chuỗi cái xuất tích mà SPL nói mà
+
+904
+01:39:17,080 --> 01:39:26,860
+ứng dụng được thì quá xứng đáng ở luật án luôn em cũng mong có cái tương lai là quan thể
+
+905
+01:39:45,340 --> 01:39:51,320
+mà lần này thì em sẽ chỉ tập trung vào hai phương án là mốt với cả si quần gan chứ không
+
+906
+01:39:51,320 --> 01:40:00,000
+cần phải quan tâm mấy điều em và em làm hết mất chạy
+
+907
+01:40:00,750 --> 01:40:07,910
+chạy tối đa có thể với gốc rết của nó, và sau đó là tìm cách cải thiện nó.
+
+908
+01:40:08,360 --> 01:40:11,020
+Thầy có nhiều cách cải thiện nó, nhưng mà thầy muốn em phải hiểu về nó.
+
+909
+01:40:12,490 --> 01:40:14,810
+Lúc thật xinh thì ok, lúc thật xinh thì thế này, lúc thật xăng.
+
+910
+01:40:18,240 --> 01:40:21,280
+Như vậy là 15 tháng 01 là hạn của FGK.
+
+911
+01:40:23,340 --> 01:40:25,020
+Như vậy em sẽ có từ tháng 9 tháng 10.
+
+912
+01:40:25,460 --> 01:40:29,260
+8 tuần, 2 tuần về tuần.
+
+913
+01:40:29,730 --> 01:40:45,270
+Thế thôi. Bạn này cũng tối đa phương sinh.
+
+914
+01:40:58,690 --> 01:41:06,110
+em cũng định chắc là phải chứng minh một chút năng lực mọi người mới tin tưởng mong
+
+915
+01:41:06,540 --> 01:41:18,410
+là trong vòng 7 tuần là có thể nộp được dân chủ dân chủ
+
+916
+01:41:37,570 --> 01:41:45,350
+con đường sáng rồi nó thẳng luôn mà sau khi thầy thấy kết quả cái đen sụn đấy là sáng rồi
+
+917
+01:41:45,350 --> 01:41:53,680
+nhưng mà với quả ngoại ngữ thì đúng là ngoài tầng của mình không đương tưởng được này thì
+
+918
+01:41:54,180 --> 01:41:56,880
+Vậy con để mà xong cái thề đấy thì em là vào
+
+919
+01:41:56,880 --> 01:42:02,640
+Và thôi cái chuyến thì chấp nhận
+
+920
+01:42:02,640 --> 01:42:06,110
+Các chồng còn dưỡng tiếng Anh nữa
+
+921
+01:42:06,110 --> 01:42:08,110
+Em còn dưỡng tiếng Anh
+
+922
+01:42:08,110 --> 01:42:11,770
+Dù Lan trường vào rồi nhưng mà ngoại đứa của 2 em trở thành thường
+
+923
+01:42:11,770 --> 01:42:12,850
+À 12 anh thôi
+
+924
+01:42:12,850 --> 01:42:15,260
+Tin lên tiếng Anh không?
+
+925
+01:42:19,350 --> 01:42:20,790
+Các tiếng Anh mà còn kia
+
+926
+01:42:22,260 --> 01:42:24,560
+Để mà nói tiếng Anh gì cũng tí
+
+927
+01:42:26,360 --> 01:42:31,160
+Nên Phụ Lan và Đà Nẵng thì cuối cùng mấy trường đấy nó sẽ đòi cho em hay không?
+
+928
+01:42:36,650 --> 01:42:37,050
+Sẽ không
+
+929
+01:42:40,010 --> 01:43:11,000
+Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé.
+
+930
+01:43:18,760 --> 01:43:26,300
+quen sản phẩm chứ không nên nếu mình đã biết làm quen không để xong mình biết bài
+
+931
+01:43:26,300 --> 01:43:30,340
+tập trung tâm nếu mình đã được một bài tập trí quen thì sao cũng phải chứng nhận
+
+932
+01:43:30,340 --> 01:43:33,560
+sẽ không thể tích cực điều này nhưng đó là sự thật
+
+933
+01:43:37,910 --> 01:43:40,550
+Như Lam viết hồi thảo, chấm nước ok rồi đúng không?
+
+934
+01:43:41,070 --> 01:43:43,430
+Nhưng nếu em cố được bài tập trí thì lần sau cái bài gì em?
+
+935
+01:43:45,250 --> 01:44:02,250
+Ai cũng thấy không, lúc đầu rất là khó khăn, tập trí gọi là quay đi quay lại
+
+936
+01:44:02,650 --> 01:44:05,430
+Nhưng mà nếu chỉ một lần vào thì lần sau sẽ rất là phê
+
+937
+01:44:11,300 --> 01:44:14,140
+Nó ngay vào cái này lần sau cũng ghét tươi tới
+
+938
+01:44:19,120 --> 01:44:21,780
+Rồi Tùng viết bài tập trí chung như thế nó khác hẳn tập trí đúng không?
+
+939
+01:44:29,290 --> 01:44:38,290
+nhưng mà mình có đọc em đối tập trí với người tổng thống đặc biệt người ta bắt được tự một từ khóa
+
+940
+01:44:38,290 --> 01:44:48,770
+cái mới là cái mới nè Nếu ta bắt được khoản lý của mình thì nó sẽ rất ok mình cho đi còn nếu
+
+941
+01:44:48,770 --> 01:44:55,620
+không bắt được đáng yên đấy chỉ là cũng sáu nọ đảng đặc biệt thì là xong thì là xong bách hay
+
+942
+01:45:00,260 --> 01:45:30,680
+trong bức ảnh nghe biết là bài xong biết lý tục nhiều lắm đã khỏi bản nhân em là bản chất là
+
+943
+01:45:30,680 --> 01:45:37,700
+khoản rẻ chịu được hoa hoa và người sát là một chú biết mà cũng biết mà cũng biết không thử
+
+944
+01:45:37,700 --> 01:45:43,940
+thử một ngày thật là mình cũng đã từng có biết cách đây mà tôi cũng bị em bị hơn 10 ngày thì
+
+945
+01:45:43,940 --> 01:45:49,070
+không xét nghiệm nhưng mà chịu chứng mình thấy đâu em cũng biết ngày xưa mình đi đoán em có
+
+946
+01:45:49,070 --> 01:45:55,050
+em hóa lần em hóa lần nhau theo vị trí trước trước nghỉ lễ thì hồng nó không bị bị viêm phòng
+
+947
+01:45:55,050 --> 01:46:04,540
+tìm đông đường không đông không đi ra đây bằng ô tô xe máy không cho thầy quá nhanh
+
+948
+01:46:58,040 --> 01:47:57,920
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+949
+01:48:16,500 --> 01:48:33,860
+để báo cáo cũng hơi gấp không đấy là một thầy về đấy là thầy nhúc phó là phải phải đợi gần
+
+950
+01:48:33,860 --> 01:48:38,840
+nhớ là hẹn từ sáng với cùng là cứ đẩy lùi một tiếng dần đến 4 giờ mới báo cáo được
+
+951
+01:48:38,840 --> 01:48:40,320
+Cảm ơn các bạn đã theo dõi và hẹn gặp lại.

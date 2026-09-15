@@ -1,0 +1,8 @@
+node_modules/
+profiles/
+state/
+runs/
+.env
+.env.*
+*.auth-state.json
+*.secret

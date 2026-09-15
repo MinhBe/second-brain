@@ -1,0 +1,90 @@
+# browser-automation-skill .gitignore
+#
+# Security-first: credentials, sessions, captures must NEVER land in git.
+# Canonical storage is $HOME/.browser-skill/ — outside this tree — but these
+# patterns stop accidents (`git add .` from a parent dir, symlinks, fixtures).
+#
+# Companion: .githooks/pre-commit enforces the same rules at commit time.
+# Run scripts/install-git-hooks.sh (or pass --with-hooks to install.sh).
+
+# --- Credential / session / capture state (any location in tree) ---
+.browser-skill/sessions/
+.browser-skill/credentials/
+.browser-skill/captures/
+.browser-skill/profiles/
+.browser-skill/current
+.browser-skill/playwright-lib-daemon.json
+.browser-skill/playwright-lib-daemon.log
+sessions/
+credentials/
+captures/
+profiles/
+*.creds.json
+*.session.json
+
+# --- TLS / key material ---
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.asc
+*.gpg
+id_rsa
+id_ed25519
+id_ecdsa
+
+# --- Env files ---
+.env
+.env.*
+!.env.example
+secrets.yaml
+secrets.yml
+secrets.json
+credentials.json
+credentials.yaml
+
+# --- Browser-specific artifacts ---
+*.har
+trace.zip
+lighthouse.json
+*.png.diff
+# playwright-cli working dir (snapshots, console logs, generated code)
+.playwright-cli/
+# playwright-lib daemon state + log (lives under $BROWSER_SKILL_HOME by default,
+# but stop accidents if anyone runs the driver from inside the repo)
+playwright-lib-daemon.json
+playwright-lib-daemon.log
+playwright-lib-refs.json
+
+# --- Test temp artifacts ---
+tests/tmp/
+tests/.bats/
+tests/fixtures/tmp/
+
+# --- Editor / OS detritus ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.claude/
+*.bak
+*.orig
+
+# --- Misc leak sources ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+core
+core.*
+*.pid
+node_modules/
+AGENTS.md
+HANDOFF.md

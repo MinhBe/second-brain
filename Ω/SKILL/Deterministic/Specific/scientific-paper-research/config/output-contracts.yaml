@@ -1,0 +1,24 @@
+# Top-level keys of output.result per mode. tests/outputs asserts exact equality.
+version: 4
+envelope: [mode, status, request, result, clarification, error, next_command, contract_version]
+statuses: [ok, partial, clarification_required, needs_evidence, invalid_request, error]
+exit_codes: {ok: 0, partial: 0, invalid_request: 2, clarification_required: 3, needs_evidence: 4, error: 1}
+evidence_levels: [full_text, abstract_only, metadata_only, none]
+
+result:
+  TOPIC_SEARCH:   [compiled_query, provider, sort, filters, concept_blocks, total_hits, returned_count, papers, acquisition]
+  KEYWORD_SEARCH: [compiled_query, provider, sort, filters, total_hits, returned_count, papers, acquisition]
+  DOI_DOWNLOAD:   [requested_count, valid_dois, invalid_dois, downloaded_count, failed_count, items]
+  TITLE_DOWNLOAD: [requested_count, resolved_count, downloaded_count, items]
+  PAPER_ANALYSIS_STEP1: [paper_id, pdf_path, sha256, engine, page_count, char_count, evidence_level, full_text_available, detected_doi, sections, sections_path, text_path, evidence_template_path, instructions_ref]
+  PAPER_ANALYSIS: [paper_id, pdf_path, doi, title, evidence_level, full_text_available, fields, validation]
+  BATCH_ANALYSIS: [papers, summary]
+
+paper_item: [title, doi, year, source, cited_by, authors, eid, full_text_available, evidence_level]
+acquisition_item: [doi, status, method, path, expected_filename, sha256, title, is_oa, full_text_available, evidence_level, version, chain_attempted, attempts, failure_class, warnings, manual_urls, error]
+title_item: [input_title, resolution, provider, resolved_doi, candidates, suggestion, acquisition]
+attempt: [resolver, candidates, outcome, error]
+failure_classes: [none, blocked_403, blocked_challenge, ssl_error, invalid_pdf, network, subscription_only, no_oa, not_found]
+methods: [arxiv_direct, unpaywall, europe_pmc, openalex, semantic_scholar, arxiv_preprint, scihub_fallback, cache]
+versions: [published, preprint]
+providers: [scopus, openalex, crossref]

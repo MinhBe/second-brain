@@ -1,0 +1,31 @@
+# Approved synonym whitelist. Lookup is exact after normalization
+# (lowercase, collapse whitespace, strip trailing period). No fuzzy matching.
+# A concept term that is not in this table is searched verbatim, unexpanded.
+version: 1
+match: exact_normalized
+
+concepts:
+  artificial_intelligence:
+    canonical: "artificial intelligence"
+    synonyms: ["AI", "machine learning", "deep learning", "neural network"]
+  large_language_model:
+    canonical: "large language model"
+    synonyms: ["LLM", "generative pre-trained transformer", "ChatGPT"]
+  computed_tomography:
+    canonical: "computed tomography"
+    synonyms: ["CT", "CT scan"]
+  magnetic_resonance_imaging:
+    canonical: "magnetic resonance imaging"
+    synonyms: ["MRI"]
+  lung_cancer:
+    canonical: "lung cancer"
+    synonyms: ["lung neoplasm", "pulmonary carcinoma", "non-small cell lung cancer"]
+  breast_cancer:
+    canonical: "breast cancer"
+    synonyms: ["breast neoplasm", "breast carcinoma"]
+  type_2_diabetes:
+    canonical: "type 2 diabetes"
+    synonyms: ["type 2 diabetes mellitus", "T2DM"]
+  randomized_controlled_trial:
+    canonical: "randomized controlled trial"
+    synonyms: ["randomised controlled trial", "RCT"]

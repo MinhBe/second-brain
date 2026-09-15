@@ -1,0 +1,24 @@
+### Result
+Found 2 matches for /set state|submit form/i:
+
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]: idle
+  - generic [ref=e4]:
+    - heading "Actions" [level=2] [ref=e5]
+    - button "Set state" [ref=e6]
+    - button "Ask confirm" [ref=e7]
+    - paragraph
+  - generic [ref=e8]:
+
+----
+
+- generic [active] [ref=e1]:
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - generic [ref=e15]:
+        - checkbox "Agree" [ref=e16]
+        - text: Agree
+      - button "Submit form" [ref=e17]
+    - paragraph
+  - generic [ref=e18]:
+    - heading "Links" [level=2] [ref=e19]

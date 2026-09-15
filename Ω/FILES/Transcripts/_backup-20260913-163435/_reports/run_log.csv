@@ -1,0 +1,13 @@
+﻿file,model,device,compute_type,duration_s,processing_s,rtf,flagged_pct,status
+Voice 015.m4a,large-v3,cuda,int8_float16,38.2665,19.24,0.503,0.0,asr_complete
+Voice 014.m4a,large-v3,cuda,int8_float16,109.087375,26.75,0.245,0.0,asr_complete
+Voice 016.m4a,large-v3,cuda,int8_float16,305.597875,27.93,0.091,20.0,asr_complete
+Record thầy Lâm (2).m4a,large-v3,cuda,int8_float16,1307.9800625,170.65,0.13,0.0,asr_complete
+Voice 009.m4a,large-v3,cuda,int8_float16,2019.0911875,284.63,0.141,0.0,asr_complete
+Voice 011.m4a,large-v3,cuda,int8_float16,2403.4510625,269.99,0.112,34.74,asr_complete
+Voice 012.m4a,large-v3,cuda,int8_float16,2853.407375,337.37,0.118,11.56,asr_complete
+Voice 013.m4a,large-v3,cuda,int8_float16,3462.768625,366.86,0.106,1.11,asr_complete
+Voice 018.m4a,large-v3,cuda,int8_float16,4819.9981875,663.22,0.138,15.48,asr_complete
+Voice 010.m4a,large-v3,cuda,int8_float16,6071.460875,818.08,0.135,11.98,asr_complete
+Recording (2).m4a,large-v3,cuda,int8_float16,6520.341375,1344.17,0.206,19.45,asr_complete
+Voice 017.m4a,large-v3,cuda,int8_float16,7424.5805,1220.27,0.164,36.56,asr_complete

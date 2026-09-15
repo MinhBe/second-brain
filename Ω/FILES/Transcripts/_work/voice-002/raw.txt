@@ -1,0 +1,525 @@
+[00:00:00] Nên thế là cũng đấu tranh rồi, cũng thấy có lợi.
+[00:00:04] Cái data của em là cái gì?
+[00:00:10] Cái data em bị outdated.
+[00:00:12] Cái data của em là cũng không ra dữ liệu.
+[00:00:16] Nghĩa là kiểu để...
+[00:00:18] Nghĩa là nếu dùng AI thì nó chỉ học được khoảng 80% thôi.
+[00:00:23] Thì nó sẽ không học được 20% cái kiểu đặc biệt hơn, kiểu mẫu dài hơn hoặc là...
+[00:00:28] Nó sẽ phải yêu cầu phải đánh theo keyword, nó phải dài hơn.
+[00:00:33] Ví dụ như là bình thường các từ như SELECT sẽ đánh luôn chẳng hạn
+[00:00:38] Nhưng mà một số cụm là nó sẽ không đánh
+[00:00:41] Thì nó sẽ phải gồm nhiều một cụm nó dài hơn hơn nữa
+[00:00:45] Cái cụm mà khai thác là đưa lên
+[00:00:47] Thì bây giờ là AI nó có khả năng suy luận ra về cái đấy rồi
+[00:00:51] Hay là bây giờ mục tiêu là ngược lại
+[00:00:52] Là đằng nào AI đã làm được rồi bây giờ mình phải tạo ra một cái mô đun nhỏ
+[00:00:57] Để cho là AI không phải đưa toàn bộ tất cả các Log qua AI nữa
+[00:01:01] không nói rất tốn token đấy cả, nó rất là nặng
+[00:01:04] Token bây giờ không cần nghĩ đến làm gì
+[00:01:07] Đi đi anh, bởi vì bây giờ là gửi hơn 10 triệu request
+[00:01:10] và 10 triệu request đấy đều phải đưa
+[00:01:13] đầu tiên là sẽ đưa qua đánh checklist, đánh check keyword
+[00:01:17] rồi mới bắt đầu đưa tiếp là lúc đấy vẫn còn hơn 100 nghìn
+[00:01:20] thì nếu mà tiếp tục AI thì nó sẽ tốn rất nhiều tiền
+[00:01:23] thì bây giờ phải tạo một cái mô đun nhỏ để nó giảm hiểu cái đồng đấy trước khi đi tiếp
+[00:01:28] kiểu đưa qua một con AI đần hơn nhưng mà nhỏ hơn và chuyên biệt hơn
+[00:01:33] sau đó mới đưa con Cloud, bởi vì hầu hết giờ là chỉ có Cloud thôi
+[00:01:38] nếu mà anh dùng con 200$ cho anh, con đấy nó có con Fable
+[00:01:51] con đấy là nó được loại bỏ bớt những cái tiêu chuẩn về an toàn thông tin
+[00:01:57] Nên là nó mới kiểu tình thường là đưa payload vào là nó sẽ thưởng thực thi luôn
+[00:02:02] Còn Fable nó có mấy cái tiêu chuẩn nó khá thông minh nên là nó khả năng suy luận nó tốt
+[00:02:09] Nhưng mà con đấy ai mà đi thi Bounty là auto phải luôn
+[00:02:13] Mình mua gói 100$ thôi vì anh chỉ cần 50$ là đủ
+[00:02:18] 20$ thì hơi nhiều mà anh mới nghe nói là 20$ đấy là 20$ theo quần
+[00:02:21] Vâng đúng rồi anh
+[00:02:23] À 20$ theo 5 tiếng
+[00:02:25] bỏ bỏ luôn nếu mà anh mua không nghĩa là anh sẽ không có giới hạn tuần ai không có giới hạn theo
+[00:02:32] giờ nữa anh chỉ có dạng phần thôi thế là mấy em từ 5 đến 5 5 5 tiếng người được thành hành
+[00:02:38] với 5 tiếng đấy không dùng hết đâu không không dùng hết đây anh nếu mà anh thì bao Nếu mà anh
+[00:02:42] làm bao bác bao ti là sẽ hết bác bao ti là anh anh em là dùng là hết chắc là hết lúc đầu em tưởng
+[00:02:53] Thấy bỏ ra gần 10 triệu là anh định xài ké
+[00:02:56] Anh nghe là 200 một người dùng vẫn hết
+[00:03:04] Bởi vì là Bắc Bạc Ti
+[00:03:06] Bắc Bạc Ti là nó kiểu
+[00:03:08] Nó xà vào, nó ôm hết cả cái đồng đấy
+[00:03:12] Thì đương nhiên là
+[00:03:13] Anh ấy vẫn sẽ đưa logic vào nhưng mà không tối ưu được
+[00:03:15] Mấy em cũng không ít
+[00:03:22] Nó đang quay vào đó
+[00:03:23] Có nghĩa là
+[00:03:26] Cục thi nghìn đô
+[00:03:27] Bỏ 200 là cũng lời
+[00:03:31] 275 triệu
+[00:03:32] Là 7 triệu 8
+[00:03:34] 20 triệu nào
+[00:03:35] Thì là gần 10 triệu đi anh
+[00:03:38] 200
+[00:03:39] 211
+[00:03:40] 200
+[00:03:46] 10% ván
+[00:03:47] Anh quên
+[00:03:49] Tại vì sáng nay ngóng vừa, nhắn cho anh kìa, build vừa rồi
+[00:03:52] Vậy, thì đấy, thì bây giờ...
+[00:03:55] Từ...
+[00:03:57] Đúng rồi, nó thêm 10%
+[00:04:00] Thì đấy, bây giờ bài toán là tiết kiệm hiệu năng rồi
+[00:04:03] Vì gần như là cứ ném cloud với công ty một người
+[00:04:08] Nó gần như vượt trộn
+[00:04:09] Nên là bây giờ là suy ngược lại
+[00:04:13] Sử lý hai cái
+[00:04:14] Một là tạo ra một con module rất là bé
+[00:04:16] Và nó xử lý được những cái cơ bản
+[00:04:18] 2 là mình sẽ phải xử lý những cái cực kỳ khó
+[00:04:22] Nghĩa là mô hình của em phải học được
+[00:04:24] Cái cú pháp
+[00:04:26] Cái câu rất là khó
+[00:04:27] Có thật sự là tầm mô hình không?
+[00:04:29] Có chứ anh
+[00:04:30] Vì
+[00:04:32] Nhan là chỉ là xin dữ liệu
+[00:04:37] Nghĩa là bây giờ là bộ dữ liệu
+[00:04:39] Nó sẽ chỉ có 2 câu tầm công thôi
+[00:04:43] Thì nghĩa là chỉ có 2 câu tầm công thôi
+[00:04:44] Thì 2 câu tầm công đấy
+[00:04:45] Không có quá nhiều thông tin để mình học
+[00:04:47] Rồi mình sẽ sao hết tất cả lên
+[00:04:49] để cho nó cố gắng học. Ví dụ như là bây giờ em có 50 câu, trong đó chỉ có 2 câu tấn công rất là đặc biệt, rất là kiểu chuyên biệt
+[00:04:57] thì đưa vào mô hình thì nó chỉ học 48 câu còn lại, 2 câu kia nó cho rằng là thứ yếu nên nó sẽ bỏ qua.
+[00:05:04] Từ bây giờ là phải làm dầu bằng cách chỉ 2 câu đấy thôi, nhưng mà sinh ra được 50 câu rồi đưa vào thì nó sẽ chỉ tập trung vào...
+[00:05:13] Nhưng mà hiện tại em đưa vào một tường lửa mã nguồn mở, Mode Security
+[00:05:20] Mode Security là NGX đúng không?
+[00:05:23] Dạ, NGX
+[00:05:24] Và từ giờ nó vẫn là OSI
+[00:05:25] Không, cái đấy thì em không dựng nổi, cái đấy nó dựng hơi khó
+[00:05:31] Vâng thì không, kể cả dựng Docker thì em cũng chỉ dựng được Mode Security thôi
+[00:05:39] Đang đấy nó cũng thuộc dạng trung bình, nó cũng vừa thủy khó
+[00:05:45] Em mới dựng về đấy thôi
+[00:05:48] Cora-Za, có thể dùng rule của Mod Security nhưng mà nó không có line
+[00:06:02] Em và các em có thử Cora-Za với Mod là nó phải dùng rule set chung
+[00:06:07] CRS
+[00:06:07] Còn về cơ bản là hai thằng như nhau mà thằng này được tùy chỉnh nhiều hơn
+[00:06:15] Nếu mà chuyển khai ban đầu thì dễ hơn nhưng mà nhiều cái phải setting nha
+[00:06:19] Thằng kia gọi lên phát rồi em ru cái là xong
+[00:06:23] Em mới có MDX không phải cấu hình MDX nữa
+[00:06:26] Em chưa biết anh chắc gì kì của thằng đi vào thằng Docker
+[00:06:32] Đấy thì đối với em thôi thì em chỉ cần gõ mấy code
+[00:06:36] Và thằng này thì phải custom bằng tay hơi nhiều. Như là trước thì em phải dùng lạc này, nhưng mà sau phát hiện là docker liên kết với chắc gì thì thế là thôi.
+[00:06:45] Docker là có mcp đúng không?
+[00:06:48] Đúng rồi anh. Nghĩa là cứ cái gì liên quan mcp của thằng. Cứ cái gì mcp là mắc nó đồng hoạt được.
+[00:06:53] Anh không biết cái đấy nhưng mà anh chưa dùng. Anh chưa dùng cái đấy thì anh ít dùng docker desktop lắm. Không dùng docker desktop bao giờ. Dùng cái server là chính.
+[00:07:00] Mỗi cái là nó hơi bị quá tay nên đôi lúc em không ý thức là mình đang làm cái gì.
+[00:07:04] Nếu mà mình không theo cửa bài ai, nó là một tràn text của người đọc
+[00:07:10] Đọc xong nhưng mà vẫn chưa hiểu, có 8 câu hỏi, 10 câu hỏi để hỏi lại
+[00:07:14] Mà mình hỏi những câu hỏi xong nó lại quên cái đoạn đấy đi
+[00:07:17] Thế ờ, người ai không cần chỉ đọc sâu, nhanh, có đúng 3 tháng mà của em nó bị lỗi thời
+[00:07:26] Như của anh cũng bị lỗi thời, ngày xưa ở cái thời mà 2025
+[00:07:30] Rồi cái đề tài của anh trước thì còn
+[00:07:32] Nó sẽ là tấn công, nó sẽ bị tấn công rất là nhiều
+[00:07:34] Nhưng mà bây giờ thì hầu hết là các mô hình có cả Trails rồi
+[00:07:38] Không được, chỉ là nếu người dùng là dùng Cloud thì đề tài sẽ không có tác dụng
+[00:07:44] Nhưng mà nếu người dùng là dùng các cái
+[00:07:45] Nó là doanh nghiệp, doanh nghiệp mà tự xây LM thì nó là ok
+[00:07:49] Không, chỉ cần liên quan, chỉ cần không dùng Cloud thì đề tài nào cũng có thể được
+[00:07:56] Thằng đấy nó kiểu
+[00:07:57] Cái bản Cloud của nó là mô hình cộng với cái hát nét của nó
+[00:08:01] Thằng đấy hát nét kinh
+[00:08:02] Do cái ông Andrew NG tổ cái đấy
+[00:08:09] Thì đấy, giờ chỉ có đúng rồi
+[00:08:15] Bây giờ tôi yêu chi phí này vì là về trí đồng minh là không thể hơn được mà kiểu hơn nó cũng không tốt hơn được đấy anh
+[00:08:25] Bây giờ anh dùng nghĩa là cloud cộng với cả skill hnet, anh biết skill hnet không anh?
+[00:08:31] Nhưng mà bình thường skill là em phải viết script
+[00:08:35] Ví dụ như em muốn tải một cái video em phải viết chi tiết là script và nó sẽ phải tải, chạy câu lệnh như thế nào, thay thế từ ngữ như thế nào
+[00:08:41] Bây giờ anh chỉ cần viết ít context cho nó, nó tự động biết cần phải làm gì
+[00:08:46] Skill là một level tốt hơn của Adnet thôi
+[00:08:49] Vâng, không nghĩa là có skill và skill Adnet đi anh
+[00:08:51] Nhưng mà bây giờ thiết tải cũng không làm được rồi
+[00:08:55] Bởi vì các thằng khác là yêu cầu phải viết chi tiết xem là nó cần phải làm gì
+[00:08:58] Ừ, thế này cũng có, chỉ là nói chưa được kỹ là cloud rồi
+[00:09:02] Codec cũng có một cái dùng nó cũng ok, nhưng mà giờ mua thì phải codec thôi
+[00:09:08] Codec là thiên về người thực thi hơn
+[00:09:16] Nghĩa là nếu dùng codec để thực thi thì nó sẽ tiết kiệm token hơn, còn về xử lý thông minh thì nên dùng hàng cloud
+[00:09:23] Với đầu anh dùng codec này em cũng nghĩ là ok, nhưng mà nó có vẻ phá phát quá nhiều như là
+[00:09:27] Thấy em ví dụ là em phát một tên tên tên tên docker nó sẽ dễ hơn một tiếng
+[00:09:31] Nó không được mượt mạng và lô lông nhiều, ở kia mình cũng nói rất là nhiều
+[00:09:39] Ok, đúng thì một thằng hơi tốn tiền, hoặc thì nó sẽ gần như gặp vô hạn
+[00:09:47] Hồi đấy là anh dùng codec lúc nào cũng cũng thuộc vào rạng 200$ ý
+[00:09:52] Nên lúc đấy em cũng cảm thấy nó research khá là khỏe, vừa research vừa...
+[00:09:57] Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+[00:10:01] Còn với slide thì anh thấy hoạt động của đấy
+[00:10:04] Thì nó hỗ trợ kia hơn
+[00:10:06] Tạo slide, viết doc
+[00:10:09] Thôi anh hãy dùng thằng đấy để viết slide
+[00:10:11] Đấy phải nên
+[00:10:13] Đáng lẽ phải nên ngược lại nhưng mà thôi kìa
+[00:10:15] Ngược lại sao?
+[00:10:16] Nghĩa là nếu như mà anh dùng thằng
+[00:10:19] Nghĩa là thằng Cloud nó chỉ hành chạy lần đầu thôi
+[00:10:21] Còn lại những cái tinh chỉnh bé bé thì dùng thằng Codec để tính kiện
+[00:10:25] Chạy lần đầu thôi anh hãy sửa lại
+[00:10:27] Đúng rồi, anh phải sửa lại mà lúc đấy thì hãy dùng làm codec
+[00:10:30] Ờ đây, không, dưới codec thì...
+[00:10:32] Ok
+[00:10:35] Sửa lại cũng cũng thôi, cho nó với đoán của mình rồi lấy
+[00:10:38] Vì lúc đấy em thì cũng lấy slide mẫu của máy khoa thôi mà sửa thêm logo mới này
+[00:10:43] Rồi nó mới chế ra cái đồng đấy
+[00:10:46] Nhưng mà có đúng mấy cái là em...
+[00:10:49] Có đúng 4 mô hình mà em dùng AI thì các thầy dã là...
+[00:10:53] Nhiều chữ quá
+[00:10:54] Đúng rồi
+[00:10:56] Thầy họ bảo anh cũng theo, hỏi nhiều vai để bỏ phần câu hỏi luôn
+[00:11:02] Khi nào các thầy hỏi thì cứ ưa ơn
+[00:11:06] Tại vì nói cái đấy nó chỉ là cái phương phủ luật của người thầy
+[00:11:09] Chỉ là một cái mà từ đấy mình suy nghĩ ra một cái gì đấy
+[00:11:12] Thì em nghi trong nhóm là đặt vấn đề này, các nghiên cứu trước có gì này
+[00:11:18] Xong rồi xem triển khai thế nào trong cái đoạn bù hát tầm 10 phút là xong rồi
+[00:11:25] Nhưng mà nghĩ lại thì có khi cứ làm cái cách cũ hay hơn
+[00:11:28] Anh Hải, anh Hải công an
+[00:11:30] Anh ấy thuyết trình hết 40 phút
+[00:11:32] Xong rồi các thầy không hỏi được gì
+[00:11:34] Cho 8-6 đi về
+[00:11:36] Không hỏi đúng 1 câu
+[00:11:39] Lúc đầu lít ra là hỏi 7 câu
+[00:11:41] Nhưng mà không kịp, họ trả được đúng 1 câu
+[00:11:43] Rồi đi về
+[00:11:48] Anh ấy
+[00:11:49] Anh ấy mới cân bằng
+[00:11:52] Nhưng mà anh còn giỏi là được
+[00:11:53] Bất cứ ai cũng giỏi, trên 8 ai cũng giỏi
+[00:11:58] Không, khả năng là bạn Ngọc Anh kia sẽ khá
+[00:12:04] Bởi vì 7.5 là hơi nó kéo kinh
+[00:12:08] Đấy chắc phải chiếm 70%
+[00:12:10] Còn mấy cái điểm 8 chấm ở trên trường chỉ chiếm 0.13
+[00:12:17] Cũng do là các bạn cũng quá tự tin vì cái đề tài là khó quá
+[00:12:22] Chắc là các thầy dí cho tốc đề xuất thì các thầy nhé bác thầy
+[00:12:29] Đề xuất đề một giọng dễ bị hỏi quá
+[00:12:33] Cái đấy là chuyên việt ấy, cũng rộng như vừa rồi một chuyên việt
+[00:12:37] Và cái mà mọi người chọn là những thứ biết luật
+[00:12:42] Vâng thì thầy thắng thì ngồi thư ký thì bốn hay kia cũng càng
+[00:12:47] Thắng ngồi thư ký là chân chết rồi
+[00:12:50] không thể thắng ngồi thư ký bởi vì thầy kiểu có gì chết là thầy còn kiểu chữa cho các kiểu nói, làm nói tránh
+[00:12:59] đỡ
+[00:12:59] vâng, nói đỡ
+[00:13:00] em là thầy chung ngồi thư ký nha
+[00:13:03] thế là thầy cũng nói đỡ nên em biết là nếu mà để mấy cái thầy hay hỏi mà làm thư ký là chỉ có thể là nói đỡ
+[00:13:10] đúng là nói đỡ hơn
+[00:13:11] nhưng mà như là chủ tịch và thư ký là sẽ không đổi
+[00:13:14] còn sẽ thay đổi thủy viên
+[00:13:15] không, chỉ có chủ tịch và sẽ không đổi được
+[00:13:18] thư ký có đổi
+[00:13:19] thư ký sẽ đổi
+[00:13:21] Anh là thầy bảo vẫn ngồi đấy, nhưng thường sẽ đổi
+[00:13:29] Chỉ có chủ tịch sẽ được giữ, đổi hết
+[00:13:35] Chủ tịch yêu cầu Phó giáo sư đổi, hoặc là trên đại tá
+[00:13:42] Như thầy Tuấn Anh, thầy thảm sát nhiều quá, không thể lên Phó giáo sư được
+[00:13:50] Thầy Tuấn Anh năm... nhưng là thầy có con rồi, còn hồi 2014, thầy về thầy Thắng và phụ huynh đã đem hoa đến rồi, vẫn cho trường.
+[00:14:06] Càng đưa thầy càng kỹ.
+[00:14:09] Không, như là kiểu thầy gia đình cho trường, và giờ thầy hiền nó.
+[00:14:15] Thầy nói như thế là như thế, không ai kiểu...
+[00:14:18] Thì lúc đầu thầy Thắng thì thầy Thắng đấm em lõm hết đầu không cho em vào về tuần nghiệp, thầy thi tuần nghiệp.
+[00:14:27] Vâng, đợt thầy mới về là em năm 2, đấy kiểu vẫn hơi hơi...
+[00:14:33] Em là AT16
+[00:14:33] Em là AT16, tầm...
+[00:14:36] Tầm 5 năm là thế
+[00:14:37] Vâng, đấy là cũng bị lễ hái của thầy Tuấn Anh với cả thầy Thắng, thầy Bảo.
+[00:14:50] Thầy bảo là thầy khèo kinh hóa. Thầy cũng bình thường thôi nhưng mà nếu mà thầy có vấn đề, đúng rồi, thầy mở ra vấn đề, thầy toán hỏi kỹ hơn, thầy thắng hỏi sâu hơn, thế là chết.
+[00:15:02] Thầy có một câu hỏi đôi khi không liên quan chứ không phải là câu hỏi của người khác.
+[00:15:06] Nhưng mà nếu không trả lời kỹ chứng tỏ cái câu hỏi vấn đề là chết.
+[00:15:44] Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+[00:15:50] Về dạng một môn hoặc là đi tiệm
+[00:15:54] Thì thầy về
+[00:15:57] Thầy
+[00:15:57] Vâng
+[00:16:00] Hơi đen vụn nga với cả là
+[00:16:03] Cry
+[00:16:05] Giống anh Hùng Anh với cả anh Mình
+[00:16:09] Rồi không thoát được
+[00:16:11] Nghĩa là mấy anh ấy là yêu cầu
+[00:16:14] Sau khi học xong rồi phải có 5 năm
+[00:16:16] Cống hiến cho học viện
+[00:16:18] Nhưng không
+[00:16:20] Nhưng mà không ai mời về
+[00:16:21] Không mời về thì không tích thời gian được
+[00:16:23] Như là kiểu anh ấy mới được tính khoảng 2-3 tháng thôi, đôi lúc đe gọi về giấy, không được tích thời gian, nhưng mà cũng không được kiểu rứt đường, cứ bị ở giữa, cứ chôn.
+[00:16:39] Đấy là đầu chiến tranh đó, chưa anh?
+[00:16:42] Dạ?
+[00:16:42] Đã được mà không anh?
+[00:16:45] Chưa, không anh ấy về được 3 năm rồi. Đợt đấy là đã bị rồi anh.
+[00:16:51] Đợt nào?
+[00:16:54] Nghĩ chắc là thêm mấy mấy năm nữa thôi vì là Nga nào cũng thắng rồi giờ phải câu, câu kiểu để Mến Úc Châu yếu cũng chưa biết được anh.
+[00:17:09] Nhưng mà làm với Gu bây giờ thì sau năm 2026 thì anh...
+[00:17:14] AI ạ.
+[00:17:16] AI nó kiểu nó sẵn sàng động vào mấy cái an toàn thông tin, an toàn thông tin nó cũng...
+[00:17:23] Anh em làm pen test được thì NLC cũng làm được. Giờ anh em pen test đi tìm bất kỳ người ai để investigate.
+[00:17:33] Thì hôm nay em cũng có nói thì anh ấy cũng có nói là bây giờ chỉ ném cái mindset là thôi, còn lại là nó sẽ chủ động.
+[00:17:41] Và cái quan trọng nhất là cái case study là cái quan trọng nhất.
+[00:17:44] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:18:29] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:18:51] Để em đọc tiếp
+[00:18:54] Để em đọc tiếp
+[00:18:56] Để em đọc tiếp
+[00:18:58] Để em đọc tiếp
+[00:19:01] Để em đọc tiếp
+[00:19:02] Để em đọc tiếp
+[00:19:02] Để em đọc tiếp
+[00:19:02] Để em đọc tiếp
+[00:19:04] Để em đọc tiếp
+[00:19:06] Để em đọc tiếp
+[00:19:14] Để em đọc tiếp
+[00:19:17] Nghĩa là vứt hết tia 1 à?
+[00:19:20] Tia 1 chỉ có V5 và AI thôi
+[00:19:23] Chẳng vứt Alex nhiều
+[00:19:25] Thế thì mất hết việc
+[00:19:28] Mất được phải tiến hóa thôi
+[00:19:30] Tia 1 phải cố lên thôi như thế nào?
+[00:19:32] Tia 1 cố không được, giờ chỉ có đẩy thẳng lên tia 2 thôi
+[00:19:35] Thì đúng, nghĩa là tia 1 phải cố ăn súng tỏa
+[00:19:37] Thử lý được vấn đề đấy thì nó sẽ lên được
+[00:19:39] Chứ có tầm tia 1 lên tia 2 đâu
+[00:19:42] Vừa vào đã thành tia 2
+[00:19:46] Không có vấn đề
+[00:19:47] Có những ông không trực mà chỉ làm D2 thôi, tất cả các ông như thế này. Chỉ chuyên đi tùy mạng
+[00:20:00] quen của các chủ tịch xăng chủ động thôi chứ không hỗ trợ
+[00:20:04] Hỗ trợ chính là gần như bỏ gần hết
+[00:20:10] Chắc đúng như thế, mong mọi người yên tĩnh
+[00:20:13] Và cái dây chuyền mà có alert và cái tiêu chuẩn về alert này như thế nào, có AI nào, có follow như thế nào
+[00:20:19] Trước em nghe đóng cây bằng AI, đã thấy không giòn
+[00:20:23] Đóng cây này, từ cây đấy mang đi một loại loại veritip này, bổ sung trên evidence này
+[00:20:28] xong từ Evidence đấy kích xuất
+[00:20:30] quay ngược về Endpoint nhé
+[00:20:32] lấy Artifact về
+[00:20:33] lấy Analyze cái tại Artifact đấy
+[00:20:36] như là e nghe chẳng hạn kiểu kìa đấy
+[00:20:38] Vậy nhưng mà nước ngoài ai đã làm chưa mà
+[00:20:40] hay là
+[00:20:41] cũng sản phẩm hãng đang làm đấy
+[00:20:45] không kiểu nội bộ vậy anh
+[00:20:47] hay là mình vẫn phải
+[00:20:49] nghĩa là mình phải dừng đến hãng hay là kiểu mình làm nội bộ
+[00:20:52] không, mình làm nội bộ vẫn được
+[00:20:54] MISA đang làm đấy rồi
+[00:20:55] MISA hả
+[00:20:57] Misa hả? Misa, Misa là công ty Misa, Misa giấu ý
+[00:21:00] Không em biết rồi
+[00:21:03] Misa lần này đi bootcamp có tiền tiền lần đấy
+[00:21:05] Người ta không bắt đầu lên mạng, người ta không đuổi ai thì không được
+[00:21:12] Năm sau bootcamp này chắc là người ta sẽ put slide lên thôi
+[00:21:16] Bootcamp hôm nào đấy anh?
+[00:21:17] Hôm nay ngày cuối rồi
+[00:21:21] Có gì chắc là anh cho em xem, em cũng không...
+[00:21:28] Năm nào cũng có slide mà. Năm ngoái là bắt đầu nói về Autonomous Energy.
+[00:21:34] Có khi làm không nhanh 2 tháng ở khi nói cái của em phải lỗi thời tiết.
+[00:21:41] Thầy kêu phải tiến hóa thôi.
+[00:21:45] Công nghệ cổ kỳ luôn. Nhanh thật.
+[00:21:51] Bây giờ kiểu làm biệt tá không phải chứng minh mình hỗ trợ AI cái gì.
+[00:21:55] cái này
+[00:22:01] hình thái mới
+[00:22:21] mục tài nguyên
+[00:22:25] chắc là hiện tại thì em chưa post lên nhưng mà
+[00:22:27] hai ngôi năm thì nó có này
+[00:22:32] Facebook thì người ta sẽ nói là YouTube Bootcamp Misa
+[00:22:37] các em thấy rồi
+[00:22:42] Như thế này là giới thiệu của Securitibootcamp nhé
+[00:22:54] Từ nay đến cuối năm thì còn sự kiện kiểu đánh tập trận
+[00:22:58] Đấy gọi là gì nhé?
+[00:22:59] Đánh diễn và thực chiến
+[00:23:00] À diễn vâng
+[00:23:01] Nhưng mà nếu như Securitibootcamp thì không có cái nào nữa
+[00:23:04] Nhưng mà có thể sẽ có Smart Banking
+[00:23:06] Smart Banking thì Security là thứ yếu đi cạnh
+[00:23:10] Nó sẽ tổ chức thi đấu ở đấy
+[00:23:12] Như là nội bộ ấy
+[00:23:13] Không, các ngân hàng
+[00:23:14] Thi giữa các ngân hàng ấy
+[00:23:17] Anh vào feed anh có gặp bạn Phong hả anh?
+[00:23:28] Anh ở chỗ khác
+[00:23:29] Chỗ khác
+[00:23:30] Đặc biệt hơn
+[00:23:33] Điêu anh có được trên 4x không anh?
+[00:23:36] Trên 4x
+[00:23:38] Đến từ WinShot cũng giống mà về...
+[00:23:41] Anh...
+[00:23:43] Năm nay
+[00:23:43] Em chưa gặp, vâng rồi
+[00:23:45] Anh làm cùng anh?
+[00:23:49] Còn đây là Misa
+[00:23:50] Trường Misa
+[00:23:51] Misa
+[00:23:54] Rồi
+[00:23:55] Ai xem thức AI
+[00:23:57] No, nó mất defense
+[00:24:01] Nó không nếp việc đâu
+[00:24:03] Không, đương nhiên là không nhanh
+[00:24:05] Và cái đề tài của thêm không nhanh là cũng ngon ngoẻo
+[00:24:10] Ừ, nên nhanh
+[00:24:12] Nhưng mà đối với người nghiên cứu thì nhanh chậm nó khốn nha lắm
+[00:24:15] Giờ thì có rồi
+[00:24:16] Không, đối với người nghiên cứu thì không nhanh thì sẽ vẫn có cách khác để người ta làm
+[00:24:21] Tức là người ta không phải là người nghiên cứu chỉ hôm nay thôi
+[00:24:24] Người ta nghiên cứu là người ta tiếp tục chuyển đổi chủ đề
+[00:24:26] Người khác thì người ta vẫn không thể
+[00:24:28] Chuyển đổi chủ đề cũng hơi khó
+[00:24:31] Không nhưng mà chuyển đổi chủ đề phải theo thầy nữa
+[00:24:35] Bởi vì là
+[00:24:38] Khi nào em lên tiến sĩ
+[00:24:40] À khi nào em lên phó giáo sư em mới được quyền tự chủ
+[00:24:43] Còn thầy Phạm Duy Trung là thầy đang theo một thầy
+[00:24:46] Đây là thầy Bùi Thu Lâm ở thiên trường
+[00:24:48] Thầy à
+[00:24:53] Thầy mà dạy mình môn
+[00:24:54] Học máy
+[00:24:55] Học máy đấy
+[00:24:56] Thì thấy bị hồ sơ bị bỏ vấn đề
+[00:25:00] Nên là không lên được
+[00:25:03] Còn trước là thấy là bên trường quân sự
+[00:25:06] Vâng
+[00:25:07] À đấy biết cắt
+[00:25:08] Vâng đúng rồi
+[00:25:10] Thấy trước là cũng kiểu sắp lên
+[00:25:14] Không biết
+[00:25:18] Cũng sắp lên phó
+[00:25:19] À cũng lên phó hiệu trưởng
+[00:25:20] Nhưng mà bị cái liên quan tới mở lớp
+[00:25:24] Mở lớp dạy thêm thì không được tính là
+[00:25:26] Đó là kiểu tiền khô
+[00:25:28] Anh không biết vụ đấy nhưng mà anh chỉ biết là một tục tạm mà không trở nên
+[00:25:32] Đấy thì bị cái đấy thôi bởi vì mỗi lớp dạy thêm ngoài, dạy thu tiền
+[00:25:36] Và hồi đấy thì cứ nghĩ là phải dạy để dạy từ tấm lòng của thầy là khô xong
+[00:25:41] Thế là gọi là dòng tiền không minh bạch, dính
+[00:25:46] Và thầy thích rất đến cái đấy
+[00:25:47] Vâng, thầy cũng thích
+[00:25:49] Nhẹ nhàng, nhẹ nhàng
+[00:25:50] Thì cái đấy bị uống hồ sơ thế là thầy bị kẹt
+[00:25:53] Ờ, hiện tại thầy cũng theo thầy đấy
+[00:25:57] Nhất là bình thường là cứ thứ bảy hàng tuần là sẽ có một buổi giữa các nghiên cứu sinh thì em được ngồi ké
+[00:26:05] Vì kiểu em ghi tên mấy vào
+[00:26:08] Tức là em mới tự tin là ít nhất là đề tài em nhắc nhắn trên tám vì thấy mà không ok em không bao giờ ra bảo vệ
+[00:26:14] Về em bảo vệ muộn thì mãi thấy ok không thì có khi nhanh hơn nhiều
+[00:26:21] Cái đề tài này của anh lâu lâu anh ngó vào một tí, không có nhiều thời gian được
+[00:26:26] Cũng may là em nghĩ là giai đoạn của anh ngó kịp
+[00:26:30] Đúng đấy
+[00:26:30] Vì là mới thông báo 2 tuần
+[00:26:33] Anh dự trù công việc lâu từ trước rồi, chỉ là anh không ngó vào kịp
+[00:26:38] Lên đề cương thì lên đề cương trước 1 tuần thôi
+[00:26:40] Thế cũng may em vừa mới nhắn tin cho anh Hải lớp trưởng là khả năng sẽ bảo vệ sớm
+[00:26:47] Bởi vì thầy hiệu phó sắp phải luân chuyển công tác
+[00:26:49] 2 hôm sau đã nhận tin là 12 đảng chí bảo vệ
+[00:27:00] Bình thường là phải nộp, gửi các thầy, tạm biệt rồi sửa lại một lần nữa, rồi gửi lại lần cuối.
+[00:27:07] Cái này cô ý anh có thể cắt hết đoạn AI đi, nhưng mà bỏ qua hết thì rất là may mắn.
+[00:27:16] Đỡ bao nhiêu bước làm nhẹ cũng được.
+[00:27:21] Chưa sẵn sàng bảo vệ.
+[00:27:22] Không sao, anh thấy cái quy mô thì anh cũng biết là nó rất là dễ.
+[00:27:28] Sáng anh có đi dạo một vòng hay hình thế?
+[00:27:31] Chắc là chết mỗi một người thôi
+[00:27:35] Em cảm giác là mình không nên chọn đề tài
+[00:27:40] Nghĩa là em biết là chuyên biệt rồi
+[00:27:42] Nhưng mà nó quá rộng để hỏi
+[00:27:43] Rộng là không người cũng biết
+[00:27:46] Nếu mà đi theo thầy mà không tự tin thì tự tìm một cái
+[00:27:52] Nếu mà em tự vẽ ra đường thì sẽ không ai bắt vẽ em cả
+[00:27:55] Em đi theo đường người khác thì...
+[00:28:01] Đi theo người khác thì phải tâm trí hơn
+[00:28:04] Mình bị thú động hay tự động?
+[00:28:10] hello hello đang đang đang ok ok ok
+[00:28:27] ngoài cái autonomous còn giờ còn có cái gì bên LOC cần phải biết không anh
+[00:28:33] đấy autonomous đấy là chỉ bên LOC thôi còn bản forensic và internet response đúng không
+[00:28:45] còn nhiều hay như nào anh
+[00:28:47] ý là có những mảng khác nữa mà
+[00:28:49] vâng thì em đang quan tâm đến khách intelligent hơn
+[00:28:54] khách intelligent mà có AI á
+[00:28:56] có chứ anh
+[00:28:57] có ừ không ý là anh đang muốn hỏi em em muốn có AI trong đấy hay là như nào
+[00:29:02] ừ đúng rồi anh
+[00:29:02] Mục tiêu của em là khi bảo vệ thì sẽ làm 2 cái
+[00:29:07] Một là thêm cái keyword để cho thằng tượng lửa nó quét mạnh hơn
+[00:29:11] Hai là sẽ ném một thằng AI vào giữa thằng tượng lửa với cả thằng AI chính
+[00:29:16] Một con mô đun nhỏ hơn để giảm thiểu cho ví dụ thằng Cloud ở hạng nó rất là khỏe
+[00:29:20] Nó sẽ sàng lọc thêm
+[00:29:21] Thì sẽ là kiểu bảo vệ băng
+[00:29:25] Thì sau đó thì nó phải dựa trên một bộ TI chứ anh
+[00:29:28] Cái con mô đun bé của em là nó phải dựa trên TI
+[00:29:32] Đồng ý, đồng ý. Ok đây, nhưng mà CoTi đâu cần phải AI.
+[00:29:36] Con TI đấy nó chỉ ghi một vài cái câu lệnh, ví dụ như là một câu tấn công mới nhất chẳng hạn.
+[00:29:46] Như vừa mới tấn công ngân hàng VIP chẳng hạn, thì khả năng sẽ tấn công ngân hàng MB.
+[00:29:51] Thì mới thu thập được một hai câu thôi.
+[00:29:53] Mà muốn đưa vào mô hình AI thì phải nhân dọng nó cực kỳ nhiều lên.
+[00:29:57] mình không thể ctrl c ctrl v được
+[00:30:00] bởi vì nó chỉ giảm học đúng một mẫu
+[00:30:01] cái thật không thể đổi mẫu liên tục
+[00:30:03] cái này cũng như là ngoài tầm của TI rồi, cái này vẫn là GAN thôi
+[00:30:06] không nhưng mà ý là đầu tiên là có TI, giờ phải làm đến nào mà GAN nó phải học được, thì hút đấy mới nhân
+[00:30:12] thế thì thử mấy cái project open source kiểu MISC ấy
+[00:30:16] để nó chỉ là môi trường của TI thôi
+[00:30:19] môi trường của TI
+[00:30:19] tức là nó là một cái pool để em lấy nguồn nước ngoài
+[00:30:24] MISC
+[00:30:28] nguồn tên rồi thì cái nó nó chỉ là một cái ôm xuống cho em kéo ra những nguồn cộng đồng về và
+[00:30:36] đấy sẽ nuôi được cái đấy để em phát triển ra nhân nhân dưới lên nhưng mà anh không không biết cái
+[00:30:44] gần gan tự thi ai như thế nào thì không anh nhanh anh cứ hiểu chỉ đơn giản anh biết là nó sẽ hết rồi
+[00:30:50] với ý là cái MSP hay là những cái nguồn TI khác, CTI thì nó chỉ có nguồn thầu hết là các IOC
+[00:30:59] Đa số là thế, IP, Domain hoặc là Pilot mấy cái đấy đều là IOC
+[00:31:06] thì IP và Domain anh không biết nó gen ra kiểu gì, còn Pilot thì may là có thể
+[00:31:13] Nói thật ra IP với cả thường bị đánh chặn
+[00:31:18] những cái này là cái specific nhất
+[00:31:21] không thường hai cái đấy là bỏ qua
+[00:31:22] cái đó là hash
+[00:31:24] hash với cả
+[00:31:25] hash với cả gì hash nhỉ
+[00:31:28] imhash
+[00:31:29] imhash là một phần
+[00:31:32] tức là để theo dõi nhiều họ một lúc ấy
+[00:31:34] thì người ta đem được imhash
+[00:31:35] một loại hash của những cái có liên quan đến cái hash này
+[00:31:38] ví dụ là binary này import
+[00:31:41] những thư kiện nào ấy
+[00:31:42] imhash nó sẽ chỉ dưới cái phần chung đấy thôi
+[00:31:45] nhưng mà nếu mà em tải
+[00:31:48] Nhằm tải mấy cái thư viện, một vài cái thư viện, và người chung thì nó sẽ đánh vào
+[00:31:54] Nó sẽ tính ra là cái in-house và có thể biết là họ này với họ này có liên quan đến nhau không, có chung một mẹ hay không, kiểu gì đấy
+[00:32:03] IOC có nhiều kiểu lắm, em phải lựa xem là IOC nào có thể dạy gan được, IOC nào có thể dùng tận dụng, rồi mới tính tiếp được
+[00:32:12] Đấy là nếu nó hướng dưới ai
+[00:32:13] Còn ở Core 6 thì nó sẽ phải unpack và tìm tác tích của mỗi cái Artifact ấy
+[00:32:28] Ví dụ là Manware gì đấy, cái đấy phức tạp hơn nữa
+[00:32:32] Cái đấy thì em không làm được
+[00:32:34] Cái đấy thì hơi sâu về phần Assignment
+[00:32:38] Ừ
+[00:32:39] Đấy thì Adem lại chưa được làm được thôi
+[00:32:44] Em chỉ làm cái bề kiểu nông nông
+[00:32:47] Tập trung vào mấy cái tầng thông web
+[00:32:50] Em chỉ tập trung vào mấy cái tính công web trước
+[00:32:54] XSS, SVL là 2 cái
+[00:32:56] Em hãy đi từ các nguồn CVE
+[00:33:01] CVE sẽ để lại exploit code để tạo ra GAN
+[00:33:05] Em cũng làm yêu thương đấy nhưng mà
+[00:33:09] Bên đấy nó kiểu đặc thù quá
+[00:33:13] Các CVE không thể liên hệ với nhau được
+[00:33:22] Nhưng mà các biến thể này nó không có tính liên kết với nhau anh, bởi vì là mỗi một câu là phải có ngữ pháp riêng ý anh, ví dụ như là học kiểu 10 ngữ pháp là em cũng chưa làm được, nó rất dễ bị trồng trèo ý anh.
+[00:33:39] Nó dễ bị vô nghĩa, nó chỉ đơn giản là ghép với nhau như Lego vậy anh
+[00:33:45] Kiểu anh có cái tàu Lego anh tháo ra
+[00:33:49] Thế nên là kể cả là nó có độc nhất thì ít nhất phải có các tính liên kết
+[00:33:55] Nó kiểu phải có ngũ pháp
+[00:33:57] Như SQL
+[00:33:59] Vâng, hiện tại SQL, XSS là 2 cái mà dễ nhất rồi
+[00:34:02] Còn tấn công như kiểu là đi đốt vào mấy cái kia là khó quá
+[00:34:06] Mấy cái kia là kiểu gây nhiễu
+[00:34:09] Thế là nó dùng đủ mọi cái
+[00:34:20] Thế thắng là làm cái khác
+[00:34:24] Thế thắng là làm liên quan tới
+[00:34:26] Phần mềm
+[00:34:27] Cái của thầy thắng
+[00:34:31] Cái thắng sẽ
+[00:34:33] Công kinh hơn
+[00:34:37] Thắng như là có nghiên cứu cả UAV mà
+[00:34:39] Thầy Thắng giờ chắc là không làm được gì nữa
+[00:34:41] Thầy phải gồng ghê quá
+[00:34:43] Bây giờ đang sát nhập 2 cơ sở vào
+[00:34:48] Lên lại văn phòng
+[00:34:49] Sao đến rồi?
+[00:34:51] Học báo cuối rồi
+[00:34:55] Học báo đến 5h
+[00:34:56] Học báo đến 5h
+[00:34:59] Ý là hết tên ảnh
+[00:35:09] Mặt giỏi của anh
+[00:39:17] Với người ít duy nhất đây
+[00:39:18] Cái gì là góng phát là cả 1 lớp
+[00:39:21] Không muốn nhắc về tình
+[00:39:24] Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn

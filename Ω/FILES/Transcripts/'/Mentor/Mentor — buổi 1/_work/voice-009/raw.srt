@@ -1,0 +1,1803 @@
+1
+00:00:00,410 --> 00:00:01,350
+Các thầy mình còn đợi ai không?
+
+2
+00:00:03,550 --> 00:00:06,270
+Xin phép trình bày báo cáo tổng hợp toàn bộ
+
+3
+00:00:06,270 --> 00:00:10,370
+Phần nghiên cứu của em về sử dụng mô hình sinh dữ liệu
+
+4
+00:00:11,550 --> 00:00:14,210
+Để sinh dữ liệu tấn công SQN Injection
+
+5
+00:00:14,210 --> 00:00:18,390
+Nhằm nâng cao phát hiện dựa trên hỏng máy
+
+6
+00:00:18,390 --> 00:00:20,940
+Thì là mục tiêu của em
+
+7
+00:00:20,940 --> 00:00:23,060
+Mục tiêu tổng quát là sinh
+
+8
+00:00:23,060 --> 00:00:25,540
+Lựa chọn các phương pháp sinh hoặc bổ sung
+
+9
+00:00:25,540 --> 00:00:27,780
+Dữ liệu SQN Injection có kiểm soát
+
+10
+00:00:27,780 --> 00:00:28,920
+Để hỗ trợ mô hình
+
+11
+00:00:28,920 --> 00:00:32,070
+để nâng cao chất lượng của mô hình học máy
+
+12
+00:00:32,070 --> 00:00:35,570
+thì sẽ có tổng cộng là có 5 bước
+
+13
+00:00:35,570 --> 00:00:39,550
+đầu tiên là em sẽ kiểm soát dữ liệu
+
+14
+00:00:39,550 --> 00:00:42,350
+thì là em sẽ cố gắng điều chỉnh dữ liệu
+
+15
+00:00:42,350 --> 00:00:44,450
+để nó phù hợp hơn với mô hình bài toán
+
+16
+00:00:44,450 --> 00:00:49,770
+tiếp theo là em sẽ đề xuất tổng cộng là 5 phương pháp
+
+17
+00:00:49,770 --> 00:00:52,650
+thì sẽ có 4 phương pháp là 4 mô hình
+
+18
+00:00:53,150 --> 00:00:57,130
+đầu tiên là mô hình SMOTE là mô hình nội sinh dữ liệu
+
+19
+00:00:57,130 --> 00:01:05,550
+dữ liệu mô hình gan cơ bản là mô hình sinh dữ liệu gan cơ bản mô hình CT gan và si quần gan thì
+
+20
+00:01:05,700 --> 00:01:13,050
+CT gan là cũng là phương pháp gan nhưng mà chuyên xử lý cho dữ liệu dạng bảng còn si quần gan là
+
+21
+00:01:13,050 --> 00:01:22,090
+chuyên xử lý cho mô hình dữ liệu rời rạc sau đó là em sau khi so sánh xong thì em cảm thấy là mô
+
+22
+00:01:22,090 --> 00:01:27,530
+hình si quần gan có thể học được các mối quan hệ và cấu trúc câu nên là em đề xuất các phương án
+
+23
+00:01:27,530 --> 00:01:36,560
+và em sẽ đánh giá tổng cộng cả 5 mô hình này trên cùng một đầu và dữ liệu chung
+
+24
+00:01:39,120 --> 00:01:47,700
+Tên đề tài của em là nghiên cứu mô hình GAN cho sinh dữ liệu tổng cộng XQN
+
+25
+00:01:47,700 --> 00:01:51,160
+nhằm nâng cao mô hình phát hiện dựa trên hộp máy
+
+26
+00:01:51,160 --> 00:01:52,320
+Đây là tên đề tài của em
+
+27
+00:01:52,320 --> 00:01:55,100
+Rồi bây giờ quay lại kia, thế này nó phải thể hiện được tên đề tài
+
+28
+00:01:56,430 --> 00:01:59,070
+Cho nên cái mục tiêu rủng quát là phải gắn với gan
+
+29
+00:02:00,480 --> 00:02:02,860
+Lúc trước trong tin nhắn của người của em
+
+30
+00:02:03,620 --> 00:02:05,920
+Thế là em phải đi với cái tên đề tài
+
+31
+00:02:06,320 --> 00:02:08,160
+Học dụng của em có giúp bây giờ thầy đề tài được rồi
+
+32
+00:02:08,600 --> 00:02:11,960
+Nhưng mà người khách biết, cái mục tiêu rủng quát em phải xem trong đề cương
+
+33
+00:02:13,420 --> 00:02:16,720
+Thứ mục tiêu trong đề cương mình biết là kiểu này, kiểu này nó lại bị lệch nhau
+
+34
+00:02:16,720 --> 00:02:17,240
+Em hiểu
+
+35
+00:02:19,320 --> 00:02:19,940
+Thầy Châu Ước
+
+36
+00:02:19,940 --> 00:02:21,520
+Cái của em Minh ấy
+
+37
+00:02:21,520 --> 00:02:22,940
+Tức là mục tiêu là dùng
+
+38
+00:02:23,700 --> 00:02:24,500
+nghiên cứu về gan
+
+39
+00:02:24,500 --> 00:02:27,840
+và gan sử dụng trong sinh dữ liệu
+
+40
+00:02:27,840 --> 00:02:29,760
+Để hỗ trợ nâng cao cái
+
+41
+00:02:29,760 --> 00:02:33,120
+sức lượng hộp máy luôn đúng không anh nhỉ
+
+42
+00:02:33,120 --> 00:02:33,480
+Đúng rồi
+
+43
+00:02:34,000 --> 00:02:34,800
+Thế thì thầy muốn là
+
+44
+00:02:34,800 --> 00:02:35,760
+Đấy là mục tiêu thủng quá
+
+45
+00:02:35,760 --> 00:02:37,120
+Thế còn đi vào phép chi tiết ấy
+
+46
+00:02:37,120 --> 00:02:37,800
+Thì mới đoàn là
+
+47
+00:02:37,800 --> 00:02:38,600
+Thứ nhất là
+
+48
+00:02:38,600 --> 00:02:39,880
+không phải kiểm soát dữ liệu
+
+49
+00:02:39,880 --> 00:02:41,800
+mà đây là tìm hiểu về dữ liệu
+
+50
+00:02:41,800 --> 00:02:43,830
+Đúng không
+
+51
+00:02:44,230 --> 00:02:45,930
+Đấy mình tìm hiểu về cái bài toán
+
+52
+00:02:46,690 --> 00:02:47,790
+Bài toán và dữ liệu
+
+53
+00:02:47,790 --> 00:02:49,750
+Cái đấy em hiểu nhé
+
+54
+00:02:50,210 --> 00:02:53,610
+Nhớ với liên quan bài toán và dữ liệu
+
+55
+00:02:54,770 --> 00:02:58,970
+Bài toán nó là cái gì, dữ liệu là cái gì, đặc trưng là gì vân vân
+
+56
+00:02:58,970 --> 00:03:02,590
+Dữ liệu nó chỉ là cái mục 1, không phải kiểm soát dữ liệu
+
+57
+00:03:02,590 --> 00:03:04,090
+Dữ liệu nó chỉ là một hình ảnh nhỏ thôi
+
+58
+00:03:05,540 --> 00:03:05,960
+Đúng chưa?
+
+59
+00:03:06,740 --> 00:03:09,140
+Sau đó là các phương pháp giải quyết nó
+
+60
+00:03:09,680 --> 00:03:13,000
+Theo thầy nói em là cái SMODE nó là baseline của các phương pháp cân bằng
+
+61
+00:03:15,380 --> 00:03:16,800
+Để dữ liệu làm cân bằng
+
+62
+00:03:18,000 --> 00:03:23,330
+Rồi đến nhóm các phương pháp khí văn gân
+
+63
+00:03:24,430 --> 00:03:25,330
+Nó mới tách ra
+
+64
+00:03:26,050 --> 00:03:31,370
+Nhóm gân đấy là nhóm trọng tâm của đoán
+
+65
+00:03:31,370 --> 00:03:36,570
+Và trong nhóm gân đấy thì có 2 nhóm
+
+66
+00:03:36,570 --> 00:03:40,460
+1 là nhóm sinh đặc trưng
+
+67
+00:03:40,460 --> 00:03:42,890
+Nhóm thứ 2 là sinh gân
+
+68
+00:03:45,440 --> 00:03:48,480
+Nhóm sinh đặc trưng chính là gân truyền thống
+
+69
+00:03:48,480 --> 00:03:50,020
+rồi WANIGAN, rồi CITIGAN
+
+70
+00:03:50,020 --> 00:03:53,280
+rồi bắt đầu đến SEQUENT ONE
+
+71
+00:03:53,280 --> 00:03:55,460
+là nhóm XINYA CHUỐI
+
+72
+00:03:55,460 --> 00:03:56,920
+XINYA CHUỐI THẬT luôn đấy
+
+73
+00:03:58,130 --> 00:03:59,420
+Được chưa?
+
+74
+00:04:00,680 --> 00:04:02,160
+Riêng cái phần đấy em đã chạy được
+
+75
+00:04:02,160 --> 00:04:04,740
+so sánh SEQUENT GAN, SO SÁNH CITIGAN
+
+76
+00:04:04,740 --> 00:04:06,680
+so sánh SEQUENT GAN, SO SÁNH CITIGAN
+
+77
+00:04:06,680 --> 00:04:08,200
+Đấy cũng đã làm phần lớn
+
+78
+00:04:08,200 --> 00:04:09,320
+mục đích của
+
+79
+00:04:09,320 --> 00:04:11,740
+của gì nhỉ?
+
+80
+00:04:11,900 --> 00:04:13,700
+của đồ án
+
+81
+00:04:13,700 --> 00:04:16,240
+cộng với cái phần kiểm tra toàn này nữa
+
+82
+00:04:16,880 --> 00:04:19,160
+để mình xem chất lượng nó như thế nào
+
+83
+00:04:23,140 --> 00:04:26,110
+Cái phần làm thêm xuất sắc chính là phần cải tiến này.
+
+84
+00:04:28,920 --> 00:04:33,620
+Đó chính là đoán nền cao của em.
+
+85
+00:04:35,360 --> 00:04:38,540
+Cái đấy phải nhớ về chỉnh sửa cho nó đúng theo đề phương nhé.
+
+86
+00:04:40,920 --> 00:04:42,580
+Đầu tiên là nguồn dữ liệu.
+
+87
+00:04:43,740 --> 00:04:48,680
+Đây là dữ liệu về SQL index được tải nhiều nhất trên Kaggle
+
+88
+00:04:48,680 --> 00:04:55,920
+và có rất nhiều bài báo có đề cập tới tài liệu này nên em sử dụng làm đại diện đặc trưng ạ
+
+89
+00:04:55,920 --> 00:04:59,460
+thì tổng dữ liệu thì sẽ có hơn 30.000 ạ
+
+90
+00:04:59,460 --> 00:05:03,820
+thì sau khi được tiền xử lý là loại bỏ các cái dữ liệu trùng lập
+
+91
+00:05:03,820 --> 00:05:08,490
+thì xuống còn cũng 30.800 ạ
+
+92
+00:05:08,490 --> 00:05:12,030
+trong đó thì các chuỗi bình thường thì 19.000 ạ
+
+93
+00:05:12,030 --> 00:05:14,130
+chuỗi đắn công là 11.000 ạ
+
+94
+00:05:20,640 --> 00:05:28,960
+Nhược điểm của các phương pháp truyền thống là người ta sẽ đưa thẳng toàn bộ dữ liệu của SQL vào mà không phân chia gì
+
+95
+00:05:28,960 --> 00:05:35,600
+Nên là khi mà sinh ra dữ liệu thì một câu lệnh có thể có nhiều đặc tính của nhiều dạng tầm công khác nhau
+
+96
+00:05:35,600 --> 00:05:40,700
+Thế nên là thường là dữ liệu sinh ra là dữ liệu nhiễu và không có giá trị về mặt thực tế
+
+97
+00:05:40,700 --> 00:05:52,730
+Thế nên là em sẽ tiến hành là sẽ chia nhỏ ra làm các thành phần riêng để có thể tập trung vào các đặc trưng của từng phương pháp
+
+98
+00:05:52,730 --> 00:05:55,750
+Thì trong này thì em sẽ chia ra làm 4 họ tấn công
+
+99
+00:05:55,750 --> 00:06:00,250
+Thì sẽ có là tấn công kiểu Poland, Union, Tham và Ireland
+
+100
+00:06:00,250 --> 00:06:03,170
+Thì trong này là có các cơ chế
+
+101
+00:06:03,170 --> 00:06:12,680
+Thì trong này có dấu hiệu thường gặp của Boland là trong cái câu toán toán tử đấy sẽ có các cái có
+
+102
+00:06:12,680 --> 00:06:19,880
+n o các phép so sánh dùng nháy common Union thì sẽ có các từ ngữ nhảy Union select danh sách cột
+
+103
+00:06:19,880 --> 00:06:28,060
+hoặc là null Time Bay thì sẽ có các hàm tạo độ chế thì ở trong này thì sẽ từng từng database thì nó
+
+104
+00:06:28,060 --> 00:06:33,500
+thì nó sẽ có những hàm tham bấy khác nhau ạ và Aaron thì là sẽ có hàm cố tình gây ra lỗi ạ
+
+105
+00:06:33,500 --> 00:06:35,480
+Cái chút này thầy có ghi cho em rồi nhưng em chưa sửa
+
+106
+00:06:35,480 --> 00:06:39,920
+Nghĩa là nó đã kể ra trong trình bày trong văn đề phần thông tin này luôn là có thêm phần thông tin
+
+107
+00:06:40,420 --> 00:06:40,940
+Ví dụ
+
+108
+00:06:41,640 --> 00:06:43,700
+Đấy em luôn cho luôn cái chuỗi ví dụ ở đây
+
+109
+00:06:44,800 --> 00:06:46,960
+Thì trình bày của thầy thì em thấy là rõ rất nhiều
+
+110
+00:06:47,640 --> 00:06:49,660
+Cả trong báo cáo cũng trong slides
+
+111
+00:06:51,080 --> 00:06:51,580
+Vâng ạ
+
+112
+00:06:51,580 --> 00:06:51,880
+Đúng chưa
+
+113
+00:06:52,560 --> 00:06:54,200
+Thì em gắn gọn thôi không cần dài
+
+114
+00:06:54,200 --> 00:06:54,680
+Vâng
+
+115
+00:06:54,680 --> 00:07:01,190
+Thì đây là quy trình tiền xử lý rượu của em ạ
+
+116
+00:07:01,460 --> 00:07:04,400
+Thì là đầu tiên là em sẽ có một bộ dữ liệu
+
+117
+00:07:04,400 --> 00:07:06,740
+Thì bộ dữ liệu này chỉ đơn giản là có hai cột
+
+118
+00:07:06,740 --> 00:07:08,480
+Một cột payload và một cột được đánh nhán
+
+119
+00:07:08,480 --> 00:07:11,620
+Tiếp theo là em sẽ chuẩn hóa
+
+120
+00:07:11,620 --> 00:07:16,100
+Thì là em sẽ cố gắng chuyển tất cả các chữ kiểu dấu nháy
+
+121
+00:07:16,100 --> 00:07:18,120
+Chữ hoa, chữ thường và khoảng trắng
+
+122
+00:07:18,120 --> 00:07:19,440
+Khoảng trắng dài
+
+123
+00:07:19,440 --> 00:07:22,780
+Thì sẽ chuyển hết về một khoảng trắng
+
+124
+00:07:22,780 --> 00:07:26,760
+Và chữ hoa, chữ thường thì chuyển hết về chữ thường
+
+125
+00:07:26,760 --> 00:07:29,680
+Nghĩa là đồng bộ hóa lại để hạn chế việc là
+
+126
+00:07:30,260 --> 00:07:35,040
+sinh giặc học quá nhiều token, học quá nhiều các đặc trưng
+
+127
+00:07:35,040 --> 00:07:40,040
+si quần gan là học quá nhiều đặc trưng nên là trước đây em làm
+
+128
+00:07:41,180 --> 00:07:46,000
+vấn đề mà em gặp phải là quá nhiều đặc tính nó hồi học
+
+129
+00:07:46,000 --> 00:07:48,580
+nên là em làm thế này để hạ thấp các đặc tính xuống
+
+130
+00:07:48,580 --> 00:07:49,880
+tiếp theo
+
+131
+00:07:49,880 --> 00:07:52,920
+thầy trước này nhé, xác ngược thầy chung thầy chủ tịch thôi
+
+132
+00:07:53,800 --> 00:07:57,790
+nhưng mà mình nói như thế này là theo thầy trên website
+
+133
+00:07:57,790 --> 00:07:59,550
+nên chỉ có mỗi 1 cái shadow này
+
+134
+00:08:00,420 --> 00:08:04,280
+Em gạch đầu dòng có thể có 1 số lý do tại sao tiền sử dụng như em nói
+
+135
+00:08:04,280 --> 00:08:08,880
+Đúng không? Đấy nó rất hợp chút nào thì mình cần tiền sử dụng
+
+136
+00:08:10,800 --> 00:08:14,000
+Đúng không? Chứ em nói bao giờ gần như mọi người chắc không vào tay được
+
+137
+00:08:15,540 --> 00:08:20,180
+Thế nên mình vừa nói thì phải có vừa 1 số gạch đầu dòng trên slide đó
+
+138
+00:08:20,740 --> 00:08:24,240
+Em đặt thầy vậy là em nên đưa ra ví dụ hay em cũng chỉ giải thích
+
+139
+00:08:24,240 --> 00:08:27,900
+Không, trước này là 1 ví dụ, trước này là gạch 1 số đầu dòng là lý do tại sao
+
+140
+00:08:27,900 --> 00:08:32,300
+để sử dụng vật làm cái gì. Sau đó em mô tả quy trình này.
+
+141
+00:08:34,540 --> 00:08:37,800
+Chứ kể cái pseudo nó quá bé nên nó tăng cái text lên.
+
+142
+00:08:42,340 --> 00:08:46,040
+Ở đây mình không thể nhìn được cái text nhỏ nhỏ.
+
+143
+00:08:51,790 --> 00:08:54,270
+Tiếp theo là tạo fingerprint.
+
+144
+00:08:54,670 --> 00:09:02,410
+Ở đây thay vì trong các câu lệnh sẽ có những số như 1, 2, 3 hoặc là 99.
+
+145
+00:09:03,590 --> 00:09:11,330
+thì nếu như để số riêng như thế thì là mô hình nó sẽ học ví dụ như có 99 con số cùng một chức năng
+
+146
+00:09:11,330 --> 00:09:16,230
+nghĩa là chỉ có giá trị số thì mô hình sẽ phải học tận 99 đặc tính
+
+147
+00:09:16,230 --> 00:09:22,310
+thay vì thế là em sẽ chuyển hóa tất cả những giá trị ký tự dạng số này thành một chuỗi là ví dụ như 5
+
+148
+00:09:22,310 --> 00:09:29,840
+để mã hóa lại hoặc là character để mã hóa lại để tập trung dữ liệu hơn
+
+149
+00:09:29,840 --> 00:09:33,420
+Nghĩa là những cái dữ liệu mà có chung chức năng thì em sẽ em hóa lại ở chung ạ.
+
+150
+00:09:33,440 --> 00:09:35,120
+Mình nhớ rất là hẻm thẻ em có 15 phần trình bày.
+
+151
+00:09:35,240 --> 00:09:36,360
+Hôm tới bảo hỏi 8 thế.
+
+152
+00:09:36,440 --> 00:09:39,620
+Nếu em cứ lăm man này thì em sẽ không đi vào chính được.
+
+153
+00:09:41,080 --> 00:09:42,800
+Đây là tập để không báo cáo luôn đấy.
+
+154
+00:09:43,560 --> 00:09:43,960
+Cảm ơn.
+
+155
+00:09:45,190 --> 00:09:46,470
+Giờ em cũng mới nhận ra.
+
+156
+00:09:46,890 --> 00:09:48,050
+Em hãy chú ý kỹ hơn.
+
+157
+00:09:48,270 --> 00:09:55,150
+Tiếp theo là cuối cùng là em sẽ phân loại ra 4 họp SQL dựa trên các đặc tính mà em có nói ở slide trước ạ.
+
+158
+00:09:55,820 --> 00:09:58,140
+Thông qua một thư viện gọi là SQL Power.
+
+159
+00:10:01,450 --> 00:10:07,400
+trong này sẽ có 2 nhánh sinh dữ liệu
+
+160
+00:10:07,400 --> 00:10:16,560
+thì là đầu tiên là trong này sẽ có nhánh sinh dạng dữ liệu cấu trúc
+
+161
+00:10:16,560 --> 00:10:17,880
+nghĩa là dạng kiểu token
+
+162
+00:10:17,880 --> 00:10:22,660
+còn những dạng mà chỉ cần dạng bình thường
+
+163
+00:10:22,660 --> 00:10:27,980
+nghĩa là dữ liệu dạng chỉ có 2 cột là cột payload và cột đánh nhãn
+
+164
+00:10:27,980 --> 00:10:31,740
+thì em sẽ sinh ra làm 2 nhánh để phục vụ cho 2 mục tiêu riêng
+
+165
+00:10:31,740 --> 00:10:36,940
+Đây là tổng quan về 5 phương pháp của em
+
+166
+00:10:36,940 --> 00:10:46,040
+Thì đầu tiên là em sẽ đến với thuật toán của SMOD
+
+167
+00:10:46,040 --> 00:10:49,460
+Thì là em dựa trên bài báo vào năm 2002
+
+168
+00:10:51,020 --> 00:10:54,040
+Về bài báo liên quan đến nội sinh gốc
+
+169
+00:10:54,040 --> 00:10:56,460
+Bài báo gốc về thuật toán
+
+170
+00:10:56,460 --> 00:10:58,760
+Thì đây là cấu trúc
+
+171
+00:10:58,760 --> 00:11:04,530
+Thì cấu trúc của nó là nó sẽ cố gắng nội sinh
+
+172
+00:11:05,050 --> 00:11:07,190
+Để tìm ra được giá trị gần nhất
+
+173
+00:11:09,260 --> 00:11:10,520
+Tìm ra được giá trị gần nhất
+
+174
+00:11:11,260 --> 00:11:14,620
+phù hợp và từ đó là nó sẽ sinh ra dữ liệu
+
+175
+00:11:17,250 --> 00:11:20,070
+sinh ra dữ liệu mà có cái độ tương đồng gần nhất
+
+176
+00:11:20,070 --> 00:11:25,690
+thì trong này sẽ có các công thức
+
+177
+00:11:28,180 --> 00:11:29,400
+anh muốn hỏi là
+
+178
+00:11:29,400 --> 00:11:33,840
+em về nhà tập, có 15 chừng 7
+
+179
+00:11:33,840 --> 00:11:37,720
+tập cho nó chuẩn những cái gì mà nó không phải trọng tâm của mày
+
+180
+00:11:37,720 --> 00:11:38,720
+để có định sự đi xa
+
+181
+00:11:40,220 --> 00:11:46,420
+tiếp theo là GAN thì là dựa trên bài báo 2014 của Godfrey
+
+182
+00:11:46,420 --> 00:11:49,960
+Thì bài báo này cũng là nền tảng của mô hình GAN
+
+183
+00:11:49,960 --> 00:11:53,480
+Thì đây cũng là lưu đồ thật toán
+
+184
+00:11:54,310 --> 00:11:56,710
+Thì nó khá là cơ bản
+
+185
+00:11:56,710 --> 00:12:02,170
+Sẽ tạo ra một generator và tạo ra một discriminator và cố gắng đối kháng
+
+186
+00:12:02,170 --> 00:12:09,920
+Để có thể tự tiện 2 mỗi 2 thành phần đấy tự tiện hóa để có thể sinh ra dữ liệu tốt hơn
+
+187
+00:12:09,920 --> 00:12:15,150
+Còn mô hình CTGAN
+
+188
+00:12:15,150 --> 00:12:23,920
+Mô hình CT GAN là giải quyết bài toán của mô hình GAN là sẽ thay thế hàm mất mát
+
+189
+00:12:23,920 --> 00:12:27,850
+Bởi vì là mô hình GAN là sẽ rất cần
+
+190
+00:12:27,850 --> 00:12:35,150
+CT GAN là Contribusal Tabular GAN
+
+191
+00:12:35,150 --> 00:12:41,700
+Em nhậm Conditional Tabular GAN
+
+192
+00:12:43,300 --> 00:12:49,940
+Trong mô hình này thì mô hình sẽ không hiểu được ý nghĩa của một chuỗi
+
+193
+00:12:50,620 --> 00:12:56,500
+Vì vậy là sẽ yêu cầu là cần phải phân tích một chuỗi để ra làm rất nhiều các đặc tính nhỏ hơn
+
+194
+00:12:56,500 --> 00:13:00,540
+Và từ đó là sẽ học các đặc tính đấy
+
+195
+00:13:00,540 --> 00:13:01,520
+Quay lại slide trước
+
+196
+00:13:13,130 --> 00:13:20,850
+Bây giờ em thay thêm một cái hình vẽ khung Facebook của Dan nó dễ hiểu hơn cái này
+
+197
+00:13:22,530 --> 00:13:26,340
+Đâu là cuối giờ, đâu là cuối đêm, giữ mình vẽ ra
+
+198
+00:13:32,140 --> 00:13:35,240
+Em đưa thầy phần giải thích của em có cần phải cải thiện
+
+199
+00:13:35,240 --> 00:13:38,480
+Hay là hỏi em phải phóng thói thì người ta hãy tự tươi dây nhìn với sơ đồ em
+
+200
+00:13:38,480 --> 00:13:40,260
+thì đọc hỏi nó là cái gì đấy.
+
+201
+00:13:41,020 --> 00:13:45,120
+Còn người ta đã quen với vật ngang nữa rồi thì mình nên theo chủ ngang.
+
+202
+00:13:46,160 --> 00:13:47,040
+Chạy từ trái sang phải.
+
+203
+00:13:49,290 --> 00:13:53,230
+Bây giờ em tự sợ trên mạng mình một cái sơ đồ gàn bao giờ đã vẽ là chạy trái sang phải
+
+204
+00:13:53,230 --> 00:13:54,230
+thì chạy xuống dưới chiếc của em.
+
+205
+00:13:57,660 --> 00:14:02,780
+Gàn mô đồ. Đúng chưa?
+
+206
+00:14:03,480 --> 00:14:06,520
+Ít nhất là một vài cái em thấy nó chạy từ trái sang phải.
+
+207
+00:14:06,760 --> 00:14:08,600
+Đúng không?
+
+208
+00:14:10,480 --> 00:14:15,150
+Mình đừng có phát minh ra một cái mới gì cho nó khó hình dung.
+
+209
+00:14:15,780 --> 00:14:17,480
+Chọn cái tiêu biểu nhất để thầy hay dùng.
+
+210
+00:14:17,480 --> 00:14:30,300
+Được chưa anh? Rồi, tiếp theo là Sequel Gantt
+
+211
+00:14:30,300 --> 00:14:38,640
+Sequel Gantt, anh sẽ chú ý để vẽ kỹ hơn
+
+212
+00:14:41,140 --> 00:14:46,600
+Một người chú ý giúp mình nghĩ là các em nếu dùng AI sinh slide thì phải chú ý
+
+213
+00:14:46,600 --> 00:14:51,840
+Nó còn sinh bé xíu, tức là mình phải cố gắng nhìn và điều chỉnh
+
+214
+00:14:53,000 --> 00:14:59,560
+Ở nhà anh để máy tính lên lớp cách cao khoảng 10-15m xem mình có thể nhìn được không
+
+215
+00:15:08,810 --> 00:15:13,060
+Thì đây là các vấn đề em quan sát ở gan cơ sở
+
+216
+00:15:18,230 --> 00:15:28,790
+Thì đây là em nêu ra các vấn đề mà em nhận thấy mô hình si quần gan gặp phải
+
+217
+00:15:28,790 --> 00:15:33,080
+Thì đầu tiên là cần phải tokenize theo ký tự
+
+218
+00:15:33,080 --> 00:15:38,400
+bởi vì là các ký tự mà có chung cái mục đích và có chung chức năng
+
+219
+00:15:38,400 --> 00:15:41,880
+thì nếu như mà không tokenize hóa lại
+
+220
+00:15:41,880 --> 00:15:43,880
+thì nó sẽ sinh ra rất nhiều các cái đặc tính
+
+221
+00:15:43,880 --> 00:15:45,840
+mặc dù là nó không giải quyết vấn đề gì ạ
+
+222
+00:15:45,840 --> 00:15:50,240
+tiếp theo là trong bài toán mà tác giả Yu đưa ra
+
+223
+00:15:50,240 --> 00:15:52,560
+thì độ dài tối đa là 20 ạ
+
+224
+00:15:52,560 --> 00:15:55,560
+thì là đối với những payload mà nó quá dài
+
+225
+00:15:55,560 --> 00:15:58,600
+thì nó sẽ bị cắt đi rất nhiều thành phần khá quan trọng ạ
+
+226
+00:15:58,600 --> 00:16:02,100
+tiếp theo là reward thì chỉ đến từ discriminator
+
+227
+00:16:03,090 --> 00:16:08,840
+Thì nghĩa là trong này Discriminator chỉ có khả năng nhận biết xem là
+
+228
+00:16:08,840 --> 00:16:15,190
+Theo thầy như thế này, tức là em sẽ trình bày như thế này
+
+229
+00:16:15,190 --> 00:16:16,530
+Tức là em sẽ trình bày sức khỏe gan sau
+
+230
+00:16:16,530 --> 00:16:18,650
+Và em sẽ trình bày luôn phần thử nghiệm
+
+231
+00:16:20,230 --> 00:16:22,560
+Thử nghiệm giữa các hộ gan với nhau
+
+232
+00:16:23,000 --> 00:16:24,280
+Và với SMOTE
+
+233
+00:16:25,760 --> 00:16:31,160
+Sau đó em sẽ đi sang phần nhận xét về vấn đề của nó và các cải tiến
+
+234
+00:16:32,650 --> 00:16:33,710
+Anh chú ý cho đấy
+
+235
+00:16:33,710 --> 00:16:39,000
+Rồi, em xin hãy trình bày tiếp nốt slide này ạ
+
+236
+00:16:39,000 --> 00:16:44,160
+Thì Reward của Digital Editor chỉ có khả năng nhận biết xem là dữ liệu có phải dữ liệu tạo sinh hay không
+
+237
+00:16:44,160 --> 00:16:48,360
+Chứ không có khả năng nhận biết là có phải mẫu SQL thực tế hay không
+
+238
+00:16:48,360 --> 00:16:55,010
+Và bất cân bằng nghiêm trọng thì ở đây là khi mà dữ liệu càng ngày càng ít đi ạ
+
+239
+00:16:55,010 --> 00:17:01,580
+Thì dữ liệu nó sẽ chỉ cố gắng sinh ra những dữ liệu mà nó có khả năng đạt điểm cao nhất ạ
+
+240
+00:17:01,580 --> 00:17:05,980
+Thế nên là nó sẽ lập điệp lại một cấu trúc chung ạ
+
+241
+00:17:05,980 --> 00:17:10,110
+Và tường lửa thực tế thì nó sẽ bị nhận nhầm
+
+242
+00:17:10,110 --> 00:17:12,970
+Nghĩa là nó sẽ bị nhận nhầm nhoi thành tấn công ạ
+
+243
+00:17:12,970 --> 00:17:16,750
+Đây là 5 vấn đề mà em đã gặp phải trong lúc triển khai thử nghiệm ạ
+
+244
+00:17:17,250 --> 00:17:23,850
+Thì đấy em sẽ đề xuất là 4 phương án cải tiến để xử lý cho các vấn đề trên ạ
+
+245
+00:17:24,380 --> 00:17:29,400
+Thì đầu tiên là như em nói là có tokenize SQL ạ
+
+246
+00:17:29,400 --> 00:17:34,940
+những cái ký tự mà có chung cái ý nghĩa thì sẽ được tokenize hóa lại ạ
+
+247
+00:17:34,940 --> 00:17:38,100
+tiếp theo là em sẽ tăng pre-chain lên ạ
+
+248
+00:17:38,100 --> 00:17:42,290
+bởi vì là discriminator là khá là mạnh
+
+249
+00:17:42,290 --> 00:17:46,730
+nên là em sẽ cố gắng tăng cái generator pre-chain lên
+
+250
+00:17:46,730 --> 00:17:49,090
+một con số cao hơn là 120
+
+251
+00:17:50,430 --> 00:17:54,610
+em sẽ so sánh giữa 120 là của tác giả và 160 là của em ạ
+
+252
+00:17:58,910 --> 00:18:09,450
+của tác giả là chỉ có 120 nên là khi em làm là vẫn bị cô lao tiếp theo là em sẽ tăng độ dài thì
+
+253
+00:18:09,450 --> 00:18:19,890
+là tăng từ 20 lên 160 độ dài của trách tờ thì là độ dài độ dài Vâng vâng độ dài của chuỗi đầu vào
+
+254
+00:18:25,320 --> 00:18:37,020
+Thì ở 20 thì mô hình sẽ chỉ học từng câu nhưng nếu mà tăng lên 1.600 là mô hình sẽ học đến có thể là từng ký tự trong câu
+
+255
+00:18:37,020 --> 00:18:49,440
+Và cuối cùng là reward cấu trúc thì thay vì để 100% là discriminator thì em sẽ lấy thêm 0.3 đánh giá đến từ SQL PAR
+
+256
+00:18:49,440 --> 00:18:53,340
+để có thể cố gắng học được cả cấu trúc của SQL nữa
+
+257
+00:18:53,340 --> 00:18:59,660
+Thì đấy là 4 phần cập nhật mà em áp dụng vào
+
+258
+00:19:03,840 --> 00:19:10,570
+Đây là mô hình của em được chia làm 5 giai đoạn
+
+259
+00:19:11,640 --> 00:19:15,440
+Thì đầu tiên giai đoạn đầu vào là sẽ chạy 4 mô hình cơ bản
+
+260
+00:19:20,320 --> 00:19:27,220
+không em không không được em cái này em cắt từ bên luận án bài Word của em xa em
+
+261
+00:19:35,600 --> 00:19:44,640
+thì đầu tiên là khảo sát ban đầu ạ để xem là vấn đề thực tế gặp phải của các mô hình sinh
+
+262
+00:19:44,640 --> 00:19:46,740
+tính dữ liệu khi giải quyết bài toán SQL injection
+
+263
+00:19:46,740 --> 00:19:52,000
+Sau đó là em sẽ chọn các tỷ lệ và chọn dạng dữ liệu
+
+264
+00:19:53,160 --> 00:19:58,580
+Đầu nghĩa là em sẽ phân tích xem là liệu biến đổi ở phần dữ liệu nó có tác dụng không
+
+265
+00:19:58,580 --> 00:19:59,960
+và biến đổi ở các
+
+266
+00:20:00,000 --> 00:20:04,050
+cái tỷ lệ thông số chạy thì nó có tác dụng không ạ tiếp theo
+
+267
+00:20:04,050 --> 00:20:12,980
+là khi đó là em sẽ đề xuất các 8 phương án để có thể thay thế nâng cấp của mô hình sinh quần gan ạ
+
+268
+00:20:12,980 --> 00:20:22,500
+thì như ở trong sai trước ạ em có đề xuất là 4 cái hướng xử lý ạ thì em sẽ cho chạy thì là kết hợp
+
+269
+00:20:23,420 --> 00:20:25,280
+kết hợp 4 cái phương án đấy
+
+270
+00:20:25,280 --> 00:20:28,420
+thì nó sẽ để ra là 8 kịch bản
+
+271
+00:20:28,420 --> 00:20:31,520
+thì có kịch bản sẽ là không phương án
+
+272
+00:20:31,520 --> 00:20:34,320
+nâng cấp nào và sẽ có kịch bản là chỉ 2 phương án nâng cấp
+
+273
+00:20:34,320 --> 00:20:37,340
+thì tổng cộng là 8 phương án nâng cấp để xem là đâu là
+
+274
+00:20:37,820 --> 00:20:39,560
+mô hình có độ ổn định cao nhất
+
+275
+00:20:39,560 --> 00:20:42,770
+cuối cùng là em sẽ chạy đánh giá đầy đủ
+
+276
+00:20:42,770 --> 00:20:45,510
+khi này là em sẽ chạy với cấu hình tối đa
+
+277
+00:20:45,510 --> 00:20:48,090
+như khi này là sẽ chạy full Epoch
+
+278
+00:20:48,330 --> 00:20:51,230
+để đảm bảo là tất cả mô hình đều có chung
+
+279
+00:20:52,130 --> 00:20:52,750
+chất lượng
+
+280
+00:20:52,750 --> 00:20:55,970
+và cuối cùng là em sẽ đưa vào trong mô hình tường lửa
+
+281
+00:20:55,970 --> 00:20:57,090
+để đánh giá kết quả thực tế
+
+282
+00:20:57,090 --> 00:21:01,590
+thì kết quả của giai đoạn 1
+
+283
+00:21:01,590 --> 00:21:03,260
+thì là ở đây
+
+284
+00:21:03,260 --> 00:21:04,960
+thì là mô hình smooth
+
+285
+00:21:04,960 --> 00:21:07,080
+và 3 mô hình đầu tiên
+
+286
+00:21:07,080 --> 00:21:09,400
+thì là họ có kết quả rất là tốt
+
+287
+00:21:09,400 --> 00:21:10,500
+nhưng mà lại là
+
+288
+00:21:10,500 --> 00:21:12,280
+có bị trùng lặp
+
+289
+00:21:13,450 --> 00:21:15,470
+khá là cao, trong đó thì mô hình
+
+290
+00:21:15,470 --> 00:21:17,510
+sequence găng cơ sở thì tuy là
+
+291
+00:21:19,540 --> 00:21:20,820
+thông số lại xấu hơn
+
+292
+00:21:20,820 --> 00:21:22,220
+nhưng mà độ trùng lặp thì nó
+
+293
+00:21:22,220 --> 00:21:23,880
+chỉ rơi khoảng 19,4%
+
+294
+00:21:26,820 --> 00:21:36,120
+Dạ, nghĩa là bị trùng cấu trúc ạ, cấu trúc của một câu SQL nó bị trùng khớp luôn ạ, nó chỉ đơn giản là thay thế các cái thông số thôi ạ.
+
+295
+00:21:38,360 --> 00:21:40,660
+Vâng ạ, bản chất chỉ có một cấu trúc riêng ạ.
+
+296
+00:21:42,580 --> 00:21:53,600
+Vâng, thì khi đấy là em nhận ra là tuy là SQLGAN là có điểm cấu trúc nó thấp hơn và độ độc nhất cũng sẽ thấp nhưng mà nó không bị trùng dữ liệu đầu vào.
+
+297
+00:21:53,600 --> 00:21:57,460
+Thế nên là em sẽ cố gắng để nâng cấp mô hình SQL Ga lên
+
+298
+00:22:00,680 --> 00:22:09,310
+Ở giai đoạn 2 thì em sẽ chia ra làm 4 dạng family
+
+299
+00:22:09,310 --> 00:22:15,290
+Và có 8 kịch bản như em có đề xuất ở trên
+
+300
+00:22:16,080 --> 00:22:28,500
+Phần này em bị thiếu, em không quên mất công việc
+
+301
+00:22:28,500 --> 00:22:36,160
+thì đây là từ A đến F thì nó sẽ là các kịch bản để em sử dụng để thay thế đấy
+
+302
+00:22:36,160 --> 00:22:37,860
+kịch bản không thay đổi gì hả kịch bản?
+
+303
+00:22:38,670 --> 00:22:38,950
+dạ
+
+304
+00:22:39,990 --> 00:22:41,190
+không thay đổi là A
+
+305
+00:22:42,520 --> 00:22:46,200
+phần này em bị thiếu, em xin phép em mở vào Facebook của em đi
+
+306
+00:22:48,480 --> 00:23:45,280
+phần này em không để ý, em đã không đưa vào
+
+307
+00:23:45,280 --> 00:23:55,160
+thì đây ạ, tổng cộng là 6 kịch bản ạ
+
+308
+00:23:55,160 --> 00:23:59,900
+Nghĩa là khi mà chọn dữ liệu mất cân bằng
+
+309
+00:23:59,900 --> 00:24:00,620
+Nghĩa là em sẽ
+
+310
+00:24:01,540 --> 00:24:03,540
+Nghĩa là ví dụ như em sẽ có 3.000 dữ liệu
+
+311
+00:24:03,540 --> 00:24:05,520
+Em sẽ chỉ lấy 1.000 dữ liệu
+
+312
+00:24:05,520 --> 00:24:08,640
+Để có thể mô tả được về việc mất cân bằng dữ liệu
+
+313
+00:24:08,640 --> 00:24:11,480
+Thì trong đó em sẽ có tổng cộng là 6 phương án chọn
+
+314
+00:24:11,480 --> 00:24:14,620
+Thì đầu tiên là em sẽ chọn theo thứ tự
+
+315
+00:24:15,380 --> 00:24:16,180
+Độ dài
+
+316
+00:24:16,180 --> 00:24:16,900
+Vâng ạ
+
+317
+00:24:20,680 --> 00:24:22,320
+Thì sẽ có tổng cộng là
+
+318
+00:24:24,370 --> 00:24:27,030
+Thì A và B sẽ chọn theo độ dài
+
+319
+00:24:27,030 --> 00:24:29,670
+thì A sẽ là chọn ưu tiên dài nhất
+
+320
+00:24:29,670 --> 00:24:31,800
+và B là ưu tiên ngắn nhất
+
+321
+00:24:31,800 --> 00:24:34,180
+C là ưu tiên các cái chuỗi
+
+322
+00:24:34,180 --> 00:24:35,200
+mà nằm ở trong
+
+323
+00:24:35,900 --> 00:24:36,740
+phần phân vị
+
+324
+00:24:36,740 --> 00:24:40,440
+nghĩa là những cái chuỗi mà có độ khổ biến cao
+
+325
+00:24:40,440 --> 00:24:42,520
+tiếp theo là D là em sẽ
+
+326
+00:24:42,520 --> 00:24:43,940
+chọn ở trong khoảng phân vị
+
+327
+00:24:43,940 --> 00:24:45,520
+nghĩa là em sẽ bỏ đi
+
+328
+00:24:46,300 --> 00:24:47,620
+25% đầu và
+
+329
+00:24:48,440 --> 00:24:50,520
+75% sau sẽ chỉ tập trung vào
+
+330
+00:24:50,520 --> 00:24:52,600
+những cái phần dữ liệu mà có mật độ
+
+331
+00:24:52,600 --> 00:24:54,810
+cao nhất. Tiếp theo là em sẽ lấy
+
+332
+00:24:54,810 --> 00:24:56,910
+ngẫu nhiên và con số ngẫu nhiên của em
+
+333
+00:24:56,910 --> 00:24:57,650
+ở đây em lấy là 88
+
+334
+00:24:57,650 --> 00:25:01,830
+Và cái cuối cũng là em sẽ lấy theo độ đa dạng
+
+335
+00:25:01,830 --> 00:25:02,630
+Nghĩa là
+
+336
+00:25:02,630 --> 00:25:04,930
+Em sẽ tập trung vào
+
+337
+00:25:06,130 --> 00:25:08,020
+Em sẽ tập trung để lấy
+
+338
+00:25:08,020 --> 00:25:10,740
+Có thể lấy nhiều nhất các cái đặc tính nhất có thể
+
+339
+00:25:10,740 --> 00:25:13,060
+Thì đây là tổng cộng là 6 hướng
+
+340
+00:25:13,060 --> 00:25:14,540
+Mà em đề xuất
+
+341
+00:25:14,540 --> 00:25:17,420
+Em sẽ chú ý hơn
+
+342
+00:25:17,420 --> 00:25:18,400
+Bổ sung
+
+343
+00:25:21,530 --> 00:25:22,310
+Thì đây ạ
+
+344
+00:25:22,310 --> 00:25:24,360
+Thì kết quả của giai đoạn
+
+345
+00:25:29,600 --> 00:25:33,160
+Thì đây là kết quả của giai đoạn 2A
+
+346
+00:25:33,160 --> 00:25:35,020
+Thì là kịch bản
+
+347
+00:25:35,020 --> 00:25:36,800
+Kịch bản E và D
+
+348
+00:25:36,800 --> 00:25:40,620
+ED và B là 3 kịch bản
+
+349
+00:25:40,620 --> 00:25:41,620
+mà có được
+
+350
+00:25:42,460 --> 00:25:44,480
+thứ hạng 1 hoặc 2
+
+351
+00:25:44,480 --> 00:25:45,140
+cao nhất ạ
+
+352
+00:25:45,140 --> 00:25:47,760
+nên em sẽ chọn lấy các 3 kịch bản này ạ
+
+353
+00:25:47,760 --> 00:25:49,190
+đây là bảng xếp hạng ạ
+
+354
+00:25:49,190 --> 00:25:55,270
+tiếp theo là đến giai đoạn 2B
+
+355
+00:25:55,270 --> 00:25:57,380
+thì em sẽ
+
+356
+00:25:57,380 --> 00:26:01,100
+ở đây em sẽ có tổng cộng là 8 kịch bản
+
+357
+00:26:01,100 --> 00:26:12,030
+thì ở đây ạ
+
+358
+00:26:12,030 --> 00:26:14,190
+thì đầu tiên là mã V1
+
+359
+00:26:14,190 --> 00:26:15,690
+thì sẽ là của
+
+360
+00:26:15,690 --> 00:26:18,070
+tác giả luôn ạ, không thay thế ạ
+
+361
+00:26:18,070 --> 00:26:20,270
+thì V2 thì em sẽ tăng
+
+362
+00:26:20,270 --> 00:26:21,950
+độ dài chuỗi đơn vị tối đa lên
+
+363
+00:26:21,950 --> 00:26:24,270
+và phần còn lại thì vẫn giữ nguyên
+
+364
+00:26:24,270 --> 00:26:26,760
+và tương tự với các cái
+
+365
+00:26:26,760 --> 00:26:28,780
+đặc tính đấy nó là 4 cái hướng
+
+366
+00:26:28,780 --> 00:26:29,700
+mà em đề xuất
+
+367
+00:26:39,240 --> 00:26:40,200
+em đang
+
+368
+00:26:46,680 --> 00:26:57,140
+em chuyển từ
+
+369
+00:26:57,140 --> 00:26:57,600
+Word sang
+
+370
+00:26:57,600 --> 00:26:59,540
+đây là
+
+371
+00:27:16,690 --> 00:27:18,350
+một kịch bản mà có
+
+372
+00:27:18,350 --> 00:27:20,010
+các cái giá trị cao nhất
+
+373
+00:27:20,010 --> 00:27:21,370
+ví dụ như của Boland
+
+374
+00:27:21,370 --> 00:27:24,620
+thì là sẽ có kịch bản D
+
+375
+00:27:24,620 --> 00:27:27,360
+ở cái phần hàn 2A
+
+376
+00:27:27,360 --> 00:27:33,780
+Và kịch bản V8 là những kịch bản mà có top những cái giá thông số tốt nhất
+
+377
+00:27:36,160 --> 00:27:42,360
+Thông số tốt nhất là vẫn là như thế, đầu tiên là dữ liệu sẽ phải độc nhất
+
+378
+00:27:42,360 --> 00:27:47,320
+Tiếp theo là phải có cấu trúc không bị trùng lập với các cấu trúc ban đầu
+
+379
+00:27:47,320 --> 00:27:51,580
+Có độ độc nhất riêng và phần quan trọng nhất là phải có cấu trúc SQL
+
+380
+00:27:51,580 --> 00:28:01,000
+Theo thầy nghĩ là con số cụ thể giống như ở giai đoạn 1, 100% trùng bắp, 19% trùng bắp.
+
+381
+00:28:02,720 --> 00:28:10,300
+Thầy thì khi mà em làm như thế thì nó sẽ có rất nhiều bảng bởi vì là như ở trong này là của em đã có tận 80 kịch bản.
+
+382
+00:28:11,110 --> 00:28:18,110
+Thì là em không biết là có nên đưa hẳn toàn bộ thông số vào hay là em nên chỉ tập trung vào những cái mà em lựa chọn nữa.
+
+383
+00:28:18,610 --> 00:28:19,710
+Nó vẫn khá là nhiều.
+
+384
+00:28:19,710 --> 00:28:23,850
+Trước mắt em chỉ phải đầy đủ hết đã, sau đó người ta quyết định chọn cái nào.
+
+385
+00:28:24,070 --> 00:28:27,210
+Vâng, em sẽ điều chỉnh lại.
+
+386
+00:28:29,590 --> 00:28:32,990
+Trên này có tổng cộng 11 kịch bản.
+
+387
+00:28:33,310 --> 00:28:45,030
+Do kịch bản V8 thắng ở mọi kịch bản nên nó bị mất đi 1 kịch bản.
+
+388
+00:28:45,170 --> 00:28:46,410
+Bởi vì nó bị trùng nhau.
+
+389
+00:28:46,410 --> 00:28:53,130
+Nhưng mà tổng cộng là ở đây em có 11 kịch bản là em sẽ đề xuất để nâng cấp đưa vào trong mô hình si quần gan để chạy thử
+
+390
+00:28:53,130 --> 00:29:03,630
+Thì đây là kết quả của giai đoạn 3
+
+391
+00:29:03,630 --> 00:29:10,380
+Thì khi ở đây em sẽ chỉ tập trung chạy mô hình si quần gan với các nâng cấp của em
+
+392
+00:29:10,380 --> 00:29:15,530
+Thì ở đây là cấu trúc V8 thì sẽ có thông số tốt nhất
+
+393
+00:29:15,530 --> 00:29:17,530
+Thì độ độc nhất rất là cao
+
+394
+00:29:17,530 --> 00:29:22,300
+Và học được cấu trúc là tỷ lệ đến gần 85%
+
+395
+00:29:22,800 --> 00:29:25,580
+Tiếp theo sau là 3 mô hình còn lại
+
+396
+00:29:25,580 --> 00:29:31,840
+Thì đến cuối cùng là giai đoạn cuối là em sẽ chạy
+
+397
+00:29:31,840 --> 00:29:33,960
+Em sẽ chạy toàn bộ
+
+398
+00:29:33,960 --> 00:29:37,740
+Thì đây là thông số
+
+399
+00:29:38,240 --> 00:29:40,880
+Thì ở đây là em sẽ chỉ tập trung vào 3 tỷ lệ
+
+400
+00:29:40,880 --> 00:29:44,080
+Là 1 trên 100, 1 trên 200 và 1 trên 500
+
+401
+00:29:44,080 --> 00:29:54,750
+Đây em đang bị đưa thiếu khá nhiều thông tin
+
+402
+00:29:54,750 --> 00:29:59,130
+Thì em này xin phép là để buổi sau em sẽ bổ sung kỹ hơn
+
+403
+00:29:59,130 --> 00:29:59,910
+Vì
+
+404
+00:30:00,000 --> 00:30:01,840
+nói ra hơi bị dài
+
+405
+00:30:02,950 --> 00:30:04,340
+tiếp theo là
+
+406
+00:30:04,340 --> 00:30:06,160
+em sẽ đưa toàn bộ tất cả dữ liệu
+
+407
+00:30:06,160 --> 00:30:08,260
+được sinh ra từ các kịch bản
+
+408
+00:30:08,260 --> 00:30:09,960
+trên và đưa qua
+
+409
+00:30:09,960 --> 00:30:10,840
+từng lửa
+
+410
+00:30:10,840 --> 00:30:16,210
+thì là ở mô hình si quần gan cải tiến
+
+411
+00:30:16,210 --> 00:30:17,710
+của em ạ, thì tỷ lệ
+
+412
+00:30:17,710 --> 00:30:20,030
+bị chặn là nó sẽ
+
+413
+00:30:21,980 --> 00:30:22,920
+bị chặn
+
+414
+00:30:25,290 --> 00:30:26,470
+xe này cũng bị đưa
+
+415
+00:30:27,420 --> 00:30:28,780
+xe này cũng bị đưa thiếu
+
+416
+00:30:28,780 --> 00:30:29,860
+nhưng mà ý em là
+
+417
+00:30:29,860 --> 00:30:31,640
+trong mô hình si quần gan thì là
+
+418
+00:30:31,640 --> 00:30:38,100
+là tỷ lệ mà vừa bị không bị chặn và vẫn có cấu trúc ạ thì nó nhân đôi với nhau ạ thì nó sẽ có
+
+419
+00:30:38,100 --> 00:30:45,330
+thông số là cao nhất ạ còn các mô hình còn lại thì là hầu hết là do bị nó được vượt qua từng lửa là
+
+420
+00:30:45,330 --> 00:30:49,700
+do là nó sinh ra dữ liệu nhiếu ạ đấy thì cái chỗ đấy em để mấy người phân tích nhiều ở đây thì
+
+421
+00:30:50,360 --> 00:31:06,660
+Vâng, em bị đưa thiếu, em sẽ chú ý hơn.
+
+422
+00:31:06,780 --> 00:31:13,300
+Em nhớ cái này giống như của anh Nam, mình đưa lên cái gì nó phải hỗ trợ ra cái quan điểm của mình.
+
+423
+00:31:16,700 --> 00:31:18,780
+Phần trình bày của em đến đây kết thúc ạ.
+
+424
+00:31:19,540 --> 00:31:22,560
+Em vẫn muốn em có một ví dụ về kết quả thực tế của em.
+
+425
+00:31:22,560 --> 00:31:24,180
+Ví dụ về kết quả thực tế của em.
+
+426
+00:31:24,460 --> 00:31:29,930
+Ví dụ một cái chuỗi như thế này với cơ sở sinh gan.
+
+427
+00:31:30,090 --> 00:31:33,130
+Một cái chuỗi như thế này.
+
+428
+00:31:34,690 --> 00:31:42,040
+Ngoài các số liệu thống kê này thì giá trị của sườn gan là nó sinh ra chuỗi.
+
+429
+00:31:42,700 --> 00:31:43,720
+Chuỗi là người ta nhìn được.
+
+430
+00:31:46,110 --> 00:31:46,530
+Đúng không?
+
+431
+00:31:46,530 --> 00:31:58,800
+Vâng, xin cho em là em kết thúc bài trình bày của em và em sẽ cố gắng chỉnh sửa để có thể đưa ra bản size tốt hơn ạ.
+
+432
+00:32:01,320 --> 00:32:06,780
+Thầy nghĩ là những cái nó coi như là nó ngắn bọn thôi nhưng mà nó toát lên được cái mình làm cái gì và kết quả đạt được cái gì.
+
+433
+00:32:07,050 --> 00:32:07,330
+Vâng.
+
+434
+00:32:08,010 --> 00:32:08,370
+Đúng không?
+
+435
+00:32:08,570 --> 00:32:08,830
+Đúng ạ.
+
+436
+00:32:11,500 --> 00:32:23,840
+Thế hướng này cũng hay, quan trọng là có thể là cái kết quả sinh ra có thể nó chưa chua nhất, chưa tốt nhưng mà nó có cái hướng phát triển.
+
+437
+00:32:23,840 --> 00:32:30,720
+Để ví dụ các cơ quan khác thì chỉ xin các chức luôn
+
+438
+00:32:30,720 --> 00:32:32,340
+Cái này nó xin môn ra nữa
+
+439
+00:32:32,800 --> 00:32:42,210
+Xin môn ra
+
+440
+00:32:42,210 --> 00:32:46,010
+Xin môn ra
+
+441
+00:32:46,990 --> 00:32:59,640
+Xin ra rồi
+
+442
+00:32:59,640 --> 00:33:01,200
+Cái này là bạn xin xong đây
+
+443
+00:33:01,200 --> 00:33:02,760
+Nên là có thể giúp anh thấy
+
+444
+00:33:02,760 --> 00:33:12,400
+Sai trước em là em có đưa ví dụ không truyền đoạn
+
+445
+00:33:12,400 --> 00:33:14,080
+Và do là em nghĩ là nó
+
+446
+00:33:14,080 --> 00:33:16,050
+Em lại cho là nó không cần tiên
+
+447
+00:33:16,050 --> 00:33:17,070
+Em không đưa vào hàng sai
+
+448
+00:33:19,250 --> 00:33:29,270
+Cái này mới bị tiến rất là cao
+
+449
+00:33:29,270 --> 00:33:31,150
+Nếu mà em làm thành công
+
+450
+00:33:31,150 --> 00:33:32,550
+Thì em có thể đối với là
+
+451
+00:33:32,970 --> 00:33:34,700
+Là một cái côn

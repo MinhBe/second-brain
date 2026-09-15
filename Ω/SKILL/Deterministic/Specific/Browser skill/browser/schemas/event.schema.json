@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "browser-skill/event",
+  "title": "timeline.jsonl line",
+  "type": "object",
+  "required": [
+    "seq",
+    "ts",
+    "event",
+    "tier",
+    "data",
+    "prev_sha256"
+  ],
+  "properties": {
+    "seq": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ts": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "tier": {
+      "enum": [
+        0,
+        1,
+        2,
+        null
+      ]
+    },
+    "data": {
+      "type": "object"
+    },
+    "prev_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

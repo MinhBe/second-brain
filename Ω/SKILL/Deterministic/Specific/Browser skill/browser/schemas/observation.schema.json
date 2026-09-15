@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "browser-skill/observation",
+  "title": "Observation (live capture or eval fixture)",
+  "type": "object",
+  "required": [
+    "url",
+    "title",
+    "aria_yaml"
+  ],
+  "properties": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "aria_yaml": {
+      "type": "string"
+    },
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dialogs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "iframes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "src_host": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "visible_text_sample": {
+      "type": "string"
+    },
+    "captured_at": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "string"
+    },
+    "expect": {
+      "type": "object"
+    }
+  }
+}

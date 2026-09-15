@@ -1,0 +1,202 @@
+{
+  "run_key": "5138ef6b78875c7ee26096ed868fef193962581b015e88cae149b075e11a38a7",
+  "start": 1800,
+  "end": 2400,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1811.54,
+      "end": 1833.82,
+      "text": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+      "avg_logprob": -0.31142240557177314,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 1811.54,
+          "end": 1812.94,
+          "word": " Các",
+          "probability": 0.369873046875
+        },
+        {
+          "start": 1812.94,
+          "end": 1814.34,
+          "word": " bạn",
+          "probability": 0.48828125
+        },
+        {
+          "start": 1814.84,
+          "end": 1814.96,
+          "word": " hãy",
+          "probability": 0.75927734375
+        },
+        {
+          "start": 1814.96,
+          "end": 1816.74,
+          "word": " đăng",
+          "probability": 0.961181640625
+        },
+        {
+          "start": 1816.74,
+          "end": 1820.72,
+          "word": " ký",
+          "probability": 0.77587890625
+        },
+        {
+          "start": 1821.02,
+          "end": 1824.06,
+          "word": " kênh",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 1824.06,
+          "end": 1824.06,
+          "word": " để",
+          "probability": 0.90380859375
+        },
+        {
+          "start": 1827.16,
+          "end": 1831.12,
+          "word": " ủng",
+          "probability": 0.9422200520833334
+        },
+        {
+          "start": 1833.06,
+          "end": 1833.82,
+          "word": " hộ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1833.82,
+          "end": 1833.82,
+          "word": " kênh",
+          "probability": 0.9778645833333334
+        },
+        {
+          "start": 1833.82,
+          "end": 1833.82,
+          "word": " của",
+          "probability": 0.84228515625
+        },
+        {
+          "start": 1833.82,
+          "end": 1833.82,
+          "word": " mình",
+          "probability": 0.38916015625
+        },
+        {
+          "start": 1833.82,
+          "end": 1833.82,
+          "word": " nhé.",
+          "probability": 0.9921875
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 2,
+      "seek": 3000,
+      "start": 1833.84,
+      "end": 1894.52,
+      "text": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+      "avg_logprob": -0.17817540995536313,
+      "compression_ratio": 0.89,
+      "no_speech_prob": 0.74609375,
+      "words": [
+        {
+          "start": 1833.84,
+          "end": 1836.14,
+          "word": " Hãy",
+          "probability": 0.6103515625
+        },
+        {
+          "start": 1836.54,
+          "end": 1837.28,
+          "word": " subscribe",
+          "probability": 0.5283203125
+        },
+        {
+          "start": 1837.28,
+          "end": 1837.42,
+          "word": " cho",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1837.42,
+          "end": 1839.12,
+          "word": " kênh",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 1839.12,
+          "end": 1841.02,
+          "word": " Ghiền",
+          "probability": 0.96142578125
+        },
+        {
+          "start": 1841.02,
+          "end": 1841.06,
+          "word": " Mì",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1841.06,
+          "end": 1842.1,
+          "word": " Gõ",
+          "probability": 1.0
+        },
+        {
+          "start": 1871.54,
+          "end": 1875.38,
+          "word": " Để",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1876.13,
+          "end": 1877.23,
+          "word": " không",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1883.23,
+          "end": 1883.69,
+          "word": " bỏ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 1883.69,
+          "end": 1884.41,
+          "word": " lỡ",
+          "probability": 1.0
+        },
+        {
+          "start": 1884.41,
+          "end": 1884.43,
+          "word": " những",
+          "probability": 1.0
+        },
+        {
+          "start": 1884.43,
+          "end": 1884.95,
+          "word": " video",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1884.95,
+          "end": 1884.99,
+          "word": " hấp",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 1893.58,
+          "end": 1894.52,
+          "word": " dẫn",
+          "probability": 1.0
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "493f385a3ff8c9826cd9ceea6bf0572a9707c91c738d54ed87d7ce761fcb30a5"
+}

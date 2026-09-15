@@ -1,0 +1,979 @@
+{
+  "mode": "DOI_DOWNLOAD",
+  "status": "partial",
+  "request": {
+    "mode": "DOI_DOWNLOAD",
+    "dois": [
+      "10.1007/978-3-031-76459-2_3",
+      "10.1145/3341105.3373962",
+      "10.1016/j.softx.2019.100367",
+      "10.48550/arXiv.2312.13041",
+      "10.1609/aaai.v31i1.10804",
+      "10.48550/arXiv.1907.00503",
+      "10.1613/jair.953",
+      "10.48550/arXiv.2407.08839",
+      "10.1109/ACCESS.2025.3646769",
+      "10.1109/ICASSP55912.2026.11460610",
+      "10.48550/arXiv.2608.27172",
+      "10.1109/TIFS.2024.3350911",
+      "10.3390/s23188014",
+      "10.1016/j.cose.2022.103054",
+      "10.3390/s22145243",
+      "10.1007/s00779-019-01332-y",
+      "10.3390/computers15060368",
+      "10.1109/TR.2018.2805763",
+      "10.3390/fi17010008",
+      "10.1109/TIFS.2025.3583234",
+      "10.3390/jcp2040039",
+      "10.1109/ACCESS.2023.3296707",
+      "10.1109/e-Science62913.2024.10678662"
+    ],
+    "outdir": "C:/Users/Admin/Documents/Second Brain/Ω/FILES/PDF/Paper",
+    "invalid_dois": [],
+    "defaults_applied": []
+  },
+  "result": {
+    "requested_count": 23,
+    "valid_dois": [
+      "10.1007/978-3-031-76459-2_3",
+      "10.1145/3341105.3373962",
+      "10.1016/j.softx.2019.100367",
+      "10.48550/arXiv.2312.13041",
+      "10.1609/aaai.v31i1.10804",
+      "10.48550/arXiv.1907.00503",
+      "10.1613/jair.953",
+      "10.48550/arXiv.2407.08839",
+      "10.1109/ACCESS.2025.3646769",
+      "10.1109/ICASSP55912.2026.11460610",
+      "10.48550/arXiv.2608.27172",
+      "10.1109/TIFS.2024.3350911",
+      "10.3390/s23188014",
+      "10.1016/j.cose.2022.103054",
+      "10.3390/s22145243",
+      "10.1007/s00779-019-01332-y",
+      "10.3390/computers15060368",
+      "10.1109/TR.2018.2805763",
+      "10.3390/fi17010008",
+      "10.1109/TIFS.2025.3583234",
+      "10.3390/jcp2040039",
+      "10.1109/ACCESS.2023.3296707",
+      "10.1109/e-Science62913.2024.10678662"
+    ],
+    "invalid_dois": [],
+    "downloaded_count": 13,
+    "failed_count": 10,
+    "items": [
+      {
+        "doi": "10.1007/978-3-031-76459-2_3",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "ModSec-Learn: Boosting ModSecurity with Machine Learning",
+        "is_oa": true,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [
+              "https://hdl.handle.net/11584/440487"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:57:50,969 - WARNING - No untried download URL candidates remain | 2026-09-11 15:57:50,969 - ERROR - Failed to download 10.1007/978-3-031-76459-2_3: No untried download URL candidates remain | 2026-09-"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "blocked_403",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1007/978-3-031-76459-2_3",
+          "https://hdl.handle.net/11584/440487"
+        ],
+        "error": "http_403"
+      },
+      {
+        "doi": "10.1145/3341105.3373962",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\WAF-A-MoLE.pdf",
+        "sha256": "bb07fc242dd0dc1daf3d373eafd67663627550a2e3efb04b3bf8e8aa6b5ba346",
+        "title": "WAF-A-MoLE",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1016/j.softx.2019.100367",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\WAF-A-MoLE_An_adversarial_tool_for_assessing_ML-based_WAFs.pdf",
+        "sha256": "a383560f63b7ed0c4c242f308fa8223197423fbd1d44dc05cea263f92792d0aa",
+        "title": "WAF-A-MoLE: An adversarial tool for assessing ML-based WAFs",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.48550/arXiv.2312.13041",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\10.48550_arXiv.2312.13041.pdf",
+        "sha256": "9e32572e0853fa5a13cca769d73b0e48851596596f774b85e309e05b4b68c9e7",
+        "title": null,
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1609/aaai.v31i1.10804",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\SeqGAN_Sequence_Generative_Adversarial_Nets_with_Policy_Gradient.pdf",
+        "sha256": "695925fe3cf303544bbcffdf73a7c45371f5b87ae2ffcac9b0eca2a5ad4b7474",
+        "title": "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.48550/arXiv.1907.00503",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\10.48550_arXiv.1907.00503.pdf",
+        "sha256": "4361a02973c5a0adcbc1111afab74215fca36f2835af25bfd974970015d93468",
+        "title": null,
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1613/jair.953",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\SMOTE_Synthetic_Minority_Over-sampling_Technique.pdf",
+        "sha256": "8eece9837dbc7719b42d1c89be2030a5c0d328723612b05cd170d2c83854899f",
+        "title": "SMOTE: Synthetic Minority Over-sampling Technique",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.48550/arXiv.2407.08839",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\10.48550_arXiv.2407.08839.pdf",
+        "sha256": "2644af7a3c6d286feabc3b04a24103a6350ba1cef397ca1bd6fa50fd5a107f4a",
+        "title": null,
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1109/ACCESS.2025.3646769",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\Architectural_Selection_Framework_for_Synthetic_Network_Traffic_Quantifying_the_Fidelity_Utility_Trade-off.pdf",
+        "sha256": "4441d0adc0eb9dc84c2393faac3cbce2c6a226b4dbc2c881e6c74f3d6b648f09",
+        "title": "Architectural Selection Framework for Synthetic Network Traffic: Quantifying the Fidelity–Utility Trade-off",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1109/ICASSP55912.2026.11460610",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "Multi-Agent Honeypot-Based Request-Response Context Dataset for Improved SQL Injection Detection Performance",
+        "is_oa": false,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:58:02,630 - WARNING - [Router] All sources failed for 10.1109/ICASSP55912.2026.11460610 | 2026-09-11 15:58:02,630 - ERROR - Could not find PDF URL for 10.1109/ICASSP55912.2026.11460610 from any source"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "subscription_only",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1109/ICASSP55912.2026.11460610",
+          "https://doi.org/10.1109/icassp55912.2026.11460610"
+        ],
+        "error": "subscription_only"
+      },
+      {
+        "doi": "10.48550/arXiv.2608.27172",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\10.48550_arXiv.2608.27172.pdf",
+        "sha256": "b581e409dc1bff50cea5978ae324ddcf0ea00780f576f1c6cb06ffc7eabd0cf2",
+        "title": null,
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1109/TIFS.2024.3350911",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\AdvSQLi_Generating_Adversarial_SQL_Injections_Against_Real-World_WAF-as-a-Service.pdf",
+        "sha256": "2e0c2634dfcac2686d0592ef325442e56ecbc5904a3fe18e145d603f6c21ecf9",
+        "title": "AdvSQLi: Generating Adversarial SQL Injections Against Real-World WAF-as-a-Service",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.3390/s23188014",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\Generative_Adversarial_Network_GAN_-Based_Autonomous_Penetration_Testing_for_Web_Applications.pdf",
+        "sha256": "4bb697494f9193f43fbe6594e1edd433c8038b0af007f1abbb14aaebbfe6a366",
+        "title": "Generative Adversarial Network (GAN)-Based Autonomous Penetration Testing for Web Applications.",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1016/j.cose.2022.103054",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "Synthetic attack data generation model applying generative adversarial network for intrusion detection",
+        "is_oa": false,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:58:13,569 - WARNING - [Router] All sources failed for 10.1016/j.cose.2022.103054 | 2026-09-11 15:58:13,569 - ERROR - Could not find PDF URL for 10.1016/j.cose.2022.103054 from any source | 2026-09-11 "
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "subscription_only",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1016/j.cose.2022.103054"
+        ],
+        "error": "subscription_only"
+      },
+      {
+        "doi": "10.3390/s22145243",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\CTTGAN_Traffic_Data_Synthesizing_Scheme_Based_on_Conditional_GAN.pdf",
+        "sha256": "453c0cd2e91c8030d7e5b7c71e2bb381e0166b5554634ba6d45776a8e3f98b07",
+        "title": "CTTGAN: Traffic Data Synthesizing Scheme Based on Conditional GAN.",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.1007/s00779-019-01332-y",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "GAN-based imbalanced data intrusion detection system",
+        "is_oa": false,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:58:25,087 - WARNING - [Router] All sources failed for 10.1007/s00779-019-01332-y | 2026-09-11 15:58:25,088 - ERROR - Could not find PDF URL for 10.1007/s00779-019-01332-y from any source | 2026-09-11 "
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "subscription_only",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1007/s00779-019-01332-y"
+        ],
+        "error": "subscription_only"
+      },
+      {
+        "doi": "10.3390/computers15060368",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "Deployment-Oriented Multi-Embedding Machine Learning Framework for SQL Injection Detection and Prevention in a Web Application Firewall",
+        "is_oa": true,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [
+              "https://doi.org/10.3390/computers15060368"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:58:34,212 - WARNING - [Router] All sources failed for 10.3390/computers15060368 | 2026-09-11 15:58:34,212 - ERROR - Could not find PDF URL for 10.3390/computers15060368 from any source | 2026-09-11 15"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "blocked_403",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.3390/computers15060368"
+        ],
+        "error": "http_403"
+      },
+      {
+        "doi": "10.1109/TR.2018.2805763",
+        "status": "downloaded",
+        "method": "cache",
+        "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Ω\\FILES\\PDF\\Paper\\A_Machine-Learning-Driven_Evolutionary_Approach_for_Testing_Web_Application_Firewalls.pdf",
+        "sha256": "29aa597ab42462caa3a48ba0d556af43d9b56a137e26fb888594c1553ad2a4b7",
+        "title": "A Machine-Learning-Driven Evolutionary Approach for Testing Web Application Firewalls",
+        "is_oa": null,
+        "full_text_available": true,
+        "evidence_level": "full_text",
+        "chain_attempted": [
+          "cache"
+        ],
+        "attempts": [],
+        "failure_class": "none",
+        "warnings": [],
+        "manual_urls": [],
+        "error": null
+      },
+      {
+        "doi": "10.3390/fi17010008",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "GenSQLi: A Generative Artificial Intelligence Framework for Automatically Securing Web Application Firewalls Against Structured Query Language Injection Attacks",
+        "is_oa": true,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [
+              "https://www.mdpi.com/1999-5903/17/1/8/pdf?version=1735795866"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [
+              "https://doi.org/10.3390/fi17010008"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:58:50,750 - WARNING - [Router] All sources failed for 10.3390/fi17010008 | 2026-09-11 15:58:50,750 - ERROR - Failed to download 10.3390/fi17010008: Access denied (403). HTML recovery tried 1 extracted"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "blocked_403",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.3390/fi17010008"
+        ],
+        "error": "http_403"
+      },
+      {
+        "doi": "10.1109/TIFS.2025.3583234",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "ModSec-AdvLearn: Countering Adversarial SQL Injections With Robust Machine Learning",
+        "is_oa": true,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [
+              "https://hdl.handle.net/11584/448666",
+              "https://hdl.handle.net/11567/1291939"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:59:14,025 - WARNING - No untried download URL candidates remain | 2026-09-11 15:59:14,025 - ERROR - Failed to download 10.1109/TIFS.2025.3583234: No untried download URL candidates remain | 2026-09-11"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "blocked_403",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1109/TIFS.2025.3583234",
+          "https://hdl.handle.net/11584/448666",
+          "https://doi.org/10.1109/tifs.2025.3583234"
+        ],
+        "error": "http_403"
+      },
+      {
+        "doi": "10.3390/jcp2040039",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "Detection of SQL Injection Attack Using Machine Learning Techniques: A Systematic Literature Review",
+        "is_oa": true,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [
+              "https://www.mdpi.com/2624-800X/2/4/39/pdf?version=1663640858",
+              "https://doaj.org/article/b91628631abd42d7a451a37e33f5a934"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [
+              "https://doi.org/10.3390/jcp2040039"
+            ],
+            "outcome": "failed",
+            "error": "http_403"
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:59:30,683 - WARNING - [Router] All sources failed for 10.3390/jcp2040039 | 2026-09-11 15:59:30,683 - ERROR - Failed to download 10.3390/jcp2040039: Access denied (403). HTML recovery tried 1 extracted"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "blocked_403",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.3390/jcp2040039"
+        ],
+        "error": "http_403"
+      },
+      {
+        "doi": "10.1109/ACCESS.2023.3296707",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "A Comprehensive Survey of Generative Adversarial Networks (GANs) in Cybersecurity Intrusion Detection",
+        "is_oa": true,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [
+              "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10187144.pdf",
+              "https://doaj.org/article/e4016515de004d0e9d7b88c65fe28feb",
+              "https://figshare.com/articles/journal_contribution/A_Comprehensive_Survey_of_Generative_Adversarial_Networks_GANs_in_Cybersecurity_Intrusion_Detection/25697922",
+              "https://figshare.com/articles/journal_contribution/A_comprehensive_survey_of_generative_adversarial_networks_GANs_in_cybersecurity_intrusion_detection/25918240",
+              "https://hdl.handle.net/2292/72658"
+            ],
+            "outcome": "failed",
+            "error": "html_without_pdf_link"
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [
+              "https://doi.org/10.1109/access.2023.3296707"
+            ],
+            "outcome": "failed",
+            "error": "html_without_pdf_link"
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 15:59:46,635 - ERROR - Permanent failure: File not found (404) | 2026-09-11 15:59:46,655 - ERROR - Failed to download 10.1109/ACCESS.2023.3296707: File not found (404) | 2026-09-11 15:59:46,657 - INFO - "
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "blocked_403",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1109/ACCESS.2023.3296707",
+          "https://doi.org/10.1109/access.2023.3296707"
+        ],
+        "error": "html_without_pdf_link"
+      },
+      {
+        "doi": "10.1109/e-Science62913.2024.10678662",
+        "status": "metadata_only",
+        "method": null,
+        "path": null,
+        "sha256": null,
+        "title": "Enhancing Autonomous Intrusion Detection System with Generative Adversarial Networks",
+        "is_oa": false,
+        "full_text_available": false,
+        "evidence_level": "metadata_only",
+        "chain_attempted": [
+          "arxiv_direct",
+          "unpaywall",
+          "europe_pmc",
+          "openalex",
+          "scihub_fallback",
+          "metadata_only"
+        ],
+        "attempts": [
+          {
+            "resolver": "arxiv_direct",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "unpaywall",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "europe_pmc",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "openalex",
+            "candidates": [],
+            "outcome": "no_candidates",
+            "error": null
+          },
+          {
+            "resolver": "scihub_fallback",
+            "candidates": [],
+            "outcome": "failed",
+            "error": "scihub_cli_no_pdf_exit_1: 2026-09-11 16:00:04,292 - WARNING - [Router] All sources failed for 10.1109/e-Science62913.2024.10678662 | 2026-09-11 16:00:04,292 - ERROR - Failed to download 10.1109/e-Science62913.2024.10678662: Access denied (4"
+          },
+          {
+            "resolver": "metadata_only",
+            "candidates": [],
+            "outcome": "failed",
+            "error": null
+          }
+        ],
+        "failure_class": "subscription_only",
+        "warnings": [],
+        "manual_urls": [
+          "https://doi.org/10.1109/e-Science62913.2024.10678662",
+          "https://doi.org/10.1109/e-science62913.2024.10678662"
+        ],
+        "error": "subscription_only"
+      }
+    ]
+  },
+  "clarification": null,
+  "error": null,
+  "next_command": null,
+  "contract_version": "1.1"
+}

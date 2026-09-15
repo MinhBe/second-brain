@@ -1,0 +1,6 @@
+### Result
+[false,false,true]
+### Ran Playwright code
+```js
+await (async page => Promise.all(page.context().pages().map(async p => p.__bw_owned_live === true)))(page);
+```

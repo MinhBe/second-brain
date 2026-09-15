@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "browser-skill/run",
+  "title": "run.json",
+  "type": "object",
+  "required": [
+    "run_id",
+    "provider",
+    "profile_id",
+    "entry_url",
+    "started_at",
+    "status",
+    "policy_sha256"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "entry_url": {
+      "type": "string"
+    },
+    "prompt_text": {
+      "type": "string"
+    },
+    "prompt_sha256": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "finished_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "terminal_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence": {},
+    "reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "response_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "response_chars": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "response_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "error_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exit": {
+      "type": "integer"
+    },
+    "policy_sha256": {
+      "type": "string"
+    },
+    "chrome": {
+      "type": "object"
+    },
+    "user_data_dir": {
+      "type": "string"
+    },
+    "dry_run": {
+      "type": "boolean"
+    },
+    "profile_provider_state_before": {},
+    "profile_provider_state_after": {},
+    "screenshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "event": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notifications_path": {
+      "type": "string"
+    },
+    "notifications": {
+      "type": "integer"
+    },
+    "suspected_injection": {
+      "type": "integer"
+    },
+    "artifacts_discovered": {
+      "type": "integer"
+    },
+    "firewall_summary": {
+      "type": "object",
+      "properties": {
+        "allowed": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "blocked": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "handler_errors": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "blocked_hosts": {
+          "type": "array"
+        }
+      }
+    },
+    "firewall_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timeline_head_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "chain_ok": {
+      "type": "boolean"
+    },
+    "audit": {
+      "type": "object"
+    }
+  }
+}

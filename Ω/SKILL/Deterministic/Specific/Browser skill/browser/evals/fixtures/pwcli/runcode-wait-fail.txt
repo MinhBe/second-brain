@@ -1,0 +1,5 @@
+### Error
+TimeoutError: locator.waitFor: Timeout 1500ms exceeded.
+Call log:
+[2m  - waiting for getByText('NOPE-NOT-THERE').first() to be visible[22m
+

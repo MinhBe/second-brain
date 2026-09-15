@@ -1,0 +1,5 @@
+### Error
+Error: net::ERR_NAME_NOT_RESOLVED at http://nonexistent.invalid/
+Call log:
+[2m  - navigating to "http://nonexistent.invalid/", waiting until "domcontentloaded"[22m
+

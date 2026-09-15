@@ -1,0 +1,16 @@
+{
+  "url": "https://claude.ai/new?incognito=",
+  "title": "Claude",
+  "aria_yaml": "- main [ref=e1]:\n  - navigation [ref=e2]:\n    - link \"Claude\" [ref=e3]\n  - textbox \"Write your prompt to Claude\" [ref=e5]\n  - button \"Send message\" [ref=e6]\n",
+  "alerts": [
+    "You are out of free messages until 5:40 AM"
+  ],
+  "dialogs": [],
+  "iframes": [],
+  "visible_text_sample": "You are out of free messages until 5:40 AM Understanding usage and length limits",
+  "provenance": "synthetic (text from SPEC-1)",
+  "expect": {
+    "state": "USAGE_EXHAUSTED",
+    "reset_time": "05:40"
+  }
+}

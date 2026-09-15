@@ -1,0 +1,13 @@
+{
+  "url": "https://claude.ai/login?returnTo=%2Fnew",
+  "title": "Claude",
+  "aria_yaml": "- main [ref=e1]:\n  - heading \"Log in to Claude\" [level=1] [ref=e2]\n  - button \"Continue with Google\" [ref=e3]\n  - textbox \"Email\" [ref=e4]\n",
+  "alerts": [],
+  "dialogs": [],
+  "iframes": [],
+  "visible_text_sample": "Log in to Claude Continue with Google",
+  "provenance": "synthetic",
+  "expect": {
+    "state": "LOGIN_REQUIRED"
+  }
+}

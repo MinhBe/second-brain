@@ -1,0 +1,951 @@
+[00:00:04] Sau đó, khi tập trung nghiên cứu một số mô đồ và các kiến thức cụ thể thì kiến thức cơ bản xét xử để giúp chúng ta cố gắng để tìm hiểu đặc trưng phần của phần này.
+[00:00:17] Sau khi tìm hiểu kiến thức xét xử cơ bản thì ta có xem một số đặc trưng xét xử đã giải quyết trong các bài báo.
+[00:00:24] Ví dụ như là các thương kỳ chia lấy mà thích hợp với lại để chia sẻ với các thương kỳ
+[00:00:37] và hoặc là kênh trực sử dụng kênh mạng. Đấy là một số phát triển của các thương kỳ cơ bản
+[00:00:45] và có sức khỏe trong một chủ kế hoạch trước đó.
+[00:00:49] Và cũng có hướng đảm thời dự kiến theo hướng này,
+[00:00:57] có tìm hiểu dự kiến sản phẩm hữu trang trọng thể,
+[00:01:00] với từng cơ bản được phát triển,
+[00:01:05] có thể dự kiến ra một số kiến thức mới.
+[00:01:08] đây kết hợp kết hợp với các cái bài một số các cái mô đồ
+[00:01:19] em cũng chờ em cũng gọi một sử dụng cái hình để ra cái bản thì tiếp đến thì về mặt tức là có
+[00:01:39] sau đó trong kỹ thuật các kỹ thuật này nó hoạt động thế giới như thế nào
+[00:01:47] phần của em cũng có những kỹ thuật có thể dùng
+[00:01:55] Tiếp tế về phương tác CPI thì cũng có thể kê các phương tác CPI trong những lần tiếp theo
+[00:02:02] và em sẽ đi vào cách thức giảm những kỹ thuật
+[00:02:05] tức là em tìm hiểu các kỹ thuật của các phương tác cơ bản
+[00:02:09] Ví dụ như là tham hay là tìm hiểu những cái phương tác cải tiến, cũng là đã cải tiến trong các loại bài báo, các cái phương tác khác đã cải tiến trong một số các loại bài báo mỗi tuần đây.
+[00:02:25] Ví dụ như là cải tiến về các cái tổ chức của các cái tổ chức phân mạch trong khi mà chúng ta chưa tìm ra hoặc là cải tiến như vậy.
+[00:02:57] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:03:26] Các bước trong sơ đồ này có các đầu vào, các mô hình của các xung pháp cũ và các cải tiến của từng xung pháp đấy.
+[00:03:44] Ví dụ như là trải tuyến trong phân tất cấu trúc cây để tính các liên minh để kiểm tra, để trải tuyến kỹ thuật kết hợp các liên minh quốc gia chứng.
+[00:03:58] Rồi là cách trải tuyến ở dưới mẫu, trong các dưới mẫu để chúng ta tìm kiếm.
+[00:04:08] Rồi là cách tổ chức các huấn luyện các kỹ thuật mạng, tức là các kỹ thuật mạng để hỗ trợ trong việc phát triển trong phương pháp xã.
+[00:04:18] Từ đấy thì cũng có dự kiến của phần này này.
+[00:04:25] Tuy nhiên ở đây thì trong phần vừa rồi em tập trung với em
+[00:04:29] đang dự kiến ra bức tranh tổng thể của 2 nội dung này.
+[00:04:37] Về phần thứ 3 thì phần thứ 3 khó hơn người ta nghe
+[00:04:42] và cũng chưa tĩnh hơn phần này.
+[00:04:45] tập trung hướng tới của em vì em đi vào cái phần chủ yếu, đi vào hai cái phần đầu.
+[00:04:51] Phần thứ nhất là cái phần về sẽ tập trung vào cái phần giải thoát các kiến trúc này.
+[00:04:57] Và các kiến trúc thì cũng là đi từ các kiến trúc căn bản.
+[00:05:02] Sau rồi là sẽ có các hệ tiến của các kiến trúc đấy.
+[00:05:06] sau đó xác định rõ các ảnh tuyến này sẽ có đặc trưng của ảnh tuyến này
+[00:05:11] và tìm hiểu và giải thích được tất cả chi tiết của ảnh tuyến này
+[00:05:20] và từ đấy chúng ta sẽ xem, kiểm tra một số dự kiến
+[00:05:28] có thể ôm vào một cái dự báo về một chế độ mới
+[00:05:33] cái dự báo trong sếp 1 thì một chế độ này
+[00:05:40] cái thứ 2 là tập trung vào phần công tác nghiên cứu
+[00:05:44] trong đó thì công tác nghiên cứu về công tác về sắc
+[00:05:50] cũng đã có phát triển tổn thương về sắc tơ màng
+[00:05:54] Ví dụ như bà cũng đã có một số cải tiến, tầm hợp một số cải tiến của sát
+[00:06:00] Thì em sẽ cố gắng tập trung vào giới giáo những cải tiến này
+[00:06:08] Nó rất cụ thể để có một cái bài cổ thể chi tiết trong phát trang này
+[00:06:33] Về mặt cơ bản, trong tuần mình đánh giá là em mới đăng ký nghiên cứu kỹ thuật tỏa thật.
+[00:06:41] Còn về mục chi tiết thì em đã bỏ cơ bản, nghiên cứu chi tiết giải thích một số phần nhỏ.
+[00:06:46] Tuy nhiên thì ở nhà thì em cũng có chạy thương tác, thương tác về ví dụ.
+[00:06:54] Thì em buổi tới thì em cũng muốn thường thường sẽ trình bày sau khi mà đã có được cái bộ phổ biến dữ liệu này
+[00:07:02] thì em sẽ làm những cái sự phát triển của các tín chức này nó không chỉ có mức 2 tín chức này
+[00:07:08] mà chúng ta có thêm nhiều hơn.
+[00:07:10] Thì em sẽ cùng chung cái phần đấy và sẽ chỉ ra, cố gắng chỉ ra được cái sự tạo của các tín chức này.
+[00:07:20] Em xin được tin báo cáo thầy về một nội dung mà em cố gắng.
+[00:07:30] Nó do quá nhiều cái khái niệm trong đây thì em cũng ở trong bài thì em cũng cố gắng em và em đưa các công cụ để đọc và giải thích.
+[00:07:41] Để đọc và giải thích, nội dung chính thì sử dụng 5 cái đài điệu từ năm 2022 đến nay để đọc và cố gắng để hiểu từng cái tên cơ bản của cái giải thích.
+[00:07:59] thì nó cũng có những cái phần phương pháp cơ bản, phần cải tiến, thái thức cải tiến
+[00:08:04] thì các bước cải tiến chi tiết, các bước bảo vệ, các bước kiến dụng
+[00:08:10] thì các em sẽ làm cái báo cáo nổi tiếng trước
+[00:08:14] và trong cái phương pháp nổi tiếng thứ 3 thì sẽ có tài liệu trong phần sau
+[00:08:19] thì các bước phần này là những phần bảo vệ, những phần bảo vệ, những phần bảo vệ
+[00:08:31] thì các em sẽ làm cái báo cáo nổi tiếng trước
+[00:08:40] Về mẫu dữ liệu mẫu thì như thế này, về so sánh các mẫu dữ liệu, em tìm mẫu dữ liệu này, hiện nay em cũng có tải mẫu dữ liệu, mẫu dữ liệu, mẫu dữ liệu, mẫu dữ liệu khác về 2 mẫu dữ liệu này.
+[00:09:15] Hai bộ dữ liệu này cũng khá nặng. Hiện nay dữ liệu ở Liên bang đang để ở phía bên cạnh.
+[00:09:23] Về cơ bản, sẽ có chương trình tập trưng của một bộ dữ liệu.
+[00:09:32] Có từng bộ dữ liệu của dữ liệu. Hiện nay mới than tạo một bộ dữ liệu và có một bảng so sánh.
+[00:09:43] Như là phần giải thích thì mình đang tìm hiểu là có phần giải thích ra nhưng chưa được được
+[00:10:00] tưởng nguyên thông qua các dẫn chứng để vinh hạt các tầng giải thích đây.
+[00:10:07] Với em xin lấy ra các tầng dữ liệu 2, đặc biệt là 2 tầng dữ liệu này,
+[00:10:16] em sẽ bổ sung phần cụ thể về dữ liệu này để sử dụng.
+[00:10:23] Ok, tháng 11 phải có thảo ở AI chứ, đúng không ạ?
+[00:10:35] Dạ vâng
+[00:10:36] Nghiệp thì thảo ở AI, đúng không ạ?
+[00:10:40] Vậy thì em xin phép là sang phần thứ 3 em cũng cảm ơn quý vị
+[00:10:44] Tính tới đến phần thứ 1 là em sẽ bổ sung phần khác biệt
+[00:10:51] Một số kỹ thuật, tăng kỹ thuật đến phần thứ 2
+[00:10:55] Em sẽ giải thích những ảnh phần trong phần kỹ thuật được kế
+[00:11:00] Với lại về cái phương pháp thì cũng sẽ tương tự là cái phương pháp mà em sẽ bổ sung cái phương pháp ở đây là phương pháp để xác từ có phương pháp cân bản này thì em hiểu rồi.
+[00:11:13] Với lại cái phương pháp cải tiến thì các phương cạnh cải tiến đây thì em sẽ có các hiệu của báo cáo này ở phương pháp cân bản này.
+[00:11:19] Còn cái đồ đồ truyền chỉ cho tới chỗ thì ta mới đã thấy cái bộ hình điệu thì em sẽ làm cái rõ sông cánh cái bộ hình điệu đấy có hình chữ cũng này cả.
+[00:11:29] Rồi cảm ơn anh.
+[00:12:16] bây giờ hết rồi em
+[00:12:26] bây giờ thì hết rồi
+[00:12:41] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:13:39] Vừa qua thì em có chạy tên tên kiến trúc Share Attention
+[00:13:43] khi mà đưa vào trong mô định STDN lúc ban đầu.
+[00:13:48] Sau đấy thì em có chạy tên các tập toán về Solution,
+[00:13:51] sau đó chạy tên Addition và thì cũng đã có kết quả.
+[00:13:54] Rồi em sẽ cài quát lại các kết quả này để mà trong vòng vùng cải tiến
+[00:14:01] từ dù bài STDN.
+[00:14:03] Chỉ đã, gọi là tìm tìm và rút gọn số những các tính từ hồi sáng.
+[00:14:08] Rồi lúc xuống còn một kết quả thứ hai,
+[00:14:09] thì là kết quả ESDN.
+[00:14:11] Và qua bài S-A-D-S, từ STDN, em đã xây một phần TNN thành một phần Share Attention.
+[00:14:23] Tôi đã tham số vì em không hiểu, chỉ khoảng 169 sản số trong kỹ thuật.
+[00:14:31] Đây là về phần kỹ thuật mà nó vận dạng với đồ viết sản mạng thì cũng được giữ lại kỳ nguyên từ bài STDN.
+[00:14:42] Còn này thì em có đi qua về chỗ nào em đã thay thế Share Attention.
+[00:14:46] Tức là cái block shape function này sau này thì em đặt thay cái nhánh EX1 và cái nhánh tổng hợp các tập trưng dấu vết C, C, F và dấu vết.
+[00:14:56] Đối với S, A, B thì cái kích thước ma trận của nó nhỏ thì em để kích thước của cái block S, A là kích thước của block 3.
+[00:15:02] Và từ đối với ma trận dấu vết C thì em để kích thước ma trận dấu vết T thì em để kích thước của S, A lên toàn.
+[00:15:11] Thì đây là cái phần khai phát qua từ cái mô hình mà em đã cải thiện.
+[00:15:14] Trong Share Attention này thì em có tham khảo từ bài SCCV từ năm 2008, đối với cơ chế chú ý.
+[00:15:28] Trước thì cơ chế chú ý trong mô hình SP là chưa có.
+[00:15:32] Trong này thì trong cái nhạc tổng cộng các đặc trưng, các bức ưu viết, thì em có đưa ra cơ chế chú ý lái dân kết nối 3 trận thái.
+[00:15:37] Số lượng tham số thì tăng lên chỉ 169 tham số.
+[00:15:42] Khi mà em tìm thấy bộ Share Attention thì mới được.
+[00:15:47] Về phần áp mất mát thì vẫn như thế.
+[00:15:49] Nhưng mà tuy nhiên thì em vẫn điều chỉnh cái chọn số.
+[00:15:51] chọn số, chọn số trong VHR mất mát, đấy là cái mối SR tưởng tên cối cho điểm phân loạn, thì ở đây
+[00:15:59] em đã nâng lên thành là 50, nó có lý do tại vì cái mối sharpness thì nó nặng với cái phần con luyện
+[00:16:06] và trong khi đấy thì cái mạng của em thì kết quả nó cũng cao tệ khi mà giảm tỷ lệnh, tỷ lệnh SR đến gốc
+[00:16:13] và tỷ lệnh của S tỷ lệnh tăng nó lên thành 50 để cho nó tươi tươi tẩy. Em đã đi qua về cái mô hình SA-SR
+[00:16:26] Bây giờ đến phần trò toán hợp nhất các mô hình.
+[00:16:31] Hợp nhất các mô hình có 2 lực phương pháp.
+[00:16:33] Phương pháp lấy trung vịnh ra kết quả.
+[00:16:36] Phương pháp lấy trung vịnh.
+[00:16:37] Hoặc là phương pháp tí dụng như đoạn cá giải trình, tức là line-line của 2 phương pháp.
+[00:16:42] Hoặc là sử dụng một cái cây quyết định, cây trang tưởng trong giá quyết định giữa các mô hình.
+[00:16:50] Đầu tiên thì sẽ phải tròn hóa đầu trang của tất cả các mô hình về dưới dặn, không bị mống.
+[00:16:57] Những câu thức này thì câu thức truyền hóa là hướng dẫn tiêu chuẩn. Sau đấy thì em có sử dụng toán toán tổ hợp tốt nhất, tức là em sẽ có khá là nhiều mô hình.
+[00:17:09] Như mọi người thấy sẽ có cả mô hình Vision Transformer, Vision Transformer.
+[00:17:14] Cái sắp có, cái lập tức này thì là cái mô hình hành cải tiến của em.
+[00:17:21] Mô hình LDA thì cũng là một cái showtime ở đây.
+[00:17:24] Và cái mô hình no-adv, mô hình STDN của em,
+[00:17:30] thì mà em tắt cái nhánh phân luyện đột án trong GAN đi,
+[00:17:33] thì bằng cái thuật toán gọi là LAN,
+[00:17:36] thì em gửi được lại một cái độ hợp mô hình của 4 mô hình,
+[00:17:39] và nó cho cái kết quả để lưu ý làm thật nhất.
+[00:17:42] Và đây là một số các thuật toán mà em đã chạy thử nghiệm,
+[00:17:47] thì ở trong này thì em có phân ra thuật toán nào sử dụng nhãn
+[00:17:51] để học cho cái việc hợp nhất mô hình,
+[00:17:54] và thuật toán nào sử dụng ảnh
+[00:17:56] để đưa vào trong phương pháp tập luyện mô hình, thì ở đây thì cái trọng toán trung bình hạn,
+[00:18:01] tức là trọng toán tự bản nhất, thì nó cho kết quả tốt nhất là 476 trên phủ test để tỷ lệ đổi.
+[00:18:08] Một số phương pháp khác nâng cao hơn, nhưng mà lại cho kết quả đầy thường.
+[00:18:12] Em có huấn luyện các mô hình đẹp cũng remote ở đây.
+[00:18:18] Cách xét các mô hình thì tầm lớn các mô hình đều huấn luyện với tỷ lệ bỗng hết là trên 4,
+[00:18:22] nhưng mà tuy nhiên bằng phương pháp trung bình hạn thì kết quả tỷ lệ đổi nó đã xuất vững với 476.
+[00:18:32] Trên bớt một số mô hình, trong đấy đặc biệt lưu ý là mô hình kiến trúc hình thể xuất, mô hình S-A-S-V.
+[00:18:39] Nếu như bỏ nó đi thì tỷ lệ bộ hình nó tăng lên không bằng mô hình Sotar, tức là nó đóng một vai trò một thước và chẳng tròn.
+[00:18:46] Một số mô hình khác bỏ đi thì nó cũng không thay đổi nhiều, tăng lên 0% hoặc 0% hoặc 0%. Nó không đáng kể bằng mô hình S-A-S-V.
+[00:18:56] Đây là cái bản của em hợp tác với các cái sổ ta trên bộ Setup and School lần này.
+[00:19:03] Mô hình mà nó có kết quả tốt nhất bây giờ đang là mô hình TPM.
+[00:19:07] Mô hình LDA thì họ mới đăng vào trên Tokai, họ chưa có tốt bố được.
+[00:19:10] Nhưng mà tuy nhiên vẫn đưa report.
+[00:19:12] Khi mà sổ ta trên thì lấy lỗi IOC hay là Acer.
+[00:19:17] Mô hình của em là tốt nhất trong tất cả các cái sổ.
+[00:19:23] Thế đây là kết luận. Thưa các bạn, thư pháp của em đề xuất thì thắng trên các thư pháp số này và còn có thêm về đề xuất S, A, S, L.
+[00:19:35] Về mặt đối hành thì nó cũng rất rõ ràng. Cái kết cục này thì nó cũng giống như là chỉ phát nút những cái còn lại của các mô hình.
+[00:19:43] Cả kết tiếp cái kết quả này thì phải, một là đề xuất mô hình mới, hai là đề xuất thêm các mô hình vào tổng cộng.
+[00:19:48] Hãy subscribe cho kênh La La School Để không bỏ
+[00:20:00] tán.
+[00:20:31] Trước một lúc thì em đã tìm được một số sổ dung về phó đề xuất cho bài PSD.
+[00:20:44] Với bài đó thì em tập trung vào tập trung quanh sự lý về chuyển về sức tận ứng và các phương tiện.
+[00:20:54] Mục tiêu nhất là giải quyết về sự không thiết hiệu,
+[00:20:58] chủ yếu là tập trung vào ý kiến về an ninh,
+[00:21:02] không biết về trán,
+[00:21:04] thứ hai là không biết về số lượng vỏ,
+[00:21:10] thứ hai là nhận định được số lượng đất kiếm tại các cây rừng.
+[00:21:21] Đầu tiên là về cái bài phép của CS6 thì em đã kết hợp cái star với cái novice assessment.
+[00:21:33] Cái star là cái đặc trưng dành cho toàn bộ novice assessment và để ưu tiên cái tổng hợp lý của góc truyền.
+[00:21:40] Khi mà được các góp ý, cũng như là góp ý của các đặc biệt, góp ý của thầy thì có một số cái hạn đế đối với bài TNCP là tất cả về cái rủi ro của rủi rò rỉ ở các team.
+[00:21:54] Thứ hai là cái xử lý ở trước, trước giai đoạn xử lý tình hợp hợp phía P7 và Chieftain vẫn sử dụng cái MHAV.
+[00:22:01] Thứ ba là nó quá nhẹ cho phần tiềm giá và có các cái đối với cục của FI, FI thì nó có là 0.95 nhưng mà cái collision nó 0.6.
+[00:22:12] Chỉ có cảnh báo nhiều, khá nhiều. Chỉ có những cái VNN có bình tĩnh về cái tổ chức nghiên cứu là tổ chức nghiên cứu là hữu quẩy.
+[00:22:25] Câu hỏi nghiên cứu đây là đó sẽ biến thành là xử lý giải server và biến thành đến là ưu tiên các cái dự án.
+[00:22:33] Ưu tiên các cái để diễn chuyển là các mất của trước kìa.
+[00:22:36] Thứ 3 là điều khiển vụ lệnh ở server.
+[00:22:41] Thứ 2 là điều khiển cục bộ theo điều khiển.
+[00:22:46] Bởi vì nếu bây giờ mình luôn luôn vận chuyển đồng ưu tiên trên lớp tiệm thì nó sẽ có các dấu hiệu rất nhiều, các cảnh báo rất nhiều.
+[00:22:55] Tùy vào tập lớp thì mình sẽ vận quyền ưu tiên thực hiện.
+[00:23:00] Và sẽ em gửi đến server lấy thông tin, nhất là về tập trung của mô hình và đơn án,
+[00:23:07] và về số lượng lớp của tài trung lượng đấy.
+[00:23:12] Chứ không gửi đến thông tin như bài VSD.
+[00:23:17] Thực tế thì em đã viên hành vi phục vụ các tổng thủy kinh doanh
+[00:23:21] đối với việc lấy sử dụng phép kiếm này.
+[00:23:24] Thì các tổng thủy kinh doanh này có một số hướng chính,
+[00:23:27] nhất là phép ẩm crop, sử dụng phép crop, phép global,
+[00:23:30] có thể là về sử dụng phép được nhớ viết, sử dụng phép không hình nhất.
+[00:23:33] nhưng chưa thể hiện ra được những lực lượng đặc biệt của các lực lượng.
+[00:24:06] Các bạn có thể tìm tìm kiếm sức mắc bộ nhưng mà vẫn đang dùng phép ARRIVAL và phép ARRIVAL là cái bài mở của VST-206
+[00:24:18] thì tiêu chuẩn sức mắc bộ, cải thiện cái default nó biến mấy logic 30 phần và vẫn sử dụng cái tham số để cố định phần thay hơn
+[00:24:32] và lọc cành máu cao.
+[00:24:35] Thứ ba là về sát của Proto.
+[00:24:40] Proto thì hỗ trợ rất chưa quan sát nhưng chi phí rất đông.
+[00:24:43] Hiện tại đang cao khoảng 412 triệu đồng.
+[00:24:48] Từ những khuẩn trọng đặc biệt là
+[00:24:51] từ những khuẩn trọng đặc biệt là
+[00:24:52] nhất là về có thể làm cho biết
+[00:24:55] hỗ trợ trong những bất kỳ thời gian
+[00:25:00] và vẫn bảo hẳn kỹ thuật sau.
+[00:25:03] Giờ em đề xuất phương pháp kỹ thuật của mình.
+[00:25:09] Đầu tiên, các doanh nghiệp sẽ được huấn luyện.
+[00:25:13] Trước huấn luyện thì sẽ được tưởng bá,
+[00:25:17] bằng cái star bây giờ, như quả VST.
+[00:25:20] Sau khi được huấn luyện thì sẽ đổi 2 đồng số lên cho server.
+[00:25:25] Thứ nhất là về số lượng giá của lớp đấy tại lĩnh đại.
+[00:25:32] Để mình nhận được lớp nào của lớp kia.
+[00:25:34] Và số lượng có của tại lĩnh đại và so với lĩnh khác.
+[00:25:41] Sau đó thì em tiến hành sử dụng API.
+[00:25:46] Thứ nhất là, nếu mình sử dụng bài PHP,
+[00:25:52] thì sử dụng tổng chức Android,
+[00:25:55] thì sử dụng tổng chức chung.
+[00:25:57] Nhưng mà một số cây lớn thì nó chất cổ cái lớp tiềm đại
+[00:26:00] Còn mình thì mình chất cổ cái lớp trung thì đó là hiếu
+[00:26:03] Và nó làm cái ảnh hưởng so với cây classical
+[00:26:10] Ở đây thì em chỉ là tổng của những cây mà có lớp tiềm đại
+[00:26:14] Thứ hai ở phần backboard là cái phần vào của phương hình
+[00:26:19] Em sử dụng cây CPU
+[00:26:24] Thay vì em sử dụng volume, nó chỉ có 1 chỉ số trong 1 cái lần,
+[00:26:30] chính vì thế em không tiến hành trung bình chân của số lượng mẫu của cái lần đấy.
+[00:26:44] Không tính trung bình chân của số lượng mẫu của cái lần sau tổng cộng.
+[00:26:48] Và sẽ tiến hành đấy là, ví dụ có 3 phần thì em sẽ lấy 1 phần 3 của cái trung bình chân của từng nhãn một
+[00:26:58] so với tổng lại để tổng hợp là sẽ ưu tiên cho cái lớp điểm ở đây.
+[00:27:03] Và thứ 3 là cái gx, gc để là em tiến hành đấy là bật hoặc không bật cái chế độ mà
+[00:27:17] hoặc là mình xây dựng bình thường theo từng lượng, từng lớp.
+[00:27:22] Thì em đang có một số kết quả, một số so sánh so với các tương tác của VNCT.
+[00:27:28] Thế là về sử dụng hợp thì mình cũng quay thuốc.
+[00:27:32] Sử dụng hợp này đã có so với giải VNCT.
+[00:27:35] Về tương tác backboard, product, cũng như là hợp định phục vụ này đã có so với giải VNCT.
+[00:27:40] Về tòa áp, mình sử dụng 4 mũi thú tiểu,
+[00:27:46] DLT, DLT-15, SILT và CIDIS-57.
+[00:27:51] Về cấu hình, nguyện, truyền dụng số lượng,
+[00:27:55] mình sử dụng 10, sử dụng gây dịch viết,
+[00:27:57] sử dụng trang số 3, 5,
+[00:27:58] và sử dụng khu vực vòng ủng hộ được,
+[00:28:00] cũng sử dụng khu vực vòng Epoch.
+[00:28:03] Về thích thắc, so sánh,
+[00:28:06] mình sử dụng 10 ký ức,
+[00:28:09] mình sẽ tiến hành thực nghiệm là
+[00:28:10] theo số thực nghiệm mình,
+[00:28:13] để so sánh với công nghệ của công nghệ đó.
+[00:28:18] Đây là một số kết quả chính của công pháp.
+[00:28:20] Nhất là về kết quả pháp ROAS-1
+[00:28:23] cũng như ROAS-1 trên 4 nội dung điểm của pháp thủy xuất là S-C-S-A
+[00:28:30] đạt được pháp thủy xuất của công nghệ.
+[00:28:33] Về so sánh đối với từng thành phần trong pháp thủy xuất,
+[00:28:39] khi mà do hình ảnh tổng hợp lại cả phép mà mình đặt ra
+[00:28:43] thì kết quả là tốt hơn so với từng pháp thủy xuất như thế này.
+[00:28:50] So với các nghiên cứu hôm nay, đối với bộ CAC, SID và NB15 thì kết quả rất là tốt.
+[00:29:02] Sẽ có kết quả tốt hơn từ tuần trước qua.
+[00:29:06] Đối với bộ SONIT, số được bảo làm tiền của bộ đó rất là ít.
+[00:29:10] Vì thế nên bây giờ mình sẽ thay đổi khác hơn một chút.
+[00:29:15] Em đang thực hành phát triển kỹ ở chỗ này để kiểm soát kết quả.
+[00:29:33] ở chỗ như là đi xa
+[00:30:19] xin phép vào báo cáo nhanh thì là tuần trước là em cũng đã thành công bảo vệ thạc sĩ thành
+[00:30:26] nhà đề tài thì đây là thông số mà em có thuyết trình ạ Hiện tại thì các thầy ông hội đồng có
+[00:30:40] nói là cho các mô hình đề xuất thì chỉ có mô hình sport và mô hình của em là có thông số khả quan
+[00:30:46] Các mô hình khác thì là thông số và kết quả đưa ra là nó chưa đủ thuyết phục
+[00:30:53] Nên với cả là các bài báo khoa học mà em dựa vào
+[00:30:57] Thì là em có chỉ ra rằng là hiện nay để tiết kiệm chi phí
+[00:31:01] Và bởi vì mô hình dữ liệu rất là lớn nên là người ta sẽ ưu tiên dùng phương pháp SMOTE
+[00:31:06] Còn phương pháp sinh dữ liệu để bổ sung vào cơ sở dữ liệu
+[00:31:09] Thì là em như em đang tìm hiểu thì đang chưa có nhiều bài báo nào
+[00:31:13] thì sau khi em áp dụng
+[00:31:16] thì đây là kết quả
+[00:31:17] thì đối với mô hình
+[00:31:19] smooth thông thường
+[00:31:20] thì là các dấu hiệu cơ bản
+[00:31:23] thì mô hình có khả năng nhận biết rất rõ
+[00:31:24] tuy nhiên là các dữ liệu
+[00:31:27] mà có yếu tố đặc trưng hơn
+[00:31:29] thì thường bị lẫn vào
+[00:31:31] ví dụ ở đây là nhóm
+[00:31:32] mà mục tiêu là sinh dữ liệu bôi lần
+[00:31:35] thì đôi lúc lại có thêm
+[00:31:37] một số nhãn về time
+[00:31:39] và đôi lúc là nó quên
+[00:31:41] chưa đóng dấu câu
+[00:31:43] như là phần em bôi đỏ
+[00:31:45] Câu lệnh đấy là câu lệnh sẽ bị lỗi
+[00:31:47] Và sẽ bị chặn ngay tức
+[00:31:49] Còn dữ liệu
+[00:31:52] Mô hình của em
+[00:31:53] Thì là ở 2
+[00:31:56] Nhóm
+[00:31:57] 2 nhóm đầu tiên
+[00:32:00] Các cái dấu hiệu
+[00:32:01] Về Bolin và Aaron
+[00:32:02] Là mô hình của em đã có khả năng sinh ra rồi
+[00:32:05] Và đã được chặn
+[00:32:07] Chặn ở đây nghĩa là
+[00:32:08] Cái tường lửa nó đã nhận biết được
+[00:32:10] Là đây có những dấu hiệu tấn công
+[00:32:12] Không phải là những dấu hiệu nhiễu nữa
+[00:32:14] còn đối với 2 cái mô hình còn lại
+[00:32:17] là Time và Union
+[00:32:18] thì cấu trúc ngữ pháp nó yêu cầu cao hơn
+[00:32:21] nên khi mà sinh ra dữ liệu
+[00:32:23] thì mô hình của em lại đang không học được
+[00:32:25] thế nên là sinh ra dữ liệu
+[00:32:27] nhiều rất là nhiều
+[00:32:28] và không khỏe năng khai thác thực tế
+[00:32:29] thì trong tuần này là em cũng đã cố gắng
+[00:32:33] thay đổi các cái thông số
+[00:32:34] ở trong mô hình nhưng mà
+[00:32:36] kết quả thì vẫn đang chưa được khả quan
+[00:32:39] thì hôm nay em trình bày để mong là
+[00:32:40] thầy cho em một
+[00:32:43] định hướng để có thể cải thiện
+[00:32:45] thì hiện tại mục tiêu của em là em cho rằng là đối với các loại dữ liệu thông thường
+[00:32:50] nghĩa là có dữ liệu tấn công lớn mà nhiều
+[00:32:54] thì phương pháp SMODE nó sẽ ưu việt hơn về mặt chi phí
+[00:32:58] tuy nhiên là ở những mẫu mà yêu cầu ngữ pháp cao hơn
+[00:33:02] thì mô hình của em sẽ tốt hơn để có thể bổ sung vào
+[00:33:05] thì em hiện tại đang đi theo hướng này
+[00:33:07] đây là kết quả của em
+[00:33:16] thì hiện tại
+[00:33:18] sẽ có 2 nhóm
+[00:33:21] đầu tiên là 2 nhóm bên trên
+[00:33:23] thì cấu trúc của nó
+[00:33:24] nó sẽ rất là đơn giản
+[00:33:25] nó sẽ chỉ cần yêu cầu
+[00:33:27] ví dụ như nhóm Aaron là cố gắng sinh ra lỗi
+[00:33:30] còn nhóm Boland là cố gắng
+[00:33:32] ép
+[00:33:35] thì nói chung là 2 mẫu này
+[00:33:37] thì nó sẽ yêu cầu
+[00:33:38] nữ pháp rất là thấp
+[00:33:39] còn 2 mẫu còn lại thì nó sẽ yêu cầu
+[00:33:42] đâu phải thứ nhất là phải đúng cơ sở dữ liệu mà nó tấn công vào thì nó nói chung là hai mẫu dưới
+[00:33:48] nó yêu cầu cao hơn đến cả phương pháp mốt nó cũng không làm ổn hết ạ thì hiện thì vợ thì em đang định
+[00:33:58] làm tập trung vào hai phương án khó hơn ạ Nhưng mà hai phương án khó hơn hiện tại em đang cố gắng mà
+[00:34:03] vẫn chưa có cải thiện nên là đang định xin mong muốn xin định hướng của thầy làm xoay thì phải
+[00:34:28] mô hình này chứ có bé quá mô hình của em là em dựa trên các cái phần em đánh dấu vuông là em
+[00:34:38] bốn phương ở bốn cái phương án đề xuất đầu tiên là em sẽ cố gắng tách theo chuỗi cú pháp SQL thì
+[00:34:47] Thì thay vì đưa vào các cái thông số như kiểu 1, 2, 3 thì em sẽ biến thành keyword là number hoặc là các cái cụm SQL thì em sẽ chuẩn hòa nó lại để tránh việc phải học quá nhiều dữ liệu mà có chung mục đích ạ.
+[00:35:02] Tiếp theo là trong bộ sinh thì là em sẽ tăng số lượng chuỗi nhé.
+[00:35:08] Thay vì ở bài gốc của tác giả này là 20 thì em sẽ tăng lên thành 160 ạ.
+[00:35:14] Còn huấn luyện trước bộ sinh thì em sẽ tăng cường việc huấn luyện trước bộ sinh để tránh việc mô hình bị sụp đổ quá sớm
+[00:35:23] Và cuối cùng là em sẽ kết hợp điểm thưởng
+[00:35:26] Thì thay vì nhận biết là dữ liệu thật hay giả thì sẽ phải thêm một cái nữa là liệu dữ liệu đấy có cấu trúc SQL không ạ
+[00:35:33] Đây là 3 thành phần ạ
+[00:35:36] Thì các thầy hội đồng cũng đã nhận ra là em có một vấn đề khá lớn với phần điểm thưởng ạ
+[00:35:40] bởi vì đầu tiên là
+[00:35:42] cái hàm đánh giá
+[00:35:45] mô hình SQL
+[00:35:46] thì nó lại có sự tương đương với
+[00:35:48] hàm đánh giá
+[00:35:49] nghĩa là kiểu đào bóng vừa thổi còi
+[00:35:52] thế nên là nó sẽ
+[00:35:54] khiến cho mô hình của em là
+[00:35:55] có xu hướng là cố gắng
+[00:35:57] học những cái thành phần để điểm cao
+[00:36:00] thì đây là phần em
+[00:36:02] cũng đang cố gắng tìm hiểu
+[00:36:04] để cải thiện
+[00:36:05] còn các thành phần khác thì
+[00:36:07] em chưa gặp vấn đề gì
+[00:36:09] cái gì ạ Bởi sao anh muốn nghe rõ cái gì buồn tính như thế nào Vâng thế thì một số em sẽ làm
+[00:36:29] sai chi tiết hơn về phần này có giải thích cho thầy đấy còn về định hướng phần làm của em có
+[00:36:39] cần phải chỉnh sửa hay là em cứ làm rõ các vấn đề thì nó biết biết bài thảo lựa chọn cái này
+[00:37:00] Hãy đăng ký kênh để ủng hộ kênh của mình nhé!
+[00:38:49] Thế chung có yêu cầu em lật chỉnh thêm phần kế hoạch mỗi một quá trình của EVOX sinh ra dữ liệu
+[00:38:58] thì sẽ tổng kê tổng kết cấu dữ liệu mẫu hoạt động sinh ra mỗi một EVOX
+[00:39:04] và cũng kiểm tra xem độ trùng lọc của các mẫu hoạt động sinh ra bởi mô hình
+[00:39:09] đồng thời sẽ tính loại bỏ những mẫu hoạt động trùng lọc
+[00:39:14] tính TPR dựa trên những mẫu mà không trùng lọc được mẫu sinh ra
+[00:39:20] dựa ra là mỗi mình ra nó có thể nó cũng có mẫu bằng thời gian sẽ giá trị tính tên bây giờ thì
+[00:39:28] em đã thực hiện việc đó và cũng là trải qua quá trình thực hiện được sinh dữ liệu như vậy là loại
+[00:39:36] mẫu mẫu việc cũng là từ mặt mỗi phóc thế nào thì đầu tiên từ thứ hai là đã thực hiện việc
+[00:39:41] mà thức nào kiểm tra lại là cũng như ghi ra và bộ các là những dữ liệu được sinh ra bảo môi nhiều
+[00:39:50] nhiều cây cốt đơn thành phần thất phai CSP ở 4 vòng để thành một bộ thí nghiệm tổng hợp.
+[00:39:56] Sau đó thì thực hiện kỹ thuật tống
+[00:40:00] kê để kiểm tra xem dữ liệu nó có bị trùng lặng có bị bố khóa nát hay không
+[00:40:05] thực hiện các bước như vậy thì sau đó thì cũng đã đến thời gian vừa rồi thì đã đến ngày hôm hôm trước
+[00:40:14] thì đã kết quả có kết quả nó phản quan hơn so với phần trước thì em đã ngồi với thẩm minh để cùng
+[00:40:22] nhau kiểm tra dữ liệu sinh ra thì cái kết quả như vậy có tính không thì mỗi lần đầu chạy thì hiện
+[00:40:27] Hiện nay, mùi của em có kết quả như thế này, các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé.
+[00:40:42] Hôm trước, em đã đặt vấn đề về mùi ban ra.
+[00:40:47] Nó về giá trị bổng.
+[00:40:51] Giá trị này là giá trị trải nghiệm.
+[00:40:53] Chuyện vấn đề true positive càng thấp thì càng tốt.
+[00:40:57] Hôm trước, em có thắc mắc tại sao nó về vụ không.
+[00:41:01] không thì em có kiểm tra lại, chạy lại, đoán đeo cho hữu ích.
+[00:41:05] Phương pháp như thấy trong hướng dẫn là đương toàn mình đoán bỏ một từ nhau đi và kiểm tra lại để chỉ chính xác.
+[00:41:12] Thì cái chỉ số này thì hiện tại nó đã khác lần hôm trước.
+[00:41:18] Cái nguồn măn DNA can này thì em đã chạy lại trên bộ thí nghiệm của DB.
+[00:41:25] Về mặt so sánh thì cái bộ măn DNA can này thì vẫn đang ở phương mặt của măn can.
+[00:41:32] thì còn cái nguồn nhờ cuối cùng cho một mình đang được xuất mới một mang ô tô tốc đơn thì
+[00:41:41] mùi này thì trong lần đầu tiên em chạy thì chứng kết quả ra đang rất là tốt như này có một vài
+[00:41:49] các cái bộ đi tơ thì gần như là vượt qua một trăm phần trăm có khoảng 20 lịch tơ thì vẫn
+[00:41:55] hiện ra trong mẫu hoạt động sinh ra thì em đang chạy lần thứ hai để kiểm tra kết quả này của mình
+[00:42:03] là có vấn đề gì không. Hiện tại thì với lần 1 thì những kết quả này của em thì em đã có tất cả các file CSV sinh ra
+[00:42:12] và em có dùng các công cụ tấn kênh thì các thông báo dữ liệu sinh ra thì nó không có vấn đề gì bất thường cả
+[00:42:20] và nó là dữ liệu nó không bị trình bỏng. Thì nếu mà em chạy thêm một lần nữa, hoặc một hai lần nữa
+[00:42:30] Kết quả này của mình không có vấn đề gì cả vì lý do này hoàn toàn đạt yêu cầu đặt ra
+[00:42:39] đó là mẫu thuyết trưng ra và mô hình mà phụ thuật hành động đơn giới Việt Nam đang xây dựng mẫu hoặc thất lượng
+[00:42:47] Đã trở thành kết quả lần thứ 2
+[00:42:51] Với kết quả lần 1 thì toàn bộ dữ liệu đã trích và thông qua các cục cụ AI trích những bội viện về thuyết trưng ra
+[00:43:00] Đây là cái bộ thí điệu mà em đã gọi là sau mỗi một cái dần chạy thì đều tổng hợp thành cái vượt kho thí điệu để có một bước xuống kê lại.
+[00:43:23] Ví dụ ở đây là vượt kho thí điệu.
+[00:43:37] sinh ra chính là mỗi một file sẽ chứa các cái mã đồng sinh ra và các mẫu mã đồng này đã vượt qua
+[00:43:46] được cái mẫu mã đồng thì nó cũng đều lưu lại để làm cho anh minh chứng. Thì cái này thì em cũng
+[00:43:55] đã báo cáo với giảm tính chung rồi em cũng nén lại toàn bộ các file này cũng dùng vào công cụ AI để
+[00:44:03] để test xem sụp dùng lặng của video này có vấn đề gì không, có video gốc.
+[00:44:08] Hiện tại báo rằng nó không dùng lặng.
+[00:44:10] Ví dụ sinh ra nó là động viên hành tinh thần thương hiệu.
+[00:44:14] Về hành tinh thần thương hiệu, em xin kể thông thầy
+[00:44:18] hiện tại bộ thảo SOSCT sẽ có một trải nghiệm phần độc và đáng chia sẻ.
+[00:44:28] Nếu em có thể hoàn thiện bài này trong thời gian thứ 3,
+[00:44:34] cái kết quả này thì em đã đến thời điểm này thấy là nó đã thêm một lần kiểm tra nữa thì
+[00:44:48] em đã kết quả rất là thật được từ từ trong cái giáo. Ở cái hội thảo SOICT thì em cũng đã tìm
+[00:45:00] hiểu qua rồi các chủ điểm để họ tùy bài thì họ có 2 khác nhau thì em cũng chưa biết là
+[00:45:09] Họ sẽ có một phần chuyên về thông tin và một phần chuyên về phòng máy.
+[00:45:20] Với phần phòng máy, họ lại có một phần liên quan lặng thang.
+[00:45:29] Trong chủ điểm của họ, họ có một phần về Security làm trên cụm.
+[00:45:39] Ở dưới này, họ có một phần liên quan đến thông tin .
+[00:45:52] Tuy nhiên, hội thẳng này còn có phần liên quan đến AI, gọi là relative AI, liên quan đến mục, các phần liên quan đến mạng gian, mồ hình sinh.
+[00:46:19] Chuyên độc hội thẳng rất là dễ dàng, nên thầy được nộp vào mục về AI hay mục về an toàn tin.
+[00:47:17] kết quả của em
+[00:47:25] bây giờ đang thầy trong đẹp của bạn thầy hiệu phó đang có giấy truyền chuyển nha tớ tôi loạn lắm
+[00:47:34] mày mà tôi còn chạy trước hiểu như kiểu sáng nay có quyết định cả đầy đầy báo cáo lên cả
+[00:47:49] khả năng sắp xuống phân biệt vật mạng phân biệt vật mạng
+[00:48:03] bán cơ yếu thì có trường với cả bác sĩ chính phủ
+[00:48:08] Nói chung là bác sĩ sẽ học làm kiểu nhà nước
+[00:48:17] Nhưng mà thầy ôm cái đấy chưa biết
+[00:48:22] không biết tôi biết thật nhưng mà khả năng chưa Bởi vì nếu mà đi phải cấp quản lý cao
+[00:48:58] sẽ phải hạ cánh xương thì biết hơi nhiều với cả bốn của anh bị hút thì mong nhanh tôi được
+[00:49:12] được thì khả năng là sẽ đi tại sự quản sự quản các nước lân cận với khả năng lào đếm nhà giả
+[00:49:22] nếu mà đi với cam với nhà thái thì thì hơi nhạy cảm chưa biết được khả năng cả bố mẹ tôi đi khoảng
+[00:49:43] tôi chỉ học bằng 60% thôi, vì tôi học trên trường ấy, nếu mà làm sinh trên trường thì sẽ không học bổ sung
+[00:50:07] Đăng ký cho ai ạ?
+[00:50:09] Đăng ký cho ai ạ?
+[00:50:11] Đăng ký cho ai ạ?
+[00:50:12] Đăng ký cho ai ạ?
+[00:50:12] Đăng ký cho ai ạ?
+[00:50:14] Đăng ký cho ai ạ?
+[00:50:15] Đăng ký cho ai ạ?
+[00:50:16] Đăng ký cho ai ạ?
+[00:50:22] Đăng ký cho ai ạ?
+[00:50:24] Đăng ký cho ai ạ?
+[00:50:27] Đăng ký cho ai ạ?
+[00:50:28] Đăng ký cho ai ạ?
+[00:50:31] Đăng ký cho ai ạ?
+[00:50:36] Chỉ có đề quản từ tầng công mạng. Với cả phòng thủ là 2 môn, bạn sẽ phải làm.
+[00:50:46] Ôi 200% em được phải làm.
+[00:50:48] 300% được chứ.
+[00:50:53] Đấy là làm phòng đấy là đúng không?
+[00:50:55] Đúng không?
+[00:50:56] Đúng không?
+[00:50:57] Đúng không?
+[00:50:58] Đúng không?
+[00:50:59] Đúng không?
+[00:51:01] Đúng không?
+[00:51:01] Đúng không?
+[00:51:01] Đúng không?
+[00:51:02] Đúng không?
+[00:51:09] Đúng không?
+[00:51:25] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:52:32] Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.
+[00:52:59] Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.
+[00:53:37] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:54:05] Các bạn thuộc 1.000 khu phòng
+[00:54:07] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:54:41] Mình có nói là không lý về kẻ mạnh
+[00:54:48] Kẻ mạnh đây là ví dụ những ngành giáo dục
+[00:54:53] Ngành giáo dục bác đời này
+[00:54:55] Chứ kêu gọi bác được
+[00:54:57] Như quân đội công an này
+[00:54:59] Đúng là hệ xuất cao được
+[00:55:00] Cái ngành giáo viên này xuất
+[00:55:02] Tôi tin nói nó cũng mạnh bằng
+[00:55:11] Thứ nhất là an ninh mạnh
+[00:55:13] Mạnh của mạnh luôn
+[00:55:14] 300%
+[00:55:20] Giáo viên thì nếu mà nói về quan trọng
+[00:55:22] Giáo viên thì quan trọng hơn
+[00:55:24] Mạng thì quan trọng nhưng mà làm sao
+[00:55:33] Nhưng mà người giáo viên thì lúc nào cũng là người cao quý nhất, nhưng mà lương vận chắc cũng thấp.
+[00:55:43] Nó vươn ra thêm một số tiêu chuẩn, không phải ai chứ.
+[00:55:48] Nó có chứng trị.
+[00:55:51] Chứng trị hả?
+[00:55:52] Quốc tế.
+[00:55:53] Nghĩa chứng trị hả?
+[00:55:54] À cái này.
+[00:55:55] Cho tỉnh.
+[00:55:55] Cho tỉnh.
+[00:55:58] Chúng ta hành hãy đối với nhau đấy.
+[00:56:01] rồi mấy vô nghỉ mùng 18 bây giờ phải nôi ra
+[00:56:05] đã soạn lại
+[00:56:06] một loạt phong thay
+[00:56:08] 10 đàn đô
+[00:56:14] mua nhà bỏ xe hết rồi
+[00:56:17] cái lúc kia không chả
+[00:56:18] không chả
+[00:56:21] không chả
+[00:56:23] không chả
+[00:56:23] không chả
+[00:56:26] nếu như đã bắn sai phạm
+[00:56:28] ông đã sai phạm rồi
+[00:56:30] bây giờ không chả chết
+[00:56:32] ông ấy cũng sai
+[00:56:34] và ông sẽ được nghỉ hưu
+[00:56:37] tài chính đã là sai nguyên tắc tài chính rất là có mục tiêu mà nó cũng có mục tiêu của trả
+[00:56:49] nó không trả gì đâu
+[00:56:52] tương đương
+[00:56:53] tương tất nước dân
+[00:56:55] thế mà cái kết hợp với UB
+[00:56:56] thì ok
+[00:56:57] thế nhưng mà
+[00:57:02] riêng tiền
+[00:57:03] một cái chi sai
+[00:57:04] cái loại sai thì nghĩa là tiền
+[00:57:06] nó là cái sai
+[00:57:08] ông cầm tiền đấy
+[00:57:10] thì có nghĩa là tiền đấy không có
+[00:57:12] đấy nó giỏ
+[00:57:14] thế là mình đoán là
+[00:57:17] nó nhằm
+[00:57:19] nhằm vào thuần tiền thôi
+[00:57:24] Như thế nó khá là bất cập. Bởi vì tiêu chí của 1.8 là không xét được vị trí của họ.
+[00:57:41] Nếu mà họ vẫn còn tốt đắt thì vị trí của họ sẽ là khác, mức lương của họ sẽ là khác.
+[00:57:49] Bây giờ phải thu hút lại toàn bộ
+[00:57:51] Cho họ
+[00:57:53] Cái học về đó
+[00:57:54] Không phù hợp
+[00:57:57] Nó sai chứ này
+[00:58:00] Mình thì không biết sai đâu
+[00:58:01] Nhưng mà nếu nói thì nghe ký sinh giờ nó bảo
+[00:58:03] Ông ban mặt cả trời
+[00:58:05] Nói chuyện thiếm một xíu
+[00:58:08] Nói về cái
+[00:58:09] Nói chuyện thiếm một xíu
+[00:58:11] Đúng quá
+[00:58:15] Điều giải
+[00:58:18] Đấy là cái
+[00:58:27] bình thường không về thì cũng cầm nhiều tiền về quán thì là nó phải nó phải hỏi cái gì phải
+[00:58:36] lưu không xác ngoài hỏi như vì không vừa được lưu vừa cầm một khoản tiền to này mấy tỷ người
+[00:58:52] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[00:59:24] Vì ai đỡ bây giờ, tôi vẫn là một trong những cái đũ, tức là một hầu tiệm sợ hãi, toàn hầu tiệm người cũng sai, người cũng mong manh
+[00:59:41] Đôi khi là nó cũng cái thời hiểm, cái thời hiểm đấy nó phải làm thì nó mới làm được
+[00:59:49] Nếu mà không làm thì phải làm thời hiểm, còn đấy thì phải mỏi trong người ta rồi
+[00:59:55] Người ta biết là sai nhưng vẫn phải phải làm
+[01:00:05] đó là tiền vẫn mất thằng muốn cho nghỉ chịu suy nghĩ không có trong nghỉ thì nó lại đâu rồi đấy
+[01:00:15] anh Sơn là một tình hình anh Sơn nói thẳng nếu anh Sơn vẫn phải làm chuyên môn có tốt
+[01:00:43] bài toán về về quản lý về làm cái bài toán rất lớn
+[01:01:04] trường em thì là một trong 23 trường toàn cư trong cả nước là tự chủ tự chủ toàn phần trường em sắp
+[01:01:25] trường Việt Hung
+[01:01:26] bên đấy thì nó yếu hơn cũng khá nhiều
+[01:01:28] lực lượng bên em rất là lực chính
+[01:01:31] tuy nhiên thì
+[01:01:33] cũng bài toán về nhân sự
+[01:01:34] cũng là một vấn đề vì khi mà ghép
+[01:01:36] hai nơi thì nó sẽ là ghép thêm ngành
+[01:01:39] ngoài ghép đơn vị nhưng mà có ngành
+[01:01:40] nữa thì nó dẫn đến câu chuyện là
+[01:01:42] cái chuẩn
+[01:01:44] của duy trì ngành thì bắt buộc
+[01:01:46] phải đạt được nhưng mà nó rất khó trong
+[01:01:48] việc đội ngũ
+[01:01:49] thì đấy là một cái vấn đề
+[01:01:52] có rất nhiều vấn đề khác nữa
+[01:01:55] Em nghĩ là mỗi thời mỗi thế
+[01:02:00] Đều phải nhìn nhận
+[01:02:01] Và xem
+[01:02:02] Các lãnh đạo tốt tài tốt khéo
+[01:02:05] Mà xử lý và duy trì
+[01:02:06] Mà sử dụng nhân lực thế nào
+[01:02:09] Cũng giống như là
+[01:02:10] Thầy hay là mọi người cũng vừa nói
+[01:02:12] Mình không thể nói trước được hôm nay
+[01:02:13] Có thể mình làm đúng nói đúng như này
+[01:02:15] Nhưng mà sau một thời kỳ khác
+[01:02:16] Nó là câu chuyện khác
+[01:02:18] Câu chuyện là mình có đủ nhìn nhận ra
+[01:02:20] Đấy là vai trò vị trí của mình
+[01:02:24] Mình lúc này nào phức tranh toàn cục thế nào
+[01:02:25] Nó lại là một câu chuyện
+[01:02:27] Mà phải đòi hỏi một cái tư duy
+[01:02:29] Của những người ấy là nó đủ
+[01:02:31] Một tầm để thôi
+[01:02:39] Nhưng ai nghỉ hưu
+[01:02:40] Mình cũng đang nghĩ nghỉ hưu về là khoảng youtuber
+[01:02:43] Ui thầy
+[01:02:44] Youtuber bị giặt
+[01:02:46] Giặt bạn kia quá
+[01:02:49] Thầy
+[01:02:51] Thầy
+[01:02:53] Thầy
+[01:02:59] Cái đấy thực ra bản chất em nghĩ là nó thu lợi của YouTube quá nhiều mà nó lại lọt vào ngân sách nhà nước nhiều quá
+[01:03:10] Vì lợi cá nhân nhiều mà nhà nước không được hưởng lợi
+[01:03:13] Thì đấy thôi, những người đầu trò đánh điển hình thôi
+[01:03:17] Chứ còn sẽ rất nhiều người
+[01:03:34] Vâng.
+[01:03:37] Vâng, phải thế thầy. Trên năm 2020, 2019 toàn bởi cái ảnh hưởng xấu dưới trẻ.
+[01:03:52] như là YouTube hoặc là các cái doanh nghiệp Mỹ lại không có chi nhánh ở Việt Nam không
+[01:03:58] không phải đóng thuế quá nhiều
+[01:04:00] mới phải làm
+[01:04:01] cái thằng tên đó là
+[01:04:04] Hải Sapa
+[01:04:07] châu thịt châu ẩn độ
+[01:04:10] nếu so với cái thằng kia
+[01:04:11] thì nó bình thường
+[01:04:12] nó không quá bình thường
+[01:04:14] nhưng mà chắc nó còn bù lọc
+[01:04:16] Hải Sapa
+[01:04:18] nó chắc là bù lọc gì cả
+[01:04:21] Hải Sapa
+[01:04:21] thấy là một cái bài viết
+[01:04:24] nói một cái tổng thể của Hải Sapa
+[01:04:26] nó xuất phân từ gọi là
+[01:04:29] Đầu tiên là chỉ lái xe du lịch
+[01:04:32] Lái xe du lịch
+[01:04:33] Sau đó là qua các lái xe du lịch
+[01:04:36] Thì bắt đầu mới là
+[01:04:37] Từ đấy bắt đầu mới là qua các liên lạc về mặt truyền thông
+[01:04:40] Thì bắt đầu mới làm YouTube
+[01:04:43] YouTube sau bắt đầu mới quen
+[01:04:44] Cái đội Huấn Hòa Hồng rồi là Phú Lê
+[01:04:46] Thì lập một cái đội gọi là Anh Em Kết Nghĩa Vườn Đào
+[01:04:49] Thì bắt đầu là cái mảng
+[01:04:50] Mảng làm cái mảng đấy
+[01:04:52] Và cộng với cái đội của cái mảng
+[01:04:54] Của Huấn Hòa Hồng Phú Lê
+[01:04:55] Cái thứ là làm cái YouTube
+[01:04:57] của YouTube nhưng mà bản chất của YouTube đấy lại kết hợp nhau là làm các cái bán kinh doanh ở trong
+[01:05:02] nữa ở trong đấy thì một trong những cái việc ý là đó chính là quảng bá các sản phẩm trong đó là có
+[01:05:07] cái thịt trâu là ngoài ra thì có rất nhiều những cái quảng bá đương nhiên là làm YouTube nói quảng
+[01:05:12] bá thì nó sẽ không đúng sự thật không đúng sự thật cho chỉ là một cái một cái lý do chủ yếu là
+[01:05:23] phụ lệ
+[01:05:27] nhau đấy thì quấn hoa hồng với phụ đen
+[01:05:36] nhưng mà chắc nó cũng có một số chữ và
+[01:05:59] cả 3 cái chỗ đấy đều là quyên có tiền tài trợ rất nhiều lấy cái tiền tài trợ đấy nhưng mà tiền
+[01:06:06] nhiều nhưng mà thực ra là tất cả các tiền tài trợ của các
+[01:06:09] đơn vị ấy là nơi mà mình nghĩ là hình ảnh thì không phải
+[01:06:13] tội. Nếu mà đúng thì đúng rồi. Không sai thế này thì thì sai
+[01:06:23] vậy. Hôm nay có một cái đời báo có một đời báo của một cái
+[01:06:29] cầu là giám đốc của công ty về cái cái quản thuyết đưa lên
+[01:06:44] Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+[01:07:12] Nếu như làm ăn chân chính thì lại nó cũng đáng, làm ăn chân chính thì lại cũng đáng.
+[01:07:20] Làm ăn để có một kỳ xảo thì chỉ có việc là dựa cái kỳ xảo đấy thì đúng.
+[01:07:33] Nếu như mà điều tra cho đúng thì là đúng, mà không cho đúng thì là nó là sai.
+[01:07:47] sửa sửa bột sửa bột nhưng mà thực ra cả cái bộ xây là sửa bột đầu nành này rồi cả cái bộ
+[01:07:57] được thanh tách ăn xanh đi kiểm kiểm tra lúc đó là nó đủ thân là là chuẩn nhưng mà khi đưa ra bán ở
+[01:08:05] Ngoài cả cái nhiệt độ đủ thực tiểu
+[01:08:08] Nó tác động vào
+[01:08:09] Thì nó giảm xuống một chút
+[01:08:12] Bình thường là 5%
+[01:08:15] Bây giờ chỉ có 48% thôi
+[01:08:16] Thì cái sản phẩm đấy
+[01:08:18] Sẽ được quý vang
+[01:08:20] Là 4 bản thân giảm
+[01:08:22] Rất chỉ thấp hơn một chút
+[01:08:24] Nó sẽ trở thành 4 bản thân giảm
+[01:08:26] Bởi vì theo cái
+[01:08:28] Thông số mà bạn đăng ký
+[01:08:30] Là nó 5%
+[01:08:31] Bây giờ tự nhiên là 4%
+[01:08:34] Thay biệt là tất cả mọi cái
+[01:08:35] Chắc nó đều có sự biến đổi. Nếu như vậy, ta không dừng trong môi trường.
+[01:08:40] Nó đúng. Nó không đúng do phần chuyển là cái gì, nó sẽ sai sổ.
+[01:08:46] Nó sai sổ đưa ra là đương nhiên là quý bà thằng giả luôn, thằng giả kém chất lượng.
+[01:08:53] Đấy, nó nguy hiểm như thế.
+[01:08:54] Ngay cả cái bản đồ xanh của Hải Dương chẳng hạn, ai chẳng thẳng định ra là cái tiêu chỉ, tiêu chuẩn đấy nó chuẩn đâu.
+[01:09:03] Khi mà đưa ra thị trường xáy rồi ép được thế nào đưa ra thị trường cái thật phần vẫn còn.
+[01:09:09] Nó có chỗ đấy. Nên khi mà bọc tách ra là dễ lắm.
+[01:09:16] Dễ lắm thật. Rất mong manh. Kiểu như Tung Tung mà đi xói thì đừng lấy ai xói thì làm sao mà thoát được.
+[01:09:29] Bật quyền. Bật quyền. Bây giờ em bảo cầu thê là bật quyền. Đơn giản thế này.
+[01:09:38] Thực ra ở Việt Nam mình mua được bản quyền mua rất dễ
+[01:09:41] Nhưng mà đầy cả cái bản quyền đấy
+[01:09:44] Nó sẽ trở nên rất đắt
+[01:09:45] Cái máy tính biên thường chỉ có 12-13 triệu
+[01:09:48] Bây giờ thêm được khoảng 13 triệu nữa
+[01:09:50] Một cái bản quyền
+[01:09:52] Bản quyền là Win
+[01:09:52] Xong rồi Optic nữa
+[01:09:54] Optic thì nếu như Optic dùng ngoài mạng
+[01:09:56] Thì cũng đâu đó có gần 4 triệu
+[01:09:58] Đấy gần 4
+[01:10:00] triệu, chưa kể về Optics của Photoshop, chưa kể đến các cái phần mềm khác thì
+[01:10:04] nó không phải là 13 triệu. Thì đương nhiên là sinh viên mình làm sao để cái đó truyền được thông
+[01:10:12] tưởng. Đơn giản như thế thôi. Ví dụ như nhà em, nhà em có 40 tỷ và tất cả bản quyền thì cố lương
+[01:10:23] bây giờ đúng thì kiểm tra thì không kiểm tra
+[01:10:29] thế Việt Nam của mình bây giờ em nói thầy vì các trường đại học
+[01:10:35] ví dụ trường bác khoa thì có bao nhiêu sinh viên dùng bản quyền của photoshop
+[01:10:43] hoặc là phần bên alsocard
+[01:10:56] nó phải bắt nguồn nguyên gọi đồng Adobe
+[01:10:58] chỉ có thể là
+[01:11:10] tải nguồn không trình thống
+[01:11:12] Đấy tất cả cũng mua thằng truyền thống nghĩa là lẫu
+[01:11:15] Thì vâng thì
+[01:11:16] Không có thằng truyền thống
+[01:11:18] Hoặc là ông đưa cả cái trang để crack
+[01:11:20] Thì chắc gì ông đi
+[01:11:23] Vâng
+[01:11:25] Thì đấy
+[01:11:25] Có những vấn đề cực kỳ năng giả
+[01:11:28] Đúng hay sai
+[01:11:30] Tất nhiên hẳn tỷ hẳn tỷ
+[01:11:37] Hẳn tỷ hẳn tỷ
+[01:11:40] Chỉ đâu chả sai
+[01:11:42] Vấn đề là có văn thích không
+[01:11:45] Ông có gì mới thay đổi không
+[01:11:48] Em chưa có gì đấy
+[01:11:51] truyền hợp thời gian kết hợp cả thứ 3, cả phần bộ, kế mặt chạy.
+[01:11:58] Chắc là xong rồi.
+[01:12:00] Mình rất hy vọng bài gửi được chức nha.
+[01:12:03] Bài này mình thấy thời mặt chất lượng chắc còn 2 tuần nữa.
+[01:12:11] Nhanh nhất.
+[01:12:12] Hy vọng thế cũng được 1 tuần thôi.
+[01:12:15] Phấn mới gửi ký ký với Tuấn.
+[01:12:17] Đó là lúc này em cũng chuẩn bị bài báo.
+[01:12:22] Lại thì em quyết thành bài báo.
+[01:12:25] Đối với em, hiểu sâu là cái gì em? Có gì đảm biệt?
+[01:12:27] Chi tiết mình sẽ đọc.
+[01:12:29] Anh bảo có thể là con môi hộp của em có hợp tác của chúng ta, hoặc là hợp tác của các bạn.
+[01:12:43] Chị Minh Thị cũng chắc là huyện Thực Vĩ Giang.
+[01:12:50] Chắc mình cũng chắc luôn nhỉ.
+[01:12:56] Cảm ơn các bạn đã theo dõi và đăng ký kênh của mình.
+[01:13:44] Cảm ơn các bạn đã theo dõi và hẹn gặp lại.
+[01:14:14] Đồng thời, sau nhiều bài viết bẩn, vừa qua anh cũng cử khả năng là nhiều để mà viết bản gói này.
+[01:14:24] Trong bản gói này, tôi tự kiếm là tên của bản gói này.
+[01:14:26] Tên của bản gói này là F.L.F.A.
+[01:14:33] Như vậy, F.L.F.A. có nghĩa là Front Level Feature Presidual and Be Anti-F.A.
+[01:14:46] cái tên này tập dối não
+[01:14:57] bỏ cái quýt
+[01:15:02] video
+[01:15:03] video protection chắc chắn là em được cái tên này
+[01:15:15] mô hình
+[01:15:24] mô hình trên mạng hơn cái bài bảo tâm tìm em cũng đánh viết hài báo rồi trong đấy thì mô hình đấy
+[01:15:37] các bạn cái mô hình tương tự như thế này sau đấy kìa qua cái bước sau đấy kìa sử dụng sau khi mà
+[01:15:56] và qua cái mạch mòn phần này tăng đi thì mình sẽ sử dụng các đặc trưng
+[01:16:00] trong mỗi một cái framework trong Excel.
+[01:16:05] Phần này rõ ràng rồi.
+[01:16:07] Phần sau không?
+[01:16:09] Phần sau đấy là nó sẽ chiếu các cái framework này,
+[01:16:16] gồm là chiếu các cái framework này
+[01:16:19] để được đưa qua một cái framework Feature Red Symbol.
+[01:16:28] của nó là để mà nó sẽ bắt được các cái khác nhau
+[01:16:36] với nhau sẽ có thông tin
+[01:16:54] ở đây mình sẽ chọn ra các cái đặc trưng mà nó khác nhau không không không có giống nhau
+[01:17:06] tính năng này cũng gần tương tự như tính năng Cell Subtract trong bài báo IST-OPT
+[01:17:16] và nó đang ở trên IED của năm 2018.
+[01:17:21] Bài báo này được phát dụng, được khám chiếu khá nhiều.
+[01:17:27] Bài báo này được tìm theo một lực lượng chính xác của crop attention,
+[01:17:40] cho đến bây giờ thì các nội dung mà cái mô hình tích hợp đối với cái cảnh về thời gian
+[01:17:50] sau khi thực hiện quá trình để trích xuất các đặc trưng khác nhau các cái trong cái
+[01:18:01] Ví dạng họ sẽ đưa qua mô hình Transformer Hand Folder
+[01:18:05] Tại mô hình Transformer Hand Folder không sản xuất được mô hình Transformer Hand Folder tổng thường
+[01:18:10] Họ sẽ sử dụng cơ chế Diagonal Max
+[01:18:16] Điều hợp kênh Shell Attention
+[01:18:19] Sẽ che chín chiếc nó
+[01:18:24] Để từng các trải nghiệm, khi nó so sánh với nhau
+[01:18:28] Nó không so sánh với chiếc đó
+[01:18:31] Khi mà nó so sánh với trị đó thì cái giá trị nó so sánh với trị đó thì nó sẽ cao nhất so với tất cả
+[01:18:37] Cái việc nó so sánh với người khác, với người khác thì đấy là hai cái cơ chế mà đề xuất ở trong cái mô hình này
+[01:18:46] Thế thì ở trong cái bài báo của anh Phụng Vương nó giải thích về cái cơ chế đó có cả cái thử nghiệm
+[01:18:52] Thì trong bài báo này đối với giá trị của anh Phụng Vương
+[01:19:06] có nghĩa là đối với các cơ chế của 116 triệu tham số thế nào nó hữu sự là nó nhỏ hơn khá nhiều so với
+[01:19:19] Ví dụ như là COVID-19 thì nó nặng 600, 600, 600, 300 triệu.
+[01:19:33] Giờ đây nó thấy COVID-19 thì nó nặng hơn 100 triệu.
+[01:19:37] Với cái vụ kẹt của em, nó nặng 100 triệu.
+[01:19:43] Còn cái khác là phụ hành về nặng, nặng giải thích, nặng là tên của em.
+[01:19:54] Các bạn xem phần intro ạ, introduction.
+[01:20:03] điện thoại phần can lọt điện can lọt mình làm cái gì hay đối với anh cái cái thằng đi cho
+[01:20:10] nó dần này thì chúng nó là nói đến cái việc mà hiện nay đối với các cái mô hình hiện nay trong
+[01:20:19] việc phát hiện tích thì là về cơ bản là là là đối với bằng các cái kết quả và đánh giá ở trên nội
+[01:20:28] tập là nó vừa đường đã bảo bảo rồi có nghĩa là cái được độ chính xác hoặc là các cái chỉ số AUC
+[01:20:37] Nó gần như tuyệt đối rồi. Nên là cái sự so sánh thì nó không tiên về kinh tế độc tập.
+[01:20:47] Và nó chủ yếu là so sánh đối với các huấn luyện ở trên tập dữ liệu tầng và kiểm tưởng trên tập dữ liệu khác.
+[01:20:56] Cái tinh thẻ trong bài này của em cũng là huấn luyện ở trên những tập dữ liệu
+[01:21:00] tập dữ liệu, K-Pholex, hoặc là DLPC, và test ở trên tập dữ liệu là SelectDF.
+[01:21:07] Đúng là test trên tập dữ liệu lên tập.
+[01:21:10] Đối với bài báo hiện nay, thông thường khi mà huấn luyện ở trên tập dữ liệu, ví dụ K-Pholex chẳng hạn,
+[01:21:17] hoặc test ở trên tập dữ liệu SelectDF, thường là nó sẽ rơi xuống độ phục tự chạm,
+[01:21:24] Kể kể AUC thì nó sẽ rơi đến số khoảng 99%, nhưng mà khi nó test ở trên liên tập thì nó sẽ rơi đến số khoảng 60-75% thôi.
+[01:21:41] kể cả là cái mô hình là gian phân tích thì nó cũng chứng nhận xét liên tập thì nó chỉ
+[01:21:51] rơi được đến khoảng tầm trên 50% khi nhìn kẻ xét cái mô hình liên tập cũng chính vì như thế là
+[01:22:02] bây giờ mình nghĩ rằng anh phát hiện đi phanh kế suất nguồn thuộc sâu không đi về mặt nghịch
+[01:22:12] thủ sinh năm nay rồi chụp mới mới đúng không đúng không mình luôn mới mình mới mới ở đây có nghĩa là
+[01:22:26] đó là là lấy xuất một cái mô hình để mà có thể phát thương nhưng mà nó phải là nó có khả năng
+[01:22:36] tạo thoát hóa tốt tốt hơn cho các cái mô hình hệ tạo tạo thoát hóa thể hiện ở chung quanh hình tạo
+[01:22:43] thoát hóa thể hiện tạo thí nghiệm là huấn luyện ở trên một cái mũ sĩ liệu và để trao ra trên một
+[01:22:47] cái mũ sĩ liệu tương tự thì nó phải là inter data set đúng không cái cái inter data set nó nằm ở
+[01:22:54] ở đâu trong phần xác và chưa xếp phần tiêu đề tiêu đề tiêu đề
+[01:23:32] nó chỉ là một mặt chứ bây giờ cái vấn đề mà em giải quyết mà được thiệt được sự cột phá
+[01:23:46] đây nó là cái gì cái gì phải chăng đó là inter domain cross domain cross domain nó được thể hiện
+[01:23:59] thể hiện tầm quan trọng chỗ nào trong tất cả cái cái cái đấy thì ở trong thương mẹ em chưa thể hiện
+[01:24:08] cái việc đó nhưng mà trong hết chắc thì đã thể hiện rồi rồi em cho anh đi cho con trong intro
+[01:24:15] hoặc trong tất cả những có mục riêng cho nó không biết cái định sản không không nói mà thể hiện ở
+[01:24:23] trong trong khách kế nội dung vẫn kìa vẫn đừng xem nội dung sau mấy sau mấy mấy cái bác tạp chí vừa
+[01:24:33] rồi họ không đồng ý với cái bài này
+[01:24:35] thì người ta phải nghĩ lại
+[01:24:37] và nói lại rõ hơn
+[01:24:39] đa số họ nghĩ là mình đề xuất
+[01:24:42] một phương pháp giữa trường sâu
+[01:24:44] để cải thiện gì đấy để người ta lấy
+[01:24:47] nhưng họ cảm nhận là nó chưa có gì
+[01:24:50] đáng giá
+[01:24:50] với đặc biệt trên các tạp chí lớn
+[01:24:53] trên tạp chí lớn là họ muốn là
+[01:24:56] bài này đề xuất cái gì đấy
+[01:24:59] một cái vấn đề gì đấy mà
+[01:25:01] thật sự nó là mới
+[01:25:07] cho nên thầy mới hỏi tôi một câu
+[01:25:08] như em nói là
+[01:25:10] đó là trên cross nó là vấn đề quan trọng, ít thằng nó lớn. Thì mình có thể tự tiêu đề cho tổng mục riêng nó.
+[01:25:31] Vừa rồi mình thấy là đáng không có người nói là, đây ông chỉ có mỗi lần, thấy thằng này làm hay, không ghét thằng này làm hay với nhau.
+[01:25:39] để trở thành một cái thằng này
+[01:25:42] thì các bạn chưa có gì đồng ý
+[01:25:45] ok, tốt
+[01:25:48] nhưng chưa phải là
+[01:25:51] nó gọi là gì
+[01:25:52] interesting nhưng mà
+[01:25:57] I'm sorry
+[01:25:59] very interesting
+[01:26:00] but I'm sorry
+[01:26:00] I'm sorry
+[01:26:03] cái gì
+[01:26:05] cái gì thể hiện là
+[01:26:06] cái điểm gì đó mình
+[01:26:09] chưa đúng
+[01:26:12] thầy thích đi nhé
+[01:26:19] bây giờ ta phải bàn kia nhau em là cái cái vấn đề chính của em cái bên coi cái điểm mà là lấy điểm
+[01:26:35] điểm vấn đề vấn đề lúc ta đang muốn giải thích đó là mình phải toán thì các bạn khó rồi đúng không
+[01:26:52] Đấy, để em thấy là đúng là cái Drop Dataset ok.
+[01:26:58] Vâng, chính là cái đấy.
+[01:27:01] Ừ, để em thể hiện tiêu đề cho tới một cái mục ở trong.
+[01:27:07] Trong cái phần Distribution này của em là đều xoay quanh cái vấn đề Drop Domain đấy.
+[01:27:15] Phần Address cũng xoay quanh cái vấn đề Drop Domain.
+[01:27:18] Nhưng mà trong cái phần tiêu đề chưa đẩy, thì anh sẽ phải sửa lại cái phần tiêu đề.
+[01:27:35] Trong tất cả những vấn đề dưới cũng đều đề cập kinh tế nguyên hợp đánh giá trên một dữ liệu khác, một dữ liệu chưa nhìn thấy để tăng kết quả của những dữ liệu chưa nhìn thấy.
+[01:27:57] Trong tất cả các nội dung dưới đều đề cập một cái như thế này.
+[01:28:00] và trong các cái luật tập các chứng minh cũng nói thế hệ đó trong lý cái này em cũng cử khoảng
+[01:28:12] 55 lần nghe sinh đầu lên chưa đặt ra câu hỏi là nếu đặt ra cái bè là cái gì đấy em bồ con
+[01:28:28] cho nó được không được lúc đầu em cũng như thế rồi nhưng em thấy là nó nó nó nó nó nó nó chưa nhấn mạnh
+[01:29:08] nếu mà
+[01:29:12] nếu bằng cái nếu mà thật sự nó hay kiếm dự đoạn vòng 12 câu vật vòng nó cũng không phải tắt kẹt
+[01:29:21] cái hiểu đấy nếu như có đúng đấy và thực ra là trong toàn bộ cái xoài này thì cái góc lên mới
+[01:29:32] là cái tính và em giáo dế còn tính cái cho nên là nếu đúng như thế thì đến ngay từ tiêu đề cho
+[01:29:41] đọc quá là nó tràn ngập được
+[01:29:45] chưa thằng nào mà làm được điều đấy
+[01:29:46] thì mình là làm
+[01:29:49] tính ra mà nếu em làm như thế thì mình nghĩ là sẽ ăn hiểm
+[01:29:56] ok
+[01:30:01] tất cả kết quả sau phấn mình nghĩ là cũng thậm chí cái mình nghĩ chả làm thêm cả vấn đề làm
+[01:30:07] thế nào đặt nó vào một cái cái cái cái cái điểm rơi thôi cái là cái kiểu mà sự quan tâm
+[01:30:20] đều đều đều nó cũng giống như người khác làm thôi đấy thấy là mẹ hay là mẹ hay không tồn
+[01:30:26] tất cả mọi người nhau mà không phải kiểu đấy tên phản thì không phải đấy mình làm tạm dõi
+[01:30:41] quá đầy đủ vừa
+[01:30:50] đủ mình có mình mình đã mình đã đi thay hai ngõ một đã có nguyên liệu về tình cảm thành
+[01:31:00] nhưng mà vấn đề là người cho cho thị trường biết cái bảng phối mình là thật chất ngon hơn với thằng
+[01:31:06] khác đấy là nhiệm vụ của phấn hiểm quá chứ là trả lời cho mình có hỏi câu hỏi từ quá chính là cái
+[01:31:14] được cái gì thì tự nếu em nói là có tư vấn của chính thì em cũng không hiểu hiển quỹ thì chúng
+[01:31:27] bây giờ thôi em thì mình nói trước là ngoài cái chắc ngon rồi làm thế nào để gắn vào nó
+[01:32:01] Câu hỏi lần sau nhé, nếu mà mình làm luân án, học sâu cho pháp lịch bí phách tiếng Việt, thì điểm nhấn nó là cái gì?
+[01:32:14] Về mặt học tuần, nó là cái gì mà người ta sẽ thể thức được?
+[01:32:17] Có thể là em nghĩ rằng là cái bài của các em thì nếu như mà thay nó mà em được thì em nghĩ rằng là em đang giải quyết vấn đề của tiếng Việt từng ngày ra được con người tiếng Anh nhận thức được và em sẽ tập trung theo cái hướng là tiếng Việt về cái cơ sở dự điều mà em đang đăng kế trên cái cơ sở dự điều này.
+[01:32:47] Bây giờ, cơ sở video được 1.500 bản tin, cộng với 100 bản tin từ Sinh và Hà Nội
+[01:32:55] Đã tiến hành từ đây đến nay
+[01:33:00] Đấy là cái tâm lưu lợi của bản tin của chúng ta
+[01:33:03] Họ sẽ bảo vệ tiếp tục thế niệm để khi data xác định
+[01:33:07] Và thưa quý vị, bài sẽ không có bổ
+[01:33:11] Bài được đưa là hỗ trợ tiền thay đổi nhất
+[01:33:14] Bài còn sẵn sàng từ xưa đến giờ
+[01:33:20] Nếu được đi qua bên nhạc báo cáo thì cũng phải slide thầy, chuẩn trí trước.
+[01:33:27] Thì bà Hai Khánh Minh có rối, mình cũng làm.
+[01:33:30] Các tù học ngay từ ngu dụng đó là các slide chúng ta phát hiện.
+[01:33:33] Đó là hai cái điểm này.
+[01:33:38] Thì chỉ nói cho em là tất cả các chủ đề của Cát Minh cũng chuyên như vậy.
+[01:33:42] Thường chuyên game phải thảo sát xem người ta đã làm, người ta đang làm, người ta sẽ làm gì.
+[01:33:48] Trong tất cả những công trình, nếu game vào năm 2026 thì em phải thảo sát đến tận tháng 9 2026.
+[01:33:55] thì mình biết là xuống thế này mà khi xuống thế nó ra thì người ta là nhiều lĩnh vực này thì đương
+[01:34:10] nhiên đến mình lao lên là lao vào đá đúng không? Thế nhưng mà người ta lao phía Bắc thì mình lao
+[01:34:17] phía Nam. Phía Nam là cái gì đúng không? Đấy tức là mình phải đặt hết để xem người ta làm gì. Tiếng
+[01:34:28] Việt đúng là mình cũng thích người khác nhưng mà chắc chắn là cái gì thì em cũng phải nói thành lời
+[01:34:34] thay vì bài tiết rồi.
+[01:34:39] Em bảo thầy vì cái lúc tình huyền nữa nè,
+[01:34:42] em cần 3 tuần được,
+[01:34:43] để làm data set của mình.
+[01:34:45] Có data set của mình thì mình rất khó để tìm cụ ta được.
+[01:34:50] Em để ý cái đó,
+[01:34:52] chân một cái kinh tế mạnh.
+[01:34:57] Rồi, hiển lực.
+[01:34:58] Ok.
+[01:35:00] Minh, cám ơn thầy.
+[01:35:04] Nghe rồi mà nhưng mà chưa rõ.
+[01:35:10] Bây giờ thầy hỏi Minh là
+[01:35:11] cái kết quả đó thì thầy đặt tay tổ lực.
+[01:35:17] Trong tháng 9 em gian được cái bài bản hẳn không?
+[01:35:21] Đợt nghỉ lễ em gian viết một bản draft, khoản kinh nghiệm về xã hội.
+[01:35:29] Với các bạn khác, nói với mình, gian viết ngay từ đầu.
+[01:35:35] Vâng. Ý là em cũng có một khoản kinh nghiệm.
+[01:35:41] Mấy hôm nay, đợt nghỉ lễ, em báo cáo thầy là 1,59.
+[01:35:46] Giờ này em báo cáo thầy là 1,76.
+[01:35:49] Tức là cái đợt đấy giả sát lại thì nó không có lỗi.
+[01:35:56] Các bạn có thể tự tin là có thể sử dụng được cái tạp chí tư dân đấy chứ?
+[01:36:07] Vâng, cái chủ đề rất là sáng, rất là ngon, rất là tự nhiên, rất là hữu hữu.
+[01:36:16] Vừa rồi mình ngồi rất nhiều cái luận án như thế là, các bạn em cũng nói trời đền gì, nhưng mà trong các cái phần thông tin sáng sáng nghe mà không có công trình sát nút của em thì trái tim.
+[01:36:26] Vì năm nay 26 mà em không so sánh với những cái công trình 6 tháng trở về trước, năm 1 năm trước thì không ai tìm.
+[01:36:38] Có cái gì không?
+[01:36:42] Em so sánh với sát giạc của cái bộ quý liệu đấy luôn. Sát giạc của bộ quý liệu đấy thì họ cũng khá là sản xuất.
+[01:36:49] Hay không hay tư thọc xuất, hay là tư thọc xuất bằng người.
+[01:36:52] Hoặc là đang đưa cài để sử dụng hết phòng.
+[01:37:01] Như vậy sắp tới nhá, cái OECD thì Nam đang ký một vài đúng không?
+[01:37:06] Cái này thì đã diễn rồi.
+[01:37:08] Hạt còng thì là Lam rồi đúng không?
+[01:37:11] Chứ còn cái ngụy tạo FCK thì đang ký mình một vài.
+[01:37:34] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[01:38:22] cho mình mình con tới mình trình bày kỹ thuật này nghe là cái gì buồn tính như thế này cũng
+[01:38:29] phải là thầy thầy còn đang vắng vất ở trên nghe được nhưng mà thầy chưa thấy gì mày phận gì buồn
+[01:38:37] muốn đi sâu vào toán đóng góp của bạn thì đấy là cái em phải trình bày sắp tới mình rõ ràng là gì
+[01:38:48] buồn tính như thế nào đấy như thế nào và ảnh hưởng gửi bọn đấy như thế nào và mình cải thiện cái gì
+[01:38:58] có gì mà liên quan đến cái gì bộ tộc và đối với là nếu em tiếp tục làm lưu sinh thì các
+[01:39:09] thầy bài toán rất có ý nghĩa bài toán sinh được cái chuỗi cái xuất tích mà SPL nói mà
+[01:39:17] ứng dụng được thì quá xứng đáng ở luật án luôn em cũng mong có cái tương lai là quan thể
+[01:39:45] mà lần này thì em sẽ chỉ tập trung vào hai phương án là mốt với cả si quần gan chứ không
+[01:39:51] cần phải quan tâm mấy điều em và em làm hết mất chạy
+[01:40:00] chạy tối đa có thể với gốc rết của nó, và sau đó là tìm cách cải thiện nó.
+[01:40:08] Thầy có nhiều cách cải thiện nó, nhưng mà thầy muốn em phải hiểu về nó.
+[01:40:12] Lúc thật xinh thì ok, lúc thật xinh thì thế này, lúc thật xăng.
+[01:40:18] Như vậy là 15 tháng 01 là hạn của FGK.
+[01:40:23] Như vậy em sẽ có từ tháng 9 tháng 10.
+[01:40:25] 8 tuần, 2 tuần về tuần.
+[01:40:29] Thế thôi. Bạn này cũng tối đa phương sinh.
+[01:40:58] em cũng định chắc là phải chứng minh một chút năng lực mọi người mới tin tưởng mong
+[01:41:06] là trong vòng 7 tuần là có thể nộp được dân chủ dân chủ
+[01:41:37] con đường sáng rồi nó thẳng luôn mà sau khi thầy thấy kết quả cái đen sụn đấy là sáng rồi
+[01:41:45] nhưng mà với quả ngoại ngữ thì đúng là ngoài tầng của mình không đương tưởng được này thì
+[01:41:54] Vậy con để mà xong cái thề đấy thì em là vào
+[01:41:56] Và thôi cái chuyến thì chấp nhận
+[01:42:02] Các chồng còn dưỡng tiếng Anh nữa
+[01:42:06] Em còn dưỡng tiếng Anh
+[01:42:08] Dù Lan trường vào rồi nhưng mà ngoại đứa của 2 em trở thành thường
+[01:42:11] À 12 anh thôi
+[01:42:12] Tin lên tiếng Anh không?
+[01:42:19] Các tiếng Anh mà còn kia
+[01:42:22] Để mà nói tiếng Anh gì cũng tí
+[01:42:26] Nên Phụ Lan và Đà Nẵng thì cuối cùng mấy trường đấy nó sẽ đòi cho em hay không?
+[01:42:36] Sẽ không
+[01:42:40] Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé.
+[01:43:18] quen sản phẩm chứ không nên nếu mình đã biết làm quen không để xong mình biết bài
+[01:43:26] tập trung tâm nếu mình đã được một bài tập trí quen thì sao cũng phải chứng nhận
+[01:43:30] sẽ không thể tích cực điều này nhưng đó là sự thật
+[01:43:37] Như Lam viết hồi thảo, chấm nước ok rồi đúng không?
+[01:43:41] Nhưng nếu em cố được bài tập trí thì lần sau cái bài gì em?
+[01:43:45] Ai cũng thấy không, lúc đầu rất là khó khăn, tập trí gọi là quay đi quay lại
+[01:44:02] Nhưng mà nếu chỉ một lần vào thì lần sau sẽ rất là phê
+[01:44:11] Nó ngay vào cái này lần sau cũng ghét tươi tới
+[01:44:19] Rồi Tùng viết bài tập trí chung như thế nó khác hẳn tập trí đúng không?
+[01:44:29] nhưng mà mình có đọc em đối tập trí với người tổng thống đặc biệt người ta bắt được tự một từ khóa
+[01:44:38] cái mới là cái mới nè Nếu ta bắt được khoản lý của mình thì nó sẽ rất ok mình cho đi còn nếu
+[01:44:48] không bắt được đáng yên đấy chỉ là cũng sáu nọ đảng đặc biệt thì là xong thì là xong bách hay
+[01:45:00] trong bức ảnh nghe biết là bài xong biết lý tục nhiều lắm đã khỏi bản nhân em là bản chất là
+[01:45:30] khoản rẻ chịu được hoa hoa và người sát là một chú biết mà cũng biết mà cũng biết không thử
+[01:45:37] thử một ngày thật là mình cũng đã từng có biết cách đây mà tôi cũng bị em bị hơn 10 ngày thì
+[01:45:43] không xét nghiệm nhưng mà chịu chứng mình thấy đâu em cũng biết ngày xưa mình đi đoán em có
+[01:45:49] em hóa lần em hóa lần nhau theo vị trí trước trước nghỉ lễ thì hồng nó không bị bị viêm phòng
+[01:45:55] tìm đông đường không đông không đi ra đây bằng ô tô xe máy không cho thầy quá nhanh
+[01:46:58] Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+[01:48:16] để báo cáo cũng hơi gấp không đấy là một thầy về đấy là thầy nhúc phó là phải phải đợi gần
+[01:48:33] nhớ là hẹn từ sáng với cùng là cứ đẩy lùi một tiếng dần đến 4 giờ mới báo cáo được
+[01:48:38] Cảm ơn các bạn đã theo dõi và hẹn gặp lại.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "scientific-paper-research"
+  short_description: "Strict paper search, download and structured PDF analysis"
+  default_prompt: "Pick one mode, write request.json, run scripts/run.py, relay the JSON result."

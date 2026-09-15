@@ -1,0 +1,1246 @@
+// scripts/lib/node/playwright-driver.mjs
+//
+// Node ESM bridge between the playwright-lib bash adapter and the real
+// `playwright` package. Speaks skill-flag surface (--url, --ref, --selector,
+// --text, --secret-stdin, --depth, --headed, --storage-state) so adapters
+// don't have to translate to a binary's positional CLI.
+//
+// Stub mode (BROWSER_SKILL_LIB_STUB=1):
+//   Mirror tests/stubs/playwright-cli — hash argv, look up fixture, print, exit.
+//   Lets the bats suite verify the adapter contract without a real browser.
+//
+// Real mode (default):
+//   Lazy-import playwright; launch chromium; optionally apply storageState;
+//   dispatch the verb; emit JSON events + final result; close cleanly.
+//   Implementation deferred — this file currently throws when stub mode is off
+//   so the contract is established but real-mode work lands in a follow-up PR.
+//
+// Spec: docs/superpowers/specs/2026-04-30-tool-adapter-extension-model-design.md §2
+//       docs/superpowers/specs/2026-05-01-token-efficient-adapter-output-design.md §3
+
+import { createHash } from 'node:crypto';
+import { readFileSync, writeFileSync, existsSync, appendFileSync, unlinkSync, chmodSync, mkdirSync, openSync } from 'node:fs';
+import { createServer, createConnection } from 'node:net';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
+import { execSync, spawn } from 'node:child_process';
+import { homedir } from 'node:os';
+import { writeRegistryEntry, removeRegistryEntry, readRegistry } from './daemon-registry.mjs';
+
+const argv = process.argv.slice(2);
+
+if (process.env.BROWSER_SKILL_LIB_STUB === '1') {
+  stubDispatch(argv);
+} else {
+  realDispatch(argv).catch((err) => {
+    process.stderr.write(
+      `playwright-driver.mjs: unhandled error: ${err && err.stack ? err.stack : String(err)}\n`
+    );
+    process.exit(1);
+  });
+}
+
+function stubDispatch(args) {
+  const logFile = process.env.STUB_LOG_FILE;
+  if (logFile) {
+    const ts = new Date().toISOString();
+    appendFileSync(logFile, `--- ${ts} ---\n${args.join('\n')}\n`);
+  }
+
+  const hash = sha256NulJoined(args);
+  const fixturesDir =
+    process.env.PLAYWRIGHT_LIB_FIXTURES_DIR ||
+    join(repoRoot(), 'tests/fixtures/playwright-lib');
+  const fixturePath = join(fixturesDir, `${hash}.json`);
+
+  if (existsSync(fixturePath)) {
+    process.stdout.write(readFileSync(fixturePath, 'utf-8'));
+    process.exit(0);
+  }
+
+  const argvJson = JSON.stringify(args);
+  process.stdout.write(
+    `{"status":"error","reason":"no fixture for argv-hash ${hash}","argv":${argvJson}}\n`
+  );
+  process.exit(41);
+}
+
+async function realDispatch(args) {
+  const verb = args[0];
+  const flags = parseFlags(args.slice(1));
+
+  switch (verb) {
+    case 'open':
+      return await runOpen(flags);
+    case 'snapshot':
+      return await runSnapshot(flags);
+    case 'click':
+      return await runClick(flags);
+    case 'fill':
+      return await runFill(flags);
+    case 'daemon-start':
+      return await runDaemonStart(flags);
+    case 'daemon-stop':
+      return runDaemonStop();
+    case 'daemon-status':
+      return runDaemonStatus();
+    case 'login':
+      return await runLogin(flags);
+    case 'auto-relogin':
+      return await runAutoRelogin(flags);
+    case 'registry-status':
+      return runRegistryStatus();
+    default:
+      process.stderr.write(`playwright-driver.mjs: unknown verb '${verb}'\n`);
+      process.exit(2);
+  }
+}
+
+// --- Stateful verbs (route through IPC daemon) ---
+// chromium.connect()-based clients can't share state across processes.
+// The daemon (started via daemon-start) holds browser+context+page+refMap
+// internally and exposes verb operations over a Unix socket. Verb processes
+// here are thin clients: send one JSON line, read one JSON line, exit.
+
+async function runSnapshot() {
+  const reply = await ipcCall({ verb: 'snapshot' });
+  emitDaemonReply(reply);
+  process.exit(reply.event === 'error' ? 30 : 0);
+}
+
+async function runClick(flags) {
+  if (flags.ref && flags.selector) {
+    process.stderr.write('playwright-driver.mjs::click: --ref and --selector are mutually exclusive\n');
+    process.exit(2);
+  }
+  if (!flags.ref && !flags.selector) {
+    process.stderr.write('playwright-driver.mjs::click: --ref eN or --selector CSS is required\n');
+    process.exit(2);
+  }
+  const ipcMsg = { verb: 'click' };
+  if (flags.ref) ipcMsg.ref = flags.ref;
+  else ipcMsg.selector = flags.selector;
+  const reply = await ipcCall(ipcMsg);
+  emitDaemonReply(reply);
+  process.exit(reply.event === 'error' ? 30 : 0);
+}
+
+async function runFill(flags) {
+  if (flags.ref && flags.selector) {
+    process.stderr.write('playwright-driver.mjs::fill: --ref and --selector are mutually exclusive\n');
+    process.exit(2);
+  }
+  if (!flags.ref && !flags.selector) {
+    process.stderr.write('playwright-driver.mjs::fill: --ref eN or --selector CSS is required\n');
+    process.exit(2);
+  }
+  let text = flags.text;
+  if (flags['secret-stdin']) {
+    if (typeof flags.text === 'string') {
+      process.stderr.write('playwright-driver.mjs::fill: --text and --secret-stdin are mutually exclusive\n');
+      process.exit(2);
+    }
+    text = await readAllStdin();
+  }
+  if (typeof text !== 'string' || text.length === 0) {
+    process.stderr.write('playwright-driver.mjs::fill: --text VALUE or --secret-stdin required\n');
+    process.exit(2);
+  }
+  const ipcMsg = { verb: 'fill', text };
+  if (flags.ref) ipcMsg.ref = flags.ref;
+  else ipcMsg.selector = flags.selector;
+  const reply = await ipcCall(ipcMsg);
+  // Replace the text field in the reply (defensive; daemon should not echo it).
+  delete reply.text;
+  emitDaemonReply(reply);
+  process.exit(reply.event === 'error' ? 30 : 0);
+}
+
+function emitDaemonReply(reply) {
+  if (reply.event === 'snapshot' && Array.isArray(reply.refs)) {
+    // Compact eN-indexed listing the agent can read directly.
+    const summary = { ...reply, ref_count: reply.refs.length };
+    delete summary.refs;
+    process.stdout.write(JSON.stringify(summary) + '\n');
+    for (const r of reply.refs) {
+      const tail = r.name ? ` "${r.name}"` : '';
+      process.stdout.write(`${r.id} ${r.role}${tail}\n`);
+    }
+    return;
+  }
+  process.stdout.write(JSON.stringify(reply) + '\n');
+}
+
+async function ipcCall(msg) {
+  const state = readDaemonState();
+  if (!state || !isPidAlive(state.pid) || !state.ipc_port) {
+    process.stderr.write(
+      `playwright-driver.mjs: stateful verb '${msg.verb}' requires running daemon ` +
+        `(run: node playwright-driver.mjs daemon-start)\n`
+    );
+    process.exit(41);
+  }
+  return await new Promise((resolve, reject) => {
+    const conn = createConnection({ host: state.ipc_host || '127.0.0.1', port: state.ipc_port });
+    let buf = '';
+    let settled = false;
+    const t = setTimeout(() => {
+      if (settled) return;
+      settled = true;
+      try { conn.destroy(); } catch (_) {}
+      reject(new Error(`ipcCall: timeout waiting for daemon reply (verb=${msg.verb})`));
+    }, parseInt(process.env.BROWSER_SKILL_LIB_TIMEOUT_MS || '30000', 10));
+
+    conn.on('connect', () => {
+      conn.write(JSON.stringify(msg) + '\n');
+    });
+    conn.on('data', (chunk) => {
+      buf += chunk.toString('utf-8');
+      const nl = buf.indexOf('\n');
+      if (nl < 0 || settled) return;
+      settled = true;
+      clearTimeout(t);
+      try {
+        resolve(JSON.parse(buf.slice(0, nl)));
+      } catch (e) {
+        reject(e);
+      } finally {
+        try { conn.end(); } catch (_) {}
+      }
+    });
+    conn.on('error', (e) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(t);
+      reject(e);
+    });
+  });
+}
+
+function readAllStdin() {
+  return new Promise((resolve, reject) => {
+    let data = '';
+    process.stdin.setEncoding('utf-8');
+    process.stdin.on('data', (chunk) => { data += chunk; });
+    process.stdin.on('end', () => resolve(data));
+    process.stdin.on('error', reject);
+  });
+}
+
+// runLogin — headed Chromium one-shot for interactive credential capture.
+// User logs in to the site in the browser window, presses Enter on stdin to
+// signal "done", driver captures context.storageState() and writes it to
+// --output-path (caller validates origins + writes meta sidecar afterwards).
+//
+// Single-shot (not daemon-routed): login is its own ephemeral flow. Daemon
+// would interfere — we want a fresh, isolated context for each login.
+async function runLogin(flags) {
+  const url = flags.url;
+  const outputPath = flags['output-path'];
+  if (!url) {
+    process.stderr.write('playwright-driver.mjs::login: --url is required\n');
+    process.exit(2);
+  }
+  if (!outputPath) {
+    process.stderr.write('playwright-driver.mjs::login: --output-path is required\n');
+    process.exit(2);
+  }
+
+  const { chromium } = loadPlaywright();
+  // Always headed — login is an interactive verb. --headless is meaningless.
+  const browser = await chromium.launch({ headless: false });
+  try {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    const page = await ctx.newPage();
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+
+    process.stderr.write(
+      `\n  Browser opened at ${url}\n` +
+      `  Log in interactively, then press Enter here to capture the session.\n` +
+      `  (Press Ctrl-C to abort without saving.)\n\n`
+    );
+
+    await waitForEnterOnStdin();
+
+    // Capture state BEFORE closing the browser/context.
+    const state = await ctx.storageState();
+    mkdirSync(dirname(outputPath), { recursive: true, mode: 0o700 });
+    writeFileSync(outputPath, JSON.stringify(state, null, 2));
+    chmodSync(outputPath, 0o600);
+
+    process.stdout.write(
+      JSON.stringify({
+        event: 'login-saved',
+        output_path: outputPath,
+        cookie_count: state.cookies.length,
+        origin_count: state.origins.length,
+      }) + '\n'
+    );
+
+    await browser.close();
+    process.exit(0);
+  } catch (err) {
+    try { await browser.close(); } catch (_) {}
+    process.stderr.write(
+      `playwright-driver.mjs::login: ${err && err.message ? err.message : err}\n`
+    );
+    process.exit(30);
+  }
+}
+
+// runAutoRelogin — programmatic headless login using stored credentials
+// (phase-5 part 3). Reads NUL-separated `username\0password` from stdin,
+// navigates the site URL, fills best-effort form selectors, clicks submit,
+// captures storageState, writes to --output-path. AP-7: secret never on argv.
+//
+// Selectors are best-effort — common email + password + submit patterns.
+// Sites with non-standard login forms will fail; auth-flow detection at
+// creds-add time (phase-5 part 3-iii) is the long-term fix.
+async function runAutoRelogin(flags) {
+  const url = flags.url;
+  const outputPath = flags['output-path'];
+  if (!url) {
+    process.stderr.write('playwright-driver.mjs::auto-relogin: --url is required\n');
+    process.exit(2);
+  }
+  if (!outputPath) {
+    process.stderr.write('playwright-driver.mjs::auto-relogin: --output-path is required\n');
+    process.exit(2);
+  }
+
+  // Phase-5 part 3-iv test hook: bats sets BROWSER_SKILL_DRIVER_TEST_2FA=1
+  // to short-circuit the browser launch and exit 25 (EXIT_AUTH_INTERACTIVE_
+  // REQUIRED). Lets bats verify the bash-side propagation without a real
+  // Chrome + 2FA challenge page. Production callers never set this.
+  if (process.env.BROWSER_SKILL_DRIVER_TEST_2FA === '1') {
+    process.stderr.write('playwright-driver.mjs::auto-relogin: 2FA challenge detected (test-mode)\n');
+    process.stdout.write(JSON.stringify({
+      event: 'auto-relogin-2fa-required',
+      reason: 'site requires interactive 2FA / one-time-code',
+    }) + '\n');
+    process.exit(25);
+  }
+
+  // Phase-5 part 4-iii test hook: BROWSER_SKILL_DRIVER_TEST_TOTP_REPLAY=1
+  // short-circuits the browser launch with an artificial "TOTP auto-replay
+  // succeeded" path — generates the code via totp-core (so the import path
+  // is wired correctly), writes an empty storageState, exits 0. Lets bats
+  // verify the bash side passes the 3rd stdin chunk.
+  if (process.env.BROWSER_SKILL_DRIVER_TEST_TOTP_REPLAY === '1') {
+    const credsBlobTest = await readAllStdin();
+    const chunks = credsBlobTest.split('\0');
+    if (chunks.length < 3 || !chunks[2]) {
+      process.stderr.write(
+        'playwright-driver.mjs::auto-relogin (test-totp): 3rd stdin chunk (totp_secret) missing\n'
+      );
+      process.exit(2);
+    }
+    const { totpAt } = await import('./totp-core.mjs');
+    const tTest = process.env.TOTP_TIME_T
+      ? parseInt(process.env.TOTP_TIME_T, 10)
+      : Math.floor(Date.now() / 1000);
+    const code = totpAt(chunks[2], tTest);
+    mkdirSync(dirname(outputPath), { recursive: true, mode: 0o700 });
+    writeFileSync(outputPath, JSON.stringify({ cookies: [], origins: [] }));
+    chmodSync(outputPath, 0o600);
+    process.stdout.write(JSON.stringify({
+      event: 'auto-relogin-totp-replayed',
+      output_path: outputPath,
+      totp_code_length: code.length,
+    }) + '\n');
+    process.exit(0);
+  }
+
+  const credsBlob = await readAllStdin();
+  const sep = credsBlob.indexOf('\0');
+  if (sep === -1) {
+    process.stderr.write(
+      "playwright-driver.mjs::auto-relogin: stdin must be 'username\\0password' (or 'username\\0password\\0totp_secret' for totp-enabled creds)\n"
+    );
+    process.exit(2);
+  }
+  const username = credsBlob.slice(0, sep);
+  // After password — find optional 3rd chunk (TOTP shared secret) for
+  // phase-5 part 4-iii auto-replay. When present, after detect2FA fires the
+  // driver fills the OTP field with the generated code instead of exiting 25.
+  const afterUser = credsBlob.slice(sep + 1);
+  const sep2 = afterUser.indexOf('\0');
+  const password = sep2 === -1 ? afterUser : afterUser.slice(0, sep2);
+  const totpSecret = sep2 === -1 ? null : afterUser.slice(sep2 + 1);
+
+  const { chromium } = loadPlaywright();
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    const page = await ctx.newPage();
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+
+    const usernameSelectors = [
+      'input[type=email]',
+      'input[name=email]',
+      'input[name=username]',
+      'input[autocomplete=username]',
+      'input#email',
+      'input#username',
+    ];
+    const passwordSelectors = [
+      'input[type=password]',
+      'input[name=password]',
+      'input[autocomplete=current-password]',
+      'input#password',
+    ];
+    const submitSelectors = [
+      'button[type=submit]',
+      'input[type=submit]',
+      'button:has-text("Sign in")',
+      'button:has-text("Log in")',
+      'button:has-text("Login")',
+    ];
+
+    await fillFirstMatch(page, usernameSelectors, username, 'username');
+    await fillFirstMatch(page, passwordSelectors, password, 'password');
+    await clickFirstMatch(page, submitSelectors, 'submit');
+
+    // Wait for navigation OR network idle. 15s budget covers most flows.
+    await Promise.race([
+      page.waitForLoadState('networkidle', { timeout: 15000 }),
+      page.waitForURL((u) => u.toString() !== url, { timeout: 15000 }),
+    ]).catch(() => { /* both timed out — capture whatever state we have */ });
+
+    // Phase-5 part 3-iv: detect 2FA challenge pages and exit 25 instead of
+    // capturing a useless storageState. Heuristic: post-submit landing has a
+    // one-time-code input or 2FA-related text. Best-effort — non-standard
+    // 2FA flows won't be caught and will fall through to the normal capture
+    // path (which will likely return an unauthenticated session).
+    // Phase-5 part 4-iii: if a TOTP shared secret was provided in stdin
+    // (3rd NUL chunk), generate the current code, fill the OTP field, submit,
+    // and continue to capture storageState. Otherwise exit 25 as before.
+    if (await detect2FA(page)) {
+      if (totpSecret) {
+        try {
+          const { totpAt } = await import('./totp-core.mjs');
+          const t = process.env.TOTP_TIME_T
+            ? parseInt(process.env.TOTP_TIME_T, 10)
+            : Math.floor(Date.now() / 1000);
+          const code = totpAt(totpSecret, t);
+          const otpSelectors = [
+            'input[autocomplete="one-time-code"]',
+            'input[name*="otp" i]',
+            'input[name*="code" i]',
+            'input[name*="verification" i]',
+            'input#otp', 'input#code',
+          ];
+          await fillFirstMatch(page, otpSelectors, code, 'OTP');
+          await clickFirstMatch(page, [
+            'button[type=submit]',
+            'input[type=submit]',
+            'button:has-text("Verify")',
+            'button:has-text("Continue")',
+            'button:has-text("Submit")',
+          ], 'OTP-submit');
+          await Promise.race([
+            page.waitForLoadState('networkidle', { timeout: 15000 }),
+            page.waitForURL(() => true, { timeout: 15000 }),
+          ]).catch(() => { /* both timed out */ });
+          // Fall through to the normal storageState capture below.
+        } catch (err) {
+          try { await browser.close(); } catch (_) { /* ignore */ }
+          process.stderr.write(
+            `playwright-driver.mjs::auto-relogin: TOTP replay failed: ${err && err.message ? err.message : err}\n`
+          );
+          process.exit(30);
+        }
+      } else {
+        try { await browser.close(); } catch (_) { /* ignore */ }
+        process.stderr.write(
+          'playwright-driver.mjs::auto-relogin: 2FA challenge detected — interactive login required (or store a TOTP secret with creds-add --enable-totp)\n'
+        );
+        process.stdout.write(JSON.stringify({
+          event: 'auto-relogin-2fa-required',
+          reason: 'site requires interactive 2FA / one-time-code',
+          url: page.url(),
+        }) + '\n');
+        process.exit(25);
+      }
+    }
+
+    const state = await ctx.storageState();
+    mkdirSync(dirname(outputPath), { recursive: true, mode: 0o700 });
+    writeFileSync(outputPath, JSON.stringify(state, null, 2));
+    chmodSync(outputPath, 0o600);
+
+    process.stdout.write(JSON.stringify({
+      event: 'auto-relogin-saved',
+      output_path: outputPath,
+      cookie_count: state.cookies.length,
+      origin_count: state.origins.length,
+    }) + '\n');
+
+    await browser.close();
+    process.exit(0);
+  } catch (err) {
+    try { await browser.close(); } catch (_) { /* ignore */ }
+    process.stderr.write(
+      `playwright-driver.mjs::auto-relogin: ${err && err.message ? err.message : err}\n`
+    );
+    process.exit(30);
+  }
+}
+
+// detect2FA — best-effort heuristic for whether the current page is a 2FA
+// challenge. Checks (in order): one-time-code autocomplete attribute, common
+// OTP/code field names, page text matching 2FA keywords. Returns true on
+// any match. Does NOT cover SMS-prompt fallbacks or push-notification flows
+// (those typically show a "waiting" UI rather than an input field).
+async function detect2FA(page) {
+  // 1. Standard autocomplete attribute (RFC).
+  if ((await page.locator('input[autocomplete="one-time-code"]').count()) > 0) {
+    return true;
+  }
+  // 2. Common OTP/code field names.
+  const otpSelectors = [
+    'input[name*="otp" i]',
+    'input[name*="code" i]',
+    'input[name*="verification" i]',
+    'input[name*="two_factor" i]',
+    'input[name*="2fa" i]',
+    'input#otp',
+    'input#code',
+  ];
+  for (const sel of otpSelectors) {
+    if ((await page.locator(sel).count()) > 0) return true;
+  }
+  // 3. Page text heuristics.
+  const bodyText = await page.locator('body').textContent({ timeout: 2000 }).catch(() => '');
+  if (!bodyText) return false;
+  const lower = bodyText.toLowerCase();
+  const phrases = [
+    'two-factor', 'two factor', '2fa',
+    'verification code', 'one-time code', 'one-time password',
+    'authenticator app', 'authenticator code',
+    'enter the code', 'enter code',
+  ];
+  for (const p of phrases) {
+    if (lower.includes(p)) return true;
+  }
+  return false;
+}
+
+async function fillFirstMatch(page, selectors, value, label) {
+  for (const sel of selectors) {
+    const el = page.locator(sel).first();
+    if ((await el.count()) > 0) {
+      await el.fill(value);
+      return;
+    }
+  }
+  throw new Error(
+    `auto-relogin: no matching ${label} input among [${selectors.join(', ')}]`
+  );
+}
+
+async function clickFirstMatch(page, selectors, label) {
+  for (const sel of selectors) {
+    const el = page.locator(sel).first();
+    if ((await el.count()) > 0) {
+      await el.click();
+      return;
+    }
+  }
+  throw new Error(
+    `auto-relogin: no matching ${label} button among [${selectors.join(', ')}]`
+  );
+}
+
+function waitForEnterOnStdin() {
+  return new Promise((resolve) => {
+    process.stdin.setEncoding('utf-8');
+    const onData = (chunk) => {
+      if (chunk.includes('\n')) {
+        process.stdin.removeListener('data', onData);
+        process.stdin.pause();
+        resolve();
+      }
+    };
+    process.stdin.on('data', onData);
+    process.stdin.resume();
+  });
+}
+
+// --- Daemon lifecycle ---
+// daemon-start spawns a detached node child that calls launchServer (chromium)
+// and writes ${BROWSER_SKILL_HOME}/playwright-lib-daemon.json with PID +
+// wsEndpoint. The parent process polls the state file (up to 10s), prints
+// the state, and exits. Subsequent verb invocations connect via the
+// wsEndpoint. daemon-stop SIGTERMs the PID and removes the state file.
+//
+// State file mode 0600; directory mode 0700 (matches BROWSER_SKILL_HOME).
+
+async function runDaemonStart(flags) {
+  if (flags['internal-server'] === true) {
+    return await daemonChildMain(flags);
+  }
+
+  const existing = readDaemonState();
+  if (existing && isPidAlive(existing.pid)) {
+    process.stdout.write(
+      JSON.stringify({ event: 'daemon-already-running', ...existing }) + '\n'
+    );
+    process.exit(0);
+  }
+
+  // Stale state file (PID dead) — clear it before spawning.
+  if (existing) {
+    try { unlinkSync(daemonStatePath()); } catch (_) {}
+  }
+
+  const childArgv = [
+    fileURLToPath(import.meta.url),
+    'daemon-start',
+    '--internal-server',
+  ];
+  if (flags.headed) childArgv.push('--headed');
+
+  // Capture daemon child stderr to a log under BROWSER_SKILL_HOME instead of
+  // /dev/null so launch failures aren't silent. The log is gitignored
+  // (.browser-skill/captures pattern); mode 0600 inherits from parent dir.
+  mkdirSync(browserSkillHome(), { recursive: true, mode: 0o700 });
+  const logPath = join(browserSkillHome(), 'playwright-lib-daemon.log');
+  const stderrFd = openSync(logPath, 'a', 0o600);
+
+  const child = spawn(process.execPath, childArgv, {
+    detached: true,
+    stdio: ['ignore', 'ignore', stderrFd],
+    env: process.env,
+  });
+  child.unref();
+
+  const stateFile = daemonStatePath();
+  const deadline = Date.now() + 10000;
+  while (Date.now() < deadline) {
+    if (existsSync(stateFile)) {
+      const state = readDaemonState();
+      if (state && isPidAlive(state.pid)) {
+        process.stdout.write(
+          JSON.stringify({ event: 'daemon-started', ...state }) + '\n'
+        );
+        process.exit(0);
+      }
+    }
+    await sleep(100);
+  }
+
+  process.stderr.write(
+    'playwright-driver.mjs::daemon-start: timed out waiting for daemon to come up\n'
+  );
+  process.exit(30);
+}
+
+async function readDevToolsPort(userDataDir, deadlineMs = 10000) {
+  const portFile = join(userDataDir, 'DevToolsActivePort');
+  const deadline = Date.now() + deadlineMs;
+  while (Date.now() < deadline) {
+    try {
+      const first = readFileSync(portFile, 'utf-8').split('\n')[0].trim();
+      if (first) return parseInt(first, 10);
+    } catch (_) { /* not written yet */ }
+    await sleep(100);
+  }
+  throw new Error('DevToolsActivePort not written within deadline');
+}
+
+async function daemonChildMain(flags) {
+  const { chromium } = loadPlaywright();
+  const headless = !flags.headed;
+  // Isolate each session's profile by seed identity (set by verb_helpers
+  // _ensure_session_cdp_endpoint from the storageState path+mtime+size). A new
+  // session / re-login gets a FRESH profile dir, so the persistent profile can
+  // never carry a previous user's or expired cookies/localStorage.
+  const seedKey = process.env.BROWSER_SKILL_SEED_KEY || '';
+  const profileSlug = seedKey
+    ? createHash('sha1').update(seedKey).digest('hex').slice(0, 16)
+    : 'default';
+  const userDataDir = join(browserSkillHome(), 'profiles', profileSlug);
+  mkdirSync(userDataDir, { recursive: true, mode: 0o700 });
+  // Persistent context exposes a REAL CDP endpoint (via
+  // --remote-debugging-port) so other adapters (e.g. chrome-devtools-mcp
+  // --browser-url) attach to the SAME Chrome and share the live page.
+  // Playwright drives this context in-process; the TCP CDP listener
+  // coexists with Playwright's pipe transport (verified: a second
+  // connectOverCDP client sees the same page/title).
+  const context = await chromium.launchPersistentContext(userDataDir, {
+    headless,
+    viewport: { width: 1280, height: 800 },
+    args: ['--remote-debugging-port=0'],
+  });
+  const cdpPort = await readDevToolsPort(userDataDir);
+  const cdpEndpoint = `http://127.0.0.1:${cdpPort}`;
+
+  const seededOrigins = new Set();
+  // Seed cookies + localStorage from a captured storageState into the persistent
+  // profile so ANY attaching adapter (incl. chrome-devtools-mcp --browser-url and
+  // cdt-first flows) lands authenticated. Cookies via addCookies; localStorage via
+  // a per-origin init script (no network round-trip, guarded so it never clobbers
+  // app-written values). Origins are deduped across daemon-start + per-open seeding.
+  // Restores SPA / token auth that lives in localStorage, not just cookies.
+  async function seedStorageState(path) {
+    let seeded;
+    try { seeded = JSON.parse(readFileSync(path, 'utf-8')); }
+    catch (_) { return; }
+    if (Array.isArray(seeded.cookies) && seeded.cookies.length) {
+      try { await context.addCookies(seeded.cookies); } catch (_) {}
+    }
+    if (Array.isArray(seeded.origins)) {
+      for (const o of seeded.origins) {
+        if (!o || !o.origin || seededOrigins.has(o.origin)) continue;
+        if (!Array.isArray(o.localStorage) || !o.localStorage.length) continue;
+        seededOrigins.add(o.origin);
+        try {
+          await context.addInitScript(({ origin, items }) => {
+            if (window.location.origin !== origin) return;
+            for (const it of items) {
+              try {
+                if (window.localStorage.getItem(it.name) === null) {
+                  window.localStorage.setItem(it.name, it.value);
+                }
+              } catch (_) {}
+            }
+          }, { origin: o.origin, items: o.localStorage });
+        } catch (_) {}
+      }
+    }
+  }
+  const seedPath = process.env.BROWSER_SKILL_STORAGE_STATE;
+  if (seedPath) await seedStorageState(seedPath);
+
+  // The daemon HOLDS the browser handle + current context + current page.
+  // Verb clients send commands; the daemon mutates this state and replies.
+  // This sidesteps the chromium.connect cross-process state-sharing limit.
+  let page = null;
+  let refMap = null;
+
+  // In-process last_used_at: updated on every IPC call, flushed at most every 30s
+  // to avoid per-call read-prune-rewrite churn.
+  let _lastUsedAt = new Date().toISOString();
+  let _lastUsedFlushTimer = null;
+  function _scheduleLastUsedFlush() {
+    _lastUsedAt = new Date().toISOString();
+    if (_lastUsedFlushTimer) return;
+    _lastUsedFlushTimer = setTimeout(() => {
+      _lastUsedFlushTimer = null;
+      try {
+        const reg = readRegistry();
+        const existing = reg[sessionName];
+        if (existing) writeRegistryEntry(sessionName, { ...existing, last_used_at: _lastUsedAt });
+      } catch (_) { /* non-fatal */ }
+    }, 30000);
+    if (_lastUsedFlushTimer.unref) _lastUsedFlushTimer.unref();
+  }
+
+  // IPC over TCP loopback (not Unix socket) — Unix-socket sun_path is capped
+  // at 104 chars on macOS; bats temp paths exceed it. Loopback + random port
+  // sidesteps the limit cleanly and matches Playwright's own launchServer
+  // which uses ws://localhost:PORT.
+  // Idle TTL: daemon self-shuts-down after BROWSER_SKILL_DAEMON_IDLE_TTL seconds
+  // (default 900) without IPC requests. Timer resets on every IPC call.
+  const idleTtlMs = parseInt(process.env.BROWSER_SKILL_DAEMON_IDLE_TTL || '900', 10) * 1000;
+  const sessionName = process.env.BROWSER_SKILL_SESSION_NAME || 'default';
+  let idleTimer;
+  function resetIdleTimer() {
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => {
+      process.stderr.write('playwright-driver.mjs: idle TTL reached, shutting down daemon\n');
+      cleanup();
+    }, idleTtlMs);
+    // Allow process to exit when only this timer remains.
+    if (idleTimer.unref) idleTimer.unref();
+  }
+
+  const ipcServer = createServer((conn) => {
+    let buf = '';
+    conn.setEncoding('utf-8');
+    conn.on('data', async (chunk) => {
+      buf += chunk;
+      let nl;
+      while ((nl = buf.indexOf('\n')) >= 0) {
+        const line = buf.slice(0, nl);
+        buf = buf.slice(nl + 1);
+        if (!line) continue;
+        resetIdleTimer();
+        let reply;
+        try {
+          const msg = JSON.parse(line);
+          reply = await dispatch(msg);
+        } catch (err) {
+          reply = { event: 'error', message: err && err.message ? err.message : String(err) };
+        }
+        try { conn.write(JSON.stringify(reply) + '\n'); } catch (_) {}
+      }
+    });
+    conn.on('error', () => { /* client closed mid-write; ignore */ });
+  });
+
+  async function dispatch(msg) {
+    // Debounced last_used_at refresh — flushes at most every 30s to avoid
+    // per-call read-prune-rewrite churn on every IPC request.
+    _scheduleLastUsedFlush();
+
+    switch (msg.verb) {
+      case 'open': {
+        if (!page) page = context.pages()[0] || await context.newPage();
+        if (msg.viewport) {
+          try { await page.setViewportSize(msg.viewport); } catch (_) {}
+        }
+        if (msg.user_agent) {
+          // Persistent context UA is fixed at launch; override per-page via CDP
+          // so session opens that pass --user-agent are honored in daemon mode.
+          try {
+            const uaCdp = await context.newCDPSession(page);
+            await uaCdp.send('Network.setUserAgentOverride', { userAgent: msg.user_agent });
+          } catch (_) {}
+        }
+        if (msg.storage_state) await seedStorageState(msg.storage_state);
+        const resp = await page.goto(msg.url, { waitUntil: 'domcontentloaded' });
+        return {
+          event: 'navigated',
+          url: page.url(),
+          title: await page.title(),
+          status: resp ? resp.status() : null,
+          attached_to_daemon: true,
+        };
+      }
+      case 'snapshot': {
+        if (!page) return { event: 'error', message: 'no open page (run open --url first)' };
+        // Playwright 1.59 dropped page.accessibility. Use ariaSnapshot which
+        // returns the agent-readable YAML format, then parse out interactive
+        // (role, name) pairs to assign eN refs the agent can click/fill by.
+        const yaml = await page.ariaSnapshot();
+        const refs = parseAriaSnapshot(yaml);
+        refMap = refs;
+        try {
+          const refsFile = join(browserSkillHome(), 'playwright-lib-refs.json');
+          mkdirSync(dirname(refsFile), { recursive: true, mode: 0o700 });
+          writeFileSync(refsFile, JSON.stringify({
+            page_url: page.url(),
+            captured_at: new Date().toISOString(),
+            aria_yaml: yaml,
+            refs,
+          }, null, 2));
+          chmodSync(refsFile, 0o600);
+        } catch (_) { /* non-fatal */ }
+        return { event: 'snapshot', page_url: page.url(), aria_yaml: yaml, refs };
+      }
+      case 'click': {
+        if (!page) return { event: 'error', message: 'no open page' };
+        // Selector path (PL3): use page.locator(selector).first().click().
+        // Skips refMap precondition — locators don't require snapshot.
+        if (msg.selector) {
+          try {
+            await page.locator(msg.selector).first().click();
+          } catch (err) {
+            return { event: 'error', message: `click failed: ${err && err.message ? err.message : String(err)}` };
+          }
+          return { event: 'click', selector: msg.selector, status: 'ok' };
+        }
+        // Existing ref path (unchanged):
+        if (!refMap) return { event: 'error', message: 'no refs (run snapshot first)' };
+        const entry = refMap.find((r) => r.id === msg.ref);
+        if (!entry) {
+          return {
+            event: 'error',
+            message: `ref '${msg.ref}' not found in last snapshot (${refMap.length} refs available)`,
+          };
+        }
+        await locatorFor(page, entry).click();
+        return { event: 'click', ref: entry.id, role: entry.role, name: entry.name || null, status: 'ok' };
+      }
+      case 'fill': {
+        if (!page) return { event: 'error', message: 'no open page' };
+        const text = typeof msg.text === 'string' ? msg.text : '';
+        // Selector path (PL3): use page.locator(selector).first().fill().
+        // Skips refMap precondition. Same secret-scrub semantics as ref path.
+        //
+        // Tier 3: short-timeout default. Playwright's default locator timeout
+        // is 30s — too long when --selector matches nothing (blocks the daemon).
+        // Default 5s; env override BROWSER_SKILL_FILL_TIMEOUT_MS for tests
+        // that legitimately need longer.
+        const fillTimeoutMs = Number.parseInt(
+          process.env.BROWSER_SKILL_FILL_TIMEOUT_MS || '5000',
+          10,
+        );
+        if (msg.selector) {
+          try {
+            await page.locator(msg.selector).first().fill(text, { timeout: fillTimeoutMs });
+          } catch (err) {
+            let safeMessage = err && err.message ? err.message : String(err);
+            if (text && safeMessage.includes(text)) {
+              safeMessage = safeMessage.split(text).join('<redacted>');
+            }
+            return { event: 'error', message: `fill failed: ${safeMessage}` };
+          }
+          return {
+            event: 'fill',
+            selector: msg.selector,
+            text_length: text.length,
+            status: 'ok',
+          };
+        }
+        // Existing ref path (unchanged):
+        if (!refMap) return { event: 'error', message: 'no refs (run snapshot first)' };
+        const entry = refMap.find((r) => r.id === msg.ref);
+        if (!entry) {
+          return { event: 'error', message: `ref '${msg.ref}' not found in last snapshot` };
+        }
+        // Playwright echoes the fill arg in error logs (e.g. "fill(\"<text>\")"
+        // — would leak the secret). Wrap + scrub before returning so the
+        // client never sees the secret in any path.
+        try {
+          await locatorFor(page, entry).fill(text);
+        } catch (err) {
+          let safeMessage = err && err.message ? err.message : String(err);
+          if (text && safeMessage.includes(text)) {
+            safeMessage = safeMessage.split(text).join('<redacted>');
+          }
+          return { event: 'error', message: `fill failed: ${safeMessage}` };
+        }
+        return {
+          event: 'fill',
+          ref: entry.id,
+          role: entry.role,
+          name: entry.name || null,
+          text_length: text.length,
+          status: 'ok',
+        };
+      }
+      default:
+        return { event: 'error', message: `unknown verb '${msg.verb}'` };
+    }
+  }
+
+  await new Promise((resolve, reject) => {
+    ipcServer.listen(0, '127.0.0.1', () => resolve());
+    ipcServer.once('error', reject);
+  });
+  const ipcPort = ipcServer.address().port;
+
+  const state = {
+    pid: process.pid,
+    cdp_endpoint: cdpEndpoint,
+    ipc_host: '127.0.0.1',
+    ipc_port: ipcPort,
+    user_data_dir: userDataDir,
+    seed_key: seedKey || null,
+    profile_slug: profileSlug,
+    started_at: new Date().toISOString(),
+    browser: 'chromium',
+    headless,
+  };
+
+  const stateFile = daemonStatePath();
+  mkdirSync(dirname(stateFile), { recursive: true, mode: 0o700 });
+  writeFileSync(stateFile, JSON.stringify(state, null, 2));
+  chmodSync(stateFile, 0o600);
+
+  // Write page-ownership registry entry.
+  try {
+    writeRegistryEntry(sessionName, {
+      adapter: 'playwright-lib',
+      pid: state.pid,
+      ipc_port: state.ipc_port,
+      cdp_endpoint: state.cdp_endpoint,
+      started_at: state.started_at,
+      last_used_at: state.started_at,
+    });
+  } catch (_) { /* non-fatal */ }
+
+  const cleanup = async () => {
+    clearTimeout(idleTimer);
+    clearTimeout(_lastUsedFlushTimer);
+    _lastUsedFlushTimer = null;
+    try { removeRegistryEntry(sessionName); } catch (_) {}
+    try { ipcServer.close(); } catch (_) {}
+    try { await context.close(); } catch (_) {}   // closes the persistent browser
+    try { unlinkSync(stateFile); } catch (_) {}
+    process.exit(0);
+  };
+  process.on('SIGTERM', cleanup);
+  process.on('SIGINT', cleanup);
+
+  // Start idle TTL countdown.
+  resetIdleTimer();
+
+  // Block forever (until signal or idle TTL).
+  await new Promise(() => {});
+}
+
+// Roles considered "interactive" for the purposes of assigning eN refs.
+// Plus 'heading' (when named) so agents can disambiguate sections.
+const INTERACTIVE_ROLES = new Set([
+  'button', 'link', 'textbox', 'searchbox', 'combobox',
+  'checkbox', 'radio', 'menuitem', 'menuitemcheckbox', 'menuitemradio',
+  'option', 'tab', 'switch', 'slider', 'spinbutton',
+]);
+
+// Parse Playwright's ariaSnapshot YAML output and emit eN-tagged interactive
+// refs. Each line of the form `  - role "name":` or `  - role:` produces a
+// (role, name) tuple — we keep only roles agents typically click/fill, plus
+// named headings for landmarking.
+//
+// Example input:
+//   - heading "Example Domain" [level=1]
+//   - link "Learn more"
+//   - paragraph: This domain is for use in documentation examples …
+//
+// Output: [{id:"e1", role:"heading", name:"Example Domain"},
+//          {id:"e2", role:"link", name:"Learn more"}]
+function parseAriaSnapshot(yaml) {
+  const refs = [];
+  let n = 0;
+  const re = /^\s*-\s+([a-z][a-z]+)(?:\s+"([^"]*)")?[\s:[]/gm;
+  let m;
+  while ((m = re.exec(yaml)) !== null) {
+    const role = m[1];
+    const name = m[2] || '';
+    if (INTERACTIVE_ROLES.has(role) || (role === 'heading' && name)) {
+      n += 1;
+      refs.push({ id: `e${n}`, role, name });
+    }
+  }
+  return refs;
+}
+
+function locatorFor(page, entry) {
+  // Resolve a Locator from the (role, name) stored in the ref-map. Uses
+  // Playwright's getByRole — most stable cross-call locator. Limitation:
+  // pages with weak ARIA may have ambiguous (role, name) pairs; .first()
+  // picks the first match.
+  const opts = {};
+  if (entry.name) opts.name = entry.name;
+  return page.getByRole(entry.role, opts).first();
+}
+
+
+function runDaemonStop() {
+  const state = readDaemonState();
+  if (!state) {
+    process.stdout.write('{"event":"daemon-not-running"}\n');
+    process.exit(0);
+  }
+  if (isPidAlive(state.pid)) {
+    try { process.kill(state.pid, 'SIGTERM'); } catch (_) {}
+  }
+  // Brief wait for the daemon to clean up its state file.
+  const deadline = Date.now() + 5000;
+  while (Date.now() < deadline && existsSync(daemonStatePath())) {
+    // Busy-wait — sleep helper is async; sync wait is fine for ≤5s shutdown.
+    const now = Date.now();
+    while (Date.now() - now < 50) { /* ~50ms tick */ }
+  }
+  try { unlinkSync(daemonStatePath()); } catch (_) {}
+  process.stdout.write(
+    JSON.stringify({ event: 'daemon-stopped', pid: state.pid }) + '\n'
+  );
+  process.exit(0);
+}
+
+function runDaemonStatus() {
+  const state = readDaemonState();
+  if (state && isPidAlive(state.pid)) {
+    process.stdout.write(
+      JSON.stringify({ event: 'daemon-running', ...state }) + '\n'
+    );
+    process.exit(0);
+  }
+  process.stdout.write('{"event":"daemon-not-running"}\n');
+  process.exit(0);
+}
+
+function runRegistryStatus() {
+  const entries = readRegistry();
+  process.stdout.write(JSON.stringify({ event: 'registry-status', entries }) + '\n');
+  process.exit(0);
+}
+
+function browserSkillHome() {
+  return process.env.BROWSER_SKILL_HOME || join(homedir(), '.browser-skill');
+}
+
+function daemonStatePath() {
+  return join(browserSkillHome(), 'playwright-lib-daemon.json');
+}
+
+function readDaemonState() {
+  const p = daemonStatePath();
+  if (!existsSync(p)) return null;
+  try {
+    return JSON.parse(readFileSync(p, 'utf-8'));
+  } catch (_) {
+    return null;
+  }
+}
+
+function isPidAlive(pid) {
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function parseFlags(args) {
+  const out = { _positional: [] };
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i];
+    if (a.startsWith('--')) {
+      const key = a.slice(2);
+      const next = args[i + 1];
+      if (next !== undefined && !next.startsWith('--')) {
+        out[key] = next;
+        i += 1;
+      } else {
+        out[key] = true;
+      }
+    } else {
+      out._positional.push(a);
+    }
+  }
+  return out;
+}
+
+async function runOpen(flags) {
+  const url = flags.url;
+  if (!url) {
+    process.stderr.write('playwright-driver.mjs::open: --url is required\n');
+    process.exit(2);
+  }
+  const headed = flags.headed === true;
+  const viewport = flags.viewport
+    ? parseViewport(flags.viewport)
+    : { width: 1280, height: 800 };
+  const storageStatePath = flags['storage-state'];
+  const userAgent = flags['user-agent'];
+
+  const { chromium } = loadPlaywright();
+
+  // If a daemon with an IPC socket is running, route through it so the
+  // context+page persists for subsequent stateful verbs (snapshot/click/fill).
+  // Otherwise: one-shot launch + close — useful as a smoke test, no state.
+  const daemon = readDaemonState();
+  if (daemon && isPidAlive(daemon.pid) && daemon.ipc_port) {
+    const reply = await ipcCall({
+      verb: 'open',
+      url,
+      viewport,
+      storage_state: storageStatePath || undefined,
+      user_agent: userAgent || undefined,
+    });
+    process.stdout.write(JSON.stringify(reply) + '\n');
+    process.exit(reply.event === 'error' ? 30 : 0);
+  }
+
+  const browser = await chromium.launch({ headless: !headed });
+  const attached = false;
+  try {
+    const contextOptions = { viewport };
+    if (storageStatePath) contextOptions.storageState = storageStatePath;
+    if (userAgent)        contextOptions.userAgent    = userAgent;
+
+    const context = await browser.newContext(contextOptions);
+    const page = await context.newPage();
+
+    const response = await page.goto(url, { waitUntil: 'domcontentloaded' });
+    const title = await page.title();
+    const finalUrl = page.url();
+
+    process.stdout.write(
+      JSON.stringify({
+        event: 'navigated',
+        url: finalUrl,
+        title,
+        status: response ? response.status() : null,
+        attached_to_daemon: attached,
+      }) + '\n'
+    );
+
+    if (attached) {
+      // Disconnect — context + page stay alive in the daemon.
+      await browser.close();
+    } else {
+      await context.close();
+      await browser.close();
+    }
+    process.exit(0);
+  } catch (err) {
+    try { await browser.close(); } catch (_) {}
+    process.stderr.write(
+      `playwright-driver.mjs::open: ${err && err.message ? err.message : String(err)}\n`
+    );
+    process.exit(30);
+  }
+}
+
+// loadPlaywright resolves the `playwright` package by walking up from the
+// driver's location (project node_modules), then falling back to the npm
+// global root (BROWSER_SKILL_NPM_GLOBAL or `npm root -g`). Necessary because
+// users typically install playwright globally, but ESM `import('playwright')`
+// only walks up from the script's directory — not into ~/global node_modules.
+function loadPlaywright() {
+  const req = createRequire(import.meta.url);
+
+  // First try local resolution (works if a project node_modules exists).
+  try {
+    return req('playwright');
+  } catch (_) {
+    // Fall through to global lookup.
+  }
+
+  let npmRoot = process.env.BROWSER_SKILL_NPM_GLOBAL;
+  if (!npmRoot) {
+    try {
+      npmRoot = execSync('npm root -g', { encoding: 'utf-8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
+    } catch (_) {
+      process.stderr.write(
+        'playwright-driver.mjs: cannot locate `playwright` — install it (`npm i -g playwright && playwright install chromium`)\n'
+      );
+      process.exit(21); // EXIT_TOOL_MISSING
+    }
+  }
+
+  try {
+    return req(join(npmRoot, 'playwright'));
+  } catch (err) {
+    process.stderr.write(
+      `playwright-driver.mjs: cannot load playwright from ${npmRoot}: ${err && err.message ? err.message : err}\n`
+    );
+    process.exit(21);
+  }
+}
+
+function parseViewport(spec) {
+  const m = /^(\d+)x(\d+)$/.exec(spec);
+  if (!m) {
+    process.stderr.write(`--viewport must be WxH (got: ${spec})\n`);
+    process.exit(2);
+  }
+  return { width: parseInt(m[1], 10), height: parseInt(m[2], 10) };
+}
+
+function sha256NulJoined(args) {
+  const hash = createHash('sha256');
+  for (const a of args) {
+    hash.update(a, 'utf-8');
+    hash.update(Buffer.from([0]));
+  }
+  return hash.digest('hex');
+}
+
+function repoRoot() {
+  const here = dirname(fileURLToPath(import.meta.url));
+  return join(here, '..', '..', '..');
+}

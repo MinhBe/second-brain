@@ -1,0 +1,107 @@
+# tests/helpers.bash
+# Common bats helpers. `load helpers` from any *.bats picks this up.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+LIB_DIR="${REPO_ROOT}/scripts/lib"
+SCRIPTS_DIR="${REPO_ROOT}/scripts"
+
+# Make EXIT_* and other constants from common.sh available to every test.
+# This means tests can reference $EXIT_PREFLIGHT_FAILED directly without the
+# `${EXIT_*:-N}` fallback pattern.
+# shellcheck source=../scripts/lib/common.sh
+# shellcheck disable=SC1091
+source "${LIB_DIR}/common.sh"
+
+# Per-test isolated home. Set in setup(); torn down in teardown().
+setup_temp_home() {
+  TEST_HOME="$(mktemp -d "${TMPDIR:-/tmp}/browser-skill-test.XXXXXX")"
+  export BROWSER_SKILL_HOME="${TEST_HOME}/.browser-skill"
+  export HOME="${TEST_HOME}"
+
+  # Tests must not inherit opt-in browser-do rescue settings from a user's
+  # shell. Individual Path 3 tests set these explicitly when needed.
+  unset BROWSER_SKILL_VISION_FALLBACK
+  unset BROWSER_SKILL_VISUAL_RESCUE_CMD
+  unset BROWSER_SKILL_SCRIPTS_DIR
+  unset BROWSER_SKILL_VLM_HOST
+  unset BROWSER_SKILL_VLM_PORT
+  unset BROWSER_SKILL_VLM_RESCUE_MODEL
+  unset BROWSER_SKILL_VLM_RESCUE_TIMEOUT
+  unset BROWSER_SKILL_RESCUE_SNAPSHOT_BYTES
+  export BROWSER_SKILL_LAZY_START=0
+  export BROWSER_SKILL_LAZY_START_TIMEOUT=1
+}
+
+teardown_temp_home() {
+  if [ -n "${TEST_HOME:-}" ] && [ -d "${TEST_HOME}" ]; then
+    rm -rf "${TEST_HOME}"
+  fi
+}
+
+# Assert that a string is present in $output (bats sets $output on `run`).
+#
+# Implementation note (v1-polish): use bash native substring matching instead
+# of `printf | grep -qF`. The pipe form has an intermittent SIGPIPE race on
+# macOS — `grep -q` exits on first match, closes the pipe, and `printf`
+# trips on the broken pipe under bats' `set -euo pipefail`. The `case`
+# construct avoids the subprocess + pipe entirely. Faster too.
+assert_output_contains() {
+  local needle="$1"
+  case "${output}" in
+    *"${needle}"*) return 0 ;;
+    *)
+      printf 'expected output to contain:\n  %s\n--- actual output ---\n%s\n' "${needle}" "${output}" >&2
+      return 1
+      ;;
+  esac
+}
+
+assert_output_not_contains() {
+  local needle="$1"
+  case "${output}" in
+    *"${needle}"*)
+      printf 'expected output NOT to contain:\n  %s\n--- actual output ---\n%s\n' "${needle}" "${output}" >&2
+      return 1
+      ;;
+    *) return 0 ;;
+  esac
+}
+
+# Assert exit status (mirrors bats-assert's assert_failure but no extra dep).
+assert_status() {
+  local expected="$1"
+  if [ "${status}" -ne "${expected}" ]; then
+    printf 'expected status %d, got %d\n--- output ---\n%s\n' "${expected}" "${status}" "${output}" >&2
+    return 1
+  fi
+}
+
+# Portable fail() — bats-core ships one in newer versions, but not all distros.
+# Define our own so tests run on Ubuntu's older bats package too.
+if ! declare -F fail >/dev/null 2>&1; then
+  fail() {
+    printf 'fail: %s\n' "$*" >&2
+    return 1
+  }
+fi
+
+# --- Adapter test helpers (Phase 3 extension model) ---
+export LIB_TOOL_DIR="${SCRIPTS_DIR}/lib/tool"
+export STUBS_DIR="${BATS_TEST_DIRNAME:-tests}/stubs"
+export FIXTURES_DIR="${BATS_TEST_DIRNAME:-tests}/fixtures"
+
+# adapter_source ADAPTER_NAME — sources scripts/lib/tool/<name>.sh in current shell.
+# Use ONLY in subshell-isolated test bodies; otherwise use adapter_run_query.
+adapter_source() {
+  # shellcheck source=/dev/null
+  source "${LIB_TOOL_DIR}/${1}.sh"
+}
+
+# adapter_run_query ADAPTER_NAME FUNCTION — runs FUNCTION in a clean subshell
+# and echoes its stdout. Used to query identity functions without polluting
+# the parent shell's namespace.
+adapter_run_query() {
+  ( source "${LIB_TOOL_DIR}/${1}.sh"; "${2}" )
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scientific-paper-research/output",
+  "title": "Output",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "partial",
+        "clarification_required",
+        "needs_evidence",
+        "invalid_request",
+        "error"
+      ]
+    },
+    "request": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "result": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "clarification": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "missing": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "ask": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "field",
+                  "reason",
+                  "ask"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "relay_verbatim": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "missing",
+            "relay_verbatim"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "error": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "minLength": 1
+            },
+            "message": {
+              "type": "string",
+              "minLength": 1
+            },
+            "setup_hint": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "code",
+            "message",
+            "setup_hint"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "next_command": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contract_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "mode",
+    "status",
+    "request",
+    "result",
+    "clarification",
+    "error",
+    "next_command",
+    "contract_version"
+  ],
+  "additionalProperties": false
+}

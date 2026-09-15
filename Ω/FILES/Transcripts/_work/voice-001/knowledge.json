@@ -1,0 +1,12 @@
+{
+  "created": "2026-09-13",
+  "claims": [],
+  "nodes": [],
+  "open_questions": [
+    "Bản ghi hầu như không có lời nói (ASR bắt được 1 câu quảng cáo lặp lại, không liên quan nội dung bản ghi); cần nghe trực tiếp để xác định có phải bản ghi thực sự im lặng hay ASR bỏ sót lời ở khoảng 00:03:32–00:04:08."
+  ],
+  "practice": [
+    "Nghe lại toàn bộ bản ghi để xác nhận bản chất (audio của video quảng cáo lặp lại hay có lời nói bị bỏ sót); nếu bản ghi không có lời nói thì đánh dấu 'không có nội dung' và loại khỏi danh sách nguồn.",
+    "Chỉ dùng đoạn 00:03:32–00:04:08 để nghe kiểm chứng; nếu có lời nói thật thì ghi đè bằng phiên bản ASR nâng cấp (chunk nhỏ hơn) và rà lại."
+  ]
+}

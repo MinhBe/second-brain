@@ -1,0 +1,15 @@
+{
+  "url": "https://claude.ai/login",
+  "title": "Claude",
+  "aria_yaml": "- button \"Continue with Google\" [ref=e3]\n",
+  "alerts": [
+    "You are out of free messages until 5:40 AM"
+  ],
+  "dialogs": [],
+  "iframes": [],
+  "visible_text_sample": "",
+  "provenance": "synthetic: two blocking states at once",
+  "expect": {
+    "state": "UNKNOWN"
+  }
+}

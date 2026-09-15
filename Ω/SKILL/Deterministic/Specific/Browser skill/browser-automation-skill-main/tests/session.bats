@@ -1,0 +1,183 @@
+# tests/session.bats
+load helpers
+
+setup() {
+  setup_temp_home
+  mkdir -p "${BROWSER_SKILL_HOME}/sessions"
+  chmod 700 "${BROWSER_SKILL_HOME}" "${BROWSER_SKILL_HOME}/sessions"
+}
+
+teardown() { teardown_temp_home; }
+
+@test "session.sh: source guard prevents double-source" {
+  run bash -c "source '${LIB_DIR}/session.sh'; source '${LIB_DIR}/session.sh'; printf '%s\n' \"\${BROWSER_SKILL_SESSION_LOADED:-unset}\""
+  assert_status 0
+  [ "${output}" = "1" ]
+}
+
+@test "session.sh: _session_path echoes <SESSIONS_DIR>/<name>.json" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; _session_path prod-app--admin"
+  assert_status 0
+  [ "${output}" = "${BROWSER_SKILL_HOME}/sessions/prod-app--admin.json" ]
+}
+
+@test "session.sh: _session_meta_path echoes <SESSIONS_DIR>/<name>.meta.json" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; _session_meta_path prod-app--admin"
+  assert_status 0
+  [ "${output}" = "${BROWSER_SKILL_HOME}/sessions/prod-app--admin.meta.json" ]
+}
+
+@test "session.sh: session_exists is false for missing, true for present" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_exists nope"
+  assert_status 1
+  printf '{}' > "${BROWSER_SKILL_HOME}/sessions/here.json"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_exists here"
+  assert_status 0
+}
+
+@test "session.sh: session_save writes storageState + meta atomically at mode 0600" {
+  local ss='{"cookies":[{"name":"sid","value":"abc","domain":"app.example.com","path":"/","expires":-1,"httpOnly":true,"secure":true,"sameSite":"Lax"}],"origins":[{"origin":"https://app.example.com","localStorage":[]}]}'
+  local meta='{"name":"prod-app--admin","site":"prod-app","origin":"https://app.example.com","captured_at":"2026-04-29T15:42:00Z","source_user_agent":"phase-2 stub","expires_in_hours":168,"schema_version":1}'
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save prod-app--admin '${ss}' '${meta}'"
+  assert_status 0
+  jq -e '.cookies[0].name == "sid"' "${BROWSER_SKILL_HOME}/sessions/prod-app--admin.json" >/dev/null
+  jq -e '.schema_version == 1' "${BROWSER_SKILL_HOME}/sessions/prod-app--admin.meta.json" >/dev/null
+  for f in prod-app--admin.json prod-app--admin.meta.json; do
+    local mode
+    mode="$(stat -c '%a' "${BROWSER_SKILL_HOME}/sessions/${f}" 2>/dev/null \
+         || stat -f '%Lp' "${BROWSER_SKILL_HOME}/sessions/${f}" 2>/dev/null)"
+    [ "${mode}" = "600" ] || fail "expected mode 600 on ${f}, got ${mode}"
+  done
+}
+
+@test "session.sh: session_save rejects malformed storageState JSON (exit 2)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x 'not json' '{}'"
+  assert_status "$EXIT_USAGE_ERROR"
+}
+
+@test "session.sh: session_save rejects storageState missing cookies/origins arrays (exit 2)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[]}' '{}'"
+  assert_status "$EXIT_USAGE_ERROR"
+  assert_output_contains "origins"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"origins\":[]}' '{}'"
+  assert_status "$EXIT_USAGE_ERROR"
+  assert_output_contains "cookies"
+}
+
+@test "session.sh: session_load echoes the storageState JSON" {
+  local ss='{"cookies":[],"origins":[{"origin":"https://app.example.com","localStorage":[]}]}'
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '${ss}' '{\"name\":\"x\",\"site\":\"y\",\"origin\":\"https://app.example.com\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_load x | jq -r '.origins[0].origin'"
+  assert_status 0
+  [ "${output}" = "https://app.example.com" ]
+}
+
+@test "session.sh: session_load fails (exit 22) when missing" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_load nope"
+  assert_status "$EXIT_SESSION_EXPIRED"
+  assert_output_contains "session not found"
+}
+
+@test "session.sh: session_meta_load echoes the meta JSON" {
+  local ss='{"cookies":[],"origins":[]}'
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '${ss}' '{\"name\":\"x\",\"origin\":\"https://x.test\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_meta_load x | jq -r .origin"
+  assert_status 0
+  [ "${output}" = "https://x.test" ]
+}
+
+@test "session.sh: session_origin_check passes when origins match exactly" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://app.example.com\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_origin_check x https://app.example.com/dashboard"
+  assert_status 0
+}
+
+@test "session.sh: session_origin_check fails (exit 22) on host mismatch" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://app.example.com\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_origin_check x https://evil.example.com/"
+  assert_status "$EXIT_SESSION_EXPIRED"
+  assert_output_contains "origin mismatch"
+}
+
+@test "session.sh: session_origin_check fails on scheme mismatch" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://app.example.com\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_origin_check x http://app.example.com/"
+  assert_status "$EXIT_SESSION_EXPIRED"
+}
+
+@test "session.sh: session_origin_check fails on port mismatch when port is part of origin" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://app.example.com:8443\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_origin_check x https://app.example.com/"
+  assert_status "$EXIT_SESSION_EXPIRED"
+}
+
+@test "session.sh: session_expiry_summary emits expires_in_hours from meta" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://x.test\",\"captured_at\":\"2026-04-29T15:42:00Z\",\"expires_in_hours\":168,\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_expiry_summary x"
+  assert_status 0
+  printf '%s' "${output}" | jq -e '.session == "x" and .expires_in_hours == 168 and .captured_at == "2026-04-29T15:42:00Z"' >/dev/null
+}
+
+@test "session.sh: session_expiry_summary defaults expires_in_hours to null when meta omits it" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://x.test\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_expiry_summary x"
+  assert_status 0
+  printf '%s' "${output}" | jq -e '.expires_in_hours == null' >/dev/null
+}
+
+@test "session.sh: session_expired_by_ttl returns 0 for expired metadata" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://x.test\",\"captured_at\":\"2000-01-01T00:00:00Z\",\"expires_in_hours\":1,\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_expired_by_ttl x"
+  assert_status 0
+}
+
+@test "session.sh: session_expired_by_ttl returns 1 when TTL metadata is absent" {
+  bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save x '{\"cookies\":[],\"origins\":[]}' '{\"name\":\"x\",\"origin\":\"https://x.test\",\"schema_version\":1}'"
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_expired_by_ttl x"
+  assert_status 1
+}
+
+@test "session.sh: session_delete removes both .json + .meta.json" {
+  setup_temp_home
+  run bash -c "
+    source '${LIB_DIR}/common.sh'; init_paths
+    source '${LIB_DIR}/session.sh'
+    storage='{\"cookies\":[],\"origins\":[]}'
+    meta='{\"schema_version\":1,\"origin\":\"https://x.test\"}'
+    session_save zap \"\${storage}\" \"\${meta}\"
+    [ -f \"\${SESSIONS_DIR}/zap.json\" ] || exit 1
+    [ -f \"\${SESSIONS_DIR}/zap.meta.json\" ] || exit 1
+    session_delete zap
+    [ ! -f \"\${SESSIONS_DIR}/zap.json\" ] || exit 2
+    [ ! -f \"\${SESSIONS_DIR}/zap.meta.json\" ] || exit 3
+  "
+  teardown_temp_home
+  assert_status 0
+}
+
+@test "session.sh: session_delete is idempotent (no-op on missing)" {
+  setup_temp_home
+  run bash -c "
+    source '${LIB_DIR}/common.sh'; init_paths
+    source '${LIB_DIR}/session.sh'
+    session_delete ghost
+  "
+  teardown_temp_home
+  assert_status 0
+}
+
+@test "session.sh: session_delete rejects path-traversal in NAME" {
+  setup_temp_home
+  run bash -c "
+    source '${LIB_DIR}/common.sh'; init_paths
+    source '${LIB_DIR}/session.sh'
+    session_delete '../evil'
+  "
+  teardown_temp_home
+  assert_status "$EXIT_USAGE_ERROR"
+}
+
+@test "session.sh: session_save rejects path-traversal in NAME (security)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; source '${LIB_DIR}/session.sh'; session_save '../evil' '{\"cookies\":[],\"origins\":[]}' '{}'"
+  assert_status "$EXIT_USAGE_ERROR"
+}

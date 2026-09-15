@@ -1,0 +1,173 @@
+{
+ "title": "Anh Minh — kiểm soát an toàn thông tin, truy vết sự kiện và câu hỏi của thầy về từng giai đoạn",
+ "raw_hash": "84b870acf10687c5c8bfccec53cc68eb720e6f9c8d5e490e6e8b26da7b46f823",
+ "segments": 63,
+ "unclear": [
+  "S00033",
+  "S00034",
+  "S00035",
+  "S00036",
+  "S00014",
+  "S00058",
+  "S00059",
+  "S00060",
+  "S00061",
+  "S00062",
+  "S00038",
+  "S00024",
+  "S00025",
+  "S00026",
+  "S00027",
+  "S00028",
+  "S00052",
+  "S00053",
+  "S00054",
+  "S00055",
+  "S00056",
+  "S00057",
+  "S00001",
+  "S00042",
+  "S00041",
+  "S00023",
+  "S00032",
+  "S00039",
+  "S00037",
+  "S00063",
+  "S00043",
+  "S00044",
+  "S00040"
+ ],
+ "chapters": [
+  [
+   "S00001",
+   "Mở bản ghi — đoạn kết thúc của phần trước, chưa rõ ngữ cảnh"
+  ],
+  [
+   "S00002",
+   "Truy vết và đánh giá bằng SQLMap, Splunk"
+  ],
+  [
+   "S00005",
+   "Mục tiêu và hiện trạng kiểm soát truy cập từ xa (VPN, MFA)"
+  ],
+  [
+   "S00015",
+   "Các biện pháp kiểm soát lưu lượng và tắt truy cập trực tiếp từ Internet"
+  ],
+  [
+   "S00024",
+   "Phần kết quả: phát hiện, cung cấp và điều tra sự kiện (20:00–21:12)"
+  ],
+  [
+   "S00033",
+   "Trả lời câu hỏi về phân loại và hiệu năng (21:33–21:59)"
+  ],
+  [
+   "S00045",
+   "Trả lời câu hỏi của thầy về tiêu chí kết thúc từng giai đoạn (40:56–42:43)"
+  ]
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Mục tiêu mà người trình bày nêu ra là giảm rủi ro và giảm nỗ lực kiểm soát.",
+   "confidence": "vừa",
+   "confidence_reason": "Có câu trả lời trực tiếp rõ nghĩa trong văn bản (S00005); chưa nghe duyệt.",
+   "evidence": [
+    {
+     "segment_id": "S00005",
+     "quote": "Mục tiêu đưa ra, mục tiêu đó là giảm rủi ro và nỗ lực kiểm soát"
+    }
+   ],
+   "verification": "chưa kiểm chứng"
+  },
+  {
+   "id": "C2",
+   "text": "Người trình bày đề cập dùng SQLMap và Splunk để truy vết, đánh giá các sự cố còn lại sau khi rà soát.",
+   "confidence": "thấp",
+   "confidence_reason": "Văn bản rời rạc, thuật ngữ ASR ('SQL Map', 'khách dân') chưa chắc chắn; cần đối chiếu khi nghe.",
+   "evidence": [
+    {
+     "segment_id": "S00002",
+     "quote": "Thứ ba, anh sẽ đưa SQL Map và Splunk để truy vết, đánh giá các khách dân để xóa và sử dụng còn lại."
+    }
+   ],
+   "verification": "chưa kiểm chứng"
+  },
+  {
+   "id": "C3",
+   "text": "VPN được nêu là rất quan trọng với đơn vị khi làm việc từ xa, nhất là vì có những thiết bị di động nhập từ Trung Quốc.",
+   "confidence": "thấp",
+   "confidence_reason": "Nghĩa hai câu rõ nhưng cách diễn đạt ('4M', 'điện thoại như Trung Quốc') chưa nghe duyệt.",
+   "evidence": [
+    {
+     "segment_id": "S00012",
+     "quote": "Đối với VPN thì, đối với 4M thì VPN rất quan trọng"
+    },
+    {
+     "segment_id": "S00013",
+     "quote": "vì chúng ta có những điện thoại như Trung Quốc"
+    }
+   ],
+   "verification": "chưa kiểm chứng"
+  },
+  {
+   "id": "C4",
+   "text": "Kết quả trong báo cáo mới chỉ rút ra từ mô hình, chưa đại diện được cho thực tế vận hành.",
+   "confidence": "thấp",
+   "confidence_reason": "Câu nói trực tiếp nhưng văn bản rối ('chỉ phải được mô hình điều') nên nghĩa cần nghe lại.",
+   "evidence": [
+    {
+     "segment_id": "S00031",
+     "quote": "Tuy nhiên là kết quả này chỉ phải được mô hình điều để chưa được đại diện cho lượng năng, tổ chức sát hay môi trường."
+    }
+   ],
+   "verification": "chưa kiểm chứng"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "N1",
+   "title": "Mục tiêu giảm rủi ro và hiện trạng truy cập từ xa",
+   "question": "Giải pháp nhắm tới kết quả gì và hiện trạng kiểm soát truy cập từ xa ra sao?",
+   "answer": "Mục tiêu được nêu là giảm rủi ro và giảm nỗ lực kiểm soát; truy cập từ xa gắn với VPN/MFA được coi là quan trọng, đặc biệt với các thiết bị di động không kiểm soát được.",
+   "context": "Phần mở đầu và trình bày hiện trạng trong buổi thuyết trình/duyệt giải pháp an toàn thông tin.",
+   "conditions": "Chỉ phản ánh lời nói trong bản ghi; chưa kiểm chứng thực tế triển khai của đơn vị.",
+   "claim_ids": [
+    "C1",
+    "C3"
+   ],
+   "connections": "Cùng chủ đề an toàn thông tin với voice-002 và record-thay-lam-2 (xem Schema Map).",
+   "tags": [
+    "an-toan-thong-tin",
+    "truy-cập-từ-xa"
+   ]
+  },
+  {
+   "id": "N2",
+   "title": "Truy vết sự kiện và giới hạn của kết quả đánh giá",
+   "question": "Việc truy vết, điều tra sự kiện dùng công cụ gì và kết quả có giá trị đến đâu?",
+   "answer": "Đề cập dùng SQLMap và Splunk để truy vết, đánh giá; kết quả trình bày mới từ mô hình nên chưa đại diện thực tế vận hành.",
+   "context": "Phần giới thiệu công cụ và phần nêu kết quả của bản trình bày.",
+   "conditions": "Các đoạn chi tiết kết quả (20:00–21:12) và vùng Q&A (S00033–S00062) bị cờ no_speech; cần nghe trước khi trích số liệu.",
+   "claim_ids": [
+    "C2",
+    "C4"
+   ],
+   "connections": "Chủ đề điều tra sự kiện tương đồng phần SOC của voice-002.",
+   "tags": [
+    "an-toan-thong-tin",
+    "giám-sát-sự-cố"
+   ]
+  }
+ ],
+ "open_questions": [
+  "Nội dung 00:41:28–00:42:43 (tiêu chí kết thúc từng giai đoạn triển khai) bị cờ no_speech; cần nghe lại để chốt tiêu chí giai đoạn 1 và giai đoạn 2.",
+  "Thuật ngữ ASR chưa chắc: 'SAEM', 'Database Taiwan', 'IEA', '4M', 'trang phòng' (tắt mở dịch vụ); cần đối chiếu khi nghe.",
+  "Đoạn 08:33–18:52 nhiều chỗ ASR rời rạc; vai người hỏi ('thầy') và người trình bày ('em') cần làm rõ khi nghe."
+ ],
+ "practice": [
+  "Nghe lại đoạn 00:41:28–00:42:43 để ghi tiêu chí kết thúc giai đoạn 1 và 2; đối chiếu với lộ trình triển khai trước khi dùng.",
+  "Khi sử dụng phần 'phát hiện, cung cấp và điều tra hoạt động' của kết quả, đánh dấu là chưa nghe duyệt cho tới khi đối chiếu được với bản ghi."
+ ]
+}

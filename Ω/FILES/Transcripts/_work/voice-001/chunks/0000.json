@@ -1,0 +1,111 @@
+{
+  "run_key": "d3dd5e0f0c7715ed38915260448e570749daba7608c01e301ed8b618e13c208b",
+  "start": 0,
+  "end": 248.941125,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.54,
+      "end": 212.64,
+      "text": "Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn",
+      "avg_logprob": -0.2717013778509917,
+      "compression_ratio": 0.9347826086956522,
+      "no_speech_prob": 0.3291015625,
+      "words": [
+        {
+          "start": 0.54,
+          "end": 2.08,
+          "word": " Hãy",
+          "probability": 0.4025115966796875
+        },
+        {
+          "start": 4.04,
+          "end": 4.28,
+          "word": " subscribe",
+          "probability": 0.7451171875
+        },
+        {
+          "start": 4.28,
+          "end": 4.4,
+          "word": " cho",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 5.56,
+          "end": 15.44,
+          "word": " kênh",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 33.44,
+          "end": 33.88,
+          "word": " La",
+          "probability": 0.0985107421875
+        },
+        {
+          "start": 33.88,
+          "end": 33.88,
+          "word": " La",
+          "probability": 0.9306640625
+        },
+        {
+          "start": 34.18,
+          "end": 36.06,
+          "word": " School",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 36.06,
+          "end": 36.2,
+          "word": " Để",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 37.91,
+          "end": 38.19,
+          "word": " không",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 38.19,
+          "end": 38.43,
+          "word": " bỏ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 38.43,
+          "end": 40.33,
+          "word": " lỡ",
+          "probability": 0.9998372395833334
+        },
+        {
+          "start": 207.52,
+          "end": 208.64,
+          "word": " những",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 212.2,
+          "end": 212.62,
+          "word": " video",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 212.62,
+          "end": 212.64,
+          "word": " hấp",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 212.64,
+          "end": 212.64,
+          "word": " dẫn",
+          "probability": 1.0
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "cb7e26ebc97996eb1dcdff94623ba1cb3f8f1b0feefc31c7d23e7a877d5df9b4"
+}

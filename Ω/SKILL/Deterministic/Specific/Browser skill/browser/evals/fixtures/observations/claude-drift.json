@@ -1,0 +1,14 @@
+{
+  "url": "https://claude.ai/new?incognito=",
+  "title": "Claude",
+  "aria_yaml": "- main [ref=e1]:\n  - textbox \"Type here\" [ref=e5]\n  - button \"Go\" [ref=e6]\n",
+  "alerts": [],
+  "dialogs": [],
+  "iframes": [],
+  "visible_text_sample": "Type here Go",
+  "provenance": "synthetic: composer renamed so no ladder step matches",
+  "expect": {
+    "state": "UNKNOWN",
+    "drift": true
+  }
+}

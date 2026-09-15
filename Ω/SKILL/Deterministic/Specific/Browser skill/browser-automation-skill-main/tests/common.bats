@@ -1,0 +1,208 @@
+load helpers
+
+@test "common.sh: exit codes are exported as readonly constants" {
+  run bash -c "source '${LIB_DIR}/common.sh'; printf '%s\n' \"\${EXIT_OK}\" \"\${EXIT_USAGE_ERROR}\" \"\${EXIT_PREFLIGHT_FAILED}\" \"\${EXIT_TOOL_MISSING}\" \"\${EXIT_NETWORK_ERROR}\" \"\${EXIT_CAPTURE_WRITE_FAILED}\""
+  assert_status 0
+  [ "${lines[0]}" = "0" ]
+  [ "${lines[1]}" = "2" ]
+  [ "${lines[2]}" = "20" ]
+  [ "${lines[3]}" = "21" ]
+  [ "${lines[4]}" = "30" ]
+  [ "${lines[5]}" = "31" ]
+}
+
+@test "common.sh: EXIT_OK is readonly (cannot be reassigned)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; EXIT_OK=99"
+  assert_status 1
+  assert_output_contains "readonly"
+}
+
+@test "common.sh: ok() prints to stderr with green prefix when TTY" {
+  run bash -c "source '${LIB_DIR}/common.sh'; FORCE_COLOR=1 ok 'hello'"
+  assert_status 0
+  assert_output_contains "hello"
+}
+
+@test "common.sh: warn() prints to stderr with yellow prefix" {
+  run bash -c "source '${LIB_DIR}/common.sh'; FORCE_COLOR=0 warn 'careful' 2>&1"
+  assert_status 0
+  assert_output_contains "careful"
+  assert_output_contains "warn:"
+}
+
+@test "common.sh: die() prints to stderr and exits with given code" {
+  run bash -c "source '${LIB_DIR}/common.sh'; die 23 'site not found'; echo 'after-die-should-not-print'"
+  assert_status 23
+  assert_output_contains "site not found"
+  assert_output_not_contains "after-die-should-not-print"
+}
+
+@test "common.sh: NO_COLOR=1 suppresses ANSI escapes" {
+  run bash -c "source '${LIB_DIR}/common.sh'; NO_COLOR=1 ok 'plain' 2>&1"
+  assert_output_not_contains "$(printf '\033')"
+}
+
+@test "common.sh: resolve_browser_skill_home — explicit env var wins" {
+  setup_temp_home
+  BROWSER_SKILL_HOME="/tmp/explicit-override-xyz" \
+    run bash -c "source '${LIB_DIR}/common.sh'; resolve_browser_skill_home"
+  teardown_temp_home
+  assert_status 0
+  [ "${output}" = "/tmp/explicit-override-xyz" ]
+}
+
+@test "common.sh: resolve_browser_skill_home — walks up to find .browser-skill/" {
+  setup_temp_home
+  mkdir -p "${TEST_HOME}/proj/sub/deeper"
+  mkdir "${TEST_HOME}/proj/.browser-skill"
+  unset BROWSER_SKILL_HOME
+  run bash -c "cd '${TEST_HOME}/proj/sub/deeper'; source '${LIB_DIR}/common.sh'; resolve_browser_skill_home"
+  teardown_temp_home
+  assert_status 0
+  assert_output_contains "/proj/.browser-skill"
+}
+
+@test "common.sh: resolve_browser_skill_home — falls back to user-level" {
+  setup_temp_home
+  unset BROWSER_SKILL_HOME
+  run bash -c "cd '${TEST_HOME}'; source '${LIB_DIR}/common.sh'; resolve_browser_skill_home"
+  teardown_temp_home
+  assert_status 0
+  [ "${output}" = "${HOME}/.browser-skill" ]
+}
+
+@test "common.sh: summary_json emits valid single-line JSON with required keys" {
+  run bash -c "source '${LIB_DIR}/common.sh'; summary_json verb=doctor tool=none why=health-check status=ok duration_ms=42"
+  assert_status 0
+  # Must be a single line.
+  [ "${#lines[@]}" -eq 1 ]
+  # Must be valid JSON.
+  printf '%s' "${output}" | jq -e . >/dev/null
+  # Must have all keys.
+  [ "$(printf '%s' "${output}" | jq -r .verb)" = "doctor" ]
+  [ "$(printf '%s' "${output}" | jq -r .tool)" = "none" ]
+  [ "$(printf '%s' "${output}" | jq -r .status)" = "ok" ]
+  [ "$(printf '%s' "${output}" | jq -r .duration_ms)" = "42" ]
+}
+
+@test "common.sh: summary_json escapes embedded quotes in values" {
+  run bash -c "source '${LIB_DIR}/common.sh'; summary_json verb=test why='quote\"inside' status=ok"
+  assert_status 0
+  printf '%s' "${output}" | jq -e . >/dev/null
+  [ "$(printf '%s' "${output}" | jq -r .why)" = 'quote"inside' ]
+}
+
+@test "common.sh: summary_json rejects key without =value" {
+  run bash -c "source '${LIB_DIR}/common.sh'; summary_json verb=doctor lonely_key status=ok"
+  assert_status "$EXIT_USAGE_ERROR"
+}
+
+@test "common.sh: summary_json handles JSON keys that collide with jq reserved keywords (label, def, or, and, not)" {
+  # Regression for the `--arg label X` → `$label` parser collision in jq's
+  # grammar. summary_json must accept any field name in {label, def, or, and,
+  # not, if, then, else, end, as, reduce, foreach, try, catch, import,
+  # include, module, true, false, null, break} — all jq reserved words. Field
+  # names are part of the wire contract; we cannot rename them, so the
+  # implementation prefixes the internal jq variable name to decouple.
+  run bash -c "source '${LIB_DIR}/common.sh'; summary_json verb=test status=ok label=Big def=alpha or=beta and=gamma not=delta"
+  assert_status 0
+  printf '%s' "${output}" | jq -e '.label == "Big" and .def == "alpha" and .or == "beta" and .and == "gamma" and .not == "delta"' >/dev/null
+}
+
+@test "common.sh: with_timeout returns command's exit code on success" {
+  run bash -c "source '${LIB_DIR}/common.sh'; with_timeout 5 true"
+  assert_status 0
+}
+
+@test "common.sh: with_timeout kills slow command and returns 43 (TOOL_TIMEOUT)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; with_timeout 1 sleep 10"
+  assert_status "$EXIT_TOOL_TIMEOUT"
+}
+
+@test "common.sh: with_timeout passes args through correctly" {
+  run bash -c "source '${LIB_DIR}/common.sh'; with_timeout 5 printf '%s|%s|%s\n' a b c"
+  assert_status 0
+  [ "${output}" = "a|b|c" ]
+}
+
+@test "common.sh: now_ms returns a positive integer of millisecond magnitude" {
+  run bash -c "source '${LIB_DIR}/common.sh'; now_ms"
+  assert_status 0
+  [[ "${output}" =~ ^[0-9]+$ ]]
+  # At least 13 digits = year 2001 epoch ms or later. We're well past that.
+  [ "${#output}" -ge 13 ]
+}
+
+@test "common.sh: now_ms output never contains 'N' (BSD %3N quirk caught)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; now_ms"
+  assert_status 0
+  assert_output_not_contains "N"
+}
+
+@test "common.sh: now_iso emits a UTC timestamp matching YYYY-MM-DDTHH:MM:SSZ" {
+  run bash -c "source '${LIB_DIR}/common.sh'; now_iso"
+  assert_status 0
+  printf '%s' "${output}" | grep -qE '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$'
+}
+
+@test "common.sh: assert_safe_name accepts valid names" {
+  run bash -c "source '${LIB_DIR}/common.sh'; assert_safe_name prod-app"
+  assert_status 0
+  run bash -c "source '${LIB_DIR}/common.sh'; assert_safe_name 'prod-app--admin'"
+  assert_status 0
+  run bash -c "source '${LIB_DIR}/common.sh'; assert_safe_name a_b_c"
+  assert_status 0
+}
+
+@test "common.sh: assert_safe_name rejects path-traversal, slashes, dots, empty" {
+  for bad in '../evil' 'a/b' '..' '.' '' 'foo bar' 'foo.bar' 'foo;rm'; do
+    run bash -c "source '${LIB_DIR}/common.sh'; assert_safe_name '${bad}'"
+    [ "${status}" = "${EXIT_USAGE_ERROR}" ] || fail "expected EXIT_USAGE_ERROR for '${bad}', got ${status}"
+  done
+}
+
+@test "common.sh: assert_safe_name uses optional FIELD label in error message" {
+  run bash -c "source '${LIB_DIR}/common.sh'; assert_safe_name '../evil' session-name"
+  assert_status "$EXIT_USAGE_ERROR"
+  assert_output_contains "session-name"
+}
+
+@test "common.sh: BROWSER_SKILL_TOOL_ABI is exported as readonly integer" {
+  run bash -c "source '${LIB_DIR}/common.sh'; printf '%s\n' \"\${BROWSER_SKILL_TOOL_ABI}\""
+  assert_status 0
+  [ "${output}" = "1" ]
+}
+
+@test "common.sh: BROWSER_SKILL_TOOL_ABI is readonly (cannot be reassigned)" {
+  run bash -c "source '${LIB_DIR}/common.sh'; BROWSER_SKILL_TOOL_ABI=99"
+  assert_status 1
+  assert_output_contains "readonly"
+}
+
+@test "common.sh: LIB_TOOL_DIR points at scripts/lib/tool" {
+  run bash -c "source '${LIB_DIR}/common.sh'; init_paths; printf '%s\n' \"\${LIB_TOOL_DIR}\""
+  assert_status 0
+  [ "${output%/lib/tool}" != "${output}" ] || fail "expected LIB_TOOL_DIR to end with /lib/tool"
+}
+
+@test "common.sh: file_mode returns octal mode portably (BSD + GNU stat)" {
+  setup_temp_home
+  local f="${TEST_HOME}/probe"
+  : > "${f}"
+  chmod 0644 "${f}"
+  run bash -c "source '${LIB_DIR}/common.sh'; file_mode '${f}'"
+  teardown_temp_home
+  assert_status 0
+  [ "${output}" = "644" ] || fail "expected 644, got '${output}'"
+}
+
+@test "common.sh: file_mode handles 0700 directory mode" {
+  setup_temp_home
+  local d="${TEST_HOME}/probe-dir"
+  mkdir -p "${d}"
+  chmod 0700 "${d}"
+  run bash -c "source '${LIB_DIR}/common.sh'; file_mode '${d}'"
+  teardown_temp_home
+  assert_status 0
+  [ "${output}" = "700" ] || fail "expected 700, got '${output}'"
+}

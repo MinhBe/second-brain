@@ -1,15 +1,15 @@
 {
-  "created": "2026-09-08T18:22:30.964783+00:00",
-  "sources": 13,
-  "unique_sources": 12,
-  "completed": 12,
-  "source_hours": 10.37080030611111,
-  "processing_minutes": 92.48614575999963,
-  "segments": 6363,
+  "created": "2026-09-13T14:02:14.825666+00:00",
+  "sources": 17,
+  "unique_sources": 16,
+  "completed": 16,
+  "source_hours": 12.839242754027778,
+  "processing_minutes": 105.10231970499977,
+  "segments": 7157,
   "acoustic_flags": 1096,
-  "editorial_flags": 2941,
-  "claims": 67,
-  "nodes": 33,
+  "editorial_flags": 3228,
+  "claims": 88,
+  "nodes": 43,
   "rows": [
     {
       "slug": "voice-015",
@@ -41,6 +41,22 @@
       "reviewed_segments": 13,
       "claims": 2,
       "nodes": 1,
+      "listening": "pending"
+    },
+    {
+      "slug": "voice-001",
+      "source": "Voice 001.m4a",
+      "duration_s": 248.941125,
+      "status": "asr_complete",
+      "model": "large-v3",
+      "device": "cuda",
+      "processing_s": 33.45790870000201,
+      "segments": 1,
+      "acoustic_flags": 0,
+      "editorial_flags": 1,
+      "reviewed_segments": 1,
+      "claims": 0,
+      "nodes": 0,
       "listening": "pending"
     },
     {
@@ -92,6 +108,22 @@
       "listening": "pending"
     },
     {
+      "slug": "voice-002",
+      "source": "Voice 002.m4a",
+      "duration_s": 2403.14925,
+      "status": "asr_complete",
+      "model": "large-v3",
+      "device": "cuda",
+      "processing_s": 328.75316980000935,
+      "segments": 525,
+      "acoustic_flags": 0,
+      "editorial_flags": 137,
+      "reviewed_segments": 525,
+      "claims": 10,
+      "nodes": 5,
+      "listening": "pending"
+    },
+    {
       "slug": "voice-011",
       "source": "Voice 011.m4a",
       "duration_s": 2403.352245,
@@ -120,6 +152,38 @@
       "editorial_flags": 134,
       "reviewed_segments": 450,
       "claims": 6,
+      "nodes": 3,
+      "listening": "pending"
+    },
+    {
+      "slug": "anh-minh",
+      "source": "Anh Minh.m4a",
+      "duration_s": 2901.3565625,
+      "status": "asr_complete",
+      "model": "large-v3",
+      "device": "cuda",
+      "processing_s": 138.40009189999546,
+      "segments": 63,
+      "acoustic_flags": 0,
+      "editorial_flags": 33,
+      "reviewed_segments": 63,
+      "claims": 4,
+      "nodes": 2,
+      "listening": "pending"
+    },
+    {
+      "slug": "anh-hai",
+      "source": "Anh Hải.m4a",
+      "duration_s": 3332.945875,
+      "status": "asr_complete",
+      "model": "large-v3",
+      "device": "cuda",
+      "processing_s": 256.35926630000176,
+      "segments": 205,
+      "acoustic_flags": 0,
+      "editorial_flags": 116,
+      "reviewed_segments": 205,
+      "claims": 7,
       "nodes": 3,
       "listening": "pending"
     },
@@ -204,5 +268,5 @@
       "listening": "pending"
     }
   ],
-  "acoustic_flag_pct": 17.22
+  "acoustic_flag_pct": 15.31
 }

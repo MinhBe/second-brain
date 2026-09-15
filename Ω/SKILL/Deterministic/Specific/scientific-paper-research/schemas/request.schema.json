@@ -1,0 +1,344 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scientific-paper-research/request",
+  "title": "Request",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": [
+        "TOPIC_SEARCH",
+        "KEYWORD_SEARCH",
+        "DOI_DOWNLOAD",
+        "TITLE_DOWNLOAD",
+        "PAPER_ANALYSIS",
+        "BATCH_ANALYSIS"
+      ]
+    }
+  },
+  "required": [
+    "mode"
+  ],
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "TOPIC_SEARCH"
+        },
+        "concepts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": "string",
+                "enum": [
+                  "technology",
+                  "disease",
+                  "modality",
+                  "population",
+                  "intervention",
+                  "comparator",
+                  "outcome",
+                  "geography",
+                  "study_type",
+                  "other"
+                ]
+              },
+              "term": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "slot",
+              "term"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "result_count": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            {
+              "type": "string",
+              "enum": [
+                "few",
+                "some",
+                "batch",
+                "many",
+                "max"
+              ]
+            }
+          ]
+        },
+        "freshness": {
+          "type": "string",
+          "enum": [
+            "latest",
+            "recent"
+          ]
+        },
+        "year_from": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "years_back": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "english",
+            "any"
+          ]
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "article",
+            "review",
+            "article_or_review",
+            "any"
+          ]
+        },
+        "download": {
+          "type": "boolean"
+        },
+        "outdir": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unresolved_filters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "population",
+              "geography",
+              "intervention",
+              "comparator",
+              "study_type"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "mode",
+        "concepts"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "KEYWORD_SEARCH"
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "query_is_scopus_syntax": {
+          "type": "boolean"
+        },
+        "result_count": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            {
+              "type": "string",
+              "enum": [
+                "few",
+                "some",
+                "batch",
+                "many",
+                "max"
+              ]
+            }
+          ]
+        },
+        "freshness": {
+          "type": "string",
+          "enum": [
+            "latest",
+            "recent"
+          ]
+        },
+        "year_from": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "years_back": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "english",
+            "any"
+          ]
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "article",
+            "review",
+            "article_or_review",
+            "any"
+          ]
+        },
+        "download": {
+          "type": "boolean"
+        },
+        "outdir": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unresolved_filters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "population",
+              "geography",
+              "intervention",
+              "comparator",
+              "study_type"
+            ]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "mode",
+        "query"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "DOI_DOWNLOAD"
+        },
+        "dois": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 50,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "outdir": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "mode",
+        "dois"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "TITLE_DOWNLOAD"
+        },
+        "titles": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "outdir": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "mode",
+        "titles"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "PAPER_ANALYSIS"
+        },
+        "pdf_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workdir": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "mode",
+        "pdf_path"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "BATCH_ANALYSIS"
+        },
+        "pdf_paths": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 30,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evidence_dir": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workdir": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "mode",
+        "pdf_paths"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

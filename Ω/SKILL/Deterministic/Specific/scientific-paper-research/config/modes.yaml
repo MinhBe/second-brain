@@ -1,0 +1,46 @@
+# One entry per mode. The model never reads this file; run.py enforces it.
+version: 1
+
+concept_slots: [technology, disease, modality, population, intervention, comparator, outcome, geography, study_type, other]
+never_default: [population, geography, intervention, comparator, study_type]
+
+clarifications:
+  concepts: "Please provide the core concept(s) of the topic (e.g. technology, disease, modality)."
+  query: "Please provide the exact keywords or boolean query to search."
+  dois: "Please provide at least one DOI (format 10.xxxx/...)."
+  titles: "Please provide at least one exact paper title."
+  pdf_path: "Please provide the path to one PDF file."
+  pdf_paths: "Please provide the paths to the PDF files."
+  result_count: "How many papers do you want? (a number, or few / batch / max)"
+  year_from: "The start year is in the future. Which start year do you mean?"
+  population: "Which population should the search be restricted to? (Or say none.)"
+  geography: "Which country or region? (Or say none.)"
+  intervention: "Which intervention or exposure? (Or say none.)"
+  comparator: "Which comparator? (Or say none.)"
+  study_type: "Which study type (RCT, cohort, review, ...)? (Or say none.)"
+
+modes:
+  TOPIC_SEARCH:
+    required: [concepts]
+    pipeline: [validate, resolve_concepts, compile_query, attach_filters, search, acquire_if_download, emit]
+    forbidden: [invent_terms, add_synonyms_outside_table, change_operators, fetch_related, literature_review]
+  KEYWORD_SEARCH:
+    required: [query]
+    pipeline: [validate, preserve_query, attach_filters, search, acquire_if_download, emit]
+    forbidden: [translate, add_synonyms, drop_terms, change_operators, expand, narrow]
+  DOI_DOWNLOAD:
+    required: [dois]
+    pipeline: [validate_doi, acquire, verify, emit]
+    forbidden: [search, substitute, expand_set, recommend]
+  TITLE_DOWNLOAD:
+    required: [titles]
+    pipeline: [validate, resolve_title_exact, acquire, verify, emit]
+    forbidden: [pick_closest_match, substitute, expand_set]
+  PAPER_ANALYSIS:
+    required: [pdf_path]
+    pipeline: [parse, locate_sections, emit_template, validate_evidence, emit]
+    forbidden: [literature_review, related_search, research_gap, infer_missing]
+  BATCH_ANALYSIS:
+    required: [pdf_paths]
+    pipeline: [parse_each, locate_sections, emit_templates, validate_evidence_each, emit]
+    forbidden: [literature_review, related_search, research_gap, infer_missing, cross_paper_synthesis]

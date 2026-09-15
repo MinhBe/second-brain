@@ -1,0 +1,251 @@
+{
+  "run_key": "98399f82639f571fbea4c5f507b611d84fbd2cad7febe3bbe01683ba2a8c7628",
+  "start": 0,
+  "end": 600,
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 93.54,
+      "end": 497.52,
+      "text": "Hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+      "avg_logprob": -0.26201923879293293,
+      "compression_ratio": 1.0163934426229508,
+      "no_speech_prob": 0.79833984375,
+      "words": [
+        {
+          "start": 93.54,
+          "end": 94.94,
+          "word": " Hãy",
+          "probability": 0.48822021484375
+        },
+        {
+          "start": 94.94,
+          "end": 96.34,
+          "word": " đăng",
+          "probability": 0.6304931640625
+        },
+        {
+          "start": 96.34,
+          "end": 98.22,
+          "word": " ký",
+          "probability": 0.918212890625
+        },
+        {
+          "start": 299.28,
+          "end": 300.82,
+          "word": " kênh",
+          "probability": 0.9938151041666666
+        },
+        {
+          "start": 301.28,
+          "end": 301.28,
+          "word": " để",
+          "probability": 0.958984375
+        },
+        {
+          "start": 301.28,
+          "end": 301.84,
+          "word": " ủng",
+          "probability": 0.8917643229166666
+        },
+        {
+          "start": 480.93,
+          "end": 483.19,
+          "word": " hộ",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 486.17,
+          "end": 487.25,
+          "word": " kênh",
+          "probability": 0.9749348958333334
+        },
+        {
+          "start": 487.25,
+          "end": 487.25,
+          "word": " của",
+          "probability": 0.7548828125
+        },
+        {
+          "start": 487.25,
+          "end": 487.25,
+          "word": " mình",
+          "probability": 0.7314453125
+        },
+        {
+          "start": 488.9,
+          "end": 497.52,
+          "word": " nhé.",
+          "probability": 0.9970703125
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 2,
+      "seek": 3000,
+      "start": 562.32,
+      "end": 597.38,
+      "text": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+      "avg_logprob": -0.21806066351778366,
+      "compression_ratio": 0.9504950495049505,
+      "no_speech_prob": 0.8505859375,
+      "words": [
+        {
+          "start": 562.32,
+          "end": 563.72,
+          "word": " Các",
+          "probability": 0.42218017578125
+        },
+        {
+          "start": 564.92,
+          "end": 566.32,
+          "word": " bạn",
+          "probability": 0.489501953125
+        },
+        {
+          "start": 566.32,
+          "end": 566.32,
+          "word": " hãy",
+          "probability": 0.7010498046875
+        },
+        {
+          "start": 566.32,
+          "end": 566.32,
+          "word": " đăng",
+          "probability": 0.97607421875
+        },
+        {
+          "start": 568.56,
+          "end": 570.3,
+          "word": " kí",
+          "probability": 0.6260986328125
+        },
+        {
+          "start": 570.3,
+          "end": 570.3,
+          "word": " cho",
+          "probability": 0.99609375
+        },
+        {
+          "start": 570.5,
+          "end": 575.3,
+          "word": " kênh",
+          "probability": 0.9991861979166666
+        },
+        {
+          "start": 583.61,
+          "end": 585.35,
+          "word": " lalaschool",
+          "probability": 0.991943359375
+        },
+        {
+          "start": 585.35,
+          "end": 585.45,
+          "word": " Để",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 585.45,
+          "end": 585.67,
+          "word": " không",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 585.67,
+          "end": 585.85,
+          "word": " bỏ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 585.85,
+          "end": 586.55,
+          "word": " lỡ",
+          "probability": 0.9996744791666666
+        },
+        {
+          "start": 586.79,
+          "end": 586.79,
+          "word": " những",
+          "probability": 0.998046875
+        },
+        {
+          "start": 590.39,
+          "end": 594.29,
+          "word": " video",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 595.12,
+          "end": 595.9,
+          "word": " hấp",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 595.9,
+          "end": 597.38,
+          "word": " dẫn",
+          "probability": 1.0
+        }
+      ],
+      "temperature": 0
+    },
+    {
+      "id": 3,
+      "seek": 6000,
+      "start": 597.82,
+      "end": 599.36,
+      "text": "nên là việc kiểm tra các lưu",
+      "avg_logprob": -0.678515613079071,
+      "compression_ratio": 0.9180327868852459,
+      "no_speech_prob": 0.72119140625,
+      "words": [
+        {
+          "start": 597.82,
+          "end": 598.18,
+          "word": " nên",
+          "probability": 0.7236328125
+        },
+        {
+          "start": 598.18,
+          "end": 598.34,
+          "word": " là",
+          "probability": 0.91015625
+        },
+        {
+          "start": 598.34,
+          "end": 598.52,
+          "word": " việc",
+          "probability": 0.312744140625
+        },
+        {
+          "start": 598.52,
+          "end": 598.7,
+          "word": " kiểm",
+          "probability": 0.56280517578125
+        },
+        {
+          "start": 598.7,
+          "end": 598.9,
+          "word": " tra",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 598.9,
+          "end": 599.06,
+          "word": " các",
+          "probability": 0.89404296875
+        },
+        {
+          "start": 599.06,
+          "end": 599.36,
+          "word": " lưu",
+          "probability": 0.4614664713541667
+        }
+      ],
+      "temperature": 0
+    }
+  ],
+  "content_hash": "9b3c8f3eec135eae5876d6e657009dc69c580c4248bdd98844751c3e534c6564"
+}

@@ -1,0 +1,107 @@
+{
+  "segments": 245,
+  "flagged": 0,
+  "flagged_pct": 0.0,
+  "minutes": {
+    "0": {
+      "segments": 10,
+      "flagged": 0
+    },
+    "1": {
+      "segments": 12,
+      "flagged": 0
+    },
+    "2": {
+      "segments": 15,
+      "flagged": 0
+    },
+    "3": {
+      "segments": 8,
+      "flagged": 0
+    },
+    "4": {
+      "segments": 12,
+      "flagged": 0
+    },
+    "5": {
+      "segments": 10,
+      "flagged": 0
+    },
+    "6": {
+      "segments": 16,
+      "flagged": 0
+    },
+    "7": {
+      "segments": 22,
+      "flagged": 0
+    },
+    "9": {
+      "segments": 8,
+      "flagged": 0
+    },
+    "10": {
+      "segments": 9,
+      "flagged": 0
+    },
+    "11": {
+      "segments": 11,
+      "flagged": 0
+    },
+    "12": {
+      "segments": 15,
+      "flagged": 0
+    },
+    "13": {
+      "segments": 3,
+      "flagged": 0
+    },
+    "14": {
+      "segments": 8,
+      "flagged": 0
+    },
+    "15": {
+      "segments": 7,
+      "flagged": 0
+    },
+    "16": {
+      "segments": 12,
+      "flagged": 0
+    },
+    "17": {
+      "segments": 11,
+      "flagged": 0
+    },
+    "18": {
+      "segments": 12,
+      "flagged": 0
+    },
+    "19": {
+      "segments": 19,
+      "flagged": 0
+    },
+    "20": {
+      "segments": 21,
+      "flagged": 0
+    },
+    "21": {
+      "segments": 4,
+      "flagged": 0
+    }
+  },
+  "review_segments": [],
+  "untranscribed_gaps": [
+    {
+      "start": 475.05,
+      "end": 550.18
+    },
+    {
+      "start": 787.86,
+      "end": 859.37
+    },
+    {
+      "start": 1277.94,
+      "end": 1307.9800625
+    }
+  ],
+  "status": "needs_listening"
+}

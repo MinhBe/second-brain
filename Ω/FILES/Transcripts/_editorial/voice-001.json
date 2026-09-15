@@ -1,0 +1,23 @@
+{
+ "title": "Voice 001 — bản ghi gần như không có lời nói; ASR nhận dạng một câu quảng cáo lặp lại",
+ "raw_hash": "e8a0ea78a9bc2023ce6bfc7d535a9b159ee0851dd2fb0f8f6be2056002e01f0b",
+ "segments": 1,
+ "unclear": [
+  "S00001"
+ ],
+ "chapters": [
+  [
+   "S00001",
+   "Bản ghi không có lời nói đáng tin cậy — chờ nghe đối chiếu"
+  ]
+ ],
+ "claims": [],
+ "nodes": [],
+ "open_questions": [
+  "Bản ghi hầu như không có lời nói (ASR bắt được 1 câu quảng cáo lặp lại, không liên quan nội dung bản ghi); cần nghe trực tiếp để xác định có phải bản ghi thực sự im lặng hay ASR bỏ sót lời ở khoảng 00:03:32–00:04:08."
+ ],
+ "practice": [
+  "Nghe lại toàn bộ bản ghi để xác nhận bản chất (audio của video quảng cáo lặp lại hay có lời nói bị bỏ sót); nếu bản ghi không có lời nói thì đánh dấu 'không có nội dung' và loại khỏi danh sách nguồn.",
+  "Chỉ dùng đoạn 00:03:32–00:04:08 để nghe kiểm chứng; nếu có lời nói thật thì ghi đè bằng phiên bản ASR nâng cấp (chunk nhỏ hơn) và rà lại."
+ ]
+}

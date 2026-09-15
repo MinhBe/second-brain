@@ -1,0 +1,13 @@
+{
+  "url": "https://claude.ai/new?incognito=",
+  "title": "Claude",
+  "aria_yaml": "- main [ref=e1]:\n  - navigation [ref=e2]:\n    - link \"Claude\" [ref=e3]\n  - textbox \"Write your prompt to Claude\" [ref=e5]\n  - button \"Send message\" [ref=e6]\n",
+  "alerts": [],
+  "dialogs": [],
+  "iframes": [],
+  "visible_text_sample": "Claude  How can I help you today?",
+  "provenance": "synthetic (SPEC-1 + best-known aria); replace with live sanitized snapshot in Phase C",
+  "expect": {
+    "state": "READY"
+  }
+}

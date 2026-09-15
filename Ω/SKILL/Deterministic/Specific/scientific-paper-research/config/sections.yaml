@@ -1,0 +1,16 @@
+# Heading patterns for parse_paper. Matched per line, case-insensitive, after an
+# optional section number ("2.", "2.1", "II."). Line length must be <= max_line_len.
+version: 1
+max_line_len: 60
+number_prefix: '^\s*(?:\d+(?:\.\d+)*\.?|[IVX]+\.)?\s*'
+
+sections:
+  - {canonical: abstract,        patterns: ['abstract', 'summary']}
+  - {canonical: introduction,    patterns: ['introduction', 'background']}
+  - {canonical: methods,         patterns: ['methods', 'materials and methods', 'methodology', 'patients and methods', 'study design', 'experimental']}
+  - {canonical: results,         patterns: ['results', 'findings', 'results and discussion']}
+  - {canonical: discussion,      patterns: ['discussion']}
+  - {canonical: conclusion,      patterns: ['conclusion', 'conclusions', 'concluding remarks']}
+  - {canonical: limitations,     patterns: ['limitations', 'strengths and limitations']}
+  - {canonical: references,      patterns: ['references', 'bibliography', 'literature cited']}
+  - {canonical: acknowledgments, patterns: ['acknowledgments', 'acknowledgements', 'funding', 'conflicts? of interest', 'declarations?']}

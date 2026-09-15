@@ -1,0 +1,34 @@
+# Search and title-resolution providers. First available provider wins; the model never chooses.
+version: 1
+
+contact:
+  email_env: UNPAYWALL_EMAIL
+  fallback: "scientific-paper-research@users.noreply.github.com"
+
+search: [scopus, openalex]                      # scopus requires ELSEVIER_API_KEY; openalex needs no key
+title_resolution: [crossref, openalex, scopus]  # stop at the first exact title match
+
+openalex:
+  base_url: "https://api.openalex.org"
+  per_page_max: 200
+  sort:
+    default: "cited_by_count:desc"
+    when_freshness: "publication_date:desc"
+  language_filter:
+    english: "language:en"
+    any: null
+  type_filter:
+    article: "type:article"
+    review: "type:review"
+    article_or_review: "type:article|review"
+    any: null
+  title_candidates: 5
+
+crossref:
+  base_url: "https://api.crossref.org"
+  rows: 5
+  select: "DOI,title,issued"
+
+title_suggest:              # ambiguous title: propose (never download) one DOI when exactly one candidate fits
+  min_chars: 30             # normalized input title must be at least this long
+  min_ratio: 0.9            # difflib ratio threshold for the "ratio" rule; "prefix" rule needs no ratio

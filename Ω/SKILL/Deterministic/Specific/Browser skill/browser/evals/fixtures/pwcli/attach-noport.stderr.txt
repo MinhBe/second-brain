@@ -1,0 +1,15 @@
+C:\skill\node_modules\playwright-core\lib\tools\cli-client\session.js:170
+    const rejectWithPid = (reject, message) => reject(Object.assign(new Error(`Daemon pid=${child.pid}: ${message}`), { daemonPid: child.pid }));
+                                                                    ^
+
+Error: Daemon pid=8932: Daemon process exited with code 1
+[PlaywrightError: Could not connect to chrome: DevToolsActivePort file not found at C:\Users\Admin\AppData\Local\Google\Chrome\User Data\DevToolsActivePort.
+Make sure chrome is running with remote debugging enabled. Navigate to
+
+        chrome://inspect/#remote-debugging
+
+and check "Allow remote debugging for this browser instance".
+
+Call log:
+[2m  - <ws preparing> reading C:\Users\Admin\AppData\Local\Google\Chrome\User Data\DevToolsActivePort[22m
+]

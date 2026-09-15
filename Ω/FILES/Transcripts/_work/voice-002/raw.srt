@@ -1,0 +1,2099 @@
+1
+00:00:00,890 --> 00:00:04,590
+Nên thế là cũng đấu tranh rồi, cũng thấy có lợi.
+
+2
+00:00:04,970 --> 00:00:09,820
+Cái data của em là cái gì?
+
+3
+00:00:10,720 --> 00:00:12,270
+Cái data em bị outdated.
+
+4
+00:00:12,610 --> 00:00:15,440
+Cái data của em là cũng không ra dữ liệu.
+
+5
+00:00:16,130 --> 00:00:17,350
+Nghĩa là kiểu để...
+
+6
+00:00:18,130 --> 00:00:22,270
+Nghĩa là nếu dùng AI thì nó chỉ học được khoảng 80% thôi.
+
+7
+00:00:23,230 --> 00:00:28,910
+Thì nó sẽ không học được 20% cái kiểu đặc biệt hơn, kiểu mẫu dài hơn hoặc là...
+
+8
+00:00:28,910 --> 00:00:33,050
+Nó sẽ phải yêu cầu phải đánh theo keyword, nó phải dài hơn.
+
+9
+00:00:33,050 --> 00:00:38,540
+Ví dụ như là bình thường các từ như SELECT sẽ đánh luôn chẳng hạn
+
+10
+00:00:38,540 --> 00:00:41,020
+Nhưng mà một số cụm là nó sẽ không đánh
+
+11
+00:00:41,020 --> 00:00:45,120
+Thì nó sẽ phải gồm nhiều một cụm nó dài hơn hơn nữa
+
+12
+00:00:45,120 --> 00:00:46,920
+Cái cụm mà khai thác là đưa lên
+
+13
+00:00:47,900 --> 00:00:50,780
+Thì bây giờ là AI nó có khả năng suy luận ra về cái đấy rồi
+
+14
+00:00:51,210 --> 00:00:52,860
+Hay là bây giờ mục tiêu là ngược lại
+
+15
+00:00:52,860 --> 00:00:55,860
+Là đằng nào AI đã làm được rồi bây giờ mình phải tạo ra một cái mô đun nhỏ
+
+16
+00:00:57,300 --> 00:01:01,960
+Để cho là AI không phải đưa toàn bộ tất cả các Log qua AI nữa
+
+17
+00:01:01,960 --> 00:01:04,500
+không nói rất tốn token đấy cả, nó rất là nặng
+
+18
+00:01:04,500 --> 00:01:06,460
+Token bây giờ không cần nghĩ đến làm gì
+
+19
+00:01:07,660 --> 00:01:10,900
+Đi đi anh, bởi vì bây giờ là gửi hơn 10 triệu request
+
+20
+00:01:10,900 --> 00:01:13,100
+và 10 triệu request đấy đều phải đưa
+
+21
+00:01:13,100 --> 00:01:16,960
+đầu tiên là sẽ đưa qua đánh checklist, đánh check keyword
+
+22
+00:01:17,400 --> 00:01:20,180
+rồi mới bắt đầu đưa tiếp là lúc đấy vẫn còn hơn 100 nghìn
+
+23
+00:01:20,180 --> 00:01:23,610
+thì nếu mà tiếp tục AI thì nó sẽ tốn rất nhiều tiền
+
+24
+00:01:23,610 --> 00:01:27,650
+thì bây giờ phải tạo một cái mô đun nhỏ để nó giảm hiểu cái đồng đấy trước khi đi tiếp
+
+25
+00:01:28,960 --> 00:01:33,540
+kiểu đưa qua một con AI đần hơn nhưng mà nhỏ hơn và chuyên biệt hơn
+
+26
+00:01:33,540 --> 00:01:36,740
+sau đó mới đưa con Cloud, bởi vì hầu hết giờ là chỉ có Cloud thôi
+
+27
+00:01:38,040 --> 00:01:49,540
+nếu mà anh dùng con 200$ cho anh, con đấy nó có con Fable
+
+28
+00:01:51,200 --> 00:01:57,640
+con đấy là nó được loại bỏ bớt những cái tiêu chuẩn về an toàn thông tin
+
+29
+00:01:57,640 --> 00:02:02,720
+Nên là nó mới kiểu tình thường là đưa payload vào là nó sẽ thưởng thực thi luôn
+
+30
+00:02:02,720 --> 00:02:07,080
+Còn Fable nó có mấy cái tiêu chuẩn nó khá thông minh nên là nó khả năng suy luận nó tốt
+
+31
+00:02:09,360 --> 00:02:13,200
+Nhưng mà con đấy ai mà đi thi Bounty là auto phải luôn
+
+32
+00:02:13,200 --> 00:02:18,020
+Mình mua gói 100$ thôi vì anh chỉ cần 50$ là đủ
+
+33
+00:02:18,020 --> 00:02:21,640
+20$ thì hơi nhiều mà anh mới nghe nói là 20$ đấy là 20$ theo quần
+
+34
+00:02:21,640 --> 00:02:23,160
+Vâng đúng rồi anh
+
+35
+00:02:23,160 --> 00:02:24,600
+À 20$ theo 5 tiếng
+
+36
+00:02:25,900 --> 00:02:32,360
+bỏ bỏ luôn nếu mà anh mua không nghĩa là anh sẽ không có giới hạn tuần ai không có giới hạn theo
+
+37
+00:02:32,360 --> 00:02:38,870
+giờ nữa anh chỉ có dạng phần thôi thế là mấy em từ 5 đến 5 5 5 tiếng người được thành hành
+
+38
+00:02:38,870 --> 00:02:42,650
+với 5 tiếng đấy không dùng hết đâu không không dùng hết đây anh nếu mà anh thì bao Nếu mà anh
+
+39
+00:02:42,650 --> 00:02:53,190
+làm bao bác bao ti là sẽ hết bác bao ti là anh anh em là dùng là hết chắc là hết lúc đầu em tưởng
+
+40
+00:02:53,190 --> 00:02:56,350
+Thấy bỏ ra gần 10 triệu là anh định xài ké
+
+41
+00:02:56,350 --> 00:03:04,620
+Anh nghe là 200 một người dùng vẫn hết
+
+42
+00:03:04,620 --> 00:03:06,940
+Bởi vì là Bắc Bạc Ti
+
+43
+00:03:06,940 --> 00:03:08,740
+Bắc Bạc Ti là nó kiểu
+
+44
+00:03:08,740 --> 00:03:11,140
+Nó xà vào, nó ôm hết cả cái đồng đấy
+
+45
+00:03:12,300 --> 00:03:13,300
+Thì đương nhiên là
+
+46
+00:03:13,300 --> 00:03:15,860
+Anh ấy vẫn sẽ đưa logic vào nhưng mà không tối ưu được
+
+47
+00:03:15,860 --> 00:03:19,820
+Mấy em cũng không ít
+
+48
+00:03:22,140 --> 00:03:23,580
+Nó đang quay vào đó
+
+49
+00:03:23,580 --> 00:03:26,540
+Có nghĩa là
+
+50
+00:03:26,540 --> 00:03:27,820
+Cục thi nghìn đô
+
+51
+00:03:27,820 --> 00:03:30,080
+Bỏ 200 là cũng lời
+
+52
+00:03:31,760 --> 00:03:32,880
+275 triệu
+
+53
+00:03:32,880 --> 00:03:34,340
+Là 7 triệu 8
+
+54
+00:03:34,340 --> 00:03:35,660
+20 triệu nào
+
+55
+00:03:35,660 --> 00:03:37,380
+Thì là gần 10 triệu đi anh
+
+56
+00:03:38,260 --> 00:03:38,900
+200
+
+57
+00:03:39,960 --> 00:03:40,600
+211
+
+58
+00:03:40,600 --> 00:03:41,740
+200
+
+59
+00:03:46,080 --> 00:03:47,880
+10% ván
+
+60
+00:03:47,880 --> 00:03:49,440
+Anh quên
+
+61
+00:03:49,440 --> 00:03:51,780
+Tại vì sáng nay ngóng vừa, nhắn cho anh kìa, build vừa rồi
+
+62
+00:03:52,280 --> 00:03:54,800
+Vậy, thì đấy, thì bây giờ...
+
+63
+00:03:55,620 --> 00:03:56,060
+Từ...
+
+64
+00:03:57,800 --> 00:03:59,780
+Đúng rồi, nó thêm 10%
+
+65
+00:04:00,420 --> 00:04:03,720
+Thì đấy, bây giờ bài toán là tiết kiệm hiệu năng rồi
+
+66
+00:04:03,720 --> 00:04:08,100
+Vì gần như là cứ ném cloud với công ty một người
+
+67
+00:04:08,600 --> 00:04:09,860
+Nó gần như vượt trộn
+
+68
+00:04:09,860 --> 00:04:12,580
+Nên là bây giờ là suy ngược lại
+
+69
+00:04:13,480 --> 00:04:14,380
+Sử lý hai cái
+
+70
+00:04:14,380 --> 00:04:16,060
+Một là tạo ra một con module rất là bé
+
+71
+00:04:16,520 --> 00:04:18,980
+Và nó xử lý được những cái cơ bản
+
+72
+00:04:18,980 --> 00:04:22,340
+2 là mình sẽ phải xử lý những cái cực kỳ khó
+
+73
+00:04:22,340 --> 00:04:24,760
+Nghĩa là mô hình của em phải học được
+
+74
+00:04:24,760 --> 00:04:26,280
+Cái cú pháp
+
+75
+00:04:26,280 --> 00:04:27,420
+Cái câu rất là khó
+
+76
+00:04:27,420 --> 00:04:28,700
+Có thật sự là tầm mô hình không?
+
+77
+00:04:29,200 --> 00:04:29,780
+Có chứ anh
+
+78
+00:04:30,700 --> 00:04:31,060
+Vì
+
+79
+00:04:32,200 --> 00:04:37,840
+Nhan là chỉ là xin dữ liệu
+
+80
+00:04:37,840 --> 00:04:39,560
+Nghĩa là bây giờ là bộ dữ liệu
+
+81
+00:04:39,560 --> 00:04:41,080
+Nó sẽ chỉ có 2 câu tầm công thôi
+
+82
+00:04:43,060 --> 00:04:44,680
+Thì nghĩa là chỉ có 2 câu tầm công thôi
+
+83
+00:04:44,680 --> 00:04:45,480
+Thì 2 câu tầm công đấy
+
+84
+00:04:45,480 --> 00:04:47,760
+Không có quá nhiều thông tin để mình học
+
+85
+00:04:47,760 --> 00:04:49,600
+Rồi mình sẽ sao hết tất cả lên
+
+86
+00:04:49,600 --> 00:04:57,640
+để cho nó cố gắng học. Ví dụ như là bây giờ em có 50 câu, trong đó chỉ có 2 câu tấn công rất là đặc biệt, rất là kiểu chuyên biệt
+
+87
+00:04:57,640 --> 00:05:04,100
+thì đưa vào mô hình thì nó chỉ học 48 câu còn lại, 2 câu kia nó cho rằng là thứ yếu nên nó sẽ bỏ qua.
+
+88
+00:05:04,720 --> 00:05:11,730
+Từ bây giờ là phải làm dầu bằng cách chỉ 2 câu đấy thôi, nhưng mà sinh ra được 50 câu rồi đưa vào thì nó sẽ chỉ tập trung vào...
+
+89
+00:05:13,230 --> 00:05:19,190
+Nhưng mà hiện tại em đưa vào một tường lửa mã nguồn mở, Mode Security
+
+90
+00:05:20,080 --> 00:05:23,220
+Mode Security là NGX đúng không?
+
+91
+00:05:23,340 --> 00:05:24,260
+Dạ, NGX
+
+92
+00:05:24,260 --> 00:05:25,380
+Và từ giờ nó vẫn là OSI
+
+93
+00:05:25,900 --> 00:05:30,800
+Không, cái đấy thì em không dựng nổi, cái đấy nó dựng hơi khó
+
+94
+00:05:31,980 --> 00:05:36,860
+Vâng thì không, kể cả dựng Docker thì em cũng chỉ dựng được Mode Security thôi
+
+95
+00:05:39,400 --> 00:05:45,020
+Đang đấy nó cũng thuộc dạng trung bình, nó cũng vừa thủy khó
+
+96
+00:05:45,020 --> 00:05:48,790
+Em mới dựng về đấy thôi
+
+97
+00:05:48,790 --> 00:06:01,120
+Cora-Za, có thể dùng rule của Mod Security nhưng mà nó không có line
+
+98
+00:06:02,040 --> 00:06:06,540
+Em và các em có thử Cora-Za với Mod là nó phải dùng rule set chung
+
+99
+00:06:07,200 --> 00:06:07,760
+CRS
+
+100
+00:06:07,760 --> 00:06:13,380
+Còn về cơ bản là hai thằng như nhau mà thằng này được tùy chỉnh nhiều hơn
+
+101
+00:06:15,700 --> 00:06:19,100
+Nếu mà chuyển khai ban đầu thì dễ hơn nhưng mà nhiều cái phải setting nha
+
+102
+00:06:19,100 --> 00:06:22,380
+Thằng kia gọi lên phát rồi em ru cái là xong
+
+103
+00:06:23,910 --> 00:06:26,450
+Em mới có MDX không phải cấu hình MDX nữa
+
+104
+00:06:26,450 --> 00:06:31,750
+Em chưa biết anh chắc gì kì của thằng đi vào thằng Docker
+
+105
+00:06:32,830 --> 00:06:36,210
+Đấy thì đối với em thôi thì em chỉ cần gõ mấy code
+
+106
+00:06:36,650 --> 00:06:44,430
+Và thằng này thì phải custom bằng tay hơi nhiều. Như là trước thì em phải dùng lạc này, nhưng mà sau phát hiện là docker liên kết với chắc gì thì thế là thôi.
+
+107
+00:06:45,010 --> 00:06:47,800
+Docker là có mcp đúng không?
+
+108
+00:06:48,100 --> 00:06:53,700
+Đúng rồi anh. Nghĩa là cứ cái gì liên quan mcp của thằng. Cứ cái gì mcp là mắc nó đồng hoạt được.
+
+109
+00:06:53,720 --> 00:07:00,160
+Anh không biết cái đấy nhưng mà anh chưa dùng. Anh chưa dùng cái đấy thì anh ít dùng docker desktop lắm. Không dùng docker desktop bao giờ. Dùng cái server là chính.
+
+110
+00:07:00,880 --> 00:07:04,340
+Mỗi cái là nó hơi bị quá tay nên đôi lúc em không ý thức là mình đang làm cái gì.
+
+111
+00:07:04,340 --> 00:07:08,940
+Nếu mà mình không theo cửa bài ai, nó là một tràn text của người đọc
+
+112
+00:07:10,760 --> 00:07:14,400
+Đọc xong nhưng mà vẫn chưa hiểu, có 8 câu hỏi, 10 câu hỏi để hỏi lại
+
+113
+00:07:14,400 --> 00:07:16,540
+Mà mình hỏi những câu hỏi xong nó lại quên cái đoạn đấy đi
+
+114
+00:07:17,380 --> 00:07:25,490
+Thế ờ, người ai không cần chỉ đọc sâu, nhanh, có đúng 3 tháng mà của em nó bị lỗi thời
+
+115
+00:07:26,230 --> 00:07:28,890
+Như của anh cũng bị lỗi thời, ngày xưa ở cái thời mà 2025
+
+116
+00:07:30,050 --> 00:07:32,650
+Rồi cái đề tài của anh trước thì còn
+
+117
+00:07:32,650 --> 00:07:34,590
+Nó sẽ là tấn công, nó sẽ bị tấn công rất là nhiều
+
+118
+00:07:34,590 --> 00:07:37,850
+Nhưng mà bây giờ thì hầu hết là các mô hình có cả Trails rồi
+
+119
+00:07:38,430 --> 00:07:44,090
+Không được, chỉ là nếu người dùng là dùng Cloud thì đề tài sẽ không có tác dụng
+
+120
+00:07:44,090 --> 00:07:45,670
+Nhưng mà nếu người dùng là dùng các cái
+
+121
+00:07:45,670 --> 00:07:49,200
+Nó là doanh nghiệp, doanh nghiệp mà tự xây LM thì nó là ok
+
+122
+00:07:49,200 --> 00:07:56,120
+Không, chỉ cần liên quan, chỉ cần không dùng Cloud thì đề tài nào cũng có thể được
+
+123
+00:07:56,120 --> 00:07:57,760
+Thằng đấy nó kiểu
+
+124
+00:07:57,760 --> 00:08:00,680
+Cái bản Cloud của nó là mô hình cộng với cái hát nét của nó
+
+125
+00:08:01,240 --> 00:08:02,000
+Thằng đấy hát nét kinh
+
+126
+00:08:02,000 --> 00:08:09,120
+Do cái ông Andrew NG tổ cái đấy
+
+127
+00:08:09,120 --> 00:08:15,630
+Thì đấy, giờ chỉ có đúng rồi
+
+128
+00:08:15,630 --> 00:08:25,840
+Bây giờ tôi yêu chi phí này vì là về trí đồng minh là không thể hơn được mà kiểu hơn nó cũng không tốt hơn được đấy anh
+
+129
+00:08:25,840 --> 00:08:31,740
+Bây giờ anh dùng nghĩa là cloud cộng với cả skill hnet, anh biết skill hnet không anh?
+
+130
+00:08:31,940 --> 00:08:34,620
+Nhưng mà bình thường skill là em phải viết script
+
+131
+00:08:35,120 --> 00:08:41,240
+Ví dụ như em muốn tải một cái video em phải viết chi tiết là script và nó sẽ phải tải, chạy câu lệnh như thế nào, thay thế từ ngữ như thế nào
+
+132
+00:08:41,700 --> 00:08:46,000
+Bây giờ anh chỉ cần viết ít context cho nó, nó tự động biết cần phải làm gì
+
+133
+00:08:46,310 --> 00:08:49,410
+Skill là một level tốt hơn của Adnet thôi
+
+134
+00:08:49,410 --> 00:08:51,910
+Vâng, không nghĩa là có skill và skill Adnet đi anh
+
+135
+00:08:51,910 --> 00:08:55,060
+Nhưng mà bây giờ thiết tải cũng không làm được rồi
+
+136
+00:08:55,060 --> 00:08:58,820
+Bởi vì các thằng khác là yêu cầu phải viết chi tiết xem là nó cần phải làm gì
+
+137
+00:08:58,820 --> 00:09:02,120
+Ừ, thế này cũng có, chỉ là nói chưa được kỹ là cloud rồi
+
+138
+00:09:02,780 --> 00:09:07,000
+Codec cũng có một cái dùng nó cũng ok, nhưng mà giờ mua thì phải codec thôi
+
+139
+00:09:08,160 --> 00:09:16,200
+Codec là thiên về người thực thi hơn
+
+140
+00:09:16,200 --> 00:09:23,030
+Nghĩa là nếu dùng codec để thực thi thì nó sẽ tiết kiệm token hơn, còn về xử lý thông minh thì nên dùng hàng cloud
+
+141
+00:09:23,030 --> 00:09:27,310
+Với đầu anh dùng codec này em cũng nghĩ là ok, nhưng mà nó có vẻ phá phát quá nhiều như là
+
+142
+00:09:27,310 --> 00:09:31,790
+Thấy em ví dụ là em phát một tên tên tên tên docker nó sẽ dễ hơn một tiếng
+
+143
+00:09:31,790 --> 00:09:39,240
+Nó không được mượt mạng và lô lông nhiều, ở kia mình cũng nói rất là nhiều
+
+144
+00:09:39,240 --> 00:09:47,820
+Ok, đúng thì một thằng hơi tốn tiền, hoặc thì nó sẽ gần như gặp vô hạn
+
+145
+00:09:47,820 --> 00:09:51,200
+Hồi đấy là anh dùng codec lúc nào cũng cũng thuộc vào rạng 200$ ý
+
+146
+00:09:52,460 --> 00:09:55,900
+Nên lúc đấy em cũng cảm thấy nó research khá là khỏe, vừa research vừa...
+
+147
+00:09:57,040 --> 00:09:59,960
+Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+
+148
+00:10:01,480 --> 00:10:04,280
+Còn với slide thì anh thấy hoạt động của đấy
+
+149
+00:10:04,820 --> 00:10:05,860
+Thì nó hỗ trợ kia hơn
+
+150
+00:10:06,830 --> 00:10:08,690
+Tạo slide, viết doc
+
+151
+00:10:09,210 --> 00:10:11,050
+Thôi anh hãy dùng thằng đấy để viết slide
+
+152
+00:10:11,530 --> 00:10:12,150
+Đấy phải nên
+
+153
+00:10:13,390 --> 00:10:15,190
+Đáng lẽ phải nên ngược lại nhưng mà thôi kìa
+
+154
+00:10:15,190 --> 00:10:16,010
+Ngược lại sao?
+
+155
+00:10:16,170 --> 00:10:19,150
+Nghĩa là nếu như mà anh dùng thằng
+
+156
+00:10:19,850 --> 00:10:21,890
+Nghĩa là thằng Cloud nó chỉ hành chạy lần đầu thôi
+
+157
+00:10:21,890 --> 00:10:25,630
+Còn lại những cái tinh chỉnh bé bé thì dùng thằng Codec để tính kiện
+
+158
+00:10:25,630 --> 00:10:27,350
+Chạy lần đầu thôi anh hãy sửa lại
+
+159
+00:10:27,350 --> 00:10:30,530
+Đúng rồi, anh phải sửa lại mà lúc đấy thì hãy dùng làm codec
+
+160
+00:10:30,530 --> 00:10:32,530
+Ờ đây, không, dưới codec thì...
+
+161
+00:10:32,530 --> 00:10:33,190
+Ok
+
+162
+00:10:35,420 --> 00:10:37,880
+Sửa lại cũng cũng thôi, cho nó với đoán của mình rồi lấy
+
+163
+00:10:38,380 --> 00:10:43,920
+Vì lúc đấy em thì cũng lấy slide mẫu của máy khoa thôi mà sửa thêm logo mới này
+
+164
+00:10:43,920 --> 00:10:45,620
+Rồi nó mới chế ra cái đồng đấy
+
+165
+00:10:46,500 --> 00:10:48,780
+Nhưng mà có đúng mấy cái là em...
+
+166
+00:10:49,420 --> 00:10:53,000
+Có đúng 4 mô hình mà em dùng AI thì các thầy dã là...
+
+167
+00:10:53,000 --> 00:10:54,140
+Nhiều chữ quá
+
+168
+00:10:54,140 --> 00:10:55,040
+Đúng rồi
+
+169
+00:10:56,930 --> 00:11:02,220
+Thầy họ bảo anh cũng theo, hỏi nhiều vai để bỏ phần câu hỏi luôn
+
+170
+00:11:02,820 --> 00:11:04,280
+Khi nào các thầy hỏi thì cứ ưa ơn
+
+171
+00:11:06,180 --> 00:11:09,100
+Tại vì nói cái đấy nó chỉ là cái phương phủ luật của người thầy
+
+172
+00:11:09,760 --> 00:11:12,360
+Chỉ là một cái mà từ đấy mình suy nghĩ ra một cái gì đấy
+
+173
+00:11:12,360 --> 00:11:18,360
+Thì em nghi trong nhóm là đặt vấn đề này, các nghiên cứu trước có gì này
+
+174
+00:11:18,360 --> 00:11:24,060
+Xong rồi xem triển khai thế nào trong cái đoạn bù hát tầm 10 phút là xong rồi
+
+175
+00:11:25,020 --> 00:11:28,280
+Nhưng mà nghĩ lại thì có khi cứ làm cái cách cũ hay hơn
+
+176
+00:11:28,280 --> 00:11:30,040
+Anh Hải, anh Hải công an
+
+177
+00:11:30,040 --> 00:11:32,020
+Anh ấy thuyết trình hết 40 phút
+
+178
+00:11:32,920 --> 00:11:34,280
+Xong rồi các thầy không hỏi được gì
+
+179
+00:11:34,280 --> 00:11:36,220
+Cho 8-6 đi về
+
+180
+00:11:36,220 --> 00:11:37,700
+Không hỏi đúng 1 câu
+
+181
+00:11:39,360 --> 00:11:41,680
+Lúc đầu lít ra là hỏi 7 câu
+
+182
+00:11:41,680 --> 00:11:43,500
+Nhưng mà không kịp, họ trả được đúng 1 câu
+
+183
+00:11:43,500 --> 00:11:44,160
+Rồi đi về
+
+184
+00:11:48,600 --> 00:11:49,400
+Anh ấy
+
+185
+00:11:49,400 --> 00:11:52,660
+Anh ấy mới cân bằng
+
+186
+00:11:52,660 --> 00:11:53,840
+Nhưng mà anh còn giỏi là được
+
+187
+00:11:53,840 --> 00:11:58,280
+Bất cứ ai cũng giỏi, trên 8 ai cũng giỏi
+
+188
+00:11:58,280 --> 00:12:03,460
+Không, khả năng là bạn Ngọc Anh kia sẽ khá
+
+189
+00:12:04,060 --> 00:12:08,040
+Bởi vì 7.5 là hơi nó kéo kinh
+
+190
+00:12:08,660 --> 00:12:10,320
+Đấy chắc phải chiếm 70%
+
+191
+00:12:10,320 --> 00:12:13,900
+Còn mấy cái điểm 8 chấm ở trên trường chỉ chiếm 0.13
+
+192
+00:12:17,780 --> 00:12:22,840
+Cũng do là các bạn cũng quá tự tin vì cái đề tài là khó quá
+
+193
+00:12:22,840 --> 00:12:28,780
+Chắc là các thầy dí cho tốc đề xuất thì các thầy nhé bác thầy
+
+194
+00:12:29,240 --> 00:12:32,700
+Đề xuất đề một giọng dễ bị hỏi quá
+
+195
+00:12:33,260 --> 00:12:37,340
+Cái đấy là chuyên việt ấy, cũng rộng như vừa rồi một chuyên việt
+
+196
+00:12:37,340 --> 00:12:42,210
+Và cái mà mọi người chọn là những thứ biết luật
+
+197
+00:12:42,630 --> 00:12:47,430
+Vâng thì thầy thắng thì ngồi thư ký thì bốn hay kia cũng càng
+
+198
+00:12:47,430 --> 00:12:50,600
+Thắng ngồi thư ký là chân chết rồi
+
+199
+00:12:50,600 --> 00:12:58,710
+không thể thắng ngồi thư ký bởi vì thầy kiểu có gì chết là thầy còn kiểu chữa cho các kiểu nói, làm nói tránh
+
+200
+00:12:59,150 --> 00:12:59,510
+đỡ
+
+201
+00:12:59,930 --> 00:13:00,690
+vâng, nói đỡ
+
+202
+00:13:00,690 --> 00:13:03,290
+em là thầy chung ngồi thư ký nha
+
+203
+00:13:03,290 --> 00:13:09,290
+thế là thầy cũng nói đỡ nên em biết là nếu mà để mấy cái thầy hay hỏi mà làm thư ký là chỉ có thể là nói đỡ
+
+204
+00:13:10,840 --> 00:13:11,560
+đúng là nói đỡ hơn
+
+205
+00:13:11,560 --> 00:13:14,480
+nhưng mà như là chủ tịch và thư ký là sẽ không đổi
+
+206
+00:13:14,480 --> 00:13:15,880
+còn sẽ thay đổi thủy viên
+
+207
+00:13:15,880 --> 00:13:18,540
+không, chỉ có chủ tịch và sẽ không đổi được
+
+208
+00:13:18,540 --> 00:13:19,340
+thư ký có đổi
+
+209
+00:13:19,340 --> 00:13:20,300
+thư ký sẽ đổi
+
+210
+00:13:21,120 --> 00:13:26,220
+Anh là thầy bảo vẫn ngồi đấy, nhưng thường sẽ đổi
+
+211
+00:13:29,290 --> 00:13:35,420
+Chỉ có chủ tịch sẽ được giữ, đổi hết
+
+212
+00:13:35,420 --> 00:13:42,460
+Chủ tịch yêu cầu Phó giáo sư đổi, hoặc là trên đại tá
+
+213
+00:13:42,460 --> 00:13:50,990
+Như thầy Tuấn Anh, thầy thảm sát nhiều quá, không thể lên Phó giáo sư được
+
+214
+00:13:50,990 --> 00:14:05,640
+Thầy Tuấn Anh năm... nhưng là thầy có con rồi, còn hồi 2014, thầy về thầy Thắng và phụ huynh đã đem hoa đến rồi, vẫn cho trường.
+
+215
+00:14:06,920 --> 00:14:08,500
+Càng đưa thầy càng kỹ.
+
+216
+00:14:09,120 --> 00:14:14,640
+Không, như là kiểu thầy gia đình cho trường, và giờ thầy hiền nó.
+
+217
+00:14:15,040 --> 00:14:18,780
+Thầy nói như thế là như thế, không ai kiểu...
+
+218
+00:14:18,780 --> 00:14:25,480
+Thì lúc đầu thầy Thắng thì thầy Thắng đấm em lõm hết đầu không cho em vào về tuần nghiệp, thầy thi tuần nghiệp.
+
+219
+00:14:27,260 --> 00:14:33,180
+Vâng, đợt thầy mới về là em năm 2, đấy kiểu vẫn hơi hơi...
+
+220
+00:14:33,180 --> 00:14:33,920
+Em là AT16
+
+221
+00:14:33,920 --> 00:14:36,040
+Em là AT16, tầm...
+
+222
+00:14:36,040 --> 00:14:37,120
+Tầm 5 năm là thế
+
+223
+00:14:37,120 --> 00:14:47,280
+Vâng, đấy là cũng bị lễ hái của thầy Tuấn Anh với cả thầy Thắng, thầy Bảo.
+
+224
+00:14:50,180 --> 00:15:00,860
+Thầy bảo là thầy khèo kinh hóa. Thầy cũng bình thường thôi nhưng mà nếu mà thầy có vấn đề, đúng rồi, thầy mở ra vấn đề, thầy toán hỏi kỹ hơn, thầy thắng hỏi sâu hơn, thế là chết.
+
+225
+00:15:02,100 --> 00:15:06,200
+Thầy có một câu hỏi đôi khi không liên quan chứ không phải là câu hỏi của người khác.
+
+226
+00:15:06,640 --> 00:15:09,660
+Nhưng mà nếu không trả lời kỹ chứng tỏ cái câu hỏi vấn đề là chết.
+
+227
+00:15:44,520 --> 00:15:50,520
+Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn
+
+228
+00:15:50,540 --> 00:15:53,540
+Về dạng một môn hoặc là đi tiệm
+
+229
+00:15:54,480 --> 00:15:55,320
+Thì thầy về
+
+230
+00:15:57,110 --> 00:15:57,510
+Thầy
+
+231
+00:15:57,510 --> 00:15:58,290
+Vâng
+
+232
+00:16:00,420 --> 00:16:02,660
+Hơi đen vụn nga với cả là
+
+233
+00:16:03,680 --> 00:16:04,080
+Cry
+
+234
+00:16:05,220 --> 00:16:07,360
+Giống anh Hùng Anh với cả anh Mình
+
+235
+00:16:09,200 --> 00:16:11,080
+Rồi không thoát được
+
+236
+00:16:11,080 --> 00:16:14,180
+Nghĩa là mấy anh ấy là yêu cầu
+
+237
+00:16:14,180 --> 00:16:16,200
+Sau khi học xong rồi phải có 5 năm
+
+238
+00:16:16,200 --> 00:16:17,000
+Cống hiến cho học viện
+
+239
+00:16:18,910 --> 00:16:19,430
+Nhưng không
+
+240
+00:16:20,490 --> 00:16:21,710
+Nhưng mà không ai mời về
+
+241
+00:16:21,710 --> 00:16:23,670
+Không mời về thì không tích thời gian được
+
+242
+00:16:23,670 --> 00:16:36,700
+Như là kiểu anh ấy mới được tính khoảng 2-3 tháng thôi, đôi lúc đe gọi về giấy, không được tích thời gian, nhưng mà cũng không được kiểu rứt đường, cứ bị ở giữa, cứ chôn.
+
+243
+00:16:39,300 --> 00:16:42,040
+Đấy là đầu chiến tranh đó, chưa anh?
+
+244
+00:16:42,120 --> 00:16:42,460
+Dạ?
+
+245
+00:16:42,780 --> 00:16:43,760
+Đã được mà không anh?
+
+246
+00:16:45,440 --> 00:16:51,780
+Chưa, không anh ấy về được 3 năm rồi. Đợt đấy là đã bị rồi anh.
+
+247
+00:16:51,900 --> 00:16:54,670
+Đợt nào?
+
+248
+00:16:54,670 --> 00:17:08,130
+Nghĩ chắc là thêm mấy mấy năm nữa thôi vì là Nga nào cũng thắng rồi giờ phải câu, câu kiểu để Mến Úc Châu yếu cũng chưa biết được anh.
+
+249
+00:17:09,580 --> 00:17:14,660
+Nhưng mà làm với Gu bây giờ thì sau năm 2026 thì anh...
+
+250
+00:17:14,660 --> 00:17:16,040
+AI ạ.
+
+251
+00:17:16,240 --> 00:17:23,140
+AI nó kiểu nó sẵn sàng động vào mấy cái an toàn thông tin, an toàn thông tin nó cũng...
+
+252
+00:17:23,380 --> 00:17:32,240
+Anh em làm pen test được thì NLC cũng làm được. Giờ anh em pen test đi tìm bất kỳ người ai để investigate.
+
+253
+00:17:33,400 --> 00:17:40,600
+Thì hôm nay em cũng có nói thì anh ấy cũng có nói là bây giờ chỉ ném cái mindset là thôi, còn lại là nó sẽ chủ động.
+
+254
+00:17:41,100 --> 00:17:44,920
+Và cái quan trọng nhất là cái case study là cái quan trọng nhất.
+
+255
+00:17:44,920 --> 00:18:16,690
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+256
+00:18:29,620 --> 00:18:45,980
+Hãy subscribe cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn
+
+257
+00:18:51,520 --> 00:18:52,600
+Để em đọc tiếp
+
+258
+00:18:54,320 --> 00:18:55,640
+Để em đọc tiếp
+
+259
+00:18:56,880 --> 00:18:58,400
+Để em đọc tiếp
+
+260
+00:18:58,400 --> 00:19:01,610
+Để em đọc tiếp
+
+261
+00:19:01,610 --> 00:19:02,270
+Để em đọc tiếp
+
+262
+00:19:02,270 --> 00:19:02,690
+Để em đọc tiếp
+
+263
+00:19:02,690 --> 00:19:02,770
+Để em đọc tiếp
+
+264
+00:19:02,770 --> 00:19:04,370
+Để em đọc tiếp
+
+265
+00:19:04,370 --> 00:19:06,090
+Để em đọc tiếp
+
+266
+00:19:06,090 --> 00:19:08,670
+Để em đọc tiếp
+
+267
+00:19:14,410 --> 00:19:17,150
+Để em đọc tiếp
+
+268
+00:19:17,860 --> 00:19:19,900
+Nghĩa là vứt hết tia 1 à?
+
+269
+00:19:20,300 --> 00:19:23,020
+Tia 1 chỉ có V5 và AI thôi
+
+270
+00:19:23,880 --> 00:19:25,620
+Chẳng vứt Alex nhiều
+
+271
+00:19:25,620 --> 00:19:27,480
+Thế thì mất hết việc
+
+272
+00:19:28,230 --> 00:19:29,870
+Mất được phải tiến hóa thôi
+
+273
+00:19:30,620 --> 00:19:32,020
+Tia 1 phải cố lên thôi như thế nào?
+
+274
+00:19:32,420 --> 00:19:35,360
+Tia 1 cố không được, giờ chỉ có đẩy thẳng lên tia 2 thôi
+
+275
+00:19:35,360 --> 00:19:37,020
+Thì đúng, nghĩa là tia 1 phải cố ăn súng tỏa
+
+276
+00:19:37,460 --> 00:19:39,850
+Thử lý được vấn đề đấy thì nó sẽ lên được
+
+277
+00:19:39,850 --> 00:19:42,530
+Chứ có tầm tia 1 lên tia 2 đâu
+
+278
+00:19:42,530 --> 00:19:45,480
+Vừa vào đã thành tia 2
+
+279
+00:19:46,900 --> 00:19:47,980
+Không có vấn đề
+
+280
+00:19:47,980 --> 00:19:59,880
+Có những ông không trực mà chỉ làm D2 thôi, tất cả các ông như thế này. Chỉ chuyên đi tùy mạng
+
+281
+00:20:00,000 --> 00:20:03,750
+quen của các chủ tịch xăng chủ động thôi chứ không hỗ trợ
+
+282
+00:20:04,780 --> 00:20:10,370
+Hỗ trợ chính là gần như bỏ gần hết
+
+283
+00:20:10,370 --> 00:20:12,690
+Chắc đúng như thế, mong mọi người yên tĩnh
+
+284
+00:20:13,150 --> 00:20:19,930
+Và cái dây chuyền mà có alert và cái tiêu chuẩn về alert này như thế nào, có AI nào, có follow như thế nào
+
+285
+00:20:19,930 --> 00:20:23,750
+Trước em nghe đóng cây bằng AI, đã thấy không giòn
+
+286
+00:20:23,750 --> 00:20:28,890
+Đóng cây này, từ cây đấy mang đi một loại loại veritip này, bổ sung trên evidence này
+
+287
+00:20:28,890 --> 00:20:30,770
+xong từ Evidence đấy kích xuất
+
+288
+00:20:30,770 --> 00:20:32,490
+quay ngược về Endpoint nhé
+
+289
+00:20:32,490 --> 00:20:33,850
+lấy Artifact về
+
+290
+00:20:33,850 --> 00:20:36,310
+lấy Analyze cái tại Artifact đấy
+
+291
+00:20:36,810 --> 00:20:38,270
+như là e nghe chẳng hạn kiểu kìa đấy
+
+292
+00:20:38,810 --> 00:20:40,930
+Vậy nhưng mà nước ngoài ai đã làm chưa mà
+
+293
+00:20:40,930 --> 00:20:41,730
+hay là
+
+294
+00:20:41,730 --> 00:20:45,310
+cũng sản phẩm hãng đang làm đấy
+
+295
+00:20:45,310 --> 00:20:47,470
+không kiểu nội bộ vậy anh
+
+296
+00:20:47,470 --> 00:20:49,720
+hay là mình vẫn phải
+
+297
+00:20:49,720 --> 00:20:52,380
+nghĩa là mình phải dừng đến hãng hay là kiểu mình làm nội bộ
+
+298
+00:20:52,380 --> 00:20:53,160
+không, mình làm nội bộ vẫn được
+
+299
+00:20:54,630 --> 00:20:55,710
+MISA đang làm đấy rồi
+
+300
+00:20:55,710 --> 00:20:56,550
+MISA hả
+
+301
+00:20:57,030 --> 00:21:00,950
+Misa hả? Misa, Misa là công ty Misa, Misa giấu ý
+
+302
+00:21:00,950 --> 00:21:01,890
+Không em biết rồi
+
+303
+00:21:03,280 --> 00:21:05,340
+Misa lần này đi bootcamp có tiền tiền lần đấy
+
+304
+00:21:05,340 --> 00:21:09,360
+Người ta không bắt đầu lên mạng, người ta không đuổi ai thì không được
+
+305
+00:21:12,140 --> 00:21:14,680
+Năm sau bootcamp này chắc là người ta sẽ put slide lên thôi
+
+306
+00:21:16,600 --> 00:21:17,720
+Bootcamp hôm nào đấy anh?
+
+307
+00:21:17,880 --> 00:21:18,960
+Hôm nay ngày cuối rồi
+
+308
+00:21:21,000 --> 00:21:24,440
+Có gì chắc là anh cho em xem, em cũng không...
+
+309
+00:21:28,020 --> 00:21:33,040
+Năm nào cũng có slide mà. Năm ngoái là bắt đầu nói về Autonomous Energy.
+
+310
+00:21:34,510 --> 00:21:41,700
+Có khi làm không nhanh 2 tháng ở khi nói cái của em phải lỗi thời tiết.
+
+311
+00:21:41,940 --> 00:21:43,400
+Thầy kêu phải tiến hóa thôi.
+
+312
+00:21:45,490 --> 00:21:48,220
+Công nghệ cổ kỳ luôn. Nhanh thật.
+
+313
+00:21:51,320 --> 00:21:55,940
+Bây giờ kiểu làm biệt tá không phải chứng minh mình hỗ trợ AI cái gì.
+
+314
+00:21:55,940 --> 00:21:58,960
+cái này
+
+315
+00:22:01,520 --> 00:22:03,440
+hình thái mới
+
+316
+00:22:21,420 --> 00:22:23,020
+mục tài nguyên
+
+317
+00:22:25,320 --> 00:22:27,680
+chắc là hiện tại thì em chưa post lên nhưng mà
+
+318
+00:22:27,680 --> 00:22:28,860
+hai ngôi năm thì nó có này
+
+319
+00:22:32,440 --> 00:22:37,420
+Facebook thì người ta sẽ nói là YouTube Bootcamp Misa
+
+320
+00:22:37,420 --> 00:22:42,980
+các em thấy rồi
+
+321
+00:22:42,980 --> 00:22:46,500
+Như thế này là giới thiệu của Securitibootcamp nhé
+
+322
+00:22:54,280 --> 00:22:58,430
+Từ nay đến cuối năm thì còn sự kiện kiểu đánh tập trận
+
+323
+00:22:58,430 --> 00:22:59,750
+Đấy gọi là gì nhé?
+
+324
+00:22:59,830 --> 00:23:00,830
+Đánh diễn và thực chiến
+
+325
+00:23:00,830 --> 00:23:01,550
+À diễn vâng
+
+326
+00:23:01,550 --> 00:23:04,350
+Nhưng mà nếu như Securitibootcamp thì không có cái nào nữa
+
+327
+00:23:04,350 --> 00:23:06,430
+Nhưng mà có thể sẽ có Smart Banking
+
+328
+00:23:06,430 --> 00:23:10,380
+Smart Banking thì Security là thứ yếu đi cạnh
+
+329
+00:23:10,380 --> 00:23:12,400
+Nó sẽ tổ chức thi đấu ở đấy
+
+330
+00:23:12,940 --> 00:23:13,720
+Như là nội bộ ấy
+
+331
+00:23:13,720 --> 00:23:14,940
+Không, các ngân hàng
+
+332
+00:23:14,940 --> 00:23:17,030
+Thi giữa các ngân hàng ấy
+
+333
+00:23:17,030 --> 00:23:27,240
+Anh vào feed anh có gặp bạn Phong hả anh?
+
+334
+00:23:28,470 --> 00:23:29,330
+Anh ở chỗ khác
+
+335
+00:23:29,330 --> 00:23:30,190
+Chỗ khác
+
+336
+00:23:30,190 --> 00:23:31,110
+Đặc biệt hơn
+
+337
+00:23:33,500 --> 00:23:36,020
+Điêu anh có được trên 4x không anh?
+
+338
+00:23:36,120 --> 00:23:37,200
+Trên 4x
+
+339
+00:23:38,370 --> 00:23:41,770
+Đến từ WinShot cũng giống mà về...
+
+340
+00:23:41,770 --> 00:23:42,630
+Anh...
+
+341
+00:23:43,190 --> 00:23:43,670
+Năm nay
+
+342
+00:23:43,670 --> 00:23:45,570
+Em chưa gặp, vâng rồi
+
+343
+00:23:45,570 --> 00:23:48,190
+Anh làm cùng anh?
+
+344
+00:23:49,530 --> 00:23:50,330
+Còn đây là Misa
+
+345
+00:23:50,330 --> 00:23:51,710
+Trường Misa
+
+346
+00:23:51,710 --> 00:23:52,390
+Misa
+
+347
+00:23:54,650 --> 00:23:55,090
+Rồi
+
+348
+00:23:55,090 --> 00:23:57,750
+Ai xem thức AI
+
+349
+00:23:57,750 --> 00:23:59,920
+No, nó mất defense
+
+350
+00:24:01,320 --> 00:24:03,000
+Nó không nếp việc đâu
+
+351
+00:24:03,000 --> 00:24:05,060
+Không, đương nhiên là không nhanh
+
+352
+00:24:05,060 --> 00:24:09,960
+Và cái đề tài của thêm không nhanh là cũng ngon ngoẻo
+
+353
+00:24:10,480 --> 00:24:11,380
+Ừ, nên nhanh
+
+354
+00:24:12,220 --> 00:24:15,300
+Nhưng mà đối với người nghiên cứu thì nhanh chậm nó khốn nha lắm
+
+355
+00:24:15,540 --> 00:24:16,680
+Giờ thì có rồi
+
+356
+00:24:16,680 --> 00:24:21,040
+Không, đối với người nghiên cứu thì không nhanh thì sẽ vẫn có cách khác để người ta làm
+
+357
+00:24:21,840 --> 00:24:24,480
+Tức là người ta không phải là người nghiên cứu chỉ hôm nay thôi
+
+358
+00:24:24,480 --> 00:24:26,480
+Người ta nghiên cứu là người ta tiếp tục chuyển đổi chủ đề
+
+359
+00:24:26,480 --> 00:24:27,920
+Người khác thì người ta vẫn không thể
+
+360
+00:24:28,740 --> 00:24:31,760
+Chuyển đổi chủ đề cũng hơi khó
+
+361
+00:24:31,760 --> 00:24:35,980
+Không nhưng mà chuyển đổi chủ đề phải theo thầy nữa
+
+362
+00:24:35,980 --> 00:24:36,580
+Bởi vì là
+
+363
+00:24:38,880 --> 00:24:39,980
+Khi nào em lên tiến sĩ
+
+364
+00:24:40,360 --> 00:24:42,800
+À khi nào em lên phó giáo sư em mới được quyền tự chủ
+
+365
+00:24:43,500 --> 00:24:46,320
+Còn thầy Phạm Duy Trung là thầy đang theo một thầy
+
+366
+00:24:46,320 --> 00:24:48,560
+Đây là thầy Bùi Thu Lâm ở thiên trường
+
+367
+00:24:48,560 --> 00:24:50,300
+Thầy à
+
+368
+00:24:53,280 --> 00:24:54,460
+Thầy mà dạy mình môn
+
+369
+00:24:54,460 --> 00:24:55,280
+Học máy
+
+370
+00:24:55,280 --> 00:24:56,000
+Học máy đấy
+
+371
+00:24:56,000 --> 00:25:00,910
+Thì thấy bị hồ sơ bị bỏ vấn đề
+
+372
+00:25:00,910 --> 00:25:02,370
+Nên là không lên được
+
+373
+00:25:03,010 --> 00:25:06,010
+Còn trước là thấy là bên trường quân sự
+
+374
+00:25:06,770 --> 00:25:07,290
+Vâng
+
+375
+00:25:07,650 --> 00:25:08,890
+À đấy biết cắt
+
+376
+00:25:08,890 --> 00:25:10,050
+Vâng đúng rồi
+
+377
+00:25:10,050 --> 00:25:14,230
+Thấy trước là cũng kiểu sắp lên
+
+378
+00:25:14,230 --> 00:25:16,610
+Không biết
+
+379
+00:25:18,030 --> 00:25:19,090
+Cũng sắp lên phó
+
+380
+00:25:19,090 --> 00:25:20,670
+À cũng lên phó hiệu trưởng
+
+381
+00:25:20,670 --> 00:25:24,810
+Nhưng mà bị cái liên quan tới mở lớp
+
+382
+00:25:24,810 --> 00:25:26,830
+Mở lớp dạy thêm thì không được tính là
+
+383
+00:25:26,830 --> 00:25:28,830
+Đó là kiểu tiền khô
+
+384
+00:25:28,830 --> 00:25:32,570
+Anh không biết vụ đấy nhưng mà anh chỉ biết là một tục tạm mà không trở nên
+
+385
+00:25:32,570 --> 00:25:36,190
+Đấy thì bị cái đấy thôi bởi vì mỗi lớp dạy thêm ngoài, dạy thu tiền
+
+386
+00:25:36,710 --> 00:25:41,310
+Và hồi đấy thì cứ nghĩ là phải dạy để dạy từ tấm lòng của thầy là khô xong
+
+387
+00:25:41,310 --> 00:25:44,870
+Thế là gọi là dòng tiền không minh bạch, dính
+
+388
+00:25:46,190 --> 00:25:47,830
+Và thầy thích rất đến cái đấy
+
+389
+00:25:47,830 --> 00:25:49,010
+Vâng, thầy cũng thích
+
+390
+00:25:49,010 --> 00:25:49,670
+Nhẹ nhàng, nhẹ nhàng
+
+391
+00:25:50,590 --> 00:25:53,530
+Thì cái đấy bị uống hồ sơ thế là thầy bị kẹt
+
+392
+00:25:53,530 --> 00:25:56,650
+Ờ, hiện tại thầy cũng theo thầy đấy
+
+393
+00:25:57,610 --> 00:26:04,630
+Nhất là bình thường là cứ thứ bảy hàng tuần là sẽ có một buổi giữa các nghiên cứu sinh thì em được ngồi ké
+
+394
+00:26:05,330 --> 00:26:07,610
+Vì kiểu em ghi tên mấy vào
+
+395
+00:26:08,170 --> 00:26:13,370
+Tức là em mới tự tin là ít nhất là đề tài em nhắc nhắn trên tám vì thấy mà không ok em không bao giờ ra bảo vệ
+
+396
+00:26:14,680 --> 00:26:19,120
+Về em bảo vệ muộn thì mãi thấy ok không thì có khi nhanh hơn nhiều
+
+397
+00:26:21,760 --> 00:26:25,860
+Cái đề tài này của anh lâu lâu anh ngó vào một tí, không có nhiều thời gian được
+
+398
+00:26:26,320 --> 00:26:29,200
+Cũng may là em nghĩ là giai đoạn của anh ngó kịp
+
+399
+00:26:30,250 --> 00:26:30,770
+Đúng đấy
+
+400
+00:26:30,770 --> 00:26:32,690
+Vì là mới thông báo 2 tuần
+
+401
+00:26:33,850 --> 00:26:37,070
+Anh dự trù công việc lâu từ trước rồi, chỉ là anh không ngó vào kịp
+
+402
+00:26:38,000 --> 00:26:40,060
+Lên đề cương thì lên đề cương trước 1 tuần thôi
+
+403
+00:26:40,900 --> 00:26:47,540
+Thế cũng may em vừa mới nhắn tin cho anh Hải lớp trưởng là khả năng sẽ bảo vệ sớm
+
+404
+00:26:47,540 --> 00:26:49,900
+Bởi vì thầy hiệu phó sắp phải luân chuyển công tác
+
+405
+00:26:49,900 --> 00:26:53,180
+2 hôm sau đã nhận tin là 12 đảng chí bảo vệ
+
+406
+00:27:00,430 --> 00:27:06,670
+Bình thường là phải nộp, gửi các thầy, tạm biệt rồi sửa lại một lần nữa, rồi gửi lại lần cuối.
+
+407
+00:27:07,170 --> 00:27:15,320
+Cái này cô ý anh có thể cắt hết đoạn AI đi, nhưng mà bỏ qua hết thì rất là may mắn.
+
+408
+00:27:16,770 --> 00:27:18,270
+Đỡ bao nhiêu bước làm nhẹ cũng được.
+
+409
+00:27:21,380 --> 00:27:22,360
+Chưa sẵn sàng bảo vệ.
+
+410
+00:27:22,960 --> 00:27:27,320
+Không sao, anh thấy cái quy mô thì anh cũng biết là nó rất là dễ.
+
+411
+00:27:28,430 --> 00:27:30,070
+Sáng anh có đi dạo một vòng hay hình thế?
+
+412
+00:27:31,610 --> 00:27:35,340
+Chắc là chết mỗi một người thôi
+
+413
+00:27:35,340 --> 00:27:38,680
+Em cảm giác là mình không nên chọn đề tài
+
+414
+00:27:40,640 --> 00:27:42,380
+Nghĩa là em biết là chuyên biệt rồi
+
+415
+00:27:42,380 --> 00:27:43,960
+Nhưng mà nó quá rộng để hỏi
+
+416
+00:27:43,960 --> 00:27:46,120
+Rộng là không người cũng biết
+
+417
+00:27:46,120 --> 00:27:50,780
+Nếu mà đi theo thầy mà không tự tin thì tự tìm một cái
+
+418
+00:27:52,580 --> 00:27:55,460
+Nếu mà em tự vẽ ra đường thì sẽ không ai bắt vẽ em cả
+
+419
+00:27:55,460 --> 00:27:56,760
+Em đi theo đường người khác thì...
+
+420
+00:28:01,010 --> 00:28:03,230
+Đi theo người khác thì phải tâm trí hơn
+
+421
+00:28:04,690 --> 00:28:05,770
+Mình bị thú động hay tự động?
+
+422
+00:28:10,700 --> 00:28:19,410
+hello hello đang đang đang ok ok ok
+
+423
+00:28:27,300 --> 00:28:33,740
+ngoài cái autonomous còn giờ còn có cái gì bên LOC cần phải biết không anh
+
+424
+00:28:33,740 --> 00:28:45,690
+đấy autonomous đấy là chỉ bên LOC thôi còn bản forensic và internet response đúng không
+
+425
+00:28:45,690 --> 00:28:47,700
+còn nhiều hay như nào anh
+
+426
+00:28:47,700 --> 00:28:49,630
+ý là có những mảng khác nữa mà
+
+427
+00:28:49,630 --> 00:28:54,090
+vâng thì em đang quan tâm đến khách intelligent hơn
+
+428
+00:28:54,090 --> 00:28:56,050
+khách intelligent mà có AI á
+
+429
+00:28:56,050 --> 00:28:57,930
+có chứ anh
+
+430
+00:28:57,930 --> 00:29:02,030
+có ừ không ý là anh đang muốn hỏi em em muốn có AI trong đấy hay là như nào
+
+431
+00:29:02,030 --> 00:29:02,850
+ừ đúng rồi anh
+
+432
+00:29:02,850 --> 00:29:07,270
+Mục tiêu của em là khi bảo vệ thì sẽ làm 2 cái
+
+433
+00:29:07,270 --> 00:29:11,290
+Một là thêm cái keyword để cho thằng tượng lửa nó quét mạnh hơn
+
+434
+00:29:11,290 --> 00:29:16,310
+Hai là sẽ ném một thằng AI vào giữa thằng tượng lửa với cả thằng AI chính
+
+435
+00:29:16,750 --> 00:29:20,570
+Một con mô đun nhỏ hơn để giảm thiểu cho ví dụ thằng Cloud ở hạng nó rất là khỏe
+
+436
+00:29:20,570 --> 00:29:21,830
+Nó sẽ sàng lọc thêm
+
+437
+00:29:21,830 --> 00:29:23,970
+Thì sẽ là kiểu bảo vệ băng
+
+438
+00:29:25,200 --> 00:29:28,820
+Thì sau đó thì nó phải dựa trên một bộ TI chứ anh
+
+439
+00:29:28,820 --> 00:29:31,600
+Cái con mô đun bé của em là nó phải dựa trên TI
+
+440
+00:29:32,100 --> 00:29:35,320
+Đồng ý, đồng ý. Ok đây, nhưng mà CoTi đâu cần phải AI.
+
+441
+00:29:36,360 --> 00:29:46,450
+Con TI đấy nó chỉ ghi một vài cái câu lệnh, ví dụ như là một câu tấn công mới nhất chẳng hạn.
+
+442
+00:29:46,730 --> 00:29:51,510
+Như vừa mới tấn công ngân hàng VIP chẳng hạn, thì khả năng sẽ tấn công ngân hàng MB.
+
+443
+00:29:51,830 --> 00:29:53,710
+Thì mới thu thập được một hai câu thôi.
+
+444
+00:29:53,850 --> 00:29:57,570
+Mà muốn đưa vào mô hình AI thì phải nhân dọng nó cực kỳ nhiều lên.
+
+445
+00:29:57,570 --> 00:30:00,000
+mình không thể ctrl c ctrl v được
+
+446
+00:30:00,080 --> 00:30:01,940
+bởi vì nó chỉ giảm học đúng một mẫu
+
+447
+00:30:01,940 --> 00:30:03,740
+cái thật không thể đổi mẫu liên tục
+
+448
+00:30:03,740 --> 00:30:06,440
+cái này cũng như là ngoài tầm của TI rồi, cái này vẫn là GAN thôi
+
+449
+00:30:06,440 --> 00:30:12,630
+không nhưng mà ý là đầu tiên là có TI, giờ phải làm đến nào mà GAN nó phải học được, thì hút đấy mới nhân
+
+450
+00:30:12,630 --> 00:30:16,330
+thế thì thử mấy cái project open source kiểu MISC ấy
+
+451
+00:30:16,920 --> 00:30:18,740
+để nó chỉ là môi trường của TI thôi
+
+452
+00:30:19,120 --> 00:30:19,920
+môi trường của TI
+
+453
+00:30:19,920 --> 00:30:23,880
+tức là nó là một cái pool để em lấy nguồn nước ngoài
+
+454
+00:30:24,560 --> 00:30:24,920
+MISC
+
+455
+00:30:28,420 --> 00:30:36,900
+nguồn tên rồi thì cái nó nó chỉ là một cái ôm xuống cho em kéo ra những nguồn cộng đồng về và
+
+456
+00:30:36,900 --> 00:30:44,960
+đấy sẽ nuôi được cái đấy để em phát triển ra nhân nhân dưới lên nhưng mà anh không không biết cái
+
+457
+00:30:44,960 --> 00:30:50,420
+gần gan tự thi ai như thế nào thì không anh nhanh anh cứ hiểu chỉ đơn giản anh biết là nó sẽ hết rồi
+
+458
+00:30:50,420 --> 00:30:58,280
+với ý là cái MSP hay là những cái nguồn TI khác, CTI thì nó chỉ có nguồn thầu hết là các IOC
+
+459
+00:30:59,100 --> 00:31:06,470
+Đa số là thế, IP, Domain hoặc là Pilot mấy cái đấy đều là IOC
+
+460
+00:31:06,470 --> 00:31:10,950
+thì IP và Domain anh không biết nó gen ra kiểu gì, còn Pilot thì may là có thể
+
+461
+00:31:13,780 --> 00:31:18,160
+Nói thật ra IP với cả thường bị đánh chặn
+
+462
+00:31:18,160 --> 00:31:20,460
+những cái này là cái specific nhất
+
+463
+00:31:21,020 --> 00:31:22,680
+không thường hai cái đấy là bỏ qua
+
+464
+00:31:22,680 --> 00:31:24,070
+cái đó là hash
+
+465
+00:31:24,630 --> 00:31:25,050
+hash với cả
+
+466
+00:31:25,050 --> 00:31:28,430
+hash với cả gì hash nhỉ
+
+467
+00:31:28,430 --> 00:31:28,870
+imhash
+
+468
+00:31:29,530 --> 00:31:32,370
+imhash là một phần
+
+469
+00:31:32,370 --> 00:31:34,510
+tức là để theo dõi nhiều họ một lúc ấy
+
+470
+00:31:34,510 --> 00:31:35,490
+thì người ta đem được imhash
+
+471
+00:31:35,490 --> 00:31:38,810
+một loại hash của những cái có liên quan đến cái hash này
+
+472
+00:31:38,810 --> 00:31:41,010
+ví dụ là binary này import
+
+473
+00:31:41,010 --> 00:31:41,810
+những thư kiện nào ấy
+
+474
+00:31:42,290 --> 00:31:44,510
+imhash nó sẽ chỉ dưới cái phần chung đấy thôi
+
+475
+00:31:45,170 --> 00:31:47,040
+nhưng mà nếu mà em tải
+
+476
+00:31:48,920 --> 00:31:54,320
+Nhằm tải mấy cái thư viện, một vài cái thư viện, và người chung thì nó sẽ đánh vào
+
+477
+00:31:54,320 --> 00:31:59,660
+Nó sẽ tính ra là cái in-house và có thể biết là họ này với họ này có liên quan đến nhau không, có chung một mẹ hay không, kiểu gì đấy
+
+478
+00:32:03,300 --> 00:32:11,370
+IOC có nhiều kiểu lắm, em phải lựa xem là IOC nào có thể dạy gan được, IOC nào có thể dùng tận dụng, rồi mới tính tiếp được
+
+479
+00:32:12,160 --> 00:32:13,160
+Đấy là nếu nó hướng dưới ai
+
+480
+00:32:13,160 --> 00:32:27,920
+Còn ở Core 6 thì nó sẽ phải unpack và tìm tác tích của mỗi cái Artifact ấy
+
+481
+00:32:28,420 --> 00:32:32,960
+Ví dụ là Manware gì đấy, cái đấy phức tạp hơn nữa
+
+482
+00:32:32,960 --> 00:32:34,420
+Cái đấy thì em không làm được
+
+483
+00:32:34,420 --> 00:32:38,880
+Cái đấy thì hơi sâu về phần Assignment
+
+484
+00:32:38,880 --> 00:32:39,480
+Ừ
+
+485
+00:32:39,480 --> 00:32:44,400
+Đấy thì Adem lại chưa được làm được thôi
+
+486
+00:32:44,400 --> 00:32:46,700
+Em chỉ làm cái bề kiểu nông nông
+
+487
+00:32:47,700 --> 00:32:49,160
+Tập trung vào mấy cái tầng thông web
+
+488
+00:32:50,480 --> 00:32:53,110
+Em chỉ tập trung vào mấy cái tính công web trước
+
+489
+00:32:54,810 --> 00:32:56,390
+XSS, SVL là 2 cái
+
+490
+00:32:56,390 --> 00:32:59,150
+Em hãy đi từ các nguồn CVE
+
+491
+00:33:01,410 --> 00:33:05,910
+CVE sẽ để lại exploit code để tạo ra GAN
+
+492
+00:33:05,910 --> 00:33:09,690
+Em cũng làm yêu thương đấy nhưng mà
+
+493
+00:33:09,690 --> 00:33:12,990
+Bên đấy nó kiểu đặc thù quá
+
+494
+00:33:13,970 --> 00:33:16,370
+Các CVE không thể liên hệ với nhau được
+
+495
+00:33:22,790 --> 00:33:36,290
+Nhưng mà các biến thể này nó không có tính liên kết với nhau anh, bởi vì là mỗi một câu là phải có ngữ pháp riêng ý anh, ví dụ như là học kiểu 10 ngữ pháp là em cũng chưa làm được, nó rất dễ bị trồng trèo ý anh.
+
+496
+00:33:39,620 --> 00:33:45,060
+Nó dễ bị vô nghĩa, nó chỉ đơn giản là ghép với nhau như Lego vậy anh
+
+497
+00:33:45,060 --> 00:33:47,140
+Kiểu anh có cái tàu Lego anh tháo ra
+
+498
+00:33:49,640 --> 00:33:55,480
+Thế nên là kể cả là nó có độc nhất thì ít nhất phải có các tính liên kết
+
+499
+00:33:55,480 --> 00:33:57,200
+Nó kiểu phải có ngũ pháp
+
+500
+00:33:57,200 --> 00:33:58,590
+Như SQL
+
+501
+00:33:59,250 --> 00:34:02,210
+Vâng, hiện tại SQL, XSS là 2 cái mà dễ nhất rồi
+
+502
+00:34:02,870 --> 00:34:06,270
+Còn tấn công như kiểu là đi đốt vào mấy cái kia là khó quá
+
+503
+00:34:06,870 --> 00:34:09,030
+Mấy cái kia là kiểu gây nhiễu
+
+504
+00:34:09,030 --> 00:34:10,650
+Thế là nó dùng đủ mọi cái
+
+505
+00:34:20,270 --> 00:34:24,490
+Thế thắng là làm cái khác
+
+506
+00:34:24,490 --> 00:34:26,210
+Thế thắng là làm liên quan tới
+
+507
+00:34:26,990 --> 00:34:27,950
+Phần mềm
+
+508
+00:34:27,950 --> 00:34:29,070
+Cái của thầy thắng
+
+509
+00:34:31,270 --> 00:34:33,910
+Cái thắng sẽ
+
+510
+00:34:33,910 --> 00:34:35,190
+Công kinh hơn
+
+511
+00:34:37,170 --> 00:34:38,810
+Thắng như là có nghiên cứu cả UAV mà
+
+512
+00:34:39,390 --> 00:34:41,190
+Thầy Thắng giờ chắc là không làm được gì nữa
+
+513
+00:34:41,670 --> 00:34:42,910
+Thầy phải gồng ghê quá
+
+514
+00:34:43,310 --> 00:34:47,210
+Bây giờ đang sát nhập 2 cơ sở vào
+
+515
+00:34:48,260 --> 00:34:49,440
+Lên lại văn phòng
+
+516
+00:34:49,940 --> 00:34:50,560
+Sao đến rồi?
+
+517
+00:34:51,640 --> 00:34:52,500
+Học báo cuối rồi
+
+518
+00:34:55,420 --> 00:34:56,160
+Học báo đến 5h
+
+519
+00:34:56,160 --> 00:34:57,640
+Học báo đến 5h
+
+520
+00:34:59,120 --> 00:35:00,360
+Ý là hết tên ảnh
+
+521
+00:35:09,170 --> 00:39:13,450
+Mặt giỏi của anh
+
+522
+00:39:17,050 --> 00:39:18,190
+Với người ít duy nhất đây
+
+523
+00:39:18,190 --> 00:39:21,060
+Cái gì là góng phát là cả 1 lớp
+
+524
+00:39:21,060 --> 00:39:23,030
+Không muốn nhắc về tình
+
+525
+00:39:24,140 --> 00:39:29,440
+Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn

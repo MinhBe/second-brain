@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "browser-skill/notification",
+  "title": "notifications.json entry",
+  "type": "object",
+  "required": [
+    "source",
+    "raw_text",
+    "normalized_type",
+    "blocking",
+    "parsed",
+    "observed_at",
+    "page_url"
+  ],
+  "properties": {
+    "source": {
+      "enum": [
+        "alert",
+        "dialog",
+        "toast",
+        "banner"
+      ]
+    },
+    "raw_text": {
+      "type": "string"
+    },
+    "normalized_type": {
+      "type": "string"
+    },
+    "blocking": {
+      "type": "boolean"
+    },
+    "parsed": {
+      "type": "object",
+      "properties": {
+        "reset_time": {
+          "type": "string"
+        },
+        "cooldown_until": {
+          "type": "string"
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "observed_at": {
+      "type": "string"
+    },
+    "page_url": {
+      "type": "string"
+    }
+  }
+}

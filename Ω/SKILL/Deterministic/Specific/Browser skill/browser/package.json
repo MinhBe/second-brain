@@ -1,0 +1,17 @@
+{
+  "name": "browser-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Strict, script-driven browser skill for AI coding agents on Windows 11 (general browsing + AI Web Observer).",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "doctor": "node scripts/doctor.mjs",
+    "evals": "node evals/run.mjs",
+    "evals:browser": "node evals/run.mjs --browser --token-check"
+  },
+  "dependencies": {
+    "@playwright/cli": "0.1.19",
+    "playwright": "1.63.0"
+  }
+}

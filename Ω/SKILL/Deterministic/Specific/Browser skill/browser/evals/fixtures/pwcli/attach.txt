@@ -1,0 +1,11 @@
+### Session `live` created, attached to `chrome`.
+Run commands with: playwright-cli -s=live <command>
+
+### Open tabs
+- 0: (current) [user tab B](data:text/html,<title>user tab B</title>B)
+- 1: [user tab A](data:text/html,<title>user tab A</title>A)
+### Page
+- Page URL: data:text/html,<title>user tab B</title>B
+- Page Title: user tab B
+### Snapshot
+- [Snapshot](out-live\page-2026-09-15T10-22-54-212Z.yml)

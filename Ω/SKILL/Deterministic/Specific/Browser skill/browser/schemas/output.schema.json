@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "browser-skill/output",
+  "title": "Script stdout envelope (one JSON line)",
+  "type": "object",
+  "required": [
+    "ok",
+    "verb",
+    "code",
+    "exit",
+    "next"
+  ],
+  "properties": {
+    "ok": {
+      "type": "boolean"
+    },
+    "verb": {
+      "type": "string"
+    },
+    "code": {
+      "enum": [
+        "OK",
+        "INTERNAL",
+        "USAGE",
+        "PRECONDITION",
+        "NOT_FOUND",
+        "TARGET",
+        "TIMEOUT",
+        "POLICY",
+        "HUMAN",
+        "UNKNOWN",
+        "PROVIDER",
+        "TOOL",
+        "BUSY",
+        "AUDIT"
+      ]
+    },
+    "exit": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 13
+    },
+    "next": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "_path": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

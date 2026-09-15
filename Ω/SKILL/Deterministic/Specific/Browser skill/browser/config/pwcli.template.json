@@ -1,0 +1,19 @@
+{
+  "_comment": "Template for playwright-cli --config. NOT a security boundary. bw.mjs fills outputDir/userDataDir/headless per session and writes state/pwcli/<session>.config.json. Channel can be overridden with BROWSER_SKILL_CHANNEL=chromium.",
+  "browser": {
+    "browserName": "chromium",
+    "launchOptions": {
+      "channel": "chrome",
+      "headless": true
+    },
+    "contextOptions": {
+      "viewport": { "width": 1280, "height": 900 }
+    }
+  },
+  "outputDir": "__SET_BY_BW__",
+  "outputMode": "file",
+  "console": { "level": "warning" },
+  "timeouts": { "action": 5000, "navigation": 30000 },
+  "allowUnrestrictedFileAccess": false,
+  "codegen": "none"
+}

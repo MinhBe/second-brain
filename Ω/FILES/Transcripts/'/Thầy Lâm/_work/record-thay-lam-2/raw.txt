@@ -1,0 +1,245 @@
+[00:00:00] Đây đấy, em đang làm nó đang hơi không kiểm soát được ạ
+[00:00:10] Thì đề tài của em là em sẽ cố gắng sử dụng GAN trong
+[00:00:16] Tên của anh
+[00:00:18] À vâng, em có, em viết tiếng Anh, quên chưa đổi lại
+[00:00:23] Thì em dùng GAN để tấn công SQL
+[00:00:32] bài toán thì hiện tại là dữ liệu thì sẽ hầu hết sẽ là các dữ liệu của người dùng rất bình thường
+[00:00:39] đôi lúc mới có dữ liệu tấn công thì tỷ lệ sẽ rơi khoảng từ 100 trên 1 thì tới 1.000 trên 1
+[00:00:45] thì theo phương pháp bình thường thì mình sẽ chỉ đơn giản là lọc dữ liệu rồi chuyển nó thành vector
+[00:00:50] có thể dùng MOT để kiểu định dạng lại thì lúc này mình sẽ dùng GAN bởi vì GAN nó có thể học
+[00:00:58] Còn cái thằng kia nó chỉ đơn giản nội sinh, nghĩa là mình đưa cho nó cái gì thì nó cũng chỉ thay đổi các string
+[00:01:06] Nó chỉ học nội sinh thôi nhưng nó không có khả năng sinh ra những cái dữ liệu mới để mình có thể học tiếp
+[00:01:12] Thế em mới đề xuất ra, thì đây là mô hình của em ạ
+[00:01:16] Thì đầu tiên là em sẽ lấy dữ liệu, lấy dữ liệu trên Kaggle và một số cái Datap
+[00:01:24] lấy thêm dữ liệu của các cái CVE, nghĩa là người ta ghi nhận những cái tấn công
+[00:01:33] dữ liệu thì em lấy, thì em cũng mới chỉ lấy khoảng 30.000
+[00:01:38] bởi vì là dữ liệu tấn công thực tế
+[00:01:40] thì khi mà em làm thì em thấy là hầu hết là nó chỉ là noise
+[00:01:45] nghĩa là nó chỉ có khả năng tấn công
+[00:01:48] lúc mà em gõ thật thì khả năng tấn công thực tế của nó là không có
+[00:01:52] nó khá là ít, này em mới nhận ra
+[00:01:55] còn tiếp theo là
+[00:01:58] trong mô hình nó sẽ có 2 thành phần
+[00:02:01] đầu tiên là thành phần Generate
+[00:02:05] và thành phần Qua lịa và thành phần Quy tích
+[00:02:08] thì em có thêm vào là
+[00:02:12] trong này sẽ có thêm
+[00:02:15] trong thành phần này em sẽ có thêm
+[00:02:23] cái Mutation
+[00:02:25] Criticization nghĩa là em sẽ cho nó biết định nghĩa cho cả hai thằng
+[00:02:31] Gây nhiễu của nó
+[00:02:33] Cái này là em cũng mới tìm hiểu
+[00:02:37] Thì em đang hiểu là em sẽ cho nó biết là
+[00:02:40] Bây giờ SQL injection thì nó sẽ phải có những điều kiện tối thiểu là gì
+[00:02:44] Em cho cả hai thằng nó học luôn
+[00:02:47] Còn nếu mà làm theo quyền bình thường thì nó đang hơi loạn
+[00:02:50] Sau khi mà Critic thành công xong
+[00:02:54] sau đó em sẽ có thêm một lớp để trách nữa thì nó sẽ gồm 3 cái đầu tiên là kiểm tra xem có phải là
+[00:03:00] SQL không ạ là cái L1 tiếp theo là sẽ kiểm tra xem là khả năng injection của nó nghĩa là xem là thực
+[00:03:07] tế nó có khả năng tấn công không ạ Hiện tại là em mới chỉ cho quét qua bộ thư viện OpenSource ở trên
+[00:03:14] mạng rồi ạ còn cái số 3 là em sẽ quét xem là độ đa dạng xem là nó có thật sự đa dạng nghe nó có thật
+[00:03:21] thật sự hơn được thay thế được em thay được thằng small không ạ thì trong tương lai thì em sẽ thay
+[00:03:28] thế cái thằng l2 bằng cách là em cho tấn công thực tế trên các tương lửa thông dụng ạ và cái cuối
+[00:03:35] cùng là các cái thước đo để xem là mô hình của em đạt những giá trị nào thì em cũng vận thì đây là
+[00:03:46] kết quả thì nếu như mà tỷ lệ mà rất rất cân bằng như kiểu 500 trên 1 ạ cái cổ ngoài cùng ạ thì là
+[00:03:53] là nó thì cái mô hình sẽ gan nó sẽ hơn được cái phương pháp cơ bản là 42 phần trăm nhưng mà càng
+[00:04:03] lên cao thì nếu mà tỷ lệ càng thấp thì thằng mốt nó sẽ thắng được thằng gan thì tỷ lệ đem chọn là
+[00:04:11] 100 100 trên một là tỷ em cho rằng tỷ lệ mất cân bằng đủ để mình có thể dùng phương pháp ra thì
+[00:04:20] Ở hình bên phải, em cũng thử chia ra 4 trường hợp
+[00:04:26] Nghĩa là trong tấn công SQL sẽ có 4 trường hợp
+[00:04:29] 2 trường hợp đầu tiên là Boolean và Error
+[00:04:33] Thì cái này dựa trên phản hồi của máy chủ
+[00:04:38] Nghĩa là nó không thực sự tấn công
+[00:04:41] Nó sẽ đợi xem phản hồi máy chủ là gì
+[00:04:43] Và từ đó họ sẽ mường tượng xem hệ thống của mô hình là như nào
+[00:04:49] Thì nên là 2 cái đầu là nó sẽ không có đặc biệt
+[00:04:54] Bởi vì nó chỉ đơn giản là tấn công những cái mà mình đã biết rồi ạ
+[00:04:57] Nhưng mà 2 cái cuối cùng là sẽ cố gắng tấn công vào cơ sở dữ liệu hoặc là máy chủ ạ
+[00:05:02] Thì khi này thì nó mới thật sự có khác biệt ạ
+[00:05:06] Thì ở đây là mô hình GAN mà khi tấn công Time Experience Action thì là hơn được 11%
+[00:05:13] Và nếu mà tấn công Union Bay thì sẽ là 7% ạ
+[00:05:17] Thì đây là lược đồ Training Curve của em ạ
+[00:05:28] Thì khi mà em Training khoảng 50 Epoch thì nó sẽ chững lại ạ
+[00:05:35] Thì ở đây thì là ở mô hình dưới cùng cái số 3 ạ
+[00:05:40] Thì là cái đầu tiên thì là khi mà đạt tới 50 Epoch
+[00:05:47] Thì là từ về sau em sẽ chỉ tạo ra S-Conjection chứ không còn tạo nhiều nữa ạ
+[00:05:54] Nhưng mà còn diversity thì là em đang không để kéo lên trên 0.6
+[00:05:58] Nghĩa là nó cũng không để sinh ra được cái dữ liệu SQL Action mà nó thật sự nằm ngoài
+[00:06:09] Nó thật sự nằm ngoài, nghĩa là nó có đem ra sự khác biệt
+[00:06:13] Khác hẳn so với cái baseline bình thường của em
+[00:06:16] Thì đây là cái vấn đề lớn nhất mà hiện tại em đã tạo lại
+[00:06:19] Nghĩa là dùng GAN nhưng mà không đáng kể
+[00:06:21] Nghĩa là nếu mà chỉ đơn giản là tạo ra khoảng 0.5 thì có thể vừa dùng SMODE được nó cũng không tạo ra khác biệt lớn
+[00:06:29] Đây là cái em đang thiếu định hướng nhất ạ
+[00:06:35] Thiếu định hướng cái gì?
+[00:06:38] Dạ
+[00:06:39] Thiếu định hướng cái gì?
+[00:06:40] Nghĩa là về độ đa dạng ạ, em đang muốn sử dụng GAN để sinh ra cái dữ liệu tấn công nó đa dạng ạ
+[00:06:48] Còn nếu mà nó chỉ rơi vào khoảng
+[00:06:51] Quality của em nó chỉ 0.5
+[00:06:53] Thì chứng tỏ là dữ liệu em
+[00:06:54] Nó cũng không thật sự quá đa dạng
+[00:06:56] Nó cũng chỉ đơn giản là ghép đi ghép lại
+[00:06:58] Cái string nó không học được cái mới
+[00:07:00] Đây là vấn đề lớn nhất
+[00:07:03] Mà em đang khá lo lắng
+[00:07:05] Vẫn như em vẫn đang tìm hiểu
+[00:07:09] Còn lại là
+[00:07:10] Hai cái còn lại thì là đầu tiên là
+[00:07:12] Có phải là dữ liệu SQL không
+[00:07:16] Hoặc là có phải tấn công không
+[00:07:17] Thì nó trên 0.9
+[00:07:20] thì nó cũng có thể chấp nhận được
+[00:07:22] thế thôi thì?
+[00:07:28] còn một vấn đề nữa
+[00:07:31] đây ạ
+[00:07:32] thì là sau khi mà trend xong
+[00:07:34] thì là tất cả các M1 của em
+[00:07:36] đều ra là 0,99%
+[00:07:39] nghĩa là em đang sợ
+[00:07:40] là nó đang bị overfit và đang
+[00:07:42] không sinh ra sự khác biệt
+[00:07:44] nghĩa là kể cả em có dùng phương án cũ
+[00:07:46] hay là phương án gan
+[00:07:48] hay là gì nữa thì
+[00:07:49] hello, xin chào trưởng
+[00:09:10] Đây là các chỉ số Matrix thì là cả 4 cái kích bản thì nó không có sự khác biệt ạ và nó thường đạt trên chỉ 9% ạ.
+[00:09:21] Đây là một vấn đề mà em tìm phương án giải quyết.
+[00:09:25] Hiện tại là phương án giải quyết mà em đang tìm hiểu thì chỉ có là em sẽ sử dụng thay vì em sẽ sử dụng thêm cả cái top k neutral code để có thể tăng độ đa dạng
+[00:09:39] Thì em đang mong là nó có thể đem ra sự khác biệt
+[00:09:42] Thì đấy là toàn bộ phần báo cáo của em
+[00:09:46] Bây giờ như thế này nhé, em phải chuẩn bị lại cái slide này
+[00:09:51] Chuẩn bị lại cái slide này và làm rõ mình như thế này
+[00:09:56] Thứ nhất là cái bài toán, em giải quyết nó là gì, đúng
+[00:10:02] Bài toán em giải quyết là gì?
+[00:10:04] Bài toán của em là dùng GAN để phát hiện hay để sinh dữ liệu để hỗ trợ quá trình phát hiện SQL Injection
+[00:10:14] Đúng không?
+[00:10:17] Nếu mà mình xem ở đây thì mục tiêu của em đề ra là phân tích thực trạng của vấn đề của nó nhé
+[00:10:27] Hình cứu phân tích các kỹ thuật phát hiện vòng trống SQL Injection không cần nói nữa nhé
+[00:10:31] để xuất mô hình giải pháp tổng thể nâng cao hiệu quả phát hiện
+[00:10:38] Trong đó nhấn mạnh việc ứng dụng mô hình xin dữ liệu để bổ sung dữ liệu tấn công
+[00:10:46] Nhưng trọng tâm của em là vẫn phải có một mô hình phát hiện tấn công
+[00:10:57] Sau đó mình chỉ ra với dữ liệu nó như thế này
+[00:11:03] Đặc biệt là mức cân bằng thì người ta có thể dùng SMOTE đúng không?
+[00:11:09] Nhưng thay vì SMOTE thì tôi dùng GAN đúng không?
+[00:11:13] Đấy cái logic của mình nó chỗ đấy đúng không?
+[00:11:16] Như vậy là em chạy được GAN nên em rất phải so sánh với SMOTE đúng không?
+[00:11:22] Em xin em hỏi, nghĩa là bây giờ em có cần kiểu đưa ra tỷ lệ
+[00:11:27] ví dụ như là 100 trên 1 hoặc là 80 trên 1 thì mới nên dùng GAN hoặc mới nên dùng SMOTE không ạ?
+[00:11:32] Đấy là kết quả về sau thôi.
+[00:11:35] Nếu mà mình ra thì cũng bị cắn tốt, còn nếu không thì trước mắt là làm sao để mình ra thì chúng ta phải sinh ra dữ liệu
+[00:11:41] Dùng smart hoặc dùng gai
+[00:11:46] Như vậy là em phải có các bộ phát hiện thì bộ phát hiện của em nó là gì?
+[00:11:53] Bộ phát hiện của em thì sẽ có 3 cái, đầu tiên là có 3 cái thư viện
+[00:12:04] SQL 3 là để check xem có phải SQL không
+[00:12:07] Một cái SQL Injection Library là để kiểm tra xem phải tấn công không
+[00:12:11] và cái cuối cùng là sẽ xem là có đa dạng hay không
+[00:12:15] Cái này là cái tool mình đang áp dụng trên đây để kiểm tra môi phục máy
+[00:12:20] Môi phục máy thì em mới chỉ đưa ra kịch bản bình thường
+[00:12:25] Dùng cái gì thường lý? Môi phục máy thì để kiểm tra hiện
+[00:12:30] Sẽ có đúng không?
+[00:12:31] Vâng
+[00:12:32] À không em có dùng cái cơ bản là cái quyết định
+[00:12:38] Cái baseline của em là gì?
+[00:12:40] Baseline của em là dùng 2 cái cơ bản là cây quyết định với cả là
+[00:12:45] cái gì nhỉ, tuyến tính, quên tên rồi
+[00:12:50] Đấy em liệt kê cho thầy, trong slide em liệt kê cho thầy là các bộ
+[00:12:53] phát hiện thấy nó là những bộ gì, theo thầy nên ý tuyển bao
+[00:12:56] có thể là cây quyết định hay gì là ý tuyển bao
+[00:13:00] Rồi
+[00:13:02] Đấy
+[00:13:03] Và với 3 bộ đấy mình chạy trên các phương pháp sinh dữ liệu
+[00:14:19] Trong đó mình trọng tâm sẽ vào gan đúng không?
+[00:14:30] Nhưng để nắm được là gan có tốt hay không thì phải so sánh với các phương pháp khác như là SMOTE
+[00:14:36] Đấy cái logic của luật ban anh hiểu chưa em nhé?
+[00:14:38] Em hiểu
+[00:14:39] Đấy, đối với luật ban này sau khi em đã sửa tư đề thì nó cũng không nhất thiết là phải là thứ gì mới cả đúng không?
+[00:14:45] Đấy, nếu mà mình có mới thì mình sẽ đảm bảo, không thì mình sẽ làm nó bắt đúng chưa?
+[00:14:50] Đấy, thế còn là tiếp theo là bộ dữ liệu của em là gì?
+[00:14:54] Đấy, em muốn giảm rõ thầy, em bổ dữ liệu, em lấy ở đặc trưng nó là những cái gì, một cái bản ghi dữ liệu trong đấy, cấu trúc nó như thế nào, mình sẽ thực hành.
+[00:15:14] Giải thích cho thầy SMODE nó sẽ làm như thế nào, giải thích cho thầy GAN là gì, CT GAN là gì, CW GAN là gì?
+[00:15:21] Những cái đấy là mình giải thích kiểu bằng văn hay là phải có bài toán học được.
+[00:15:27] Khi giải thích VNM thì mình phải giải thích kiểu bằng văn nói hay là có văn toán nữa
+[00:15:35] Văn toán nhiều đâu, văn toán trong luật văn
+[00:15:42] Còn slide để dẫn dắt vấn đề
+[00:15:48] Thì GAN, CT GAN, CTW GAN
+[00:15:57] 3 anh ấy có khác nhau cái gì
+[00:16:02] Thậm chí em có thể chạy cả 3 anh ấy
+[00:16:03] GAN truyền thống này, CT GAN này, CW GAN
+[00:16:09] Thì đưa thầy bảo tích tại sao mọi người tự lựa chọn CW GAN
+[00:16:11] Anh nghiên cứu nó phải thế không?
+[00:16:26] Vâng
+[00:16:26] Được chưa?
+[00:16:28] Vâng
+[00:16:31] Như thầy hiện tại thì cái của em nó đang bị overfit
+[00:16:34] Thì em đang mong muốn là thầy cho em keyword hoặc là
+[00:16:39] Một cái keyword để em có thể tìm phương án giải quyết được không?
+[00:16:46] Overfit thì có thể có mấy lý do như thế này
+[00:16:48] Nhất là cái mô hình gan đấy có thể là nó lệch giữa Generator và Dissimilator
+[00:17:01] Critic là khả năng này yếu, đúng chưa?
+[00:17:08] Thứ hai là cái bộ dữ liệu, xem lại bộ dữ liệu
+[00:17:11] Nếu chẳng hạn nó lệch quá thì cũng có thể sinh gan cũng không dễ, đúng không?
+[00:17:17] Đấy, chiếc mắt đầu mình mình cũng chọn bộ dữ liệu nó lệch đủ vừa thôi
+[00:17:22] Đừng lệch quá mức, để xem nó xem như thế nào
+[00:17:26] Hiện tại em lấy hầu hết chỉ có lệch 1.1 hoặc 1.2 nên là em đang phải cố gắng cắt bớt xuống một tí ạ
+[00:17:34] Cắt xuống khoảng 1 trên 50 thì lúc đấy thì gan của em mới phát huy tác dụng nha là mới hợp được
+[00:17:40] Thế tiếp theo này, câu hỏi tiếp theo là đã có ai đã dùng gan này để sinh dữ liệu cho cái bài báo này thế chưa?
+[00:17:46] Có em có tham khảo cho nó ở đâu rồi đưa lên xin thông tin xem người ta làm cái gì đúng không?
+[00:17:56] Có 6 bài báo khoa học có làm giống em ạ
+[00:17:59] Nhưng mà họ không chia như em là kiểu họ không chia các dạng vật công mà họ chỉ bê nguyên H1N1 vào thôi ạ
+[00:18:08] Thì đấy là em đang coi như là điểm mới của em
+[00:18:11] Đầu tiên mình phải làm cái cơ bản này ạ
+[00:18:14] Đấy cơ bản nó chạy ổn thì bắt đầu đi ra cái mới được
+[00:18:17] Có lý lúc lộ tục theo cũng biết được một lần rồi
+[00:18:19] Được chưa?
+[00:18:20] Được
+[00:18:21] Đấy thế giới cũng thoải mái
+[00:18:31] Ngoài ra em cũng đang hơi lo. Kết quả nó không được nghĩ.
+[00:18:44] Nó phải rõ ràng như thế thôi. Thầy cho bàn nó biết được anh ạ.
+[00:18:48] Vâng ạ.
+[00:18:50] Cái diversity là em đổ đo một tí. Cách đo như thế nào?
+[00:18:55] Em đưa qua một cái thư viện. Em có một bài báo là ESBL.
+[00:19:02] Người ta có bảo người ta lấy thư viện.
+[00:19:05] Ba này thì cái ý tưởng với ba bộ quality filter là em lấy từ một bài báo.
+[00:19:10] Người ta có đăng thư viện cho em đưa về để em thử
+[00:19:12] Đấy, trong slide em mô tả thầy công thức kỹ tính
+[00:19:20] Vâng
+[00:19:21] Thì ta ghi bàn được
+[00:19:26] Rồi
+[00:19:27] Bây giờ người ta bảo muốn làm trời làm biển gì
+[00:19:29] Nhưng mà nếu mà có thích tóm lại dữ liệu anh định dạng làm gì mình trả lời thì xin
+[00:19:35] Đúng không
+[00:19:37] Em về trong slide mình nói rõ ràng
+[00:19:38] Đây thầy, em mô tả thầy xem là một bản ghi nó như thế này
+[00:19:43] Đúng không
+[00:19:44] Đấy, đúng chưa
+[00:19:45] Với sinh ra thì thường nó sẽ thay đổi cái gì nữa thế?
+[00:19:48] Hãy trình bày lại thầy nào
+[00:19:55] Chúng tôi mong muốn sớm ạ
+[00:19:58] Chiều thứ bảy ạ
+[00:19:59] Chiều
+[00:20:00] thứ bảy ạ
+[00:20:00] có kịp không?
+[00:20:01] hay là sang tuần sau?
+[00:20:02] chiều thứ bảy em chắc là không kịp
+[00:20:06] em mong là sang tuần sau
+[00:20:07] chắc là bằng lời tuần sau
+[00:20:09] thứ ba hoặc thứ năm được
+[00:20:10] ok, tuần tuần đi
+[00:20:11] anh cảm ơn ạ
+[00:20:13] đấy, tự mình cũng phải nắm vào thầy
+[00:20:14] thế thì nó ra cũng được
+[00:20:16] vâng
+[00:20:16] nhé
+[00:20:17] bây giờ bắt đầu vào giai đoạn làm rồi đấy
+[00:20:23] kinh nghiệm là
+[00:20:29] cũng làm dân làm được với đến tức cả
+[00:20:32] thì chắc là em cũng
+[00:20:38] thầy nói thế chắc em cũng phải cân nhắc
+[00:20:40] cũng phải đập đi một xíu cái
+[00:20:42] Bởi vì là em đang bị mong muốn thông số đẹp nên là có bà đâu cứ lên đọc vài báo nào thấy có su đu hướng có thể sửa em đập hết vào.
+[00:20:54] Tức là thầy cứ chạy ra rồi bắt đầu đi sang cái tivi.
+[00:21:00] Được chưa?
+[00:21:03] Vâng thầy ạ.
+[00:21:03] Ra đây nhé.
+[00:21:10] Ra đây thầy ạ.
