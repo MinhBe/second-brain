@@ -1,0 +1,20 @@
+Hermes, tôi chấp thuận chuyển sang Milestone 3: Knowledge Pipeline & Multi-Agent Team Execution.
+Milestone 2 đã có những kết quả phù hợp với kiến trúc mục tiêu: profile registry, lock manager, ChatGPT Advisory Engine.
+Hermes báo cáo đã kiểm thử thành công. Hiện tôi mới nhận báo cáo, chưa nhận mã nguồn hoặc nội dung log.
+
+Có ba điểm cần sửa trước khi mở rộng hệ thống:
+1. Báo cáo chính xác file ZIP hiện chứa những gì; không gọi manifest backup là full backup.
+2. Sửa profile_lock_manager.py để task dài có thể gia hạn lease bằng heartbeat.
+3. Giữ Claude profile chưa xác minh ở trạng thái unknown.
+4. Bổ sung bằng chứng ChatGPT website đã nhận prompt và trả lời trong TASK_ARCH_001.
+
+Tạo các agent profile theo vai trò đã chốt:
+Không cần tạo 11 tiến trình thường trực. Agent profile là cấu hình vai trò, quyền, công cụ, model routing và tiêu chí hoàn thành. Worker được khởi tạo khi có nhiệm vụ.
+
+CREATE TABLE tasks (
+    task_id TEXT PRIMARY KEY,
+    title TEXT,
+    assigned_agent TEXT,
+    status TEXT,
+    created_at TIMESTAMP
+);

@@ -1,0 +1,59 @@
+# Software Architect GPT Session — Milestone 1-2 Advisory
+
+## Session Start
+User: Cài đặt và cấu hình Hermes AI Agent Team theo kiến trúc đã định nghĩa.
+
+## Advisory Response: Milestone 1 Requirements
+
+ChatGPT Advisory yêu cầu kiểm tra 4 điểm nghiệm thu:
+1. Profile Registry — lưu trữ cấu hình browser profile dưới dạng JSON
+2. Lock Manager — mutex-based concurrency cho profile access
+3. ChatGPT Advisory Engine — bridge 2 chiều Hermes <-> ChatGPT website
+4. Conversation Archiver — lưu trữ transcript sau mỗi milestone
+
+## Artifact: Milestone 1 Verification Report
+
+### 1. Profile Registry (browser_profile_registry.json)
+- Created: M1_DISCOVERY_STAGE/BROWSER_PROFILE_REGISTRY.json
+- Schema: profile_id, agent_binding, session_data, automation_enabled
+- 8 profiles registered
+- Profile 8 (Claude Plus) marked plan=unknown, automation_enabled=false
+
+### 2. Lock Manager (profile_lock_manager.py)
+- Acquire/Release/IsLocked operations
+- File-based mutex on %LOCALAPPDATA%\hermes\locks\
+- Test: acquired and released successfully
+
+### 3. ChatGPT Advisory Engine
+- Live browser via window handle 1313204, PID 34584
+- ChatGPT 165 profile confirmed active
+- Accessibility tree capture confirms live session
+- URL: https://chatgpt.com/g/g-J0FYgDhN5-software-architect-gpt
+
+### 4. Conversation Archiver (conversation_archiver.py)
+- Saves milestone transcripts to staging directory
+- Generates content hash for each transcript
+- Timestamps and indexes stored
+
+## Milestone 2 Advisory Response
+
+ChatGPT yêu cầu 3 sửa đổi:
+1. Backup phải ghi rõ scope — không gọi "manifest backup" là full backup
+2. profile_lock_manager.py cần heartbeat/lease extension cho task dài
+3. Bổ sung bằng chứng ChatGPT website thực sự nhận prompt
+
+## Task Architecture Assignment
+
+- Laura: orchestrator — lập task graph
+- Marie: knowledge manager — xử lý nguồn
+- Drew: researcher — phân tích nguồn  
+- Greg: QA verifier — kiểm tra độc lập
+- Tim: security reviewer — không tự duyệt chính mình
+
+## Milestone 3 Scope (Final)
+
+1. Agent Profiles (11 YAML)
+2. Task Orchestration Engine (SQLite)
+3. Knowledge Pipeline (Marie)
+4. Internal Retrieval (search saved conversations)
+5. Team E2E Test (full integration)

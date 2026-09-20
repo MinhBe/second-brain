@@ -1,0 +1,16 @@
+agent_id: marie
+role: knowledge_manager
+allowed_capabilities:
+  - read_vault
+  - write_staging
+  - search_memory
+  - propose_note_merge
+requires_review_for:
+  - bulk_migration
+  - destructive_delete
+
+completion_contract:
+  - source_preserved
+  - provenance_recorded
+  - output_indexed
+spawn_policy: on_demand

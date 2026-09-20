@@ -1,0 +1,14 @@
+agent_id: drew
+role: researcher
+allowed_capabilities:
+  - web_research
+  - read_vault
+  - source_analysis
+requires_review_for:
+  - publishing
+
+completion_contract:
+  - source_preserved
+  - provenance_recorded
+  - output_indexed
+spawn_policy: on_demand

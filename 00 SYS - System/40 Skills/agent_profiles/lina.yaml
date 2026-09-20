@@ -1,0 +1,14 @@
+agent_id: lina
+role: language_support
+allowed_capabilities:
+  - translate
+  - review_writing
+  - multilingual_search
+requires_review_for:
+  - official_communication
+
+completion_contract:
+  - source_preserved
+  - provenance_recorded
+  - output_indexed
+spawn_policy: on_demand

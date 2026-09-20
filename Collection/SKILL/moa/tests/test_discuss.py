@@ -1,0 +1,194 @@
+"""开会讨论模式(§6 阶段5)离线测试:transcript 格式化、prompt 构造、从众/假讨论/漂移统计、注入。
+
+真实顺序回合 + 盲投的端到端在 E2E(moa-reports/e2e-discuss)。此处只测纯逻辑,无网络。
+"""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+import moa  # noqa: E402
+
+
+def _turn(seat, role, stance, new_arg="", changed=False, by_new=False, responses=None, rnd=1,
+          usage=None, still="立场"):
+    return {"round": rnd, "seat": seat, "role": role, "channel_used": "api",
+            "model_used": "m", "usage": usage, "latency_s": 1.0, "error": None, "err_class": None,
+            "turn": {"still_holding": still, "responses": responses or [],
+                     "new_argument": new_arg, "position_changed": changed,
+                     "changed_by_new_argument": by_new, "current_stance": stance, "confidence": 0.7}}
+
+
+# ---------- 发言署名不暴露模型 ----------
+
+def test_speaker_label_hides_model():
+    lbl = moa._speaker_label({"seat": "A", "role": "security_auditor", "model_used": "gpt-4o"})
+    assert lbl == "委员A(security_auditor)" and "gpt" not in lbl
+
+
+# ---------- transcript 格式化 ----------
+
+def test_format_transcript_empty_marks_first_speaker():
+    assert "第一位发言" in moa.format_transcript([])
+
+
+def test_format_transcript_groups_by_round_and_hides_model():
+    turns = [_turn("A", "sec", "必须修", new_arg="彩虹表", rnd=1, usage={"total_tokens": 5}),
+             _turn("B", "ship", "下迭代", responses=[{"stance": "rebut", "to": "委员A", "reason": "内网低危"}], rnd=1)]
+    s = moa.format_transcript(turns)
+    assert "第 1 轮" in s and "委员A(sec)" in s and "委员B(ship)" in s
+    assert "彩虹表" in s and "rebut" in s
+    assert "gpt" not in s and "total_tokens" not in s   # 不泄模型/内部字段
+
+
+def test_format_transcript_skips_failed_turns():
+    turns = [_turn("A", "sec", "x"), {"round": 1, "seat": "B", "role": "y", "turn": None}]
+    s = moa.format_transcript(turns)
+    assert "委员A" in s and "委员B" not in s
+
+
+# ---------- prompt 构造(讨论 vs 盲投) ----------
+
+def test_discuss_prompt_contains_preamble_role_schema_and_transcript():
+    m = {"seat": "A", "role": "tester"}
+    system, user = moa.discuss_prompt(m, "review", "简报内容XY", "此前发言ZZ", 3, {"tester": "你是测试角色"})
+    assert "开会讨论" in system and "你是测试角色" in system and "still_holding" in system
+    assert "简报内容XY" in user and "此前发言ZZ" in user and "第 3 轮" in user
+
+
+def test_blind_prompt_has_no_transcript():
+    m = {"seat": "A", "role": "tester"}
+    system, user = moa.discuss_prompt(m, "review", "简报XY", "机密发言记录", 3, {"tester": "T"}, blind=True)
+    assert "不参考任何讨论记录" in system and "final_stance" in system
+    assert "简报XY" in user and "机密发言记录" not in user   # 盲投不喂 transcript
+
+
+# ---------- 注入(CH1 子代理回填) ----------
+
+def test_inject_result_marks_subagent_and_unbilled():
+    m = {"name": "sec-a", "seat": "A", "role": "security_auditor", "model": "claude-haiku-4-5"}
+    res = moa._inject_result(m, "review", {"current_stance": "必须修"})
+    assert res["channel_used"] == "subagent (arbiter-dispatched)"
+    assert res["usage"] is None and res["model_used"] == "claude-haiku-4-5"
+    assert res["parsed"] == {"current_stance": "必须修"} and res["err_class"] is None
+
+
+# ---------- transcript 落盘往返 ----------
+
+def test_transcript_append_and_load_roundtrip(tmp_path):
+    moa.append_transcript(tmp_path, {"round": 1, "seat": "A", "turn": {"current_stance": "x"}})
+    moa.append_transcript(tmp_path, {"round": 1, "seat": "B", "turn": {"current_stance": "y"}})
+    loaded = moa.load_transcript(tmp_path)
+    assert len(loaded) == 2 and loaded[0]["seat"] == "A" and loaded[1]["seat"] == "B"
+
+
+def test_load_transcript_missing_is_empty(tmp_path):
+    assert moa.load_transcript(tmp_path) == []
+
+
+def test_load_transcript_tolerates_corrupt_lines(tmp_path, capsys):
+    """N3 回归: 损坏行(中断写入 / 手工误编辑)跳过 + stderr 告警,不整场 traceback。"""
+    (tmp_path / "discussion.jsonl").write_text(
+        '{"round":1,"seat":"A","turn":{"current_stance":"x"}}\n'
+        '{corrupt not json\n'
+        '\n'  # 空行也不该崩
+        '{"round":1,"seat":"B","turn":{"current_stance":"y"}}\n',
+        encoding="utf-8")
+    loaded = moa.load_transcript(tmp_path)                 # 不抛
+    assert [t["seat"] for t in loaded] == ["A", "B"]       # 好行都在,坏行跳过
+    assert "skipped 1 corrupt line" in capsys.readouterr().err
+
+
+# ---------- 统计: 从众 / 假讨论 / 漂移 / 保留分歧 ----------
+
+def test_conformity_alert_flags_change_without_new_argument():
+    transcript = [
+        _turn("A", "sec", "必须修", new_arg="彩虹表", rnd=1, usage={"total_tokens": 10}),
+        _turn("B", "ship", "下迭代", rnd=1, usage={"total_tokens": 8}),
+        # round2: A 无新论据却翻立场 → 从众
+        _turn("A", "sec", "下迭代", new_arg="", changed=True, by_new=False, rnd=2, usage={"total_tokens": 9}),
+        _turn("B", "ship", "下迭代", new_arg="", rnd=2, usage=None),
+        {"round": 1, "seat": "C", "role": "z", "turn": None, "err_class": "transient"},
+    ]
+    blindvotes = [{"seat": "A", "vote": {"final_stance": "必须修", "confidence": 0.9}, "usage": None}]
+    st = moa.compute_discuss_stats(transcript, blindvotes)
+    assert st["rounds"] == 2 and st["turns_ok"] == 4 and st["turns_failed"] == 1
+    assert st["participants"] == ["A", "B"]
+    assert st["conformity_alert"] is True and len(st["conformity_alerts"]) == 1
+    assert st["conformity_alerts"][0]["seat"] == "A" and st["conformity_alerts"][0]["round"] == 2
+    # round2 全员 new_argument 空 → 假讨论;且是末轮 → 建议早停
+    assert st["pseudo_discussion_rounds"] == [2] and st["early_stop_suggested"] is True
+    # 盲投漂移对照: A 讨论终态=下迭代 但盲投=必须修(讨论诱发漂移的证据)
+    a_pair = next(p for p in st["blind_vote_drift_pairs"] if p["seat"] == "A")
+    assert a_pair["discussion_final"] == "下迭代" and a_pair["blind_final"] == "必须修"
+    b_pair = next(p for p in st["blind_vote_drift_pairs"] if p["seat"] == "B")
+    assert b_pair["blind_final"] is None            # B 无盲投
+    # token: 只累计计费回合(usage 非空),CH1/None 不计。讨论按回合计费,故键为 billed_calls(C6)
+    assert st["token_usage"]["total_tokens"] == 27 and st["token_usage"]["billed_calls"] == 3
+
+
+def test_argument_driven_change_is_not_conformity():
+    transcript = [
+        _turn("A", "sec", "必须修", new_arg="彩虹表", rnd=1),
+        _turn("B", "ship", "必须修", new_arg="", changed=True, by_new=True, rnd=1),  # 被新论据说服
+    ]
+    st = moa.compute_discuss_stats(transcript, [])
+    assert st["conformity_alert"] is False          # 有新论据的改变=收敛,不算从众
+
+
+def test_dissent_preserved_reports_final_positions():
+    transcript = [
+        _turn("A", "sec", "必须修", still="无盐是 blocker", rnd=1),
+        _turn("B", "ship", "下迭代", still="工期优先",
+              responses=[{"stance": "rebut", "to": "委员A", "reason": "内网低危可暂缓"}], rnd=1),
+    ]
+    st = moa.compute_discuss_stats(transcript, [])
+    holds = {d["seat"]: d for d in st["dissent_preserved"]}
+    assert holds["A"]["still_holding"] == "无盐是 blocker"
+    assert holds["B"]["open_rebuttals"] == ["内网低危可暂缓"]
+
+
+# ---------- ISSUE-004 / DEC-001: discuss 要求 seat 唯一(匿名发言者身份) ----------
+
+def test_require_unique_seats_rejects_duplicate():
+    """两 member 同 seat → discuss 入口 fail-fast(seat 是委员匿名发言者身份,重复会静默丢席/歧义)。"""
+    import pytest
+    cfg = {"members": [{"name": "alpha", "seat": "A"}, {"name": "beta", "seat": "A"}]}
+    with pytest.raises(SystemExit) as ei:
+        moa._require_unique_seats(cfg, "discuss-turn")
+    msg = str(ei.value)
+    assert "seat" in msg and "alpha" in msg and "beta" in msg
+
+
+def test_require_unique_seats_accepts_distinct():
+    """seat 互异 → 放行。"""
+    moa._require_unique_seats(
+        {"members": [{"name": "a", "seat": "A"}, {"name": "b", "seat": "B"},
+                     {"name": "c", "seat": "C"}]}, "discuss-turn")
+
+
+def test_require_unique_seats_rejects_both_missing_seat():
+    """两席都省略 seat(都=?) 也算冲突——讨论必须能区分发言者。"""
+    import pytest
+    with pytest.raises(SystemExit):
+        moa._require_unique_seats({"members": [{"name": "a"}, {"name": "b"}]}, "discuss-prompt")
+
+
+def test_blindvote_overwrite_guard_blocks_cross_name_collision(tmp_path):
+    """纵深防御:同 seat 但别的 name 的盲投已落盘 → 拒覆盖(避免静默丢席);同名允许幂等重写。"""
+    import json, pytest, types
+    # 预置 seat A 的盲投(name=alpha)
+    (tmp_path / "blindvote_A.json").write_text(
+        json.dumps({"seat": "A", "name": "alpha", "vote": {"final_stance": "x"}}), encoding="utf-8")
+    brief = tmp_path / "b.md"; brief.write_text("材料", encoding="utf-8")
+    inj = tmp_path / "inj.json"; inj.write_text('{"final_stance":"y","confidence":0.5,"key_reason":"r"}', encoding="utf-8")
+    cfg = {"members": [{"name": "beta", "seat": "A", "channel": "subagent", "model": "m"}],
+           "options": {"max_tokens_member": 100, "timeout_seconds": 5, "min_successful_members": 1}}
+    args = types.SimpleNamespace(input=str(brief), member="beta", mode="decide",
+                                 collect_dir=str(tmp_path), inject=str(inj))
+    # beta 同为 seat A → 异名冲突,拒写(不覆盖 alpha 的盲投)
+    with pytest.raises(SystemExit) as ei:
+        moa.cmd_discuss_blindvote(args, cfg)
+    assert "alpha" in str(ei.value) and "beta" in str(ei.value)
+    # 原文件未被动
+    prev = json.loads((tmp_path / "blindvote_A.json").read_text(encoding="utf-8"))
+    assert prev["name"] == "alpha"

@@ -1,0 +1,14 @@
+agent_id: alex
+role: writer_editor
+allowed_capabilities:
+  - read_vault
+  - write_staging
+  - compose_markdown
+requires_review_for:
+  - publishing
+
+completion_contract:
+  - source_preserved
+  - provenance_recorded
+  - output_indexed
+spawn_policy: on_demand

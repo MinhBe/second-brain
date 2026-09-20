@@ -1,0 +1,246 @@
+{
+  "_schema": {
+    "version": "field is the IOC pack date, bump on every append",
+    "campaign_fields": {
+      "id": "kebab-case slug, unique",
+      "name": "human-readable campaign name",
+      "date": "YYYY-MM-DD disclosure date",
+      "attribution": "attacker group or null",
+      "attack_windows_utc": "array of {start, end} ISO 8601 UTC strings — when malicious versions were live",
+      "compromised_scopes": "array of npm scopes whose packages are at risk (e.g. @tanstack)",
+      "compromised_packages": "array of unscoped package names",
+      "compromised_pypi": "array of PyPI package names",
+      "payload_files": "filenames the malware drops or smuggles into tarballs",
+      "payload_hashes_sha256": "object {filename: sha256}",
+      "string_iocs": "free-text strings to grep for in lockfiles, source, configs",
+      "optional_dependency_iocs": "prefixes that, if found in an optionalDependencies value, signal compromise",
+      "repo_artifact_hashes": "object {repo-relative path: [sha256, ...]} — files the malware plants inside project repos (e.g. .vscode/tasks.json); names too generic for a presence check, so FAIL only on exact hash match (Phase D)",
+      "forged_commit_authors": "array of author emails the malware forges on injected commits; any commit authored by one in any repo under the roots is a FAIL (Phase D)",
+      "persistence": "object {macos: [], linux: [], windows: [], shared: []} of paths to check",
+      "references": "URLs to disclosures / postmortems"
+    }
+  },
+  "version": "2026-08-04",
+  "campaigns": [
+    {
+      "id": "shai-hulud-3-keyv-aug-2026",
+      "name": "Shai-Hulud 3.0 (keyv/cacheable)",
+      "date": "2026-08-04",
+      "attribution": null,
+      "attack_windows_utc": [
+        {"start": "2026-08-04T09:00:00Z", "end": "2026-08-06T00:00:00Z"}
+      ],
+      "compromised_scopes": [
+        "@cacheable",
+        "@keyv",
+        "@servicetitan",
+        "@nebula.js",
+        "@onereach",
+        "@or-sdk",
+        "@ornikar"
+      ],
+      "compromised_packages": [
+        "keyv",
+        "cacheable",
+        "flat-cache",
+        "file-entry-cache",
+        "cacheable-request",
+        "cache-manager",
+        "ecto",
+        "picasso.js"
+      ],
+      "compromised_pypi": [],
+      "payload_files": ["Math_Symbol.js", "math_init.js"],
+      "payload_hashes_sha256": {
+        "Math_Symbol.js": "9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc",
+        "math_init.js": "9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc",
+        "setup.mjs": "54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668"
+      },
+      "string_iocs": [
+        "npm-cache.com",
+        "pypi-get.com",
+        "js-mirror.com",
+        "Math_Symbol",
+        "math_init",
+        "0xE1f2395ee43e45A1556EC6438a88c31B83493103",
+        "thebeautifulmarchoftime",
+        "Shai-Hulud: Here We Go Again"
+      ],
+      "optional_dependency_iocs": [],
+      "repo_artifact_hashes": {
+        ".vscode/tasks.json": ["927387d0cfac1118df4b383decc2ea6ba49c9d2f98b47098bcbcba1efc026e1f"],
+        ".claude/settings.json": ["14eb4ce01dd4307759887ff819359b70d7d9ff709ecde039a5abc1aac325b128"],
+        ".claude/setup.mjs": ["54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668", "fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb"],
+        ".vscode/setup.mjs": ["54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668", "fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb"]
+      },
+      "forged_commit_authors": ["claude@users.noreply.github.com"],
+      "persistence": {
+        "shared": [
+          "~/.claude/setup.mjs",
+          "~/.vscode/setup.mjs",
+          "~/.claude/math_init.js",
+          "/tmp/tmp.dpkg_14527.lock"
+        ]
+      },
+      "dead_mans_switch": {
+        "polls": "https://api.github.com/user",
+        "interval_seconds": null,
+        "trigger": "stolen GitHub PAT returns 401 (revoked); selectively armed per-host based on C2 response",
+        "action": "destructive wipe — same family as May 2026 rm -rf $HOME"
+      },
+      "notes": "ACTIVE at pack time (2026-08-04) — worm was adding 50-100 packages every few minutes; attack window end is provisional, extend as disclosures land. Entry vector: keyv maintainer GitHub account, malicious releases published via legitimate GitHub Actions so packages carry VALID provenance — do not trust provenance alone. preinstall hook `node setup.mjs` (npm 12+ does not run preinstall by default; bun does not run dependency lifecycle scripts unless in trustedDependencies — both block the vector). setup.mjs filename is deliberately NOT in payload_files (too generic, would false-FAIL); it and the repo-level hooks (.vscode/tasks.json, .claude/settings.json) are covered by Phase D exact-hash checks via repo_artifact_hashes, and the forged commits (`claude <claude@users.noreply.github.com>`, message `chore: update config`) by forged_commit_authors. Exfil: public GitHub repos described 'Shai-Hulud: Here We Go Again' (~1300), fallback https://npm-cache.com:443/router, C2 rotation via Ethereum contract 0xE1f2395ee43e45A1556EC6438a88c31B83493103 (selector 0x53ed5143). 428+ packages / 1700+ versions: full list in wiz-sec-public/wiz-research-iocs.",
+      "references": [
+        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
+        "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+        "https://research.jfrog.com/post/shai-hulud-is-back-august/",
+        "https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain",
+        "https://github.com/wiz-sec-public/wiz-research-iocs"
+      ]
+    },
+    {
+      "id": "mini-shai-hulud-may-2026",
+      "name": "Mini Shai-Hulud (TeamPCP)",
+      "date": "2026-05-11",
+      "attribution": "TeamPCP",
+      "attack_windows_utc": [
+        {"start": "2026-05-11T19:20:00Z", "end": "2026-05-11T19:30:00Z"}
+      ],
+      "compromised_scopes": [
+        "@tanstack",
+        "@uipath",
+        "@mistralai",
+        "@opensearch-project",
+        "@squawk",
+        "@tallyui",
+        "@beproduct",
+        "@draftlab",
+        "@draftauth",
+        "@taskflow-corp",
+        "@tolka"
+      ],
+      "compromised_packages": [],
+      "compromised_pypi": ["mistralai", "guardrails-ai"],
+      "payload_files": ["router_init.js"],
+      "payload_hashes_sha256": {
+        "router_init.js": "ab4fcadaec49c03278063dd269ea5eef82d24f2124a8e15d7b90f2fa8601266c"
+      },
+      "string_iocs": [
+        "git-tanstack.com",
+        "api.masscan.cloud",
+        "getsession.org",
+        "79ac49ee",
+        "@tanstack/setup"
+      ],
+      "optional_dependency_iocs": [
+        "github:tanstack/router#"
+      ],
+      "persistence": {
+        "macos": [
+          "~/Library/LaunchAgents/com.user.gh-token-monitor.plist"
+        ],
+        "linux": [
+          "~/.config/systemd/user/gh-token-monitor.service"
+        ],
+        "shared": [
+          "~/.local/bin/gh-token-monitor.sh",
+          "~/.config/gh-token-monitor",
+          "~/.claude/setup.mjs",
+          "~/.vscode/setup.mjs",
+          "/tmp/tmp.ts018051808.lock"
+        ]
+      },
+      "dead_mans_switch": {
+        "polls": "https://api.github.com",
+        "interval_seconds": 60,
+        "trigger": "stolen GitHub PAT returns 401 (revoked)",
+        "action": "rm -rf $HOME"
+      },
+      "references": [
+        "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+        "https://www.aikido.dev/blog/mini-shai-hulud-is-back-tanstack-compromised",
+        "https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack",
+        "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+        "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html"
+      ]
+    },
+    {
+      "id": "shai-hulud-2-nov-2025",
+      "name": "Shai-Hulud 2.0",
+      "date": "2025-11-24",
+      "attribution": null,
+      "attack_windows_utc": [
+        {"start": "2025-11-24T04:11:00Z", "end": "2025-11-24T09:30:00Z"}
+      ],
+      "compromised_scopes": ["@zapier", "@postman"],
+      "compromised_packages": [
+        "posthog-js",
+        "posthog-node",
+        "posthog-react-native"
+      ],
+      "compromised_pypi": [],
+      "payload_files": [
+        "setup_bun.js",
+        "bun_environment.js"
+      ],
+      "payload_hashes_sha256": {},
+      "string_iocs": [
+        "trufflehog",
+        "bun_environment",
+        "setup_bun"
+      ],
+      "optional_dependency_iocs": [],
+      "persistence": {
+        "shared": [
+          "/tmp/setup_bun.js",
+          "/tmp/bun_environment.js",
+          "~/.bun-environment"
+        ]
+      },
+      "notes": "Preinstall execution (not postinstall), widened CI/CD blast radius. ~796 unique packages, 1092 versions, 25000+ malicious GitHub repos created across ~350 users.",
+      "references": [
+        "https://unit42.paloaltonetworks.com/npm-supply-chain-attack/",
+        "https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem",
+        "https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/",
+        "https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/",
+        "https://www.elastic.co/blog/shai-hulud-worm-2-0-updated-response"
+      ]
+    },
+    {
+      "id": "axios-dprk-mar-2026",
+      "name": "Axios DPRK supply-chain hijack",
+      "date": "2026-03-31",
+      "attribution": "DPRK-nexus",
+      "attack_windows_utc": [
+        {"start": "2026-03-31T00:00:00Z", "end": "2026-03-31T23:59:59Z"}
+      ],
+      "compromised_scopes": [],
+      "compromised_packages": [
+        "axios",
+        "plain-crypto-js"
+      ],
+      "compromised_pypi": [],
+      "payload_files": [],
+      "payload_hashes_sha256": {},
+      "string_iocs": [
+        "sfrclak.com",
+        "plain-crypto-js"
+      ],
+      "optional_dependency_iocs": [],
+      "persistence": {
+        "windows": [
+          "%PROGRAMDATA%\\system.bat",
+          "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\MicrosoftUpdate"
+        ],
+        "shared": []
+      },
+      "notes": "Malicious axios versions injected hidden dep plain-crypto-js@4.2.1 with postinstall RAT dropper. C2 sfrclak.com:8000.",
+      "references": [
+        "https://github.com/PierrunoYT/axios-scanner",
+        "https://github.com/theNetworkChuck/axios-attack-guide",
+        "https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package",
+        "https://socradar.io/blog/axios-npm-supply-chain-attack-2026-ciso-guide/",
+        "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"
+      ]
+    }
+  ]
+}

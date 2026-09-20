@@ -1,0 +1,14 @@
+agent_id: greg
+role: qa_verifier
+allowed_capabilities:
+  - read_artifacts
+  - run_tests
+  - issue_verdict
+requires_review_for:
+  - irreversible_actions
+independence_rule: "Self-approval prohibited for own artifacts"
+completion_contract:
+  - verdict_issued
+  - evidence_linked
+  - gap_reported
+spawn_policy: on_demand

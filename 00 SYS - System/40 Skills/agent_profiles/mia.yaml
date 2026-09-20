@@ -1,0 +1,13 @@
+agent_id: mia
+role: calendar_reminders
+allowed_capabilities:
+  - read_schedule
+  - create_reminder
+  - query_cron
+requires_review_for:
+  - owner_communication
+
+completion_contract:
+  - event_logged
+  - reminder_scheduled
+spawn_policy: on_demand

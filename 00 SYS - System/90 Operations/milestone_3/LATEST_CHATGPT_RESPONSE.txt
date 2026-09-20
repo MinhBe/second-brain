@@ -1,0 +1,1335 @@
+Software Architect GPT
+Tôi hiểu. Từ thời điểm này, chúng ta thay đổi 
+mô hình điều hành dự án SPEC-001
+.
+Bạn không cần một ChatGPT chỉ đưa ý kiến rồi để Hermes tự suy luận cách triển khai. Với tình trạng Hermes hiện tại — đội agent chưa đồng bộ, các skill phân tán, các thành phần mới đang được xây dựng và model thực thi mà bạn cho biết là MiniMax 2.7 — cách giao việc đó dễ tạo ra nhiều file báo cáo nhưng chưa chắc tạo được một hệ thống vận hành thống nhất.
+Tôi sẽ đảm nhận vai trò Solution Architect, Technical Lead và Acceptance Reviewer.
+ Bạn là Product Owner, quyết định mục tiêu và các quyền quan trọng. Hermes là Implementation Executor: kiểm tra máy, viết code, cấu hình, chạy test, sửa lỗi và báo cáo bằng chứng.
+Tôi sẽ không chỉ nói Hermes 
+cần có gì
+, mà phải chỉ rõ 
+xây ở đâu, xây bằng cách nào, thành phần nào gọi thành phần nào, dữ liệu đi qua đâu, lỗi xử lý thế nào và kiểm thử ra sao
+.
+Hermes được tự quyết các chi tiết triển khai nhỏ, nhưng 
+không được tự thay đổi kiến trúc để làm bài test dễ đạt hơn
+.
+Từ milestone tiếp theo, mỗi yêu cầu tôi gửi Hermes sẽ có cấu trúc đầy đủ:
+Tôi sẽ không mặc định rằng Hermes có thể tự biến một mô tả kiến trúc thành phần mềm đúng yêu cầu.
+Hermes, áp dụng ngay chỉ thị này cho toàn bộ SPEC-001, bao gồm Milestone 3 đang thực hiện.
+SPEC-001 — ENGINEERING EXECUTION DIRECTIVE v2
+
+ROLE UPDATE
+
+ChatGPT:
+- Solution Architect
+- Technical Lead
+- Behavioral Designer
+- Integration Designer
+- Acceptance Reviewer
+
+Hermes:
+- Implementation Executor
+- Runtime Inspector
+- Code Builder
+- Test Runner
+- Operations Executor
+
+Owner:
+- Product Owner
+- Permission Authority
+
+1. Không tự diễn giải yêu cầu kiến trúc ở mức cao thành một hệ thống
+   khác với thiết kế đã giao.
+
+2. Khi đặc tả đã đủ, hãy triển khai trực tiếp. Không lặp lại kế hoạch
+   bằng văn bản thay cho việc viết code.
+
+3. Khi phát hiện đặc tả xung đột với Hermes runtime thực tế:
+   - Dừng phần bị ảnh hưởng.
+   - Cung cấp file, đoạn code, config và log chứng minh.
+   - Đề xuất phương án kỹ thuật nếu có.
+   - Không âm thầm thay đổi hành vi mục tiêu.
+
+4. Không tuyên bố một capability đã hoạt động chỉ vì:
+   - Skill tồn tại.
+   - Manifest hợp lệ.
+   - Config đã được tạo.
+   - Có file Markdown mô tả.
+   - Unit test dùng mock đã pass.
+
+5. Mỗi capability phải được kiểm thử qua đường thực thi thực tế
+   khi điều kiện môi trường cho phép.
+
+6. Không tự đánh dấu toàn bộ milestone VERIFIED.
+   Hãy dùng READY_FOR_ACCEPTANCE và gửi bằng chứng cho ChatGPT.
+
+7. Khi triển khai nhiều thành phần, phải có integration test.
+   Các module hoạt động riêng lẻ chưa chứng minh hệ thống đồng bộ.
+
+8. Khi task thất bại, phải phân biệt:
+   - Implementation bug
+   - Configuration error
+   - Missing dependency
+   - Runtime incompatibility
+   - Permission issue
+   - External provider failure
+   - Architecture/design gap
+
+9. Với lỗi implementation, tự sửa và retest trong phạm vi đã cấp.
+   Với design gap, gửi bằng chứng để ChatGPT quyết định.
+
+10. Mọi thay đổi phải có:
+    - Source code hoặc config diff
+    - Test result
+    - Runtime evidence
+    - Rollback path
+
+CURRENT INSTRUCTION
+
+Tiếp tục Milestone 3 nhưng chưa tự tuyên bố hoàn thành.
+Trước khi mở rộng triển khai, gửi ChatGPT bản kiểm kê mã nguồn
+và integration status thực tế của các thành phần đã xây ở
+Milestone 1 và Milestone 2.
+
+Mục tiêu là xác định chúng ta đang có một hệ thống hoạt động
+thống nhất hay mới có nhiều module độc lập.
+Từ các báo cáo Hermes gửi, hiện chúng ta đã có hoặc được báo cáo là đã có:
+skill_auditor.py
+profile_lock_manager.py
+conversation_archiver.py
+Browser Profile Registry
+ChatGPT Advisory workflow
+Các SQLite database của Hermes
+Cơ chế 
+delegate_task
+Nhưng 
+chưa có bằng chứng đầy đủ rằng chúng được nối thành một đường thực thi duy nhất
+.
+Ví dụ, một luồng thực tế cần chạy được như sau:
+Bạn gửi Telegram
+       ↓
+Laura nhận yêu cầu
+       ↓
+Tạo task_id và lưu trạng thái
+       ↓
+Tìm kiến thức nội bộ
+       ↓
+Quyết định cần ChatGPT tham mưu
+       ↓
+Lấy Chrome profile lock
+       ↓
+Tạo Context Package
+       ↓
+Gửi ChatGPT
+       ↓
+Nhận phản hồi
+       ↓
+Lưu conversation archive
+       ↓
+Cập nhật task và memory
+       ↓
+Greg kiểm tra
+       ↓
+Laura trả lời Telegram
+Đây là một capability duy nhất, không phải mười tính năng rời rạc.
+Vì vậy, tôi quyết định điều chỉnh thứ tự triển khai:
+Milestone 3A — Runtime Integration & Behavioral Contracts:
+ nối và kiểm chứng các thành phần đã có thành một luồng chạy thực tế.
+Milestone 3B — Multi-Agent Team & Task Orchestrator:
+ triển khai agent profile, phân công, dependency, checkpoint và phục hồi.
+Milestone 3C — Knowledge Pipeline & Internal Retrieval:
+ tiếp nhận tri thức, lập chỉ mục, truy xuất và liên kết với Second Brain.
+Milestone 3D — End-to-End Acceptance:
+ kiểm thử toàn bộ từ yêu cầu của bạn đến kết quả cuối cùng.
+Tôi sẽ thiết kế chi tiết từng phần, không để Hermes tự quyết định cấu trúc cốt lõi. Chúng ta vẫn giữ mục tiêu tự động hóa cao: Hermes tự triển khai và sửa lỗi, nhưng phải thực thi 
+một thiết kế thống nhất
+ thay vì tự phát triển nhiều chức năng riêng lẻ.
+Tôi là Hermes (Implementation Executor), đã hoàn tất kiểm kê các module M1, M2 và cấu trúc cơ sở dữ liệu M3. Hiện hệ thống đã sẵn sàng cho giai đoạn 3A (Runtime Integration & Behavioral Contracts). Xin Architect đưa ra hướng dẫn chi tiết (detail guiding) cho các bước tiếp theo.\n
+Engineering Directive v3A.1 — Gửi Hermes Implementation Executor
+Hermes, tôi tiếp nhận báo cáo rằng bạn đã kiểm kê các module M1, M2 và cơ sở dữ liệu M3. 
+Tôi giao bạn triển khai Milestone 3A
+, với mục tiêu nối những thành phần hiện có thành một hệ thống thực thi thống nhất.
+Có một giới hạn cần ghi rõ: tôi chưa được xem kết quả kiểm kê mã nguồn mới nhất của bạn, vì vậy các tên module và đường dẫn dưới đây là 
+hợp đồng kiến trúc mục tiêu
+, không phải khẳng định rằng runtime hiện tại đã hỗ trợ sẵn mọi interface. Bạn phải tạo adapter tại ranh giới tích hợp, thay vì sửa lõi Hermes theo suy đoán.
+Kết quả bắt buộc của 3A:
+ một task có thể đi từ đầu vào → lưu trạng thái → truy xuất nội bộ → gọi ChatGPT khi cần → lưu hội thoại → kiểm tra kết quả → trả lời đầu ra; đồng thời có thể phục hồi an toàn nếu tiến trình bị gián đoạn.
+Giữ Hermes runtime làm nền tảng thực thi. Xây một lớp ứng dụng độc lập tên:
+Hermes Integration Layer — HIL
+HIL chịu trách nhiệm:
+Chuẩn hóa yêu cầu đầu vào.
+Tạo và theo dõi task.
+Điều phối các capability.
+Quản lý resource lock.
+Gọi ChatGPT Advisory.
+Lưu hội thoại và artifact.
+Kiểm tra kết quả.
+Phục hồi task.
+Trả kết quả về kênh đầu vào.
+Không tạo một Hermes runtime thứ hai.
+Các module M1/M2 phải được bao bọc bằng adapter có interface rõ ràng.
+Ví dụ:
+Hermes Runtime
+      │
+      ▼
+Hermes Integration Layer
+      │
+      ├── Task Store Adapter
+      ├── Internal Search Adapter
+      ├── Browser Gateway Adapter
+      ├── Advisory Adapter
+      ├── Conversation Archive Adapter
+      ├── Agent Delegation Adapter
+      └── Output Channel Adapter
+Nếu 
+conversation_archiver.py
+ hiện có interface khác thiết kế, hãy viết adapter chuyển đổi. 
+Không phá code đang hoạt động chỉ để đồng nhất tên hàm.
+Dùng SQLite riêng của HIL cho orchestration MVP.
+Không sửa schema trực tiếp của:
+state.db
+kanban.db
+projects.db
+shared-state.db
+trừ khi đã xác minh chính xác cơ chế migration và API chính thức của Hermes.
+SQLite của HIL quản lý trạng thái thực thi. Obsidian lưu tri thức và artifact đọc được bởi con người.
+ Không dùng Markdown làm task queue chính.
+Tạo mã nguồn tại một thư mục dự án riêng, không đặt code production lẫn với báo cáo milestone.
+Đường dẫn đề xuất:
+C:\Users\Admin\Documents\Hermes_Integration\
+│
+├── pyproject.toml
+├── README.md
+├── config.example.yaml
+│
+├── src\
+│   └── hil\
+│       ├── __init__.py
+│       ├── app.py
+│       ├── config.py
+│       │
+│       ├── contracts\
+│       │   ├── task.py
+│       │   ├── events.py
+│       │   ├── advisory.py
+│       │   └── artifacts.py
+│       │
+│       ├── orchestration\
+│       │   ├── coordinator.py
+│       │   ├── state_machine.py
+│       │   ├── recovery.py
+│       │   └── idempotency.py
+│       │
+│       ├── adapters\
+│       │   ├── hermes_runtime.py
+│       │   ├── task_store.py
+│       │   ├── internal_search.py
+│       │   ├── browser_gateway.py
+│       │   ├── advisory.py
+│       │   ├── conversation_archive.py
+│       │   └── output_channel.py
+│       │
+│       ├── security\
+│       │   ├── outbound_policy.py
+│       │   └── secret_redaction.py
+│       │
+│       └── observability\
+│           └── event_logger.py
+│
+├── tests\
+│   ├── unit\
+│   ├── integration\
+│   └── e2e\
+│
+└── scripts\
+    ├── init_db.py
+    ├── run_smoke_test.py
+    └── inspect_task.py
+Dữ liệu vận hành không đặt trong source tree:
+C:\Users\Admin\AppData\Local\HermesIntegration\
+├── hil.db
+├── logs\
+├── checkpoints\
+└── runtime\
+Artifact nghiệm thu vẫn xuất về:
+C:\Users\Admin\Documents\Second Brain\
+00 SYS - System\90 Operations\milestone_3a\
+Yêu cầu:
+ dùng đường dẫn cấu hình, không hardcode tên user Windows trong mã nguồn.
+Đây là phần quan trọng nhất của Milestone 3A.
+plantuml
+@startuml
+actor Owner
+participant "Input Adapter" as Input
+participant "HIL Coordinator" as HIL
+database "HIL SQLite" as DB
+participant "Internal Search" as Search
+participant "ChatGPT Advisory" as AI
+participant "Conversation Archiver" as Archive
+participant "Greg QA" as QA
+participant "Output Adapter" as Output
+
+Owner -> Input: Gửi yêu cầu
+Input -> HIL: TaskRequest
+HIL -> DB: Tạo task + event
+
+HIL -> Search: Tìm context nội bộ
+Search --> HIL: Context + provenance
+
+alt Cần tham mưu ngoài
+  HIL -> DB: Ghi advisory operation
+  HIL -> AI: ContextPackage
+  AI --> HIL: AdvisoryResult
+  HIL -> Archive: Lưu hội thoại
+  Archive --> HIL: ArchiveReference
+end
+
+HIL -> QA: Kiểm tra kết quả
+QA --> HIL: QAResult
+
+alt QA đạt
+  HIL -> DB: COMPLETED
+  HIL -> Output: Trả kết quả
+  Output --> Owner: Phản hồi
+else QA không đạt
+  HIL -> DB: RETRY_REQUIRED hoặc BLOCKED
+end
+@enduml
+Ghi task trước khi làm việc.
+ Không có 
+task_id
+ thì không chạy tác vụ có side effect.
+Tìm nội bộ trước khi gọi AI ngoài.
+ Nếu đủ dữ liệu để trả lời, không gọi ChatGPT chỉ vì workflow có bước advisory.
+Mọi external operation có operation ID riêng.
+ Để tránh gửi trùng khi retry.
+Archive trước khi đánh dấu advisory hoàn tất.
+QA kiểm tra artifact thực tế
+, không chỉ đọc lời tự báo cáo của worker.
+Trả lời đầu ra là một operation có trạng thái riêng.
+ Task hoàn thành nhưng Telegram gửi lỗi phải được ghi nhận, không giả vờ đã trả lời thành công.
+Triển khai các kiểu dữ liệu tương đương dưới đây bằng Python. Ưu tiên standard library (
+dataclasses
+, 
+enum
+, 
+sqlite3
+, 
+json
+, 
+pathlib
+) để giảm dependency mới.
+Python
+from
+dataclasses
+import
+dataclass
+, 
+field
+from
+typing
+import
+Any
+@
+dataclass
+class
+TaskRequest
+:
+    
+request_id
+: 
+str
+source_channel
+: 
+str
+source_message_id
+: 
+str
+|
+None
+owner_id
+: 
+str
+goal
+: 
+str
+constraints
+: 
+list
+[
+str
+] 
+=
+field
+(
+default_factory
+=
+list
+)
+    
+metadata
+: 
+dict
+[
+str
+, 
+Any
+] 
+=
+field
+(
+default_factory
+=
+dict
+)
+request_id
+ là khóa chống tạo task trùng từ cùng một yêu cầu đầu vào.
+Nếu Telegram gửi lại cùng một update, hệ thống phải trả về task đã tạo, không tạo task mới.
+Chỉ sử dụng tập trạng thái đã định nghĩa:
+CREATED
+READY
+RUNNING
+WAITING_EXTERNAL
+WAITING_REVIEW
+RETRY_REQUIRED
+BLOCKED
+COMPLETED
+FAILED
+CANCELLED
+CREATED → READY
+READY → RUNNING
+RUNNING → WAITING_EXTERNAL
+RUNNING → WAITING_REVIEW
+RUNNING → RETRY_REQUIRED
+RUNNING → BLOCKED
+RUNNING → FAILED
+
+WAITING_EXTERNAL → RUNNING
+WAITING_EXTERNAL → BLOCKED
+
+WAITING_REVIEW → COMPLETED
+WAITING_REVIEW → RETRY_REQUIRED
+WAITING_REVIEW → BLOCKED
+
+RETRY_REQUIRED → READY
+
+BLOCKED → READY
+COMPLETED
+, 
+FAILED
+, 
+CANCELLED
+ là terminal states.
+Không cho phép code tùy ý sửa 
+status
+ mà không qua state machine.
+Tạo database riêng:
+%LOCALAPPDATA%\HermesIntegration\hil.db
+SQL
+CREATE
+TABLE
+IF
+NOT
+EXISTS
+ tasks (
+    task_id TEXT 
+PRIMARY
+KEY
+,
+    request_id TEXT 
+NOT
+NULL
+UNIQUE
+,
+
+    source_channel TEXT 
+NOT
+NULL
+,
+    source_message_id TEXT,
+    owner_id TEXT 
+NOT
+NULL
+,
+
+    goal TEXT 
+NOT
+NULL
+,
+    constraints_json TEXT 
+NOT
+NULL
+DEFAULT
+'[]'
+,
+
+    status TEXT 
+NOT
+NULL
+,
+    assigned_agent TEXT,
+
+    attempt_count 
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+,
+    max_attempts 
+INTEGER
+NOT
+NULL
+DEFAULT
+3
+,
+
+    result_path TEXT,
+    checkpoint_path TEXT,
+    last_error TEXT,
+
+    created_at TEXT 
+NOT
+NULL
+,
+    updated_at TEXT 
+NOT
+NULL
+,
+    completed_at TEXT
+);
+SQL
+CREATE
+TABLE
+IF
+NOT
+EXISTS
+ task_events (
+    event_id TEXT 
+PRIMARY
+KEY
+,
+    task_id TEXT 
+NOT
+NULL
+,
+
+    event_type TEXT 
+NOT
+NULL
+,
+    previous_status TEXT,
+    new_status TEXT,
+
+    payload_json TEXT 
+NOT
+NULL
+DEFAULT
+'{}'
+,
+    created_at TEXT 
+NOT
+NULL
+,
+
+    
+FOREIGN
+KEY
+(task_id) 
+REFERENCES
+ tasks(task_id)
+);
+Mỗi lần chuyển trạng thái phải ghi 
+tasks
+ và 
+task_events
+ trong 
+cùng transaction
+.
+SQL
+CREATE
+TABLE
+IF
+NOT
+EXISTS
+ external_operations (
+    operation_id TEXT 
+PRIMARY
+KEY
+,
+    task_id TEXT 
+NOT
+NULL
+,
+
+    operation_type TEXT 
+NOT
+NULL
+,
+    idempotency_key TEXT 
+NOT
+NULL
+UNIQUE
+,
+
+    status TEXT 
+NOT
+NULL
+,
+
+    provider TEXT,
+    profile_id TEXT,
+
+    started_at TEXT,
+    completed_at TEXT,
+
+    external_reference TEXT,
+    archive_path TEXT,
+    error_message TEXT,
+
+    
+FOREIGN
+KEY
+(task_id) 
+REFERENCES
+ tasks(task_id)
+);
+Trạng thái operation:
+PENDING
+IN_PROGRESS
+SUCCEEDED
+FAILED
+UNKNOWN
+UNKNOWN
+ rất quan trọng:
+ dùng khi đã gửi yêu cầu ra website nhưng tiến trình chết trước khi xác nhận kết quả. Không tự động gửi lại operation 
+UNKNOWN
+.
+SQL
+CREATE
+TABLE
+IF
+NOT
+EXISTS
+ task_artifacts (
+    artifact_id TEXT 
+PRIMARY
+KEY
+,
+    task_id TEXT 
+NOT
+NULL
+,
+
+    artifact_type TEXT 
+NOT
+NULL
+,
+    absolute_path TEXT 
+NOT
+NULL
+,
+    sha256 TEXT,
+
+    created_at TEXT 
+NOT
+NULL
+,
+
+    
+FOREIGN
+KEY
+(task_id) 
+REFERENCES
+ tasks(task_id)
+);
+Bật:
+SQL
+PRAGMA foreign_keys 
+=
+ON
+;
+PRAGMA journal_mode 
+=
+ WAL;
+PRAGMA busy_timeout 
+=
+5000
+;
+Ghi migration version bằng 
+PRAGMA user_version
+ hoặc bảng migration riêng. Không sửa schema production thủ công sau khi bắt đầu chạy.
+Hermes, triển khai interface trước, sau đó mới nối implementation M1/M2.
+Python
+class
+InternalSearchAdapter
+:
+    
+def
+search
+(
+        
+self
+,
+        
+query
+: 
+str
+,
+        
+limit
+: 
+int
+=
+10
+
+    ) -> 
+list
+[
+dict
+]:
+        ...
+Mỗi kết quả tối thiểu có:
+JSON
+{
+  "source_id": 
+"string"
+,
+  "title": 
+"string"
+,
+  "path": 
+"string"
+,
+  "excerpt": 
+"string"
+,
+  "source_type": 
+"conversation|note|transcript|document"
+,
+  "score": 
+0.0
+
+}
+Không tự chế score nếu backend không trả score.
+ Có thể để 
+null
+.
+Trong 3A, chỉ cần adapter hoạt động với archive M2 và nguồn tìm kiếm nội bộ thực sự hiện có. Full Knowledge Pipeline thuộc 3C.
+Python
+class
+BrowserGatewayAdapter
+:
+    
+def
+acquire_profile
+(
+        
+self
+,
+        
+profile_id
+: 
+str
+,
+        
+task_id
+: 
+str
+,
+        
+timeout_seconds
+: 
+int
+
+    ):
+        ...
+
+    
+def
+release_profile
+(
+        
+self
+,
+        
+profile_id
+: 
+str
+,
+        
+task_id
+: 
+str
+
+    ):
+        ...
+Không triển khai lại lock manager nếu M2 đã có. Adapter phải dùng lại module đó.
+Không dùng TTL 300 giây như một bộ đếm tự động giải phóng profile đang hoạt động.
+Lock phải có:
+owner_task_id
+owner_worker_id
+lease_expires_at
+last_heartbeat_at
+fencing_token
+Worker còn sống thì gia hạn lease.
+Nếu lease hết hạn:
+Kiểm tra worker.
+Kiểm tra operation đang ở trạng thái nào.
+Nếu không xác định được browser đã gửi prompt hay chưa, đánh dấu operation 
+UNKNOWN
+.
+Chỉ thu hồi lock khi có thể bảo đảm worker cũ không tiếp tục điều khiển profile.
+Không cho hai worker cùng điều khiển một profile vì một worker chạy chậm.
+Python
+class
+AdvisoryAdapter
+:
+    
+def
+request_advice
+(
+        
+self
+,
+        
+task_id
+: 
+str
+,
+        
+context_package
+: 
+dict
+,
+        
+operation_id
+: 
+str
+
+    ) -> 
+dict
+:
+        ...
+Output:
+JSON
+{
+  "operation_id": 
+"string"
+,
+  "provider": 
+"chatgpt"
+,
+  "profile_id": 
+"Profile 1"
+,
+  "status": 
+"succeeded"
+,
+  "conversation_id": 
+"string"
+,
+  "response_text": 
+"string"
+,
+  "archive_path": 
+"string"
+
+}
+Nếu lỗi, không trả một response rỗng nhưng 
+status: succeeded
+.
+Python
+class
+ConversationArchiveAdapter
+:
+    
+def
+archive
+(
+        
+self
+,
+        
+task_id
+: 
+str
+,
+        
+operation_id
+: 
+str
+,
+        
+conversation
+: 
+dict
+
+    ) -> 
+dict
+:
+        ...
+
+    
+def
+find_by_task_id
+(
+        
+self
+,
+        
+task_id
+: 
+str
+
+    ) -> 
+list
+[
+dict
+]:
+        ...
+Phải hỗ trợ lưu một conversation đang 
+interrupted
+, sau đó cập nhật tiếp mà không tạo hai bản ghi giả.
+Triển khai 
+coordinator.py
+ theo logic sau:
+Python
+def
+execute_task
+(
+task_id
+):
+    
+task
+=
+task_store
+.
+get(
+task_id
+)
+
+    
+if
+task
+.
+status 
+in
+TERMINAL_STATES
+:
+        
+return
+task
+.
+result_path
+
+    
+task_store
+.
+transition(
+task_id
+, 
+"RUNNING"
+)
+
+    
+context
+=
+internal_search
+.
+search(
+task
+.
+goal)
+
+    
+decision
+=
+decide_advisory_need
+(
+        
+task
+=
+task
+,
+        
+context
+=
+context
+,
+    )
+
+    
+if
+decision
+.
+required:
+        
+operation
+=
+operations
+.
+get_or_create(
+            
+task_id
+=
+task_id
+,
+            
+operation_type
+=
+"chatgpt_advisory"
+,
+            
+idempotency_key
+=
+f"
+{
+task_id
+}
+:advisory:v1"
+,
+        )
+
+        
+if
+operation
+.
+status 
+==
+"SUCCEEDED"
+:
+            
+advice
+=
+archive
+.
+load(
+operation
+.
+archive_path)
+
+        
+elif
+operation
+.
+status 
+==
+"UNKNOWN"
+:
+            
+task_store
+.
+transition(
+task_id
+, 
+"BLOCKED"
+)
+            
+return
+else
+:
+            
+advice
+=
+advisory
+.
+request_advice(
+                
+task_id
+=
+task_id
+,
+                
+context_package
+=
+build_context_package
+(
+                    
+task
+,
+                    
+context
+,
+                ),
+                
+operation_id
+=
+operation
+.
+operation_id,
+            )
+
+    
+result
+=
+build_result
+(
+        
+task
+=
+task
+,
+        
+context
+=
+context
+,
+        
+advice
+=
+advice
+if
+decision
+.
+required 
+else
+None
+,
+    )
+
+    
+qa_result
+=
+qa
+.
+review(
+result
+)
+
+    
+if
+qa_result
+.
+passed:
+        
+task_store
+.
+transition(
+task_id
+, 
+"COMPLETED"
+)
+    
+else
+:
+        
+task_store
+.
+transition(
+task_id
+, 
+"RETRY_REQUIRED"
+)
+Đây là 
+pseudocode hành vi
+, không phải code được phép copy nguyên trạng.
+Implementation thực tế phải xử lý transaction, exceptions, event log và các trạng thái trung gian. Đặc biệt, không đánh dấu 
+COMPLETED
+ trước khi ghi kết quả và xác định rõ trạng thái gửi đầu ra.
+Trong 3A, không yêu cầu MiniMax tự quyết bằng suy luận mở.
+Dùng rule-based policy:
+advisory_mode = never | auto | required
+never
+: chỉ dùng dữ liệu nội bộ.
+required
+: luôn gọi ChatGPT nếu outbound policy cho phép.
+auto
+: gọi khi thiếu thông tin cần thiết hoặc task thuộc nhóm kiến trúc/phản biện đã cấu hình.
+Bài test tích hợp dùng 
+required
+ để kết quả có thể lặp lại.
+Khi HIL khởi động:
+1. Mở database.
+2. Kiểm tra schema version.
+3. Tìm task RUNNING hoặc WAITING_EXTERNAL.
+4. Kiểm tra heartbeat của worker.
+5. Đối chiếu external_operations.
+6. Xác định bước có thể tiếp tục.
+7. Không gửi lại external operation UNKNOWN.
+8. Ghi recovery event.
+9. Đưa task về READY, BLOCKED hoặc WAITING_EXTERNAL
+   theo bằng chứng thực tế.
+Case A:
+ tiến trình chết trước khi gọi ChatGPT → có thể tiếp tục và gọi một lần.
+Case B:
+ tiến trình chết sau khi gửi prompt nhưng trước khi nhận phản hồi → operation 
+UNKNOWN
+; phải kiểm tra conversation hiện có trước khi quyết định retry.
+Case C:
+ nhận phản hồi nhưng chưa archive → khôi phục từ checkpoint nếu có; nếu không có thì 
+UNKNOWN
+.
+Case D:
+ đã archive nhưng chưa cập nhật DB → tìm archive bằng 
+operation_id
+, liên kết lại, không tạo hội thoại mới.
+Case E:
+ đã hoàn thành task nhưng chưa gửi Telegram → chỉ retry output delivery, không chạy lại task.
+ChatGPT Advisory chỉ được nhận 
+Context Package tối thiểu cần thiết
+.
+Không gửi mặc định:
+Toàn bộ vault.
+File credential.
+Cookie hoặc Chrome session.
+Token API.
+Nội dung không liên quan đến task.
+File riêng tư chỉ vì internal search tìm thấy chúng.
+Tạo outbound policy:
+YAML
+advisory:
+  provider: chatgpt
+  profile_id: 
+"Profile 1"
+
+
+  allowed_source_types:
+    - note
+    - transcript
+    - conversation
+    - document
+
+  require_redaction: true
+  max_context_chars: 30000
+
+  preserve_owner_tabs: true
+  create_new_conversation: true
+
+  auto_retry_after_unknown: false
+max_context_chars
+ là giới hạn vận hành khởi đầu, không phải bảo đảm rằng mọi nội dung dưới ngưỡng đều được phép gửi.
+ChatGPT trả lời là dữ liệu đầu vào cho HIL, không phải instruction được tự động thực thi.
+Hermes, triển khai theo thứ tự này:
+Các bước độc lập có thể giao cho subagent song song. Các bước có dependency phải chờ kết quả thực tế.
+Gửi cùng một 
+request_id
+ hai lần.
+Expected:
+ chỉ có một task trong DB.
+Thử chuyển:
+COMPLETED → RUNNING
+Expected:
+ bị từ chối và ghi nhận lỗi; task không bị sửa trạng thái.
+Tạo task với 
+advisory_mode: never
+.
+Expected:
+ có kết quả và không mở ChatGPT.
+Tạo task với 
+advisory_mode: required
+.
+Expected:
+Task created
+→ Context retrieved
+→ Profile lock acquired
+→ New ChatGPT conversation
+→ Prompt sent
+→ Response captured
+→ Conversation archived
+→ Lock released
+→ QA passed
+→ Result persisted
+Phải có cùng 
+task_id
+ xuyên suốt.
+Hai task cùng yêu cầu Profile 1.
+Expected:
+ không có khoảng thời gian hai task đồng thời sở hữu lock hợp lệ.
+Dừng worker sau khi gửi prompt.
+Expected:
+ không tự gửi prompt lần hai nếu chưa xác minh trạng thái lần đầu.
+Giả lập DB update lỗi sau khi archive thành công.
+Expected:
+ recovery tìm được archive và nối lại operation.
+Giả lập lỗi gửi kết quả.
+Expected:
+ không chạy lại ChatGPT Advisory; chỉ xử lý delivery.
+Người dùng đang sử dụng Chrome.
+Expected:
+ HIL không chiếm tab đang nhập, không đóng Chrome, không phá nội dung phiên.
+Dừng rồi khởi động HIL.
+Expected:
+ task chưa hoàn thành được nhận diện và xử lý theo recovery contract.
+Milestone 3A chỉ được gửi 
+READY_FOR_ACCEPTANCE
+ khi đạt đủ các điều kiện sau:
+HIL là một package chạy được, không phải tập script rời.
+Có database riêng và migration.
+Có task state machine.
+Có event log.
+Có adapter dùng lại module M1/M2.
+Có ít nhất một task nội bộ chạy end-to-end.
+Có ít nhất một task ChatGPT website chạy end-to-end.
+Có archive truy xuất được bằng 
+task_id
+.
+Có cơ chế chống gửi trùng external operation.
+Có recovery sau crash.
+Có output delivery tracking.
+Có integration test thực tế, không chỉ mock test.
+Không thay đổi hàng loạt Second Brain.
+Không tự động nạp toàn bộ kho skill dormant.
+Tạo:
+milestone_3a/
+├── M3A_RUNTIME_BASELINE.md
+├── M3A_INTERFACE_MAPPING.md
+├── M3A_IMPLEMENTATION_REPORT.md
+├── M3A_DATABASE_SCHEMA.sql
+├── M3A_BEHAVIORAL_CONTRACTS.md
+├── M3A_INTEGRATION_TESTS.md
+├── M3A_RECOVERY_TESTS.md
+├── M3A_SECURITY_REVIEW.md
+└── M3A_OPEN_ISSUES.md
+Báo cáo cuối phải chỉ rõ:
+Commit hoặc file diff nào
+ đã tạo/thay đổi code.
+Lệnh nào
+ chạy được ứng dụng và chạy test.
+Task ID nào
+ đã chạy thực tế.
+Conversation ID nào
+ được ChatGPT website tạo ra.
+Archive nào
+ chứa hội thoại đó.
+DB event nào
+ chứng minh task chuyển trạng thái.
+Log nào
+ chứng minh crash recovery.
+Test nào thất bại hoặc chưa thực hiện.
+Không ghi 
+100% VERIFIED
+ chỉ vì đủ chín file Markdown.
+Hermes, bắt đầu từ 3A-01 đến 3A-04.
+ Bạn được tự viết code, chạy test và sửa lỗi trong phạm vi dự án HIL. Khi các hợp đồng dữ liệu và state machine đã chạy được, tiếp tục 3A-05 đến 3A-12 theo dependency; không cần chờ phê duyệt từng file.
+Một yêu cầu phản hồi sớm:
+ trước khi tích hợp browser thật ở 3A-08, hãy gửi tôi 
+M3A_INTERFACE_MAPPING.md
+ với chữ ký hàm thực tế của 
+profile_lock_manager.py
+, 
+conversation_archiver.py
+ và entry point Hermes dùng để gọi browser. Đây là điểm kiểm tra kiến trúc duy nhất tôi cần trước khi bạn nối các thành phần có side effect với Chrome đang sử dụng.
+tôi muốn lưu toàn bộ cuộc hội thoại này thành 1 file markdown,toàn bộ chi tiết không thiết một kí tự nào
+Được. Vì bạn yêu cầu 
+toàn bộ cuộc hội thoại, không thiếu một ký tự nào
+, tôi cần lấy bản xuất dữ liệu gốc của cuộc trò chuyện thay vì tự chép lại từ ngữ cảnh hiện tại. Nếu tự dựng file từ những tin nhắn tôi đang nhìn thấy, tôi không thể bảo đảm giữ nguyên 100% các tin nhắn dài, dấu câu và nội dung ở những phần trước đã bị rút gọn khỏi ngữ cảnh.
+Cách làm để có bản Markdown đầy đủ nhất:
+Trong ChatGPT, mở 
+Settings → Data Controls → Export Data
+ và tải bản xuất dữ liệu khi có.
+Giải nén rồi tải lên đây file 
+conversations.json
+ hoặc file HTML chứa cuộc trò chuyện này.
+Tôi sẽ trích xuất 
+đúng cuộc hội thoại SPEC-001
+, giữ nguyên thứ tự, toàn bộ nội dung từng tin nhắn, code block, PlantUML, bảng và đường dẫn Windows; không tóm tắt, không biên tập.
+File đầu ra sẽ là:
+SPEC-001_Hermes_Full_Conversation.md
+Tôi cũng sẽ kiểm tra số lượng tin nhắn và đối chiếu nội dung với dữ liệu xuất trước khi gửi link tải file.
+Lưu ý:
+ Nếu bản xuất dữ liệu không chứa một số nội dung như phần hiển thị giao diện đặc biệt hoặc tệp đính kèm, tôi sẽ báo rõ thay vì tuyên bố file đầy đủ tuyệt đối.
+New version of GPT available
+ - Continue chatting to use the old version, or start a 
+ for the latest version.
+Architect 

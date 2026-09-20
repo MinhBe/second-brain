@@ -1,0 +1,65 @@
+{
+  "profiles": [
+    {
+      "profile_id": "Profile 1",
+      "display_name": "165",
+      "email": "165aminh2001@gmail.com",
+      "services": {
+        "chatgpt": {
+          "plan": "plus",
+          "role": "advisory"
+        }
+      },
+      "automation_enabled": true,
+      "owner_session_policy": "preserve"
+    },
+    {
+      "profile_id": "Profile 8",
+      "display_name": "165be",
+      "email": "165minhbe2001@gmail.com",
+      "services": {
+        "claude": {
+          "plan": "unknown"
+        }
+      },
+      "automation_enabled": false,
+      "owner_session_policy": "preserve"
+    },
+    {
+      "profile_id": "Profile 10",
+      "display_name": "65aminh2001",
+      "email": "65aminh2001@gmail.com",
+      "services": {
+        "general": {
+          "role": "owner_interactive"
+        }
+      },
+      "automation_enabled": false,
+      "owner_session_policy": "preserve"
+    },
+    {
+      "profile_id": "Profile 3",
+      "display_name": "65Be",
+      "email": "65minhbe2001@gmail.com",
+      "services": {},
+      "automation_enabled": false,
+      "owner_session_policy": "preserve"
+    },
+    {
+      "profile_id": "Profile 5",
+      "display_name": "65aminh",
+      "email": "65aminh@gmail.com",
+      "services": {},
+      "automation_enabled": false,
+      "owner_session_policy": "preserve"
+    },
+    {
+      "profile_id": "Profile 11",
+      "display_name": "465",
+      "email": "465aminh2001@gmail.com",
+      "services": {},
+      "automation_enabled": false,
+      "owner_session_policy": "preserve"
+    }
+  ]
+}

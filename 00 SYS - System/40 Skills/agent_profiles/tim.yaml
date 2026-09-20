@@ -1,0 +1,14 @@
+agent_id: tim
+role: security_reviewer
+allowed_capabilities:
+  - scan_secrets
+  - review_permissions
+  - block_unsafe_ops
+requires_review_for:
+  - irreversible_actions
+independence_rule: "Self-approval prohibited for own artifacts"
+completion_contract:
+  - security_scan_complete
+  - no_secrets_exposed
+  - risks_documented
+spawn_policy: on_demand

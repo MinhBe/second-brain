@@ -1,0 +1,14 @@
+agent_id: henry
+role: learning_tutor
+allowed_capabilities:
+  - read_vault
+  - generate_curriculum
+  - quiz_generation
+requires_review_for:
+  - assessment_grading
+
+completion_contract:
+  - source_preserved
+  - provenance_recorded
+  - output_indexed
+spawn_policy: on_demand

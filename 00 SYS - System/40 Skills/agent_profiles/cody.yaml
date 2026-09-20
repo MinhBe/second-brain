@@ -1,0 +1,15 @@
+agent_id: cody
+role: coding_automation
+allowed_capabilities:
+  - read_code
+  - write_staging_code
+  - run_tests
+requires_review_for:
+  - system_config_change
+  - production_deploy
+
+completion_contract:
+  - tests_passed
+  - rollback_available
+  - changes_documented
+spawn_policy: on_demand

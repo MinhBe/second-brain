@@ -1,0 +1,1138 @@
+{
+  "summary": {
+    "second_brain_total": 2374,
+    "hermes_local_total": 1192,
+    "unique_hashes": 2371,
+    "unique_names": 1958,
+    "exact_duplicate_groups": 1192,
+    "name_collision_groups": 376
+  },
+  "name_collisions": {
+    "windows-chrome-automation": [
+      "browser\\windows-chrome-automation (second_brain)",
+      "browser\\windows-chrome-automation (hermes_local)"
+    ],
+    "baoyu-infographic": [
+      "creative\\baoyu-infographic (second_brain)",
+      "Deterministic\\Domain\\content-production\\baoyu-skills-main\\baoyu-skills-main\\skills\\baoyu-infographic (second_brain)",
+      "creative\\baoyu-infographic (hermes_local)"
+    ],
+    "humanizer": [
+      "creative\\humanizer (second_brain)",
+      "humanizer (second_brain)",
+      "creative\\humanizer (hermes_local)",
+      "humanizer (hermes_local)"
+    ],
+    "design-system": [
+      "design-system (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\design-system (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\markdown-html\\skills\\design-system (second_brain)"
+    ],
+    "a11y-audit": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\a11y-audit (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering-team\\a11y-audit\\skills\\a11y-audit (second_brain)"
+    ],
+    "ab-test-setup": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\ab-test-setup (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\marketing-skill\\skills\\ab-test-setup (second_brain)"
+    ],
+    "ad-creative": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\ad-creative (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\marketing-skill\\skills\\ad-creative (second_brain)"
+    ],
+    "adversarial-reviewer": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\adversarial-reviewer (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering-team\\skills\\adversarial-reviewer (second_brain)"
+    ],
+    "aeo": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\aeo (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\marketing-skill\\skills\\aeo (second_brain)"
+    ],
+    "agent-designer": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\agent-designer (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\skills\\agent-designer (second_brain)"
+    ],
+    "agent-protocol": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\agent-protocol (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\c-level-advisor\\skills\\agent-protocol (second_brain)"
+    ],
+    "agent-workflow-designer": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\agent-workflow-designer (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\skills\\agent-workflow-designer (second_brain)"
+    ],
+    "agenthub": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\agenthub (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\agenthub\\skills\\agenthub (second_brain)"
+    ],
+    "agile-product-owner": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\agile-product-owner (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\product-team\\agile-product-owner\\skills\\agile-product-owner (second_brain)"
+    ],
+    "ai-act-readiness": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\ai-act-readiness (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\compliance-os\\skills\\ai-act-readiness (second_brain)"
+    ],
+    "ai-security": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\ai-security (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering-team\\skills\\ai-security (second_brain)"
+    ],
+    "aims-audit": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\aims-audit (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\compliance-os\\skills\\aims-audit (second_brain)"
+    ],
+    "analytics-tracking": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\analytics-tracking (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\marketing-skill\\skills\\analytics-tracking (second_brain)"
+    ],
+    "andreessen": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\andreessen (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\productivity\\andreessen\\skills\\andreessen (second_brain)"
+    ],
+    "api-design-reviewer": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\api-design-reviewer (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\skills\\api-design-reviewer (second_brain)"
+    ],
+    "api-test-suite-builder": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\api-test-suite-builder (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\skills\\api-test-suite-builder (second_brain)"
+    ],
+    "app-store-optimization": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\app-store-optimization (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\marketing-skill\\skills\\app-store-optimization (second_brain)"
+    ],
+    "apple-hig-expert": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\apple-hig-expert (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\product-team\\apple-hig-expert\\skills\\apple-hig-expert (second_brain)"
+    ],
+    "atlassian-admin": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\atlassian-admin (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\project-management\\skills\\atlassian-admin (second_brain)"
+    ],
+    "atlassian-templates": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\atlassian-templates (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\project-management\\skills\\atlassian-templates (second_brain)"
+    ],
+    "autoresearch-agent": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\autoresearch-agent (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\autoresearch-agent\\skills\\autoresearch-agent (second_brain)"
+    ],
+    "aws-solution-architect": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\aws-solution-architect (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering-team\\skills\\aws-solution-architect (second_brain)"
+    ],
+    "azure-cloud-architect": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\azure-cloud-architect (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering-team\\skills\\azure-cloud-architect (second_brain)"
+    ],
+    "behuman": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\behuman (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\behuman\\skills\\behuman (second_brain)"
+    ],
+    "board": [
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\.gemini\\skills\\board (second_brain)",
+      "Deterministic\\Domain\\business\\claude-skills-business-suite\\claude-skills-main\\engineering\\agenthub\\skills\\board (second_brain)"
+    ]
+  },
+  "skills": {
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ai": {
+      "name": "21st-ai",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ai",
+      "rel_path": "21st-ai",
+      "sha256": "0c1dd6d4583407e8865053cb032a35cf43e6abce1bf04963eea33e0f235f4885",
+      "size": 5520,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-cli-use": {
+      "name": "21st-cli-use",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-cli-use",
+      "rel_path": "21st-cli-use",
+      "sha256": "c0e8e8199aa58a46dc1ff0d8795f2ff8908f638e7f3ad461338342d564fd4cbc",
+      "size": 5138,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-design-sync": {
+      "name": "21st-design-sync",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-design-sync",
+      "rel_path": "21st-design-sync",
+      "sha256": "af65ff0269c8f8015fe86535e231f26eb93048a8758777700104430f67c15e3b",
+      "size": 5125,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-registry": {
+      "name": "21st-registry",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-registry",
+      "rel_path": "21st-registry",
+      "sha256": "de15c1f2aa29299e486212a69109c5c52fb9f6975e0c4100a03a6b76f24dcec6",
+      "size": 18492,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ui-build": {
+      "name": "21st-ui-build",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ui-build",
+      "rel_path": "21st-ui-build",
+      "sha256": "74a28531648ff6c09982ac7e22e62ce16ad349f647a2889d0a755e149f22bbdc",
+      "size": 3062,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ui-explore": {
+      "name": "21st-ui-explore",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ui-explore",
+      "rel_path": "21st-ui-explore",
+      "sha256": "bc423ad587780af39c2f01ddfc92f1c5aeaa90b1ff9e5132e3c7323e69a3a71b",
+      "size": 2730,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ui-review": {
+      "name": "21st-ui-review",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\21st-ui-review",
+      "rel_path": "21st-ui-review",
+      "sha256": "dabda6ac4dd03800a83f6a9ab67b2bcf1424a39b231b2a54b888d32c1f83774f",
+      "size": 2255,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\abusing-dpapi-for-credential-access": {
+      "name": "abusing-dpapi-for-credential-access",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\abusing-dpapi-for-credential-access",
+      "rel_path": "abusing-dpapi-for-credential-access",
+      "sha256": "e233cac9503ca825a3b56c07b4279d46a6d8a21e8abef05ce04c77df34b0c1e8",
+      "size": 10895,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\abusing-shadow-credentials-for-privesc": {
+      "name": "abusing-shadow-credentials-for-privesc",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\abusing-shadow-credentials-for-privesc",
+      "rel_path": "abusing-shadow-credentials-for-privesc",
+      "sha256": "c7e004845b1ddf34ea6aa467e55ab0cf588acb0c5787e59569272c2c7b730b64",
+      "size": 9718,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\account-research": {
+      "name": "account-research",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\account-research",
+      "rel_path": "account-research",
+      "sha256": "ee880daea0da2c80cc95207ff33617f5e1348c5edba72b8eb0199840530fe90f",
+      "size": 8169,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\acestep": {
+      "name": "acestep",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\acestep",
+      "rel_path": "acestep",
+      "sha256": "ac7e03edb535ecaffb45ab78dde4f8df4638c0afb315aa95ca3c6af84a32b2a2",
+      "size": 13684,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\achieving-cmmc-level-2-compliance": {
+      "name": "achieving-cmmc-level-2-compliance",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\achieving-cmmc-level-2-compliance",
+      "rel_path": "achieving-cmmc-level-2-compliance",
+      "sha256": "f80c986a17962c4036376718acfa7b042ba8a40fe2e7034b0d400db95b83f768",
+      "size": 8831,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\acquiring-disk-image-with-dd-and-dcfldd": {
+      "name": "acquiring-disk-image-with-dd-and-dcfldd",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\acquiring-disk-image-with-dd-and-dcfldd",
+      "rel_path": "acquiring-disk-image-with-dd-and-dcfldd",
+      "sha256": "3a9e41d80649034020dc2d02d8abfe822cba5dab6ffc54c4d483863ef3823b72",
+      "size": 9044,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\agent-reach": {
+      "name": "agent-reach",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\agent-reach",
+      "rel_path": "agent-reach",
+      "sha256": "a9e985954a6436a35426203f062a3089dbba2aa6819775dd33b0bc9f0980fa7a",
+      "size": 8948,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\agy-delegate": {
+      "name": "agy-delegate",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\agy-delegate",
+      "rel_path": "agy-delegate",
+      "sha256": "6a3055762bd73375b9a5ea07b079e16c51b6fd66d6e81a0df96377afe26a402a",
+      "size": 9142,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\aider-delegate": {
+      "name": "aider-delegate",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\aider-delegate",
+      "rel_path": "aider-delegate",
+      "sha256": "6a8b3d55e3c3e49297e0be01deb817c955a84ab23dd591e3207e0ee69a41f791",
+      "size": 12336,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-active-directory-acl-abuse": {
+      "name": "analyzing-active-directory-acl-abuse",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-active-directory-acl-abuse",
+      "rel_path": "analyzing-active-directory-acl-abuse",
+      "sha256": "f8ca4e4b3e32e1e76fb241838df21440e02328a2a3fcb5c6b48b9c3f052fe662",
+      "size": 4338,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-android-malware-with-apktool": {
+      "name": "analyzing-android-malware-with-apktool",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-android-malware-with-apktool",
+      "rel_path": "analyzing-android-malware-with-apktool",
+      "sha256": "0f30f30126337a45771fe8707edae8dac490831bf1210a24f1a16dc0a3015962",
+      "size": 2543,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-api-gateway-access-logs": {
+      "name": "analyzing-api-gateway-access-logs",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-api-gateway-access-logs",
+      "rel_path": "analyzing-api-gateway-access-logs",
+      "sha256": "084cd2b84fe6a1ae2a20d42104ccfc88e223971c4f1edca02830c59e62c9d635",
+      "size": 2402,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-apt-group-with-mitre-navigator": {
+      "name": "analyzing-apt-group-with-mitre-navigator",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-apt-group-with-mitre-navigator",
+      "rel_path": "analyzing-apt-group-with-mitre-navigator",
+      "sha256": "18d25e350377b6dde4548b5ec0113ef1bb15a53517c7d9efff689c6b975ea797",
+      "size": 11741,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-azure-activity-logs-for-threats": {
+      "name": "analyzing-azure-activity-logs-for-threats",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-azure-activity-logs-for-threats",
+      "rel_path": "analyzing-azure-activity-logs-for-threats",
+      "sha256": "dfffe4984d4fc71e09614df1598233a1c496a6ee3df8cad91b1590ad4aed783d",
+      "size": 2523,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-bootkit-and-rootkit-samples": {
+      "name": "analyzing-bootkit-and-rootkit-samples",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-bootkit-and-rootkit-samples",
+      "rel_path": "analyzing-bootkit-and-rootkit-samples",
+      "sha256": "85f08ddaf999fe86c600a43e833c6be409f388c517fcdc6329e456753646fd9b",
+      "size": 13350,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-browser-forensics-with-hindsight": {
+      "name": "analyzing-browser-forensics-with-hindsight",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-browser-forensics-with-hindsight",
+      "rel_path": "analyzing-browser-forensics-with-hindsight",
+      "sha256": "73e2588ec858c015924130c23ed9ee6ce9e47954180f56d3432141d61db115ce",
+      "size": 11403,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-campaign-attribution-evidence": {
+      "name": "analyzing-campaign-attribution-evidence",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-campaign-attribution-evidence",
+      "rel_path": "analyzing-campaign-attribution-evidence",
+      "sha256": "e0c3cc8ed05533ddbac4b61a308d395d342ae9159b4ed99054ed6513ade260df",
+      "size": 9451,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-certificate-transparency-for-phishing": {
+      "name": "analyzing-certificate-transparency-for-phishing",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-certificate-transparency-for-phishing",
+      "rel_path": "analyzing-certificate-transparency-for-phishing",
+      "sha256": "15a180590ec271ffae38d0169168bac2f27289adfca0e0914275fd42c349fcd2",
+      "size": 14458,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cloud-storage-access-patterns": {
+      "name": "analyzing-cloud-storage-access-patterns",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cloud-storage-access-patterns",
+      "rel_path": "analyzing-cloud-storage-access-patterns",
+      "sha256": "6f04f106d23124975058b25a1adef396d2cb033c167bccf70702203eb0f6c32b",
+      "size": 2472,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cobalt-strike-beacon-configuration": {
+      "name": "analyzing-cobalt-strike-beacon-configuration",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cobalt-strike-beacon-configuration",
+      "rel_path": "analyzing-cobalt-strike-beacon-configuration",
+      "sha256": "eaf383076f771ce8b64b2022613e3ccc1b7644295b191797ab18df89876e126e",
+      "size": 13453,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cobaltstrike-malleable-c2-profiles": {
+      "name": "analyzing-cobaltstrike-malleable-c2-profiles",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cobaltstrike-malleable-c2-profiles",
+      "rel_path": "analyzing-cobaltstrike-malleable-c2-profiles",
+      "sha256": "81e788fd56f10858b9f7acc86dafa539cb76f37e4d7e49c3b70fd064b523e7ce",
+      "size": 3324,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-command-and-control-communication": {
+      "name": "analyzing-command-and-control-communication",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-command-and-control-communication",
+      "rel_path": "analyzing-command-and-control-communication",
+      "sha256": "c58c9a198b8cbe7ad4e73ea1b3de198529dc7b13914153d9e355aae30b4a5271",
+      "size": 14872,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cyber-kill-chain": {
+      "name": "analyzing-cyber-kill-chain",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-cyber-kill-chain",
+      "rel_path": "analyzing-cyber-kill-chain",
+      "sha256": "621adf307d8000d459e4b36ef4c8b9dc649fec787b46c2ebc3ac90b259b57d5a",
+      "size": 7457,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-disk-image-with-autopsy": {
+      "name": "analyzing-disk-image-with-autopsy",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-disk-image-with-autopsy",
+      "rel_path": "analyzing-disk-image-with-autopsy",
+      "sha256": "6fcdd0c1021ff46a1c9e4fc8987d554f86e488ba4514f8a6d5ddbab0cf93fbc2",
+      "size": 11026,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-dns-logs-for-exfiltration": {
+      "name": "analyzing-dns-logs-for-exfiltration",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-dns-logs-for-exfiltration",
+      "rel_path": "analyzing-dns-logs-for-exfiltration",
+      "sha256": "fd9167d37c629c4104b33b5cec9cdca9543efdbc95594bb44b18e0e4ff5ad922",
+      "size": 11854,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-docker-container-forensics": {
+      "name": "analyzing-docker-container-forensics",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-docker-container-forensics",
+      "rel_path": "analyzing-docker-container-forensics",
+      "sha256": "35d7fa471f41ffa4a5248ae26550819f25e8b6219afddbff7940ea3db1f7baae",
+      "size": 13231,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-email-headers-for-phishing-investigation": {
+      "name": "analyzing-email-headers-for-phishing-investigation",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-email-headers-for-phishing-investigation",
+      "rel_path": "analyzing-email-headers-for-phishing-investigation",
+      "sha256": "e838ab16c516ba6a0afd3acc85813b4ea81aef9ba1d27c6bca8f53d9395d1105",
+      "size": 13056,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ethereum-smart-contract-vulnerabilities": {
+      "name": "analyzing-ethereum-smart-contract-vulnerabilities",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ethereum-smart-contract-vulnerabilities",
+      "rel_path": "analyzing-ethereum-smart-contract-vulnerabilities",
+      "sha256": "38b27305440ded24dab533ef24aee0adb9ff759dca4ea5282df6a26281b06872",
+      "size": 3021,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-golang-malware-with-ghidra": {
+      "name": "analyzing-golang-malware-with-ghidra",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-golang-malware-with-ghidra",
+      "rel_path": "analyzing-golang-malware-with-ghidra",
+      "sha256": "451d4552a90769c898efbcfca4c33a243568be1701fdc385d1cf8151b256051f",
+      "size": 11666,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-heap-spray-exploitation": {
+      "name": "analyzing-heap-spray-exploitation",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-heap-spray-exploitation",
+      "rel_path": "analyzing-heap-spray-exploitation",
+      "sha256": "83c24dad8713614fdf5cd67a198b49bee76daf27f9d84fe36e1cb67526c23bd0",
+      "size": 2460,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-indicators-of-compromise": {
+      "name": "analyzing-indicators-of-compromise",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-indicators-of-compromise",
+      "rel_path": "analyzing-indicators-of-compromise",
+      "sha256": "118241e3dac7fb266014b3935f58b3993d73c05c70002215f6848b15e60021d6",
+      "size": 7962,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ios-app-security-with-objection": {
+      "name": "analyzing-ios-app-security-with-objection",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ios-app-security-with-objection",
+      "rel_path": "analyzing-ios-app-security-with-objection",
+      "sha256": "28453e580cafc8516d7a6f478a53ab86c53576de93840708c3995680852d68e7",
+      "size": 6718,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-kubernetes-audit-logs": {
+      "name": "analyzing-kubernetes-audit-logs",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-kubernetes-audit-logs",
+      "rel_path": "analyzing-kubernetes-audit-logs",
+      "sha256": "f1c409a16375ccb6aafcc88bc711aa0e3aaa7a4405cc294a099941b33355bbbf",
+      "size": 2701,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-audit-logs-for-intrusion": {
+      "name": "analyzing-linux-audit-logs-for-intrusion",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-audit-logs-for-intrusion",
+      "rel_path": "analyzing-linux-audit-logs-for-intrusion",
+      "sha256": "25de0c2cbe272c5fb830613de75de57af044d96cf6b98a0fa7bdac8e2e479b3c",
+      "size": 10065,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-elf-malware": {
+      "name": "analyzing-linux-elf-malware",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-elf-malware",
+      "rel_path": "analyzing-linux-elf-malware",
+      "sha256": "382dc796bf2682cbfd9c47c9f4d626e2f78c94a2becda9965657f5d7ef658766",
+      "size": 12907,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-kernel-rootkits": {
+      "name": "analyzing-linux-kernel-rootkits",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-kernel-rootkits",
+      "rel_path": "analyzing-linux-kernel-rootkits",
+      "sha256": "f2faf12b35e71cefeb211b9768b64129af408d4e8039ba6acac8972cfb3112b0",
+      "size": 6080,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-system-artifacts": {
+      "name": "analyzing-linux-system-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-linux-system-artifacts",
+      "rel_path": "analyzing-linux-system-artifacts",
+      "sha256": "81ef46c2c2434f931f20e10a5b6d096d653d8057f72e4e549ccc889656ac52f7",
+      "size": 15273,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-lnk-file-and-jump-list-artifacts": {
+      "name": "analyzing-lnk-file-and-jump-list-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-lnk-file-and-jump-list-artifacts",
+      "rel_path": "analyzing-lnk-file-and-jump-list-artifacts",
+      "sha256": "b5b1595f7236fa70394a1effba26f4d0a66e35e44791d7fb8c261e8e039e47aa",
+      "size": 11592,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-macro-malware-in-office-documents": {
+      "name": "analyzing-macro-malware-in-office-documents",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-macro-malware-in-office-documents",
+      "rel_path": "analyzing-macro-malware-in-office-documents",
+      "sha256": "879029d7e724123a5bb9858288355cfa8e7351b88aefbfaf9fbe117fabfc64d0",
+      "size": 12526,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malicious-pdf-with-peepdf": {
+      "name": "analyzing-malicious-pdf-with-peepdf",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malicious-pdf-with-peepdf",
+      "rel_path": "analyzing-malicious-pdf-with-peepdf",
+      "sha256": "0d6e4baf447dafeeeb5548da36d841fe38fbd8bb4a3dda623b8b18d45aa82d16",
+      "size": 3292,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malicious-url-with-urlscan": {
+      "name": "analyzing-malicious-url-with-urlscan",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malicious-url-with-urlscan",
+      "rel_path": "analyzing-malicious-url-with-urlscan",
+      "sha256": "68afc3cdb6fd017f6fc89518bd65b42a837e3fc6f16194a9a7c1cb342a86f001",
+      "size": 4166,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-behavior-with-cuckoo-sandbox": {
+      "name": "analyzing-malware-behavior-with-cuckoo-sandbox",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-behavior-with-cuckoo-sandbox",
+      "rel_path": "analyzing-malware-behavior-with-cuckoo-sandbox",
+      "sha256": "36a976d45dbc80305f4226f40861757a4f6a91a5a4d53678ee2f364dbf50a019",
+      "size": 11982,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-family-relationships-with-malpedia": {
+      "name": "analyzing-malware-family-relationships-with-malpedia",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-family-relationships-with-malpedia",
+      "rel_path": "analyzing-malware-family-relationships-with-malpedia",
+      "sha256": "d733f4b70fa641d5438220ff9924f6fdc8e8d18814345f3436fefe3692f9630b",
+      "size": 12151,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-persistence-with-autoruns": {
+      "name": "analyzing-malware-persistence-with-autoruns",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-persistence-with-autoruns",
+      "rel_path": "analyzing-malware-persistence-with-autoruns",
+      "sha256": "34616bcb4ab1b83556b2d5d6f80f9b4c145bdbcf78604143fbc28817b82804b6",
+      "size": 4814,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-sandbox-evasion-techniques": {
+      "name": "analyzing-malware-sandbox-evasion-techniques",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-malware-sandbox-evasion-techniques",
+      "rel_path": "analyzing-malware-sandbox-evasion-techniques",
+      "sha256": "6f3e3f25ed828856e4eb488e84e85fd9a9224dd41ce46586f821780086f4a5ee",
+      "size": 2920,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-memory-dumps-with-volatility": {
+      "name": "analyzing-memory-dumps-with-volatility",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-memory-dumps-with-volatility",
+      "rel_path": "analyzing-memory-dumps-with-volatility",
+      "sha256": "25338cb73f77b19d6438c241f901407f9292f504ab4a21ff3be14d621fde7a82",
+      "size": 12068,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-memory-forensics-with-lime-and-volatility": {
+      "name": "analyzing-memory-forensics-with-lime-and-volatility",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-memory-forensics-with-lime-and-volatility",
+      "rel_path": "analyzing-memory-forensics-with-lime-and-volatility",
+      "sha256": "962122070cff8a673be7db253169434647e776ea541d85c35b58c06ebb0ce7e4",
+      "size": 2615,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-mft-for-deleted-file-recovery": {
+      "name": "analyzing-mft-for-deleted-file-recovery",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-mft-for-deleted-file-recovery",
+      "rel_path": "analyzing-mft-for-deleted-file-recovery",
+      "sha256": "3f938375b7f16b029a4e5c5441bda5902e0dc67cdc9e1de0859262c823f0fbed",
+      "size": 10895,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-covert-channels-in-malware": {
+      "name": "analyzing-network-covert-channels-in-malware",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-covert-channels-in-malware",
+      "rel_path": "analyzing-network-covert-channels-in-malware",
+      "sha256": "561c42d68f065a6164b7f4ec9c90b8ae9bb5f5950c19841e3bd63870acd63a60",
+      "size": 8203,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-flow-data-with-netflow": {
+      "name": "analyzing-network-flow-data-with-netflow",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-flow-data-with-netflow",
+      "rel_path": "analyzing-network-flow-data-with-netflow",
+      "sha256": "4d5558a1d5e25676e2993e4b31380bd52145afaca5a9a28b790fb2483d29821a",
+      "size": 2244,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-packets-with-scapy": {
+      "name": "analyzing-network-packets-with-scapy",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-packets-with-scapy",
+      "rel_path": "analyzing-network-packets-with-scapy",
+      "sha256": "8722b3835ef809e4e17e334cf63a817718c853015c4b5b66a4c6831f98dde848",
+      "size": 2562,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-traffic-for-incidents": {
+      "name": "analyzing-network-traffic-for-incidents",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-traffic-for-incidents",
+      "rel_path": "analyzing-network-traffic-for-incidents",
+      "sha256": "fca7221a963270d418aecac318b15a6c2d25131769fd70272b5ae79fd9d5809d",
+      "size": 10871,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-traffic-of-malware": {
+      "name": "analyzing-network-traffic-of-malware",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-traffic-of-malware",
+      "rel_path": "analyzing-network-traffic-of-malware",
+      "sha256": "85d510db5d768f2d505ba092782bf4cf70d8b2c903051c60ed23386bdbb42828",
+      "size": 12183,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-traffic-with-wireshark": {
+      "name": "analyzing-network-traffic-with-wireshark",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-network-traffic-with-wireshark",
+      "rel_path": "analyzing-network-traffic-with-wireshark",
+      "sha256": "ff1b4d5b4aa07e919a5c7a83b7ed5c2092a41e46bb37d90cd6c26e1c1929a27b",
+      "size": 10608,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-office365-audit-logs-for-compromise": {
+      "name": "analyzing-office365-audit-logs-for-compromise",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-office365-audit-logs-for-compromise",
+      "rel_path": "analyzing-office365-audit-logs-for-compromise",
+      "sha256": "dc656213e41471393a4d7e8aa5c74439d8558cb96d256d5bdf5e8c7bbe9f063d",
+      "size": 2401,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-outlook-pst-for-email-forensics": {
+      "name": "analyzing-outlook-pst-for-email-forensics",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-outlook-pst-for-email-forensics",
+      "rel_path": "analyzing-outlook-pst-for-email-forensics",
+      "sha256": "945eda7daa411ab66373f0c5781a72ecea27d54f0df4a221aa5e0ecd4f53a020",
+      "size": 13166,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-packed-malware-with-upx-unpacker": {
+      "name": "analyzing-packed-malware-with-upx-unpacker",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-packed-malware-with-upx-unpacker",
+      "rel_path": "analyzing-packed-malware-with-upx-unpacker",
+      "sha256": "711841a3da8aeaeb935a7f14595b9f9c38a25bdb02185c7bed3c207fe66a54e9",
+      "size": 12202,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-pdf-malware-with-pdfid": {
+      "name": "analyzing-pdf-malware-with-pdfid",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-pdf-malware-with-pdfid",
+      "rel_path": "analyzing-pdf-malware-with-pdfid",
+      "sha256": "0ff2f47d0d55940bdac7ff0fe3c52dd90ee6dd894f4b9a00ad6964619eb549b8",
+      "size": 13162,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-persistence-mechanisms-in-linux": {
+      "name": "analyzing-persistence-mechanisms-in-linux",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-persistence-mechanisms-in-linux",
+      "rel_path": "analyzing-persistence-mechanisms-in-linux",
+      "sha256": "7b5595aefa515dbc988a44f6af2da60cd58d4fa6ce758a830851af9061d61413",
+      "size": 3290,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-powershell-empire-artifacts": {
+      "name": "analyzing-powershell-empire-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-powershell-empire-artifacts",
+      "rel_path": "analyzing-powershell-empire-artifacts",
+      "sha256": "69054e7779c429917d786bc437a36627869e5ac966eee57fe80426c8c6772606",
+      "size": 2955,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-powershell-script-block-logging": {
+      "name": "analyzing-powershell-script-block-logging",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-powershell-script-block-logging",
+      "rel_path": "analyzing-powershell-script-block-logging",
+      "sha256": "7e4695d9d9469734d894c526bc946a126800df84127853ce6661aab9cdb6c5f1",
+      "size": 2740,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-prefetch-files-for-execution-history": {
+      "name": "analyzing-prefetch-files-for-execution-history",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-prefetch-files-for-execution-history",
+      "rel_path": "analyzing-prefetch-files-for-execution-history",
+      "sha256": "4444ecaea69a433ca0f1a64a2fa2a655ca1001e362237bc12b01a4162f18e5b3",
+      "size": 12478,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-encryption-mechanisms": {
+      "name": "analyzing-ransomware-encryption-mechanisms",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-encryption-mechanisms",
+      "rel_path": "analyzing-ransomware-encryption-mechanisms",
+      "sha256": "d36a8996c8177c091570e10171ad05c6ea357386235c80aadf58e9619ecee064",
+      "size": 14554,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-leak-site-intelligence": {
+      "name": "analyzing-ransomware-leak-site-intelligence",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-leak-site-intelligence",
+      "rel_path": "analyzing-ransomware-leak-site-intelligence",
+      "sha256": "54e2d4d915997be0b44659a1315ef649bcebc83d1e1669b4c4054cc01ce68111",
+      "size": 14609,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-network-indicators": {
+      "name": "analyzing-ransomware-network-indicators",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-network-indicators",
+      "rel_path": "analyzing-ransomware-network-indicators",
+      "sha256": "b90468039752b22c5aad328d749f68aa20ce2949c56c58bdcff61836b1f5c4fe",
+      "size": 3285,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-payment-wallets": {
+      "name": "analyzing-ransomware-payment-wallets",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-ransomware-payment-wallets",
+      "rel_path": "analyzing-ransomware-payment-wallets",
+      "sha256": "ce026218809dae682a02519459e3e42d25fba7835cc7bf317b3e05a63a62f088",
+      "size": 7986,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-sbom-for-supply-chain-vulnerabilities": {
+      "name": "analyzing-sbom-for-supply-chain-vulnerabilities",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-sbom-for-supply-chain-vulnerabilities",
+      "rel_path": "analyzing-sbom-for-supply-chain-vulnerabilities",
+      "sha256": "a1cd3e8917af0fb463f5e253d9c0fff038edcb2e7c022a51629018062343c656",
+      "size": 12023,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-security-logs-with-splunk": {
+      "name": "analyzing-security-logs-with-splunk",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-security-logs-with-splunk",
+      "rel_path": "analyzing-security-logs-with-splunk",
+      "sha256": "529df3d930ade0c06d6bc039a1a07b5f7c3ab88ab3fe22f57ed6b7a7b8007875",
+      "size": 10319,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-slack-space-and-file-system-artifacts": {
+      "name": "analyzing-slack-space-and-file-system-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-slack-space-and-file-system-artifacts",
+      "rel_path": "analyzing-slack-space-and-file-system-artifacts",
+      "sha256": "ed803d59653772e572468a0f452907e461ab7882771b7d9ceba45fdceb5fc7bc",
+      "size": 15235,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-supply-chain-malware-artifacts": {
+      "name": "analyzing-supply-chain-malware-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-supply-chain-malware-artifacts",
+      "rel_path": "analyzing-supply-chain-malware-artifacts",
+      "sha256": "ec30c6ae377dae67e20a9fd75f7fafd659b0d6ff0ff1e45ef8d8c1346ab150ce",
+      "size": 6384,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-actor-ttps-with-mitre-attack": {
+      "name": "analyzing-threat-actor-ttps-with-mitre-attack",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-actor-ttps-with-mitre-attack",
+      "rel_path": "analyzing-threat-actor-ttps-with-mitre-attack",
+      "sha256": "8a90b530d219e1249b4d453972c8ef6e793b4ebb5010b78c5abae8cfa04f9fcd",
+      "size": 10354,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-actor-ttps-with-mitre-navigator": {
+      "name": "analyzing-threat-actor-ttps-with-mitre-navigator",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-actor-ttps-with-mitre-navigator",
+      "rel_path": "analyzing-threat-actor-ttps-with-mitre-navigator",
+      "sha256": "e79ab0f7e44e3ecb60f788ee2afd5be0f8126c6bb58187bea2806b1153b58719",
+      "size": 2753,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-intelligence-feeds": {
+      "name": "analyzing-threat-intelligence-feeds",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-intelligence-feeds",
+      "rel_path": "analyzing-threat-intelligence-feeds",
+      "sha256": "6ec8e40aeaf71dfed6d032849ae22ef728bf81bd741b205afb3b27958afd7766",
+      "size": 6400,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-landscape-with-misp": {
+      "name": "analyzing-threat-landscape-with-misp",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-threat-landscape-with-misp",
+      "rel_path": "analyzing-threat-landscape-with-misp",
+      "sha256": "561b76d20f913265419269ae7150edfac01222fdd54a5352ec5ba3bcf40c2212",
+      "size": 2467,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-tls-certificate-transparency-logs": {
+      "name": "analyzing-tls-certificate-transparency-logs",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-tls-certificate-transparency-logs",
+      "rel_path": "analyzing-tls-certificate-transparency-logs",
+      "sha256": "48d98f3a32e08988f4a734edfa390ad7a8fff034357b3b292e27c7a9a00c5c26",
+      "size": 3092,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-typosquatting-domains-with-dnstwist": {
+      "name": "analyzing-typosquatting-domains-with-dnstwist",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-typosquatting-domains-with-dnstwist",
+      "rel_path": "analyzing-typosquatting-domains-with-dnstwist",
+      "sha256": "5ff9e7e2f3b35716297f5e700446f9bd84be2cf2f37d7bacbd5f2eb0cdda95dc",
+      "size": 13398,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-uefi-bootkit-persistence": {
+      "name": "analyzing-uefi-bootkit-persistence",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-uefi-bootkit-persistence",
+      "rel_path": "analyzing-uefi-bootkit-persistence",
+      "sha256": "92f3c04587d1d407406a2d09d5f59ce05d547957e513c604750ee00888855ef6",
+      "size": 15129,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-usb-device-connection-history": {
+      "name": "analyzing-usb-device-connection-history",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-usb-device-connection-history",
+      "rel_path": "analyzing-usb-device-connection-history",
+      "sha256": "581faaa71b9ef52974028f9e1dbff0e50532a7dc60afec356ed4473944003fea",
+      "size": 13841,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-web-server-logs-for-intrusion": {
+      "name": "analyzing-web-server-logs-for-intrusion",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-web-server-logs-for-intrusion",
+      "rel_path": "analyzing-web-server-logs-for-intrusion",
+      "sha256": "1c356c491113e129d94cb92db8ef0cf190dc94a378fea2017d65c0fe8e65a4cc",
+      "size": 2653,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-amcache-artifacts": {
+      "name": "analyzing-windows-amcache-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-amcache-artifacts",
+      "rel_path": "analyzing-windows-amcache-artifacts",
+      "sha256": "43909fcc1a67d3d712a7696ed959561b9d821d06e313ec0662362fd4d1c45aa2",
+      "size": 11426,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-event-logs-in-splunk": {
+      "name": "analyzing-windows-event-logs-in-splunk",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-event-logs-in-splunk",
+      "rel_path": "analyzing-windows-event-logs-in-splunk",
+      "sha256": "283b32e8f2a54c7b778b313c6848cc66cb9f11ee75d27ba424daa06a44fded31",
+      "size": 11691,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-lnk-files-for-artifacts": {
+      "name": "analyzing-windows-lnk-files-for-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-lnk-files-for-artifacts",
+      "rel_path": "analyzing-windows-lnk-files-for-artifacts",
+      "sha256": "3a293ba71a1519a2347a9efa79e410eca4a695627518500848b6b3382b94fd0f",
+      "size": 13143,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-prefetch-with-python": {
+      "name": "analyzing-windows-prefetch-with-python",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-prefetch-with-python",
+      "rel_path": "analyzing-windows-prefetch-with-python",
+      "sha256": "451a7baf3cef1c89dbaabf072076fdf796ce865463c9cea47cf74cfa778d8d48",
+      "size": 5148,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-registry-for-artifacts": {
+      "name": "analyzing-windows-registry-for-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-registry-for-artifacts",
+      "rel_path": "analyzing-windows-registry-for-artifacts",
+      "sha256": "558a4aec957af9f1ce86c7b29b33c437353e1f78bcdc5be0a9b3ee4ff0369de6",
+      "size": 12068,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-shellbag-artifacts": {
+      "name": "analyzing-windows-shellbag-artifacts",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\analyzing-windows-shellbag-artifacts",
+      "rel_path": "analyzing-windows-shellbag-artifacts",
+      "sha256": "79e1e7df2e4b441aa220d488847bb3c54aa6aa7218a17d92ceb86fd604c2f729",
+      "size": 9387,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\api-and-interface-design": {
+      "name": "api-and-interface-design",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\api-and-interface-design",
+      "rel_path": "api-and-interface-design",
+      "sha256": "5dafd0c44a3aabf11cae5bcb34f6fcc24dfa5c01ba6e0d3176bce997f4d68bc8",
+      "size": 14884,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\apple-notes": {
+      "name": "apple-notes",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\apple-notes",
+      "rel_path": "apple\\apple-notes",
+      "sha256": "1ba042cb17e3aca06a68415526e926ada464bf873c8592c3326125cd72cb397f",
+      "size": 2394,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\apple-reminders": {
+      "name": "apple-reminders",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\apple-reminders",
+      "rel_path": "apple\\apple-reminders",
+      "sha256": "ee5084f2d7ec196488bef2c74248fb3d8328d1b2e3277ddda3f0de9da6fc7131",
+      "size": 3606,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\findmy": {
+      "name": "findmy",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\findmy",
+      "rel_path": "apple\\findmy",
+      "sha256": "19ec56e3b7f9f0be13c26d99948ed5684d8fb1f9c478da078c19356b5df63f57",
+      "size": 3709,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\imessage": {
+      "name": "imessage",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\apple\\imessage",
+      "rel_path": "apple\\imessage",
+      "sha256": "bc68b1648e301409bc25b1084ec26766213ca9f3c1b2fd3d3d6ebe3dbde9e967",
+      "size": 2442,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\ask-matt": {
+      "name": "ask-matt",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\ask-matt",
+      "rel_path": "ask-matt",
+      "sha256": "d8934db5ccf28b8c6e43d44d88801936d3831ab5666280b26d6f0852a312dc63",
+      "size": 11507,
+      "source": "second_brain",
+      "has_scripts": false,
+      "has_references": false
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\assessing-vector-and-embedding-weaknesses": {
+      "name": "assessing-vector-and-embedding-weaknesses",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\assessing-vector-and-embedding-weaknesses",
+      "rel_path": "assessing-vector-and-embedding-weaknesses",
+      "sha256": "ee2428ddf17d8046ae6912edaf65797f26b98a48d445d90d9355b5b41eabccb7",
+      "size": 12310,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    },
+    "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\attacking-entra-id-with-roadtools": {
+      "name": "attacking-entra-id-with-roadtools",
+      "path": "C:\\Users\\Admin\\Documents\\Second Brain\\Collection\\SKILL\\attacking-entra-id-with-roadtools",
+      "rel_path": "attacking-entra-id-with-roadtools",
+      "sha256": "88e7ae9ed6c2210f27fa4f793ae27fcd84f07d413a7eaa48f34f093eabce1dca",
+      "size": 8847,
+      "source": "second_brain",
+      "has_scripts": true,
+      "has_references": true
+    }
+  }
+}

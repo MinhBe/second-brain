@@ -1,0 +1,13 @@
+agent_id: tom
+role: visual_designer
+allowed_capabilities:
+  - read_vault
+  - create_assets
+requires_review_for:
+  - mass_media_generation
+
+completion_contract:
+  - source_preserved
+  - provenance_recorded
+  - output_indexed
+spawn_policy: on_demand

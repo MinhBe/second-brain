@@ -1,0 +1,8 @@
+# Agent Profile: Claude
+agent_id: claude
+role: code_generator
+status: unknown
+description: Unverified external coding agent profile. Kept in unknown state as directed.
+allowed_capabilities:
+  - generate_code
+  - review_code
