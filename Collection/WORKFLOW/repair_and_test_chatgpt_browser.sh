@@ -307,7 +307,19 @@ CHATGPT_BRIDGE_FAIL" 2>&1 | tee "$TEST_LOG"
 HERMES_RC=${PIPESTATUS[0]}
 set -e
 
-if grep -q 'CHATGPT_BRIDGE_PASS' "$TEST_LOG"; then
+# Only accept PASS when it appears inside Hermes' rendered final-answer box.
+# The query itself contains the words CHATGPT_BRIDGE_PASS/FAIL, so grepping the whole
+# log produces a false positive.
+FINAL_ANSWER="$(
+  awk '
+    /╭─ ☤ Hermes/ {in_answer=1; next}
+    in_answer && /╰─/ {in_answer=0}
+    in_answer {print}
+  ' "$TEST_LOG" |
+  sed -E 's/^[[:space:]│┃|]+//; s/[[:space:]│┃|]+$//'
+)"
+
+if printf '%s\n' "$FINAL_ANSWER" | grep -Fxq 'CHATGPT_BRIDGE_PASS'; then
   banner "PASS — CHATGPT BROWSER BRIDGE WORKS"
   echo "Target: $TARGET_URL"
   echo "Chrome profile: $CHROME_PROFILE"
