@@ -339,3 +339,85 @@ The implementation is considered working only when this test passes:
 8. The original ChatGPT thread remains open and selected.
 
 Do not mark the skill operational before this observed test passes.
+
+
+## Mandatory Fast Path for the Persistent Real-Chrome Relay
+
+When `chrome-real` is configured as the persistent HTTP relay (normally
+`http://127.0.0.1:8931/mcp`), use this path before any generic browser workflow.
+
+### Hard constraints
+
+- NEVER call `new_page`.
+- NEVER launch Chrome.
+- NEVER use `--autoConnect`.
+- NEVER select another Chrome profile.
+- NEVER close a page as part of recovery.
+- `list_pages` takes NO arguments. Do not pass `reason`, `name`, or any other field.
+- If the exact target URL is already open, reuse that page.
+- If the exact target URL is not open, reuse an already-open `https://chatgpt.com/` page and call
+  `navigate_page(pageId=<that page>, type="url", url=<exact target>)`.
+- If there is no existing ChatGPT page, stop and report that fact instead of creating a new page.
+- Select the chosen page with `bringToFront=true` so the user's existing Chrome window is focused.
+
+### Fast send/read sequence
+
+Use at most these browser operations for the normal path:
+
+1. `list_pages()`.
+2. Select the exact target page; only if absent, navigate an existing ChatGPT page to the exact URL.
+3. `select_page(pageId=..., bringToFront=true)`.
+4. `evaluate_script` on that page to:
+   - verify `location.href` is the target,
+   - verify a ChatGPT composer exists,
+   - record the current number of assistant turns,
+   - focus the composer.
+5. `type_text(pageId=..., text=<exact prompt>, submitKey="Enter")`.
+6. One async `evaluate_script` that waits for:
+   - the submitted user turn to appear,
+   - a new assistant turn after the baseline,
+   - the latest assistant text to remain unchanged for multiple samples,
+   then returns that latest assistant text.
+
+Do not take repeated snapshots merely to poll generation. Use a snapshot only as a fallback if the
+composer cannot be focused semantically.
+
+### Composer focus function
+
+Prefer an `evaluate_script` function equivalent to:
+
+```js
+() => {
+  const el =
+    document.querySelector('#prompt-textarea') ||
+    document.querySelector('textarea[placeholder]') ||
+    document.querySelector('[contenteditable="true"][data-virtualkeyboard]') ||
+    document.querySelector('div[contenteditable="true"]');
+
+  if (!el) {
+    return {ok:false, reason:'composer_not_found', url:location.href};
+  }
+
+  const assistants =
+    document.querySelectorAll('[data-message-author-role="assistant"]').length;
+
+  el.focus();
+
+  return {
+    ok:true,
+    url:location.href,
+    assistantCount:assistants,
+    title:document.title
+  };
+}
+```
+
+### Response wait function
+
+After submission, prefer one async `evaluate_script` call instead of repeated model turns.
+The function should poll the DOM for a new assistant turn after the saved baseline, read the last
+`[data-message-author-role="assistant"]` element's `innerText`, and return only after the text is
+non-empty and stable for at least 3 consecutive samples. Use a bounded timeout. Never read or return
+cookies, tokens, localStorage, passwords, or network authorization headers.
+
+This fast path exists to minimize latency and avoid unnecessary tool-selection/reasoning turns.
