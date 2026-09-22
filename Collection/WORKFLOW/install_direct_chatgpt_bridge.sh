@@ -83,7 +83,9 @@ echo "[PASS] Existing Chrome remains running."
 
 banner "3. INSTALL ONE TRUE PERSISTENT CDP OWNER"
 
-cat >"$SERVER" <<'NODE'
+TMP_SERVER="$SERVER.new"
+rm -f "$TMP_SERVER"
+cat >"$TMP_SERVER" <<'NODE'
 import http from 'node:http';
 import fs from 'node:fs';
 
@@ -313,7 +315,7 @@ async function exchange(targetUrl, prompt) {
         last:(users.at(-1)?.innerText || '').trim()
       };
     })()`);
-    if (x && x.count > ${baseline.userCount} && x.last.includes(${jsString(prompt)})) {
+    if (x && x.count > baseline.userCount && x.last.includes(prompt.trim())) {
       submitted = true;
       break;
     }
@@ -431,6 +433,15 @@ server.listen(PORT,'127.0.0.1', async () => {
 });
 NODE
 
+echo "[CHECK] Validating direct bridge JavaScript before installation..."
+if ! node --check "$TMP_SERVER"; then
+  echo "[FAIL] Generated direct bridge JavaScript is invalid."
+  rm -f "$TMP_SERVER"
+  exit 1
+fi
+mv -f "$TMP_SERVER" "$SERVER"
+echo "[PASS] Direct bridge JavaScript syntax valid."
+
 cat >"$CLI" <<'SH'
 #!/usr/bin/env bash
 set -Eeuo pipefail
@@ -480,13 +491,16 @@ EOF
 systemctl --user daemon-reload
 systemctl --user enable hermes-chatgpt-direct.service >/dev/null
 
-if systemctl --user is-active --quiet hermes-chatgpt-direct.service; then
-  echo "[PASS] Direct bridge already active; NOT restarting it."
+if systemctl --user is-active --quiet hermes-chatgpt-direct.service \
+   && curl -fsS "$BASE/health" >/dev/null 2>&1; then
+  echo "[PASS] Healthy direct bridge already active; NOT restarting it."
 else
+  systemctl --user stop hermes-chatgpt-direct.service 2>/dev/null || true
+  systemctl --user reset-failed hermes-chatgpt-direct.service 2>/dev/null || true
   systemctl --user start hermes-chatgpt-direct.service
   echo
   echo "Chrome may show ONE final 'Allow remote debugging' prompt now."
-  echo "Click Allow once. This direct bridge will keep that same WebSocket alive."
+  echo "Click Allow once. After this, keep hermes-chatgpt-direct.service running."
 fi
 
 READY=0
@@ -507,6 +521,7 @@ fi
 echo "[PASS] Direct bridge health:"
 cat /tmp/chatgpt-direct-health.json
 echo
+echo "[PASS] One long-lived CDP owner is now active."
 
 PID_BEFORE="$(systemctl --user show -p MainPID --value hermes-chatgpt-direct.service)"
 START_BEFORE="$(systemctl --user show -p ActiveEnterTimestampMonotonic --value hermes-chatgpt-direct.service)"
