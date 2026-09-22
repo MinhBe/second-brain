@@ -214,6 +214,16 @@ If any field cannot be observed, state `not_observed`. Never turn "I called the 
 
 Report that `chrome-real` is unavailable. Do not silently fall back to an unauthenticated/headless browser for an authenticated ChatGPT task.
 
+If `hermes mcp test chrome-real` succeeds but an agent turn times out on `list_pages`, treat this as a runtime-attachment problem rather than a missing skill. Current Chrome DevTools MCP builds can defer `--autoConnect` CDP attachment until the first tool call, and concurrent MCP clients targeting the same live Chrome can also cause timeouts.
+
+Recovery order:
+
+1. Ensure only one Hermes/browser owner is connected to the real Chrome during diagnosis. Stop the multiplexed gateway before running a direct CLI browser test against the same profile.
+2. Reap stale `chrome-devtools-mcp` processes owned by that Hermes user.
+3. Retry `list_pages` once and accept any Chrome "Allow remote debugging" prompt.
+4. If integrated agent calls still time out while standalone MCP tests succeed, prefer an explicit `--browser-url` or `--ws-endpoint` connection to a dedicated debuggable Chrome instance rather than repeatedly spawning `--autoConnect` clients.
+5. For a seven-agent team, designate a single browser-owner profile (normally Anna) for the user's real Chrome and have other agents delegate authenticated-browser work to that owner. Do not let all profiles independently attach to the same live Chrome session.
+
 ### Conversation URL opens a login page
 
 Stop and ask the user to restore the authenticated Chrome session.
