@@ -1,50 +1,88 @@
 # ChatGPT Browser Automation Workflow
 
-This workflow documents the procedure to interact with an authenticated ChatGPT session using the `chrome-real` MCP server.
+This workflow interacts with an **existing authenticated ChatGPT conversation** through the `chrome-real` MCP server.
 
-## Prerequisites
-- Google Chrome must be running on the host system.
-- `chrome-real` MCP server must be available.
+For execution details, use the narrower skill:
 
-## Workflow Steps
+```text
+Collection/SKILL/chatgpt-thread-controller/SKILL.md
+```
 
-### 1. Identify Target Conversation
-Use the list of open tabs to locate the desired ChatGPT conversation.
-```bash
-# Call via MCP
+## Invariants
+
+- Reuse the exact `https://chatgpt.com/c/<conversation-id>` thread.
+- Prefer an already-open matching tab.
+- Use the user's authenticated visible Chrome session.
+- Never create a clean/headless profile as a silent fallback.
+- Never extract cookies or authentication material.
+- Take a fresh snapshot before every UID-based interaction.
+- Verify the user turn appears after submission.
+- Wait for a stable assistant response.
+- Leave the original conversation tab open.
+- Do not allow two agents to write to the same conversation simultaneously.
+
+## Minimal MCP Sequence
+
+### 1. Find the target
+
+```text
 mcp__chrome_real__list_pages()
 ```
 
-### 2. Access Conversation
-If the conversation is not open, open it using the target URL.
-```bash
-# Call via MCP
+If an exact matching conversation is present, reuse it. Otherwise:
+
+```text
 mcp__chrome_real__new_page(url="https://chatgpt.com/c/...")
 ```
 
-### 3. DOM Inspection
-Always capture the current state of the page before interacting.
-```bash
-# Call via MCP
-mcp__chrome_real__take_snapshot(pageId=...)
+### 2. Select the target
+
+```text
+mcp__chrome_real__select_page(pageId=<id>, bringToFront=true)
 ```
 
-### 4. Interaction
-Fill the identified message box and submit.
-```bash
-# Identify the textbox UID from the snapshot (e.g., '13_271')
-mcp__chrome_real__fill_form(pageId=..., elements=[{"uid": "...", "value": "your prompt"}])
-mcp__chrome_real__press_key(pageId=..., key="Enter")
+### 3. Inspect current UI
+
+```text
+mcp__chrome_real__take_snapshot(pageId=<id>)
 ```
 
-### 5. Verification
-Wait for response generation, then re-capture the snapshot to extract the response.
-```bash
-mcp__chrome_real__take_snapshot(pageId=...)
-# Extract response from the StaticText elements in the snapshot
+Confirm the expected conversation URL and find the current composer semantically.
+
+### 4. Enter and send
+
+Use the latest snapshot UID only.
+
+```text
+mcp__chrome_real__fill_form(
+  pageId=<id>,
+  elements=[{"uid":"<current-composer-uid>","value":"<exact user prompt>"}]
+)
+
+mcp__chrome_real__press_key(pageId=<id>, key="Enter")
 ```
+
+A visible Send button may be clicked instead when the current snapshot makes that safer.
+
+### 5. Verify submission
+
+Take a new snapshot and verify the new user message is present. If it is not present, the interaction has not succeeded.
+
+### 6. Wait for completion
+
+Prefer observed UI state or `wait_for` where useful. Do not rely on a single arbitrary sleep.
+
+### 7. Capture the corresponding response
+
+Take a final snapshot and extract the latest assistant turn **after** the submitted user message.
 
 ## Success Criteria
-- Browser connection: SUCCESS.
-- Interaction type: Authenticated session reuse (no profile creation).
-- Validation: Bi-directional confirmation (User Message matches, Assistant Response is stable).
+
+- exact target conversation: observed
+- authenticated session reuse: observed
+- user prompt submitted: observed
+- assistant response stable: observed
+- correct latest response captured: observed
+- original tab left open: observed
+
+No run is successful solely because a navigation or input tool returned without error.
