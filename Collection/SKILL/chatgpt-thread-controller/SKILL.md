@@ -31,6 +31,22 @@ The success condition is not "page opened". Success requires all of the followin
 
 Preferred MCP server name: `chrome-real`.
 
+### Persistent Browser Contract
+
+For this user's Ubuntu deployment, `chrome-real` must attach to the persistent dedicated Chrome instance at `http://127.0.0.1:9222` using `--browser-url`.
+
+Required browser identity:
+
+- user data dir: `~/.hermes/chrome-real-profile`
+- Chrome profile directory: `Default`
+- service owner: `hermes-chrome-real.service`
+- MCP connection: fixed `--browser-url=http://127.0.0.1:9222`
+- do **not** use `--autoConnect`
+- do **not** create a temporary/fresh profile
+- do **not** select another Chrome profile
+
+Authentication is persisted by Chrome itself in that user-data directory (cookies, local storage and other browser session state). Never extract or copy ChatGPT tokens into Hermes config or skill files. If ChatGPT expires/revokes the session, the user must log in again in the same persistent Chrome profile; otherwise reuse the existing authenticated state.
+
 Expected tools, with the MCP prefix added by Hermes:
 
 - `list_pages`
