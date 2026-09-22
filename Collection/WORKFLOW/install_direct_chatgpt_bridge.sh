@@ -434,7 +434,7 @@ server.listen(PORT,'127.0.0.1', async () => {
 NODE
 
 echo "[CHECK] Validating direct bridge JavaScript before installation..."
-if ! node --check "$TMP_SERVER"; then
+if ! node --experimental-websocket --check "$TMP_SERVER"; then
   echo "[FAIL] Generated direct bridge JavaScript is invalid."
   rm -f "$TMP_SERVER"
   exit 1
@@ -478,7 +478,7 @@ Type=simple
 Environment=HOME=$HOME
 Environment=CHROME_ROOT=$CHROME_ROOT
 Environment=HERMES_CHATGPT_DIRECT_PORT=$PORT
-ExecStart=/usr/bin/node $SERVER
+ExecStart=/usr/bin/node --experimental-websocket $SERVER
 Restart=on-failure
 RestartSec=5
 StandardOutput=append:$LOG
