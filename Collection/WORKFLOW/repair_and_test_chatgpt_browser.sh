@@ -50,8 +50,6 @@ restore_gateway() {
   sleep 3
   systemctl --user is-active hermes-gateway.service 2>/dev/null || true
 }
-trap restore_gateway EXIT
-
 banner "HERMES CHATGPT BROWSER — REPAIR + END-TO-END TEST"
 
 # 1. Chrome binary
@@ -118,6 +116,8 @@ cp -a "$SKILL_SRC/." "$SKILL_DST/"
 echo "[PASS] Latest chatgpt-thread-controller installed"
 
 # 4. Stop competing gateway/MCP clients during repair/test.
+# Register the recovery trap only after the real desktop DBus/XDG environment is loaded.
+trap restore_gateway EXIT
 systemctl --user stop hermes-gateway.service 2>/dev/null || true
 sleep 3
 pkill -u "$(id -u)" -f '[c]hrome-devtools-mcp' 2>/dev/null || true
@@ -206,6 +206,7 @@ hermes config check >/dev/null
 echo "[PASS] Hermes config valid"
 
 # 7. Ensure exact thread is open. Use direct CDP instead of relying on model navigation.
+set +e
 python3 - "$CDP_URL" "$TARGET_URL" <<'PY'
 import json, sys, urllib.request, urllib.parse, time
 base, target=sys.argv[1],sys.argv[2]
@@ -227,6 +228,7 @@ print("[INFO] Exact target currently open:", found())
 raise SystemExit(0 if found() else 3)
 PY
 OPEN_RC=$?
+set -e
 
 if [[ "$OPEN_RC" != "0" ]]; then
   banner "LOGIN CHECKPOINT"
