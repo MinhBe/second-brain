@@ -421,3 +421,30 @@ non-empty and stable for at least 3 consecutive samples. Use a bounded timeout. 
 cookies, tokens, localStorage, passwords, or network authorization headers.
 
 This fast path exists to minimize latency and avoid unnecessary tool-selection/reasoning turns.
+
+
+## Preferred Direct Persistent ChatGPT Bridge
+
+If `~/.local/bin/chatgpt-web-exchange` exists and
+`hermes-chatgpt-direct.service` is active, this is the preferred path for ChatGPT
+send/read tasks.
+
+Use exactly one terminal call:
+
+```bash
+~/.local/bin/chatgpt-web-exchange '<exact-chatgpt-thread-url>' '<exact-prompt>'
+```
+
+The command is a high-level deterministic browser transaction. It reuses the
+existing Chrome profile and a single persistent CDP WebSocket, explicitly clicks
+the ChatGPT send button, verifies a new user turn, waits for a new assistant turn,
+and returns JSON containing `response`.
+
+Do not call `chrome-real` before or after this command for the same task. Do not
+launch Chrome, create a tab, restart `hermes-chatgpt-direct.service`, or use
+`--autoConnect`. If the direct bridge reports that no existing ChatGPT tab is
+available, stop and report that fact instead of creating another browser/tab.
+
+This direct bridge is preferred over the generic 29-tool Chrome MCP path because
+it removes model-generated schema mistakes and collapses the browser transaction
+to one tool call.
