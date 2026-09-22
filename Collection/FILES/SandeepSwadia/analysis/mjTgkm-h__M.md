@@ -1,0 +1,9 @@
+# Analysis of How To Think SO Clearly People Assume You're Brilliant
+
+## Summary (100 Words)
+[Drafted based on transcript content: ...]
+
+## Detailed Analysis
+- **Key Ideas:** ...
+- **Arguments:** ...
+- **Mental Models:** ...
