@@ -28,8 +28,11 @@ BIN_DIR="$HOME/.local/bin"
 LAUNCHER="$BIN_DIR/hermes-chrome-real"
 SERVICE_DIR="$HOME/.config/systemd/user"
 SERVICE="$SERVICE_DIR/hermes-chrome-real.service"
+SKILL_DIR="$HERMES_HOME/skills/chatgpt-thread-controller"
+SKILL_URL="https://raw.githubusercontent.com/MinhBe/second-brain/main/Collection/SKILL/chatgpt-thread-controller/SKILL.md"
+E2E_LOG="$HERMES_HOME/logs/persistent-chatgpt-e2e-last.log"
 
-mkdir -p "$HERMES_HOME/logs" "$BIN_DIR" "$SERVICE_DIR"
+mkdir -p "$HERMES_HOME/logs" "$HERMES_HOME/skills" "$BIN_DIR" "$SERVICE_DIR"
 
 say() {
   echo
@@ -49,6 +52,10 @@ for b in google-chrome google-chrome-stable chromium chromium-browser; do
 done
 [[ -n "$CHROME_BIN" ]] || { echo "[FAIL] Chrome/Chromium not found"; exit 1; }
 echo "[PASS] Chrome: $CHROME_BIN"
+
+mkdir -p "$SKILL_DIR"
+curl -fsSL "$SKILL_URL" -o "$SKILL_DIR/SKILL.md"
+echo "[PASS] Latest chatgpt-thread-controller installed"
 
 cat >"$LAUNCHER" <<'LAUNCHER'
 #!/usr/bin/env bash
@@ -278,11 +285,89 @@ PY
 
 timeout 60s hermes mcp test chrome-real
 
+say "END-TO-END MODEL TEST"
+
+# Give the CLI test exclusive browser ownership for this validation only.
+export XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-/run/user/$(id -u)}"
+export DBUS_SESSION_BUS_ADDRESS="${DBUS_SESSION_BUS_ADDRESS:-unix:path=$XDG_RUNTIME_DIR/bus}"
+GATEWAY_WAS_ACTIVE=0
+if systemctl --user is-active --quiet hermes-gateway.service 2>/dev/null; then
+  GATEWAY_WAS_ACTIVE=1
+  systemctl --user stop hermes-gateway.service || true
+  sleep 2
+fi
+
+restore_gateway_after_test() {
+  if [[ "$GATEWAY_WAS_ACTIVE" == "1" ]]; then
+    systemctl --user start hermes-gateway.service 2>/dev/null || true
+  fi
+}
+trap restore_gateway_after_test EXIT
+
+MARKER="PERSISTENT-CHATGPT-TEST-$(date +%s)"
+rm -f "$E2E_LOG"
+
+set +e
+timeout 300s hermes chat \
+  --oneshot \
+  --max-turns 30 \
+  -s chatgpt-thread-controller \
+  -q "Use chatgpt-thread-controller and chrome-real only.
+
+Target exactly:
+$TARGET_URL
+
+This Chrome is the persistent authenticated Hermes profile.
+Do not create or select another Chrome profile.
+Do not use --autoConnect.
+Do not create a new ChatGPT conversation.
+
+Call list_pages with no arguments.
+Select the exact target thread and bring it to the foreground.
+Take a fresh snapshot.
+Send exactly:
+$MARKER
+
+Take another fresh snapshot and verify that marker is actually the newest user turn.
+Wait for ChatGPT to finish.
+Take a final fresh snapshot and read the newest assistant response corresponding to that marker.
+Leave the thread open.
+
+If the browser interaction itself completed successfully, end your final response with exactly:
+PERSISTENT_CHATGPT_E2E_PASS
+Otherwise end with exactly:
+PERSISTENT_CHATGPT_E2E_FAIL" 2>&1 | tee "$E2E_LOG"
+E2E_RC=${PIPESTATUS[0]}
+set -e
+
+FINAL="$(
+  awk '
+    /╭─ ☤ Hermes/ {inside=1; next}
+    inside && /╰─/ {inside=0}
+    inside {print}
+  ' "$E2E_LOG" |
+  sed -E 's/^[[:space:]│┃|]+//; s/[[:space:]│┃|]+$//'
+)"
+
+restore_gateway_after_test
+trap - EXIT
+
+if printf '%s\n' "$FINAL" | grep -Fxq 'PERSISTENT_CHATGPT_E2E_PASS'; then
+  say "PASS — HERMES CAN INTERACT WITH YOUR PERSISTENT CHATGPT WEB SESSION"
+  echo "[PASS] Service: hermes-chrome-real.service"
+  echo "[PASS] Profile: $PROFILE_ROOT/$PROFILE_DIR"
+  echo "[PASS] chrome-real: $CDP_URL"
+  echo "[PASS] ChatGPT authentication state persists in that profile"
+  echo
+  echo "The Chrome banner 'Chrome is being controlled by automated test software' is normal."
+  echo "It is NOT an authorization prompt and requires no action."
+  exit 0
+fi
+
+say "BROWSER IS PERSISTENT, BUT END-TO-END MODEL TEST FAILED"
+echo "Hermes exit code: $E2E_RC"
+echo "Log: $E2E_LOG"
 echo
-echo "[PASS] Persistent browser infrastructure is ready."
-echo "[PASS] Service: hermes-chrome-real.service"
-echo "[PASS] Profile: $PROFILE_ROOT/$PROFILE_DIR"
-echo "[PASS] chrome-real: $CDP_URL"
-echo
-echo "The Chrome banner 'Chrome is being controlled by automated test software' is normal."
-echo "It is NOT an authorization prompt and requires no action."
+echo "If the log says provider/custom endpoint connection error, the persistent Chrome setup is still valid;"
+echo "that is an inference-provider failure, not a browser/profile/debug-consent failure."
+exit 1
