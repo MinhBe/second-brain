@@ -19,7 +19,7 @@ Use Chrome DevTools MCP to give your agent eyes into the browser. This bridges t
 - Verifying that a fix actually works in the browser
 - Automated UI testing through the agent
 
-**When NOT to use:** Backend-only changes, CLI tools, or code that doesn't run in a browser.
+**When NOT to use:** Backend-only changes, CLI tools, or code that doesn't run in a browser. For an existing authenticated `https://chatgpt.com/c/...` conversation that must be visibly continued in the user's real Chrome, use the narrower `chatgpt-thread-controller` skill instead of this generic testing workflow.
 
 ## Setting Up Chrome DevTools MCP
 
