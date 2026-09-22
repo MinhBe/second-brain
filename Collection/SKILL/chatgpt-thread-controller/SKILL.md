@@ -27,6 +27,24 @@ The success condition is not "page opened". Success requires all of the followin
 5. the latest assistant response is read back,
 6. the browser tab remains open.
 
+## Preferred Existing-Browser Backend
+
+For this user's deployment, first check `~/.hermes/browser-main.json`.
+
+If it exists and the saved BrowserSkill instance is online, **prefer the official Tencent BrowserSkill `browser-skill` workflow** over `chrome-real` for ChatGPT. The purpose is to reuse the user's already logged-in Chrome profile instead of launching or selecting another Chrome profile.
+
+Required rules:
+
+1. Read `browser_instance_id` from `~/.hermes/browser-main.json`.
+2. Start every BrowserSkill session with explicit `--browser <browser_instance_id>`.
+3. Never omit the browser selector to recover from an error.
+4. Never switch to a different BrowserSkill instance/profile automatically.
+5. For a new ChatGPT page, create/navigate a tab through BrowserSkill in that bound instance.
+6. For an existing user tab, borrow it according to BrowserSkill's tab workflow.
+7. The extension's saved Automation setting controls borrow confirmation. Do not try to bypass or rewrite it from CLI.
+8. Do not extract, export, copy, or persist ChatGPT cookies/tokens. The existing Chrome profile itself owns login persistence.
+9. Only fall back to `chrome-real` if the user explicitly requests that backend or BrowserSkill is unavailable and the user accepts that fallback.
+
 ## Required Runtime
 
 Preferred MCP server name: `chrome-real`.
