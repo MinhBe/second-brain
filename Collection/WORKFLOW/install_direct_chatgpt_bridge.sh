@@ -22,6 +22,18 @@ BASE="http://127.0.0.1:$PORT"
 
 mkdir -p "$APP_DIR" "$BIN_DIR" "$SERVICE_DIR" "$HERMES_HOME/logs"
 
+NODE_BIN="$(command -v node || true)"
+[[ -n "$NODE_BIN" ]] || { echo "[FAIL] node not found"; exit 1; }
+NODE_WS_FLAG=""
+if ! "$NODE_BIN" -e 'process.exit(typeof WebSocket === "function" ? 0 : 1)' >/dev/null 2>&1; then
+  if "$NODE_BIN" --experimental-websocket -e 'process.exit(typeof WebSocket === "function" ? 0 : 1)' >/dev/null 2>&1; then
+    NODE_WS_FLAG="--experimental-websocket"
+  else
+    echo "[FAIL] This Node runtime has no WebSocket support."
+    exit 1
+  fi
+fi
+
 banner() {
   echo
   echo "================================================================"
@@ -83,7 +95,7 @@ echo "[PASS] Existing Chrome remains running."
 
 banner "3. INSTALL ONE TRUE PERSISTENT CDP OWNER"
 
-TMP_SERVER="$SERVER.new"
+TMP_SERVER="$APP_DIR/server.new.mjs"
 rm -f "$TMP_SERVER"
 cat >"$TMP_SERVER" <<'NODE'
 import http from 'node:http';
@@ -434,7 +446,7 @@ server.listen(PORT,'127.0.0.1', async () => {
 NODE
 
 echo "[CHECK] Validating direct bridge JavaScript before installation..."
-if ! node --experimental-websocket --check "$TMP_SERVER"; then
+if ! "$NODE_BIN" --check "$TMP_SERVER"; then
   echo "[FAIL] Generated direct bridge JavaScript is invalid."
   rm -f "$TMP_SERVER"
   exit 1
@@ -478,7 +490,7 @@ Type=simple
 Environment=HOME=$HOME
 Environment=CHROME_ROOT=$CHROME_ROOT
 Environment=HERMES_CHATGPT_DIRECT_PORT=$PORT
-ExecStart=/usr/bin/node --experimental-websocket $SERVER
+ExecStart=$NODE_BIN $NODE_WS_FLAG $SERVER
 Restart=on-failure
 RestartSec=5
 StandardOutput=append:$LOG
